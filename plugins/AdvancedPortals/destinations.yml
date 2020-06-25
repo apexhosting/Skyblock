@@ -1,0 +1,32 @@
+# 
+#  ExampleDestination:
+#    world: it will be the world name
+#    pos:
+#      X:
+#      Y:
+#      Z:
+
+skyblock:
+  world: BSkyBlock_world
+  pos:
+    X: 0.016171774967394054
+    Y: 125.0
+    Z: 0.7376284869853574
+    pitch: 0.9002599
+    yaw: 91.95993
+spawn:
+  world: World
+  pos:
+    X: -399.5
+    Y: 199.0
+    Z: 525.5
+    pitch: 1.4998062
+    yaw: -356.24646
+acidisland:
+  world: AcidIsland_world
+  pos:
+    X: -20.29765785671035
+    Y: 57.1875
+    Z: 1.8874170230531921
+    pitch: 3.7497516
+    yaw: -85.49997

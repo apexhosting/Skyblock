@@ -1,0 +1,11 @@
+#הודעות כלליות
+
+general.nametag.prefix = "&8[&6UltimateStacker&8]"
+
+#Command Messages
+
+command.give.success = "&6%type%&7 אתה קיבלת"
+
+#Event Messages
+
+event.general.nopermission = "&cאין לך רשות לעשות זאת!."

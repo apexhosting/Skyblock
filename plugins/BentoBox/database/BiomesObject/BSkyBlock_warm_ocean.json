@@ -1,0 +1,15 @@
+{
+  "biome": "WARM_OCEAN",
+  "deployed": true,
+  "friendlyName": "Warm Ocean",
+  "description": [
+    "Where are my corrals?"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: TROPICAL_FISH\n",
+  "order": -1,
+  "requiredLevel": 0,
+  "requiredCost": 100,
+  "requiredPermissions": [],
+  "world": "bskyblock_world",
+  "uniqueId": "BSkyBlock_warm_ocean"
+}

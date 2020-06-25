@@ -1,0 +1,13 @@
+en:
+  messages:
+    configReloaded: '&aThe configuration and language files have been reloaded.'
+    noPermission: '&cYou do not have access to this command.'
+    hasTier: '&eThe island you are standing on has the access to generator tier &c{permission}&e.'
+    rates: '&eThis island can generate:'
+
+fr:
+  messages:
+    configReloaded: '&aLes fichiers de configuration et de langue ont été rechargés.'
+    noPermission: '&cVous navez pas accès à cette commande. '
+    hasTier: '&eLîle sur laquelle vous vous trouvez a accès au niveau générateur &c{permission}&e.'
+    rates: '&eCette île peut générer:'

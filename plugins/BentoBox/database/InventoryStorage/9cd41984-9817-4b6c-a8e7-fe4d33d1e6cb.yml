@@ -1,0 +1,52 @@
+uniqueId: 9cd41984-9817-4b6c-a8e7-fe4d33d1e6cb
+inventory:
+  World:
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+health:
+  World: 20.0
+food:
+  World: 20
+exp:
+  World: 0
+location:
+  World: bskyblock_world:0:125:0:-1071808768:1063679855

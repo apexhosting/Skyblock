@@ -1,0 +1,53 @@
+dimensionaltrees:
+  commands:
+
+    # Main command to DimensionalTrees [Admins]
+    admin: "dtrees dimensionaltrees dt"
+
+  blocks:
+    end:
+
+      # The block that will be the leaves on the End
+      leaves: end_stone
+
+      # The block that will be the logs on the End
+      logs: purpur_block
+
+    nether:
+
+      # The block that will be the leaves on the Nether
+      leaves: glowstone
+
+      # The block that will be the logs on the Nether
+      logs: gravel
+
+  messages:
+
+    # Warning to invalid blocks on config file
+    invalid: "§cCan't grow the tree. A invalid material has been detected."
+
+  options:
+
+    # Defines if send debug messages to the log.
+    # For example the sapling position if have a invalid block.
+    sendlog: true
+
+    # Enable/disable the addon.
+    enable_addon: true
+
+    # Enable/disable the End trees.
+    end_trees: true
+
+    # Enable/disable the Nether Trees.
+    nether_trees: true
+
+    # List of the saplings/trees that will be transformed.
+    # Add a # before to disable and remove the # to enable.
+    # Like the default settings.
+    tree_types:
+      - oak
+      #- spruce
+      - acacia
+      #- dark_oak
+      #- jungle
+      - birch

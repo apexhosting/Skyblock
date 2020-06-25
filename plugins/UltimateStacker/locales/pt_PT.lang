@@ -1,0 +1,15 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateStacker&8]'
+command:
+  give:
+
+    # Command Messages
+    success: '&7Você recebeu um &6%type%&7.'
+event:
+  general:
+
+    # Event Messages
+    nopermission: '&cVocê não tem permissão para fazer isso.'

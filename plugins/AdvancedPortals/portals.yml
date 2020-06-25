@@ -1,0 +1,80 @@
+# 
+#  ExamplePortal:
+#    world: it will be the world name
+#    triggerblock: LAVA # will only be used if the hastriggerblock is true and can be id or text
+#    pos1: # dont mess with the data here, if you do it may stop the portal from working.
+#      X:
+#      Y:
+#      Z:
+#    pos2:
+#      X:
+#      Y:
+#      Z:
+#    destination:
+#      issetpoint: true # if this was false point name would not be used and the coordinates would be saved here, it just adds more customisation.
+#      pointname: examplepoint # if issetpoint is false this wont be here and tppos will be.
+#      tppos:
+#        X:
+#        Y:
+#        Z:
+
+SkyblockIN:
+  world: World
+  triggerblock: WATER
+  destination: skyblock
+  pos1:
+    X: -398
+    Y: 203
+    Z: 564
+  pos2:
+    X: -401
+    Y: 199
+    Z: 564
+SkyblockOUT:
+  world: BSkyBlock_world
+  triggerblock: WATER
+  destination: spawn
+  pos1:
+    X: 2
+    Y: 128
+    Z: -9
+  pos2:
+    X: -2
+    Y: 125
+    Z: -9
+VoidFall:
+  world: World
+  triggerblock: AIR
+  destination: spawn
+  pos1:
+    X: -309
+    Y: 39
+    Z: 630
+  pos2:
+    X: -480
+    Y: 35
+    Z: 435
+AcidIslandIN:
+  world: World
+  triggerblock: WATER
+  destination: acidisland
+  pos1:
+    X: -398
+    Y: 203
+    Z: 484
+  pos2:
+    X: -401
+    Y: 199
+    Z: 484
+SkyOut:
+  world: bskyblock_world
+  triggerblock: WATER
+  destination: spawn
+  pos1:
+    X: 2
+    Y: 128
+    Z: -9
+  pos2:
+    X: -1
+    Y: 125
+    Z: -9
