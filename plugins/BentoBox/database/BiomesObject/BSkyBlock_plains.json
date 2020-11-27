@@ -5,7 +5,7 @@
   "description": [
     ""
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GRASS_BLOCK\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GRASS_BLOCK\n",
   "order": -1,
   "requiredLevel": 0,
   "requiredCost": 100,

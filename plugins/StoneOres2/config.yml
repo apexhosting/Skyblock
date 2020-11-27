@@ -1,3 +1,5 @@
+bstatsIntegration: true
+badge: '&6[StoneOres2]&r'
 apiLink: https://api.github.com/repos/TreeboMC/StoneOres2/releases/latest
 releasePage: https://github.com/TreeboMC/StoneOres2/releases/latest
 checkUpdates: 'true'
@@ -716,6 +718,10 @@ world:
         REDSTONE_ORE: 400
 language: en
 debug: false
-version: 0.1.1
+version: 0.1.4
 yamlCreatedIn: 0.1.0
 yamlCreatedInVersion: $[project.version]
+externalFeatures:
+  updates:
+    enabled: true
+    githubKey: TreeboMC/StoneOres2

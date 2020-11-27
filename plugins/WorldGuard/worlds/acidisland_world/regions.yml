@@ -10,6 +10,15 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
+    acid:
+        min: {x: -31, y: 41, z: -73}
+        max: {x: 56, y: 116, z: 30}
+        members: {}
+        flags: {other-explosion: deny, creeper-explosion: deny, build: deny, pvp: deny,
+            chest-access: allow, mob-spawning: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     spawn:
         min: {x: -21, y: 35, z: -55}
         max: {x: 56, y: 92, z: 40}

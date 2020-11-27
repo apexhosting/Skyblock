@@ -5,7 +5,7 @@
   "description": [
     "Reach 100th level of island."
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GREEN_CONCRETE\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GREEN_CONCRETE\n",
   "order": 6,
   "challengeType": "OTHER",
   "environment": [],
@@ -37,7 +37,7 @@
   "searchRadius": 10,
   "rewardText": "Get some extra diamonds",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: DIAMOND\n  amount: 10\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: DIAMOND\n  amount: 10\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,

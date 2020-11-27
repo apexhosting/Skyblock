@@ -5,7 +5,7 @@
   "description": [
     "The nether is a horrible place, but it has some useful materials."
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: NETHERRACK\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: NETHERRACK\n",
   "order": 3,
   "challengeType": "ISLAND",
   "environment": [
@@ -41,8 +41,8 @@
   "searchRadius": 10,
   "rewardText": "Some iron and lapis for your efforts.",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: IRON_ORE\n  amount: 16\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: LAPIS_BLOCK\n  amount: 3\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: IRON_ORE\n  amount: 16\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: LAPIS_BLOCK\n  amount: 3\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,

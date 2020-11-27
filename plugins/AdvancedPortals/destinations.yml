@@ -7,21 +7,13 @@
 #      Z:
 
 skyblock:
-  world: BSkyBlock_world
+  world: BSkyBlockX_world
   pos:
-    X: 0.016171774967394054
-    Y: 125.0
-    Z: 0.7376284869853574
+    X: -20.534
+    Y: 79
+    Z: -33.65
     pitch: 0.9002599
     yaw: 91.95993
-spawn:
-  world: World
-  pos:
-    X: -399.5
-    Y: 199.0
-    Z: 525.5
-    pitch: 1.4998062
-    yaw: -356.24646
 acidisland:
   world: AcidIsland_world
   pos:
@@ -30,3 +22,19 @@ acidisland:
     Z: 1.8874170230531921
     pitch: 3.7497516
     yaw: -85.49997
+shub:
+  world: hub
+  pos:
+    X: 4.1392716881812985
+    Y: 99.0
+    Z: 0.07043502795731492
+    pitch: 11.545181
+    yaw: -91.15886
+spawn:
+  world: SkyBlock
+  pos:
+    X: -62.500500364939825
+    Y: 67.0
+    Z: 31.485596677262023
+    pitch: 19.222845
+    yaw: 212.21796

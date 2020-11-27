@@ -5,7 +5,7 @@
   "description": [
     "Create a simple mushroom farm"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: BROWN_MUSHROOM\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: BROWN_MUSHROOM\n",
   "order": 2,
   "challengeType": "ISLAND",
   "environment": [],
@@ -40,7 +40,7 @@
   "searchRadius": 10,
   "rewardText": "This mycelium will help you with collecting mushrooms faster.",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: MYCELIUM\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: MYCELIUM\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,

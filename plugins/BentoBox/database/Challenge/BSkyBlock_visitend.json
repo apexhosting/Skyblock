@@ -5,7 +5,7 @@
   "description": [
     "Is there something even after the end?"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: END_STONE\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: END_STONE\n",
   "order": 3,
   "challengeType": "ISLAND",
   "environment": [
@@ -41,8 +41,8 @@
   "searchRadius": 10,
   "rewardText": "Some diamonds and an elytra for your efforts.",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: DIAMOND_ORE\n  amount: 16\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: ELYTRA\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: DIAMOND_ORE\n  amount: 16\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: ELYTRA\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,

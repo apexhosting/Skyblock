@@ -1,0 +1,67 @@
+{
+  "uniqueId": "3716427e-76ac-4df4-a50a-706618a70f0c",
+  "inventory": {
+    "SkyBlock": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "health": {
+    "SkyBlock": 20.0
+  },
+  "food": {
+    "SkyBlock": 20
+  },
+  "exp": {
+    "SkyBlock": 0
+  },
+  "location": {
+    "SkyBlock": [
+      "bskyblockx_world",
+      1024.5,
+      125.0,
+      -1021.5,
+      -195.12060546875,
+      30.0
+    ]
+  }
+}

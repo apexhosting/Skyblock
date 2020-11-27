@@ -1,0 +1,122 @@
+#  A DeluxeMenus basic configuration guide for beginners
+#=========================================================
+#
+# This note will help you understand the basic functions and configuring of DeluxeMenus: commands, requirements, items and others, and from then on you can start to work with more advanced stuff. You can delete this note or any note below at any time. But if you are still here anyway, then let's move down below
+#
+
+# Open Command
+#
+# This setting is the command that will be used to open this menu. Supports normal String or a String List
+# NOTE: Use "open_command: []" to create a menu with no commands needed
+#
+# open_command: <command>
+# open_command:
+#   - <command1>
+#   - <command2>
+#
+open_command: warpz
+
+# Size
+#
+# This allows you to set the size of the menu inventory. Range from 9-54.
+# If this option is not present in the menu configuration, it will default to 54.
+#
+size: 9
+
+# Menu title
+#
+# This is the title of the menu. You can change it with your custom name
+# Color codes and placeholders are supported
+#
+menu_title: '&7&lWARPS'
+
+# Open requirement
+#
+# This setting section allows you to define requirements the menu viewer must meet
+# to be allowed to open this menu in game.
+#
+# Any menu you want to restrict access to based on permission
+# should have a basic "has permission" requirement
+#
+# This setting and requirements can be explained more in depth by checking out
+# the requirements_menu.yml file in your menus folder.
+# For full reference, check https://github.com/help-chat/DeluxeMenus/wiki/Requirements
+#
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.warpz
+      deny_commands:
+        - '[message] &cYou don''t have permission to do that!'
+
+# Item section. This is where you can start add items into menu, and add functions into each items that you did.
+# For depth explanation on the functions, you can check on the note given from config.yml
+# For full reference, check https://github.com/help-chat/DeluxeMenus/wiki/Item
+#
+items:
+  'skyblock':
+    material: GRASS_BLOCK
+    data: 1
+    slot: 0
+    display_name: "&a&lSKY&7&lBLOCK"
+    lore:
+      - "&7Click to warp"
+    left_click_commands:
+      - '[player] warp skyblock'
+      - '[close]'
+    right_click_commands:
+      - '[player] warp skyblock'
+      - '[close]'
+  'acidisland':
+    material: SLIME_BLOCK
+    data: 1
+    slot: 2
+    display_name: "&B&lACID &7&lISLAND"
+    lore:
+      - "&7Click to warp"
+    left_click_commands:
+      - '[player] warp acidisland'
+      - '[close]'
+    right_click_commands:
+      - '[player] warp acidisland'
+      - '[close]'
+  'info':
+    material: CREEPER_HEAD
+    data: 1
+    slot: 4
+    display_name: "&C&lINFO"
+    lore:
+      - "&7Click to warp"
+    left_click_commands:
+      - '[player] warp info'
+      - '[close]'
+    right_click_commands:
+      - '[player] warp info'
+      - '[close]'
+  'kawaii':
+    material: CAKE
+    data: 1
+    slot: 6
+    display_name: "&d&lKAWAII &7&lISLAND"
+    lore:
+      - "&7Click to warp"
+    left_click_commands:
+      - '[player] warp kawaii'
+      - '[close]'
+    right_click_commands:
+      - '[player] warp kawaii'
+      - '[close]'
+  'jungle':
+    material: JUNGLE_LOG
+    data: 1
+    slot: 8
+    display_name: "&2&lJUNGLE &7&lISLAND"
+    lore:
+      - "&7Click to warp"
+    left_click_commands:
+      - '[player] warp jungle'
+      - '[close]'
+    right_click_commands:
+      - '[player] warp jungle'
+      - '[close]'

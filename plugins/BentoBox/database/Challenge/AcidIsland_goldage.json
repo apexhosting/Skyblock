@@ -5,7 +5,7 @@
   "description": [
     "Craft gold tools and armor"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GOLD_INGOT\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GOLD_INGOT\n",
   "order": 4,
   "challengeType": "INVENTORY",
   "environment": [],
@@ -15,15 +15,15 @@
     "class": "InventoryRequirements",
     "parameters": {
       "requiredItems": [
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GOLDEN_HOE\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GOLDEN_SHOVEL\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GOLDEN_PICKAXE\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GOLDEN_BOOTS\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GOLDEN_HELMET\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GOLDEN_CHESTPLATE\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GOLDEN_SWORD\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GOLDEN_LEGGINGS\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GOLDEN_AXE\n"
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GOLDEN_HOE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GOLDEN_SHOVEL\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GOLDEN_PICKAXE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GOLDEN_BOOTS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GOLDEN_HELMET\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GOLDEN_CHESTPLATE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GOLDEN_SWORD\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GOLDEN_LEGGINGS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GOLDEN_AXE\n"
       ],
       "takeItems": true,
       "requiredPermissions": []
@@ -44,7 +44,7 @@
   "searchRadius": 10,
   "rewardText": "Exchange your gold stuff to some diamond",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: DIAMOND\n  amount: 16\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: DIAMOND\n  amount: 16\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,
@@ -54,7 +54,7 @@
   "maxTimes": 100,
   "repeatExperienceReward": 5,
   "repeatItemReward": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: DIAMOND\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: DIAMOND\n"
   ],
   "repeatMoneyReward": 0,
   "repeatRewardCommands": []

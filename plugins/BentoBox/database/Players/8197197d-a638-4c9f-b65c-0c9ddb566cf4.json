@@ -1,0 +1,24 @@
+{
+  "homeLocations": [
+    [
+      [
+        "bskyblockx_world",
+        0.5,
+        123.0,
+        -1024.5,
+        90.0,
+        30.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "8197197d-a638-4c9f-b65c-0c9ddb566cf4",
+  "playerName": "EliasEnamorado",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "bskyblockx_world": 0
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC"
+}

@@ -5,7 +5,7 @@
   "description": [
     "Collect some ice"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: ICE\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: ICE\n",
   "order": 3,
   "challengeType": "INVENTORY",
   "environment": [],
@@ -15,8 +15,8 @@
     "class": "InventoryRequirements",
     "parameters": {
       "requiredItems": [
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: ICE\n  amount: 64\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: ICE\n  amount: 64\n"
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: ICE\n  amount: 64\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: ICE\n  amount: 64\n"
       ],
       "takeItems": true,
       "requiredPermissions": []
@@ -37,8 +37,8 @@
   "searchRadius": 10,
   "rewardText": "Get some extra diamonds and some shulker boxes|",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: DIAMOND\n  amount: 16\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: SHULKER_BOX\n  amount: 2\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: DIAMOND\n  amount: 16\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: SHULKER_BOX\n  amount: 2\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,
@@ -48,7 +48,7 @@
   "maxTimes": 0,
   "repeatExperienceReward": 0,
   "repeatItemReward": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: DIAMOND\n  amount: 2\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: DIAMOND\n  amount: 2\n"
   ],
   "repeatMoneyReward": 0,
   "repeatRewardCommands": []

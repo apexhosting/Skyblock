@@ -5,7 +5,7 @@
   "description": [
     "Create a beacon with iron base"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: BEACON\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: BEACON\n",
   "order": 6,
   "challengeType": "ISLAND",
   "environment": [],
@@ -40,8 +40,8 @@
   "searchRadius": 10,
   "rewardText": "Get some extra diamonds and some shulker boxes",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: DIAMOND\n  amount: 32\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: SHULKER_BOX\n  amount: 2\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: DIAMOND\n  amount: 32\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: SHULKER_BOX\n  amount: 2\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,

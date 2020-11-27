@@ -1,0 +1,24 @@
+{
+  "homeLocations": [
+    [
+      [
+        "bskyblockx_world",
+        0.5,
+        123.0,
+        -1024.5,
+        90.0,
+        30.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "3716427e-76ac-4df4-a50a-706618a70f0c",
+  "playerName": "Cory",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "bskyblockx_world": 0
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC"
+}

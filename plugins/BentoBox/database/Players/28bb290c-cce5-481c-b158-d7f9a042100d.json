@@ -1,0 +1,24 @@
+{
+  "homeLocations": [
+    [
+      [
+        "bskyblockx_world",
+        0.5,
+        123.0,
+        -1024.5,
+        90.0,
+        30.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "28bb290c-cce5-481c-b158-d7f9a042100d",
+  "playerName": "SpiderRobotMan",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "bskyblockx_world": 1
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC"
+}

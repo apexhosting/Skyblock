@@ -21,7 +21,7 @@
 SkyblockIN:
   world: World
   triggerblock: WATER
-  destination: skyblock
+  destination: shub
   pos1:
     X: -398
     Y: 203
@@ -78,3 +78,63 @@ SkyOut:
     X: -1
     Y: 125
     Z: -9
+spawnb:
+  world: bskyblockx_world
+  triggerblock: WATER
+  destination: spawn
+  pos1:
+    X: -19
+    Y: 81
+    Z: -43
+  pos2:
+    X: -23
+    Y: 79
+    Z: -43
+toacid:
+  world: SkyBlock
+  triggerblock: WATER
+  destination: acidisland
+  pos1:
+    X: -78
+    Y: 73
+    Z: -25
+  pos2:
+    X: -82
+    Y: 68
+    Z: -25
+toskyblock:
+  world: SkyBlock
+  triggerblock: WATER
+  destination: shub
+  pos1:
+    X: 24
+    Y: 74
+    Z: -67
+  pos2:
+    X: 20
+    Y: 69
+    Z: -67
+back2:
+  world: SkyBlock
+  triggerblock: AIR
+  destination: spawn
+  pos1:
+    X: 90
+    Y: 24
+    Z: 98
+  pos2:
+    X: -128
+    Y: 19
+    Z: -183
+back3:
+  world: hub
+  triggerblock: AIR
+  destination: shub
+  pos1:
+    X: 142
+    Y: 75
+    Z: 113
+  pos2:
+    X: -140
+    Y: 71
+    Z: -93

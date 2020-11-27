@@ -6,7 +6,7 @@
     "Oh, now you need to learn",
     "how to swim."
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: WATER_BUCKET\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: WATER_BUCKET\n",
   "order": -1,
   "requiredLevel": 0,
   "requiredCost": 100,

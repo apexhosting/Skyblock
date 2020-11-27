@@ -5,7 +5,7 @@
   "description": [
     "Create a simple sugarcane farm"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: SUGAR_CANE\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: SUGAR_CANE\n",
   "order": 2,
   "challengeType": "ISLAND",
   "environment": [],
@@ -39,7 +39,7 @@
   "searchRadius": 10,
   "rewardText": "This sand will help you to increase your farm size.",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: SAND\n  amount: 16\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: SAND\n  amount: 16\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,

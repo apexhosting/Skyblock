@@ -5,7 +5,7 @@
   "description": [
     "Catch some salmon"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: SALMON\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: SALMON\n",
   "order": 4,
   "challengeType": "INVENTORY",
   "environment": [],
@@ -15,7 +15,7 @@
     "class": "InventoryRequirements",
     "parameters": {
       "requiredItems": [
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: SALMON\n  amount: 32\n"
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: SALMON\n  amount: 32\n"
       ],
       "takeItems": true,
       "requiredPermissions": []
@@ -36,8 +36,8 @@
   "searchRadius": 10,
   "rewardText": "Some prismarine crystals and kelp",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: PRISMARINE_CRYSTALS\n  amount: 16\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: KELP\n  amount: 4\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: PRISMARINE_CRYSTALS\n  amount: 16\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: KELP\n  amount: 4\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,
@@ -47,7 +47,7 @@
   "maxTimes": 0,
   "repeatExperienceReward": 5,
   "repeatItemReward": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: PRISMARINE_CRYSTALS\n  amount: 4\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: PRISMARINE_CRYSTALS\n  amount: 4\n"
   ],
   "repeatMoneyReward": 0,
   "repeatRewardCommands": []

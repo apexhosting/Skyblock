@@ -5,7 +5,7 @@
   "description": [
     "Create a peaceful mob zoo"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GLASS_PANE\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GLASS_PANE\n",
   "order": 7,
   "challengeType": "ISLAND",
   "environment": [],
@@ -55,8 +55,8 @@
   "searchRadius": 10,
   "rewardText": "Get some extra diamonds and some shulker boxes",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: DIAMOND\n  amount: 32\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: SHULKER_BOX\n  amount: 2\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: DIAMOND\n  amount: 32\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: SHULKER_BOX\n  amount: 2\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,

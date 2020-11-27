@@ -5,7 +5,7 @@
   "description": [
     "Wolfs are coming."
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: SPRUCE_SAPLING\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: SPRUCE_SAPLING\n",
   "order": -1,
   "requiredLevel": 0,
   "requiredCost": 100,

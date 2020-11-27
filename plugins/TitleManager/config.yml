@@ -62,7 +62,7 @@ locale: 'en-US'
 player-list:
 
   # Toggles this feature.
-  enabled: true
+  enabled: false
 
   # Sets the header of the player list.
   #
@@ -110,10 +110,10 @@ welcome-title:
   enabled: true
 
   # The title shown.
-  title: 'Welcome to My Server'
+  title: '&7&lAPEX &a&LSKYBLOCK'
 
   # The subtitle shown.
-  subtitle: 'Hope you enjoy your stay'
+  subtitle: '&2Get ready for a real challenge!'
 
   # The time it takes for the title to fade into the screen. (In ticks)
   fade-in: 20
@@ -128,10 +128,10 @@ welcome-title:
   first-join:
 
     # The title shown.
-    title: 'Welcome to My Server'
+    title: '&7&lAPEX &a&LSKYBLOCK'
 
     # The subtitle shown.
-    subtitle: 'This is your first time!'
+    subtitle: '&aWelcome!'
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -147,10 +147,10 @@ welcome-actionbar:
   enabled: true
 
   # The message shown.
-  title: 'Welcome to My Server'
+  title: '&7&lAPEX &a&LSKYBLOCK'
 
   # The message shown when the player joins the server for the first time.
-  first-join: 'Welcome to My Server, this is your first time!'
+  first-join: '&7&lAPEX &a&LSKYBLOCK'
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -186,7 +186,7 @@ placeholders:
 scoreboard:
 
   # Toggles this feature
-  enabled: true
+  enabled: false
 
   # The title displayed at the very top of the scoreboard
   # WARNING! (1.12 or below ONLY) The title must consist of 32 or less characters (this includes color codes)

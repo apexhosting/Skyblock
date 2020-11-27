@@ -5,7 +5,7 @@
   "description": [
     "Create a simple cactus farm"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: CACTUS\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: CACTUS\n",
   "order": 2,
   "challengeType": "ISLAND",
   "environment": [],
@@ -39,7 +39,7 @@
   "searchRadius": 10,
   "rewardText": "Extra sand will always be handy",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: SAND\n  amount: 10\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: SAND\n  amount: 10\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,

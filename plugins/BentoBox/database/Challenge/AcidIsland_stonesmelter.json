@@ -5,7 +5,7 @@
   "description": [
     "Smelt some stone and craft some stone bricks"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: STONE_BRICKS\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: STONE_BRICKS\n",
   "order": 4,
   "challengeType": "INVENTORY",
   "environment": [],
@@ -15,7 +15,7 @@
     "class": "InventoryRequirements",
     "parameters": {
       "requiredItems": [
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: STONE_BRICKS\n  amount: 64\n"
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: STONE_BRICKS\n  amount: 64\n"
       ],
       "takeItems": true,
       "requiredPermissions": []
@@ -36,7 +36,7 @@
   "searchRadius": 10,
   "rewardText": "Magic transformed these bricks into granite",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GRANITE\n  amount: 4\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GRANITE\n  amount: 4\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,
@@ -46,7 +46,7 @@
   "maxTimes": 0,
   "repeatExperienceReward": 5,
   "repeatItemReward": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GRANITE\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GRANITE\n"
   ],
   "repeatMoneyReward": 0,
   "repeatRewardCommands": []

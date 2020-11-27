@@ -5,7 +5,7 @@
   "description": [
     "Create a chicken farm and collect their eggs."
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: EGG\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: EGG\n",
   "order": 2,
   "challengeType": "INVENTORY",
   "environment": [],
@@ -15,7 +15,7 @@
     "class": "InventoryRequirements",
     "parameters": {
       "requiredItems": [
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: EGG\n  amount: 32\n"
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: EGG\n  amount: 32\n"
       ],
       "takeItems": true,
       "requiredPermissions": []
@@ -36,7 +36,7 @@
   "searchRadius": 10,
   "rewardText": "Exchange eggs for some iron",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: IRON_ORE\n  amount: 24\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: IRON_ORE\n  amount: 24\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,
@@ -46,7 +46,7 @@
   "maxTimes": 100,
   "repeatExperienceReward": 5,
   "repeatItemReward": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: IRON_ORE\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: IRON_ORE\n"
   ],
   "repeatMoneyReward": 0,
   "repeatRewardCommands": []

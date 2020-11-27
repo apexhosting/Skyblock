@@ -5,7 +5,7 @@
   "description": [
     "Create a simple beetroot farm"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: BEETROOT\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: BEETROOT\n",
   "order": 1,
   "challengeType": "ISLAND",
   "environment": [],
@@ -39,7 +39,7 @@
   "searchRadius": 10,
   "rewardText": "Extra dirt will always be handy",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: DIRT\n  amount: 16\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: DIRT\n  amount: 16\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,

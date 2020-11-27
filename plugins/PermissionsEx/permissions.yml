@@ -3,6 +3,18 @@
 groups:
   default:
     permissions:
+    - rewardpro.present
+    - rewardpro.dailyreward
+    - rewardpro.firstjoin
+    - rewardpro.presentman
+    - reward.default
+    - gadgetsmenu.summonpet
+    - gadgetsmenu.animations.normal
+    - gadgetsmenu.mysteryboxes.open.*
+    - gadgetsmenu.menuselector
+    - deluxemenus.warpz
+    - scoreboard.default
+    - essentials.signs.use.disposal
     - essentials.signs.use.sell
     - bukkit.command.list
     - essentials.balance
@@ -55,7 +67,7 @@ groups:
     options:
       weight: '900'
       rank: '900'
-      prefix: '&f[&eMember&F]&7'
+      prefix: '&8[&aMember&8]'
       default: true
   moderator:
     inheritance:
@@ -263,3 +275,23 @@ users:
     - '*'
     options:
       name: robert_beckley
+  allndev:
+    permissions:
+    - '*'
+  bdc83502-6d75-4c26-a633-729e9ed81aee:
+    permissions:
+    - '*'
+    options:
+      name: AllanDev
+  040b9245-aecb-49ba-a25f-b4a7cc544437:
+    options:
+      name: ObitoNamikaze
+  7e418993-7482-43b2-a8f6-740d6a308ce5:
+    permissions:
+    - '*'
+    options:
+      name: LordSherman
+  f0e7f028-4955-4dc8-8e40-d334ef0bd19a:
+    permissions: []
+    options:
+      name: AllanStrat

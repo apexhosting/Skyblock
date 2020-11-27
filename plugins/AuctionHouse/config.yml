@@ -63,6 +63,7 @@ log:
   purged: true
 disabled-worlds: []
 auction:
+  showSeconds: true
   listingCooldown: 0d0h0m0s
   minSellPrice: 0.0
   maxSalesTax: 100000.0
@@ -90,4 +91,4 @@ auction:
   allowDamagedItems: false
   defaultMaxListings: 45
   announce: false
-configVersion: 21
+configVersion: 23

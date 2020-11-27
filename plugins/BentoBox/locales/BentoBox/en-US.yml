@@ -30,8 +30,13 @@ general:
     wrong-world: '&c You are not in the right world to do that!'
     you-must-wait: '&c You must wait [number]s before you can do that command again.'
     must-be-positive-number: '&c [number] is not a valid positive number.'
+    player-is-not-owner: '&b [name] &c is not the owner of an island!'
   tips:
     changing-obsidian-to-lava: Changing obsidian back into lava. Be careful!
+  worlds:
+    overworld: Overworld
+    nether: Nether
+    the-end: The End
 commands:
   help:
     header: '&7 =========== &c [label] help &7 ==========='
@@ -343,6 +348,12 @@ commands:
         slot-instructions: |
           &a Left click to increment
           &a Right click to decrement
+      rename:
+        parameters: <blueprint name> <new name>
+        description: rename a blueprint
+        success: '&a Blueprint &b [old] &a has been successfully renamed to &b [name]&a.'
+        pick-different-name: '&c Please specify a name that is different from the
+          blueprint''s current name.'
     resetflags:
       parameters: '[flag]'
       description: Reset all islands to default flag settings in config.yml
@@ -854,6 +865,8 @@ protection:
       name: Enter/Exit messages
       now-entering: '&b Now entering [name]'
       now-leaving: '&b Now leaving [name]'
+      now-entering-your-island: '&a Now entering your island.'
+      now-leaving-your-island: '&a Now leaving your island.'
     EXPERIENCE_BOTTLE_THROWING:
       name: Experience bottle throwing
       description: Toggle throwing experience bottles.
@@ -1164,6 +1177,15 @@ protection:
       description: |-
         &a If active, withers can
         &a damage blocks and players
+    LECTERN:
+      name: Lecterns
+      description: |-
+        &a Allow to place books on a lectern
+        &a or to take books from it.
+
+        &c It does not prevent players from
+        &c reading the books.
+      hint: cannot place a book on a lectern or take a book from it.
   locked: '&c This island is locked!'
   protected: '&c Island protected: [description]'
   world-protected: '&c World protected: [description]'

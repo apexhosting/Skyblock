@@ -5,7 +5,7 @@
   "description": [
     "Create a dark place and spawn some hostile mobs."
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: STONE\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: STONE\n",
   "order": 2,
   "challengeType": "ISLAND",
   "environment": [],
@@ -42,8 +42,8 @@
   "searchRadius": 10,
   "rewardText": "Iron for item crafting and some dogs.",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: IRON_ORE\n  amount: 16\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: WOLF_SPAWN_EGG\n  amount: 2\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: IRON_ORE\n  amount: 16\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: WOLF_SPAWN_EGG\n  amount: 2\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,

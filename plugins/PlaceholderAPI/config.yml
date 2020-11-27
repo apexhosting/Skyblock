@@ -1,5 +1,5 @@
 # PlaceholderAPI
-# Version: 2.10.2
+# Version: 2.10.4
 # Created by: extended_clip
 # Contributors: https://github.com/PlaceholderAPI/PlaceholderAPI/graphs/contributors
 # Issues: https://github.com/PlaceholderAPI/PlaceholderAPI/issues
@@ -23,3 +23,14 @@ expansions:
       quadrillions: Q
       billions: B
       millions: M
+  server:
+    tps_color:
+      high: '&a'
+      low: '&c'
+      medium: '&e'
+    server_name: A Minecraft Server
+  player:
+    ping_color:
+      medium: '&e'
+      high: '&a'
+      low: '&c'

@@ -5,7 +5,7 @@
   "description": [
     "Collect all small flowers."
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: DANDELION\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: DANDELION\n",
   "order": 2,
   "challengeType": "INVENTORY",
   "environment": [],
@@ -15,16 +15,16 @@
     "class": "InventoryRequirements",
     "parameters": {
       "requiredItems": [
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: DANDELION\n  amount: 8\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: POPPY\n  amount: 8\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: BLUE_ORCHID\n  amount: 8\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: ALLIUM\n  amount: 8\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: AZURE_BLUET\n  amount: 8\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: RED_TULIP\n  amount: 8\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: ORANGE_TULIP\n  amount: 8\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: WHITE_TULIP\n  amount: 8\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: PINK_TULIP\n  amount: 8\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: OXEYE_DAISY\n  amount: 8\n"
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: DANDELION\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: POPPY\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: BLUE_ORCHID\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: ALLIUM\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: AZURE_BLUET\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: RED_TULIP\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: ORANGE_TULIP\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: WHITE_TULIP\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: PINK_TULIP\n  amount: 8\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: OXEYE_DAISY\n  amount: 8\n"
       ],
       "takeItems": true,
       "requiredPermissions": []
@@ -45,12 +45,12 @@
   "searchRadius": 10,
   "rewardText": "Large flowers are always better.",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: COCOA_BEANS\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: ROSE_BUSH\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: PEONY\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: LARGE_FERN\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: LILAC\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: SUNFLOWER\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: COCOA_BEANS\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: ROSE_BUSH\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: PEONY\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: LARGE_FERN\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: LILAC\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: SUNFLOWER\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 10,

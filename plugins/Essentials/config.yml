@@ -425,11 +425,11 @@ allow-silent-join-quit: false
 
 # You can set a custom join message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-custom-join-message: "{PLAYER} Joined Skyblock"
+custom-join-message: "{PLAYER} &8Joined &aSkyblock&8!"
 
 # You can set a custom quit message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-custom-quit-message: "{PLAYER} Left Skyblock"
+custom-quit-message: "{PLAYER} &8Left &aSkyblock&8!"
 
 # Add worlds to this list, if you want to automatically disable god mode there.
 no-god-in-worlds:
@@ -686,13 +686,17 @@ chat:
   # For more information of chat formatting, check out the wiki: http://wiki.ess3.net/wiki/Chat_Formatting
   # For EssentialsX changes, take a look at the EssentialsX wiki: https://github.com/EssentialsX/Essentials/wiki
 
-  format: '{DISPLAYNAME} {MESSAGE}'
+  #format: '{DISPLAYNAME} {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
   group-formats:
-  #  Default: '{WORLDNAME} {DISPLAYNAME}&7:&r {MESSAGE}'
-  #  Admins: '{WORLDNAME} &c[{GROUP}]&r {DISPLAYNAME}&7:&c {MESSAGE}'
+    default: '{deluxetags_tag}{DISPLAYNAME}&8: &a{MESSAGE}'
+    VIP: '{deluxetags_tag}{DISPLAYNAME}&8: &e{MESSAGE}'
+    MOD: '{deluxetags_tag}{DISPLAYNAME}&8: &a{MESSAGE}'
+    ADMIN: '{deluxetags_tag}{DISPLAYNAME}&8: &c{MESSAGE}'  
+    OWNER: '{deluxetags_tag}{DISPLAYNAME}&8: &4{MESSAGE}'
+    DEV: '{deluxetags_tag}{DISPLAYNAME}&8: &e{MESSAGE}'
 
   # If you are using group formats make sure to remove the '#' to allow the setting to be read.
 

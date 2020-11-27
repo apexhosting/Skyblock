@@ -5,7 +5,7 @@
   "description": [
     "Smelt some clay into terracotta"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: TERRACOTTA\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: TERRACOTTA\n",
   "order": 4,
   "challengeType": "INVENTORY",
   "environment": [],
@@ -15,22 +15,22 @@
     "class": "InventoryRequirements",
     "parameters": {
       "requiredItems": [
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: WHITE_TERRACOTTA\n  amount: 10\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: ORANGE_TERRACOTTA\n  amount: 10\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: MAGENTA_TERRACOTTA\n  amount: 10\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: LIGHT_BLUE_TERRACOTTA\n  amount: 10\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: YELLOW_TERRACOTTA\n  amount: 10\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: LIME_TERRACOTTA\n  amount: 10\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: PINK_TERRACOTTA\n  amount: 10\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GRAY_TERRACOTTA\n  amount: 10\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: LIGHT_GRAY_TERRACOTTA\n  amount: 10\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: CYAN_TERRACOTTA\n  amount: 10\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: PURPLE_TERRACOTTA\n  amount: 10\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: BLUE_TERRACOTTA\n  amount: 10\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: BROWN_TERRACOTTA\n  amount: 10\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GREEN_TERRACOTTA\n  amount: 10\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: RED_TERRACOTTA\n  amount: 10\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: BLACK_TERRACOTTA\n  amount: 10\n"
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: WHITE_TERRACOTTA\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: ORANGE_TERRACOTTA\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: MAGENTA_TERRACOTTA\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: LIGHT_BLUE_TERRACOTTA\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: YELLOW_TERRACOTTA\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: LIME_TERRACOTTA\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: PINK_TERRACOTTA\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GRAY_TERRACOTTA\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: LIGHT_GRAY_TERRACOTTA\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: CYAN_TERRACOTTA\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: PURPLE_TERRACOTTA\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: BLUE_TERRACOTTA\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: BROWN_TERRACOTTA\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GREEN_TERRACOTTA\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: RED_TERRACOTTA\n  amount: 10\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: BLACK_TERRACOTTA\n  amount: 10\n"
       ],
       "takeItems": true,
       "requiredPermissions": []
@@ -51,7 +51,7 @@
   "searchRadius": 10,
   "rewardText": "Exchange your terracotta to a shulker box",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: SHULKER_BOX\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: SHULKER_BOX\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,
@@ -61,7 +61,7 @@
   "maxTimes": 100,
   "repeatExperienceReward": 5,
   "repeatItemReward": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: SHULKER_SHELL\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: SHULKER_SHELL\n"
   ],
   "repeatMoneyReward": 0,
   "repeatRewardCommands": []

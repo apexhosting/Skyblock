@@ -5,7 +5,7 @@
   "description": [
     "Exchange cobble stone to some useful materials"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: COBBLESTONE\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: COBBLESTONE\n",
   "order": 1,
   "challengeType": "INVENTORY",
   "environment": [],
@@ -15,7 +15,7 @@
     "class": "InventoryRequirements",
     "parameters": {
       "requiredItems": [
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: COBBLESTONE\n  amount: 64\n"
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: COBBLESTONE\n  amount: 64\n"
       ],
       "takeItems": true,
       "requiredPermissions": []
@@ -36,7 +36,7 @@
   "searchRadius": 10,
   "rewardText": "Small amount of gravel will always be handy",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GRAVEL\n  amount: 4\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GRAVEL\n  amount: 4\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 10,
@@ -46,7 +46,7 @@
   "maxTimes": 0,
   "repeatExperienceReward": 5,
   "repeatItemReward": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GRAVEL\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GRAVEL\n"
   ],
   "repeatMoneyReward": 1,
   "repeatRewardCommands": []

@@ -5,7 +5,7 @@
   "description": [
     "Reach 10 000th level of island."
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: MAGENTA_CONCRETE\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: MAGENTA_CONCRETE\n",
   "order": 10,
   "challengeType": "OTHER",
   "environment": [],
@@ -37,8 +37,8 @@
   "searchRadius": 10,
   "rewardText": "Get some extra diamonds and some shulker boxes",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: DIAMOND\n  amount: 64\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: SHULKER_BOX\n  amount: 5\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: DIAMOND\n  amount: 64\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: SHULKER_BOX\n  amount: 5\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,

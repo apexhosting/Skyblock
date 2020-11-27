@@ -5,7 +5,7 @@
   "description": [
     "Craft iron tools and armor"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: IRON_INGOT\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: IRON_INGOT\n",
   "order": 4,
   "challengeType": "INVENTORY",
   "environment": [],
@@ -15,15 +15,15 @@
     "class": "InventoryRequirements",
     "parameters": {
       "requiredItems": [
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: IRON_AXE\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: IRON_HOE\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: IRON_PICKAXE\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: IRON_SHOVEL\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: IRON_SWORD\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: IRON_BOOTS\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: IRON_LEGGINGS\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: IRON_CHESTPLATE\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: IRON_HELMET\n"
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: IRON_AXE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: IRON_HOE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: IRON_PICKAXE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: IRON_SHOVEL\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: IRON_SWORD\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: IRON_BOOTS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: IRON_LEGGINGS\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: IRON_CHESTPLATE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: IRON_HELMET\n"
       ],
       "takeItems": true,
       "requiredPermissions": []
@@ -44,7 +44,7 @@
   "searchRadius": 10,
   "rewardText": "Exchange your iron stuff to some diamonds",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: DIAMOND\n  amount: 4\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: DIAMOND\n  amount: 4\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,
@@ -54,7 +54,7 @@
   "maxTimes": 100,
   "repeatExperienceReward": 5,
   "repeatItemReward": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: DIAMOND\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: DIAMOND\n"
   ],
   "repeatMoneyReward": 0,
   "repeatRewardCommands": []

@@ -1,0 +1,16 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateStacker&8]'
+# Command Messages
+command:
+  give:
+    success: '&7Shoma Yek &6%type% &7Daryaft Kardid.'
+# Event Messages
+event:
+  general:
+    nopermission: '&cShoma Ejaze In Kar Ra Nadarid.'
+  egg:
+    needmore: '&7Shoma Baraye Tabdile In Spawner Be &6%amount% &7Monster Egg Niyaz Darid.'
+    sametype: '&7In Spawner Darhale Hazer &6%type%s &7Spawn Mikonad.'

@@ -5,7 +5,7 @@
   "description": [
     "Kill the wither and show your worthiness"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: NETHER_STAR\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: NETHER_STAR\n",
   "order": 5,
   "challengeType": "INVENTORY",
   "environment": [],
@@ -15,7 +15,7 @@
     "class": "InventoryRequirements",
     "parameters": {
       "requiredItems": [
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: NETHER_STAR\n"
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: NETHER_STAR\n"
       ],
       "takeItems": true,
       "requiredPermissions": []
@@ -36,8 +36,8 @@
   "searchRadius": 10,
   "rewardText": "Get some extra diamonds and some shulker boxes",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: DIAMOND_BLOCK\n  amount: 5\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: SHULKER_BOX\n  amount: 2\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: DIAMOND_BLOCK\n  amount: 5\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: SHULKER_BOX\n  amount: 2\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,

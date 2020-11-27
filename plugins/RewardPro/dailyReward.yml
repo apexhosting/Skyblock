@@ -1,0 +1,229 @@
+# ==================================== #
+# 
+# RewardPro 4.4.4
+# A complete reward solution.
+# (c) MovingDev
+# 
+# ==================================== #
+# 
+# Thank you for using the plugin! 
+# If you like the plugin, please rate it with 5 stars on SpigotMc!
+# 
+# ==================================== #
+#           Settings 
+# ==================================== #
+# You see the full documentation of this file here: 
+# https://pastebin.com/1i4w4KxR
+
+DailyRewards:
+  GeneralConfig:
+    ResetRewardsAfterReachingMaxLevel: true
+    AutofillItem: BLACK_STAINED_GLASS_PANE
+DailyReward1:
+  Commands:
+  - cr give to [Player] RewardsCrate 1
+  ShiftClickPreviewCommands: []
+  ShiftClickPreviewCommands_Delay: 10
+  Slot: 1
+  ActiveItem: CHEST_MINECART
+  ActiveItemAmount: 1
+  ActiveItemGlow: true
+  InactiveItem: MINECART
+  InactiveItemAmount: 1
+  InactiveItemGlow: false
+  Heading: '&6Reward Day #1'
+  ActiveLore:
+  - '&7Join this server every day'
+  - '&7You get every day a bigger reward!'
+  - ''
+  InactiveLore:
+  - '&8You joined some days in a row'
+  - '&8so get now a bigger reward!'
+  - ''
+  - '&7Checkout the following rewards.'
+  DaysUntilPlayerCanClaim: 0
+  TimeToClaimFormat: '&8You can claim this reward in &7%days &8days.'
+  CanBeClaimedFormat: '&aYou get this reward today!'
+  CanBeClaimedTomorrowFormat: '&8You get this reward tomorrow!'
+DailyReward2:
+  Commands:
+  - cr give to [Player] RewardsCrate 2
+  ShiftClickPreviewCommands: []
+  ShiftClickPreviewCommands_Delay: 10
+  Slot: 2
+  ActiveItem: CHEST_MINECART
+  ActiveItemAmount: 1
+  ActiveItemGlow: true
+  InactiveItem: MINECART
+  InactiveItemAmount: 1
+  InactiveItemGlow: false
+  Heading: '&6Reward Day #2'
+  ActiveLore:
+  - '&7Join this server every day'
+  - '&7You get every day a bigger reward!'
+  - ''
+  InactiveLore:
+  - '&8You joined some days in a row'
+  - '&8so get now a bigger reward!'
+  - ''
+  - '&7Checkout the following rewards.'
+  DaysUntilPlayerCanClaim: 1
+  TimeToClaimFormat: '&8You can claim this reward in &7%days &8days.'
+  CanBeClaimedFormat: '&aYou get this reward today!'
+  CanBeClaimedTomorrowFormat: '&8You get this reward tomorrow!'
+DailyReward3:
+  Commands:
+  - cr give to [Player] RewardsCrate 3
+  ShiftClickPreviewCommands: []
+  ShiftClickPreviewCommands_Delay: 10
+  Slot: 3
+  ActiveItem: CHEST_MINECART
+  ActiveItemAmount: 1
+  ActiveItemGlow: true
+  InactiveItem: MINECART
+  InactiveItemAmount: 1
+  InactiveItemGlow: false
+  Heading: '&6Reward Day #3'
+  ActiveLore:
+  - '&7Join this server every day'
+  - '&7You get every day a bigger reward!'
+  - ''
+  InactiveLore:
+  - '&8You joined some days in a row'
+  - '&8so get now a bigger reward!'
+  - ''
+  - '&7Checkout the following rewards.'
+  DaysUntilPlayerCanClaim: 2
+  TimeToClaimFormat: '&8You can claim this reward in &7%days &8days.'
+  CanBeClaimedFormat: '&aYou get this reward today!'
+  CanBeClaimedTomorrowFormat: '&8You get this reward tomorrow!'
+DailyReward4:
+  Commands:
+  - cr give to [Player] RewardsCrate 3
+  ShiftClickPreviewCommands: []
+  ShiftClickPreviewCommands_Delay: 10
+  Slot: 4
+  ActiveItem: CHEST_MINECART
+  ActiveItemAmount: 1
+  ActiveItemGlow: true
+  InactiveItem: MINECART
+  InactiveItemAmount: 1
+  InactiveItemGlow: false
+  Heading: '&6Reward Day #4'
+  ActiveLore:
+  - '&7Join this server every day'
+  - '&7You get every day a bigger reward!'
+  - ''
+  InactiveLore:
+  - '&8You joined some days in a row'
+  - '&8so get now a bigger reward!'
+  - ''
+  - '&7Checkout the following rewards.'
+  DaysUntilPlayerCanClaim: 3
+  TimeToClaimFormat: '&8You can claim this reward in &7%days &8days.'
+  CanBeClaimedFormat: '&aYou get this reward today!'
+  CanBeClaimedTomorrowFormat: '&8You get this reward tomorrow!'
+DailyReward5:
+  Commands:
+  - cr give to [Player] RewardsCrate 3
+  ShiftClickPreviewCommands: []
+  ShiftClickPreviewCommands_Delay: 10
+  Slot: 5
+  ActiveItem: CHEST_MINECART
+  ActiveItemAmount: 1
+  ActiveItemGlow: true
+  InactiveItem: MINECART
+  InactiveItemAmount: 1
+  InactiveItemGlow: false
+  Heading: '&6Reward Day #5'
+  ActiveLore:
+  - '&7Join this server every day'
+  - '&7You get every day a bigger reward!'
+  - ''
+  InactiveLore:
+  - '&8You joined some days in a row'
+  - '&8so get now a bigger reward!'
+  - ''
+  - '&7Checkout the following rewards.'
+  DaysUntilPlayerCanClaim: 4
+  TimeToClaimFormat: '&8You can claim this reward in &7%days &8days.'
+  CanBeClaimedFormat: '&aYou get this reward today!'
+  CanBeClaimedTomorrowFormat: '&8You get this reward tomorrow!'
+DailyReward6:
+  Commands:
+  - cr give to [Player] RewardsCrate 6
+  ShiftClickPreviewCommands: []
+  ShiftClickPreviewCommands_Delay: 10
+  Slot: 6
+  ActiveItem: CHEST_MINECART
+  ActiveItemAmount: 1
+  ActiveItemGlow: true
+  InactiveItem: MINECART
+  InactiveItemAmount: 1
+  InactiveItemGlow: false
+  Heading: '&6Reward Day #6'
+  ActiveLore:
+  - '&7Join this server every day'
+  - '&7You get every day a bigger reward!'
+  - ''
+  InactiveLore:
+  - '&8You joined some days in a row'
+  - '&8so get now a bigger reward!'
+  - ''
+  - '&7Checkout the following rewards.'
+  DaysUntilPlayerCanClaim: 5
+  TimeToClaimFormat: '&8You can claim this reward in &7%days &8days.'
+  CanBeClaimedFormat: '&aYou get this reward today!'
+  CanBeClaimedTomorrowFormat: '&8You get this reward tomorrow!'
+DailyReward7:
+  Commands:
+  - cr give to [Player] RewardsCrate 3
+  ShiftClickPreviewCommands: []
+  ShiftClickPreviewCommands_Delay: 10
+  Slot: 7
+  ActiveItem: CHEST_MINECART
+  ActiveItemAmount: 1
+  ActiveItemGlow: true
+  InactiveItem: MINECART
+  InactiveItemAmount: 1
+  InactiveItemGlow: false
+  Heading: '&6Reward Day #7'
+  ActiveLore:
+  - '&7Join this server every day'
+  - '&7You get every day a bigger reward!'
+  - ''
+  InactiveLore:
+  - '&8You joined some days in a row'
+  - '&8so get now a bigger reward!'
+  - ''
+  - '&7Checkout the following rewards.'
+  DaysUntilPlayerCanClaim: 6
+  TimeToClaimFormat: '&8You can claim this reward in &7%days &8days.'
+  CanBeClaimedFormat: '&aYou get this reward today!'
+  CanBeClaimedTomorrowFormat: '&8You get this reward tomorrow!'
+DailyReward8:
+  Commands:
+  - cr give to [Player] RewardsCrate 5
+  ShiftClickPreviewCommands: []
+  ShiftClickPreviewCommands_Delay: 10
+  Slot: 13
+  ActiveItem: CHEST_MINECART
+  ActiveItemAmount: 1
+  ActiveItemGlow: true
+  InactiveItem: MINECART
+  InactiveItemAmount: 1
+  InactiveItemGlow: false
+  Heading: '&6Reward Day #8'
+  ActiveLore:
+  - '&7Join this server every day'
+  - '&7You get every day a bigger reward!'
+  - ''
+  InactiveLore:
+  - '&8You joined some days in a row'
+  - '&8so get now a bigger reward!'
+  - ''
+  - '&7Checkout the following rewards.'
+  DaysUntilPlayerCanClaim: 7
+  TimeToClaimFormat: '&8You can claim this reward in &7%days &8days.'
+  CanBeClaimedFormat: '&aYou get this reward today!'
+  CanBeClaimedTomorrowFormat: '&8You get this reward tomorrow!'

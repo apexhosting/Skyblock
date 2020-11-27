@@ -1,11 +1,27 @@
-#General Messages
+######################################################
+# New messages added for UltimateStacker v1.11.3.    #
+#                                                    #
+# These translations were found untranslated, join   #
+# our translation Discord https://discord.gg/f7fpZEf #
+# to request an official update!                     #
+#                                                    #
+# event.egg.needmore                                 #
+# event.egg.sametype                                 #
+######################################################
 
-general.nametag.prefix = "&8[&6UltimateStacker&8]"
+general:
+  nametag:
+    prefix: '&8[&6UltimateStacker&8]'
+command:
+  give:
 
-#Command Messages
+    # Command Messages
+    success: ' &6%type%&7 لقد تم أعطاؤك'
+event:
+  general:
 
-command.give.success = " &6%type%&7 لقد تم أعطاؤك"
-
-#Event Messages
-
-event.general.nopermission = "&cليس لديك اذن لاستخدام هذا"
+    # Event Messages
+    nopermission: '&cليس لديك اذن لاستخدام هذا'
+  egg:
+    needmore: '&7Ta7taj &6%amount% &7Baid al wa7ish l2lta7wil hatha al khali8.'
+    sametype: ‘&7Hatha bilfi3l e36ti &6%type%s&7.'

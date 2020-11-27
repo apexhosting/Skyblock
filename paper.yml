@@ -58,6 +58,8 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    seed-based-feature-search: true
+    portal-create-radius: 16
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
     optimize-explosions: false

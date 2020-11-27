@@ -1,14 +1,14 @@
 {
   "uniqueId": "AcidIsland_competent",
   "friendlyName": "Competent",
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: YELLOW_CONCRETE\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: YELLOW_CONCRETE\n",
   "world": "acidisland_world",
   "order": 2,
   "waiverAmount": 2,
   "unlockMessage": "Congratulations - you unlocked the &dCompetent level!",
   "rewardText": "Small reward for completing all Competent challenges.",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: DIRT\n  amount: 16\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: DIRT\n  amount: 16\n"
   ],
   "rewardExperience": 1395,
   "rewardMoney": 500,

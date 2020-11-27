@@ -5,7 +5,7 @@
   "description": [
     "Where are my corrals?"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: TROPICAL_FISH\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: TROPICAL_FISH\n",
   "order": -1,
   "requiredLevel": 0,
   "requiredCost": 100,

@@ -5,7 +5,7 @@
   "description": [
     "Show your ability to cook all types of food"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: CAKE\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: CAKE\n",
   "order": 6,
   "challengeType": "INVENTORY",
   "environment": [],
@@ -15,22 +15,22 @@
     "class": "InventoryRequirements",
     "parameters": {
       "requiredItems": [
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: PUMPKIN_PIE\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: COOKIE\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: CAKE\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: RABBIT_STEW\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: MUSHROOM_STEW\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: BEETROOT_SOUP\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: COOKED_BEEF\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: COOKED_MUTTON\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: COOKED_PORKCHOP\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: COOKED_CHICKEN\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: COOKED_RABBIT\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GOLDEN_CARROT\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: COOKED_COD\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: COOKED_SALMON\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: BREAD\n",
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: BAKED_POTATO\n"
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: PUMPKIN_PIE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: COOKIE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: CAKE\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: RABBIT_STEW\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: MUSHROOM_STEW\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: BEETROOT_SOUP\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: COOKED_BEEF\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: COOKED_MUTTON\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: COOKED_PORKCHOP\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: COOKED_CHICKEN\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: COOKED_RABBIT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GOLDEN_CARROT\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: COOKED_COD\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: COOKED_SALMON\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: BREAD\n",
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: BAKED_POTATO\n"
       ],
       "takeItems": true,
       "requiredPermissions": []
@@ -51,8 +51,8 @@
   "searchRadius": 10,
   "rewardText": "Get some extra diamonds and some shulker boxes",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: DIAMOND\n  amount: 16\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: SHULKER_BOX\n  amount: 2\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: DIAMOND\n  amount: 16\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: SHULKER_BOX\n  amount: 2\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,
@@ -62,7 +62,7 @@
   "maxTimes": 100,
   "repeatExperienceReward": 0,
   "repeatItemReward": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: DIAMOND_ORE\n  amount: 4\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: DIAMOND_ORE\n  amount: 4\n"
   ],
   "repeatMoneyReward": 0,
   "repeatRewardCommands": []

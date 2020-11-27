@@ -1,0 +1,49 @@
+# ==================================== #
+# 
+# RewardPro 4.4.4
+# A complete reward solution.
+# (c) MovingDev
+# 
+# ==================================== #
+# 
+# Thank you for using the plugin! 
+# If you like the plugin, please rate it with 5 stars on SpigotMc!
+# 
+# ==================================== #
+#           Settings 
+# ==================================== #
+# You see the full documentation of this file here: 
+# https://pastebin.com/jzUpMYRH
+
+noPermission: '&cYou don''t have permission!'
+creditReward: '&aYou get your Reward!'
+Choice:
+  GuiTitle:
+    Player: '&aHow did you find us?'
+    Admin: '&2Players selected&8:'
+    NumberOfPlayers: '&aNumber:'
+  answer: '&3Thank you very much!'
+PlayerOnline:
+  DB: '&aSearching all players in Database!'
+  last24: '&athese players were online within the last [hours] hours!'
+Friend:
+  answer: '&aUse /friendrefer NAME for NAME you should use the player name!'
+  ownName: '&4You can''t use your own Name!'
+  notExists: '&cThis player not existing!'
+  thank: '&3Thank you very much!'
+  already: '&cYou have already used this Command!'
+Present:
+  cooldown: '&cYou can''t do this again!'
+  availableTime: '&6Reward available:'
+  right: '&aYou got your reward credited!'
+  wrong: '&cSorry but with your Rank you can''t get this Reward!'
+  databaseError: '&cPlease try it again later!'
+  loadingData: '&7Loading data, please wait a moment ...'
+DailyReward:
+  UIHeading: '&6DailyReward'
+  CanNotClaimReward: '&cYou cannot claim this reward today!'
+  ClaimYourReward: '&aYou can claim your daily reward with the command: &f/daily'
+  IPDeny: '&cYou already claimed rewards from another account!'
+MenuControl:
+  Back: '&8Back'
+  NextPage: '&8Next page'

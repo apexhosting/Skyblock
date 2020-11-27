@@ -1,4 +1,13 @@
-# General Messages
+######################################################
+# New messages added for UltimateStacker v1.11.3.    #
+#                                                    #
+# These translations were found untranslated, join   #
+# our translation Discord https://discord.gg/f7fpZEf #
+# to request an official update!                     #
+#                                                    #
+# event.egg.needmore                                 #
+# event.egg.sametype                                 #
+######################################################
 
 general:
   nametag:
@@ -13,3 +22,6 @@ event:
 
     # Event Messages
     nopermission: '&cVous n''avez pas la permission de faire ceci.'
+  egg:
+    needmore: '&7Il vous faut &6%amount% &7Oeufs de Monstre pour convertir ce spawner.'
+    sametype: '&7Ceci fait déjà apparaitre des &6%type%s&7.'

@@ -5,7 +5,7 @@
   "description": [
     "Create a grass field and wait for animals to spawn."
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: GRASS_BLOCK\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GRASS_BLOCK\n",
   "order": 2,
   "challengeType": "ISLAND",
   "environment": [],
@@ -44,8 +44,8 @@
   "searchRadius": 10,
   "rewardText": "Iron to craft some tools and a couple of cats.",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: IRON_ORE\n  amount: 16\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: OCELOT_SPAWN_EGG\n  amount: 2\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: IRON_ORE\n  amount: 16\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: OCELOT_SPAWN_EGG\n  amount: 2\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,

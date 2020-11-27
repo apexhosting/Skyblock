@@ -5,7 +5,7 @@
   "description": [
     "Create a simple tree farm"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: OAK_SAPLING\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: OAK_SAPLING\n",
   "order": 2,
   "challengeType": "ISLAND",
   "environment": [],
@@ -39,7 +39,7 @@
   "searchRadius": 10,
   "rewardText": "Extra dirt will always be handy",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: DIRT\n  amount: 10\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: DIRT\n  amount: 10\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,

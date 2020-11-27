@@ -5,7 +5,7 @@
   "description": [
     "Create some buckets and milk your cows"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: MILK_BUCKET\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: MILK_BUCKET\n",
   "order": 2,
   "challengeType": "INVENTORY",
   "environment": [],
@@ -15,7 +15,7 @@
     "class": "InventoryRequirements",
     "parameters": {
       "requiredItems": [
-        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: MILK_BUCKET\n  amount: 9\n"
+        "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: MILK_BUCKET\n  amount: 9\n"
       ],
       "takeItems": true,
       "requiredPermissions": []
@@ -36,8 +36,8 @@
   "searchRadius": 10,
   "rewardText": "Exchange milk to mooshrooms",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: BUCKET\n  amount: 9\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: MOOSHROOM_SPAWN_EGG\n  amount: 2\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: BUCKET\n  amount: 9\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: MOOSHROOM_SPAWN_EGG\n  amount: 2\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,
@@ -47,8 +47,8 @@
   "maxTimes": 100,
   "repeatExperienceReward": 5,
   "repeatItemReward": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: BUCKET\n  amount: 9\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: IRON_INGOT\n  amount: 5\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: BUCKET\n  amount: 9\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: IRON_INGOT\n  amount: 5\n"
   ],
   "repeatMoneyReward": 0,
   "repeatRewardCommands": []

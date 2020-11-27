@@ -1,0 +1,9 @@
+moverulesToFile: true
+updateSpawnsToNewSpawnsConfig: true
+updateJailsToNewJailsConfig: true
+warnMetrics: true
+sanitizeAllUserFilenames: true
+updateUsersPowerToolsFormat: true
+updateUsersHomesFormat: true
+banFormatChange: true
+userMapRepaired: true

@@ -5,7 +5,7 @@
   "description": [
     "Start to create a villager army."
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: EMERALD_BLOCK\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: EMERALD_BLOCK\n",
   "order": 1,
   "challengeType": "ISLAND",
   "environment": [],
@@ -39,8 +39,8 @@
   "searchRadius": 10,
   "rewardText": "Iron for tools crafting and some cats.",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: IRON_ORE\n  amount: 16\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: OCELOT_SPAWN_EGG\n  amount: 2\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: IRON_ORE\n  amount: 16\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: OCELOT_SPAWN_EGG\n  amount: 2\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,

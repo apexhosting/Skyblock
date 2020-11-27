@@ -1,0 +1,47 @@
+title:
+  - ' &7&lAPEX &a&LSKYBLOCK'
+text:
+  - '&2----------------'
+  - '&2&l> &a&lPLAYER INFO'
+  - '&aMoney: &a$&7%vault_eco_balance_fixed%'
+  - '&7Rank: %vault_prefix%'
+  - '&2----------------'
+  - '&2&l> &a&lSERVER INFO'
+  - '&aOnline: &7%server_online% '
+  - '&aTime Played:'
+  - '&7%statistic_time_played%'
+  - '&2----------------'
+  - '&2&l> &a&lSKYBLOCK LVL'
+  - '&7Skyblock: &A%Level_bskyblock_island_level%' 
+  - '&7Acid Island: &A%Level_acidisland_island_level%' 
+  - '&2----------------'
+  - '&askyblock.apexmc.co'
+updater:
+  title: 3
+  text: 5
+enabledWorlds:
+  - bskyblockx_world
+  - bskyblockx_world_the_end
+  - bskyblockx_world_nether
+  - acidisland_world
+  - acidisland_world_nether
+  - acidisland_world_the_end
+  - hub
+  - SkyBlock
+  - SkyBlock_nether
+  - SkyBlock_the_end
+changeableText:
+  perm_info:
+    text:
+      - '&cscoreboard.default'
+      - '&7scoreboard.default'
+      - '&6scoreboard.default'
+      - '&bscoreboard.default'
+      - '&dscoreboard.default'
+    interval: 10
+scroller:
+  info:
+    text: '&eThis server is running on &e&lQuickBoard! &eThe &c&lbest free scoreboard system on &6&lSpigot!'
+    width: 28
+    spaceBetween: 4
+    update: 2

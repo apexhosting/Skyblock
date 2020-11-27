@@ -5,7 +5,7 @@
   "description": [
     "Everything starts with a simple cobblestone generator."
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: COBBLESTONE\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: COBBLESTONE\n",
   "order": 1,
   "challengeType": "ISLAND",
   "environment": [],
@@ -41,10 +41,10 @@
   "searchRadius": 10,
   "rewardText": "These tools will help you with some grind.",
   "rewardItems": [
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: STONE_PICKAXE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DIG_SPEED: 5\n      DURABILITY: 3\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: STONE_AXE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DIG_SPEED: 5\n      DURABILITY: 3\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: STONE_SHOVEL\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DIG_SPEED: 5\n      DURABILITY: 3\n",
-    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: STONE_HOE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n"
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: STONE_PICKAXE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DIG_SPEED: 5\n      DURABILITY: 3\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: STONE_AXE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DIG_SPEED: 5\n      DURABILITY: 3\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: STONE_SHOVEL\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DIG_SPEED: 5\n      DURABILITY: 3\n",
+    "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: STONE_HOE\n  meta:\n    ==: ItemMeta\n    meta-type: UNSPECIFIC\n    enchants:\n      DURABILITY: 3\n"
   ],
   "rewardExperience": 50,
   "rewardMoney": 0,

@@ -1,11 +1,27 @@
-#Основные сообщения
+######################################################
+# New messages added for UltimateStacker v1.11.3.    #
+#                                                    #
+# These translations were found untranslated, join   #
+# our translation Discord https://discord.gg/f7fpZEf #
+# to request an official update!                     #
+#                                                    #
+# event.egg.needmore                                 #
+# event.egg.sametype                                 #
+######################################################
 
-general.nametag.prefix = "&8[&6UltimateStacker&8]"
+general:
+  nametag:
+    prefix: '&8[&6UltimateStacker&8]'
+command:
+  give:
 
-#Ответы на команды
+    # Ответы на команды
+    success: '&7Вам было выдано &6%type%&7.'
+event:
+  general:
 
-command.give.success = "&7Вам было выдано &6%type%&7."
-
-#Ответы на события
-
-event.general.nopermission = "&cУ вас недостаточно прав."
+    # Ответы на события
+    nopermission: '&cУ вас недостаточно прав.'
+  egg:
+    needmore: '&7Вам нужно &6%amount% &7яиц для создания этого спавнера.'
+    sametype: '&7Этот тип моба &6%type% &7уже спавнится.'

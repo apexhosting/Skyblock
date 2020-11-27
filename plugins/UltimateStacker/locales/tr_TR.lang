@@ -1,4 +1,13 @@
-# General Messages
+######################################################
+# New messages added for UltimateStacker v1.11.3.    #
+#                                                    #
+# These translations were found untranslated, join   #
+# our translation Discord https://discord.gg/f7fpZEf #
+# to request an official update!                     #
+#                                                    #
+# event.egg.needmore                                 #
+# event.egg.sametype                                 #
+######################################################
 
 general:
   nametag:
@@ -13,3 +22,6 @@ event:
 
     # Event Messages
     nopermission: '&cBunu yapmaya iznin yok.'
+  egg:
+    needmore: '&7Bu spawneri dönüştürmek için &6%amount% &7tane daha canavar yumurtasına ihtiyacın var.'
+    sametype: '&7Bu spawner zaten &6%type% &7spawn ediyor.'

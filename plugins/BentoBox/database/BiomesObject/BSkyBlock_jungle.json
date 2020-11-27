@@ -5,7 +5,7 @@
   "description": [
     "All snow and ice must go!"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2227\n  type: COCOA_BEANS\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: COCOA_BEANS\n",
   "order": -1,
   "requiredLevel": 0,
   "requiredCost": 100,
