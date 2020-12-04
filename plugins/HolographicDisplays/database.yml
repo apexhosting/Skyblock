@@ -3,6 +3,7 @@ skyblock:
   lines:
   - '&7[&e⚡&7]&a&lSKYBLOCK&7[&e⚡&7]'
   - '&7Welcome to our classic Skyblock!'
+  - '&7Use &a/warp sky &7to return here!'
 i1:
   location: hub, 11.378, 101.556, -6.616
   lines:
@@ -117,6 +118,7 @@ acidwelcome:
   lines:
   - '&7[&b⚡&7] &b&lACID &7&lISLAND &7[&B⚡&7]'
   - '&bGet ready for a real challenge!'
+  - '&7Use &b/warp acid &7to return here!'
 i21:
   location: acidisland_world, -16.768, 60.098, 3.633
   lines:

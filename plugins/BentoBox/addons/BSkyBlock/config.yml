@@ -92,10 +92,10 @@ world:
     dragon-spawn: false
   # Mob white list - these mobs will NOT be removed when logging in or doing /island
   remove-mobs-whitelist:
-  - ZOMBIE_VILLAGER
   - ENDERMAN
-  - PIG_ZOMBIE
   - WITHER
+  - ZOMBIE_VILLAGER
+  - PIG_ZOMBIE
   # World flags. These are boolean settings for various flags for this world
   flags:
     HURT_ANIMALS: false
@@ -179,14 +179,14 @@ world:
     END_PORTAL: 500
     BREEDING: 500
     HURT_VILLAGERS: 500
-    FROST_WALKER: 500
     TURTLE_EGGS: 500
+    FROST_WALKER: 500
     COLLECT_LAVA: 500
     LEVER: 500
     HURT_MONSTERS: 0
     RIDING: 500
-    ARMOR_STAND: 500
     NAME_TAG: 500
+    ARMOR_STAND: 500
     TRADING: 0
     EGGS: 500
     ITEM_DROP: 0
@@ -224,8 +224,8 @@ world:
   # These are the default settings for new islands
   default-island-settings:
     PVP_END: false
-    ANIMAL_SPAWN: true
     PVP_NETHER: false
+    ANIMAL_SPAWN: true
     MONSTER_SPAWN: true
     FIRE_SPREAD: true
     PVP_OVERWORLD: false

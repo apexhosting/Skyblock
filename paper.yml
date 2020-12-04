@@ -10,9 +10,13 @@
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
+allow-perm-block-break-exploits: false
 verbose: false
 config-version: 20
 settings:
+  console-has-all-permissions: false
+  max-joins-per-tick: 3
+  chunk-tasks-per-tick: 1000
   load-permissions-yml-before-plugins: true
   bungee-online-mode: true
   region-file-cache-size: 256
@@ -28,7 +32,7 @@ settings:
     secret: ''
   async-chunks:
     enable: true
-    load-threads: -1
+    threads: -1
   watchdog:
     early-warning-every: 5000
     early-warning-delay: 10000
@@ -38,6 +42,8 @@ settings:
   book-size:
     page-max: 2560
     total-multiplier: 0.98
+  unsupported-settings:
+    allow-piston-duplication: false
 messages:
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
@@ -58,6 +64,12 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    phantoms-do-not-spawn-on-creative-players: true
+    phantoms-only-attack-insomniacs: true
+    light-queue-size: 20
+    iron-golems-can-spawn-in-air: false
+    zombie-villager-infection-chance: -1.0
+    delay-chunk-unloads-by: 10s
     seed-based-feature-search: true
     portal-create-radius: 16
     falling-block-height-nerf: 0
@@ -111,6 +123,7 @@ world-settings:
       soft: 32
       hard: 128
     game-mechanics:
+      nerf-pigmen-from-nether-portals: false
       scan-for-legacy-ender-dragon: true
       disable-pillager-patrols: false
       disable-unloaded-chunk-enderpearl-exploit: true
@@ -120,6 +133,14 @@ world-settings:
       disable-player-crits: false
       disable-sprint-interruption-on-attack: false
       disable-relative-projectile-velocity: false
+      pillager-patrols:
+        spawn-chance: 0.2
+        spawn-delay:
+          per-player: false
+          ticks: 12000
+        start:
+          per-player: false
+          day: 5
     max-growth-height:
       cactus: 3
       reeds: 3
@@ -175,3 +196,5 @@ world-settings:
       - oak_planks
     generator-settings:
       flat-bedrock: false
+    viewdistances:
+      no-tick-view-distance: -1

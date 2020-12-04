@@ -258,6 +258,49 @@
       null,
       null,
       null
+    ],
+    "world": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   "health": {
@@ -266,7 +309,8 @@
     "bskyblockx_world": 20.0,
     "hub": 20.0,
     "SkyBlock": 20.0,
-    "acidisland_world": 20.0
+    "acidisland_world": 20.0,
+    "world": 20.0
   },
   "food": {
     "World": 20,
@@ -274,7 +318,8 @@
     "bskyblockx_world": 20,
     "hub": 20,
     "SkyBlock": 20,
-    "acidisland_world": 19
+    "acidisland_world": 19,
+    "world": 20
   },
   "exp": {
     "World": 1,
@@ -282,7 +327,8 @@
     "bskyblockx_world": 1,
     "hub": 0,
     "SkyBlock": 0,
-    "acidisland_world": 6
+    "acidisland_world": 6,
+    "world": 0
   },
   "location": {
     "World": [
@@ -310,12 +356,12 @@
       -1.436847448348999
     ],
     "SkyBlock": [
-      "hub",
-      4.1392716881812985,
-      99.0,
-      0.07043502795731492,
-      150.38621520996094,
-      11.545181274414062
+      "world",
+      192.0,
+      83.0,
+      -80.0,
+      173.0263671875,
+      0.0
     ],
     "acidisland_world": [
       "SkyBlock",
@@ -324,6 +370,14 @@
       -40.5,
       -144.2890167236328,
       2.968613862991333
+    ],
+    "world": [
+      "SkyBlock",
+      -14.0,
+      73.0,
+      3.0,
+      0.5491722226142883,
+      0.0
     ]
   }
 }
