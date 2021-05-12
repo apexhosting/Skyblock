@@ -270,27 +270,3 @@ groups:
       suffix: '&c'
 schema-version: 1
 users:
-  c0a68af6-e4ee-4b2b-b6bd-4287d97f0755:
-    permissions:
-    - '*'
-    options:
-      name: robert_beckley
-  allndev:
-    permissions:
-    - '*'
-  bdc83502-6d75-4c26-a633-729e9ed81aee:
-    permissions: []
-    options:
-      name: AllanDev
-  040b9245-aecb-49ba-a25f-b4a7cc544437:
-    options:
-      name: ObitoNamikaze
-  7e418993-7482-43b2-a8f6-740d6a308ce5:
-    permissions:
-    - '*'
-    options:
-      name: LordSherman
-  f0e7f028-4955-4dc8-8e40-d334ef0bd19a:
-    permissions: []
-    options:
-      name: AllanStrat
