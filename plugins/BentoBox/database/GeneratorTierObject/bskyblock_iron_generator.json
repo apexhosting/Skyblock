@@ -1,0 +1,35 @@
+{
+  "uniqueId": "bskyblock_iron_generator",
+  "friendlyName": "&r&lIron Generator",
+  "description": [
+    "&7 There is something",
+    "&7 usefull."
+  ],
+  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_ORE\n",
+  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BARRIER\n",
+  "generatorType": "COBBLESTONE_OR_STONE",
+  "defaultGenerator": false,
+  "priority": 2,
+  "requiredMinIslandLevel": 50,
+  "requiredBiomes": [],
+  "requiredPermissions": [],
+  "generatorTierCost": 5.0,
+  "activationCost": 0.0,
+  "deployed": true,
+  "blockChanceMap": {
+    "40.0": "COBBLESTONE",
+    "65.0": "STONE",
+    "70.0": "GRAVEL",
+    "71.0": "GRANITE",
+    "72.0": "DIORITE",
+    "73.0": "ANDESITE",
+    "88.0": "COAL_ORE",
+    "100.0": "IRON_ORE"
+  },
+  "treasureChanceMap": {},
+  "treasureItemChanceMap": {
+    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GOLD_NUGGET\n"
+  },
+  "treasureChance": 0.001,
+  "maxTreasureAmount": 1
+}

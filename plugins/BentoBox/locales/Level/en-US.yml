@@ -5,6 +5,11 @@ admin:
   level:
     parameters: <player>
     description: calculate the island level for player
+    sethandicap:
+      parameters: <player> <handicap>
+      description: set the island handicap, usually the level of the starter island
+      changed: '&a Initial island handicap changed from [number] to [new_number].'
+      invalid-level: '&c Invalid handicap. Use an integer.'
   top:
     description: show the top ten list
     unknown-world: '&cUnknown world!'
@@ -12,6 +17,9 @@ admin:
     remove:
       description: remove player from Top Ten
       parameters: <player>
+  levelstatus:
+    description: show how many islands are in the queue for scanning
+    islands-in-queue: '&a Islands in queue: [number]'
 island:
   level:
     parameters: '[player]'
@@ -21,6 +29,10 @@ island:
     required-points-to-next-level: '&a[points] points required until the next level'
     deaths: '&c([number] deaths)'
     cooldown: '&cYou must wait &b[time] &cseconds until you can do that again'
+    estimated-wait: '&a Estimated wait: [number] seconds'
+    in-queue: '&a You are number [number] in the queue'
+    in-progress: '&6 Island level calculation is in progress...'
+    time-out: '&c The level calculation took too long. Please try again later.'
   top:
     description: show the Top Ten
     gui-title: '&aTop Ten'
@@ -33,3 +45,12 @@ island:
     success-underwater: '&7The value of this block below sea-level: &e[value]'
     empty-hand: '&cThere are no blocks in your hand'
     no-value: '&cThat item has no value.'
+  level-details:
+    above-sea-level-blocks: Above Sea Level Blocks
+    spawners: Spawners
+    underwater-blocks: Underwater Blocks
+    all-blocks: All Blocks
+    no-island: '&c No island!'
+    names-island: '[name]''s island'
+    syntax: '[name] x [number]'
+    hint: '&c Run level to see the block report'

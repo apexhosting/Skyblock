@@ -1,0 +1,30 @@
+{
+  "uniqueId": "bskyblock_starting_nether_generator",
+  "friendlyName": "&r&lStarting Nether Generator",
+  "description": [
+    "&7 The soulsand and ice",
+    "&7 now creates netherrack."
+  ],
+  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BASALT\n",
+  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BARRIER\n",
+  "generatorType": "BASALT",
+  "defaultGenerator": true,
+  "priority": 1,
+  "requiredMinIslandLevel": 0,
+  "requiredBiomes": [],
+  "requiredPermissions": [],
+  "generatorTierCost": 0.0,
+  "activationCost": 0.0,
+  "deployed": true,
+  "blockChanceMap": {
+    "80.0": "BASALT",
+    "99.0": "NETHERRACK",
+    "100.0": "GRAVEL"
+  },
+  "treasureChanceMap": {},
+  "treasureItemChanceMap": {
+    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GOLD_NUGGET\n"
+  },
+  "treasureChance": 0.001,
+  "maxTreasureAmount": 1
+}

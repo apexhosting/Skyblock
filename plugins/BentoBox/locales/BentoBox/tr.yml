@@ -27,8 +27,16 @@ general:
     wrong-world: '&4Bu komudu kullanmak için adanda olmalısın!'
     you-must-wait: '&4Komut yazabilmek için &e[number] &4saniye beklemelisin!'
     must-be-positive-number: '&e[number] &4bu pozitif bir sayı değil!'
+    insufficient-rank: '&c Rankınız bunu yapacak kadar yüksek değil! (& 7 [rank] &
+      c)'
+    no-safe-location-found: '&4Adanda korumalı bölge bulunamadı!'
+    player-is-not-owner: '&d[name] &cbir adaya sahip değil!'
   tips:
     changing-obsidian-to-lava: '&9Obsidyen lava dönüştü dostum bu bir harika!'
+  worlds:
+    overworld: Overworld
+    nether: Nether
+    the-end: The End
 commands:
   help:
     header: '&eYardım'
@@ -46,9 +54,22 @@ commands:
       set:
         description: Oyuncunun ada sıfırlamasını ayarla.
         parameters: <player> <resets>
+        success: '&d[name] &5oyuncusunun sıfırlama hakkı &e[number] &5yapıldı.'
       reset:
         description: Oyuncunun ada sıfırlamasını sıfırla.
         parameters: <player>
+        success-everyone: Herkesin ada sıfırlama hakkı &e0 &ayapıldı.
+        success: '&d[name] &9oyuncusunun sıfırlama hakkı &e0 &9yapıldı.'
+      add:
+        description: Oyuncuya sıfırlama hakkı ekler.
+        parameters: <oyuncur> <reset sayısı>
+        success: '&d[name] &9oyuncusuna &a[number] &9sıfırlama hakkı eklendi. Toplam
+          hakkı: &5[total]'
+      remove:
+        description: Oyuncunun sıfırlama haklarını siler.
+        parameters: <oyuncur> <reset sayısı>
+        success: '&d[name] &5oyuncusundan &a[number] sıfırlama hakkı silindi. Toplam
+          hakkı: &5[total]'
     team:
       add:
         parameters: <owner> <player>
@@ -74,6 +95,16 @@ commands:
         description: Oyuncuya ada liderligini ver!
         already-owner: '&d[name] &4zaten ada sahibi!'
         success: '&d[name] &bartık adanın sahibi!'
+      fix:
+        description: Veritabanındaki adalar arası üyeliği tarar ve düzeltir
+        scanning: Veritabanı taranıyor ...
+        duplicate-owner: '&c Oyuncunun veritabanında birden fazla adası var: [name]'
+        player-has: '&c Oyuncu [name], [number] adaya sahip'
+        fixed: '&a Sabit'
+        done: '&a Tarama'
+        duplicate-member: '&c [name],  veri tabanında bulunan birden fazla adanın
+          üyesi'
+        rank-on-island: '&c [rank] adada [xyz]'
     range:
       description: Admin ada menzili ayarlama
       display:
@@ -99,6 +130,18 @@ commands:
         parameters: <player>
         description: Adayı dünyanın varsayılan koruma bölgesine göre sıfırla.
         success: '&2Adanın koruma aralığı sfırlanarak &e[number] &2olarak ayarlandı!'
+      invalid-value:
+        too-low: '&4Koruma aralığı 1''''den büyük olmalıdır!'
+        too-high: '&4Koruma aralığı &5[number] &4büyük ya da küçük olmalıdır!'
+        same-as-before: '&4Koruma aralığı zaten &5[number] &4olarak ayarlandı!'
+      add:
+        description: Ada koruma menzilini artırır.
+        parameters: <oyuncu> <menzil boyutu>
+        success: '&d[name] &6koruma alanı &a+[number] &6artırıldı. &6Toplam alan &5[total]'
+      remove:
+        description: Ada koruma menzilini azaltır.
+        parameters: <oyuncu> <menzil boyutu>
+        success: '&d[name] &6koruma alanı &a-[number] &6azaltıldı. &6Toplam alan &5[total]'
     register:
       parameters: <player>
       description: Sahipsiz adalara oyuncu ver.
@@ -108,6 +151,9 @@ commands:
       in-deletion: '&4Ada şuanda siliniyor daha sonra tekrar dene!'
       cannot-make-island: '&5Buraya ada yerleştirilemiyor. Lütfen detaylı bilgi için
         konsola bakınız!'
+      reserved-island: '&5[xyz] &9koordinatlarındaki ada oyuncuya ayrıldı.'
+      island-is-spawn: '&6Başlangıç adası, buna emin misiniz ?Kabul etmek için komutu
+        tekrar girin!'
     unregister:
       parameters: <owner>
       description: Oyuncuyu adadan siler ama ada silinmez.
@@ -136,6 +182,7 @@ commands:
       banned-players: '&b Banlanan oyuncular:'
       banned-format: '&4[name]'
       unowned: '&eBilinmiyor'
+      purge-protected: Bu ada silinmelere karşı korunuyor.
     switch:
       description: Koruma izinlerine açma/kapama
       op: '&cSen zaten tüm korumalardan izinlisin. Yetkini aldıktan sonra tekrar dene.'
@@ -185,6 +232,7 @@ commands:
       description: Olduğun ada üstündeki oyuncuya yetkisini ayarlar
       unknown-rank: '&4Bilinmeyen rütbe!'
       rank-set: '&aRütbe &c[from]&a''dan &e[to] &ayükseltildi.'
+      not-possible: '&cRütbe türü ziyaretçiden yüksek olmalıdır.'
     setspawn:
       description: Dünyanın adanın spawlanacağı bölgeyi seçer.
       already-spawn: '&cBu ada zaten spawnalacak bölgede.'
@@ -279,9 +327,29 @@ commands:
         slot-instructions: |
           &aArtırmak için sol
           &aAzaltmak için sağ tıklayın.
+        no-trash: Çöp Kutusu olamaz
+        no-trash-instructions: Varsayılan grup çöp kutusuna atılamaz
+        no-permission: İzin yok
+        no-perm-required: Varsayılan paket için izin ayarlanamaz
+      delete:
+        parameters: <isim>
+        description: Şematik siler.
+        no-blueprint: '&5[name] &cbulunamadı!'
+        confirmation: |-
+          &cBu şematiği silmek istediğine emin misin?
+          &cSilinirse geri dönüşü olmaz!
+        success: '&5[name] &6şematiği silindi.'
+      rename:
+        parameters: <şematik isim> <yeni isim>
+        description: Şematik ismi değiştirir.
+        success: '&a[old] &9şematiğinin ismi &5[name] &9olarak değiştirildi.'
+        pick-different-name: '&cLütfen şuanki adından farklı bir isim girin.'
     resetflags:
       description: Config.yml'deki tüm adaları varsayılan etiket ayarlarına sıfırla
       success: '&aBaşarıyla tüm adalar varsayılan etiket ayarlarına döndü.'
+      parameters: '[flag]'
+      confirm: '&4Bu adanın tüm ayarlarını sıfırlayacaktır!'
+      success-one: '&d[name] &aada ayarları sıfırlandı.'
     world:
       description: Dünya ayarlarını yönet"
     delete:
@@ -304,6 +372,56 @@ commands:
         description: Oyuncuların ölmesin sayısını ayarlar.
         parameters: <player> <deaths>
         success: '&aBaşarıyla &d[name]&a ölüm skorlarını &e[number] &aolarak ayarladın.'
+      add:
+        description: Oyuncuya ölme sayısı ekler.
+        parameters: <oyuncu> <ölme sayısı>
+        success: '&d[name] &5oyuncusunun ölme sayısına &a[number] &5eklendi. Toplam
+          ölme sayısı: &5[total]'
+      remove:
+        description: Oyuncunun ölme sayısını siler.
+        parameters: <oyuncu> <ölme sayısı>
+        success: '&d[name] &5oyuncusunun ölme sayısından &a[number] &5silindi. Toplam
+          ölme sayısı: &5[total]'''
+    purge:
+      parameters: '[gün]'
+      description: Belirlediğiniz süreden uzun olan adaları siler.
+      days-one-or-more: Gün sayısı 1 veya daha uzun olmalıdır.
+      purgable-islands: '&e[number] &5silinebilecek ada bulundu!'
+      purge-in-progress: '&cTemizleme devam ediyor. Durdurmak için durdurma komutunu
+        kullanın.'
+      number-error: '&cGün sayısını yazmalısınız.'
+      confirm: '&6Ada temizlemesini başlatmak için onaylayın: &5[label] purge confirm'
+      completed: '&cTemizleme durduruldu.'
+      see-console-for-status: |-
+        Temizleme başlatıldı. İlerlemeyi
+                görmek için konsola bakınız.
+      no-purge-in-progress: '&c Şu anda devam eden bir temizleme işlemi yok.'
+      protect:
+        description: Adanın anti-silinmesini kapat/aç.
+        move-to-island: '&cİlk önce adaya git!'
+        protecting: '&9Ada artık silinmelere karşı korunuyor.'
+        unprotecting: '&cAda artık silinmelere karşı korunmuyor.'
+      stop:
+        description: Devam eden temizlemeyi durdurur.
+        stopping: Temizleme durduruldu.
+        no-purge-in-progress: '&cDevam eden bir temizleme işlemi yok.'
+      unowned:
+        description: Sahipsiz adaları temizler.
+        unowned-islands: '&a[number] &5silinebilecek ada bulundu!'
+      status:
+        description: temizlemenin durumunu gösterir
+        status: '&b [purgeable] &a adadan &b [purged]''si temizlendi &7(&b[percentage]
+          %&7)&a.'
+    setspawnpoint:
+      description: mevcut konumu bu ada için doğma noktası olarak ayarla
+      no-island-here: '&c Burada ada yok.'
+      confirmation: '&c Bu konumu bu adanın yumurtlama noktası olarak ayarlamak istediğinizden
+        emin misiniz?'
+      success: '&a Bu konumu, bu adanın doğma noktası olarak başarıyla ayarlayın.'
+      island-spawnpoint-changed: '&a [user] bu adanın doğma noktasını değiştirdi.'
+    settings:
+      parameters: '[oyuncu]'
+      description: Sunucu dünya ayarları veya oyuncu ada ayarlarını aç.
   bentobox:
     description: BentoBox admin komudu
     about:
@@ -317,6 +435,10 @@ commands:
       addon: '&e[name] &bgüncelleniyor.'
       addon-reloaded: '&e[name] &bgüncellendi!'
       unknown-addon: '&4Bilinmeyen eklenti!'
+      warning: '&cDikkat bu tüm eklentileri güncellemektedir. Eğer konsolda bir hata
+        alırsanız restart atmalısınız.'
+      locales:
+        description: yerel ayarları yeniden yükler
     version:
       plugin-version: '&bBentoBox sürümü: &3[version]'
       description: Bilgi verir.
@@ -325,6 +447,8 @@ commands:
       addon-syntax: '&2[name] &3[version]'
       game-worlds: '&2[name] &3([addon])'
       server: '&2Sunucu &3[name] [version] &2sürümünde çalışıyor.'
+      game-world: '&2 [name] &7 (&3 [addon]&7 ): &3 [worlds]'
+      database: '&2 Database: &3 [database]'
     manage:
       description: Ayarlar panelini açar.
     catalog:
@@ -369,6 +493,15 @@ commands:
       creating-island: '&9Adan oluşturuluyor, birazcık bekle!'
       pick: '&9Ada gözükmüyorsa &e/ada'
       unknown-schem: '&4Taslak yüklenemedi!'
+      cannot-create-island: '&cZamanında bir yer bulunamadı, lütfen tekrar deneyin...'
+      pasting:
+        estimated-time: '&9Tahmini oluşturulma süresi &8- &a[number] &9saniye.'
+        blocks: '&9İnşaat edilen blok sayısı &8 - &a[number]'
+        entities: '&9Entegre edilen varlık sayısı &8- &a[number]'
+        done: '&5Adan başarıyla oluşturuldu!'
+      unknown-blueprint: '&cŞematik henüz yüklenemedi.'
+      on-first-login: '&9Hoşgeldin, adan bir kaç saniye içerisinde hazır olacaktır!'
+      you-can-teleport-to-your-island: '&6İstediğiniz zaman adanıza ışınlanabilirsiniz.'
     info:
       description: Ada hakkında bilgi verir.
       parameters: <player>
@@ -389,6 +522,11 @@ commands:
         kick <player>).'
       none-left: '&4Sıfırlama hakkın kalmadı!'
       resets-left: '&e[number] &4sıfırlama hakkın kaldı!'
+      confirmation: |-
+        &cBunu yapmak istediğine emin misin?
+        &cAdadaki herkes atılacak ve onlara tekrardan adaya davet isteği atmalısın.
+        &cBu işlemin geri dönüşü yok!
+      kicked-from-island: '&cAdadan atıldın. Çünkü ada sahibi adayı sıfırladı.'
     sethome:
       description: Oldugun noktaya ev olarak kaydeder
       must-be-on-your-island: '&4Önce adanda olmalısın!'
@@ -406,12 +544,31 @@ commands:
       name-too-short: '&4Cok kısa. En az &e[number] &4karakter olabilir!.'
       name-too-long: '&4Cok uzun. En uzun &E[number] &4olabilir.'
       parameters: <name>
+      name-already-exists: '&cBöyle bir isim zaten bulunmakta.'
+      success: '&9Yeni ada ismin &8- &a[name]'
     resetname:
       description: Ada ismini resetle.
+      success: '&9Ada ismini başarıyla sıfırladın.'
     team:
       description: Takımını yönet!
       info:
         description: Takımında hakkın detayli bilgi verir!
+        member-layout:
+          online: '&a &l  o &r &f [name]'
+          offline: '&c &l  o &r &f [name] &7 ([last_seen])'
+          offline-not-last-seen: '&c &l  o &r &f [name]'
+        last-seen:
+          layout: '&b[number] &7[unit] önce'
+          days: gün
+          hours: saat
+          minutes: dakika
+        header: |-
+          &5Ada takımı
+          &9Üye sayısı &8- &a[total]&8/&5[max]
+          &9Aktif üyeler &8- &a[online]
+        rank-layout:
+          owner: '&6 [rank]:'
+          generic: '&6 [rank] &7 (&b [number]&7 )&6 :'
       coop:
         description: Adana işçi ekle!
         parameters: <player>
@@ -419,6 +576,7 @@ commands:
         already-has-rank: '&4Oyuncu zaten isci!'
         you-are-a-coop-member: '&d[name] &bseni işçi olarak adanasına aldı!'
         success: '&d[name] &9işçi olarak ekledin.'
+        name-has-invited-you: '&d[name] &6adanda işçi olarak çalışman için istek yolladı.'
       uncoop:
         description: İşçiyi adandan çıkar
         parameters: <player>
@@ -429,6 +587,7 @@ commands:
         all-members-logged-off: '&4Tum ada oyuncuları cevrımdısı. Isci yetkin &e[name]&4adasından
           alındı!'
         success: '&d[name] &a9artık adanda işçi değil!'
+        is-full: '&c Başkasını kooperatif üyesi yapamazsınız.'
       trust:
         description: Adana arkadas ekle
         parameters: <player>
@@ -437,6 +596,9 @@ commands:
         player-already-trusted: '&4Oyuncu zaten arkadas!'
         you-are-trusted: '&e[name] &bseni arkadaş olarak ekledi!'
         success: '&d[name] &9arkadaş olarak eklendin!'
+        name-has-invited-you: '&d[name] &6adanda arkadaş olarak katılman için istek
+          yolladı!'
+        is-full: '&c Başkasına güvenemezsiniz.'
       untrust:
         description: Arkadaslık yetkisini kaldır!
         parameters: <player>
@@ -461,6 +623,7 @@ commands:
           you-already-are-in-team: '&4Zaten bir takımdasın!'
           already-on-team: '&4Oyuncu zaten takımda!'
           invalid-invite: '&4Davet suresi bitti, uzgunum.'
+          you-have-already-invited: '&cOyuncuyu zaten davet ettin.'
         parameters: <player>
         you-can-invite: '&e[number] &bdaha oyuncu davet edebilirsin!'
         accept:
@@ -493,6 +656,8 @@ commands:
         parameters: <player>
         failure: '&4Oyuncunun rankı daha fazla düşürelemiyor!'
         success: '&d[name] &crütbesi &e[rank] &cdüşürüldü.'
+        errors:
+          cant-demote-yourself: '&cKendi rütbeni düşüremezsin!'
       promote:
         description: Adandaki üyelerin yetkisini yükselt.
         parameters: <player>
@@ -534,6 +699,9 @@ commands:
       description: Ada ayarları
     language:
       description: Dili seç.
+      parameters: '[dil]'
+      not-available: '&c Bu dil mevcut değil.'
+      already-selected: '&c Zaten bu dili kullanıyorsunuz.'
     expel:
       description: Adandan bir misafiri at.
       parameters: <player>
@@ -543,6 +711,11 @@ commands:
       not-on-island: '&4Bu misafir şuanda adanda değil!'
       player-expelled-you: '&d[name] &4seni adadan attı!'
       success: '&d[name] &9oyuncusunu adadan attın!'
+      cannot-expel-member: '&cBir ekip üyesini sınır dışı edemezsiniz!'
+  delay:
+    previous-command-cancelled: '&cÖnceki komut iptal edildi.'
+    stand-still: '&6Sakın hareket etme. &e[seconds] &6saniye içerisinde ışınlanacaksın.'
+    moved-so-command-cancelled: '&cHareket ettin. Işınlanma bozuldu!'
 ranks:
   owner: Ada-Sahibi
   sub-owner: Yardımcı
@@ -719,6 +892,8 @@ protection:
       name: Giriş/çıkış mesajları
       now-entering: '&d[name] &badasına girdin!'
       now-leaving: '&d[name] &badasından çıktın!'
+      now-entering-your-island: '&aAdana giriş yaptın.'
+      now-leaving-your-island: '&aAdandan çıktın.'
     EXPERIENCE_BOTTLE_THROWING:
       name: XP şisesi fırlatması
       description: XP şişe fırlatılmasını değiş.
@@ -862,6 +1037,8 @@ protection:
         &aLav'dan dönüşmüş
         &aobsidyeni kovayla sağ tıkladığınızda
         &ageri alıp alamadığınızı ayarlar.
+      scooping: '&6Obsidyen lava dönüştürüldü, daha dikkatli ol!'
+      obsidian-nearby: '&cEtrafta başka obsidyenler varken bu obsidyeni lava dönüştüremezsin!'
     OFFLINE_GROWTH:
       description: |-
         &aEğer deaktif olursa
@@ -905,15 +1082,21 @@ protection:
       description: '&cEND''de PVP''yi ayarlar.'
       name: End PVP
       hint: END'de PVP'ye izin verilmez.
+      enabled: '&cPVP END dünyasında etkin!'
+      disabled: '&aPVP END dünyasında etkin değil!'
     PVP_NETHER:
       description: '&cNether''da PVP''yi ayarlar.'
       name: Nether PVP
       hint: Nether'da PVP'ye izin verilmez.
+      enabled: '&cPVP Nether dünyasında etkin!'
+      disabled: '&aPVP Nether dünyasında etkin değil!'
     PVP_OVERWORLD:
       description: '&cAda''da PVP''yi ayarlar.'
       name: Ada pvp
       hint: '&4PVP burada aktif değil!'
       active: '&9PVP burada aktif!'
+      enabled: '&cPVP dünyada etkin!'
+      disabled: '&aPVP dünyada etkin değil!'
     REDSTONE:
       description: Kullanımı değiş.
       name: Kızıltaş eşyaları
@@ -979,6 +1162,64 @@ protection:
         &aOyuncular adadan aşağa düşerken
         &aadaya geri dönme komudunu engeller.
       hint: '&cAdandan aşağaya düşerken adana geri ışınlanamazsın!'
+    ANIMAL_NATURAL_SPAWN:
+      description: Doğal hayvan yumurtlamasını aç / kapat
+      name: Hayvan doğal yumurtlama
+    ANIMAL_SPAWNERS_SPAWN:
+      description: Hayvan yumurtlamasını yumurtlayanlarla aç / kapat
+      name: Hayvan yumurtlayanlar
+    BREAK_SPAWNERS:
+      description: |-
+        Yumurtlayanların kırılmasını aç / kapat.
+        Blokları Kırma bayrağını geçersiz kılar.
+      name: Yumurtlayanları kır
+      hint: Çıkma yeri kırma devre dışı
+    BREAK_HOPPERS:
+      description: |-
+        Hazneleri kırmayı aç / kapat.
+        Blokları Kırma bayrağını geçersiz kılar.
+      name: Hazneleri kır
+      hint: Hoppers kırma devre dışı
+    CAKE:
+      description: Kek yemesini kapatır/açar.
+      name: Kekler
+      hint: Kek yemesi kapalı.
+    LECTERN:
+      name: Kürsü
+      description: |-
+        &aOyuncunun kürsüden kitap
+        &aalıp alamayacağını ayarlar.
+
+        &cKitabı okumasını engellemez.
+      hint: Kürsü üzerine kitap koyamaz veya kitap alınamaz.
+    LIMIT_MOBS:
+      description: |-
+        &aVarlıkların doğmasını
+        &alimitler.
+      name: '&eVarlıkları sınırla'
+      can: '&aDoğabilir.'
+      cannot: '&cDoğamaz.'
+    MONSTER_NATURAL_SPAWN:
+      description: Doğal canavar yumurtlamasını aç / kapat
+      name: Canavar doğal yumurtlama
+    MONSTER_SPAWNERS_SPAWN:
+      description: Yumurtlayıcılarla canavar yumurtlamasını aç / kapat
+      name: Canavar yumurtlayanlar
+    SPAWNER_SPAWN_EGGS:
+      description: '&aCanlandırıcı yumurtalarının kullanabilirliğini ayarlar.'
+      name: Spawnerlarda yumurta kullanımı
+      hint: Canlandırma yumurtası kullanılarak spawner içeriğini değiştirilemez.
+    WITHER_DAMAGE:
+      name: Wither hasarını ayarlar.
+      description: |-
+        &aEğer etkin olursa oyunculara
+        &ave adalara hasar verebilir.
+    WORLD_TNT_DAMAGE:
+      description: |-
+        &a TNT ve TNT minecarts'ın blokları
+        &a kırmasına ve ada sınırları dışındaki
+        &a varlıklara zarar vermesine izin verin.
+      name: Dünya TNT hasarı
   locked: '&4Bu ada kilitli!'
   protected: '&4Ada korunuyor: [description]'
   spawn-protected: '&4Spawn koruması: [description]'
@@ -1010,6 +1251,25 @@ protection:
         &7Geçerli ayar: [setting]
       setting-active: '&9Aktif'
       setting-disabled: '&4Deaktif'
+      setting-cooldown: '&cAyar bekleme süresinde!'
+    mode:
+      advanced:
+        name: '&6Gelişmiş Ayarlar'
+        description: '&aMakul miktarda ayar görüntüler.'
+      basic:
+        name: '&aTemel Ayarlar'
+        description: '&aİşe yarayan ayarları görüntüler.'
+      expert:
+        name: '&cUzman Ayarları'
+        description: '&aMevcut tüm ayarları görüntüler.'
+      click-to-switch: '&6Tıkla ve modu &5[next] &6olarak değiş.'
+    reset-to-default:
+      name: '&cAyarları sıfırla!'
+      description: '&aTüm ada ayarlarını sıfırlar.'
+    WORLD_DEFAULTS:
+      title: '&5[world_name] &6Dünya ayarı'
+      description: '&aOyuncu adasının dışındayken koruma ayarları'
+  world-protected: '&cDünya korunuyor: [description]'
 language:
   panel-title: Dilini seç
   description:
@@ -1049,6 +1309,9 @@ management:
       empty-here:
         name: '&bBurası boş gibi gözüküyor...'
         description: '&aKataloğumuza bakarsanız ne olur?'
+      credits:
+        name: '&6Emeği geçenler'
+        description: '&aEmeği geçenleri gösterir.'
     information:
       state:
         name: '&6Uyumluluk'
@@ -1109,3 +1372,17 @@ successfully-loaded: |2
   &6 |  _ < / _ \ '_ \| __/ _ \|  _ < / _ \ \/ /  &bYapımcısı : &atastybento &band &ePoslovitch
   &6 | |_) |  __/ | | | || (_) | |_) | (_) >  <   &bVersiyon &e[version]
   &6 |____/ \___|_| |_|\__\___/|____/ \___/_/\_\  &e[time] &bsaniyede yüklendi!
+prefixes:
+  bentobox: '&6 BentoBox &7 &l > &r '
+panel:
+  credits:
+    title: '&8[name] &2Emeği geçenler'
+    contributor:
+      name: '&a[name]'
+      description: '&a Commits: &b [commits]'
+    empty-here:
+      name: '&cBurası boş gibi gözüküyor...'
+      description: |-
+        &e● &cBentoBox bu Eklenti için Katkıda\n&cBulunanları &ctoplayamadı\
+                .\n&f\n&e● &aBentoBox'ın yapılandırmada GitHub'a\n&abağlanmasına izin verin\
+                \ veya daha \n&asonra tekrar deneyin.\n

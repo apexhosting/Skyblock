@@ -40,6 +40,7 @@ commands:
           quit: quit
           instructions: 为 [name] 键入一个多行文本描述，最后请用一行 quit 来结束。
           cancelling: 正在取消
+          default-color: '&7'
         name:
           success: 成功！
           quit: quit
@@ -71,6 +72,10 @@ commands:
         new-bundle-instructions: 点击以创建新蓝图包
         slot: '&f偏好槽位 [number]'
         slot-instructions: ' &a左键点击以增加 &a右键点击来减少'
+        no-trash: '&8&l垃圾桶'
+        no-trash-instructions: '&c不能删除预置蓝图方案'
+        no-permission: '&f&l不需要权限'
+        no-perm-required: '&c不能为预置的蓝图方案设置权限'
       no-such-file: '&c文件不存在！'
       parameters: <load/copy/paste/pos1/pos2/save>
       save:
@@ -97,6 +102,17 @@ commands:
         description: 设置立体剪贴板的首位置
       pos2:
         description: 设置立体剪贴板的尾位置
+      delete:
+        parameters: <name>
+        description: 删除蓝图
+        no-blueprint: '&c蓝图 &b[name] &c不存在！'
+        confirmation: '&c请注意， 蓝图删除后将无法恢复！ 您确定要删除吗？'
+        success: '&a成功删除了蓝图 &b[name] &a。'
+      rename:
+        parameters: <blueprint name> <new name>
+        description: 重命名蓝图文件
+        success: '&a蓝图文件 &b[old] &a已被重命名为 &b[name] &a。'
+        pick-different-name: '&c该蓝图名称已存在， 请指定一个不同的名称。'
     clearresetsall:
       description: 清空所有玩家在这个世界的重制次数
     clearresets:
@@ -113,6 +129,18 @@ commands:
         description: 设定玩家的死亡次数
         success: ' &a成功设定玩家 &b[name]&a 的死亡次数到 &b[number]&a。'
       description: 编辑玩家的死亡次数
+      add:
+        description: 增加玩家的死亡次数
+        parameters: <player> <deaths>
+        success: |-
+          &a成功将玩家 &b[name] &a的死亡次数增加 &b[number] 次。
+          &a他现在的死亡次数为： &b[total] &a次。"
+      remove:
+        description: 减少玩家的死亡次数
+        parameters: <player> <deaths>
+        success: |-
+          &a成功将玩家 &b[name] &a的死亡次数减少 &b[number] 次。
+          &a他现在的死亡次数为： &b[total] &a次。"
     delete:
       cannot-delete-owner: '&c删除之前必须将所有岛屿成员都踢出岛屿。'
       deleted-island: '&a位于 &e[xyz] &a的岛屿已经被成功删除。'
@@ -148,6 +176,8 @@ commands:
       max-protection-range: 历史最大的保护范围：[range]
       protection-coords: 保护坐标：[xz1] 至 [xz2]
       banned-players: 已封禁的玩家：
+      island-protection-center: '&d保护中心： &f[xyz]'
+      island-center: '&d岛屿中心： &f[xyz]'
     purge:
       stop:
         description: 停止正在进行的清除
@@ -170,6 +200,11 @@ commands:
       unowned:
         description: 正准备清除无主的岛屿——需要进一步确认
         unowned-islands: '&c已发现 [number] 个岛屿'
+      days-one-or-more: '&c天数必需为至少 1 或 1 以上。'
+      no-purge-in-progress: '&c没有正在进行的清理工作。'
+      status:
+        description: 显示清理状态
+        status: '&a共有 &b[purgeable] &a个可清理，已清理 &b[purged] &a个 &7(&b[percentage] %&7)&a。'
     range:
       description: 管理员 island range 命令
       display:
@@ -195,6 +230,18 @@ commands:
           same-as-before: '&c保护范围已经被设置为 &b[number]&c 了！'
         parameters: <player> <range>
         success: '&a已将岛屿保护范围设置为 &b[number]&a。'
+      invalid-value:
+        too-low: '&c保护范围必需大于 &b1 &c！'
+        too-high: '&c保护范围应等于或小于 &b[number] &c！'
+        same-as-before: '&c保护范围已设置为 &b[number] &c！'
+      add:
+        description: 增加岛屿保护范围
+        parameters: <player> <range>
+        success: '&a已将 &b[name]&a 的岛屿保护范围增加到 &b[total] &7（&b+[number]&7）&a。'
+      remove:
+        description: 减少岛屿保护范围
+        parameters: <player> <range>
+        success: '&a已将 &b[name]&a 的岛屿保护范围减少到 &b[total] &7（&b-[number]&7）&a。'
     register:
       already-owned: '&c该岛屿不是无人岛！'
       description: 将玩家注册到您当前所在的无人岛
@@ -204,16 +251,30 @@ commands:
       reserved-island: '&a已将 [xyz] 位置的岛屿保留给玩家。'
       in-deletion: '&c这个岛屿的空间目前正在删除。等会再试。'
       cannot-make-island: '&c岛屿不能放在这里，对不起。请参阅控制台了解可能的错误。'
+      island-is-spawn: |-
+        &c所处位置为出生点岛屿， 您确定要将玩家注册到这个岛屿上？
+        &6请再次输入命令以确认。
     reload:
       description: 重载本插件
     resets:
       reset:
         parameters: <player>
         description: 将该玩家的重置次数清零
+        success-everyone: '&a已将&b所有玩家&a的岛屿已重置次数重置为 &b0 &a。'
+        success: '&a已将玩家 &b[name] &a的岛屿已重置次数重置为 &b0 &a。'
       set:
         parameters: <player> <resets>
         description: 设置该玩家的重置次数
+        success: '&a已将玩家 &b[name] &a的岛屿已重置次数设置为 &b[number] &a。'
       description: 修改玩家的重置次数
+      add:
+        description: 增加玩家的岛屿已重置次数
+        parameters: <player> <resets>
+        success: '&a已将玩家 &b[name] &a的岛屿已重置次数增加了 &b[number]&a， 现在为 &b[total] &a。'
+      remove:
+        description: 减少玩家的岛屿已重置次数
+        parameters: <player> <resets>
+        success: '&a已将玩家 &b[name] &a的岛屿已重置次数减少了 &b[number]&a， 现在为 &b[total] &a。'
     setrange:
       description: 设置玩家岛屿的范围
       parameters: <player> <range>
@@ -255,6 +316,15 @@ commands:
         description: 将岛屿转交给玩家
         already-owner: '&c[name] 已经是这个岛的岛主了！'
         success: '&b[name]&a 现在是这个岛的所有者。'
+      fix:
+        description: 扫描数据库，并修复跨岛屿成员（某些玩家错误地拥有或归属于多个岛屿）。
+        scanning: '&e正在扫描数据库...'
+        duplicate-owner: '&c玩家 &b[name] &c拥有多个岛屿。'
+        player-has: '&c玩家 &b[name] &c拥有 &b[number] 个岛屿。'
+        duplicate-member: '&c玩家 &b[name] &c是多个岛屿的成员。'
+        rank-on-island: '&c[rank] 在 [xyz]'
+        fixed: '&a已修复。'
+        done: '&a扫描完毕。'
     tp:
       description: 传送到玩家的岛屿
       parameters: <player>
@@ -299,9 +369,30 @@ commands:
     settings:
       parameters: '[player]'
       description: 打开系统设置或玩家的岛屿设置
+      unknown-setting: '&c未知设置项'
     resetflags:
       description: 将所有岛屿重设至 config.yml 中的默认标志设定
       success: '&a已成功重设所有岛屿的标志到默认设定。'
+      parameters: '[flag]'
+      confirm: '&4这将把所有岛屿的保护标志重置为默认值！'
+      success-one: '&a所有岛屿的 “&b[name]&a” 保护标志已重置为默认值。'
+    setprotectionlocation:
+      parameters: '[x y z]'
+      description: 将所处位置或给定坐标设置为岛屿保护区的中心点
+      island: '&c这将影响玩家 &b[name] &c位于 &b[xyz] &c的岛屿。'
+      confirmation: '&c您确定将 &b[xyz] &c设置为该岛屿的保护区中心点吗？'
+      success: '&a成功将 &b[xyz] &a设置为该岛屿的保护区中心点。'
+      fail: |-
+        &c未能将 &b[xyz] &c设置为该岛屿的保护区中心点！
+        &c请参阅控制台以获得详细错误信息。
+      island-location-changed: '&a[user] 将岛屿保护区中心点更改为 [xyz]。'
+      xyz-error: '&c坐标应该为三个整数， 例如： “&b100 120 100&c”。'
+    setspawnpoint:
+      description: 将当前位置设置为岛屿出生点
+      no-island-here: '&c这里没有岛屿。'
+      confirmation: '&c您确定要把所处位置设置为该岛屿的出生点？'
+      success: '&a成功将所处位置设置为该岛屿的出生点。'
+      island-spawnpoint-changed: '&b[user] &a更改了岛屿出生点。'
   bentobox:
     about:
       description: 显示版权和协议信息
@@ -319,6 +410,8 @@ commands:
       addon-reloaded: '&b[name] &2已重新加载。'
       warning: '&c警告：重新加载可能会导致服务器不稳定，因此如果您之后看到有错误出现，请重新启动服务器。'
       unknown-addon: '&c未知的扩展！'
+      locales:
+        description: 重载语言资源
     version:
       addon-syntax: '&2[name] &3[version] &7(&3[state]&7)'
       game-worlds: '&2[name] &7(&3[addon]&7): &aOverworld&7, &r[nether_color]Nether&7,
@@ -379,6 +472,14 @@ commands:
       too-many-islands: '&c本世界中的岛屿太多了：没有足够空间创建您的岛屿'
       pick: '&a挑个岛屿'
       unknown-blueprint: '&c那个蓝图还没有被加载。'
+      cannot-create-island: '&c找不到合适的地点为您创建岛屿， 请稍后重试...'
+      pasting:
+        estimated-time: '&b预计用时： &e[number] &a秒。'
+        blocks: '&b正在构建： &a总共需要构建 &e[number] &a个方块...'
+        entities: '&b填充实体： &a总共需要填充 &e[number] &a个实体...'
+        done: '&a完成！ 您的岛屿已准备就绪！'
+      on-first-login: '&a欢迎！我们将在几秒钟内开始创建您的岛屿！'
+      you-can-teleport-to-your-island: '&a您可以在任何时传送到您的岛屿。'
     expel:
       parameters: <player>
       description: 从你的岛上驱逐一名成员
@@ -388,12 +489,14 @@ commands:
       not-on-island: '&c那个玩家不在你的岛屿上！'
       player-expelled-you: ' &b[name]&c 把你从岛上赶出去了！'
       success: ' &a你把 &b[name] &a从岛上赶出去了。'
+      cannot-expel-member: '&c您不能驱逐岛屿成员！'
     go:
       description: 将您传送到您的岛屿
       parameters: '[home number]'
       tip: '&b输入 /[label] help &a来得到帮助。'
       teleport: '&a正将您传送到您的岛屿。'
       teleported: '&a已传送到您的第 &e#[number]&a 号家。'
+      unknown-home: '&c未知岛屿传送点。'
     help:
       description: 主要岛屿命令
       pick-world: '&c从 [worlds] 中指定世界'
@@ -402,6 +505,9 @@ commands:
       parameters: <player>
     language:
       description: 选择语言
+      parameters: '[language]'
+      not-available: '&c这不是可用的语言。'
+      already-selected: '&c您原本已经在使用这种语言了。'
     near:
       description: 显示您周围邻近岛屿的名称
       east: 东
@@ -411,6 +517,7 @@ commands:
       syntax: '&6[direction]：&a[name]'
       west: 西
       no-neighbors: '&c没有与你直接相邻的岛屿！'
+      parameters: ''
     reset:
       description: 重置您的岛屿，并且删除旧的岛屿
       none-left: '&c您没有重置次数了！'
@@ -423,6 +530,7 @@ commands:
       kicked-from-island: '&c你被踢出了处于 [gamemode] 模式的你的岛屿，因为岛主正在重设。'
     resetname:
       description: 重置您的岛屿的名字
+      success: '&a已成功重置岛屿名称。'
     sethome:
       description: 设置您家的传送点
       home-set: '&6您的岛屿的家已经被设置到您的当前位置。'
@@ -435,12 +543,16 @@ commands:
       the-end:
         confirmation: '&c您确定要在末地设置您的家吗？'
         not-allowed: '&c您无法在末地设置您的家。'
+      too-many-homes: '&c无法设置 - 您的岛屿最多只能有 &b[number] &c个传送点。'
+      homes-are: '&6您的岛屿传送点有：'
+      home-list-syntax: '&6  - [name]'
     setname:
       description: 设置您的岛屿的名字
       name-too-long: '&c太长了。最多要求 [number] 个字符。'
       name-too-short: '&c太短了。最少要求 [number] 个字符。'
       parameters: <name>
       name-already-exists: '&c已有一个处于此游戏模式的同名岛屿。'
+      success: '&a成功为您的岛屿取名为 &b[name] &a。'
     settings:
       description: 显示岛屿设置
     team:
@@ -451,6 +563,7 @@ commands:
         parameters: <player>
         you-are-a-coop-member: '&2您与 [name] 成为协作关系（coop）'
         success: '&a您给 &b[name]&a 授予了协作关系（coop）'
+        name-has-invited-you: '&a[name] 邀请您与他建立协作关系。'
       demote:
         description: 将您岛屿上的玩家降阶
         failure: '&c玩家不能再被降阶了！'
@@ -461,6 +574,22 @@ commands:
       description: 管理您的队伍
       info:
         description: 显示关于您的队伍的详细信息
+        member-layout:
+          online: '&a&l  o &f[name]'
+          offline: '&7&l  o &7[name] ([last_seen])'
+          offline-not-last-seen: '&7&l  o &7[name]'
+        last-seen:
+          layout: '&b[number] &7[unit] 前'
+          days: 天
+          hours: 小时
+          minutes: 分钟
+        header: |
+          &f--- &a团队信息 &f---
+          &a成员： &b[total]&7/&b[max]
+          &a在线： &b[online]
+        rank-layout:
+          owner: '&6[rank]:'
+          generic: '&6[rank] &7(&b[number]&7)&6：'
       invite:
         accept:
           description: 接受邀请
@@ -478,6 +607,7 @@ commands:
           island-is-full: '&c您的岛屿满员了，您不能再邀请其他人。'
           none-invited-you: '&c还没有人邀请您呢 :c。'
           you-already-are-in-team: '&c您已经在队伍里了！'
+          you-have-already-invited: '&c您刚刚已经邀请过该玩家！'
         invitation-sent: '&a邀请已经发送给 [name]'
         name-has-invited-you: '&a[name] 邀请您去他们的岛屿。'
         parameters: <player>
@@ -522,6 +652,8 @@ commands:
         trust-in-yourself: '&c请相信你自己！'
         members-trusted: '&c团队成员已经是信任者（trusted）了'
         success: '&a您已信任 &b[name]&a。'
+        name-has-invited-you: '&b[name] &a邀请您成为他的可信者。'
+        is-full: '&c您的可信者名额已经满了！'
       uncoop:
         cannot-uncoop-member: '&c您不能取消与队伍成员的协作关系！'
         cannot-uncoop-yourself: '&c您不能取消与自己的协作关系！'
@@ -531,6 +663,7 @@ commands:
         you-are-no-longer-a-coop-member: '&c您已经不再是 [name] 的岛屿的协作者了'
         all-members-logged-off: '&c所有的岛屿成员都退出了，因此您不再是 [name] 岛屿的协作成员（coop）'
         success: '&b[name]&a 已不再是您岛屿的协作成员（coop）'
+        is-full: '&c您协作者名额已经满了！'
       untrust:
         cannot-untrust-member: '&c您不能不信任团队成员！'
         cannot-untrust-yourself: '&c您不能不信任您自己！'
@@ -552,6 +685,14 @@ commands:
       description: 将您传送到出生点
       teleporting: '&a正将您传送到出生点。'
       no-spawn: '&c这个世界上没有出生点。'
+    deletehome:
+      description: 删除岛屿传送点
+      parameters: '[home name]'
+    renamehome:
+      description: 重命名岛屿传送点
+      parameters: '[home name]'
+      enter-new-name: '&6输入新名称'
+      already-exists: '&c该名称已存在， 请输入一个不同的名称。'
   delay:
     previous-command-cancelled: '&c上条命令已取消'
     stand-still: '&6站好了！[seconds] 秒后执行传送！'
@@ -576,10 +717,16 @@ general:
     wrong-world: '&c您不在正确的世界！'
     you-must-wait: '&c要再次使用该命令，您必须等待 [number] 秒'
     must-be-positive-number: '&c[number] 不是有效的正数。'
+    insufficient-rank: '&c您的阶衔没有达到要求 （&7[rank]&c）！'
+    player-is-not-owner: '&b[name] &c不是岛屿的主人！'
   invalid: 无效
   success: '&a成功！'
   tips:
     changing-obsidian-to-lava: 正在将黑曜石变回岩浆。下次注意啊！
+  worlds:
+    overworld: 主世界
+    nether: 下界
+    the-end: 末地
 language:
   edited: '&a更改您的语言为 &e[lang]&a。'
   panel-title: 选择您的语言
@@ -619,6 +766,9 @@ management:
       empty-here:
         name: '&b看起来是空的……'
         description: '&a为何不看看我们的编录呢？'
+      credits:
+        name: '&6贡献者名录'
+        description: '&7查看 &7&lBentoBox&r  &7的贡献者名录'
     information:
       state:
         name: '&6兼容性'
@@ -776,6 +926,8 @@ protection:
       name: 进入和离开消息
       now-entering: '&b当前进入 [name]'
       now-leaving: '&b当前离开 [name]'
+      now-entering-your-island: '&a您已进入自己的岛屿。'
+      now-leaving-your-island: '&6您已离开自己的岛屿。'
     EXPERIENCE_BOTTLE_THROWING:
       hint: 不允许扔经验瓶
       name: 经验瓶的投掷
@@ -916,15 +1068,21 @@ protection:
       description: '&c允许或禁止在末地 PVP。'
       hint: 禁止在末地 PVP
       name: 末地 PVP
+      enabled: '&e已允许在末地 PVP！'
+      disabled: '&a已禁止在末地 PVP。'
     PVP_NETHER:
       description: '&c允许或禁止在下界 PVP。'
       hint: 禁止在下界 PVP
       name: 下界 PVP
+      enabled: '&e已允许在下界 PVP！'
+      disabled: '&a已禁止在下界 PVP。'
     PVP_OVERWORLD:
       active: '&c这里允许 PVP！'
       description: '&c允许或禁止岛上 PVP。'
       hint: '&c禁止 PVP'
       name: 主世界 PVP
+      enabled: '&e已允许在主世界 PVP！'
+      disabled: '&a已禁止在主世界 PVP。'
     REDSTONE:
       description: 切换使用
       hint: 禁止使用红石物品
@@ -1001,6 +1159,8 @@ protection:
     OBSIDIAN_SCOOPING:
       name: 桶装黑曜石变岩浆
       description: '&a切换是否允许黑耀石用空桶变回岩浆。&a这个功能保护新手，并可减少重置次数。'
+      scooping: '&a已将黑曜石变回熔岩。 下次请小心！'
+      obsidian-nearby: '&c附近有其它黑曜石， 这个黑曜石不能变回熔岩。'
     OFFLINE_GROWTH:
       description: '&a禁止之后，植物在所有岛屿成员下线之后不会再生长。&a可有助于减少服务器卡顿。'
       name: 离线植物生长
@@ -1035,6 +1195,59 @@ protection:
         &a刷怪类型。
       name: 刷怪蛋与刷怪笼
       hint: 禁止用刷怪蛋修改刷怪笼的刷怪类型
+    ANIMAL_NATURAL_SPAWN:
+      description: 允许/禁止 动物自然生成
+      name: '&a&l动物自然生成'
+    ANIMAL_SPAWNERS_SPAWN:
+      description: 允许/禁止 刷怪笼生成动物
+      name: '&a&l动物刷怪笼'
+    BREAK_SPAWNERS:
+      description: |-
+        &7允许/禁止 破坏刷怪笼
+        &7可以超越 “&a破坏方块&7” 设定
+      name: '&a&l破坏刷怪笼'
+      hint: '&c已被禁止破坏刷怪笼'
+    BREAK_HOPPERS:
+      description: |-
+        &7允许/禁止 破坏漏斗
+        &7可以超越 “&a破坏方块&7” 设定
+      name: '&a&l破坏漏斗'
+      hint: '&c已禁止破坏漏斗'
+    CAKE:
+      description: 允许/禁止 食用蛋糕
+      name: '&a&l食用蛋糕'
+      hint: '&c已被禁止食用蛋糕'
+    HIVE:
+      description: 允许/禁止 收集蜂蜜
+      name: '&a&l收集蜂蜜'
+      hint: '&c已被禁止收集蜂蜜'
+    LECTERN:
+      name: '&a&l讲台上的书'
+      description: |-
+        &7允许/禁止 取放讲台上的书
+        &c不会阻止阅读讲台上的书
+      hint: '&c已被禁止从讲台上取放书籍'
+    LIMIT_MOBS:
+      description: '&7选择哪些实体可以被生成'
+      name: '&3&l实体生成限制'
+      can: '&a允许生成'
+      cannot: '&c禁止生成'
+    MONSTER_NATURAL_SPAWN:
+      description: 允许/禁止 怪物自然生成
+      name: '&a&l怪物自然生成'
+    MONSTER_SPAWNERS_SPAWN:
+      description: 允许/禁止 刷怪笼生成怪物
+      name: '&a&l怪物刷怪笼'
+    PETS_STAY_AT_HOME:
+      description: |-
+        &7允许/禁止 驯服的宠物始终待在自
+        &7己的岛上， 不会到别人的倒上去。
+      name: '&a&l宠物不离开岛屿'
+    WORLD_TNT_DAMAGE:
+      description: |-
+        &7允许/禁止 岛屿保护范围外的TNT
+        &7和TNT矿车破坏方块和实体
+      name: '&a&l世界TNT伤害'
   locked: '&c本岛屿已被锁定！'
   panel:
     flag-item:
@@ -1079,6 +1292,9 @@ protection:
     WORLD_DEFAULTS:
       title: '&b[world_name] &6世界保护'
       description: '&a玩家在岛外时的保护设置'
+    reset-to-default:
+      name: '&c&l重置为默认值'
+      description: '&7将 &e所有 &7设置项恢复为默认值'
   protected: '&c岛屿保护：[description]'
   spawn-protected: '&c生成保护：[description]'
   world-protected: '&c世界保护：[description]'
@@ -1099,3 +1315,48 @@ successfully-loaded: |-
   &6 |  _ < / _ \ '_ \| __/ _ \|  _ < / _ \ \/ /
   &6 | |_) |  __/ | | | || (_) | |_) | (_) >  <   &bv&e[version]
   &6 |____/ \___|_| |_|\__\___/|____/ \___/_/\_\  &8加载用时 &e[time]&8ms.
+prefixes:
+  bentobox: '&6 BentoBox &7 &l > &r '
+enums:
+  DamageCause:
+    CONTACT: 接触（如仙人掌）
+    ENTITY_ATTACK: 直接攻击
+    ENTITY_SWEEP_ATTACK: 范围攻击
+    PROJECTILE: 弹射物
+    SUFFOCATION: 窒息
+    FALL: 坠落
+    FIRE: 火焰
+    FIRE_TICK: 点燃
+    MELTING: 融化
+    LAVA: 熔岩高温
+    DROWNING: 溺水
+    BLOCK_EXPLOSION: 方块爆炸
+    ENTITY_EXPLOSION: 实体爆炸
+    VOID: 坠入虚空
+    LIGHTNING: 雷击
+    SUICIDE: 自杀（如/kill）
+    STARVATION: 饥饿
+    POISON: 中毒
+    MAGIC: 魔法
+    WITHER: 凋零
+    FALLING_BLOCK: 砸伤
+    THORNS: 荆棘
+    DRAGON_BREATH: 龙息
+    CUSTOM: 自定义
+    FLY_INTO_WALL: 撞墙
+    HOT_FLOOR: 岩浆块
+    CRAMMING: 拥挤
+    DRYOUT: 缺氧（鱼类暴露在空气中）
+panel:
+  credits:
+    title: '&8[name] &3贡献者名录'
+    contributor:
+      name: '&a[name]'
+      description: '&a提交: &b[commits] &a个'
+    empty-here:
+      name: '&c&l这里空空如也...'
+      description: |-
+        &c&lBentoBox&r  &c无法收集此组件的贡献者。
+
+        &a请修改配置允许&b&lBentoBox&a连接
+        &a到互联网， 或稍后再试。

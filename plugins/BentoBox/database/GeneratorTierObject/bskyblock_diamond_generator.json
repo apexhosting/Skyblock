@@ -1,0 +1,34 @@
+{
+  "uniqueId": "bskyblock_diamond_generator",
+  "friendlyName": "&r&lDiamond Generator",
+  "description": [
+    "&7 At last, now diamonds",
+    "&7 are generated."
+  ],
+  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND_ORE\n",
+  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BARRIER\n",
+  "generatorType": "COBBLESTONE_OR_STONE",
+  "defaultGenerator": false,
+  "priority": 6,
+  "requiredMinIslandLevel": 250,
+  "requiredBiomes": [],
+  "requiredPermissions": [],
+  "generatorTierCost": 5.0,
+  "activationCost": 0.0,
+  "deployed": true,
+  "blockChanceMap": {
+    "20.0": "STONE",
+    "25.0": "COAL_ORE",
+    "60.0": "IRON_ORE",
+    "70.0": "GOLD_ORE",
+    "90.0": "REDSTONE_ORE",
+    "95.0": "EMERALD_ORE",
+    "100.0": "DIAMOND_ORE"
+  },
+  "treasureChanceMap": {},
+  "treasureItemChanceMap": {
+    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND\n"
+  },
+  "treasureChance": 0.001,
+  "maxTreasureAmount": 1
+}

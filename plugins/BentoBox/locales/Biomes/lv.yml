@@ -127,6 +127,7 @@ biomes:
         chunk: Gabals
         square: Distance
         undefined: Neuzstādīts
+        range: Distance
       visibility-mode:
         info: Ļauj pārslēgt kādus biomus spēlētājs var redzēt.
         all: Visi &r- saraksts ar visiem biomiem

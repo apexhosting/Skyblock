@@ -1,0 +1,24 @@
+{
+  "Type": "HOGLIN",
+  "Loot": [
+    {
+      "xp": 0,
+      "Type": "PORKCHOP",
+      "Burned Type": "COOKED_PORKCHOP",
+      "Chance": 100.0,
+      "Min": 2,
+      "Max": 4,
+      "Looting": true,
+      "requireCharged": false
+    },
+    {
+      "xp": 0,
+      "Type": "LEATHER",
+      "Chance": 100.0,
+      "Min": 0,
+      "Max": 2,
+      "Looting": true,
+      "requireCharged": false
+    }
+  ]
+}

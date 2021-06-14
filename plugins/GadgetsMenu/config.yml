@@ -5,13 +5,13 @@
 # 
 # If you enable mysql, you need to setup MySQL infos.
 Player-Data:
-  Storage: sqlite
+  Storage: mysql
   MySQL:
-    hostname: localhost
-    username: root
-    database: minecraft
+    hostname: mysql.apexhosting.gdn
+    username: apexMC469269
+    database: apexMC469269
     port: '3306'
-    password: password
+    password: sSf3hWJEKctvnvSjQy#qJo3!
     useSSL: false
 Cosmetic-Item-Purchase:
   # Set to true allows player to purchase cosmetic items.

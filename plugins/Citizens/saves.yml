@@ -35,12 +35,13 @@ npc:
             player: true
             op: true
             cooldown: 0
+            globalcooldown: 0
             n: -1
             delay: 0
       owner:
         owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: commandtrait,equipment,skintrait,inventory,mounttrait,owner,type,scoreboardtrait,location,spawned
+    traitnames: spawned,scoreboardtrait,skintrait,location,owner,equipment,type,commandtrait,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -78,12 +79,13 @@ npc:
             player: true
             op: true
             cooldown: 0
+            globalcooldown: 0
             n: -1
             delay: 0
       owner:
         owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: equipment,commandtrait,skintrait,inventory,mounttrait,owner,type,scoreboardtrait,spawned,location
+    traitnames: spawned,scoreboardtrait,skintrait,location,equipment,owner,type,commandtrait,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -114,7 +116,7 @@ npc:
       owner:
         owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: equipment,skintrait,inventory,mounttrait,owner,type,scoreboardtrait,spawned,location
+    traitnames: spawned,scoreboardtrait,skintrait,location,owner,equipment,type,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -152,12 +154,13 @@ npc:
             player: true
             op: false
             cooldown: 0
+            globalcooldown: 0
             n: -1
             delay: 0
       owner:
         owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: equipment,commandtrait,skintrait,inventory,mounttrait,owner,type,scoreboardtrait,spawned,location
+    traitnames: spawned,scoreboardtrait,skintrait,location,owner,equipment,type,commandtrait,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -172,12 +175,12 @@ npc:
       type: PLAYER
       speech: chat
       location:
-        bodyYaw: 129.8229
+        bodyYaw: 266.97455
         world: SkyBlock
-        x: '18.8382'
-        y: '68.0'
-        z: '-48.218'
-        yaw: '129.8229'
+        x: '18.7891'
+        y: '69.0'
+        z: '8.5376'
+        yaw: '-93.0255'
         pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
@@ -380,7 +383,7 @@ npc:
       owner:
         owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: equipment,skintrait,inventory,mounttrait,owner,speech,type,scoreboardtrait,location,spawned,text,waypoints
+    traitnames: spawned,scoreboardtrait,text,waypoints,speech,skintrait,location,owner,equipment,type,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -411,7 +414,7 @@ npc:
       owner:
         owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: equipment,skintrait,inventory,mounttrait,owner,type,scoreboardtrait,spawned,location
+    traitnames: spawned,scoreboardtrait,skintrait,location,owner,equipment,type,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -444,6 +447,7 @@ npc:
         enableRandomLook: false
         randomLookDelay: 60
         realisticlooking: false
+        disablewhilenavigating: true
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -454,7 +458,7 @@ npc:
       owner:
         owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: equipment,lookclose,skintrait,inventory,mounttrait,owner,type,scoreboardtrait,spawned,location
+    traitnames: lookclose,spawned,scoreboardtrait,skintrait,location,owner,equipment,type,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -472,6 +476,7 @@ npc:
         enableRandomLook: false
         randomLookDelay: 60
         realisticlooking: false
+        disablewhilenavigating: true
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -489,6 +494,7 @@ npc:
             player: true
             op: false
             cooldown: 0
+            globalcooldown: 0
             n: -1
             delay: 0
       spawned: true
@@ -509,7 +515,7 @@ npc:
       owner:
         owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: commandtrait,equipment,lookclose,skintrait,inventory,mounttrait,owner,type,scoreboardtrait,spawned,location
+    traitnames: lookclose,spawned,scoreboardtrait,skintrait,location,equipment,owner,type,commandtrait,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -527,6 +533,7 @@ npc:
         enableRandomLook: false
         randomLookDelay: 60
         realisticlooking: false
+        disablewhilenavigating: true
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -570,12 +577,13 @@ npc:
             player: true
             op: false
             cooldown: 0
+            globalcooldown: 0
             n: -1
             delay: 0
       owner:
         owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: equipment,commandtrait,owner,speech,spawned,text,lookclose,skintrait,inventory,mounttrait,type,scoreboardtrait,location
+    traitnames: lookclose,scoreboardtrait,speech,location,type,commandtrait,spawned,text,skintrait,equipment,owner,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -593,6 +601,7 @@ npc:
         enableRandomLook: false
         randomLookDelay: 60
         realisticlooking: false
+        disablewhilenavigating: true
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -635,12 +644,13 @@ npc:
             player: true
             op: false
             cooldown: 0
+            globalcooldown: 0
             n: -1
             delay: 0
       owner:
         owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: commandtrait,equipment,speech,owner,spawned,text,lookclose,skintrait,inventory,mounttrait,type,scoreboardtrait,location
+    traitnames: lookclose,scoreboardtrait,speech,location,type,commandtrait,spawned,text,skintrait,owner,equipment,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -678,12 +688,13 @@ npc:
             player: true
             op: false
             cooldown: 0
+            globalcooldown: 0
             n: -1
             delay: 0
       owner:
         owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: equipment,commandtrait,skintrait,inventory,mounttrait,owner,type,scoreboardtrait,spawned,location
+    traitnames: spawned,scoreboardtrait,skintrait,location,owner,equipment,type,commandtrait,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -701,6 +712,7 @@ npc:
         enableRandomLook: false
         randomLookDelay: 60
         realisticlooking: false
+        disablewhilenavigating: true
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -733,12 +745,13 @@ npc:
             player: true
             op: false
             cooldown: 0
+            globalcooldown: 0
             n: -1
             delay: 0
       owner:
         owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: equipment,commandtrait,lookclose,skintrait,inventory,mounttrait,owner,type,scoreboardtrait,location,spawned
+    traitnames: lookclose,spawned,scoreboardtrait,skintrait,location,equipment,owner,type,commandtrait,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -756,6 +769,7 @@ npc:
         enableRandomLook: false
         randomLookDelay: 60
         realisticlooking: false
+        disablewhilenavigating: true
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -788,12 +802,13 @@ npc:
             player: true
             op: false
             cooldown: 0
+            globalcooldown: 0
             n: -1
             delay: 0
       owner:
         owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: commandtrait,equipment,lookclose,skintrait,inventory,mounttrait,owner,type,scoreboardtrait,spawned,location
+    traitnames: spawned,lookclose,scoreboardtrait,skintrait,location,equipment,owner,type,commandtrait,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -815,6 +830,7 @@ npc:
             player: true
             op: false
             cooldown: 0
+            globalcooldown: 0
             n: -1
             delay: 0
       skintrait:
@@ -836,7 +852,7 @@ npc:
       owner:
         owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: equipment,commandtrait,skintrait,inventory,mounttrait,owner,type,scoreboardtrait,spawned,location
+    traitnames: spawned,scoreboardtrait,skintrait,location,equipment,owner,type,commandtrait,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -866,6 +882,7 @@ npc:
             player: true
             op: false
             cooldown: 0
+            globalcooldown: 0
             n: -1
             delay: 0
       type: PLAYER
@@ -879,7 +896,7 @@ npc:
       owner:
         owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: commandtrait,equipment,skintrait,inventory,mounttrait,owner,type,scoreboardtrait,location,spawned
+    traitnames: spawned,scoreboardtrait,skintrait,location,owner,equipment,type,commandtrait,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -917,12 +934,13 @@ npc:
             player: true
             op: false
             cooldown: 0
+            globalcooldown: 0
             n: -1
             delay: 0
       owner:
         owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: commandtrait,equipment,skintrait,inventory,mounttrait,owner,type,scoreboardtrait,location,spawned
+    traitnames: spawned,scoreboardtrait,skintrait,location,owner,equipment,type,commandtrait,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

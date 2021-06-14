@@ -137,17 +137,6 @@ Entities:
   - ENTITY_BREED
   - SNOWMAN_DERP
 
-  # Should fire ticks persist to the next entity when an entity dies?
-  Keep Fire: true
-
-  # Should potion effects persist to the next entity when an entity dies?
-  Keep Potion Effects: true
-
-  # Should the lowest health be carried over when stacked?
-  # This should not be used in collaboration with 'Stack Entity Health'.
-  # If it is used this setting will be overrode.
-  Carry Over Lowest Health: false
-
   # Should entities only be stacked if they originate from a spawner?
   # It should be noted that the identifier that tells the plugin
   # if the entity originated from a spawner or not is wiped on
@@ -167,10 +156,6 @@ Entities:
   # "CUSTOM", "DEFAULT".
   Stack Reasons: []
 
-  # With this enabled any metadata assigned from supported plugins such
-  # as EpicSpawners and mcMMO will be preserved when the entity is killed.
-  Carry Over Metadata On Death: true
-
   # This allows entities holding weapons to stack. Enchanted weapons are excluded.
   # If you would like to disable the stacked entity check you can do that by removing
   # "HAS_EQUIPMENT", from the list above.
@@ -179,12 +164,6 @@ Entities:
   # Should entities only be stacked if they are touching the ground
   # or swimming? This does not effect flying entities.
   Only Stack On Surface: true
-
-  # Should entity health be stacked? When enabled Entity stacks will
-  # remember the health of all entities inside of the stack. This
-  # works the best with 'Only Stack On Surface enabled' as entities
-  # falling out of grinders may stack before hitting the ground.
-  Stack Entity Health: true
 
   # Should entities that fly only stack with entities that are lower on the
   # Y axis. This is important for grinders so that flying entities don't continuously
@@ -196,6 +175,20 @@ Entities:
 
   # Should knockback be disabled on unstacked mobs?
   Disable Knockback: false
+
+  # Should entities be sheared in a single click?
+  Shear In One Click: false
+
+  # Which custom entity plugins should be used?
+  # Remove a plugin from this list to disable the stacking of their entities.
+  Enabled Custom Entity Plugins:
+  - MythicMobs
+
+  # Which custom entities should not be stacked?
+  # List the entities using their plugin name as a prefix in all lowercase.
+  # Example: mythicmobs_test
+  Blacklisted Custom Entities:
+  - mythicmobs_test
 
 #
 # Items
@@ -282,6 +275,33 @@ Spawners:
   # The text displayed above a stacked spawner where {TYPE} refers to
   # The entities type and {AMT} is the amount currently stacked.
   Name Format: '&f{TYPE} Spawner &6{AMT}x'
+
+Blocks:
+
+  # Should blocks be stacked?
+  Enabled: true
+
+  # Should holograms be displayed above stacked blocks?
+  Holograms Enabled: true
+
+  # What blocks should be stackable?
+  Stackable Blocks:
+  - DIAMOND_BLOCK
+
+  # Should the whole stack the player is holding always
+  # be added to the stack regardless of if they are sneaking or not?
+  Always Add All: false
+
+  # What should be the max amount that can be removed with
+  # a single click? Keep in mind high numbers could cause lag.
+  Max Removeable: 64
+
+  # Should blocks be added directly to the inventory when removed?
+  Add To Inventory: false
+
+  # The text displayed above a stacked block where {TYPE} refers to
+  # The entities type and {AMT} is the amount currently stacked.
+  Name Format: '&6{AMT}x &f{TYPE}'
 
 #
 # System related settings.

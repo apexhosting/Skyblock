@@ -9,6 +9,9 @@ admin:
     description: rādīt labākās 10 salas
     unknown-world: '&cNezināma pasaule!'
     display: '&f[rank]. &a[name] &7- &b[level]'
+    remove:
+      description: noņemt spēlētāju no labāko desmit saraksta
+      parameters: <spēlētājs>
 island:
   level:
     parameters: '[player]'

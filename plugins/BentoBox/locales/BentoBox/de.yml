@@ -61,6 +61,7 @@ commands:
       number-error: '&c Angabe muss eine Anzahl von Tagen sein'
       confirm: '&d Tippe [label] purge confirm zum Starten des Löschvorgangs ein'
       completed: '&a Lösung gestoppt'
+      days-one-or-more: Muss mindestens 1 Tag oder mehr betragen
     team:
       add:
         parameters: <owner> <player>

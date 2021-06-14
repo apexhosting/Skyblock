@@ -1,4 +1,4 @@
-# Biomes Configuration 1.6.0.1-SNAPSHOT-b149
+# Biomes Configuration 1.14.0
 # This config file is dynamic and saved when the server is shutdown.
 # You cannot edit it while the server is running because changes will
 # be lost! Use in-game settings GUI or edit when server is offline.
@@ -33,6 +33,13 @@ reset-biomes: false
 # 
 # This indicates cool down in seconds between users can change biomes on their island.
 cooldown: 60
+# 
+# This indicates tick counter between each background update task.
+# This process load chunks that require biome update and change biome in it.
+# Setting 0 will stop background task and biome will be updated only when loaded.
+# Added since 1.13.0.
+# /!\ In order to apply the changes made to this option, you must restart your server. Reloading BentoBox or the server won't work.
+update-tick-counter: 5
 # 
 # This variable allows to choose which biomes users can see in Biomes GUI.
 # Valid values are:

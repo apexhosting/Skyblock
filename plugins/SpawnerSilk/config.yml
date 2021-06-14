@@ -1,4 +1,21 @@
-pluginVersion: '2.9'
+#
+# PLEASE RELOAD OR RESTART SERVER AFTER A CHANGE IN THIS FILE.
+# More information on plugin page : https://dev.bukkit.org/projects/spawnersilk
+# Any trouble to use this file ? Ask help on Discord : https://discordapp.com/invite/jCsvJxS
+#
+
+# true  : Only player with silkTouch can drop spawner
+# false : Everybody can drop spawner
 needSilkTouch: true
-spawnersCanBeModifiedByEgg: true
+
+# percentage of chance that player drop a spawner by mining it
+dropChance : 50.0
+
+# percentage of chance that player drop a spawner by an explosion
 explosionDropChance: 5.0
+
+# Can player change the spawner type with eggs ?
+spawnersCanBeModifiedByEgg: true
+
+
+

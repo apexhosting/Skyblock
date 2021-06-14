@@ -111,6 +111,7 @@ biomes:
         chunk: 区块
         square: 范围
         undefined: 未定义
+        range: 范围
       visibility-mode:
         info: 修改你可以看到的地形
         all: All &r- 列出所有地形

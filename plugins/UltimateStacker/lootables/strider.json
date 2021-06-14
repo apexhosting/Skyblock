@@ -1,0 +1,14 @@
+{
+  "Type": "STRIDER",
+  "Loot": [
+    {
+      "xp": 0,
+      "Type": "STRING",
+      "Chance": 100.0,
+      "Min": 0,
+      "Max": 5,
+      "Looting": true,
+      "requireCharged": false
+    }
+  ]
+}

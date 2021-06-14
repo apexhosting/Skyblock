@@ -1,0 +1,23 @@
+{
+  "Type": "ZOMBIFIED_PIGLIN",
+  "Loot": [
+    {
+      "xp": 0,
+      "Type": "ROTTEN_FLESH",
+      "Chance": 100.0,
+      "Min": 0,
+      "Max": 1,
+      "Looting": true,
+      "requireCharged": false
+    },
+    {
+      "xp": 0,
+      "Type": "GOLD_NUGGET",
+      "Chance": 100.0,
+      "Min": 0,
+      "Max": 1,
+      "Looting": true,
+      "requireCharged": false
+    }
+  ]
+}

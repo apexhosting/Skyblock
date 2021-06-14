@@ -1,9 +1,9 @@
-# BentoBox v1.11.0 configuration file.
+# BentoBox v1.16.1 configuration file.
 # 
 # This configuration file contains settings that mainly apply to or manage the following elements:
 #  * Data storage
 #  * Gamemodes (commands, ...)
-#  * Internet connectivity (metrics, web-based content-enriched features, ...)
+#  * Internet connectivity (web-based content-enriched features, ...)
 # 
 # Note that this configuration file is dynamic:
 #  * It gets updated with the newest settings and comments after BentoBox loaded its settings from it.
@@ -58,13 +58,57 @@ general:
     # This helps prevent issues if the server crashes.
     # Data is also saved at important points in the game.
     backup-period: 5
+    # How many players will be saved in one tick. Default is 200
+    # Reduce if you experience lag while saving.
+    # Do not set this too low or data might get lost!
+    max-saved-players-per-tick: 20
+    # How many islands will be saved in one tick. Default is 200
+    # Reduce if you experience lag while saving.
+    # Do not set this too low or data might get lost!
+    max-saved-islands-per-tick: 20
+    # Enable SSL connection to MongoDB, MariaDB, MySQL and PostgreSQL databases.
+    # Added since 1.12.0.
+    use-ssl: false
+    # Database table prefix. Adds a prefix to the database tables. Not used by flatfile databases.
+    # Only the characters A-Z, a-z, 0-9 can be used. Invalid characters will become an underscore.
+    # Set this to a unique value if you are running multiple BentoBox instances that share a database.
+    # Be careful about length - databases usually have a limit of 63 characters for table lengths
+    # Added since 1.13.0.
+    prefix-character: ''
+    # MongoDB client connection URI to override default connection options.
+    # See: https://docs.mongodb.com/manual/reference/connection-string/
+    # Added since 1.14.0.
+    mongodb-connection-uri: ''
   # Allow FTB Autonomous Activator to work (will allow a pseudo player [CoFH] to place and break blocks and hang items)
   # Add other fake player names here if required
   # /!\ This feature is experimental and might not work as expected or might not work at all.
   fakeplayers:
   - '[CoFH]'
 panel:
+  # Toggle whether panels should be closed or not when the player clicks anywhere outside of the inventory view.
   close-on-click-outside: true
+  # Defines the Material of the item that fills the gaps (in the header, etc.) of most panels.
+  # Added since 1.14.0.
+  filler-material: LIGHT_BLUE_STAINED_GLASS_PANE
+  # Toggle whether player head texture should be gathered from Mojang API or mc-heads.net cache server.
+  # Mojang API sometime may be slow and may limit requests to the player data, so this will allow to
+  # get player heads a bit faster then Mojang API.
+  # Added since 1.16.0.
+  use-cache-server: false
+  # Defines how long player skin texture link is stored into local cache before it is requested again.
+  # Defined value is in the minutes.
+  # Value 0 will not clear cache until server restart.
+  # Added since 1.14.1.
+  head-cache-time: 60
+  # Defines a number of player heads requested per tasks.
+  # Setting it too large may lead to temporarily being blocked from head gatherer API.
+  # Added since 1.16.0.
+  heads-per-call: 9
+  # Defines a number of ticks between each player head request task.
+  # Setting it too large may lead to temporarily being blocked from head gatherer API.
+  # Added since 1.16.0.
+  # /!\ In order to apply the changes made to this option, you must restart your server. Reloading BentoBox or the server won't work.
+  ticks-between-calls: 10
 logs:
   # Toggle whether superflat chunks regeneration should be logged in the server logs or not.
   # It can be spammy if there are a lot of superflat chunks to regenerate.
@@ -136,11 +180,18 @@ island:
   # A setting of 0 will leave island blocks (not recommended).
   # Added since 1.7.0.
   delete-speed: 1
+  deletion:
+    # Toggles whether islands, when players are resetting them, should be kept in the world or deleted.
+    # * If set to 'true', whenever a player resets his island, his previous island will become unowned and won't be deleted from the world.
+    #   You can, however, still delete those unowned islands through purging.
+    #   On bigger servers, this can lead to an increasing world size.
+    #   Yet, this allows admins to retrieve a player's old island in case of an improper use of the reset command.
+    #   Admins can indeed re-add the player to his old island by registering him to it.
+    # * If set to 'false', whenever a player resets his island, his previous island will be deleted from the world.
+    #   This is the default behaviour.
+    # Added since 1.13.0.
+    keep-previous-island-on-reset: false
 web:
-  # BentoBox uses bStats.org to get global data about the plugin to help improving it.
-  # bStats has nearly no effect on your server's performance and the sent data is completely
-  # anonymous so please consider twice if you really want to disable it.
-  metrics: true
   github:
     # Toggle whether BentoBox can connect to GitHub to get data about updates and addons.
     # Disabling this will result in the deactivation of the update checker and of some other

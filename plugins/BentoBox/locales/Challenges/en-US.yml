@@ -479,6 +479,7 @@ challenges:
       required-items: 'Required Items:'
       required-entities: 'Required Entities:'
       required-blocks: 'Required Blocks:'
+      rewards-title: '&a  Rewards:'
     level-description:
       completed: '&bCompleted'
       completed-challenges-of: '&3You have completed [number] out of [max] challenges
@@ -602,6 +603,10 @@ challenges:
     missing-arguments: '&cCommand is missing arguments.'
     no-multiple-permission: '&cYou do not have permission to complete this challenge
       multiple times at once.'
+    invalid-level: '&c Level [level] contains invalid data. It will not be loaded
+      from database!'
+    invalid-challenge: '&c Challenge [challenge] contains invalid data. It will not
+      be loaded from database!'
 protection:
   flags:
     CHALLENGES_ISLAND_PROTECTION:

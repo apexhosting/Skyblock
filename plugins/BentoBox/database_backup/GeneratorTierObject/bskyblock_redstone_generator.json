@@ -1,0 +1,34 @@
+{
+  "uniqueId": "bskyblock_redstone_generator",
+  "friendlyName": "&r&lRedstone Generator",
+  "description": [
+    "&7 Some red parts appears",
+    "&7 between stone."
+  ],
+  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: REDSTONE_ORE\n",
+  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BARRIER\n",
+  "generatorType": "COBBLESTONE_OR_STONE",
+  "defaultGenerator": false,
+  "priority": 4,
+  "requiredMinIslandLevel": 150,
+  "requiredBiomes": [],
+  "requiredPermissions": [],
+  "generatorTierCost": 5.0,
+  "activationCost": 0.0,
+  "deployed": true,
+  "blockChanceMap": {
+    "15.0": "COBBLESTONE",
+    "40.0": "STONE",
+    "45.0": "GRAVEL",
+    "55.0": "COAL_ORE",
+    "75.0": "IRON_ORE",
+    "85.0": "GOLD_ORE",
+    "100.0": "REDSTONE_ORE"
+  },
+  "treasureChanceMap": {},
+  "treasureItemChanceMap": {
+    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: EMERALD\n"
+  },
+  "treasureChance": 1.0E-4,
+  "maxTreasureAmount": 1
+}

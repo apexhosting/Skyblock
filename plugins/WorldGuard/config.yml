@@ -24,6 +24,8 @@ regions:
         default: 7
     use-paper-entity-origin: false
     cancel-chat-without-recipients: true
+    disable-bypass-by-default: false
+    announce-bypass-status: false
 auto-invincible: false
 auto-invincible-group: false
 auto-no-drowning-group: false
@@ -51,6 +53,7 @@ protection:
     remove-infinite-stacks: false
     disable-xp-orb-drops: false
     disable-obsidian-generators: false
+    use-max-priority-association: false
 gameplay:
     block-potions: []
     block-potions-overly-reliably: false
@@ -161,3 +164,7 @@ blacklist:
             enable: false
             path: worldguard/logs/%Y-%m-%d.log
             open-files: 10
+disable-permission-cache: false
+turtle-egg:
+    disable-creature-trampling: false
+    disable-player-trampling: false

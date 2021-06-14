@@ -130,6 +130,7 @@ biomes:
         chunk: Chunk
         square: Gamme
         undefined: Indéfinie
+        range: Gamme
       visibility-mode:
         info: Permet de modifier quels biomes vous pouvez voir.
         all: '&r- lister tous les biomes'

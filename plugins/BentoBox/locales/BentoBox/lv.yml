@@ -221,6 +221,7 @@ commands:
       unowned:
         description: Dzēst bezīpašnieku salas - nepieciešams apstiprinājums
         unowned-islands: '&dAtrastas [number] salas'
+      days-one-or-more: Nevar būt mazāks par 1 dienu
     range:
       description: Admina salas distances komanda
       display:
@@ -539,6 +540,7 @@ commands:
         savu salu atstatīja.'
     resetname:
       description: noņemt salas nosaukumu
+      success: '&a Tavas salas nosaukums atjaunots veiksmīgi.'
     sethome:
       description: uzstāda teleportācijas mājas punktu
       home-set: '&6Tavas salas mājas punkts uzstādīts šajā punktā.'
@@ -557,6 +559,7 @@ commands:
       name-too-short: '&cPārāk īss. Minimālais izmērs ir [number] simboli.'
       parameters: <nosaukums>
       name-already-exists: '&cSala ar šādu nosaukumu jau eksistē šajā spēles režīmā.'
+      success: '&a Salas nosaukums veiksmīgi nomainīts uz &b [name]&a .'
     settings:
       description: attaino salas iestatījumus
     spawn:
@@ -715,10 +718,15 @@ general:
     use-in-game: '&cŠī komanda ir pieejama tikai spēlē.'
     wrong-world: '&cTu neatrodies pareizajā pasaulē, lai to darītu!'
     you-must-wait: '&cTev ir jāgaida [number]s pirms vari izmantot komandu vēlreiz.'
+    player-is-not-owner: '&b [name] &c nav salas īpašnieks!'
   invalid: Nederīgs
   success: '&aDarīts!'
   tips:
     changing-obsidian-to-lava: Pārveido obsidiānu uz lavu. Esi uzmanīgāks!
+  worlds:
+    overworld: Pasaule
+    nether: Elles
+    the-end: Beigas
 language:
   description:
     author: '&3- &b[name]'
@@ -983,6 +991,8 @@ protection:
       name: Ieejas/Izejas ziņa
       now-entering: '&bTu ieej [name] salā'
       now-leaving: '&bTu pamet [name] salu'
+      now-entering-your-island: '&a Tu ieej savā salā.'
+      now-leaving-your-island: '&a Tu pamet savu salu.'
     EXPERIENCE_BOTTLE_THROWING:
       description: Pārslēdz pieredzes pudeļu mešanu
       hint: Pieredžu pudeļu mešana nav atļauta

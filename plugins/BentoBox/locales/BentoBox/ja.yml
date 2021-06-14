@@ -82,10 +82,27 @@ commands:
         slot-instructions: |
           &a左クリックして増加
           &a右クリックして減少
+        no-trash: ゴミ箱に入れることはできません
+        no-trash-instructions: デフォルトのバンドルを破棄できません
+        no-permission: 無許可
+        no-perm-required: デフォルトのバンドルに権限を設定することはできません
       description: 青写真の操作
       copy-first: '&c最初に青写真をコピー!'
       mid-copy: ＆cコピー中です。コピーが完了するまで待ちます。
       copied-percent: ＆6コピー済み[number]％
+      delete:
+        parameters: <名前>
+        description: ブループリントを削除する
+        no-blueprint: '&b [name]&cは存在しません。'
+        confirmation: |
+          &cこのブループリントを削除してもよろしいですか？
+          &c一度削除すると、それを回復する方法はありません。
+        success: '&aブループリントが正常に削除されました&b [name]&a。'
+      rename:
+        parameters: <設計図名> <新しい名前>
+        description: ブループリントの名前を変更する
+        success: '&aブループリント&b [old]&aは&b [name]&aに正常に名前変更されました。'
+        pick-different-name: '&cブループリントの現在の名前とは異なる名前を指定してください。'
     clearresetsall:
       description: この世界のプレーヤーリセットカウントをすべてクリアします。
     clearresets:
@@ -125,6 +142,8 @@ commands:
       max-protection-range: 最大の歴史的保護範囲：[range]
       banned-format: '&c[name]'
       no-island: '&cあなたは今島にはいません...'
+      island-protection-center: 保護地域センター：[xyz]
+      island-center: 島の中心：[xyz]
     range:
       description: 管理島の範囲コマンド
       display:
@@ -150,6 +169,18 @@ commands:
           too-low: '&c保護範囲は1より大きくなければなりません'
         parameters: <プレーヤー><範囲>
         success: '&2島の保護範囲を [number]に設定します。'
+      invalid-value:
+        too-low: '&c保護範囲は&b 1&cより大きくなければなりません！'
+        too-high: '&c保護範囲は&b[number]&c以下である必要があります！'
+        same-as-before: '&c保護範囲はすでに&b [number]&cに設定されています！'
+      add:
+        description: 島の保護範囲を拡大
+        parameters: <プレーヤー> <範囲>
+        success: '&a [name]の島の保護範囲を[total]&7 (&b +[number]&7 )&aに増やすことに成功しました。'
+      remove:
+        description: 島の保護範囲を縮小します
+        parameters: <プレーヤー> <範囲>
+        success: '&a [name]の島の保護範囲を[total]&7 (&b -[number]&7 )&aに減らすことに成功しました。'
     register:
       already-owned: '&c島はすでに他のプレイヤーが所有している!'
       no-island-here: '&cここには島はない1つを確認します。'
@@ -197,6 +228,15 @@ commands:
         description: チームからプレーヤーを外す。
         cannot-kick-owner: '&cチームリーダーを外すことはできません。まずはメンバーを外してください。'
         admin-kicked: 管理者は、あなたをチームから外しました。
+      fix:
+        description: データベース内のクロスアイランドメンバーシップをスキャンして修正
+        scanning: データベースをスキャンしています...
+        duplicate-owner: '&c プレイヤーはデータベースに複数の島を所有しています：[name]'
+        player-has: '&cプレイヤー[name]には[number]の島があります'
+        fixed: '&a修正済み'
+        done: '&aスキャン'
+        duplicate-member: '&cプレーヤー[name]はデータベース内の複数の島のメンバーです'
+        rank-on-island: '&c [rank]島の[xyz]'
     tp:
       description: プレイヤーの島にテレポート
       manual: '&c安全なワープが見つかりません![location]の近くに手動でテレポートします。'
@@ -250,6 +290,11 @@ commands:
       parameters: '[日]'
       days-or-more: 1日以上必要です
       purgable-islands: '[number]個のパーガブル島が見つかりました。'
+      days-one-or-more: 1日以上必要です
+      no-purge-in-progress: '&c現在進行中のパージはありません。'
+      status:
+        description: パージのステータスを表示します
+        status: '&bパージされた[purgeable] 個の島のうち[purged]個の島 &7(&b[percentage] %&7)&a.'
     switch:
       description: 保護バイパスのオン/オフを切り替えます
       removing: 保護バイパスを削除しています...
@@ -283,6 +328,7 @@ commands:
     settings:
       parameters: '[プレーヤー]'
       description: プレーヤーのシステム設定またはアイランド設定を開きます
+      unknown-setting: '&c不明な設定'
     resetflags:
       description: すべての島をconfig.ymlのデフォルトのフラグ設定にリセットします
       confirm: ＆4これにより、すべての島のフラグがデフォルトにリセットされます！
@@ -316,6 +362,21 @@ commands:
         success: ＆a＆b [number]＆adeathsを＆b [name]に正常に削除し、合計を＆b [total]＆a deathsに減らしました。
     help:
       description: 管理者コマンド
+    setspawnpoint:
+      description: この島のスポーンポイントとして現在の場所を設定します
+      no-island-here: '&cここには島はありません。'
+      confirmation: '&cこの場所をこの島のスポーンポイントとして設定してもよろしいですか？'
+      success: '&aこの場所をこの島のスポーンポイントとして正常に設定しました。'
+      island-spawnpoint-changed: '&a [user]はこの島のスポーンポイントを変更しました。'
+    setprotectionlocation:
+      parameters: '[x y z coords]'
+      description: 現在地または[x y z]を島の保護地域の中心として設定します
+      island: '&cこれは、「[name]」が所有する[xyz]の島に影響します。'
+      confirmation: '&c [xyz]を保護センターとして設定してもよろしいですか？'
+      success: '&a [xyz]を保護センターとして正常に設定しました。'
+      fail: '&a [xyz]を保護センターとして設定できませんでした。'
+      island-location-changed: '&a [user]は島の保護センターを[xyz]に変更しました。'
+      xyz-error: '&c 3つの整数座標を指定します：例：100 120 100'
   bentobox:
     about:
       description: 著作権とライセンス情報を表示する
@@ -329,6 +390,8 @@ commands:
       addons-reloaded: ＆2アドオンがリロードされました。
       addon-reloaded: '&b[name] &2reloaded.'
       locales-reloaded: '&2言語がリロードされた'
+      locales:
+        description: ロケールをリロードします
     version:
       addon-syntax: '&2[name] &3[version] &7(&3[state]&7)'
       description: 表示情報
@@ -402,12 +465,15 @@ commands:
       on-first-login: ＆aWelcome！数秒で島の準備を開始します。
       parameters: <青写真>
       unknown-blueprint: ＆cそのブループリントはまだロードされていません。
+      cannot-create-island: '&c時間内にスポットが見つかりませんでした。もう一度お試しください...'
+      you-can-teleport-to-your-island: '&a必要なときに島にテレポートできます。'
     go:
       description: あなたの島にテレポート
       parameters: '[ホーム番号]'
       teleport: '&a島にテレポート'
       teleported: '&aテレポート #[number]をホームにします。'
       tip: '&bヘルプの種類/[label]ヘルプを表示します。'
+      unknown-home: '&c不明な家の名前！'
     help:
       description: 本島のコマンド
       pick-world: '&c[worlds]からワールドを指定する'
@@ -416,6 +482,9 @@ commands:
       parameters: <プレイヤー>
     language:
       description: 言語の選択
+      parameters: '[言語]'
+      not-available: '&cこの言語は使用できません。'
+      already-selected: '&cあなたはすでにこの言語を使用しています。'
     reset:
       description: 島を再起動し、古いものを削除する
       must-remove-members: あなたはそれを (/island team kick <player>) を再起動する前に、あなたの島からすべてのメンバーを削除する必要があります。
@@ -433,6 +502,7 @@ commands:
       kicked-from-island: ＆c所有者がリセットしているため、[gamemode]で島から追い出されます。
     resetname:
       description: 島の名前をリセット
+      success: '&a島の名前を正常にリセットしました。'
     sethome:
       description: ホームテレポートポイントを設定する
       home-set: あなたの島の家はあなたの現在の場所に設定されています。
@@ -445,12 +515,16 @@ commands:
         not-allowed: ＆c最後に家を設定することはできません。
         confirmation: ＆c最後に家を設定してもよろしいですか？
       parameters: '[数]'
+      too-many-homes: '&c設定できません-あなたの島は最大[number]の家にあります。'
+      homes-are: '&6島の家は次のとおりです:'
+      home-list-syntax: '&6 [name]'
     setname:
       description: 島の名前を設定します
       name-too-long: 長すぎます。最大サイズは [number] 文字です。
       name-too-short: 短すぎる。最小サイズは [number] 文字です。
       parameters: <名前>
       name-already-exists: ＆cこのゲームモードでは、その名前の島がすでに存在します。
+      success: '&a島の名前を&b [name]&aに正常に設定しました。'
     settings:
       description: 島の設定を表示
     spawn:
@@ -480,6 +554,7 @@ commands:
         member-layout:
           online: ＆a＆l o＆r＆f [name]
           offline: ＆c＆l o＆r＆f [name]＆7（[last_seen]）
+          offline-not-last-seen: '&c &l  o &r &f [name]'
         last-seen:
           layout: ＆b [number]＆7 [unit]前
           days: 日々
@@ -555,6 +630,7 @@ commands:
         success: ＆a信頼済み＆b [name]＆a。
         name-has-invited-you: ＆a [name]は、あなたを彼らの島の信頼できるメンバーになるよう招待しています。
         parameters: <プレイヤー>
+        is-full: '&c他の人を信頼することはできません。'
       uncoop:
         cannot-uncoop-member: チームメンバーを uncoop ことはできません!
         cannot-uncoop-yourself: 自分にそれを行うことはできません!
@@ -565,6 +641,7 @@ commands:
         all-members-logged-off: ＆cすべての島のメンバーがログオフしたため、あなたはもはや[name]の島の協同組合員ではありません
         success: ＆b [name]＆aisはもはやあなたの島の協同組合員ではありません。
         parameters: <プレイヤー>
+        is-full: '&cこれ以上生協メンバーを追加することはできません'
       untrust:
         cannot-untrust-member: チームメンバーを untrust ことはできません!
         cannot-untrust-yourself: 自分を untrust ことはできない!
@@ -599,6 +676,14 @@ commands:
       success: ＆a島から＆b [name]＆aを追放した。
       cannot-expel-member: ＆cチームメンバーを追放することはできません！
       parameters: <プレイヤー>
+    deletehome:
+      description: 自宅の場所を削除する
+      parameters: '[家名]'
+    renamehome:
+      description: 自宅の場所の名前を変更する
+      parameters: '[家名]'
+      enter-new-name: '&6新しい名前を入力してください'
+      already-exists: '&cその名前はすでに存在します。別の名前を試してください。'
   delay:
     previous-command-cancelled: ＆c前のコマンドがキャンセルされました
     stand-still: ＆6移動しないでください！ [seconds]秒でのテレポート
@@ -623,10 +708,16 @@ general:
     unknown-command: '&c不明なコマンドです。＆b/[label] help ＆cはヘルプを表示します。'
     wrong-world: ＆cあなたは正しい世界にいません！
     you-must-wait: '&cそのコマンドを再度実行するには、[number]秒を待つ必要があります。'
+    insufficient-rank: '&c ランクは十分に高くありません！ (&7 [rank]&c )'
+    player-is-not-owner: '&b [name] &c は島の所有者ではありません！'
   success: '&a成否'
   invalid: 無効
   tips:
     changing-obsidian-to-lava: 黒曜石を溶岩に戻します。注意してください！
+  worlds:
+    overworld: オーバーワールド
+    nether: ネザー
+    the-end: 終わり
 language:
   edited: 言語を[lang]に変更しました。
   panel-title: 言語の選択
@@ -768,6 +859,8 @@ protection:
       name: 入り口/終了メッセージ
       now-entering: 今[name]を入力する
       now-leaving: 今[name]を残し
+      now-entering-your-island: '&a今あなたの島に入っています。'
+      now-leaving-your-island: '&a今あなたの島を去ります。'
     FIRE:
       description: 火災が存在するかどうかを許可する
       hint: 火は許されない
@@ -863,6 +956,8 @@ protection:
         初心者を保護します。
         リセットを減らします。
       name: 黒曜石スクープ
+      scooping: '&a黒曜石を溶岩に戻す。次回は気をつけて！'
+      obsidian-nearby: '&c近くに黒曜石のブロックがあり、このブロックを溶岩にすくい上げることはできません。'
     OFFLINE_REDSTONE:
       description: |-
         ＆a無効にすると、レッドストーン
@@ -892,15 +987,21 @@ protection:
       description: PVP を有効/無効にする
       hint: 最後に無効になったPVP
       name: エンド PVP
+      enabled: '&cエンドのPVPが有効になりました。'
+      disabled: '&aエンドのPVPが無効になっています。'
     PVP_NETHER:
       description: PVP を有効/無効にする
       hint: ネザーで無効にされたPVP
       name: 地獄の PVP
+      enabled: '&cネザーのPVPが有効になりました。'
+      disabled: '&aネザーのPVPが無効になっています。'
     PVP_OVERWORLD:
       active: PVP はここでアクティブです!
       description: PVP を有効/無効にする
       hint: ＆cPVPはオーバーワールドで無効になっています
       name: PVP
+      enabled: '&cオーバーワールドのPVPが有効になりました。'
+      disabled: '&aオーバーワールドのPVPが無効になりました。'
     REDSTONE:
       description: トグル使用
       hint: レッドストーンインタラクションが無効です
@@ -1123,6 +1224,65 @@ protection:
       description: |-
         &aアクティブな場合、枯れます
         &aブロックとプレイヤーを破損
+    ANIMAL_NATURAL_SPAWN:
+      description: 自然な動物の産卵を切り替えます
+      name: 動物の自然なスポーン
+    ANIMAL_SPAWNERS_SPAWN:
+      description: 産卵者と動物の産卵を切り替える
+      name: 動物の産卵者
+    BREAK_SPAWNERS:
+      description: |-
+        スポナーの破壊を切り替えます。
+        BreakBlocksフラグをオーバーライドします。
+      name: スポナーを壊す
+      hint: スポナーブレーキングが無効
+    BREAK_HOPPERS:
+      description: |-
+        ホッパーの破損を切り替えます。
+        BreakBlocksフラグをオーバーライドします。
+      name: ホッパーを壊す
+      hint: ホッパーの破損が無効
+    LECTERN:
+      name: 演台
+      description: |-
+        &a書見台に本を置くことを許可する
+        &aまたはそれから本を取ります。
+
+        &cそれはプレイヤーが
+        &c本を読んでいます。
+      hint: 書見台に本を置いたり、書見台から本を取り出したりすることはできません。
+    LIMIT_MOBS:
+      description: |-
+        &aこのゲームモードで
+        &aエンティティが
+        &aスポーンするのを
+        &a制限します。
+      name: '&eエンティティタイプのスポーンを制限する'
+      can: '&aスポーンできます'
+      cannot: '&cスポーンできません'
+    MONSTER_NATURAL_SPAWN:
+      description: 自然モンスターの産卵を切り替えます
+      name: モンスターナチュラルスポーン
+    MONSTER_SPAWNERS_SPAWN:
+      description: スポナーとモンスターのスポーンを切り替えます
+      name: モンスタースポナー
+    WORLD_TNT_DAMAGE:
+      description: |-
+        &aTNTおよびTNTトロッコを許可する
+        &aブロックを壊してダメージを与える
+        &a島の制限外のエンティティ。
+      name: 世界のTNTダメージ
+    PETS_STAY_AT_HOME:
+      description: |-
+        &aアクティブなとき、飼いならされたペット
+        &aはとにのみ行くことができます
+        &aは所有者を離れることはできません
+        &aホームアイランド。
+      name: ペットは家にいる
+    HIVE:
+      description: '&aハイブの収穫を切り替えます。'
+      name: ハイブの収穫
+      hint: 収穫が無効
   locked: 島はロックされている!
   panel:
     flag-item:
@@ -1320,3 +1480,35 @@ successfully-loaded: |-
   &6 |  _ < / _ \ '_ \| __/ _ \|  _ < / _ \ \/ /
   &6 | |_) |  __/ | | | || (_) | |_) | (_) >  <   &bv&e[version]
   &6 |____/ \___|_| |_|\__\___/|____/ \___/_/\_\  &8Loaded in &e[time]&8ms.
+prefixes:
+  bentobox: '&6 BentoBox &7 &l > &r '
+enums:
+  DamageCause:
+    CONTACT: 衝突
+    ENTITY_ATTACK: エンティティ攻撃
+    ENTITY_SWEEP_ATTACK: エンティティスイープ攻撃
+    PROJECTILE: 発射物
+    SUFFOCATION: 窒息
+    FALL: 落下ダメージ
+    FIRE: 火
+    FIRE_TICK: 燃焼
+    MELTING: 溶融
+    LAVA: 溶岩
+    DROWNING: 溺死
+    BLOCK_EXPLOSION: ブロック爆発
+    ENTITY_EXPLOSION: エンティティの爆発
+    VOID: 無効
+    LIGHTNING: ライトニング
+    SUICIDE: 自殺
+    STARVATION: 飢餓
+    POISON: 毒
+    MAGIC: マジック
+    WITHER: 枯れる
+    FALLING_BLOCK: フォーリングブロック
+    THORNS: とげ
+    DRAGON_BREATH: ドラゴンブレス
+    CUSTOM: カスタム
+    FLY_INTO_WALL: 壁に飛ぶ
+    HOT_FLOOR: ホットフロア
+    CRAMMING: 一夜漬け
+    DRYOUT: 完全に乾く

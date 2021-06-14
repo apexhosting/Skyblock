@@ -62,6 +62,16 @@ biomes:
         value: Value
         add-element: Add Element
         remove-element: Remove Element
+        environment: Change Environment
+        lush: Show lush biomes
+        dry: Show dry biomes
+        cold: Show cold biomes
+        snowy: Show snowy biomes
+        ocean: Show ocean biomes
+        nether: Show nether biomes
+        the_end: Show the end biomes
+        neutral: Show neutral biomes
+        unused: Show unused/unlisted biomes
       value: 'Current Value: [number]'
       increase: Increase by [number]
       decrease: Decrease by [number]
@@ -130,11 +140,28 @@ biomes:
             for 'biomes.gui.biome-description.required-money'.
           required_permission: Required permission string. | Represents translation
             for 'biomes.gui.biome-description.equired-permissions'.
+        environment: Allows to change active environment for biome.
+        environment-active: ' &2 - [value]'
+        environment-inactive: ' &c - [value]'
+        lush: Contains biomes with light green grass (with exception) and blue water.
+          | Like plains, forest, beach and mushroom fields.
+        dry: Contains biomes with olive tone grass and light blue water | Like desert,
+          savanna and badlands.
+        cold: Contains biomes with aqua colour grass and indigo water. | Like mountains
+          and taiga.
+        snowy: Contains biomes with aqua colour grass and purple water. | Like snowy
+          tundra and frozen river.
+        ocean: Contains large volume of water. | Like ocean.
+        nether: Contains all nether biomes. | Like nether wastes.
+        the_end: Contains all the end biomes. | Like the end.
+        neutral: Contains void and all hills biomes. | Like the void.
+        unused: Contains unused or unlisted biomes.
       update-mode:
         island: Island
         chunk: Chunk
         square: Range
         undefined: Undefined
+        range: Range
       visibility-mode:
         info: Modify visible biomes.
         all: All &r- list all biomes

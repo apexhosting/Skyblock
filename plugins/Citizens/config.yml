@@ -16,6 +16,7 @@ npc:
       max-fall-distance: 3
     attack-range: 3.0625
     use-new-finder: false
+    straight-line-targeting-distance: 5
   chat:
     options:
       bystanders-hear-targeted-chat: true
@@ -71,12 +72,16 @@ npc:
     rotation-update-degrees: 90.0
     use-latest-by-default: false
     view-distance: 100.0
+    player-join-update-delay-ticks: 60
+    placeholder-update-frequency-ticks: 6000
   commands:
     error-messages:
       maximum-times-used: You have reached the maximum number of uses ({0}).
       no-permission: You don't have permission to do that.
       not-enough-money: You need at least ${0}.
       on-cooldown: Please wait {0} more seconds.
+      missing-item: Missing {1} {0}
+      on-global-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
   packets:
     update-delay: 30
   player:
@@ -104,6 +109,8 @@ general:
     message: <a>
   translation:
     locale: ''
+  debug-chunk-loads: false
+  reload-warning-enabled: true
 advanced:
   check-minecraft-version: true
 economy:

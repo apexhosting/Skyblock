@@ -30,11 +30,16 @@ general:
     you-must-wait: '&cVous devez attendre [number]s avant de pouvoir utiliser cette
       commande.'
     must-be-positive-number: '&c[number] n''est pas un nombre positif.'
+    player-is-not-owner: '&b [name] &c n''est pas le propriétaire d''une île.'
   tips:
     changing-obsidian-to-lava: |+
       Transformation de l'obsidienne en lave
       &cSoyez plus prudent la prochaine fois !
 
+  worlds:
+    nether: Nether
+    overworld: Overworld
+    the-end: End
 commands:
   help:
     header: '&7=========== &cAide de [label] &7==========='
@@ -172,6 +177,9 @@ commands:
       banned-players: 'Joueurs bannis:'
       banned-format: '&c [name]'
       unowned: '&c N''appartient pas à'
+      deaths: 'Morts : [number]'
+      island-uuid: 'UUID : [uuid]'
+      last-login: 'Dernière connexion : [date]'
     version:
       description: affiche la version de BentoBox et des addons
     tp:
@@ -252,6 +260,12 @@ commands:
       unowned:
         description: Purger les îles non possédées - nécessite une confirmation
         unowned-islands: '&d Trouvé [number] d''îles'
+      days-one-or-more: Veuillez spécifier une durée supérieure à 1 jour.
+      no-purge-in-progress: '&c Il n''y a actuellement aucune purge en cours.'
+      status:
+        description: affiche l'état de la purge
+        status: '&b [purged] &a îles purgées sur &b [purgeable] &7 (&b [pourcentage]%
+          &7) &a.'
     unregister:
       parameters: <owner>
       description: désenregistrer le propriétaire de l''île, mais garder les blocs
@@ -409,6 +423,13 @@ commands:
       success-one: '&a [name] flag défini par défaut pour toutes les îles.'
     world:
       description: Gérer les paramètres du monde
+    setspawnpoint:
+      confirmation: '&c Voulez-vous vraiment définir cet emplacement comme point d''apparition
+        pour cette île?'
+      description: définir l'emplacement actuel comme spawn pour cette île
+      island-spawnpoint-changed: '&a [user] a modifié ce spawn de l''île.'
+      no-island-here: '&c Il n''y a pas d''île ici.'
+      success: '&a Spawn de l''île défini avec succès.'
   bentobox:
     description: commande administrateur de BentoBox
     about:
@@ -423,6 +444,8 @@ commands:
       warning: '&c Attention : Recharger peut causer de l''instabilité, donc si vous
         voyez des erreurs ensuite, redémarrer le serveur.'
       unknown-addon: '&c Addon inconnu !'
+      locales:
+        description: recharger les locales
     version:
       plugin-version: '&2Version de BentoBox : &3[version]'
       description: affiche la version de BentoBox et des addons
@@ -481,6 +504,7 @@ commands:
         all-members-logged-off: '&c Tous les membres de l''île se sont déconnectés,
           donc vous n''êtes pas membre de la Coop de l''île de [name].'
         success: '&b [name] &a n''est plus un membre de la coopérative de votre île.'
+        is-full: '&c Vous ne pouvez ajouter personne d''autre dans votre coop.'
       trust:
         parameters: <joueur>
         description: donner un rang de confiance à un joueur sur votre île
@@ -490,6 +514,7 @@ commands:
         player-already-trusted: '&c Le joueur est déjà de confiance !'
         you-are-trusted: '&2 Vous avez la confiance de &b [name]&a !'
         success: '&a Vous avez fait confiance &b [name]&a .'
+        is-full: '&c Vous ne pouvez Trust d''avantage de joueurs.'
       untrust:
         parameters: <joueur>
         description: supprimer le rang de joueur de confiance du joueur
@@ -696,8 +721,10 @@ commands:
       name-too-long: '&c Trop longtemps. La taille maximale est de [number] caractères.'
       name-already-exists: '&c Il y a déjà une île avec ce nom dans ce mode de jeu'
       parameters: <name>
+      success: '&a Le nom de votre île est désormais &b [name]&a .'
     resetname:
       description: réinitialiser le nom de votre île
+      success: '&a Le nom de votre île a été réinitialisé.'
     banlist:
       description: liste des joueurs interdits
       noone: '&a Personne n''est interdit sur cette île.'
@@ -893,6 +920,8 @@ protection:
       name: Enter/Exit messages
       now-entering: '&b Vous venez d''entrer danns l''île de [name]'
       now-leaving: '&b Vous venez de quitter l''île de [name]'
+      now-entering-your-island: '&a Vous venez d''entrer sur votre île.'
+      now-leaving-your-island: '&a Vous venez de quitter votre île.'
     EXPERIENCE_BOTTLE_THROWING:
       name: Experience bottle throwing
       description: Toggle throwing experience bottles.
@@ -1063,6 +1092,10 @@ protection:
         &a Allow obsidian to be scooped up
         &a with an empty bucket back into lava.
         &a Protects newbies. Reduces resets.
+      obsidian-nearby: '&c Il y a d''autres blocs d''obsidienne à proximité, vous
+        ne pouvez pas transformer ce bloc en lave.'
+      scooping: '&a Retour de l''obsidienne en lave. Soyez plus prudent la prochaine
+        fois !'
     OFFLINE_GROWTH:
       description: |-
         &a When disabled, plants
@@ -1111,12 +1144,16 @@ protection:
         &c in the End.
       name: End PVP
       hint: PVP disabled in the End
+      disabled: '&a Le PVP dans l''End a été désactivé.'
+      enabled: '&c Le PVP dans l''End a été activé.'
     PVP_NETHER:
       description: |-
         &c Enable/Disable PVP
         &c in the Nether.
       name: Nether PVP
       hint: PVP disabled in the Nether
+      disabled: '&a Le PVP dans le Nether a été désactivé.'
+      enabled: '&c Le PVP dans le Nether a été activé.'
     PVP_OVERWORLD:
       description: |-
         &c Enable/Disable PVP
@@ -1124,6 +1161,8 @@ protection:
       name: Overworld PVP
       hint: '&c PVP disabled in the Overworld'
       active: '&c PVP is active here!'
+      disabled: '&a Le PVP dans l''Overworld a été désactivé.'
+      enabled: '&c Le PVP dans l''Overworld a été activé.'
     REDSTONE:
       description: Toggle use
       name: Redstone items
@@ -1212,6 +1251,19 @@ protection:
       description: |-
         &a If active, withers can
         &a damage blocks and players
+    BREAK_SPAWNERS:
+      description: est-ce que les joueurs peuvent détruire les spawners? Remplace
+        le flag.
+      hint: Casse spawners désactivée
+      name: Casser les Spawners
+    LIMIT_MOBS:
+      can: '&a Peut spawn'
+      cannot: '&c Ne peut pas spawn'
+      description: |-
+        &a Limiter les entités de
+        &a spawn dans ce mode
+        &a de jeu.
+      name: '&e Limiter le type d''entité qui peut spawn'
   locked: '&cCette île est verrouillée!'
   protected: '&cÎle protégée: [description]'
   spawn-protected: '&cSpawn protégé: [description]'
@@ -1288,6 +1340,9 @@ management:
         blueprints:
           name: '&6Blueprints'
           description: '&aAffiche le menu de gestion des Blueprints.'
+        gamemode:
+          description: '&a Îles : &b [islands]'
+          name: '&f [name]'
       addons:
         name: '&6Addons'
         description: '&eCliquez &apour afficher les addons chargés.'
@@ -1308,6 +1363,9 @@ management:
       empty-here:
         name: '&bC''est vide ici...'
         description: '&aEt si vous jetiez un œil à notre catalogue ?'
+      credits:
+        description: '&a Ouvre les crédits de BentoBox'
+        name: '&6 Crédits'
     information:
       state:
         name: '&6Compatibilité'
@@ -1414,3 +1472,5 @@ panel:
         &a Autoriser BentoBox à se connecter à GitHub dans
         &a la configuration ou réessayer plus tard.
 
+prefixes:
+  bentobox: '&6 BentoBox &7 &l> &r'

@@ -139,6 +139,7 @@ biomes:
         chunk: Pedazo
         square: Distancia
         undefined: Indefinido
+        range: Distancia
       view-mode:
         online: En línea
         in-world: En este mundo

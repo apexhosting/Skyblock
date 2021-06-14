@@ -1,0 +1,34 @@
+{
+  "uniqueId": "bskyblock_emerald_generator",
+  "friendlyName": "&r&lEmerald Generator",
+  "description": [
+    "&7 Emeralds, there are",
+    "&7 emeralds now."
+  ],
+  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: EMERALD_ORE\n",
+  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BARRIER\n",
+  "generatorType": "COBBLESTONE_OR_STONE",
+  "defaultGenerator": false,
+  "priority": 5,
+  "requiredMinIslandLevel": 200,
+  "requiredBiomes": [],
+  "requiredPermissions": [],
+  "generatorTierCost": 5.0,
+  "activationCost": 0.0,
+  "deployed": true,
+  "blockChanceMap": {
+    "20.0": "STONE",
+    "25.0": "GRAVEL",
+    "35.0": "COAL_ORE",
+    "60.0": "IRON_ORE",
+    "75.0": "GOLD_ORE",
+    "95.0": "REDSTONE_ORE",
+    "100.0": "EMERALD_ORE"
+  },
+  "treasureChanceMap": {},
+  "treasureItemChanceMap": {
+    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND\n"
+  },
+  "treasureChance": 1.0E-4,
+  "maxTreasureAmount": 1
+}

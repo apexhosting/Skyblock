@@ -5,11 +5,12 @@
   "description": [
     "Where is my horse?"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: GRASS\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GRASS\n",
   "order": -1,
   "requiredLevel": 0,
-  "requiredCost": 100,
+  "requiredCost": 100.0,
   "requiredPermissions": [],
   "world": "bskyblock_world",
+  "environment": "NORMAL",
   "uniqueId": "BSkyBlock_savanna"
 }

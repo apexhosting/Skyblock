@@ -31,6 +31,7 @@ general:
     you-must-wait: '&c You must wait [number]s before you can do that command again.'
     must-be-positive-number: '&c [number] is not a valid positive number.'
     player-is-not-owner: '&b [name] &c is not the owner of an island!'
+    insufficient-rank: '&c Your rank is not high enough to do that! (&7 [rank]&c )'
   tips:
     changing-obsidian-to-lava: Changing obsidian back into lava. Be careful!
   worlds:
@@ -93,6 +94,12 @@ commands:
       unowned:
         description: Purge unowned islands - requires confirmation
         unowned-islands: '&d Found [number] islands'
+      days-one-or-more: Must be at least 1 day or more
+      no-purge-in-progress: '&c There is currently no purge in progress.'
+      status:
+        description: displays the status of the purge
+        status: '&b [purged] &a islands purged out of &b [purgeable] &7(&b[percentage]
+          %&7)&a.'
     team:
       add:
         parameters: <owner> <player>
@@ -118,6 +125,16 @@ commands:
         description: transfers island ownership to the player
         already-owner: '&c [name] is already the owner of this island!'
         success: '&b [name]&a  is now the owner of this island.'
+      fix:
+        description: scans and fixes cross island membership in database
+        scanning: Scanning database...
+        duplicate-owner: '&c Player owns more than one island in database: [name]'
+        player-has: '&c Player [name] has [number] islands'
+        duplicate-member: '&c Player [name] is a member of more than one island in
+          the database'
+        rank-on-island: '&c [rank] on island at [xyz]'
+        fixed: '&a Fixed'
+        done: '&a Scan'
     range:
       description: Admin island range command
       invalid-value:
@@ -192,6 +209,8 @@ commands:
       banned-players: 'Banned players:'
       banned-format: '&c [name]'
       unowned: '&c Unowned'
+      island-protection-center: 'Protection area center: [xyz]'
+      island-center: 'Island center: [xyz]'
     switch:
       description: switch on/off protection bypass
       op: '&c Ops can always bypass protection. Deop to use command.'
@@ -252,6 +271,7 @@ commands:
     settings:
       parameters: '[player]'
       description: open system settings or island settings for player
+      unknown-setting: '&c Unknown setting'
     blueprint:
       parameters: <load/copy/paste/pos1/pos2/save>
       description: manipulate blueprints
@@ -348,6 +368,10 @@ commands:
         slot-instructions: |
           &a Left click to increment
           &a Right click to decrement
+        no-trash: Cannot Trash
+        no-trash-instructions: Cannot trash default bundle
+        no-permission: No Permission
+        no-perm-required: Cannot set perm for default bundle
       rename:
         parameters: <blueprint name> <new name>
         description: rename a blueprint
@@ -393,6 +417,23 @@ commands:
         parameters: <player> <deaths>
         success: '&a Successfully removed &b [number] &a deaths to &b [name], decreasing
           the total to &b [total]&a  deaths.'
+    setprotectionlocation:
+      parameters: '[x y z coords]'
+      description: set current location or [x y z] as center of island's protection
+        area
+      island: '&c This will affect the island at [xyz] owned by ''[name]''.'
+      confirmation: '&c Are you sure you want to set [xyz] as the protection center?'
+      success: '&a Successfully set [xyz] as the protection center.'
+      fail: '&a Failed to set [xyz] as the protection center.'
+      island-location-changed: '&a [user] changed island''s protection center to [xyz].'
+      xyz-error: '&c Specify three integer coordinates: e.g, 100 120 100'
+    setspawnpoint:
+      description: set current location as spawn point for this island
+      no-island-here: '&c There is no island here.'
+      confirmation: '&c Are you sure you want to set this location as the spawn point
+        for this island?'
+      success: '&a Successfully set this location as the spawn point for this island.'
+      island-spawnpoint-changed: '&a [user] changed this island spawn point.'
   bentobox:
     description: BentoBox admin command
     about:
@@ -407,6 +448,8 @@ commands:
       warning: '&c Warning: Reloading may cause instability, so if you see errors
         afterwards, restart the server.'
       unknown-addon: '&c Unknown addon!'
+      locales:
+        description: reloads locales
     version:
       plugin-version: '&2 BentoBox version: &3 [version]'
       description: displays BentoBox and addons versions
@@ -449,6 +492,7 @@ commands:
       description: teleport you to your island
       teleport: '&a Teleporting you to your island.'
       teleported: '&a Teleported you to home &e #[number].'
+      unknown-home: '&c Unknown home name!'
     help:
       description: The main island command
       pick-world: '&c Specify world from [worlds]'
@@ -511,14 +555,19 @@ commands:
         not-allowed: '&c You are not allowed to set your home in the End.'
         confirmation: '&c Are you sure you want to set your home in the End?'
       parameters: '[home number]'
+      too-many-homes: '&c Cannot set - your island is at the maximum of [number] homes.'
+      homes-are: '&6 Island homes are:'
+      home-list-syntax: '&6 [name]'
     setname:
       description: set a name for your island
       name-too-short: '&c Too short. Minimum size is [number] characters.'
       name-too-long: '&c Too long. Maximum size is [number] characters.'
       name-already-exists: '&c There is already an island with that name in this gamemode.'
       parameters: <name>
+      success: '&a Successfully set your island''s name to &b [name]&a .'
     resetname:
       description: reset your island name
+      success: '&a Successfully reset your island name.'
     team:
       description: manage your team
       info:
@@ -526,6 +575,7 @@ commands:
         member-layout:
           online: '&a &l  o &r &f [name]'
           offline: '&c &l  o &r &f [name] &7 ([last_seen])'
+          offline-not-last-seen: '&c &l  o &r &f [name]'
         last-seen:
           layout: '&b [number] &7 [unit] ago'
           days: days
@@ -558,6 +608,7 @@ commands:
         all-members-logged-off: '&c All island members logged off so you are no longer
           a coop member of [name]''s island'
         success: '&b [name] &a is no longer a coop member of your island.'
+        is-full: '&c You cannot coop anyone else.'
       trust:
         description: give a player trusted rank on your island
         parameters: <player>
@@ -567,6 +618,7 @@ commands:
         player-already-trusted: '&c Player is already trusted!'
         you-are-trusted: '&2 You are trusted by &b [name]&a !'
         success: '&a You trusted &b [name]&a .'
+        is-full: '&c You cannot trust anyone else.'
       untrust:
         description: remove trusted player rank from player
         parameters: <player>
@@ -671,6 +723,9 @@ commands:
       description: display island settings
     language:
       description: select language
+      parameters: '[language]'
+      not-available: '&c This language is not available.'
+      already-selected: '&c You are already using this language.'
     expel:
       description: expel a player from your island
       parameters: <player>
@@ -680,6 +735,14 @@ commands:
       not-on-island: '&c That player is not on your island!'
       player-expelled-you: '&b [name]&c  expelled you from the island!'
       success: '&a You expelled &b [name] &a from the island.'
+    deletehome:
+      description: delete a home location
+      parameters: '[home name]'
+    renamehome:
+      description: rename a home location
+      parameters: '[home name]'
+      enter-new-name: '&6 Enter the new name'
+      already-exists: '&c That name already exists, try another name.'
 ranks:
   owner: Owner
   sub-owner: Sub-Owner
@@ -1028,6 +1091,9 @@ protection:
         &a Allow obsidian to be scooped up
         &a with an empty bucket back into lava.
         &a Protects newbies. Reduces resets.
+      scooping: '&a Changing obsidian back into lava. Be careful next time!'
+      obsidian-nearby: '&c There are obsidian blocks nearby, you cannot scoop up this
+        block into lava.'
     OFFLINE_GROWTH:
       description: |-
         &a When disabled, plants
@@ -1076,12 +1142,16 @@ protection:
         &c in the End.
       name: End PVP
       hint: PVP disabled in the End
+      enabled: '&c The PVP in the End has been enabled.'
+      disabled: '&a The PVP in the End has been disabled.'
     PVP_NETHER:
       description: |-
         &c Enable/Disable PVP
         &c in the Nether.
       name: Nether PVP
       hint: PVP disabled in the Nether
+      enabled: '&c The PVP in the Nether has been enabled.'
+      disabled: '&a The PVP in the Nether has been disabled.'
     PVP_OVERWORLD:
       description: |-
         &c Enable/Disable PVP
@@ -1089,6 +1159,8 @@ protection:
       name: Overworld PVP
       hint: '&c PVP disabled in the Overworld'
       active: '&c PVP is active here!'
+      enabled: '&c The PVP in the Overworld has been enabled.'
+      disabled: '&a The PVP in the Overworld has been disabled.'
     REDSTONE:
       description: Toggle use
       name: Redstone items
@@ -1186,6 +1258,55 @@ protection:
         &c It does not prevent players from
         &c reading the books.
       hint: cannot place a book on a lectern or take a book from it.
+    ANIMAL_NATURAL_SPAWN:
+      description: Toggle natural animal spawning
+      name: Animal natural spawn
+    ANIMAL_SPAWNERS_SPAWN:
+      description: Toggle animal spawning with spawners
+      name: Animal spawners
+    BREAK_SPAWNERS:
+      description: |-
+        Toggle spawners breaking.
+        Overrides the Break Blocks flag.
+      name: Break spawners
+      hint: Spawner breaking disabled
+    BREAK_HOPPERS:
+      description: |-
+        Toggle hoppers breaking.
+        Overrides the Break Blocks flag.
+      name: Break hoppers
+      hint: Hoppers breaking disabled
+    HIVE:
+      description: '&a Toggle hive harvesting.'
+      name: Hive harvesting
+      hint: Harvesting disabled
+    LIMIT_MOBS:
+      description: |-
+        &a Limit entities from
+        &a spawning in this game
+        &a mode.
+      name: '&e Limit entity type spawning'
+      can: '&a Can spawn'
+      cannot: '&c Cannot spawn'
+    MONSTER_NATURAL_SPAWN:
+      description: Toggle natural monster spawning
+      name: Monster natural spawn
+    MONSTER_SPAWNERS_SPAWN:
+      description: Toggle monster spawning with spawners
+      name: Monster spawners
+    PETS_STAY_AT_HOME:
+      description: |-
+        &a When active, tamed pets
+        &a can only go to and
+        &a cannot leave the owner's
+        &a home island.
+      name: Pets Stay At Home
+    WORLD_TNT_DAMAGE:
+      description: |-
+        &a Allow TNT and TNT minecarts
+        &a to break blocks and damage
+        &a entities outside of island limits.
+      name: World TNT damage
   locked: '&c This island is locked!'
   protected: '&c Island protected: [description]'
   world-protected: '&c World protected: [description]'
@@ -1388,3 +1509,35 @@ successfully-loaded: |2
   &6  |  _ < / _ \ '_ \| __/ _ \|  _ < / _ \ \/ /
   &6  | |_) |  __/ | | | || (_) | |_) | (_) >  <   &b v&e [version]
   &6  |____/ \___|_| |_|\__\___/|____/ \___/_/\_\  &8 Loaded in &e [time]&8 ms.
+prefixes:
+  bentobox: '&6 BentoBox &7 &l > &r '
+enums:
+  DamageCause:
+    CONTACT: Contact
+    ENTITY_ATTACK: Mob Attack
+    ENTITY_SWEEP_ATTACK: Sweep Attack
+    PROJECTILE: Projectile
+    SUFFOCATION: Suffocation
+    FALL: Fall
+    FIRE: Fire
+    FIRE_TICK: Burning
+    MELTING: Melting
+    LAVA: Lava
+    DROWNING: Drowning
+    BLOCK_EXPLOSION: Block Explosion
+    ENTITY_EXPLOSION: Entity Explosion
+    VOID: Void
+    LIGHTNING: Lightning
+    SUICIDE: Suicide
+    STARVATION: Starvation
+    POISON: Poison
+    MAGIC: Magic
+    WITHER: Wither
+    FALLING_BLOCK: Falling Block
+    THORNS: Thorns
+    DRAGON_BREATH: Dragon Breath
+    CUSTOM: Custom
+    FLY_INTO_WALL: Fly Into Wall
+    HOT_FLOOR: Hot Floor
+    CRAMMING: Cramming
+    DRYOUT: Dryout

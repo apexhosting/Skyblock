@@ -29,8 +29,13 @@ general:
     wrong-world: '&cNon sei nel giusto mondo per fare questo!'
     you-must-wait: '&cDevi aspettare [number]s prima di comporre di nuovo quel comando.'
     must-be-positive-number: '&c[number] non è un numero positivo valido.'
+    player-is-not-owner: '&b [name] &c is non è il proprietario di nessuna isola!'
   tips:
     changing-obsidian-to-lava: Riconvertendo l'ossidiana in lava. Fai attenzione!
+  worlds:
+    overworld: Overworld
+    nether: Nether
+    the-end: The End
 commands:
   help:
     header: '&7=========== &c[label] help &7==========='
@@ -48,9 +53,24 @@ commands:
       set:
         description: imposta i reset di questo player
         parameters: <player> <resets>
+        success: '&a Settato con successo i reset di &b [name]&a a &b [number]&a .'
       reset:
         description: reimposta i reset di questo player a 0
         parameters: <player>
+        success-everyone: '&a Settato con successo i reset di &btutti&a s&b 0&a .'
+        success: '&a Settato con successo i reset di &b [name]&a a &b 0&a .'
+      add:
+        parameters: <player> <resets>
+        success: '&a Aumentato con successo &b [number] &a reset da &b [name], aumentando
+          il totale a &b [total]&a reset.'
+        description: aggiungi quante volte questo giocatore può ancora resettare la
+          sua isola
+      remove:
+        parameters: <player> <resets>
+        success: '&a Rimosso con successo &b [number] &a reset da &b [name], diminuendo
+          il totale a &b [total]&a reset.'
+        description: sottrai quante volte questo giocatore può ancora resettare la
+          sua isola
     team:
       add:
         parameters: <owner> <player>
@@ -102,6 +122,22 @@ commands:
         description: reimposta il raggio di protezione dell'isola al valore di default
           del mondo
         success: '&aReimpostato il raggio di protezione dell''isola a &b[number]&a.'
+      invalid-value:
+        too-low: '&c Il raggio di protezione deve essere più grande di &b 1&c !'
+        too-high: '&c  Il raggio di protezione deve essere uguale o minore di &b [number]&c
+          !'
+        same-as-before: '&c Il raggio di protezione è già settato a &b [number]&c
+          !'
+      add:
+        description: aumenta il raggio di protezione
+        parameters: <player> <range>
+        success: '&a Aumentato  il raggio di protezione della isola di &b [name]&a
+          al raggio di &b [total] &7 (&b +[number]&7 )&a .'
+      remove:
+        description: diminuisce il raggio di protezione
+        parameters: <player> <range>
+        success: '&a Diminuito  il raggio di protezione della isola di &b [name]&a
+          al raggio di &b [total] &7 (&b -[number]&7 )&a .'
     register:
       parameters: <player>
       description: registra il giocatore nell'isola senza proprietario sulla quale
@@ -112,6 +148,9 @@ commands:
       in-deletion: '&cLo spazio di quest''isola sta venendo eliminato. Prova più tardi.'
       cannot-make-island: '&cQui non possono essere piazzate isole. Guarda la console
         per controllare possibili errori.'
+      reserved-island: '&a Riservata la isola in  [xyz] per un giocatore.'
+      island-is-spawn: '&6 La isola è uno spawn. Sei sicuro? Rifai il comando per
+        confermare.'
     unregister:
       parameters: <owner>
       description: dissocia un proprietario dall'isola, ma mantenendo i blocchi dell'isola
@@ -140,6 +179,7 @@ commands:
       banned-players: 'Giocatori banditi:'
       banned-format: '&c[name]'
       unowned: '&Senza proprietario'
+      purge-protected: La isola è protetta dalla purga
     switch:
       description: attiva/disattiva il bypass della protezione
       op: '&cGli operatori possono sempre bypassare la protezione. Eliminati dalla
@@ -152,6 +192,8 @@ commands:
       out-of-range: '&cIl numero deve essere compreso tra 1 e [number]. Usa &l[label]
         trash [player] &r&cper vedere i numeri delle isole'
       cannot-switch: '&cScambio fallito. Vedi la console per gli errori.'
+      success: '&a Scambiata con successo la isola del giocatore con un altro giocatore
+        specificato.'
     trash:
       no-unowned-in-trash: '&cNon ci sono isole senza proprietario nel cestino'
       no-islands-in-trash: '&cIl giocatore non ha isole nel cestino'
@@ -168,6 +210,7 @@ commands:
       parameters: '[player]'
       description: Pulisci il cestino del player, o tutte le isole senza proprietario
         nel cestino
+      success: '&a Cestino svuotato.'
     version:
       description: mostra le versioni di BentoBox e degli addons
     setrange:
@@ -190,11 +233,13 @@ commands:
       description: imposta il rango di un player nella sua isola
       unknown-rank: '&cRango sconosciuto!'
       rank-set: '&aRango impostato da [from] a [to].'
+      not-possible: '&c Il rank deve essere maggiore di quello del visitatore'
     setspawn:
       description: imposta un'isola come spawn per questo mondo
       already-spawn: '&cQuest''isola è già uno spawn!'
       no-island-here: '&cNon ci sono isole quì.'
       confirmation: '&cSei sicuro di voler impostare quest''isola come spawn del mondo?'
+      success: '&a Settato con successo questa isola come spawn di questo mondo.'
     blueprint:
       parameters: <load/copy/paste/pos1/pos2/save>
       description: manipola le blueprints
@@ -281,8 +326,31 @@ commands:
           default-color: ''
           success: Successo!
           cancelling: Annullando
+        slot: '&f Slot Preferito [number]'
+        slot-instructions: |-
+          &a Click SX per aumentare
+          &a Click DX per diminuire
+      bedrock-required: '&c Almeno una bedrock deve essere inclusa nel blueprint!'
+      delete:
+        parameters: <name>
+        description: rimuove il blueprint
+        no-blueprint: '&b [name] &c non esiste.'
+        confirmation: |-
+          &c Sei sicuro di eliminare questa blueprint?
+          &c Una volta eliminata, non ci sarà nessun modo per recuperarla.
+        success: '&a Eliminato con successo il blueprint &b [name]&a .'
+      rename:
+        parameters: <blueprint name> <new name>
+        description: rinomina un blueprint
+        success: '&a Blueprint &b [old] &a è stato rinominato con successo in &b [name]&a.'
+        pick-different-name: '&c Per favore specifica un nome diverso dal nome del
+          blueprint di cui stai cambiando nome.'
     resetflags:
       description: Reimposta le impostazioni di tutte le isole a quelle in config.yml
+      parameters: '[flag]'
+      confirm: '&4 Questo resetterà tutte le flag di tutte le isole ai valori default!'
+      success: '&a Resettato con successo le flag di tutte le isole ai valori default.'
+      success-one: '&a [name] flag settata nel valore default in tutte le isole.'
     world:
       description: Gestisci le impostazioni del mondo
     delete:
@@ -306,6 +374,41 @@ commands:
         description: imposta le morti di un giocatore
         parameters: <player> <deaths>
         success: '&aLe morti di &b[name]&a sono state impostate a &b[number]&a.'
+      add:
+        description: aggiunge le morti a un giocatore
+        parameters: <player> <deaths>
+        success: '&a Aggiunto con successo&b [number] &a morti di &b [name], aumentando
+          il totale a &b [total]&a morti.'
+      remove:
+        description: rimuove le morti da un giocatore
+        parameters: <player> <deaths>
+        success: '&a Rimosse con successo&b [number] &a morti di &b [name], diminuendo
+          il totale a &b [total]&a morti.'
+    purge:
+      parameters: '[days]'
+      description: elimina le isole abbandonate da più di [days]
+      days-one-or-more: Deve essere almeno 1 giorno o più
+      purgable-islands: Trovate  [number] isole purgabili.
+      see-console-for-status: Purga iniziata. Controlla la console per maggiori informazioni
+      protect:
+        description: Abilita o disabilita la protezione isola dalla purga
+        move-to-island: '&c Spostati su una isola prima!'
+        protecting: '&a Isola protetta dalla Purga'
+        unprotecting: '&a Rimossa la protezione dalla Purga'
+      stop:
+        description: Ferma una purga in corso
+        stopping: Fermando la purga
+        no-purge-in-progress: '&c Nessuna purga in corso!'
+      unowned:
+        description: Purga le isole senza proprietario - richiede conferma
+        unowned-islands: '&d Trovate [number] isole'
+      purge-in-progress: '&c Purga in corso. Usa purge stop per fermarla'
+      number-error: '&c L''Argomento deve essere un numero di giorni'
+      confirm: '&d Digita [label] purge confirm per iniziare la purga'
+      completed: '&a Purga completata'
+    settings:
+      parameters: '[player]'
+      description: apre le impostazioni di sistema o della isola di un giocatore
   bentobox:
     description: BentoBox admin command
     about:
@@ -318,6 +421,8 @@ commands:
       addon: '&6Ricaricando &b[name]&2.'
       addon-reloaded: '&b[name] &2ricaricato.'
       unknown-addon: '&2Addon sconosciuto!'
+      warning: '&c Attenzione: Ricaricando può causare instabilità, se vedi errori
+        dopo di ciò, riavvia il server.'
     version:
       plugin-version: '&2Versione BentoBox: &3[version]'
       description: mostra le versioni di BentoBox e degli addons
@@ -327,6 +432,7 @@ commands:
       game-world: '&2[name] &7(&3[addon]&7): &aOverworld&7, &r[nether_color]Nether&7,
         &r[end_color]End'
       server: '&2In esecuzione su &3[name] [version]&2.'
+      database: '&2 Database: &3 [database]'
     manage:
       description: mostra il pannello di gestione
     catalog:
@@ -374,6 +480,17 @@ commands:
       creating-island: '&aCreando la tua isola, aspetta un attimo...'
       pick: '&aScegli un''isola'
       unknown-blueprint: '&cQuella blueprint non è stata ancora caricata.'
+      pasting:
+        estimated-time: '&a Tempo stimato: &b [number] &a secondi.'
+        blocks: '&a Costruendo blocco per blocco: &b [number] &a blocchi in tutto...'
+        entities: '&a Riempendo con entità: &b [number] &a entità in tutto...'
+        done: '&a Fatto! La tua isola è pronta e ti aspetta!'
+      on-first-login: '&a Benvenuto! La tua isola personale sarà pronta tra qualche
+        secondo.'
+      cannot-create-island: '&c Uno spazio libero non riesce essere trovato in tempo,
+        riprova di nuovo...'
+      you-can-teleport-to-your-island: '&a Puoi teletrasportarti alla isola quando
+        puoi.'
     info:
       description: mostra info riguardo la tua isola o riguardo quella di un giocatore
       parameters: <player>
@@ -394,6 +511,12 @@ commands:
         ricreare (/island team kick <player>).'
       none-left: '&cNon possiedi più reset!'
       resets-left: '&cHai ancora a disposizione [number] resets'
+      confirmation: |-
+        &c Sei sicuro di farlo?
+        &c Tutti i membri di questa isola saranno cacciati, e dovrai riaggiungerli.
+        &c Non ci sarà nessun modo per tornare indietro: una volta che la tua isola sarà eliminata, &cnon potrai più riaverla.
+      kicked-from-island: '&c Sei stato cacciato dalla isola su  [gamemode] perchè
+        il proprietario la ha resetata.'
     sethome:
       description: imposta il punto di teletrasporto della tua home
       must-be-on-your-island: '&cDevi essere sull''isola per impostare una home!'
@@ -411,18 +534,39 @@ commands:
       name-too-short: '&cTroppo corto. La lunghezza minima è di [number] caratteri.'
       name-too-long: '&cTroppo lungo. La lunghezza massima è di [number] caratteri.'
       parameters: <name>
+      name-already-exists: '&c Esiste già una isola con quel nome in questa modalità.'
+      success: '&a Cambiato il nome della tua isola in &b [name]&a .'
     resetname:
       description: reimposta il nome della tua isola
+      success: '&a Resettato con successo il nome della tua isola.'
     team:
       description: gestisci il tuo team
       info:
         description: mostra info dettagliate riguardo il tuo team
+        last-seen:
+          days: giorni
+          hours: ore
+          minutes: minuti
+          layout: '&b [number] &7 [unit] fa'
+        member-layout:
+          online: '&a &l  o &r &f [name]'
+          offline: '&c &l  o &r &f [name] &7 ([last_seen])'
+        header: |-
+          &f --- &a Dettagli Team &f ---
+          &a Membri: &b [total]&7 /&b [max]
+          &a Membri online: &b [online]
+        rank-layout:
+          owner: '&6 [rank]:'
+          generic: '&6 [rank] &7 (&b [number]&7 )&6 :'
       coop:
         description: rendi un player coop nella tua isola
         parameters: <player>
         cannot-coop-yourself: '&cNon puoi rendere coop te stesso!'
         already-has-rank: '&cIl giocatore ha già un rango!'
         you-are-a-coop-member: '&2Sei stato reso coop da [name]'
+        success: '&a Sei in coop con &b [name].'
+        name-has-invited-you: '&a [name] ti ha invitato a giocare in coop nella sua
+          isola.'
       uncoop:
         description: elimina il rango coop da un player
         parameters: <player>
@@ -434,6 +578,7 @@ commands:
           di [name]'
         all-members-logged-off: '&cTutti i membri dell''isola sono offline quindi
           non possiedi più il rango coop nell''isola di [name]'
+        success: '&b [name] &a non è più un membro coop della tua isola.'
       trust:
         description: dai ad un player il rango trusted nella tua isola
         parameters: <player>
@@ -441,6 +586,9 @@ commands:
         members-trusted: '&cI membri dell''isola possiedono già il rango trusted'
         player-already-trusted: '&cIl giocatore possiede già il rango trusted!'
         you-are-trusted: '&2Ti è stato dato il rango trusted da [name]!'
+        name-has-invited-you: '&a [name] ti ha invitato a essere un membro trusted
+          nella sua isola.'
+        success: '&a Hai trustato &b [name]&a .'
       untrust:
         description: rimuovi il rango trusted da un player
         parameters: <player>
@@ -449,6 +597,7 @@ commands:
           della tua isola!'
         player-not-trusted: '&cIl giocatore non possiede il rango trusted!'
         you-are-no-longer-trusted: '&cTi è stato tolto il rango trusted da [name]!'
+        success: '&b [name] &a non è più un membro trusted della tua isola.'
       invite:
         description: invita un giocatore ad essere membro della tua isola
         invitation-sent: '&aInvito inviato a [name]'
@@ -466,6 +615,7 @@ commands:
           you-already-are-in-team: '&cSei già in un team!'
           already-on-team: '&cQuel player è già in un team!'
           invalid-invite: '&cMi dispiace, quell''invito non è più valido.'
+          you-have-already-invited: '&c Hai già invitato quel giocatore!'
         parameters: <player>
         you-can-invite: '&aPuoi invitare altri [number] giocatori.'
         accept:
@@ -487,6 +637,7 @@ commands:
           caccia tutti gli altri membri.'
         description: lascia la tua isola
         left-your-island: '&c[name] &cha lasciato la tua isola.'
+        success: '&a Hai abbandonato questa isola.'
       kick:
         description: rimuovi un membro dalla tua isola
         parameters: <player>
@@ -498,6 +649,8 @@ commands:
         parameters: <player>
         failure: '&cIl rango del giocatore non può essere ulteriormente abbassato!'
         success: '&aAbbassato il rango di [name] a [rank]'
+        errors:
+          cant-demote-yourself: '&c Non puoi demotare te stesso!'
       promote:
         description: alza il rango di un player della tua isola
         parameters: <player>
@@ -550,6 +703,12 @@ commands:
       cannot-ban-member: '&cNon puoi espellere un membro del team!'
       not-on-island: '&cQuel giocatore non è sulla tua isola!'
       player-expelled-you: '&b[name]&c ti ha espulso dalla sua isola!'
+      cannot-expel-member: '&c Nono puoi cacciare un membro del team!'
+      success: '&a Hai cacciato &b [name] &a dalla isola.'
+  delay:
+    previous-command-cancelled: '&c Comando precedente annullato'
+    stand-still: '&6 Non muoverti! Teletrasporto tra [seconds] secondi'
+    moved-so-command-cancelled: '&c Ti sei mosso. Teletrasporto annullato!'
 ranks:
   owner: Proprietario
   sub-owner: Co-Proprietario
@@ -730,6 +889,8 @@ protection:
       name: Messaggi di Entrata/Uscita
       now-entering: '&bStai entrando in [name]'
       now-leaving: '&bStai uscendo da [name]'
+      now-entering-your-island: '&a Stai entrando nella tua isola.'
+      now-leaving-your-island: '&a Stai uscendo dalla tua isola.'
     EXPERIENCE_BOTTLE_THROWING:
       name: Lancio di boccette di esperienza
       description: Abilita/disabilita lancio di boccette di esperienza.
@@ -889,6 +1050,9 @@ protection:
         &apuò essere raccolta
         &acon un secchio vuoto e trasformata in lava
         &aProtegge i nuovi. Riduce i reset.
+      scooping: '&a Recuperando la ossidiana in lava. Stai attento la prossima volta!'
+      obsidian-nearby: '&c Ci sono blocchi di ossidiana vicini, non puoi riciclare
+        questo blocco in lava.'
     OFFLINE_GROWTH:
       description: |-
         &aSe disabilitato, le piante
@@ -936,12 +1100,16 @@ protection:
         &cnell'End.
       name: End PVP
       hint: PvP disabilitato nell'End
+      enabled: '&c Il PVP nel End è abilitato.'
+      disabled: '&a Il PVP nel End è disabilitato.'
     PVP_NETHER:
       description: |-
         &cAbilita/disabilita PvP
         &cnel Nether.
       name: Nether PVP
       hint: PvP disabilitato nel Nether
+      enabled: '&c Il PVP nel Nether è abilitato.'
+      disabled: '&a Il PVP nel Nether è disabilitato.'
     PVP_OVERWORLD:
       description: |-
         &cAbilita/disabilita PvP
@@ -949,6 +1117,8 @@ protection:
       name: Overworld PVP
       hint: '&cIl PvP è disabilitato'
       active: '&cQuì il PvP è attivo!'
+      enabled: '&c Il PVP nel Overworld è abilitato.'
+      disabled: '&a Il PVP nel Overworld è disabilitato.'
     REDSTONE:
       description: Abilita/disabilita uso
       name: Oggetti di redstone
@@ -1026,6 +1196,30 @@ protection:
         &asulle loro isole tramite comandi
         &ase stanno cadendo.
       hint: '&cNon puoi teletrasportarti sulla tua isola se stai cadendo.'
+    WITHER_DAMAGE:
+      name: Abilita/disabilita i danni dal Wither
+      description: '&a Se attivo, i wither &adanneggeranno  i blocchi e giocatori'
+    SPAWNER_SPAWN_EGGS:
+      name: Uso uova sugli spawner
+      hint: cambiare il tipo di spawner usando le uova non è permesso
+      description: '&a Permette di cambiare il tipo di spawner &ausando le uova.'
+    CAKE:
+      name: Torte
+      description: Abilita/Disabilita l'interazione con le torte
+      hint: Mangiare le torte non è permesso
+    LECTERN:
+      name: Leggii
+      description: |-
+        &a Permette di piazzare libri sui leggii
+        &a o prendere libri da essi.
+
+        &c Non blocca i giocatori dal leggere i libri
+      hint: non puoi piazzare un libro sul leggio o leggerlo da esso.
+    LIMIT_MOBS:
+      description: "&a Limite entità \n&a spawn in questa\n&a modalità."
+      name: '&e Limite spawn entità'
+      can: '&a Può spawnare'
+      cannot: '&c Non può spawnare'
   locked: '&cQuest''isola è bloccata!'
   protected: '&cIsola protetta: [description]'
   spawn-protected: '&cSpawn protetto: [description]'
@@ -1061,6 +1255,27 @@ protection:
         &7Current setting: [setting]
       setting-active: '&aAttivo'
       setting-disabled: '&cDisabilitato'
+      setting-cooldown: '&c Impostazioni in cooldown'
+    mode:
+      advanced:
+        name: '&6 Impostazioni Avanzate'
+        description: '&a Mostra una quantità sensibile di impostazioni.'
+      basic:
+        name: '&a Impostazioni Base'
+        description: '&a Mostra le impostazioni più utili.'
+      expert:
+        name: '&c Impostazioni Esperto'
+        description: '&a Mostra tutte le impostazioni disponibili.'
+      click-to-switch: '&e Clicca &a per andare &r [next]&r &a .'
+    reset-to-default:
+      name: '&c Reseta ai valori default'
+      description: '&a Reseta &c &l TUTTE &r &a le impostazioni al loro &avalore default.'
+    WORLD_DEFAULTS:
+      title: '&b [world_name] &6 Protezioni Mondo'
+      description: |-
+        &a Impostazioni protezione quando un
+        &agiocatore è fuori dalla propria isola
+  world-protected: '&c Mondo protetto: [description]'
 language:
   panel-title: Seleziona il tuo linguaggio
   description:
@@ -1100,6 +1315,9 @@ management:
       empty-here:
         name: '&bSembra essere vuoto...'
         description: '&aPerchè non dai un''occhiata al nostro catalogo?'
+      credits:
+        name: '&6 Crediti'
+        description: '&a Mostra i crediti per BentoBox'
     information:
       state:
         name: '&6Compatibilità'
@@ -1186,3 +1404,15 @@ successfully-loaded: |2
   &6 |  _ < / _ \ '_ \| __/ _ \|  _ < / _ \ \/ /
   &6 | |_) |  __/ | | | || (_) | |_) | (_) >  <   &bv&e[version]
   &6 |____/ \___|_| |_|\__\___/|____/ \___/_/\_\  &8Caricato in &e[time]&8ms.
+panel:
+  credits:
+    title: '&8 [name] &2 Crediti'
+    contributor:
+      name: '&a [name]'
+      description: '&a Commissioni: &b [commits]'
+    empty-here:
+      name: '&c Sembra vuoto qui...'
+      description: |-
+        &c BentoBox non riesce a ottenere info sui Contributori &c di questo Addon.
+
+        &a Permetti Bentobox di collegarsi a GitHub &a nella configurazione o riprova più tardi.

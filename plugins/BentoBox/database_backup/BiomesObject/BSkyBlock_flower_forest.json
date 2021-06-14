@@ -1,0 +1,16 @@
+{
+  "biome": "FLOWER_FOREST",
+  "deployed": true,
+  "friendlyName": "Flower Forest",
+  "description": [
+    "All flowers you ever",
+    "need."
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: POPPY\n",
+  "order": -1,
+  "requiredLevel": 0,
+  "requiredCost": 100,
+  "requiredPermissions": [],
+  "world": "bskyblock_world",
+  "uniqueId": "BSkyBlock_flower_forest"
+}

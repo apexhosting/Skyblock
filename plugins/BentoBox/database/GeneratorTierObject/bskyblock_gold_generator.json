@@ -1,0 +1,36 @@
+{
+  "uniqueId": "bskyblock_gold_generator",
+  "friendlyName": "&r&lGold Generator",
+  "description": [
+    "&7 There are some shiny",
+    "&7 things between rocks."
+  ],
+  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: GOLD_ORE\n",
+  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BARRIER\n",
+  "generatorType": "COBBLESTONE_OR_STONE",
+  "defaultGenerator": false,
+  "priority": 3,
+  "requiredMinIslandLevel": 100,
+  "requiredBiomes": [],
+  "requiredPermissions": [],
+  "generatorTierCost": 5.0,
+  "activationCost": 0.0,
+  "deployed": true,
+  "blockChanceMap": {
+    "20.0": "COBBLESTONE",
+    "50.0": "STONE",
+    "55.0": "GRAVEL",
+    "56.0": "GRANITE",
+    "57.0": "DIORITE",
+    "58.0": "ANDESITE",
+    "68.0": "COAL_ORE",
+    "88.0": "IRON_ORE",
+    "100.0": "GOLD_ORE"
+  },
+  "treasureChanceMap": {},
+  "treasureItemChanceMap": {
+    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: REDSTONE\n"
+  },
+  "treasureChance": 0.001,
+  "maxTreasureAmount": 1
+}

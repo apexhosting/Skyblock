@@ -8,6 +8,10 @@ admin:
   top:
     description: 显示排名前十榜单
     unknown-world: '&c未知世界！'
+    display: '&f[rank]. &a[name] &7- &b[level]'
+    remove:
+      description: 将玩家移出前十
+      parameters: <player>
 island:
   level:
     parameters: '[player]'
@@ -23,3 +27,9 @@ island:
     gui-heading: '&6[name]: &B[rank]'
     island-level: '&B等级 [level]'
     warp-to: '&A正在传送到 [name] 的岛屿'
+  value:
+    description: 查看某方块的价值
+    success: '&7本方块的价值: &e[value]'
+    success-underwater: '&7本方块的水下价值: &e[value]'
+    empty-hand: '&c你手里没有方块'
+    no-value: '&c这个东西一文不值.'

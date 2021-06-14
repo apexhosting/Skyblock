@@ -115,6 +115,25 @@ commands:
         select-first: Seleccione Blueprint primero
         new-bundle: Nuevo paquete
         new-bundle-instructions: Haga clic para hacer un nuevo paquete
+        no-trash: No se puede tirar a la basura
+        no-trash-instructions: No se puede eliminar el paquete predeterminado
+        no-permission: Sin autorización
+        no-perm-required: No se puede establecer la permanente para el paquete predeterminado
+      delete:
+        parameters: <name>
+        description: eliminar el plano
+        no-blueprint: '&b [name] &c no existe.'
+        confirmation: |
+          &c ¿Está seguro de que desea eliminar este plano?
+           c Una vez eliminado, no hay forma de recuperarlo.
+        success: '&a Borrado exitosamente el plano & b [name] &a.'
+      rename:
+        parameters: <blueprint name> <new name>
+        description: renombrar un plano
+        success: '&a Blueprint & b [old] & a ha sido renombrado con éxito a &b [name]
+          &a.'
+        pick-different-name: '&c Especifique un nombre que sea diferente del nombre
+          actual del plano.'
     deaths:
       description: editar muertes de jugadores
       reset:
@@ -125,6 +144,16 @@ commands:
         description: establece las muertes del jugador
         parameters: <player> <deaths>
         success: '&aNumero de muertes: &b[number]&a. Colocadas con exito a &b[name] '
+      add:
+        description: agrega muertes al jugador
+        parameters: <player> <deaths>
+        success: '&aSe agregó con éxito &b[number] &ade muertes a &b[name], aumentando
+          el total a &b[total] &ade muertes.'
+      remove:
+        description: elimina muertes al jugador
+        parameters: <player> <deaths>
+        success: '&aEliminado exitosamente &b[number] &ademuertes a &b[name], disminuyendo
+          el total a &b[total] &ade muertes.'
     delete:
       cannot-delete-owner: '&cTodos los miembros de la isla deben ser expulsados ​​de
         la isla antes de eliminarla.'
@@ -191,6 +220,22 @@ commands:
           too-low: '&cEl rango de protección debe ser mayor que &b1&c!'
         parameters: <player> <range>
         success: '&aAjuste el rango de protección de la isla a &b[number]&a.'
+      invalid-value:
+        too-low: '&c ¡El rango de protección debe ser mayor que &b 1 &c!'
+        too-high: '&c ¡El rango de protección debe ser igual o menor que &b[number]
+          &c!'
+        same-as-before: '&c El rango de protección ya está configurado en  &b[number]
+          &c!'
+      add:
+        description: aumenta el rango protegido de la isla
+        parameters: <player> <range>
+        success: '&aAumento exitoso de  &b[name] &arango protegido de la isla a &b[total]
+          &7 (&b + [number] &7) &a.'
+      remove:
+        description: disminuye el rango protegido de la isla
+        parameters: <player> <range>
+        success: '&a Disminuyó exitosamente &b [name] &arango protegido de la isla
+          a &b [total] &7 (&b - [number] &7) &a.'
     register:
       already-owned: '&cLa isla ya es propiedad de otro jugador!'
       cannot-make-island: '&cUna isla no puede ser colocada aquí, lo siento. Ver consola
@@ -202,6 +247,8 @@ commands:
       parameters: <player>
       registered-island: '&aJugador registrado a la isla en [xyz].'
       reserved-island: '&a Isla reservada en [xyz] para jugador.'
+      island-is-spawn: '&6La isla está spawneada. ¿Estás seguro? Ingrese el comando
+        nuevamente para confirmar.'
     reload:
       description: recargar
     resetflags:
@@ -209,14 +256,34 @@ commands:
         predeterminadas en config.yml
       success: '&a Restablece con éxito las banderas de todas las islas a la configuración
         predeterminada.'
+      parameters: '[flag]'
+      confirm: '&4¡Esto restablecerá las banderas a las predeterminadas para todas
+        las islas!'
+      success-one: '&aLa bandera [name] a sido configurada por defecto para todas
+        las islas.'
     resets:
       description: Editar reinicios de los jugadores
       reset:
         description: Restablece los reinicios de este jugador a 0
         parameters: <player>
+        success-everyone: '&a Restablecer con éxito &b restablece a todos &a a &b
+          0 &a.'
+        success: '&a Restablecer con éxito & b [name] &a &b 0 &a.'
       set:
         description: Establece los reinicios de este jugador
         parameters: <player> <resets>
+        success: '&a Establecer correctamente &b [name] &a se restablece a &b [number]
+          &a.'
+      add:
+        description: se suma a cuántas veces este jugador reinició su isla
+        parameters: <player> <resets>
+        success: '&a Se agregó con éxito &b [number] &a se restablece a &b [name],
+          aumentando el total a &b [total] &a se restablece.'
+      remove:
+        description: elimina de cuántas veces este jugador restablece su isla
+        parameters: <player> <resets>
+        success: '&aSe eliminó correctamente &b [number] &a se restablece a &b [name],
+          disminuyendo el total a&b [total] &a se restablece.'
     setrange:
       description: Establecer el rango de la isla del jugado
       parameters: <player> <range>
@@ -266,6 +333,17 @@ commands:
         description: Transfiere la propiedad de la isla al jugador
         parameters: <player>
         success: '&b[name]&a ahora es el dueño de esta isla.'
+      fix:
+        description: escanea y corrige la membresía entre islas en la base de datos
+        scanning: Escaneando la base de datos ...
+        duplicate-owner: '&c El jugador posee más de una isla en la base de datos:
+          [name]'
+        player-has: '&c El jugador [name] tiene [number] islas'
+        fixed: '&a Arreglado'
+        done: '&a Escanear'
+        duplicate-member: '&c El jugador [name] es miembro de más de una isla en la
+          base de datos'
+        rank-on-island: '&c [rank] en la isla en [xyz]'
     tp:
       description: Teletransportarse a la isla de un jugador
       manual: '&cNo se ha encontrado un warp seguro! Manualmente teletransportado
@@ -317,6 +395,12 @@ commands:
         description: Purga islas sin dueño - requiere confirmación
       days-or-more: Debe tener al menos 1 día o más.
       see-console-for-status: La purga comenzó. Ver consola para el estado
+      days-one-or-more: Debe tener al menos 1 día o más.
+      no-purge-in-progress: '&c Actualmente no hay ninguna purga en curso.'
+      status:
+        description: muestra el estado de la purga
+        status: '&b [purged] &a islas purgadas de &b [purgeable] & 7 (& b [percentage]
+          %&7)&a.'
     switch:
       op: '&cOps siempre puede evitar la protección. Deop para usar el comando.'
       description: activar / desactivar bypass de protección
@@ -326,6 +410,15 @@ commands:
       parameters: '[player]'
       description: configuración del sistema abierto o configuración de la isla para
         el jugador
+    setspawnpoint:
+      description: establecer la ubicación actual como punto de generación para esta
+        isla
+      no-island-here: '&c No hay isla aquí.'
+      confirmation: '&c ¿Estás seguro de que deseas establecer esta ubicación como
+        punto de generación de esta isla?'
+      success: '&a Establecer con éxito esta ubicación como el punto de generación
+        de esta isla.'
+      island-spawnpoint-changed: '&a [user] cambió el punto de aparición de esta isla.'
   bentobox:
     about:
       description: Mostrar derechos de autor e información de licencia
@@ -412,6 +505,17 @@ commands:
         un administrador.'
       unknown-blueprint: '&cEse esquema no se ha cargado todavía.'
       pick: '&aElige una isla'
+      cannot-create-island: '&c No se pudo encontrar un lugar a tiempo, intente nuevamente
+        ...'
+      pasting:
+        estimated-time: '&a Tiempo estimado: &b [number] &asegundos.'
+        blocks: '&aConstruyendola bloque por bloque: & b [number] &a bloques totales
+          ...'
+        entities: '&a Llenándolo con entidades: &b [number] &aentidades en todo ...'
+        done: '&aYa esta hecho! ¡Tu isla está lista y esperándote!'
+      on-first-login: '&aBienvenida! Comenzaremos a preparar su isla en unos segundos.'
+      you-can-teleport-to-your-island: '&a Puede teletransportarse a su isla cuando
+        lo desee.'
     expel:
       cannot-ban-member: '&cNo puedes expulsar a un miembro del equipo!'
       cannot-expel: '&cEse jugador no puede ser expulsado.'
@@ -421,6 +525,7 @@ commands:
       parameters: <player>
       player-expelled-you: '&b[name]&c te expulsó de la isla!'
       success: '&aExpulsastes a &b[name] de la isla.'
+      cannot-expel-member: '&c¡No puedes expulsar a un miembro del equipo!'
     go:
       description: teletransportarte a tu isla
       parameters: '[home number]'
@@ -435,6 +540,9 @@ commands:
       parameters: <player>
     language:
       description: seleccione el idioma
+      parameters: '[language]'
+      not-available: '&c Este idioma no está disponible.'
+      already-selected: '&c Ya está utilizando este idioma.'
     reset:
       description: reinicia tu isla y elimina la antigua
       must-remove-members: '&cDebes eliminar todos los miembros de tu isla antes de
@@ -442,8 +550,15 @@ commands:
       none-left: '&cNo te quedan más reinicios.!'
       parameters: <blueprint>
       resets-left: '&cTienes [number] reinicios mas'
+      confirmation: |-
+        &c¿Estás seguro de que quieres hacer esto?
+        &cTodos los miembros de la isla serán expulsados de la isla, luego tendrás que reinvitarlos.
+        &cNo hay vuelta atrás: una vez que se elimine su isla actual, habrá &lno &r&c forma de recuperarla más adelante.
+      kicked-from-island: '&cTe expulsan de tu isla en [gamemode] porque el propietario
+        la está reiniciando.'
     resetname:
       description: restablece el nombre de tu isla
+      success: '&a Restablezca correctamente el nombre de su isla.'
     sethome:
       description: configura tu punto de teletransportación
       home-set: '&6Su hogar en la isla se ha establecido en su ubicación actual.'
@@ -461,6 +576,8 @@ commands:
       name-too-long: '&cDemasiado largo. El tamaño maximo es [number] de caracteres.'
       name-too-short: '&cDemasiado corto. El tamaño mínimo es [number] de caracteres.'
       parameters: <name>
+      name-already-exists: '&cYa hay una isla con ese nombre en este modo de juego.'
+      success: '&a Establezca con éxito el nombre de su isla en &b[name] &a.'
     settings:
       description: mostrar la configuración de la isla
     spawn:
@@ -475,6 +592,8 @@ commands:
         parameters: <player>
         you-are-a-coop-member: '&2[name] te ha dado permisos'
         success: '&aLe has dado permiso a &b[name].'
+        name-has-invited-you: '&a[name] te ha invitado a unirte para ser un miembro
+          de la cooperativa de su isla.'
       demote:
         description: degradar a un jugador en tu isla
         failure: '&cEl jugador no puede ser degradado más!'
@@ -485,6 +604,22 @@ commands:
       description: gestiona tu equipo
       info:
         description: Muestra información detallada sobre tu equipo.
+        member-layout:
+          online: '&a &l  o &r &f [name]'
+          offline: '&c &l  o &r &f [name] &7 ([last_seen])'
+          offline-not-last-seen: '&c &l  o &r &f [name]'
+        last-seen:
+          layout: Hace &b[number] &7[unit]
+          days: dias
+          hours: horas
+          minutes: minutos
+        header: |-
+          &f --- &a Detalles del equipo &f ---
+          &a Miembros: &b[total] &7 / &b[ max]
+          &a Miembros en línea: &b [online]
+        rank-layout:
+          owner: '&6 [rank]:'
+          generic: '&6 [rank] &7 (&b [number]&7 )&6 :'
       invite:
         accept:
           confirmation: |-
@@ -505,6 +640,7 @@ commands:
           island-is-full: '&cTu isla está llena, no puedes invitar a nadie más..'
           none-invited-you: '&cNadie te ha invitado :c'
           you-already-are-in-team: '&cYa estas en un equipo!'
+          you-have-already-invited: '&c ¡Ya has invitado a ese jugador!'
         invitation-sent: '&aInvitación enviada a [name]'
         name-has-invited-you: '&a[name] Te ha invitado a unirte a su isla.'
         parameters: <player>
@@ -552,6 +688,9 @@ commands:
         trust-in-yourself: '&cConfía en ti mismo!'
         you-are-trusted: '&2Has sido confiado por [name]!'
         success: '&a Confió en &b [name] &a.'
+        name-has-invited-you: '&a[name] te ha invitado a unirte para ser un miembro
+          confiable de su isla.'
+        is-full: '&c No puedes confiar en nadie más.'
       uncoop:
         all-members-logged-off: '&cTodos los miembros de la isla se desconectaron,
           ya no tienes permisos en la isla de [name]'
@@ -563,6 +702,7 @@ commands:
         player-not-cooped: '&cEse jugador no tiene permisos!'
         you-are-no-longer-a-coop-member: '&cYano tienes permisos en la isla de [name]'
         success: '&b[name] &aya no es un miembro de la cooperativa de su isla.'
+        is-full: '&c No puedes cooperar a nadie más.'
       untrust:
         cannot-untrust-member: '&cNo puedes desconfiar de un miembro del equipo!'
         cannot-untrust-yourself: '&cNo puedes desconfiar de ti mismo!'
@@ -613,10 +753,17 @@ general:
     wrong-world: '&cNo estás en el mundo correcto para hacer eso!'
     you-must-wait: '&cDebe esperar [number]s antes de poder volver a ejecutar ese
       comando'
+    player-is-not-owner: '&b [name] &c no es dueño de una isla!'
+    insufficient-rank: '&c¡Tu rango no es lo suficientemente alto para hacer eso!
+      (&7[rank]&c)'
   invalid: Invalido
   success: '&aÉxito!'
   tips:
     changing-obsidian-to-lava: Cambiando la obsidiana de nuevo en lava. ¡Ten cuidado!
+  worlds:
+    overworld: Overworld
+    nether: Nether
+    the-end: The End
 language:
   edited: '&aCambiado tu idioma a &e[lang]&a.'
   panel-title: Elige tu idioma
@@ -639,6 +786,9 @@ management:
       empty-here:
         description: '&aQué tal si echas un vistazo a nuestro catálogo?'
         name: '&bEsto se ve vacío aquí...'
+      credits:
+        name: '&6 Creditos'
+        description: '&aAbre los créditos para BentoBox'
     information:
       state:
         description:
@@ -862,6 +1012,8 @@ protection:
       name: Mensaje de Entrada/Salida
       now-entering: '&bEntrando a [name]'
       now-leaving: '&bSaliendo de [name]'
+      now-entering-your-island: '&a Ahora entrando en tu isla.'
+      now-leaving-your-island: '&a Ahora saliendo de tu isla.'
     EXPERIENCE_BOTTLE_THROWING:
       description: Modificar lanzamiento de experiencia.
       hint: No se permite lanzar botellas de experiencia
@@ -1035,6 +1187,10 @@ protection:
         &acon un cubo vacío de y se convertida de nuevo en lava.
         &aProtege a los novatos. Reduce los reinicios.
       name: Recoger obsidiana
+      scooping: '&aobsidiana cambio de vuelta a lava. ¡Ten mas cuidado la próxima
+        vez!'
+      obsidian-nearby: '&c Hay bloques de obsidiana cerca, no puedes recoger este
+        bloque en lava.'
     OFFLINE_GROWTH:
       description: |-
         &aCuando se deshabilita, las plantas
@@ -1081,12 +1237,16 @@ protection:
         &cen el End.
       hint: No esta permitido el PVP en el End
       name: End PVP
+      enabled: '&c El PVP en el End ha sido habilitado.'
+      disabled: '&a El PVP en el End ha sido deshabilitado.'
     PVP_NETHER:
       description: |-
         &cEncender/Desactivar PVP
         &cen el Nether.
       hint: No esta permitido el PVP en el Nether
       name: Nether PVP
+      enabled: '&c El PVP en el Nether se ha habilitado.'
+      disabled: '&a El PVP en el Nether ha sido desactivado.'
     PVP_OVERWORLD:
       active: '&cPVP esta activo aqui!'
       description: |-
@@ -1094,6 +1254,8 @@ protection:
         &cen la isla.
       hint: No esta permitido el PVP
       name: Overworld PVP
+      enabled: '&c El PVP en el Overworld ha sido habilitado.'
+      disabled: '&a El PVP en Overworld ha sido deshabilitado.'
     REDSTONE:
       description: Modificar uso
       hint: No se permite el uso de redstone items
@@ -1158,6 +1320,64 @@ protection:
     WITHER_DAMAGE:
       description: "&aSi está activo, Withers puede \n&adañar bloques y jugadores"
       name: Alternar el daño de marchitar
+    CAKE:
+      description: Alternar la interacción de la torta
+      name: Pasteles
+      hint: Comer pastel deshabilitado
+    LECTERN:
+      name: Atriles
+      description: |-
+        &a Permitir colocar libros en un atril
+        &ao tomar libros de él.
+
+        &c No impide que los jugadores
+        &c leyendo los libros.
+      hint: no puede colocar un libro en un atril o sacar un libro de él.
+    LIMIT_MOBS:
+      description: |-
+        &a Limitar entidades a
+        &aspawner en este mode
+        &ade juego.
+      name: '&e Limitar el spawn de la entidad'
+      can: '&a Pueden aparecer'
+      cannot: '&cNo pueden aparecer'
+    SPAWNER_SPAWN_EGGS:
+      description: |-
+        &aPermite cambiar el tipo de entidad de un generador
+         ausando huevos de desove.
+      name: Huevos de spawnen spawners
+      hint: no está permitido cambiar el tipo de entidad de un spawner usando huevos
+        de spawn
+    ANIMAL_NATURAL_SPAWN:
+      description: Alternar el desove natural de animales
+      name: Engendro natural animal
+    ANIMAL_SPAWNERS_SPAWN:
+      description: Alternar el desove de animales con reproductores
+      name: Spawners de animales
+    BREAK_SPAWNERS:
+      description: |-
+        Alternar spawners rotos.
+        Anula la marca Romper bloques.
+      name: Romper los spawners
+      hint: Spawners roto desactivado
+    BREAK_HOPPERS:
+      description: |-
+        Las tolvas se rompen.
+        Anula la marca Romper bloques.
+      name: Romper tolvas
+      hint: Rupturas de tolvas inhabilitadas
+    MONSTER_NATURAL_SPAWN:
+      description: Alternar el spawn natural de monstruos
+      name: Spawn natural de monstruos
+    MONSTER_SPAWNERS_SPAWN:
+      description: Alternar el spawn de monstruos con spawners
+      name: Spawners de monstruos
+    WORLD_TNT_DAMAGE:
+      description: |-
+        &a Permitir carros de minas TNT y TNT
+        &a para romper bloques y dañar
+        &a entidades fuera de los límites de la isla.
+      name: Daño mundial de TNT
   locked: '&cEsta isla esta cerrada!'
   panel:
     flag-item:
@@ -1206,6 +1426,11 @@ protection:
       title: '&b[world_name] &6Protecciones de mundos'
       description: "&a Configuración de protección cuando \n&aplayer está fuera de\
         \ su isla"
+    reset-to-default:
+      name: '&cRestablecer valores predeterminados'
+      description: |
+        &aRestablece &c&l TODO &r&ala configuración de su
+        &avalor predeterminado.
   protected: '&cIsla protegida: [description]'
   spawn-protected: '&cSpawn protegido: [description]'
   world-protected: '&cMundo protegido: [description]'
@@ -1226,3 +1451,21 @@ successfully-loaded: |-
   &6 |  _ < / _ \ '_ \| __/ _ \|  _ < / _ \ \/ /  &7Traducido por &aSrAcosta
   &6 | |_) |  __/ | | | || (_) | |_) | (_) >  <   &bv&e[version]
   &6 |____/ \___|_| |_|\__\___/|____/ \___/_/\_\  &8Recargado en &e[time]&8ms.
+panel:
+  credits:
+    title: '&8 [name] &2 Creditos'
+    contributor:
+      name: '&a [name]'
+      description: |
+        &aCommits: &b[commits]
+    empty-here:
+      name: '&cEsto parece vacío aquí ...'
+      description: |+
+        &cBentoBox no pudo reunir a los contribuyentes
+        &cpara este complemento.
+
+        &aPermitir que BentoBox se conecte a GitHub en
+        &a la configuración o intente nuevamente más tarde.
+
+prefixes:
+  bentobox: '&6 BentoBox &7 &l > &r '

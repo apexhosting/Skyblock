@@ -1,0 +1,99 @@
+{
+  "uniqueId": "BSkyBlock_default",
+  "defaultPanel": true,
+  "gameMode": "BSkyBlock",
+  "permissionSuffix": "default",
+  "panelName": "&1Commands",
+  "panelButtons": [
+    {
+      "slot": 0,
+      "material": "GRASS",
+      "descriptionLines": [
+        "&1Go to &5 your island"
+      ],
+      "command": "[label] go",
+      "name": "Island"
+    },
+    {
+      "slot": 8,
+      "material": "LAVA_BUCKET",
+      "descriptionLines": [
+        "Open your island settings"
+      ],
+      "command": "[label] settings",
+      "name": "Settings"
+    },
+    {
+      "slot": 3,
+      "descriptionLines": [
+        "List team members"
+      ],
+      "command": "[label] team",
+      "name": "Team"
+    },
+    {
+      "slot": 1,
+      "material": "WHITE_BED",
+      "descriptionLines": [
+        "Set your home here"
+      ],
+      "command": "[label] sethome",
+      "name": "Set Home"
+    },
+    {
+      "slot": 9,
+      "material": "ACACIA_STAIRS",
+      "descriptionLines": [
+        "Island level",
+        "Level: %Level_bskyblock_island_level%"
+      ],
+      "command": "[label] level",
+      "name": "Calculate Level"
+    },
+    {
+      "slot": 10,
+      "material": "BOOK",
+      "descriptionLines": [
+        "List the Top 10 islands"
+      ],
+      "command": "[label] top",
+      "name": "Show top 10"
+    },
+    {
+      "slot": 12,
+      "material": "OAK_SIGN",
+      "descriptionLines": [
+        "List warps available"
+      ],
+      "command": "[label] warps",
+      "name": "Show warps"
+    },
+    {
+      "slot": 5,
+      "material": "BEDROCK",
+      "descriptionLines": [
+        "Go to world spawn"
+      ],
+      "command": "[label] spawn",
+      "name": "Spawn"
+    },
+    {
+      "slot": 14,
+      "material": "OAK_SAPLING",
+      "descriptionLines": [
+        "Biomes"
+      ],
+      "command": "[label] biomes",
+      "name": "Biomes"
+    },
+    {
+      "slot": 15,
+      "material": "ENCHANTING_TABLE",
+      "descriptionLines": [
+        "Challenges"
+      ],
+      "command": "[label] challenges",
+      "name": "Challenges"
+    }
+  ]
+}

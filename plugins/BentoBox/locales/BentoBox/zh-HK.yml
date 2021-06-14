@@ -225,6 +225,7 @@ commands:
       addon-syntax: '&2[name] &3[version] &7(&3[state]&7)'
       game-worlds: '&2[name] &7(&3[addon]&7): &aOverworld&7, &r[nether_color]Nether&7,
         &r[end_color]End'
+      game-world: '&2[name] &7(&3[addon]&7): &a Overworld&7, &r Nether&7, &r End'
   confirmation:
     confirm: '&c於 &b[seconds] &c秒內再次輸入命令來確認'
     previous-request-cancelled: '&6上一個確認請求已取消'
@@ -827,3 +828,65 @@ successfully-loaded: |2
   &6 |  _ < / _ \ '_ \| __/ _ \|  _ < / _ \ \/ /
   &6 | |_) |  __/ | | | || (_) | |_) | (_) >  <   &bv&e[version]
   &6 |____/ \___|_| |_|\__\___/|____/ \___/_/\_\  &8使用了 &e[time]&8ms 來完成載入。
+enums:
+  DamageCause:
+    CONTACT: 接觸（如仙人掌）
+    ENTITY_ATTACK: 直接攻擊
+    ENTITY_SWEEP_ATTACK: 範圍攻擊
+    PROJECTILE: 彈射物
+    SUFFOCATION: 窒息
+    FALL: 跌落
+    FIRE: 火焰
+    FIRE_TICK: 點燃
+    MELTING: 融化
+    LAVA: 熔岩
+    DROWNING: 溺水
+    BLOCK_EXPLOSION: 方塊爆炸
+    ENTITY_EXPLOSION: 實體爆炸
+    VOID: 墜入虛空
+    LIGHTNING: 雷劈
+    SUICIDE: 自殺
+    STARVATION: 飢餓
+    POISON: 中毒
+    MAGIC: 魔法
+    WITHER: 凋零
+    FALLING_BLOCK: 砸傷
+    THORNS: 荊棘
+    DRAGON_BREATH: 龍息
+    CUSTOM: 自定
+    FLY_INTO_WALL: 撞牆
+    HOT_FLOOR: 熔岩塊
+    CRAMMING: 擁擠
+    DRYOUT: 乾燥（魚類暴露在空氣中）
+  panel:
+    next: 下一頁
+    previous: 上一頁
+    PROTECTION:
+      title: '&6保護'
+      description: |-
+        &a當前島嶼的
+        &a保護設置
+    SETTING:
+      title: '&6設置'
+      description: |-
+        &a當前島嶼的
+        &a通用設置
+    WORLD_SETTING:
+      title: '&b[world_name] &6設置'
+      description: '&a本遊戲世界的設置'
+    flag-item:
+      name-layout: '&a[name]'
+      description-layout: |
+        &a[description]
+
+        &7允許給：
+      allowed-rank: '&3- &a'
+      blocked-rank: '&3- &c'
+      minimal-rank: '&3- &2'
+      menu-layout: '&a[description]'
+      setting-layout: |
+        &a[description]
+
+        &7當前設置：[setting]
+      setting-active: '&a激活'
+      setting-disabled: '&c禁止'
