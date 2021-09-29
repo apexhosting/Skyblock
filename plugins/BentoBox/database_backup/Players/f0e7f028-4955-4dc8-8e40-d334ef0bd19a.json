@@ -1,0 +1,24 @@
+{
+  "homeLocations": [
+    [
+      [
+        "bskyblockx_world",
+        1024.5,
+        123.0,
+        1023.5,
+        90.0,
+        30.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "f0e7f028-4955-4dc8-8e40-d334ef0bd19a",
+  "playerName": "AllanStrat",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "bskyblockx_world": 0
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC"
+}

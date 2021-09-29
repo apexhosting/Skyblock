@@ -4,6 +4,10 @@ groups:
   default:
     permissions:
     - rewardpro.present
+    - dailyreward.use
+    - dailyreward.daily
+    - dailyreward.weekly
+    - dailyreward.monthly
     - rewardpro.dailyreward
     - rewardpro.firstjoin
     - rewardpro.presentman
@@ -279,8 +283,7 @@ users:
     permissions:
     - '*'
   bdc83502-6d75-4c26-a633-729e9ed81aee:
-    permissions:
-    - '*'
+    permissions: []
     options:
       name: AllanDev
     group:

@@ -6,11 +6,12 @@
     "It is too hot for snow",
     "and ice!"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2230\n  type: SAND\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: SAND\n",
   "order": -1,
   "requiredLevel": 0,
-  "requiredCost": 100,
+  "requiredCost": 100.0,
   "requiredPermissions": [],
   "world": "bskyblock_world",
+  "environment": "NORMAL",
   "uniqueId": "BSkyBlock_desert"
 }
