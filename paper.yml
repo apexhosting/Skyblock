@@ -12,8 +12,10 @@
 
 use-display-name-in-quit-message: false
 verbose: false
-config-version: 20
+config-version: 22
 settings:
+  lag-compensate-block-breaking: true
+  send-full-pos-for-hard-colliding-entities: true
   track-plugin-scoreboards: false
   fix-entity-position-desync: true
   player-auto-save-rate: -1
@@ -60,6 +62,40 @@ settings:
     allow-piston-duplication-readme: This setting controls if player should be able
       to use TNT duplication, but this also allows duplicating carpet, rails and potentially
       other items
+  use-display-name-in-quit-message: false
+  loggers:
+    deobfuscate-stacktraces: true
+  console:
+    enable-brigadier-highlighting: true
+    enable-brigadier-completions: true
+  item-validation:
+    display-name: 8192
+    loc-name: 8192
+    lore-line: 8192
+    book:
+      title: 8192
+      author: 8192
+      page: 16384
+  chunk-loading:
+    min-load-radius: 2
+    max-concurrent-sends: 2
+    autoconfig-send-distance: true
+    target-player-chunk-send-rate: 100.0
+    global-max-chunk-send-rate: -1.0
+    enable-frustum-priority: false
+    global-max-chunk-load-rate: 300.0
+    player-max-concurrent-loads: 4.0
+    global-max-concurrent-loads: 500.0
+  packet-limiter:
+    kick-message: '&cSent too many packets'
+    limits:
+      all:
+        interval: 7.0
+        max-packet-rate: 500.0
+      PacketPlayInAutoRecipe:
+        interval: 4.0
+        max-packet-rate: 5.0
+        action: DROP
 messages:
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
@@ -69,6 +105,7 @@ messages:
     flying-player: Flying is not enabled on this server
     flying-vehicle: Flying is not enabled on this server
 timings:
+  url: https://timings.aikar.co/
   enabled: true
   verbose: true
   server-name-privacy: false
@@ -81,6 +118,14 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    map-item-frame-cursor-update-interval: 10
+    allow-player-cramming-damage: false
+    piglins-guard-chests: true
+    map-item-frame-cursor-limit: 128
+    seed-based-feature-search-loads-chunks: true
+    fix-items-merging-through-walls: false
+    show-sign-click-command-failure-msgs-to-player: false
+    split-overstacked-loot: true
     update-pathfinding-on-block-update: true
     fix-wither-targeting-bug: false
     should-remove-dragon: false
@@ -108,7 +153,7 @@ world-settings:
     use-vanilla-world-scoreboard-name-coloring: false
     remove-corrupt-tile-entities: false
     experience-merge-max-value: -1
-    per-player-mob-spawns: false
+    per-player-mob-spawns: true
     enable-treasure-maps: true
     treasure-maps-return-already-discovered: false
     prevent-moving-into-unloaded-chunks: false
@@ -206,6 +251,7 @@ world-settings:
     squid-spawn-height:
       maximum: 0.0
     anti-xray:
+      max-block-height: 64
       lava-obscures: false
       use-permission: false
       enabled: false
@@ -246,6 +292,8 @@ world-settings:
       - NORMAL
       - HARD
     entity-per-chunk-save-limit:
+      fireball: -1
+      small_fireball: -1
       experience_orb: -1
       snowball: -1
       ender_pearl: -1
@@ -253,3 +301,26 @@ world-settings:
     mobs-can-always-pick-up-loot:
       zombies: false
       skeletons: false
+    tick-rates:
+      sensor:
+        villager:
+          secondarypoisensor: 40
+      behavior:
+        villager:
+          validatenearbypoi: -1
+    mob-effects:
+      undead-immune-to-certain-effects: true
+      spiders-immune-to-poison-effect: true
+      immune-to-wither-effect:
+        wither: true
+        wither-skeleton: true
+    spawn-limits:
+      monsters: -1
+      animals: -1
+      water-animals: -1
+      water-ambient: -1
+      ambient: -1
+    feature-seeds:
+      generate-random-seeds-for-all: false
+    unsupported-settings:
+      fix-invulnerable-end-crystal-exploit: true

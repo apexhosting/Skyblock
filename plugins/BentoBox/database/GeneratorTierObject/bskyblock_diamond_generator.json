@@ -5,8 +5,8 @@
     "&7 At last, now diamonds",
     "&7 are generated."
   ],
-  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND_ORE\n",
-  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BARRIER\n",
+  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: DIAMOND_ORE\n",
+  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: BARRIER\n",
   "generatorType": "COBBLESTONE_OR_STONE",
   "defaultGenerator": false,
   "priority": 6,
@@ -27,7 +27,7 @@
   },
   "treasureChanceMap": {},
   "treasureItemChanceMap": {
-    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: DIAMOND\n"
+    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: DIAMOND\n"
   },
   "treasureChance": 0.001,
   "maxTreasureAmount": 1

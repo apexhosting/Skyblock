@@ -691,12 +691,12 @@ chat:
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
   group-formats:
-    default: '{deluxetags_tag} {DISPLAYNAME}&8: &a{MESSAGE}'
-    elite: '{deluxetags_tag} {DISPLAYNAME}&8: &e{MESSAGE}'
-    moderator: '{deluxetags_tag} {DISPLAYNAME}&8: &2{MESSAGE}'
-    admin: '{deluxetags_tag} {DISPLAYNAME}&8: &c{MESSAGE}'  
-    owner: '{deluxetags_tag} {DISPLAYNAME}&8: &4{MESSAGE}'
-    dev: '{deluxetags_tag} {DISPLAYNAME}&8: &e{MESSAGE}'
+    MEMBER: '{deluxetags_tag} {DISPLAYNAME}&8: &7{MESSAGE}'
+    ELITE: '{deluxetags_tag} {DISPLAYNAME}&8: &7{MESSAGE}'
+    HELPER: '{deluxetags_tag} {DISPLAYNAME}&8: &7{MESSAGE}'
+    MOD: '{deluxetags_tag} {DISPLAYNAME}&8: &7{MESSAGE}'
+    ADMIN: '{deluxetags_tag} {DISPLAYNAME}&8: &7{MESSAGE}'  
+    OWNER: '{deluxetags_tag} {DISPLAYNAME}&8: &7{MESSAGE}'
 
   # If you are using group formats make sure to remove the '#' to allow the setting to be read.
 

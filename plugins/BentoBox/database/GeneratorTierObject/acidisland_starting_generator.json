@@ -5,8 +5,8 @@
     "&7 Starting generator for",
     "&7 everyone."
   ],
-  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COBBLESTONE\n",
-  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BARRIER\n",
+  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: COBBLESTONE\n",
+  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: BARRIER\n",
   "generatorType": "COBBLESTONE_OR_STONE",
   "defaultGenerator": true,
   "priority": 1,
@@ -26,7 +26,7 @@
   },
   "treasureChanceMap": {},
   "treasureItemChanceMap": {
-    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COAL\n"
+    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: COAL\n"
   },
   "treasureChance": 0.001,
   "maxTreasureAmount": 1

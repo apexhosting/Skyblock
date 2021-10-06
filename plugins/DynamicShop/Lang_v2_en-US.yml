@@ -1,0 +1,209 @@
+STARTPAGE:
+  EDITOR_TITLE: §3Start page editor
+  EDIT_NAME: Change Name
+  EDIT_LORE: Change Lore
+  EDIT_ICON: Change Icon
+  EDIT_ACTION: Change Action
+  SHOP_SHORTCUT: Create shortcut button for shop
+  CREATE_DECO: Create decorative button
+  ENTER_SHOPNAME: Enter shop name.
+  ENTER_NAME: Enter new name
+  ENTER_LORE: Enter new lore
+  ENTER_ICON: Enter new Icon (Minecraft material name. Case insensitive)
+  ENTER_ACTION: Enter Command without '/'. This command will be execute when button
+    pressed.
+  ENTER_COLOR: Enter color. (ex.LIGHT_BLUE)
+  DEFAULT_SHOP_LORE: §fGo to shop
+TRADE_TITLE: §3Tradeview
+PALETTE_TITLE: §3Item Palette
+PALETTE_LORE: '§eLMB: Register this item on shop'
+ITEM_SETTING_TITLE: §3Item Settings
+QUICKSELL_TITLE: §3Quick Sell
+TRADE_LORE: '§fClick: Go to Tradeview'
+BUY: §cBuy
+BUYONLY_LORE: §fThis item is Buy only
+SELL: §2Sell
+SELLONLY_LORE: §fThis item is Sell only
+PRICE: '§fBuy: '
+SELLPRICE: '§fSell: '
+VALUE_BUY: '§fValue(Buy): '
+VALUE_SELL: '§fValue(Sell): '
+PRICE_MIN: '§fMin Price: '
+PRICE_MAX: '§fMax Price: '
+MEDIAN: '§fMedian: '
+MEDIAN_HELP: §fThe larger the median value, the more rapidly the price changes.
+STOCK: '§fStock: '
+INFSTOCK: Infinite stock
+STATICPRICE: Static price
+UNLIMITED: Unlimited
+TAXIGNORED: Sales tax will be ignored.
+TOGGLE_SELLABLE: '§eClick: Toggle Sellable'
+TOGGLE_BUYABLE: '§eClick: Toggle Buyable'
+BALANCE: §3Balance
+ITEM_MOVE_LORE: '§eRMB: Move'
+ITEM_COPY_LORE: '§eRMB: Copy'
+ITEM_EDIT_LORE: '§eShift+RMB: Edit'
+DECO_CREATE_LORE: '§eRMB: Add as decoration'
+DECO_DELETE_LORE: '§eShift + RMB: Delete'
+RECOMMEND: §fUse recommended value
+RECOMMEND_LORE: §fAutomatically set values
+DONE: §fDone
+DONE_LORE: §fDone!
+ROUNDDOWN: §fRound down
+SETTOMEDIAN: §fSet to median
+SETTOSTOCK: §fSet to stock
+SETTOVALUE: §fSet to value
+SAVE_CLOSE: §fSave and close
+CLOSE: §fClose
+CLOSE_LORE: §fClose this window.
+REMOVE: §fRemove
+REMOVE_LORE: §fRemove this item from shop.
+PAGE: §fPage
+PAGE_LORE: '§fLMB: Previous / RMB: Next'
+PAGE_INSERT: '§eShift+L: Insert page'
+PAGE_DELETE: '§eShift+R: §cDelete page'
+ITEM_MOVE_SELECTED: Item selected. Right click on empty space.
+SEARCH: §fSearch
+SEARCH_ITEM: §fPlease enter the name of the item you are looking for.
+SEARCH_CANCELED: §fSearch canceled
+INPUT_CANCELED: §fInput canceled
+ADDALL: §fAdd all
+RUSURE: §fAre you sure? Type 'delete' to confirm.
+CANT_DELETE_LAST_PAGE: §fYou can't delete last page.
+SHOP_BAL_INF: §fUnlimited balance
+SHOP_BAL: §fShop balance
+SHOP_BAL_LOW: §fShop does not have enough money.
+'ON': 'On'
+'OFF': 'Off'
+SET: Set
+UNSET: Unset
+NULL(OPEN): null (Open for everyone)
+LOG:
+  LOG: §fLog
+  CLEAR: §fLog deleted
+  SAVE: §fLog saved
+  DELETE: §fDelete Log
+SHOP_SETTING_TITLE: §3Shop Settings
+SHOP_INFO: §3Shop Info
+PERMISSION: §fPermission
+CUR_STATE: Current
+CLICK: Click
+MAXPAGE: §fMax Page
+MAXPAGE_LORE: §fSet maximum number of pages
+L_R_SHIFT: '§eLMB: -1 RMB: +1 Shift: x5'
+FLAG: §fFlag
+RMB_EDIT: '§eRMB: Edit'
+SIGNSHOP_LORE: §fThis shop is only accessible from the sign.
+LOCALSHOP_LORE: §fPlayer must visit the actual location of the store.
+LOCALSHOP_LORE2: §fThis flag requires a position value to work.
+DELIVERYCHARG_LORE: §fPay delivery charge, Buy items from a distance.
+JOBPOINT_LORE: §fJobs Reborn point shop.
+SHOP_CREATED: §fShop Created!
+SHOP_DELETED: §fShop Deleted!
+POSITION: '§fPosition: '
+SHOP_LIST: §fShop list
+TIME:
+  OPEN: Open
+  CLOSE: Close
+  OPEN_LORE: §fSet Open time
+  CLOSE_LORE: §fSet Close time
+  SHOPHOURS: §fShop hours
+  OPEN24: Open 24 Hours
+  SHOP_IS_CLOSED: '§fShop is closed. Open: {time}h. Current Time: {curTime}h'
+  SET_SHOPHOURS: Set shop hours
+  CUR: '§fCurrent Time: {time}h'
+FLUC:
+  FLUCTUATION: Random Stock Fluctuation
+  INTERVAL: Interval
+  STRENGTH: Strength
+STOCKSTABILIZING:
+  SS: §fStock Stabilizing
+  L_R_SHIFT: '§eLMB: -0.1 RMB: +0.1 Shift: x5'
+TAX:
+  SALESTAX: §fSales tax
+  USE_GLOBAL: Use global setting ({tax}%)
+  USE_LOCAL: Separate setting
+OUT_OF_STOCK: §fOut of stock!
+BUY_SUCCESS: '§fBought {item} x{amount} for {price}. Balance: {bal}'
+SELL_SUCCESS: '§fSold {item} x{amount} for {price}. Balance: {bal}'
+BUY_SUCCESS_JP: '§fBought {item} x{amount} for {price}points. Balance: {bal}'
+SELL_SUCCESS_JP: '§fSold {item} x{amount} for {price}points. Balance: {bal}'
+QSELL_RESULT: '§fTo: '
+QSELL_NA: §fThere are no shops to trade that item.
+DELIVERYCHARGE: §fDelivery charge
+DELIVERYCHARGE_EXEMPTION: '§fDelivery charge: {fee} ({fee2} exempt)'
+DELIVERYCHARGE_NA: §fCan't deliver to different world.
+NOT_ENOUGH_MONEY: '§fNot enough money. Balance: {bal}'
+NOT_ENOUGH_POINT: '§fNot enough point. Balance: {bal}'
+NO_ITEM_TO_SELL: §fNot enough item.
+INVEN_FULL: §4Inventory is full!
+IRREVERSIBLE: §fThis action is irreversible!
+HELP:
+  TITLE: '§fHelp: {command} --------------------'
+  SHOP: Open Shop GUI.
+  CMD: Toggle Command Help.
+  CREATESHOP: Create new shop.
+  DELETESHOP: Delete exist shop.
+  SETTAX: Set sale tax.
+  SETTAX_TEMP: Set sales tax temporarily
+  SHOPADDHAND: Add Item to shop.
+  SHOPADDITEM: Add Item to shop.
+  SHOPEDIT: Edit shop item.
+  PRICE: '§7Formula: median*value/stock'
+  INF_STATIC: §7median<0 == static price     stock<0 == infinite stock
+  EDITALL: Edit all shop items
+  EDITALL2: §cWarning. There is no sanity check. Use at your own caution.
+  RELOAD: Reload YML.
+  RELOADED: Plugin reloaded
+  USAGE: Usage
+  CREATESHOP2: |-
+    Permission(You can change this later.)
+       true: dshop.user.shop.shopname
+       false: no permission needed(Default)
+       user input: need that permission
+  ITEM_ALREADY_EXIST: |-
+    §7§o{item} is already selling.
+       {info}
+       Values will be update.
+  ITEM_INFO: |-
+    §7§o{item} is now selling for:
+       {info}
+  REMOVE_ITEM: §f§oEnter 0 for value to §4Remove§f this item.
+  QSELL: §fQuick Sell
+  DELETE_OLD_USER: Delete Old Inactive User data from User.yml.
+  CONVERT: Convert data from other shop plugin
+  ACCOUNT: Set shop account balance. -1 = Infinite
+ITEM_ADDED: Item Added!
+ITEM_UPDATED: Item Updated!
+ITEM_DELETED: Item Removed!
+CHANGES_APPLIED: 'Changes applied. New value: '
+RECOMMAND_APPLIED: Suggestion applied. Based on {playerNum}players. This value can
+  be edited in config
+TRANSFER_SUCCESS: Transfer success.
+ERR:
+  NO_USER_ID: §6Cant find your uuid from server. Shop Unavailable.
+  ITEM_NOT_EXIST: Item not exist.
+  ITEM_FORBIDDEN: Forbidden Item.
+  NO_PERMISSION: §eNo permission.
+  WRONG_USAGE: Wrong usage
+  NO_EMPTY_SLOT: Shop is full
+  WRONG_DATATYPE: Wrong Argument type
+  VALUE_ZERO: Argument must be greater than 0
+  WRONG_ITEMNAME: There's no such item.
+  HAND_EMPTY: You must be holding an item to sell.
+  HAND_EMPTY2: §c§oYou must be holding an item to sell!
+  SHOP_NOT_FOUND: §fShop not found
+  SHOP_EXIST: This name already exist.
+  SIGNSHOP_REMOTE_ACCESS: You can't access sign shop remotely.
+  LOCALSHOP_REMOTE_ACCESS: You can't access local shop remotely.
+  MAX_LOWER_THAN_MIN: Max price must be greater than Min price.
+  DEFAULT_VALUE_OUT_OF_RANGE: Price must be between min and max
+  NO_RECOMMAND_DATA: No data found in Worth.yml.
+  JOBSREBORN_NOT_FOUND: '''Jobs Reborn'' not found.'
+  SHOP_HAS_INF_BAL: '{shop} has infinite balance'
+  SHOP_DIFF_CURRENCY: These shops have different currency.
+  PLAYER_NOT_EXIST: Player not exist.
+  SHOP_LINK_FAIL: At least one of them must be an actual account.
+  SHOP_LINK_TARGET_ERR: Target shop must have actual account.
+  NESTED_STRUCTURE: Nested structure is forbidden. (ex. aa-bb, bb-cc)
+  CREATIVE: §eYou can not use this command in creative mode. No permission.
