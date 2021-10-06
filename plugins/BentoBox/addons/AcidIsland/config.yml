@@ -1,4 +1,4 @@
-# AcidIsland Configuration 1.14.6
+# AcidIsland Configuration 1.15.0
 acid:
   command:
     # Island Command. What command users will run to access their island
@@ -198,10 +198,10 @@ world:
   # This setting is toggled in world flags and set by the settings GUI.
   # Mob white list - these mobs will NOT be removed when logging in or doing /island
   remove-mobs-whitelist:
-  - ZOMBIE_VILLAGER
   - ZOMBIFIED_PIGLIN
-  - ENDERMAN
   - WITHER
+  - ZOMBIE_VILLAGER
+  - ENDERMAN
   # World flags. These are boolean settings for various flags for this world
   flags:
     CREEPER_DAMAGE: true
@@ -209,6 +209,7 @@ world:
     PISTON_PUSH: false
     ISLAND_RESPAWN: true
     CREEPER_GRIEFING: false
+    VISITOR_KEEP_INVENTORY: false
     ENDERMAN_GRIEFING: true
     CLEAN_SUPER_FLAT: false
     CHEST_DAMAGE: false
@@ -235,9 +236,10 @@ world:
     DOOR: 500
     BREAK_HOPPERS: 500
     FURNACE: 500
-    ANVIL: 500
     MINECART: 500
+    ANVIL: 500
     FISH_SCOOPING: 500
+    TRAPPED_CHEST: 500
     END_PORTAL: 500
     BREEDING: 500
     HURT_VILLAGERS: 500
@@ -247,38 +249,42 @@ world:
     BREAK_SPAWNERS: 500
     LEVER: 500
     ELYTRA: 0
-    CAKE: 500
-    RIDING: 500
     HURT_MONSTERS: 0
-    ARMOR_STAND: 500
+    RIDING: 500
+    CAKE: 500
     NAME_TAG: 500
+    ARMOR_STAND: 500
     TRADING: 0
     EGGS: 500
     ITEM_DROP: 0
+    CHEST: 500
     NOTE_BLOCK: 0
     FLINT_AND_STEEL: 500
     NETHER_PORTAL: 500
     LECTERN: 500
+    SHULKER_BOX: 500
     CROP_TRAMPLE: 500
     ITEM_PICKUP: 0
-    BREWING: 500
     DROPPER: 500
+    BREWING: 500
     TNT_PRIMING: 500
     COLLECT_WATER: 500
     BUTTON: 500
+    COMPOSTER: 500
     FIRE_EXTINGUISH: 500
     COMMAND_RANKS: 500
     BEACON: 500
     TRAPDOOR: 500
-    EXPERIENCE_BOTTLE_THROWING: 500
     PRESSURE_PLATE: 0
-    HIVE: 500
+    EXPERIENCE_BOTTLE_THROWING: 500
     DYE: 500
-    ITEM_FRAME: 500
+    HIVE: 500
     PLACE_BLOCKS: 500
+    ITEM_FRAME: 500
     CRAFTING: 0
     SHEARING: 500
     ENCHANTING: 0
+    FLOWER_POT: 500
     BOAT: 500
     SPAWN_EGGS: 500
     BED: 500
@@ -293,6 +299,7 @@ world:
     CHORUS_FRUIT: 500
     CONTAINER: 500
     POTION_THROWING: 500
+    BARREL: 500
     JUKEBOX: 500
   # These are the default settings for new islands
   default-island-settings:

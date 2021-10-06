@@ -124,7 +124,7 @@ i21:
   lines:
   - '&7Right Click'
 i23:
-  location: hub, 34.469, 102.210, -15.285
+  location: hub, 34.553, 102.736, -18.516
   lines:
   - '&cRight Click'
 i24:
@@ -134,9 +134,5 @@ i24:
 cr1:
   location: hub, 27.591, 101.358, -6.755
   lines:
-  - '&c&LCRATES'
+  - '&c&lREWARDS'
   - '&eGet awesome rewards!'
-cr2:
-  location: hub, 34.504, 101.937, -18.631
-  lines:
-  - '&e&lCLAIM YOUR REWARD KEYS HERE'

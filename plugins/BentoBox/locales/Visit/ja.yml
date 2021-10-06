@@ -1,0 +1,177 @@
+visit:
+  commands:
+    admin:
+      main:
+        description: デフォルトまたはターゲットアイランド設定を編集できるGUIを開きます。
+        parameters: <プレイヤー>
+    player:
+      main:
+        description: GUIを開くか、対象のプレイヤーアイランドにアクセスします。
+        parameters: <プレイヤー>
+      configure:
+        description: 訪問設定を管理できるGUIを開きます。
+  gui:
+    buttons:
+      island:
+        unknown: わからない
+        name: '&f&l [name]'
+        description: |-
+          [owner]
+          [members]
+          [noone-online]
+          [payment]
+          [no-visit]
+        owner: '&7&l所有者：&r&b [player]'
+        members-title: '&7&lメンバー：'
+        member: '&b - [player]'
+        noone-online: |-
+          &7島のメンバーなし
+          &7はオンラインです。
+        payment: |-
+          &7訪問するのに[数]かかります
+          &7この島。
+        no-visit: '&c島に行くことはできません。'
+      at_top:
+        disabled: ＆7フィルター行は＆aの下部にあります。
+        name: '&f&l上部のフィルター行'
+        description: |-
+          &7行の位置を
+          &7フィルタリングする
+        enabled: |-
+          &7フィルタ行が
+          &a一番上にあります
+      previous:
+        name: '&f&l前のページ'
+        description: '&7[number]ページに切り替える'
+      next:
+        name: '&f&l次のページ'
+        description: '&7[number]ページに切り替える'
+      search:
+        name: '&f&l検索'
+        description: |-
+          &7特定の検索
+          &7島。
+        search: '&b値：[value]'
+      filter:
+        name: '&f&lフィルター'
+        description: |-
+          &7のみ表示できます
+          &7つのフィルタリングされた島。
+        value: '&7アクティブフィルター：[value]'
+        all_islands: '&b&oなし'
+        online_islands: '&b&oオンライン'
+        can_visit: '&b&o訪問可能'
+      payment:
+        name: '&7&l支払い額'
+        description: |-
+          &7支払いを変更できます
+          &7あなたの島を訪問してください。
+          &7現在の値：&b&o [number]
+      offline:
+        name: '&7&lオフライン訪問'
+        description: |-
+          &7プレイヤーが変更できる場合
+          &7はすべての間に島を訪れることができます
+          &7人のメンバーがオフラインです。
+        enabled: '&7オフライン訪問＆aが有効'
+        disabled: '&7オフライン訪問＆c無効'
+      enabled:
+        name: '&f&l訪問を許可する'
+        description: ＆7訪問を有効/無効にする
+        enabled: '＆7訪問は&a許可されています '
+        disabled: '&7訪問は&c許可されていません '
+      manage:
+        name: '&f&lアイランド設定の管理'
+        description: |-
+          &7選択した島の
+          &7訪問設定を
+          &7編集します。
+      reset:
+        name: '&f&lデフォルトにリセット'
+        description: "&7すべての島訪問設定を\n&7デフォルト値に\n&7リセットします。 "
+      tax:
+        name: '&f&l税の管理'
+        description: "&7島を訪れるための\n&7税金を設定する "
+        value: '&7現在の税金：&b&o [number]'
+      default_payment:
+        name: '&f&lデフォルトの支払い'
+        description: '&7 価格変更 '
+        value: '&7 現在の価格: &b&o[number]'
+      default_offline:
+        name: '&f&lデフォルトのオフライン'
+        description: "&7オフライン訪問を\n&7許可する "
+        enabled: "&7 デフォルトでは\n&7 オフライン訪問は\n&a 有効になっています "
+        disabled: "&7デフォルトでは,\n&7オフライン訪問は\n&c無効になっています "
+      default_enabled:
+        name: '&f&lデフォルトの訪問'
+        description: "&7デフォルトの\n&7訪問権を変更する "
+        enabled: '&7訪問が有効になります '
+        disabled: "&c訪問は無効に\n&cなっています "
+      toggle_filters:
+        name: '&f&lトグルフィルター'
+        description: "&7 ユーザーGUIで\n&7 フィルター行を\n&7 切り替えます "
+        enabled: "&7フィルタ行が\n&a 有効になっています "
+        disabled: "&7フィルタ行が\n&c無効になっています "
+      toggle_search:
+        name: '&f&l検索の切り替え'
+        description: |-
+          &7検索ボタンを
+          &7切り替えます
+        enabled: |-
+          &7検索ボタンは
+          &a有効です。
+        disabled: |-
+          &7検索ボタンは
+          &c無効になっています。
+    tips:
+      click-to-next: ＆e＆7をクリックして、次のページを表示します。
+      click-to-switch: '&eクリックして&7切り替えます '
+      click-to-previous: |-
+        &eクリックして、
+        &7前のページを表示します。
+      click-to-visit: '&eクリックして訪問'
+      click-to-toggle: '&eクリックして切り替えます。'
+      click-to-change: '&eクリックして変更します。'
+      click-to-edit: '&eクリックして編集します。'
+      click-to-choose: '&eクリックして選択します。'
+      click-to-reset: '&eクリックしてリセットします。'
+      left-click-to-edit: '&e左クリックして編集します。'
+      right-click-to-clear: '&e右クリックしてクリアします。'
+      click-to-select: '&eクリックして選択します。'
+      click-to-deselect: '&eクリックして選択を解除します。'
+    titles:
+      choose: '&0&l島を選択'
+      configure: '&0&lアクセスの構成'
+      main: '&0&l管理パネル'
+      select-island: '&0&l島を選択してください'
+      select-block: '&0&lブロックの選択'
+  conversations:
+    cancel-string: キャンセル
+    exit-string: キャンセル、終了、終了
+    confirm-string: true, on, yes, confirm, y, valid, correct
+    deny-string: false, off, no, deny, n, invalid, incorrect
+    cancelled: '&c会話がキャンセルされました！'
+    prefix: '&l&6[BentoBox]: &r'
+    numeric-only: '&c指定された[value]は数値ではありません！'
+    not-valid-value: '&c指定された数値[value]は無効です。 [min]より大きく[max]より小さい必要があります！'
+    write-search: '&e検索値を入力してください。 （終了するには「キャンセル」と記述します）'
+    search-updated: '&a検索値が更新されました。'
+    input-number: '&eチャットで番号を入力してください。'
+    confirm-island-data-deletion: '&e [gamemode]のデータベースからすべてのユーザーデータを削除することを確認します。'
+    user-data-removed: '&a成功、[gamemode]のすべてのユーザーデータが削除されました！'
+  errors:
+    noone-is-online: 7rこの島の誰もオンラインではありません！
+    not-enough-credits: '&rこの島を訪れるのに十分なクレジットがありません。必要な[number]クレジット。'
+    cannot-withdraw-credits: '&rアカウントから[number]を引き出すことは&cできません！&r操作はキャンセルされます。'
+    cannot-deposit-credits: '&r島の所有者アカウントに[number]を入金できません！操作はキャンセルされます。'
+protection:
+  flags:
+    ALLOW_VISITS_FLAG:
+      name: 訪問保護
+      description: "&a島への訪問を\n&a許可/禁止 "
+      hint: '&cこの島では訪問が無効になっています'
+    VISIT_CONFIG_PERMISSION:
+      name: 訪問者の構成を管理する
+      description: |-
+        &a島訪問構成ランクを
+        &a設定する

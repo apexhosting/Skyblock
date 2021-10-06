@@ -1,6 +1,30 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.2
+
+# SKYBLOCK UPDATED TO 1.17
+
+### Changed
+
+- Updated to Minecraft 1.17
+- Updated Citizens
+- Updated CrateReloaded
+- Updated NametagEdit
+- Updated ProtocolLib
+- Updated ProtocolSupport
+- Updated TitleManager
+- Updated UltimateStacker
+- Updated bentobox
+- Updated Holographic Displays
+- Updated PlaceholderAPI
+- Updated GadgetMenus
+- Updated TAB
+- Replaced PermissionsEX with Luckperms as the permissions manager.
+
+  - Implemented Helper, Mod, Admin ranks along with previous ones.
+
+
 ## [2.1]
 
 ### Changed

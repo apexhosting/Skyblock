@@ -1,6 +1,0 @@
-hub:
-- world=hub,x=44.0,y=100.0,z=-16.0,crate=Tier4
-- world=hub,x=40.0,y=100.0,z=-23.0,crate=Tier2
-- world=hub,x=37.0,y=100.0,z=-23.0,crate=Tier1
-- world=hub,x=34.0,y=100.0,z=-19.0,crate=RewardsCrate
-- world=hub,x=44.0,y=100.0,z=-19.0,crate=Tier3

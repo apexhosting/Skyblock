@@ -1,0 +1,207 @@
+STARTPAGE:
+  EDITOR_TITLE: §3시작 화면 편집
+  EDIT_NAME: 이름 바꾸기
+  EDIT_LORE: 설명 바꾸기
+  EDIT_ICON: 아이콘 바꾸기
+  EDIT_ACTION: 실행 명령어 바꾸기
+  SHOP_SHORTCUT: 상점으로 가는 버튼 만들기
+  CREATE_DECO: 장식 버튼 만들기
+  ENTER_SHOPNAME: 상점 이름을 입력하세요.
+  ENTER_NAME: 버튼의 새 이름을 입력하세요.
+  ENTER_LORE: 버튼의 새 설명을 입력하세요.
+  ENTER_ICON: 버튼의 아이콘으로 사용할 아이탬 이름을 입력하세요. (영문. 대소문자 구분없음)
+  ENTER_ACTION: 명령어를 '/' 제외하고 입력하세요. 버튼을 눌렀을때 이 명령어가 실행됩니다.
+  ENTER_COLOR: 장식 버튼의 색상을 입력하세요. (영문)
+  DEFAULT_SHOP_LORE: §f상점으로 가기
+TRADE_TITLE: §3아이탬 거래
+PALETTE_TITLE: §3판매할 아이탬 선택
+PALETTE_LORE: '§e좌클릭: 이 아이탬을 상점에 등록'
+ITEM_SETTING_TITLE: §3아이탬 셋팅
+QUICKSELL_TITLE: §3빠른 판매
+TRADE_LORE: '§f클릭: 거래화면'
+BUY: §c구매
+BUYONLY_LORE: §f구매만 가능한 아이탬
+SELL: §2판매
+SELLONLY_LORE: §f판매만 가능한 아이탬
+VALUE_BUY: '§f구매가치: '
+VALUE_SELL: '§f판매가치: '
+PRICE: '§f구매: '
+SELLPRICE: '§f판매: '
+PRICE_MIN: '§f최소 가격: '
+PRICE_MAX: '§f최대 가격: '
+MEDIAN: '§f중앙값: '
+MEDIAN_HELP: §f중앙값이 작을수록 가격이 급격이 변화합니다.
+STOCK: '§f재고: '
+INFSTOCK: 무한 재고
+STATICPRICE: 고정 가격
+UNLIMITED: 무제한
+TAXIGNORED: 판매세 설정이 무시됩니다.
+TOGGLE_SELLABLE: '§e클릭: 판매전용 토글'
+TOGGLE_BUYABLE: '§e클릭: 구매전용 토글'
+BALANCE: §3내 잔액
+ITEM_MOVE_LORE: '§e우클릭: 이동'
+ITEM_COPY_LORE: '§e우클릭: 복사'
+ITEM_EDIT_LORE: '§eShift우클릭: 편집'
+DECO_CREATE_LORE: '§e우클릭: 장식 버튼으로 추가'
+DECO_DELETE_LORE: '§eShift우클릭: 삭제'
+RECOMMEND: §f추천 값 적용
+RECOMMEND_LORE: §f가격, 중앙값, 재고를 자동으로 설정합니다.
+DONE: §f완료
+DONE_LORE: §f완료!
+ROUNDDOWN: §f내림
+SETTOMEDIAN: §f중앙값에 맞춤
+SETTOSTOCK: §f재고에 맞춤
+SETTOVALUE: §f가격에 맞춤
+SAVE_CLOSE: §f저장 후 닫기
+CLOSE: §f닫기
+CLOSE_LORE: §f이 창을 닫습니다.
+REMOVE: §f제거
+REMOVE_LORE: §f이 아이탬을 상점에서 제거합니다.
+PAGE: §f페이지
+PAGE_LORE: '§f좌클릭: 이전페이지 / 우클릭: 다음페이지'
+PAGE_INSERT: '§eShift+좌: 페이지 삽입'
+PAGE_DELETE: '§eShift+우: 페이지 §c삭제'
+ITEM_MOVE_SELECTED: 아이탬 선택됨. 비어있는 칸을 우클릭하면 이동합니다.
+SHOP_SETTING_TITLE: §3상점 설정
+SHOP_INFO: §3상점 정보
+PERMISSION: §f퍼미션
+CUR_STATE: 현재상태
+CLICK: 클릭
+MAXPAGE: §f최대 페이지
+MAXPAGE_LORE: §f상점의 최대 페이지를 설정합니다
+L_R_SHIFT: '§e좌: -1 우: +1 Shift: x5'
+FLAG: §f플래그
+RMB_EDIT: '§e우클릭: 편집'
+SIGNSHOP_LORE: §f표지판을 통해서만 접근할 수 있습니다.
+LOCALSHOP_LORE: §f실제 상점 위치를 방문해야 합니다.
+LOCALSHOP_LORE2: §f상점의 위치를 설정해야만 합니다.
+DELIVERYCHARG_LORE: §f배달비를 지불하고 localshop에서 원격으로 거래합니다.
+JOBPOINT_LORE: §fJobs 플러그인의 job point로 거래합니다.
+SEARCH: §f찾기
+SEARCH_ITEM: §f찾으려는 아이템의 이름을 입력하세요.
+SEARCH_CANCELED: §f검색 취소됨.
+INPUT_CANCELED: §f입력 취소됨.
+ADDALL: §f모두 추가
+RUSURE: §f정말로 페이지를 삭제할까요? 'delete' 를 입력하면 삭제합니다.
+CANT_DELETE_LAST_PAGE: §f마지막 남은 페이지를 삭제할 수 없습니다.
+SHOP_BAL_INF: §f상점 계좌 무제한
+SHOP_BAL: §f상점 계좌 잔액
+SHOP_BAL_LOW: §f상점이 돈을 충분히 가지고 있지 않습니다.
+'ON': 켜짐
+'OFF': 꺼짐
+SET: 설정
+UNSET: 설정해제
+NULL(OPEN): 없음 (모두에게 열려있음)
+LOG:
+  LOG: §f로그
+  CLEAR: §f로그 삭제됨
+  SAVE: §f로그 저장됨
+  DELETE: §f로그 삭제
+SHOP_CREATED: §f상점 생성됨!
+SHOP_DELETED: §f상점 제거됨!
+POSITION: '§f위치: '
+SHOP_LIST: §f상점 목록
+TIME:
+  OPEN: Open
+  CLOSE: Close
+  OPEN_LORE: §f문 여는 시간 설정
+  CLOSE_LORE: §f문 닫는 시간 설정
+  SHOPHOURS: §f영업시간
+  OPEN24: 24시간 오픈
+  SHOP_IS_CLOSED: '§f상점이 문을 닫았습니다. 개점: {time}시. 현재시간: {curTime}시'
+  SET_SHOPHOURS: 영업시간 설정
+  CUR: '§f현재 시간: {time}시'
+STOCKSTABILIZING:
+  SS: §f재고 안정화
+  L_R_SHIFT: '§e좌클릭: -0.1 우클릭: +0.1 Shift: x5'
+FLUC:
+  FLUCTUATION: §f무작위 재고 변동
+  INTERVAL: §f변화 간격
+  STRENGTH: §f변화 강도
+TAX:
+  SALESTAX: §f판매세
+  USE_GLOBAL: 전역설정 사용 ({tax}%)
+  USE_LOCAL: 별도 설정
+OUT_OF_STOCK: §f재고 없음!
+BUY_SUCCESS: '§f{item} {amount}개를 {price}에 구매함. 잔액: {bal}'
+SELL_SUCCESS: '§f{item} {amount}개를 {price}에 판매함. 잔액: {bal}'
+BUY_SUCCESS_JP: '§f{item} {amount}개를 {price}포인트에 구매함. 남은포인트: {bal}'
+SELL_SUCCESS_JP: '§f{item} {amount}개를 {price}포인트에 판매함. 남은포인트: {bal}'
+QSELL_RESULT: '§f거래한 상점: '
+QSELL_NA: §f해당 아이탬을 취급하는 상점이 없습니다.
+DELIVERYCHARGE: '§f배달비: {fee}'
+DELIVERYCHARGE_EXEMPTION: '§f배달비: {fee} ({fee2} 면제됨)'
+DELIVERYCHARGE_NA: §f다른 월드로 배달할 수 없습니다.
+NOT_ENOUGH_MONEY: '§f돈이 부족합니다. 잔액: {bal}'
+NOT_ENOUGH_POINT: '§f포인트가 부족합니다. 잔액: {bal}'
+NO_ITEM_TO_SELL: §f판매 할 아이탬이 없습니다.
+INVEN_FULL: §4인벤토리에 빈 공간이 없습니다!
+IRREVERSIBLE: §f이 행동은 되돌릴 수 없습니다!
+HELP:
+  TITLE: '§f도움말: {command} --------------------'
+  SHOP: 상점을 엽니다.
+  CMD: 명령어 도움말 표시 토글.
+  CREATESHOP: 상점을 새로 만듭니다.
+  DELETESHOP: 기존의 상점을 제거합니다.
+  SETTAX: 판매 세금을 설정합니다.
+  SETTAX_TEMP: 임시 판매 세 설정
+  SHOPADDHAND: 손에 들고 있는 아이탬을 상점에 추가합니다.
+  SHOPADDITEM: 상점에 아이탬을 추가합니다.
+  SHOPEDIT: 상점에 있는 아이탬을 수정합니다.
+  PRICE: '§7가격은 다음과 같이 계산됩니다: median*value/stock'
+  INF_STATIC: §7median<0 == 고정가격     stock<0 == 무한재고
+  EDITALL: 상점의 모든 아이탬을 한번에 수정합니다.
+  EDITALL2: §c주의. 값이 유효한지는 확인하지 않음.
+  RELOAD: 플러그인을 재시작 합니다.
+  RELOADED: 플러그인 리로드됨!
+  USAGE: 사용법
+  CREATESHOP2: |-
+    퍼미션(나중에 바꿀 수 있습니다.)
+       true: dshop.user.shop.상점이름
+       false: 아무나 접근가능(기본값)
+       임의 입력: 해당 퍼미션 필요
+  ITEM_ALREADY_EXIST: |-
+    §7§o{item}(은)는 이미 판매중임.
+       {info}
+       명령어를 입력하면 값이 수정됩니다.
+  ITEM_INFO: |-
+    §7§o{item}의 현재 설정:
+       {info}
+  REMOVE_ITEM: §f§o인자를 0으로 입력하면 이 아이탬을 상점에서 §4제거§f합니다.
+  QSELL: §f빠르게 아이탬을 판매합니다.
+  DELETE_OLD_USER: 장기간 접속하지 않은 유저의 데이터를 삭제합니다.
+  CONVERT: 다른 상점 플러그인의 정보를 변환합니다.
+  ACCOUNT: 상점의 계좌 잔액을 설정합니다. -1 = 무제한
+ITEM_ADDED: 아이탬 추가됨!
+ITEM_UPDATED: 아이탬 수정됨!
+ITEM_DELETED: 아이탬 제거됨!
+CHANGES_APPLIED: '변경사항 적용됨. 새로운 값: '
+RECOMMAND_APPLIED: 추천 값 적용됨. {playerNum}명 기준입니다. config파일에서 이 값을 바꿀 수 있습니다.
+TRANSFER_SUCCESS: 송금 완료
+ERR:
+  NO_USER_ID: §6플레이어 uuid를 찾을 수 없습니다. 상점 이용 불가능.
+  ITEM_NOT_EXIST: 상점에 해당 아이탬이 존재하지 않습니다.
+  ITEM_FORBIDDEN: 사용할 수 없는 아이탬 입니다.
+  NO_PERMISSION: §e권한이 없습니다.
+  WRONG_USAGE: 잘못된 명령어 사용법. 도움말을 확인하세요.
+  NO_EMPTY_SLOT: 상점에 빈 공간이 없습니다.
+  WRONG_DATATYPE: 인자의 유형이 잘못 입력되었습니다.
+  VALUE_ZERO: 인자값이 0보다 커야 합니다.
+  WRONG_ITEMNAME: 유효하지 않은 아이탬 이름입니다.
+  HAND_EMPTY: 아이탬을 손에 들고 있어야 합니다.
+  HAND_EMPTY2: §c§o아이탬을 손에 들고 있어야 합니다!
+  SHOP_NOT_FOUND: §f해당 상점을 찾을 수 없습니다.
+  SHOP_EXIST: 해당 이름을 가진 상점이 이미 존재합니다.
+  SIGNSHOP_REMOTE_ACCESS: 해당 상점은 표지판을 통해서만 접근할 수 있습니다.
+  LOCALSHOP_REMOTE_ACCESS: 해당 상점은 직접 방문해야만 사용할 수 있습니다.
+  MAX_LOWER_THAN_MIN: 최대 가격은 최소 가격보다 커야합니다.
+  DEFAULT_VALUE_OUT_OF_RANGE: 기본 가격은 최소 가격과 최대 가격 사이의 값이어야 합니다.
+  NO_RECOMMAND_DATA: Worth.yml 파일에 이 아이탬의 정보가 없습니다. 추천값 사용 불가.
+  JOBSREBORN_NOT_FOUND: Jobs reborn 플러그인을 찾을 수 없습니다.
+  SHOP_HAS_INF_BAL: '{shop} 상점은 무한계좌 상점입니다.'
+  SHOP_DIFF_CURRENCY: 두 상점이 서로 다른 통화를 사용합니다.
+  PLAYER_NOT_EXIST: 해당 플레이어를 찾을 수 없습니다.
+  SHOP_LINK_FAIL: 상점 둘 중 하나는 실제 계좌이어야 합니다.
+  SHOP_LINK_TARGET_ERR: 목표 상점은 실제 계좌를 가지고 있어야 합니다.
+  NESTED_STRUCTURE: 계층 구조를 이루는것은 금지되어 있습니다. (ex. aa-bb, bb-cc)
+  CREATIVE: §eCreative mode 에서 이 명령어를 사용할 수 없습니다. 권한이 없습니다.
