@@ -5,8 +5,8 @@
     "&7 Lava and water now",
     "&7 can can produce coal."
   ],
-  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: COAL_ORE\n",
-  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: BARRIER\n",
+  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: COAL_ORE\n",
+  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: BARRIER\n",
   "generatorType": "COBBLESTONE_OR_STONE",
   "defaultGenerator": false,
   "priority": 1,
@@ -27,7 +27,7 @@
   },
   "treasureChanceMap": {},
   "treasureItemChanceMap": {
-    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: IRON_NUGGET\n"
+    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: IRON_NUGGET\n"
   },
   "treasureChance": 0.001,
   "maxTreasureAmount": 1

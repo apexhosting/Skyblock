@@ -1,0 +1,1655 @@
+[15:19:09] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:19:09] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[15:19:10] [Worker-Main-1/INFO]: Loaded 7 recipes
+[15:19:11] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[15:19:11] [Server thread/INFO]: Loading properties
+[15:19:11] [Server thread/INFO]: This server is running Paper version git-Paper-310 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT) (Git: 0cdeeef)
+[15:19:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:19:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:19:11] [Server thread/INFO]: Default game type: SURVIVAL
+[15:19:11] [Server thread/INFO]: Generating keypair
+[15:19:11] [Server thread/INFO]: Starting Minecraft server on 51.222.244.137:25714
+[15:19:11] [Server thread/INFO]: Using epoll channel type
+[15:19:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:19:11] [Server thread/INFO]: Paper: Using OpenSSL 1.0.x (Linux x86_64) cipher from Velocity.
+[15:19:13] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_17_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[15:19:16] [Server thread/WARN]: Legacy plugin DeluxeTags v1.8.1 does not specify an api-version.
+[15:19:16] [Server thread/WARN]: Legacy plugin ServerListPlus v3.4.8 does not specify an api-version.
+[15:19:16] [Server thread/WARN]: Legacy plugin QuickBoard v4.4.1 does not specify an api-version.
+[15:19:16] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.69
+[15:19:16] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.10
+[15:19:16] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.9
+[15:19:16] [Server thread/INFO]: [Votifier] Loading Votifier v2.7.2
+[15:19:16] [Server thread/INFO]: [AdvancedPortals] Loading AdvancedPortals v0.5.12
+[15:19:16] [Server thread/INFO]: [MovingDevApi] Loading MovingDevApi v1.1.10
+[15:19:16] [Server thread/INFO]: [DeluxeTags] Loading DeluxeTags v1.8.1
+[15:19:16] [Server thread/INFO]: [SpawnerSilk] Loading SpawnerSilk v4.0.0
+[15:19:16] [Server thread/INFO]: [ServerListPlus] Loading ServerListPlus v3.4.8
+[15:19:16] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[15:19:16] [Server thread/INFO]: [DailyRewards] Loading DailyRewards v1.1.0
+[15:19:16] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.4+5723-e3bfc64
+[15:19:17] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1434c00c]
+[15:19:17] [Server thread/INFO]: [DynamicShop] Loading DynamicShop v2.11.8
+[15:19:17] [Server thread/INFO]: [Essentials] Loading Essentials v2.18.2.0
+[15:19:17] [Server thread/INFO]: [QuickBoard] Loading QuickBoard v4.4.1
+[15:19:17] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.4+f7ff984
+[15:19:17] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.28-SNAPSHOT (build 2385)
+[15:19:17] [Server thread/INFO]: [BentoBox] Loading BentoBox v1.17.3
+[15:19:17] [Server thread/INFO]: [CrazyAuctions] Loading CrazyAuctions v1.2.16-RELEASE
+[15:19:17] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.13.3-Release
+[15:19:17] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.18.2.0
+[15:19:17] [Server thread/INFO]: [TAB] Loading TAB v2.9.2
+[15:19:17] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.18.2.0
+[15:19:17] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v19.5
+[15:19:17] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.5.4
+[15:19:17] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.2.2-b812
+[15:19:17] [Server thread/INFO]: [CitizensCMD] Loading CitizensCMD v2.5.1
+[15:19:17] [Server thread/INFO]: [Multiverse-Inventories] Loading Multiverse-Inventories v4.2.1-b490
+[15:19:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:19:17] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.69
+[15:19:17] [Server thread/INFO]:         __    
+[15:19:17] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.69
+[15:19:17] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[15:19:17] [Server thread/INFO]: 
+[15:19:17] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:19:17] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:19:17] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:19:17] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:19:17] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 932ms)
+[15:19:17] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[15:19:18] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.18.2.0 which is not a depend, softdepend or loadbefore of this plugin.
+[15:19:18] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[15:19:18] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[15:19:18] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[15:19:18] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[15:19:18] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.4+5723-e3bfc64
+[15:19:18] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[15:19:18] [Server thread/WARN]: 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and block property-related functions.
+**
+** Please see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
+**********************************************
+
+[15:19:18] [Server thread/INFO]: [BentoBox] Enabling BentoBox v1.17.3
+[15:19:18] [Server thread/INFO]: [BentoBox] Loading Settings from config.yml...
+[15:19:19] [Server thread/ERROR]: [BentoBox] Could not parse item RED_BANNER:1:STRIPE_RIGHT:BLACK:LEFT_STRIPE:YELLOW No enum constant org.bukkit.block.banner.PatternType.LEFT_STRIPE
+[15:19:19] [Server thread/INFO]: [BentoBox] Hooking with Vault...
+[15:19:19] [Server thread/INFO]: [BentoBox] Loading addons...
+[15:19:19] [Server thread/WARN]: [AcidIsland] Loaded class world.bentobox.bentobox.api.addons.Pladdon from BentoBox v1.17.3 which is not a depend, softdepend or loadbefore of this plugin.
+[15:19:20] [Server thread/INFO]: [BentoBox] Loaded 11 addons.
+[15:19:20] [Server thread/INFO]: Preparing level "World"
+[15:19:20] [Server thread/INFO]: -------- World Settings For [World] --------
+[15:19:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:19:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:19:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:19:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[15:19:20] [Server thread/INFO]: Max TNT Explosions: 100
+[15:19:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:19:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:19:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:19:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:19:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:19:20] [Server thread/INFO]: View Distance: 10
+[15:19:20] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:19:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:19:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:19:20] [Server thread/INFO]: Mob Spawn Range: 6
+[15:19:20] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:19:20] [Server thread/INFO]: -------- World Settings For [World_nether] --------
+[15:19:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:19:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:19:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:19:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[15:19:20] [Server thread/INFO]: Max TNT Explosions: 100
+[15:19:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:19:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:19:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:19:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:19:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:19:20] [Server thread/INFO]: View Distance: 10
+[15:19:20] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:19:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:19:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:19:20] [Server thread/INFO]: Mob Spawn Range: 6
+[15:19:20] [Server thread/INFO]: -------- World Settings For [World_the_end] --------
+[15:19:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:19:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:19:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:19:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:19:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[15:19:20] [Server thread/INFO]: Max TNT Explosions: 100
+[15:19:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:19:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:19:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:19:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:19:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:19:20] [Server thread/INFO]: View Distance: 10
+[15:19:20] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:19:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:19:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:19:20] [Server thread/INFO]: Mob Spawn Range: 6
+[15:19:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:19:20] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:20] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:21] [Server thread/INFO]: Time elapsed: 925 ms
+[15:19:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:19:21] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:21] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:21] [Server thread/INFO]: Time elapsed: 574 ms
+[15:19:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:19:22] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:22] [Server thread/INFO]: Time elapsed: 221 ms
+[15:19:22] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.10
+[15:19:22] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[15:19:22] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.9
+[15:19:22] [Server thread/INFO]: [Votifier] Enabling Votifier v2.7.2
+[15:19:22] [Server thread/INFO]: [Votifier] Loaded token for website: default
+[15:19:22] [Server thread/INFO]: [Votifier] Using epoll transport to accept votes.
+[15:19:22] [Server thread/INFO]: [Votifier] Method none selected for vote forwarding: Votes will not be received from a forwarder.
+[15:19:22] [Server thread/INFO]: [AdvancedPortals] Enabling AdvancedPortals v0.5.12
+[15:19:22] [Votifier epoll boss/ERROR]: [Votifier] Votifier was not able to bind to /139.99.137.91:8192
+[15:19:22] [Server thread/INFO]: [AdvancedPortals] BLOCK_PORTAL_TRAVEL found
+[15:19:22] [Server thread/WARN]: [AdvancedPortals] Advanced bungee features disabled for Advanced Portals as bungee isn't enabled on the server (spigot.yml)
+[15:19:22] [Server thread/INFO]: Advanced portals have been successfully enabled!
+[15:19:22] [Server thread/INFO]: [MovingDevApi] Enabling MovingDevApi v1.1.10
+[15:19:22] [Server thread/INFO]: MovingDevApiAPI is enabled!
+[15:19:22] [Server thread/INFO]: [DeluxeTags] Enabling DeluxeTags v1.8.1*
+[15:19:22] [Server thread/INFO]: [DeluxeTags] 36 tags loaded
+[15:19:22] [Server thread/INFO]: [DeluxeTags] Loading DeluxeTags messages.yml
+[15:19:22] [Server thread/INFO]: [DeluxeTags] You are not using DeluxeChat!
+[15:19:22] [Server thread/INFO]: [DeluxeTags] DeluxeTags will listen to the AsyncPlayerChatEvent to provide compatibility for some chat plugins.
+[15:19:22] [Server thread/INFO]: [DeluxeTags] [STDOUT] ----------------------------
+[15:19:22] [Server thread/WARN]: Nag author(s): '[extended_clip]' of 'DeluxeTags' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[15:19:22] [Server thread/INFO]: [DeluxeTags] [STDOUT]      DeluxeTags Updater
+[15:19:22] [Server thread/INFO]: [DeluxeTags] [STDOUT]  
+[15:19:22] [Server thread/INFO]: [DeluxeTags] [STDOUT] You are running 1.8.1
+[15:19:22] [Server thread/INFO]: [DeluxeTags] [STDOUT] The latest version
+[15:19:22] [Server thread/INFO]: [DeluxeTags] [STDOUT] of DeluxeTags!
+[15:19:22] [Server thread/INFO]: [DeluxeTags] [STDOUT]  
+[15:19:22] [Server thread/INFO]: [DeluxeTags] [STDOUT] ----------------------------
+[15:19:22] [Server thread/INFO]: [SpawnerSilk] Enabling SpawnerSilk v4.0.0
+[15:19:22] [Server thread/INFO]: [ServerListPlus] Enabling ServerListPlus v3.4.8*
+[15:19:22] [Server thread/ERROR]: [ServerListPlus] ProtocolLib IS NOT INSTALLED! Most features will NOT work!
+[15:19:22] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[15:19:22] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[15:19:22] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[15:19:22] [Server thread/ERROR]: [ServerListPlus] ProtocolLib IS NOT INSTALLED! Most features will NOT work!
+[15:19:22] [Server thread/INFO]: [ServerListPlus] [Core] Reloading saved player identities...
+[15:19:22] [Server thread/INFO]: [ServerListPlus] Successfully loaded!
+[15:19:22] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.4.8 enabled.
+[15:19:22] [Server thread/INFO]: [DailyRewards] Enabling DailyRewards v1.1.0
+[15:19:22] [Server thread/INFO]: [DynamicShop] Enabling DynamicShop v2.11.8
+[15:19:22] [Server thread/INFO]: [DynamicShop] Vault Found
+[15:19:23] [Server thread/INFO]: [DynamicShop] Jobs Reborn Not Found
+[15:19:23] [Server thread/INFO]: [DynamicShop] Enabled! :)
+[15:19:23] [Server thread/INFO]: -------------------------------------------------------
+[15:19:23] [Server thread/INFO]: [DynamicShop] Plugin is up to date!
+[15:19:23] [Server thread/INFO]: Please rate my plugin if you like it
+[15:19:23] [Server thread/INFO]: https://spigotmc.org/resources/65603
+[15:19:23] [Server thread/INFO]: -------------------------------------------------------
+[15:19:23] [Server thread/INFO]: [Essentials] Enabling Essentials v2.18.2.0
+[15:19:23] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[15:19:23] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[15:19:23] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[15:19:23] [Server thread/INFO]: [Essentials] Loaded 25599 items from items.json.
+[15:19:23] [Server thread/INFO]: [Essentials] Using locale en_US
+[15:19:23] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:19:23] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:19:23] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[15:19:23] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[15:19:23] [Server thread/INFO]: [QuickBoard] Enabling QuickBoard v4.4.1*
+[15:19:23] [Server thread/INFO]: [QuickBoard] ------------------------------
+[15:19:23] [Server thread/INFO]: [QuickBoard]           QuickBoard          
+[15:19:23] [Server thread/INFO]: [QuickBoard] Listeners registered
+[15:19:23] [Server thread/INFO]: [QuickBoard] Loading scoreboards
+[15:19:23] [Server thread/INFO]: [QuickBoard] Loaded 'scoreboard.default.yml' with permission 'scoreboard.default'
+[15:19:23] [Server thread/INFO]: [QuickBoard] Scoreboards loaded
+[15:19:23] [Server thread/INFO]: [QuickBoard] Config registered
+[15:19:23] [Server thread/INFO]: [QuickBoard] Update Tasks started
+[15:19:23] [Server thread/INFO]: [QuickBoard] Command 'quickboard' enabled
+[15:19:23] [Server thread/INFO]: [QuickBoard]           QuickBoard          
+[15:19:23] [Server thread/INFO]: [QuickBoard] ------------------------------
+[15:19:23] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.4+f7ff984
+[15:19:24] [Server thread/INFO]: [WorldGuard] (World) TNT ignition is PERMITTED.
+[15:19:24] [Server thread/INFO]: [WorldGuard] (World) Lighters are PERMITTED.
+[15:19:24] [Server thread/INFO]: [WorldGuard] (World) Lava fire is blocked.
+[15:19:24] [Server thread/INFO]: [WorldGuard] (World) Fire spread is UNRESTRICTED.
+[15:19:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'World'
+[15:19:24] [Server thread/INFO]: [WorldGuard] (World_nether) TNT ignition is PERMITTED.
+[15:19:24] [Server thread/INFO]: [WorldGuard] (World_nether) Lighters are PERMITTED.
+[15:19:24] [Server thread/INFO]: [WorldGuard] (World_nether) Lava fire is blocked.
+[15:19:24] [Server thread/INFO]: [WorldGuard] (World_nether) Fire spread is UNRESTRICTED.
+[15:19:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'World_nether'
+[15:19:24] [Server thread/INFO]: [WorldGuard] (World_the_end) TNT ignition is PERMITTED.
+[15:19:24] [Server thread/INFO]: [WorldGuard] (World_the_end) Lighters are PERMITTED.
+[15:19:24] [Server thread/INFO]: [WorldGuard] (World_the_end) Lava fire is blocked.
+[15:19:24] [Server thread/INFO]: [WorldGuard] (World_the_end) Fire spread is UNRESTRICTED.
+[15:19:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'World_the_end'
+[15:19:24] [Server thread/INFO]: [WorldGuard] Loading region data...
+[15:19:24] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.28-SNAPSHOT (build 2385)
+[15:19:25] [Server thread/INFO]: [CrazyAuctions] Enabling CrazyAuctions v1.2.16-RELEASE
+[15:19:25] [Server thread/INFO]: [CrazyAuctions] [STDOUT] [CrazyAuctions] Loading the config.yml
+[15:19:25] [Server thread/WARN]: Nag author(s): '[BadBones69]' of 'CrazyAuctions' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[15:19:25] [Server thread/INFO]: [CrazyAuctions] [STDOUT] [CrazyAuctions] Successfully loaded config.yml
+[15:19:25] [Server thread/INFO]: [CrazyAuctions] [STDOUT] [CrazyAuctions] Loading the Data.yml
+[15:19:25] [Server thread/INFO]: [CrazyAuctions] [STDOUT] [CrazyAuctions] Successfully loaded Data.yml
+[15:19:25] [Server thread/INFO]: [CrazyAuctions] [STDOUT] [CrazyAuctions] Loading the Messages.yml
+[15:19:25] [Server thread/INFO]: [CrazyAuctions] [STDOUT] [CrazyAuctions] Successfully loaded Messages.yml
+[15:19:25] [Server thread/INFO]: [CrazyAuctions] [STDOUT] [CrazyAuctions] Loading the Test-File.yml
+[15:19:25] [Server thread/INFO]: [CrazyAuctions] [STDOUT] [CrazyAuctions] Successfully loaded Test-File.yml
+[15:19:25] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.3-Release
+[15:19:25] [Server thread/INFO]: [DeluxeMenus] Hooked into PlaceholderAPI!
+[15:19:25] [Server thread/INFO]: [DeluxeMenus] 3 GUI menus loaded!
+[15:19:25] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[15:19:25] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault for economy requirement!
+[15:19:25] [Server thread/INFO]: [DeluxeMenus] Could not setup a NMS hook for your server version!
+[15:19:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: deluxemenus
+[15:19:25] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.18.2.0
+[15:19:25] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[15:19:25] [Server thread/INFO]: [TAB] Enabling TAB v2.9.2
+[15:19:25] [Server thread/INFO]: [TAB] Server version: 1.17.1 (v1_17_R1)
+[15:19:25] [Server thread/INFO]: [TAB] File plugins/TAB/errors.log exists and is not empty. Take a look at the error messages and try to resolve them. After you do, delete the file.
+[15:19:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: tab
+[15:19:25] [Server thread/INFO]: [TAB] There was 1 startup warning.
+[15:19:25] [Server thread/INFO]: [TAB] Enabled in 76ms
+[15:19:25] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.18.2.0
+[15:19:25] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[15:19:25] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v19.5
+[15:19:25] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[15:19:25] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[15:19:25] [Server thread/INFO]: --------------------
+[15:19:25] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[15:19:25] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[15:19:25] [Server thread/INFO]: --------------------
+[15:19:25] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.5.4
+[15:19:25] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[15:19:25] [Server thread/INFO]: [GadgetsMenu]         GadgetsMenu [Free] 4.5.4 is loading...
+[15:19:25] [Server thread/INFO]: [GadgetsMenu]          [server: git-Paper-310 (MC: 1.17.1)]
+[15:19:25] [Server thread/INFO]: [GadgetsMenu]                  Running Java 16.0.1
+[15:19:25] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
+[15:19:25] [Server thread/INFO]: [GadgetsMenu]             Date Modified: 3 October 2021
+[15:19:25] [Server thread/INFO]: [GadgetsMenu]                            
+[15:19:25] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_17_R1
+[15:19:25] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[15:19:26] [Server thread/INFO]: [GadgetsMenu] Connecting to MySQL database...
+[15:19:26] [Server thread/INFO]: [GadgetsMenu] Successfully connected to MySQL database!
+[15:19:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: gadgetsmenu
+[15:19:26] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
+[15:19:26] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.2.2-b812
+[15:19:26] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.2.2-b812" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[15:19:26] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[15:19:26] [Server thread/INFO]: -------- World Settings For [acidisland_world_the_end] --------
+[15:19:26] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:19:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:19:26] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:19:26] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:19:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:19:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:19:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:19:26] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:19:26] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:19:26] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:19:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:19:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:19:26] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:19:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:19:26] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:19:26] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:19:26] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:19:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:19:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:19:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[15:19:26] [Server thread/INFO]: Max TNT Explosions: 100
+[15:19:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:19:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:19:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:19:26] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:19:26] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:19:26] [Server thread/INFO]: View Distance: 10
+[15:19:26] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:19:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:19:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:19:26] [Server thread/INFO]: Mob Spawn Range: 6
+[15:19:26] [Server thread/INFO]: Preparing start region for dimension minecraft:acidisland_world_the_end
+[15:19:27] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:27] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:27] [Server thread/INFO]: Time elapsed: 698 ms
+[15:19:27] [Server thread/INFO]: [WorldGuard] (acidisland_world_the_end) TNT ignition is PERMITTED.
+[15:19:27] [Server thread/INFO]: [WorldGuard] (acidisland_world_the_end) Lighters are PERMITTED.
+[15:19:27] [Server thread/INFO]: [WorldGuard] (acidisland_world_the_end) Lava fire is blocked.
+[15:19:27] [Server thread/INFO]: [WorldGuard] (acidisland_world_the_end) Fire spread is UNRESTRICTED.
+[15:19:27] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'acidisland_world_the_end'
+[15:19:27] [Server thread/INFO]: -------- World Settings For [bskyblockx_world] --------
+[15:19:27] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:19:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:19:27] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:19:27] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:19:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:19:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:19:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:19:27] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:19:27] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:19:27] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:19:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:19:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:19:27] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:19:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:19:27] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:19:27] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:19:27] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:19:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:19:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:19:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[15:19:27] [Server thread/INFO]: Max TNT Explosions: 100
+[15:19:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:19:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:19:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:19:27] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:19:27] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:19:27] [Server thread/INFO]: View Distance: 10
+[15:19:27] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:19:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:19:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:19:27] [Server thread/INFO]: Mob Spawn Range: 6
+[15:19:27] [Server thread/INFO]: Preparing start region for dimension minecraft:bskyblockx_world
+[15:19:27] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:28] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},name:"minecraft:flower"}]
+[15:19:28] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[app:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[app:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:773) ~[app:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:319) ~[app:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkTaskManager.pollNextChunkTask(ChunkTaskManager.java:233) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:1240) ~[app:?]
+	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:839) ~[app:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1406) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1389) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:110) ~[app:?]
+	at net.minecraft.server.MinecraftServer.executeModerately(MinecraftServer.java:1360) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.loadSpawn(MinecraftServer.java:901) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.createWorld(CraftServer.java:1239) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.Bukkit.createWorld(Bukkit.java:661) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:462) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:499) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:480) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:455) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.loadWorlds(WorldManager.java:767) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.MultiverseCore.onEnable(MultiverseCore.java:307) ~[Multiverse-Core-4.2.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:502) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:544) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:458) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:725) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:307) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1212) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:19:28] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{base_height:4,decorators:[],foliage_height:3,foliage_height_random:0,foliage_placer:{radius:2,radius_random:0,type:"minecraft:blob_foliage_placer"},height_rand_a:2,height_rand_b:0,ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:oak_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,trunk_height:-1,trunk_height_random:0,trunk_provider:{state:{Name:"minecraft:oak_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"},trunk_top_offset:0,trunk_top_offset_random:0},name:"minecraft:normal_tree"}]
+[15:19:28] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[app:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[app:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:773) ~[app:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:319) ~[app:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkTaskManager.pollNextChunkTask(ChunkTaskManager.java:233) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:1240) ~[app:?]
+	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:839) ~[app:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1406) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1389) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:110) ~[app:?]
+	at net.minecraft.server.MinecraftServer.executeModerately(MinecraftServer.java:1360) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.loadSpawn(MinecraftServer.java:901) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.createWorld(CraftServer.java:1239) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.Bukkit.createWorld(Bukkit.java:661) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:462) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:499) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:480) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:455) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.loadWorlds(WorldManager.java:767) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.MultiverseCore.onEnable(MultiverseCore.java:307) ~[Multiverse-Core-4.2.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:502) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:544) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:458) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:725) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:307) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1212) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:19:28] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{base_height:4,decorators:[],foliage_height:3,foliage_height_random:0,foliage_placer:{radius:2,radius_random:0,type:"minecraft:blob_foliage_placer"},height_rand_a:2,height_rand_b:0,ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:oak_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,trunk_height:-1,trunk_height_random:0,trunk_provider:{state:{Name:"minecraft:oak_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"},trunk_top_offset:0,trunk_top_offset_random:0},name:"minecraft:normal_tree"}]
+[15:19:28] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[app:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[app:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:773) ~[app:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:319) ~[app:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkTaskManager.pollNextChunkTask(ChunkTaskManager.java:233) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:1240) ~[app:?]
+	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:839) ~[app:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1406) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1389) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:110) ~[app:?]
+	at net.minecraft.server.MinecraftServer.executeModerately(MinecraftServer.java:1360) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.loadSpawn(MinecraftServer.java:901) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.createWorld(CraftServer.java:1239) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.Bukkit.createWorld(Bukkit.java:661) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:462) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:499) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:480) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:455) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.loadWorlds(WorldManager.java:767) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.MultiverseCore.onEnable(MultiverseCore.java:307) ~[Multiverse-Core-4.2.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:502) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:544) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:458) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:725) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:307) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1212) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:19:28] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{base_height:4,decorators:[],foliage_height:3,foliage_height_random:0,foliage_placer:{radius:2,radius_random:0,type:"minecraft:blob_foliage_placer"},height_rand_a:2,height_rand_b:0,ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:oak_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,trunk_height:-1,trunk_height_random:0,trunk_provider:{state:{Name:"minecraft:oak_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"},trunk_top_offset:0,trunk_top_offset_random:0},name:"minecraft:normal_tree"}]
+[15:19:28] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[app:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[app:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:773) ~[app:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:319) ~[app:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkTaskManager.pollNextChunkTask(ChunkTaskManager.java:233) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:1240) ~[app:?]
+	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:839) ~[app:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1406) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1389) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:110) ~[app:?]
+	at net.minecraft.server.MinecraftServer.executeModerately(MinecraftServer.java:1360) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.loadSpawn(MinecraftServer.java:901) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.createWorld(CraftServer.java:1239) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.Bukkit.createWorld(Bukkit.java:661) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:462) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:499) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:480) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:455) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.loadWorlds(WorldManager.java:767) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.MultiverseCore.onEnable(MultiverseCore.java:307) ~[Multiverse-Core-4.2.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:502) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:544) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:458) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:725) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:307) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1212) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:19:28] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},name:"minecraft:flower"}]
+[15:19:28] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[app:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[app:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:773) ~[app:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:319) ~[app:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkTaskManager.pollNextChunkTask(ChunkTaskManager.java:233) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:1240) ~[app:?]
+	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:839) ~[app:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1406) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1389) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:110) ~[app:?]
+	at net.minecraft.server.MinecraftServer.executeModerately(MinecraftServer.java:1360) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.loadSpawn(MinecraftServer.java:901) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.createWorld(CraftServer.java:1239) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.Bukkit.createWorld(Bukkit.java:661) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:462) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:499) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:480) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:455) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.loadWorlds(WorldManager.java:767) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.MultiverseCore.onEnable(MultiverseCore.java:307) ~[Multiverse-Core-4.2.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:502) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:544) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:458) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:725) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:307) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1212) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:19:28] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},name:"minecraft:flower"}]
+[15:19:28] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[app:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[app:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:773) ~[app:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:319) ~[app:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkTaskManager.pollNextChunkTask(ChunkTaskManager.java:233) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:1240) ~[app:?]
+	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:839) ~[app:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1406) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1389) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:110) ~[app:?]
+	at net.minecraft.server.MinecraftServer.executeModerately(MinecraftServer.java:1360) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.loadSpawn(MinecraftServer.java:901) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.createWorld(CraftServer.java:1239) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.Bukkit.createWorld(Bukkit.java:661) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:462) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:499) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:480) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:455) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.loadWorlds(WorldManager.java:767) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.MultiverseCore.onEnable(MultiverseCore.java:307) ~[Multiverse-Core-4.2.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:502) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:544) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:458) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:725) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:307) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1212) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:19:28] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{state_provider:{state:{Name:"minecraft:hay_block",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}},name:"minecraft:block_pile"}]
+[15:19:28] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[app:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[app:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:773) ~[app:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:319) ~[app:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkTaskManager.pollNextChunkTask(ChunkTaskManager.java:233) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:1240) ~[app:?]
+	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:839) ~[app:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1406) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1389) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:110) ~[app:?]
+	at net.minecraft.server.MinecraftServer.executeModerately(MinecraftServer.java:1360) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.loadSpawn(MinecraftServer.java:901) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.createWorld(CraftServer.java:1239) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.Bukkit.createWorld(Bukkit.java:661) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:462) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:499) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:480) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:455) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.loadWorlds(WorldManager.java:767) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.MultiverseCore.onEnable(MultiverseCore.java:307) ~[Multiverse-Core-4.2.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:502) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:544) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:458) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:725) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:307) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1212) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:19:28] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},name:"minecraft:flower"}]
+[15:19:28] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[app:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[app:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:773) ~[app:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:319) ~[app:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkTaskManager.pollNextChunkTask(ChunkTaskManager.java:233) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:1240) ~[app:?]
+	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:839) ~[app:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1406) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1389) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:110) ~[app:?]
+	at net.minecraft.server.MinecraftServer.executeModerately(MinecraftServer.java:1360) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.loadSpawn(MinecraftServer.java:901) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.createWorld(CraftServer.java:1239) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.Bukkit.createWorld(Bukkit.java:661) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:462) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:499) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:480) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:455) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.utils.WorldManager.loadWorlds(WorldManager.java:767) ~[Multiverse-Core-4.2.2.jar:?]
+	at com.onarandombox.MultiverseCore.MultiverseCore.onEnable(MultiverseCore.java:307) ~[Multiverse-Core-4.2.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:502) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:544) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:458) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:725) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:307) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1212) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:19:28] [Server thread/INFO]: Time elapsed: 371 ms
+[15:19:28] [Server thread/INFO]: [WorldGuard] (bskyblockx_world) TNT ignition is PERMITTED.
+[15:19:28] [Server thread/INFO]: [WorldGuard] (bskyblockx_world) Lighters are PERMITTED.
+[15:19:28] [Server thread/INFO]: [WorldGuard] (bskyblockx_world) Lava fire is blocked.
+[15:19:28] [Server thread/INFO]: [WorldGuard] (bskyblockx_world) Fire spread is UNRESTRICTED.
+[15:19:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bskyblockx_world'
+[15:19:28] [Server thread/INFO]: -------- World Settings For [bskyblockx_world_the_end] --------
+[15:19:28] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:19:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:19:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:19:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[15:19:28] [Server thread/INFO]: Max TNT Explosions: 100
+[15:19:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:19:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:19:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:19:28] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:19:28] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:19:28] [Server thread/INFO]: View Distance: 10
+[15:19:28] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:19:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:19:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:19:28] [Server thread/INFO]: Mob Spawn Range: 6
+[15:19:28] [Server thread/INFO]: Preparing start region for dimension minecraft:bskyblockx_world_the_end
+[15:19:28] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:28] [Server thread/INFO]: Time elapsed: 272 ms
+[15:19:28] [Server thread/INFO]: [WorldGuard] (bskyblockx_world_the_end) TNT ignition is PERMITTED.
+[15:19:28] [Server thread/INFO]: [WorldGuard] (bskyblockx_world_the_end) Lighters are PERMITTED.
+[15:19:28] [Server thread/INFO]: [WorldGuard] (bskyblockx_world_the_end) Lava fire is blocked.
+[15:19:28] [Server thread/INFO]: [WorldGuard] (bskyblockx_world_the_end) Fire spread is UNRESTRICTED.
+[15:19:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bskyblockx_world_the_end'
+[15:19:28] [Server thread/INFO]: -------- World Settings For [SkyBlock] --------
+[15:19:28] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:19:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:19:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:19:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:19:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[15:19:28] [Server thread/INFO]: Max TNT Explosions: 100
+[15:19:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:19:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:19:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:19:28] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:19:28] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:19:28] [Server thread/INFO]: View Distance: 10
+[15:19:28] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:19:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:19:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:19:28] [Server thread/INFO]: Mob Spawn Range: 6
+[15:19:28] [Server thread/INFO]: Preparing start region for dimension minecraft:skyblock
+[15:19:28] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:29] [Server thread/INFO]: Time elapsed: 362 ms
+[15:19:29] [Server thread/INFO]: [WorldGuard] (SkyBlock) TNT ignition is PERMITTED.
+[15:19:29] [Server thread/INFO]: [WorldGuard] (SkyBlock) Lighters are PERMITTED.
+[15:19:29] [Server thread/INFO]: [WorldGuard] (SkyBlock) Lava fire is blocked.
+[15:19:29] [Server thread/INFO]: [WorldGuard] (SkyBlock) Fire spread is UNRESTRICTED.
+[15:19:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'SkyBlock'
+[15:19:29] [Server thread/INFO]: -------- World Settings For [oneblock_world_nether] --------
+[15:19:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:19:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:19:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:19:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:19:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:19:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:19:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:19:29] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:19:29] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:19:29] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:19:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:19:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:19:29] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:19:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:19:29] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:19:29] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:19:29] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:19:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:19:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:19:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[15:19:29] [Server thread/INFO]: Max TNT Explosions: 100
+[15:19:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:19:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:19:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:19:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:19:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:19:29] [Server thread/INFO]: View Distance: 10
+[15:19:29] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:19:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:19:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:19:29] [Server thread/INFO]: Mob Spawn Range: 6
+[15:19:29] [Server thread/INFO]: Preparing start region for dimension minecraft:oneblock_world_nether
+[15:19:29] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:29] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:31] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:31] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:31] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:31] [Server thread/INFO]: Time elapsed: 2094 ms
+[15:19:31] [Server thread/INFO]: [WorldGuard] (oneblock_world_nether) TNT ignition is PERMITTED.
+[15:19:31] [Server thread/INFO]: [WorldGuard] (oneblock_world_nether) Lighters are PERMITTED.
+[15:19:31] [Server thread/INFO]: [WorldGuard] (oneblock_world_nether) Lava fire is blocked.
+[15:19:31] [Server thread/INFO]: [WorldGuard] (oneblock_world_nether) Fire spread is UNRESTRICTED.
+[15:19:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'oneblock_world_nether'
+[15:19:31] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: world
+[15:19:31] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[15:19:31] [Server thread/INFO]: -------- World Settings For [acidisland_world] --------
+[15:19:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:19:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:19:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:19:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:19:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:19:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:19:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:19:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:19:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:19:31] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:19:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:19:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:19:31] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:19:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:19:31] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:19:31] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:19:31] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:19:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:19:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:19:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[15:19:31] [Server thread/INFO]: Max TNT Explosions: 100
+[15:19:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:19:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:19:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:19:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:19:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:19:31] [Server thread/INFO]: View Distance: 10
+[15:19:31] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:19:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:19:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:19:31] [Server thread/INFO]: Mob Spawn Range: 6
+[15:19:31] [Server thread/INFO]: Preparing start region for dimension minecraft:acidisland_world
+[15:19:32] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:32] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:32] [Server thread/INFO]: Time elapsed: 792 ms
+[15:19:32] [Server thread/INFO]: [WorldGuard] (acidisland_world) TNT ignition is PERMITTED.
+[15:19:32] [Server thread/INFO]: [WorldGuard] (acidisland_world) Lighters are PERMITTED.
+[15:19:32] [Server thread/INFO]: [WorldGuard] (acidisland_world) Lava fire is blocked.
+[15:19:32] [Server thread/INFO]: [WorldGuard] (acidisland_world) Fire spread is UNRESTRICTED.
+[15:19:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'acidisland_world'
+[15:19:32] [Server thread/INFO]: -------- World Settings For [hub] --------
+[15:19:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:19:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:19:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:19:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:19:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:19:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:19:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:19:32] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:19:32] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:19:32] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:19:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:19:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:19:32] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:19:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:19:32] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:19:32] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:19:32] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:19:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:19:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:19:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[15:19:32] [Server thread/INFO]: Max TNT Explosions: 100
+[15:19:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:19:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:19:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:19:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:19:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:19:32] [Server thread/INFO]: View Distance: 10
+[15:19:32] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:19:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:19:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:19:32] [Server thread/INFO]: Mob Spawn Range: 6
+[15:19:32] [Server thread/INFO]: Preparing start region for dimension minecraft:hub
+[15:19:32] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:33] [Server thread/INFO]: Time elapsed: 293 ms
+[15:19:33] [Server thread/INFO]: [WorldGuard] (hub) TNT ignition is PERMITTED.
+[15:19:33] [Server thread/INFO]: [WorldGuard] (hub) Lighters are PERMITTED.
+[15:19:33] [Server thread/INFO]: [WorldGuard] (hub) Lava fire is blocked.
+[15:19:33] [Server thread/INFO]: [WorldGuard] (hub) Fire spread is UNRESTRICTED.
+[15:19:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hub'
+[15:19:33] [Server thread/INFO]: -------- World Settings For [oneblock_world] --------
+[15:19:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:19:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:19:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:19:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[15:19:33] [Server thread/INFO]: Max TNT Explosions: 100
+[15:19:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:19:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:19:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:19:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:19:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:19:33] [Server thread/INFO]: View Distance: 10
+[15:19:33] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:19:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:19:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:19:33] [Server thread/INFO]: Mob Spawn Range: 6
+[15:19:33] [Server thread/INFO]: Preparing start region for dimension minecraft:oneblock_world
+[15:19:33] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:33] [Server thread/INFO]: Time elapsed: 202 ms
+[15:19:33] [Server thread/INFO]: [WorldGuard] (oneblock_world) TNT ignition is PERMITTED.
+[15:19:33] [Server thread/INFO]: [WorldGuard] (oneblock_world) Lighters are PERMITTED.
+[15:19:33] [Server thread/INFO]: [WorldGuard] (oneblock_world) Lava fire is blocked.
+[15:19:33] [Server thread/INFO]: [WorldGuard] (oneblock_world) Fire spread is UNRESTRICTED.
+[15:19:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'oneblock_world'
+[15:19:33] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: world_nether
+[15:19:33] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[15:19:33] [Server thread/INFO]: -------- World Settings For [bskyblockx_world_nether] --------
+[15:19:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:19:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:19:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:19:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[15:19:33] [Server thread/INFO]: Max TNT Explosions: 100
+[15:19:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:19:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:19:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:19:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:19:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:19:33] [Server thread/INFO]: View Distance: 10
+[15:19:33] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:19:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:19:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:19:33] [Server thread/INFO]: Mob Spawn Range: 6
+[15:19:33] [Server thread/INFO]: Preparing start region for dimension minecraft:bskyblockx_world_nether
+[15:19:33] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:33] [Server thread/INFO]: Time elapsed: 219 ms
+[15:19:33] [Server thread/INFO]: [WorldGuard] (bskyblockx_world_nether) TNT ignition is PERMITTED.
+[15:19:33] [Server thread/INFO]: [WorldGuard] (bskyblockx_world_nether) Lighters are PERMITTED.
+[15:19:33] [Server thread/INFO]: [WorldGuard] (bskyblockx_world_nether) Lava fire is blocked.
+[15:19:33] [Server thread/INFO]: [WorldGuard] (bskyblockx_world_nether) Fire spread is UNRESTRICTED.
+[15:19:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bskyblockx_world_nether'
+[15:19:33] [Server thread/INFO]: -------- World Settings For [acidisland_world_nether] --------
+[15:19:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:19:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:19:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:19:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:19:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[15:19:33] [Server thread/INFO]: Max TNT Explosions: 100
+[15:19:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:19:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:19:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:19:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:19:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:19:33] [Server thread/INFO]: View Distance: 10
+[15:19:33] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:19:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:19:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:19:33] [Server thread/INFO]: Mob Spawn Range: 6
+[15:19:33] [Server thread/INFO]: Preparing start region for dimension minecraft:acidisland_world_nether
+[15:19:34] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:34] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:34] [Server thread/INFO]: Time elapsed: 504 ms
+[15:19:34] [Server thread/INFO]: [WorldGuard] (acidisland_world_nether) TNT ignition is PERMITTED.
+[15:19:34] [Server thread/INFO]: [WorldGuard] (acidisland_world_nether) Lighters are PERMITTED.
+[15:19:34] [Server thread/INFO]: [WorldGuard] (acidisland_world_nether) Lava fire is blocked.
+[15:19:34] [Server thread/INFO]: [WorldGuard] (acidisland_world_nether) Fire spread is UNRESTRICTED.
+[15:19:34] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'acidisland_world_nether'
+[15:19:34] [Server thread/INFO]: [Multiverse-Core] 13 - World(s) loaded.
+[15:19:34] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled!
+[15:19:34] [Server thread/INFO]: [Multiverse-Core] Version 4.2.2-b812 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[15:19:34] [Server thread/INFO]: [CitizensCMD] Enabling CitizensCMD v2.5.1
+[15:19:34] [Server thread/INFO]: [CitizensCMD] CitizensCMD 2.5.1 By Mateus Moreira @LichtHund
+[15:19:34] [Server thread/INFO]: [CitizensCMD] Using English messages!
+[15:19:34] [Server thread/INFO]: [CitizensCMD] Using PlaceholderAPI!
+[15:19:34] [Server thread/INFO]: [CitizensCMD] Using Vault!
+[15:19:34] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.1-b490
+[15:19:34] [Server thread/INFO]: [Multiverse-Inventories 4.2.1-b490] enabled.
+[15:19:35] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[15:19:35] [Server thread/INFO]: Running delayed init tasks
+[15:19:35] [Craft Scheduler Thread - 10 - GadgetsMenu/INFO]: [GadgetsMenu] Checking for updates...
+[15:19:35] [Server thread/INFO]: [BentoBox] Hooking with PlaceholderAPI...
+[15:19:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bentobox
+[15:19:35] [Server thread/INFO]: [BentoBox] Enabling game mode addons...
+[15:19:35] [Server thread/INFO]: [BentoBox] Enabling AcidIsland (1.15.0)...
+[15:19:35] [Server thread/INFO]: [BentoBox] Enabling AOneBlock (1.8.1)...
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 4000_jungle.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 11000_goto_0.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 9500_desolation.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 0_plains_chests.yml
+[15:19:35] [Craft Scheduler Thread - 10 - GadgetsMenu/INFO]: [GadgetsMenu] No update was found, you are running the latest version.
+[15:19:35] [Craft Scheduler Thread - 8 - DailyRewards/INFO]: [DailyRewards] You are running latest release (1.1.0)
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 7500_the nether.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 10500_the end.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 3000_ocean_chests.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 0_plains.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 5000_swamp_chests.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 2000_winter_chests.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 6000_dungeon_chests.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 700_underground.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 8500_plenty.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 4000_jungle_chests.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 7500_the nether_chests.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 9500_desolation_chests.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 10500_the end_chests.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 8500_plenty_chests.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 2000_winter.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 5000_swamp.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 3000_ocean.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 7000_desert.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 6000_dungeon.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 7000_desert_chests.yml
+[15:19:35] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 700_underground_chests.yml
+[15:19:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: aoneblock
+[15:19:35] [Server thread/INFO]: [BentoBox] Enabling BSkyBlock (1.15.2)...
+[15:19:35] [Server thread/INFO]: [BentoBox] Enabling other addons...
+[15:19:35] [Server thread/INFO]: [BentoBox] Enabling Level (2.7.2)...
+[15:19:35] [Server thread/WARN]: [BentoBox] [Level] Level Addon: No such world in blockconfig.yml : caveblock-world
+[15:19:35] [Server thread/INFO]: [BentoBox] [Level] Level hooking into AcidIsland
+[15:19:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: level
+[15:19:35] [Server thread/INFO]: [BentoBox] [Level] Level hooking into AOneBlock
+[15:19:35] [Server thread/INFO]: [BentoBox] [Level] Level hooking into BSkyBlock
+[15:19:35] [Server thread/INFO]: [BentoBox] Enabling TwerkingForTrees (1.4.3)...
+[15:19:35] [Server thread/INFO]: [BentoBox] Enabling MagicCobblestoneGenerator (2.3.0)...
+[15:19:35] [Server thread/INFO]: [BentoBox] [MagicCobblestoneGenerator] Loading generator tiers from database...
+[15:19:35] [Server thread/INFO]: [BentoBox] [MagicCobblestoneGenerator] Done
+[15:19:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: acidisland
+[15:19:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bskyblock
+[15:19:35] [Server thread/WARN]: [BentoBox] Loaded class world.bentobox.level.Level from Pladdon v2.7.2 which is not a depend, softdepend or loadbefore of this plugin.
+[15:19:35] [Server thread/INFO]: [BentoBox] Enabling Visit (1.4.0)...
+[15:19:35] [Server thread/INFO]: [BentoBox] Enabling Biomes (1.14.0)...
+[15:19:35] [Server thread/INFO]: [BentoBox] Loading biomes...
+[15:19:35] [Server thread/INFO]: [BentoBox] Enabling Challenges (0.8.4)...
+[15:19:35] [Server thread/INFO]: [BentoBox] [Challenges] Loading challenges...
+[15:19:36] [Server thread/ERROR]: [BentoBox] [Challenges] Challenge Level 'BSkyBlock_advanced' is not valid and skipped
+[15:19:36] [Server thread/ERROR]: [BentoBox] [Challenges] Challenge Level 'BSkyBlock_competent' is not valid and skipped
+[15:19:36] [Server thread/ERROR]: [BentoBox] [Challenges] Challenge Level 'BSkyBlock_elite' is not valid and skipped
+[15:19:36] [Server thread/ERROR]: [BentoBox] [Challenges] Challenge Level 'BSkyBlock_expert' is not valid and skipped
+[15:19:36] [Server thread/ERROR]: [BentoBox] [Challenges] Challenge Level 'BSkyBlock_novice' is not valid and skipped
+[15:19:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: challenges
+[15:19:36] [Server thread/INFO]: [BentoBox] Enabling Chat (1.1.4)...
+[15:19:36] [Server thread/INFO]: [BentoBox] [Chat] Hooking team chat into AcidIsland
+[15:19:36] [Server thread/INFO]: [BentoBox] [Chat] Hooking island chat into AcidIsland
+[15:19:36] [Server thread/INFO]: [BentoBox] [Chat] Hooking team chat into BSkyBlock
+[15:19:36] [Server thread/INFO]: [BentoBox] [Chat] Hooking island chat into BSkyBlock
+[15:19:36] [Server thread/INFO]: [BentoBox] Enabling ControlPanel (1.13.0)...
+[15:19:36] [Server thread/INFO]: [BentoBox] Loading control panels...
+[15:19:36] [Server thread/INFO]: [BentoBox] Addons successfully enabled.
+[15:19:36] [Server thread/INFO]: [BentoBox] Hooking with Multiverse-Core...
+[15:19:36] [Server thread/INFO]: Multiverse already knows about 'acidisland_world'!
+[15:19:36] [Server thread/INFO]: Success! Property generator was set to BentoBox
+[15:19:36] [Server thread/INFO]: Multiverse already knows about 'acidisland_world_nether'!
+[15:19:36] [Server thread/INFO]: Success! Property generator was set to BentoBox
+[15:19:36] [Server thread/INFO]: Multiverse already knows about 'acidisland_world_the_end'!
+[15:19:36] [Server thread/INFO]: Success! Property generator was set to BentoBox
+[15:19:36] [Server thread/INFO]: Multiverse already knows about 'oneblock_world'!
+[15:19:36] [Server thread/INFO]: Success! Property generator was set to BentoBox
+[15:19:36] [Server thread/INFO]: Multiverse already knows about 'oneblock_world_nether'!
+[15:19:36] [Server thread/INFO]: Success! Property generator was set to null
+[15:19:36] [Server thread/INFO]: Multiverse already knows about 'bskyblockx_world'!
+[15:19:36] [Server thread/INFO]: Success! Property generator was set to BentoBox
+[15:19:36] [Server thread/INFO]: Multiverse already knows about 'bskyblockx_world_nether'!
+[15:19:36] [Server thread/INFO]: Success! Property generator was set to BentoBox
+[15:19:36] [Server thread/INFO]: Multiverse already knows about 'bskyblockx_world_the_end'!
+[15:19:36] [Server thread/INFO]: Success! Property generator was set to BentoBox
+[15:19:36] [Server thread/INFO]: [BentoBox] Hooking with WorldEdit...
+[15:19:36] [Server thread/INFO]: 
+  ____             _        ____
+ |  _ \           | |      |  _ \             by tastybento and Poslovitch
+ | |_) | ___ _ __ | |_ ___ | |_) | _____  __  2017 - 2020
+ |  _ < / _ \ '_ \| __/ _ \|  _ < / _ \ \/ /
+ | |_) |  __/ | | | || (_) | |_) | (_) >  <   v1.17.3
+ |____/ \___|_| |_|\__\___/|____/ \___/_/\_\  Loaded in 3007ms.
+
+[15:19:36] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[15:19:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[15:19:36] [Server thread/WARN]: java.lang.ClassNotFoundException: net.minecraft.server.v1_17_R1.MinecraftServer
+[15:19:36] [Server thread/WARN]: 	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:433)
+[15:19:36] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:586)
+[15:19:36] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+[15:19:36] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
+[15:19:36] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:375)
+[15:19:36] [Server thread/WARN]: 	at com.extendedclip.papi.expansion.server.ServerExpansion.<init>(ServerExpansion.java:63)
+[15:19:36] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[15:19:36] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+[15:19:36] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[15:19:36] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+[15:19:36] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+[15:19:36] [Server thread/WARN]: 	at PlaceholderAPI-2.10.10.jar//me.clip.placeholderapi.expansion.manager.LocalExpansionManager.createExpansionInstance(LocalExpansionManager.java:393)
+[15:19:36] [Server thread/WARN]: 	at PlaceholderAPI-2.10.10.jar//me.clip.placeholderapi.expansion.manager.LocalExpansionManager.register(LocalExpansionManager.java:162)
+[15:19:36] [Server thread/WARN]: 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[15:19:36] [Server thread/WARN]: 	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+[15:19:36] [Server thread/WARN]: 	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+[15:19:36] [Server thread/WARN]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+[15:19:36] [Server thread/WARN]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+[15:19:36] [Server thread/WARN]: 	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+[15:19:36] [Server thread/WARN]: 	at java.base/java.util.stream.ReduceOps$5.evaluateSequential(ReduceOps.java:257)
+[15:19:36] [Server thread/WARN]: 	at java.base/java.util.stream.ReduceOps$5.evaluateSequential(ReduceOps.java:248)
+[15:19:36] [Server thread/WARN]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[15:19:36] [Server thread/WARN]: 	at java.base/java.util.stream.ReferencePipeline.count(ReferencePipeline.java:709)
+[15:19:36] [Server thread/WARN]: 	at PlaceholderAPI-2.10.10.jar//me.clip.placeholderapi.expansion.manager.LocalExpansionManager.lambda$registerAll$3(LocalExpansionManager.java:327)
+[15:19:36] [Server thread/WARN]: 	at PlaceholderAPI-2.10.10.jar//me.clip.placeholderapi.util.Futures.lambda$null$0(Futures.java:46)
+[15:19:36] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftTask.run(CraftTask.java:101)
+[15:19:36] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[15:19:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1221)
+[15:19:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[15:19:36] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[15:19:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server
+[15:19:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic
+[15:19:36] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend, softdepend or loadbefore of this plugin.
+[15:19:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[15:19:36] [Server thread/INFO]: 4 placeholder hooks successfully registered!
+[15:19:37] [Server thread/INFO]: [Citizens] Loaded 16 NPCs.
+[15:19:37] [Server thread/INFO]: [BentoBox] Added world AcidIsland (NORMAL)
+[15:19:37] [Server thread/INFO]: [BentoBox] Added world OneBlock (NORMAL)
+[15:19:37] [Server thread/INFO]: [BentoBox] Added world BSkyBlockX (NORMAL)
+[15:19:37] [Server thread/INFO]: Done (26.039s)! For help, type "help"
+[15:19:37] [Server thread/INFO]: Timings Reset
+[15:19:37] [Craft Scheduler Thread - 12 - Vault/INFO]: [Vault] Checking for Updates ... 
+[15:19:37] [Craft Scheduler Thread - 10 - BentoBox/INFO]: [BentoBox] Loaded Blueprint Bundle 'default' for AOneBlock.
+[15:19:37] [Craft Scheduler Thread - 12 - Vault/INFO]: [Vault] No new version available
+[15:19:37] [Craft Scheduler Thread - 8 - BentoBox/INFO]: [BentoBox] Loaded Blueprint Bundle 'default' for AcidIsland.
+[15:19:37] [Craft Scheduler Thread - 1 - BentoBox/INFO]: [BentoBox] Loaded Blueprint Bundle 'default' for BSkyBlock.
+[15:19:37] [Craft Scheduler Thread - 8 - BentoBox/INFO]: [BentoBox] Loaded Blueprint Bundle 'desert_temple' for AcidIsland.
+[15:19:37] [Craft Scheduler Thread - 1 - BentoBox/INFO]: [BentoBox] Loaded Blueprint Bundle 'double_island' for BSkyBlock.
+[15:19:37] [Craft Scheduler Thread - 1 - BentoBox/INFO]: [BentoBox] Loaded Blueprint Bundle 'harder_island' for BSkyBlock.
+[15:19:37] [Craft Scheduler Thread - 10 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'bedrock' for AOneBlock
+[15:19:37] [Craft Scheduler Thread - 8 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'end-island' for AcidIsland
+[15:19:37] [Craft Scheduler Thread - 1 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'double' for BSkyBlock
+[15:19:37] [Craft Scheduler Thread - 1 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'end-island' for BSkyBlock
+[15:19:37] [Craft Scheduler Thread - 1 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'harder' for BSkyBlock
+[15:19:37] [Craft Scheduler Thread - 1 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'island' for BSkyBlock
+[15:19:37] [Craft Scheduler Thread - 1 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'nether-island' for BSkyBlock
+[15:19:37] [Craft Scheduler Thread - 8 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'island' for AcidIsland
+[15:19:37] [Craft Scheduler Thread - 8 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'nether-island' for AcidIsland
+[15:19:37] [Craft Scheduler Thread - 8 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'temple' for AcidIsland
+[15:19:37] [Server thread/INFO]: [BentoBox] All blueprints loaded.
+[15:19:37] [Craft Scheduler Thread - 4 - BentoBox/INFO]: [BentoBox] [Level] Generating rankings
+[15:19:37] [Craft Scheduler Thread - 25 - BentoBox/INFO]: [BentoBox] Downloading data from GitHub...
+[15:19:37] [Craft Scheduler Thread - 25 - BentoBox/INFO]: [BentoBox] Updating the Catalog...
+[15:19:38] [Thread-27/INFO]: --------------------
+[15:19:38] [Thread-27/INFO]: [CoreProtect] Version 20.1 is now available.
+[15:19:38] [Thread-27/INFO]: [CoreProtect] Download: www.coreprotect.net/download/
+[15:19:38] [Thread-27/INFO]: --------------------
+[15:19:38] [Craft Scheduler Thread - 25 - BentoBox/INFO]: [BentoBox] Updating Contributors information...
+[15:19:38] [Craft Scheduler Thread - 25 - BentoBox/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/AcidIsland, BentoBoxWorld/AOneBlock, BentoBoxWorld/BSkyBlock, BentoBoxWorld/MagicCobblestoneGenerator, BentoBoxWorld/Visit, BentoBoxWorld/Biomes, BentoBoxWorld/Challenges, BentoBoxWorld/ControlPanel
+[15:19:40] [Craft Scheduler Thread - 25 - BentoBox/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[15:20:04] [Server thread/INFO]: com.mojang.authlib.GameProfile@516e222a[id=<null>,name=AllanStrat,properties={},legacy=false] (/37.120.215.76:52022) lost connection: Disconnected
+[15:20:05] [Craft Scheduler Thread - 17 - BentoBox/INFO]: [BentoBox] Downloading data from GitHub...
+[15:20:05] [Craft Scheduler Thread - 25 - BentoBox/INFO]: [BentoBox] Downloading data from GitHub...
+[15:20:05] [Craft Scheduler Thread - 25 - BentoBox/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[15:20:05] [Craft Scheduler Thread - 17 - BentoBox/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[15:20:05] [User Authenticator #1/INFO]: UUID of player AllanStrat is f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+[15:20:05] [Server thread/INFO]: AllanStrat[/37.120.215.76:59898] logged in with entity id 958 at ([hub]28.545911980862112, 99.5, -5.028338583939393)
+[15:20:05] [Server thread/INFO]: [Owner] AllanStrat Joined Skyblock!
+[15:20:13] [Server thread/INFO]: AllanStrat issued server command: /npc select
+[15:20:21] [Server thread/INFO]: AllanStrat issued server command: /npc rename &c&lREWARDS
+[15:20:25] [Server thread/INFO]: AllanStrat issued server command: /warp
+[15:20:28] [Server thread/INFO]: AllanStrat issued server command: /npc select
+[15:20:34] [Server thread/INFO]: AllanStrat issued server command: /npc cmd add -p warp rewards
+[15:20:47] [Server thread/INFO]: AllanStrat issued server command: /setwarp rewards
+[15:20:47] [pool-17-thread-1/INFO]: [Essentials] Creating empty config: /home/minecraft/multicraft/servers/server703318/plugins/Essentials/warps/rewards.yml
+[15:20:50] [Server thread/INFO]: AllanStrat issued server command: /warp rewards
+[15:20:57] [Server thread/INFO]: AllanStrat issued server command: /is
+[15:20:59] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{state_provider:{state:{Name:"minecraft:hay_block",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}},name:"minecraft:block_pile"}]
+[15:20:59] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[app:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[app:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:773) ~[app:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:319) ~[app:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkTaskManager.pollNextChunkTask(ChunkTaskManager.java:233) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:1240) ~[app:?]
+	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:839) ~[app:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1406) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1389) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[app:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1367) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1278) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:20:59] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{base_height:4,decorators:[],foliage_height:3,foliage_height_random:0,foliage_placer:{radius:2,radius_random:0,type:"minecraft:blob_foliage_placer"},height_rand_a:2,height_rand_b:0,ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:oak_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,trunk_height:-1,trunk_height_random:0,trunk_provider:{state:{Name:"minecraft:oak_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"},trunk_top_offset:0,trunk_top_offset_random:0},name:"minecraft:normal_tree"}]
+[15:20:59] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[app:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[app:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:773) ~[app:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:319) ~[app:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkTaskManager.pollNextChunkTask(ChunkTaskManager.java:233) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:1240) ~[app:?]
+	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:839) ~[app:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1406) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1389) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[app:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1367) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1278) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:20:59] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{state_provider:{state:{Name:"minecraft:hay_block",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}},name:"minecraft:block_pile"}]
+[15:20:59] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[app:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[app:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:773) ~[app:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:319) ~[app:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkTaskManager.pollNextChunkTask(ChunkTaskManager.java:233) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:1240) ~[app:?]
+	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:839) ~[app:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1406) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1389) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[app:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1367) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1278) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:20:59] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},name:"minecraft:flower"}]
+[15:20:59] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[app:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[app:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:773) ~[app:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:319) ~[app:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkTaskManager.pollNextChunkTask(ChunkTaskManager.java:233) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:1240) ~[app:?]
+	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:839) ~[app:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1406) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1389) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[app:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1367) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1278) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:20:59] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},name:"minecraft:flower"}]
+[15:20:59] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[app:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[app:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:773) ~[app:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:319) ~[app:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkTaskManager.pollNextChunkTask(ChunkTaskManager.java:233) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:1240) ~[app:?]
+	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:839) ~[app:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1406) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1389) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[app:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1367) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1278) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:20:59] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{state_provider:{state:{Name:"minecraft:hay_block",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}},name:"minecraft:block_pile"}]
+[15:20:59] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[app:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[app:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:773) ~[app:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:319) ~[app:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkTaskManager.pollNextChunkTask(ChunkTaskManager.java:233) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:1240) ~[app:?]
+	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:839) ~[app:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1406) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1389) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[app:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1367) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1278) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:20:59] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{state_provider:{state:{Name:"minecraft:hay_block",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}},name:"minecraft:block_pile"}]
+[15:20:59] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[app:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[app:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:773) ~[app:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:319) ~[app:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkTaskManager.pollNextChunkTask(ChunkTaskManager.java:233) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:1240) ~[app:?]
+	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:839) ~[app:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1406) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1389) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[app:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1367) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1278) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:20:59] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{base_height:4,decorators:[],foliage_height:3,foliage_height_random:0,foliage_placer:{radius:2,radius_random:0,type:"minecraft:blob_foliage_placer"},height_rand_a:2,height_rand_b:0,ignore_vines:1b,leaves_provider:{state:{Name:"minecraft:oak_leaves",Properties:{distance:"7",persistent:"false"}},type:"minecraft:simple_state_provider"},max_water_depth:0,trunk_height:-1,trunk_height_random:0,trunk_provider:{state:{Name:"minecraft:oak_log",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"},trunk_top_offset:0,trunk_top_offset_random:0},name:"minecraft:normal_tree"}]
+[15:20:59] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[app:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[app:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:773) ~[app:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:319) ~[app:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkTaskManager.pollNextChunkTask(ChunkTaskManager.java:233) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:1240) ~[app:?]
+	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:839) ~[app:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1406) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1389) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[app:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1367) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1278) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:20:59] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{state_provider:{state:{Name:"minecraft:hay_block",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}},name:"minecraft:block_pile"}]
+[15:20:59] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[app:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[app:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:773) ~[app:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:319) ~[app:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkTaskManager.pollNextChunkTask(ChunkTaskManager.java:233) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:1240) ~[app:?]
+	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:839) ~[app:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1406) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1389) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[app:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1367) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1278) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:20:59] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{blacklist:[],block_placer:{type:"minecraft:simple_block_placer"},can_replace:0b,need_water:0b,project:1b,state_provider:{type:"minecraft:plain_flower_provider"},tries:64,whitelist:[],xspread:7,yspread:3,zspread:7},name:"minecraft:flower"}]
+[15:20:59] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[app:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[app:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:773) ~[app:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:319) ~[app:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkTaskManager.pollNextChunkTask(ChunkTaskManager.java:233) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:1240) ~[app:?]
+	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:839) ~[app:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1406) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1389) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[app:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1367) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1278) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:20:59] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{state_provider:{state:{Name:"minecraft:hay_block",Properties:{axis:"y"}},type:"minecraft:simple_state_provider"}},name:"minecraft:block_pile"}]
+[15:20:59] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.lambda$new$0(PoolElementStructurePiece.java:54) ~[app:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:54) ~[app:?]
+	at net.minecraft.world.level.levelgen.feature.StructureFeature.loadStaticStart(StructureFeature.java:129) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.unpackStructureStart(ChunkSerializer.java:773) ~[app:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.loadChunk(ChunkSerializer.java:319) ~[app:?]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.executeTask(ChunkLoadTask.java:106) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkLoadTask.run(ChunkLoadTask.java:38) ~[patched_1.17.1.jar:git-Paper-310]
+	at com.destroystokyo.paper.io.chunk.ChunkTaskManager.pollNextChunkTask(ChunkTaskManager.java:233) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:1240) ~[app:?]
+	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:839) ~[app:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1406) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1389) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[app:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1367) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1278) ~[patched_1.17.1.jar:git-Paper-310]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:21:27] [Server thread/INFO]: AllanStrat issued server command: /spawn
+[15:21:34] [Server thread/INFO]: AllanStrat issued server command: /lp user AllanStrat parent set default
+[15:21:34] [luckperms-command-executor/INFO]: [LP] LOG > (AllanStrat) [U] (allanstrat)
+[15:21:34] [luckperms-command-executor/INFO]: [LP] LOG > parent set default
+[15:21:35] [pool-40-thread-4/INFO]: [TAB v2.9.2] Group "default" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "default" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, dev, mod, vip, member]
+[15:21:35] [Async Chat Thread - #0/INFO]: (APEX) [Member] AllanStrat: asd
+[15:21:37] [Server thread/INFO]: AllanStrat issued server command: /lp
+[15:21:43] [Server thread/INFO]: Saving Citizens...
+[15:21:43] [Server thread/INFO]: Citizens saved.
+[15:21:53] [Server thread/INFO]: Saving the game (this may take a moment!)
+[15:21:55] [Server thread/INFO]: Saved the game
+[15:21:55] [Server thread/INFO]: Stopping the server
+[15:21:55] [Server thread/INFO]: Stopping server
+[15:21:55] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.1-b490
+[15:21:55] [Server thread/INFO]: [CitizensCMD] Disabling CitizensCMD v2.5.1
+[15:21:55] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
+[15:21:55] [Server thread/INFO]: [GadgetsMenu] Disabling GadgetsMenu v4.5.4
+[15:21:55] [Server thread/INFO]: [GadgetsMenu] MySQL database connection has been closed.
+[15:21:55] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v19.5
+[15:21:55] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[15:21:56] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v19.5
+[15:21:56] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.18.2.0
+[15:21:56] [Server thread/INFO]: [TAB] Disabling TAB v2.9.2
+[15:21:56] [Server thread/INFO]: [TAB] Disabled in 0ms
+[15:21:56] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.18.2.0
+[15:21:56] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.13.3-Release
+[15:21:56] [Server thread/INFO]: [CrazyAuctions] Disabling CrazyAuctions v1.2.16-RELEASE
+[15:21:56] [Server thread/INFO]: [BentoBox] Disabling BentoBox v1.17.3
+[15:21:56] [Server thread/INFO]: [BentoBox] Disabling addons...
+[15:21:56] [Server thread/INFO]: [BentoBox] Disabling Level...
+[15:21:56] [Server thread/INFO]: [BentoBox] [Level] Stopping Level queue
+[15:21:56] [Server thread/INFO]: [Pladdon] Disabling Pladdon v2.7.2
+[15:21:56] [Server thread/INFO]: [BentoBox] Disabling TwerkingForTrees...
+[15:21:56] [Server thread/INFO]: [BentoBox] Disabling AcidIsland...
+[15:21:56] [Server thread/INFO]: [AcidIsland] Disabling AcidIsland v1.15.0
+[15:21:56] [Server thread/INFO]: [BentoBox] Disabling AOneBlock...
+[15:21:56] [Server thread/INFO]: [BentoBox] Disabling BSkyBlock...
+[15:21:56] [Server thread/INFO]: [Pladdon] Disabling Pladdon v1.15.2
+[15:21:56] [Server thread/INFO]: [BentoBox] Disabling MagicCobblestoneGenerator...
+[15:21:56] [Server thread/INFO]: [BentoBox] Disabling Visit...
+[15:21:56] [Server thread/INFO]: [Pladdon] Disabling Pladdon v1.0
+[15:21:56] [Server thread/INFO]: [BentoBox] Disabling Biomes...
+[15:21:56] [Server thread/INFO]: [BentoBox] Disabling Challenges...
+[15:21:56] [Server thread/INFO]: [BentoBox] Disabling Chat...
+[15:21:56] [Server thread/INFO]: [BentoBox] Disabling ControlPanel...
+[15:21:56] [Server thread/INFO]: [BentoBox] Addons successfully disabled.
+[15:21:56] [Server thread/INFO]: [BentoBox] Removing coops from islands...
+[15:21:56] [Server thread/INFO]: [BentoBox] Saving islands - this has to be done sync so it may take a while with a lot of islands...
+[15:21:56] [Server thread/INFO]: [BentoBox] Islands saved.
+[15:21:56] [Server thread/INFO]: [BentoBox] Closing database.
+[15:21:56] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.28-SNAPSHOT (build 2385)
+[15:21:56] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.4+f7ff984
+[15:21:56] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[15:21:56] [Server thread/INFO]: [QuickBoard] Disabling QuickBoard v4.4.1
+[15:21:56] [Server thread/INFO]: [Essentials] Disabling Essentials v2.18.2.0
+[15:21:56] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[15:21:56] [Server thread/INFO]: [DynamicShop] Disabling DynamicShop v2.11.8
+[15:21:56] [Server thread/INFO]: [DynamicShop] Disabled
+[15:21:56] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.4+5723-e3bfc64
+[15:21:56] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[15:21:56] [Server thread/INFO]: [DailyRewards] Disabling DailyRewards v1.1.0
+[15:21:56] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[15:21:56] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: vault
+[15:21:56] [Server thread/INFO]: [ServerListPlus] Disabling ServerListPlus v3.4.8
+[15:21:56] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.4.8 disabled.
+[15:21:56] [Server thread/INFO]: [SpawnerSilk] Disabling SpawnerSilk v4.0.0
+[15:21:56] [Server thread/INFO]: [DeluxeTags] Disabling DeluxeTags v1.8.1
+[15:21:56] [Server thread/INFO]: [MovingDevApi] Disabling MovingDevApi v1.1.10
+[15:21:56] [Server thread/INFO]: MovingDevApiAPI is diabled!
+[15:21:56] [Server thread/INFO]: [AdvancedPortals] Disabling AdvancedPortals v0.5.12
+[15:21:56] [Server thread/INFO]: Advanced portals are being disabled!
+[15:21:56] [Server thread/INFO]: [Votifier] Disabling Votifier v2.7.2
+[15:21:56] [Server thread/INFO]: [Votifier] Votifier disabled.
+[15:21:56] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.4.9
+[15:21:56] [Votifier epoll worker/WARN]: [com.vexsoftware.votifier.io.netty.channel.epoll.EpollEventLoop] Unexpected exception in the selector loop.
+java.lang.IllegalStateException: zip file closed
+	at java.util.zip.ZipFile.ensureOpen(ZipFile.java:828) ~[?:?]
+	at java.util.zip.ZipFile.getEntry(ZipFile.java:327) ~[?:?]
+	at java.util.jar.JarFile.getEntry(JarFile.java:513) ~[?:?]
+	at java.util.jar.JarFile.getJarEntry(JarFile.java:468) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:158) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at com.vexsoftware.votifier.io.netty.util.collection.IntObjectHashMap$2.iterator(IntObjectHashMap.java:224) ~[nuvotifier-2.7.2.jar:?]
+	at java.util.AbstractCollection.toArray(AbstractCollection.java:186) ~[?:?]
+	at com.vexsoftware.votifier.io.netty.channel.epoll.EpollEventLoop.closeAll(EpollEventLoop.java:428) ~[nuvotifier-2.7.2.jar:?]
+	at com.vexsoftware.votifier.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[nuvotifier-2.7.2.jar:?]
+	at com.vexsoftware.votifier.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) ~[nuvotifier-2.7.2.jar:?]
+	at com.vexsoftware.votifier.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[nuvotifier-2.7.2.jar:?]
+	at com.vexsoftware.votifier.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[nuvotifier-2.7.2.jar:?]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:21:56] [Votifier epoll worker/WARN]: [com.vexsoftware.votifier.io.netty.channel.epoll.EpollEventLoop] Unexpected exception in the selector loop.
+java.lang.IllegalStateException: zip file closed
+	at java.util.zip.ZipFile.ensureOpen(ZipFile.java:828) ~[?:?]
+	at java.util.zip.ZipFile.getEntry(ZipFile.java:327) ~[?:?]
+	at java.util.jar.JarFile.getEntry(JarFile.java:513) ~[?:?]
+	at java.util.jar.JarFile.getJarEntry(JarFile.java:468) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:158) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at com.vexsoftware.votifier.io.netty.util.collection.IntObjectHashMap$2.iterator(IntObjectHashMap.java:224) ~[nuvotifier-2.7.2.jar:?]
+	at java.util.AbstractCollection.toArray(AbstractCollection.java:186) ~[?:?]
+	at com.vexsoftware.votifier.io.netty.channel.epoll.EpollEventLoop.closeAll(EpollEventLoop.java:428) ~[nuvotifier-2.7.2.jar:?]
+	at com.vexsoftware.votifier.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[nuvotifier-2.7.2.jar:?]
+	at com.vexsoftware.votifier.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) ~[nuvotifier-2.7.2.jar:?]
+	at com.vexsoftware.votifier.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[nuvotifier-2.7.2.jar:?]
+	at com.vexsoftware.votifier.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[nuvotifier-2.7.2.jar:?]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:21:56] [Votifier epoll boss/WARN]: [com.vexsoftware.votifier.io.netty.channel.epoll.EpollEventLoop] Unexpected exception in the selector loop.
+java.lang.IllegalStateException: zip file closed
+	at java.util.zip.ZipFile.ensureOpen(ZipFile.java:828) ~[?:?]
+	at java.util.zip.ZipFile.getEntry(ZipFile.java:327) ~[?:?]
+	at java.util.jar.JarFile.getEntry(JarFile.java:513) ~[?:?]
+	at java.util.jar.JarFile.getJarEntry(JarFile.java:468) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:158) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at com.vexsoftware.votifier.io.netty.util.collection.IntObjectHashMap$2.iterator(IntObjectHashMap.java:224) ~[nuvotifier-2.7.2.jar:?]
+	at java.util.AbstractCollection.toArray(AbstractCollection.java:186) ~[?:?]
+	at com.vexsoftware.votifier.io.netty.channel.epoll.EpollEventLoop.closeAll(EpollEventLoop.java:428) ~[nuvotifier-2.7.2.jar:?]
+	at com.vexsoftware.votifier.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[nuvotifier-2.7.2.jar:?]
+	at com.vexsoftware.votifier.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) ~[nuvotifier-2.7.2.jar:?]
+	at com.vexsoftware.votifier.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[nuvotifier-2.7.2.jar:?]
+	at com.vexsoftware.votifier.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[nuvotifier-2.7.2.jar:?]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:21:56] [Votifier epoll worker/WARN]: [com.vexsoftware.votifier.io.netty.channel.epoll.EpollEventLoop] Unexpected exception in the selector loop.
+java.lang.IllegalStateException: zip file closed
+	at java.util.zip.ZipFile.ensureOpen(ZipFile.java:828) ~[?:?]
+	at java.util.zip.ZipFile.getEntry(ZipFile.java:327) ~[?:?]
+	at java.util.jar.JarFile.getEntry(JarFile.java:513) ~[?:?]
+	at java.util.jar.JarFile.getJarEntry(JarFile.java:468) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:158) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[patched_1.17.1.jar:git-Paper-310]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[patched_1.17.1.jar:git-Paper-310]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at com.vexsoftware.votifier.io.netty.util.collection.IntObjectHashMap$2.iterator(IntObjectHashMap.java:224) ~[nuvotifier-2.7.2.jar:?]
+	at java.util.AbstractCollection.toArray(AbstractCollection.java:186) ~[?:?]
+	at com.vexsoftware.votifier.io.netty.channel.epoll.EpollEventLoop.closeAll(EpollEventLoop.java:428) ~[nuvotifier-2.7.2.jar:?]
+	at com.vexsoftware.votifier.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[nuvotifier-2.7.2.jar:?]
+	at com.vexsoftware.votifier.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) ~[nuvotifier-2.7.2.jar:?]
+	at com.vexsoftware.votifier.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[nuvotifier-2.7.2.jar:?]
+	at com.vexsoftware.votifier.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[nuvotifier-2.7.2.jar:?]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+[15:21:56] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.10.10
+[15:21:56] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.69
+[15:21:56] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[15:21:56] [Server thread/INFO]: [LuckPerms] Closing storage...
+[15:21:56] [Server thread/INFO]: [LuckPerms] Goodbye!
+[15:21:56] [Server thread/INFO]: Saving players
+[15:21:56] [Server thread/INFO]: AllanStrat lost connection: Server closed
+[15:21:56] [Server thread/INFO]: [Member] AllanStrat left the game
+[15:21:56] [Server thread/INFO]: Saving worlds
+[15:21:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[15:21:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World_nether]'/minecraft:the_nether
+[15:21:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World_the_end]'/minecraft:the_end
+[15:21:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[acidisland_world_the_end]'/minecraft:acidisland_world_the_end
+[15:21:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[bskyblockx_world]'/minecraft:bskyblockx_world
+[15:21:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[bskyblockx_world_the_end]'/minecraft:bskyblockx_world_the_end
+[15:21:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SkyBlock]'/minecraft:skyblock
+[15:21:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[oneblock_world_nether]'/minecraft:oneblock_world_nether
+[15:21:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[acidisland_world]'/minecraft:acidisland_world
+[15:21:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[hub]'/minecraft:hub
+[15:21:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[oneblock_world]'/minecraft:oneblock_world
+[15:21:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[bskyblockx_world_nether]'/minecraft:bskyblockx_world_nether
+[15:21:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[acidisland_world_nether]'/minecraft:acidisland_world_nether
+[15:21:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (World): All chunks are saved
+[15:21:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:21:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:21:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:21:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (bskyblockx_world): All chunks are saved
+[15:21:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:21:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (SkyBlock): All chunks are saved
+[15:21:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:21:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (acidisland_world): All chunks are saved
+[15:21:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (hub): All chunks are saved
+[15:21:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (oneblock_world): All chunks are saved
+[15:21:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:21:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:21:56] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:21:56] [Server thread/INFO]: Flushing Chunk IO
+[15:21:56] [Server thread/INFO]: Closing Thread Pool
+[15:21:56] [Server thread/INFO]: Closing Server

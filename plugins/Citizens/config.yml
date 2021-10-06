@@ -24,6 +24,7 @@ npc:
       multiple-targets-format: <target>|, <target>| & <target>| & others
       range: 5
       max-text-range: 500
+      talk-to-npcs: true
     format:
       no-targets: '[<npc>]: <text>'
       with-target-to-bystanders: '[<npc>] -> [<target>]: <text>'
@@ -52,6 +53,7 @@ npc:
       range: 5
     text:
       '0': Hi, I'm <npc>!
+    bossbar-view-range: 64
   hologram:
     default-line-height: 0.4
   limits:
@@ -94,6 +96,7 @@ npc:
     max-talk-cooldown: 5
     min-talk-cooldown: 10
     talk-item: '*'
+    speech-bubble-ticks: 50
   teleport-delay: -1
   player-scoreboard-teams:
     enable: true

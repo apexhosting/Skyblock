@@ -121,5 +121,15 @@
     ]
   },
   "doNotLoad": false,
-  "cooldowns": {}
+  "cooldowns": {},
+  "homes": {
+    "": [
+      "bskyblockx_world",
+      1024.5,
+      123.0,
+      1023.5,
+      90.0,
+      30.0
+    ]
+  }
 }

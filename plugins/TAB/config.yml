@@ -25,20 +25,6 @@ group-sorting-priority-list:
 - VIP
 - Member
 Groups:
-  OWNER:
-    tabprefix: '&8[&4&lOWNER&8]'
-    tagprefix: '&8[&4&lOWNER&8]&l'
-  ADMIN:
-    tabprefix: '&8[&c&lADMIN&8]'
-    tagprefix: '&8[&c&lADMIN&8]&l'
-  MOD:
-    tabprefix: '&8[&a&lMOD&8]'
-    tagprefix: '&8[&a&lMOD&8]&l'
-  example_group:
-    header:
-    - This is an example of per-group header/footer
-    footer:
-    - applied to a group
   _OTHER_:
     tabprefix: '%vault-prefix%'
     tagprefix: '%vault-prefix%'
@@ -139,3 +125,12 @@ primary-group-finding-list:
 - Helper
 - default
 assign-groups-by-permissions: false
+debug: false
+anti-override:
+  scoreboard-teams: true
+  tablist-names: true
+  usernames: true
+  scoreboard-objectives: true
+invisible-nametags: false
+ping-spoof:
+  enabled: false
