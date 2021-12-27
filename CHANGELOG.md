@@ -1,12 +1,16 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.3
+
+### Changed
+- Added the Via suite of plugins for version support.
+
 ## 2.2
 
 # SKYBLOCK UPDATED TO 1.17
 
 ### Changed
-
 - Updated to Minecraft 1.17
 - Updated Citizens
 - Updated CrateReloaded
@@ -68,6 +72,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
+[2.3]: https://github.com/apexhosting/KitPVP/releases/tag/2.3
 [2.2]: https://github.com/apexhosting/KitPVP/releases/tag/2.2
 [2.1]: https://github.com/apexhosting/KitPVP/releases/tag/2.1
 [2.0]: https://github.com/apexhosting/KitPVP/releases/tag/2.0
