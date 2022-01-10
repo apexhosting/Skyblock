@@ -5,8 +5,8 @@
     "&7 Some red parts appears",
     "&7 between stone."
   ],
-  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: REDSTONE_ORE\n",
-  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: BARRIER\n",
+  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2865\n  type: REDSTONE_ORE\n",
+  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2865\n  type: BARRIER\n",
   "generatorType": "COBBLESTONE_OR_STONE",
   "defaultGenerator": false,
   "priority": 4,
@@ -27,7 +27,7 @@
   },
   "treasureChanceMap": {},
   "treasureItemChanceMap": {
-    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: EMERALD\n"
+    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2865\n  type: EMERALD\n"
   },
   "treasureChance": 1.0E-4,
   "maxTreasureAmount": 1

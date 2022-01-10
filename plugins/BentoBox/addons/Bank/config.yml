@@ -1,0 +1,23 @@
+# Bank Configuration 1.4.0
+# 
+bank:
+  # BentoBox GameModes that can use Bank
+  game-modes:
+  - BSkyBlock
+  - AOneBlock
+  - AcidIsland
+  - SkyGrid
+  - CaveBlock
+  commands:
+    # User command
+    user: bank
+    # Admin command
+    admin: bank
+  placeholders:
+    # This is how many ranks will be registered with the placeholder API.
+    # There are two placeholders per rank:
+    # %Bank_[gamemode]_top_name_1% with island level: %Bank_[gamemode]_top_value_1%
+    # [gamemode] is bskyblock, acidisland, etc.
+    number-of-ranks: 10
+interestRate: 10
+compoundPeriod: 1.0

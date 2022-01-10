@@ -139,3 +139,7 @@ username-changes: true
 
 # Logs changes made via the plugin "WorldEdit" if it's in use on your server.
 worldedit: true
+
+# If modified, will automatically attempt to translate languages phrases.
+# List of language codes: https://coreprotect.net/languages/
+language: en

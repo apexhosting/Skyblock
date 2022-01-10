@@ -1,5 +1,0 @@
-border:
-  toggle:
-    description: Schaltet die Grenze ein / aus
-    border-on: '&a Grenze aktiviert.'
-    border-off: '&a Grenze deaktiviert.'

@@ -28,6 +28,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: warp help
@@ -41,9 +43,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: mounttrait,commandtrait,skintrait,type,owner,inventory,equipment,scoreboardtrait,sneak,spawned,location
+    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,skintrait,scoreboardtrait,location,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -74,6 +75,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: dynamicshop
@@ -87,9 +90,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: mounttrait,skintrait,commandtrait,type,owner,inventory,equipment,scoreboardtrait,sneak,spawned,location
+    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,skintrait,scoreboardtrait,location,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -122,6 +124,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: warp rewards
@@ -133,9 +137,8 @@ npc:
             n: -1
             delay: 0
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: mounttrait,skintrait,commandtrait,type,owner,inventory,scoreboardtrait,equipment,sneak,spawned,location
+    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,scoreboardtrait,skintrait,location,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -166,6 +169,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: warpz
@@ -179,9 +184,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: mounttrait,skintrait,commandtrait,type,owner,inventory,scoreboardtrait,equipment,sneak,spawned,location
+    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,skintrait,scoreboardtrait,location,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -196,12 +200,12 @@ npc:
       type: PLAYER
       speech: chat
       location:
-        bodyYaw: 224.66641
+        bodyYaw: 270.0986
         world: SkyBlock
-        x: '-13.6838'
-        y: '67.0'
-        z: '20.686'
-        yaw: '-135.3336'
+        x: '5.1699'
+        y: '68.0'
+        z: '11.4994'
+        yaw: '-89.9014'
         pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
@@ -404,9 +408,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: speech,skintrait,inventory,sneak,waypoints,spawned,location,mounttrait,text,type,owner,equipment,scoreboardtrait
+    traitnames: type,speech,skintrait,text,location,waypoints,mounttrait,spawned,sneak,inventory,owner,scoreboardtrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -437,9 +440,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: mounttrait,skintrait,type,owner,inventory,scoreboardtrait,equipment,sneak,spawned,location
+    traitnames: type,mounttrait,spawned,sneak,inventory,owner,scoreboardtrait,skintrait,location,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -483,9 +485,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: mounttrait,lookclose,skintrait,type,owner,inventory,scoreboardtrait,equipment,sneak,spawned,location
+    traitnames: type,mounttrait,spawned,sneak,inventory,owner,scoreboardtrait,skintrait,lookclose,location,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -514,6 +515,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: spawn
@@ -542,9 +545,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: mounttrait,lookclose,commandtrait,skintrait,type,owner,inventory,scoreboardtrait,equipment,sneak,spawned,location
+    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,lookclose,scoreboardtrait,skintrait,location,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -599,6 +601,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: spawn
@@ -612,9 +616,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: lookclose,speech,skintrait,inventory,sneak,spawned,location,mounttrait,text,commandtrait,type,owner,scoreboardtrait,equipment
+    traitnames: type,speech,commandtrait,text,skintrait,location,mounttrait,spawned,sneak,inventory,owner,scoreboardtrait,lookclose,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -668,6 +671,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: spawn
@@ -681,9 +686,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: lookclose,speech,skintrait,inventory,sneak,spawned,location,mounttrait,text,commandtrait,type,owner,scoreboardtrait,equipment
+    traitnames: type,speech,commandtrait,text,skintrait,location,mounttrait,spawned,sneak,inventory,owner,lookclose,scoreboardtrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -714,6 +718,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: spawn
@@ -727,9 +733,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: mounttrait,skintrait,commandtrait,type,owner,inventory,scoreboardtrait,equipment,sneak,spawned,location
+    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,skintrait,scoreboardtrait,location,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -773,6 +778,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: ai
@@ -786,9 +793,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: mounttrait,lookclose,skintrait,commandtrait,type,owner,inventory,scoreboardtrait,equipment,sneak,spawned,location
+    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,lookclose,scoreboardtrait,skintrait,location,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -832,6 +838,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: is
@@ -845,9 +853,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: AllanDev
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: mounttrait,lookclose,commandtrait,skintrait,type,owner,inventory,scoreboardtrait,equipment,sneak,spawned,location
+    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,scoreboardtrait,lookclose,skintrait,location,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -862,6 +869,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: tags
@@ -891,9 +900,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: mounttrait,commandtrait,skintrait,type,owner,inventory,equipment,scoreboardtrait,sneak,spawned,location
+    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,scoreboardtrait,skintrait,location,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -916,6 +924,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: rewards
@@ -937,9 +947,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: mounttrait,commandtrait,skintrait,type,owner,inventory,scoreboardtrait,equipment,sneak,spawned,location
+    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,scoreboardtrait,skintrait,location,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -970,6 +979,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: gmenu main
@@ -983,9 +994,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: mounttrait,commandtrait,skintrait,type,owner,inventory,scoreboardtrait,equipment,sneak,spawned,location
+    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,scoreboardtrait,skintrait,location,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

@@ -1,8 +1,8 @@
 # Block Config file for Level add-on Version 2.6.3
-# 
+#
 # This file lists the values for various blocks that are used to calculate the
 # island level.
-# 
+#
 # This section lists the limits for any particular block. Blocks over this amount
 # are not counted.
 # Format:

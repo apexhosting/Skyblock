@@ -23,6 +23,10 @@ expansions:
       quadrillions: Q
       billions: B
       millions: M
+    baltop:
+      check_delay: 30
+      cache_size: 100
+      enabled: false
   server:
     tps_color:
       high: '&a'

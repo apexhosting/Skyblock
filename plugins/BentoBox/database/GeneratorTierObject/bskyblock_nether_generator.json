@@ -5,8 +5,8 @@
     "&7 Just more than",
     "&7 Basalt"
   ],
-  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: BLACKSTONE\n",
-  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: BARRIER\n",
+  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2865\n  type: BLACKSTONE\n",
+  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2865\n  type: BARRIER\n",
   "generatorType": "BASALT",
   "defaultGenerator": false,
   "priority": 3,
@@ -37,8 +37,8 @@
   },
   "treasureChanceMap": {},
   "treasureItemChanceMap": {
-    "99.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: GOLD_NUGGET\n",
-    "100.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: NETHERITE_SCRAP\n"
+    "99.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2865\n  type: GOLD_NUGGET\n",
+    "100.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2865\n  type: NETHERITE_SCRAP\n"
   },
   "treasureChance": 0.001,
   "maxTreasureAmount": 1

@@ -1,9 +1,9 @@
 # Advanced Portals Config
-# 
+#
 # To set this file back to its default state just delete it and reload the server or restart it!
-# 
-# 
-# 
+#
+#
+#
 # Set to true if you want the normal axes to work normally but the ones gived with /portals selector or wand will still work though
 # It can be usefull if people with permission want to use an iron axe on a survival server
 UseOnlyServerMadeAxe: false
@@ -28,5 +28,7 @@ PortalCooldown: 5
 ThrowbackAmount: 0.7
 DisableGatewayBeam: true
 CommandLevels: opchek
-ConfigVersion: 0.5.11
+ConfigVersion: 0.5.13
 CommandLogs: true
+ForceEnableProxySupport: false
+ProxyTeleportDelay: 0

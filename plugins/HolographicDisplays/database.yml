@@ -1,81 +1,144 @@
 skyblock:
-  location: hub, 5.841, 100.748, 0.012
   lines:
   - '&7[&e⚡&7]&a&lSKYBLOCK&7[&e⚡&7]'
   - '&7Welcome to our classic Skyblock!'
   - '&7Use &a/warp sky &7to return here!'
+  position:
+    world: hub
+    x: 5.841
+    y: 100.748
+    z: 0.012
 i1:
-  location: hub, 11.378, 101.556, -6.616
   lines:
   - '&7Right Click'
+  position:
+    world: hub
+    x: 11.378
+    y: 101.556
+    z: -6.616
 i2:
-  location: hub, 13.594, 101.556, 5.384
   lines:
   - '&7Right Click'
+  position:
+    world: hub
+    x: 13.594
+    y: 101.556
+    z: 5.384
 rules:
-  location: hub, 0.280, 102.588, -3.869
   lines:
   - '&4&lRULES'
   - '&41. &7Hacking is not allowed.'
   - '&42. &7Respect the season''s rules.'
+  position:
+    world: hub
+    x: 0.28
+    y: 102.588
+    z: -3.869
 shop:
-  location: hub, 10.565, 105.902, 40.857
   lines:
   - '&c&lSHOP'
   - '&ePurchase your goods here!'
+  position:
+    world: hub
+    x: 10.565
+    y: 105.902
+    z: 40.857
 welcome:
-  location: SkyBlock, -61.459, 68.047, 29.391
   lines:
   - '&7&lAPEX &a&lSKYBLOCK'
   - '&eWelcom to our brand new Skyblock!'
+  position:
+    world: SkyBlock
+    x: -61.459
+    y: 68.047
+    z: 29.391
 i7:
-  location: SkyBlock, -81.615, 69.619, -18.377
   lines:
   - '&7Right Click'
+  position:
+    world: SkyBlock
+    x: -81.615
+    y: 69.619
+    z: -18.377
 help1:
-  location: SkyBlock, -22.223, 69.662, 26.621
   lines:
   - '&c&lLOOKING FOR THE PORTAL?'
   - '&eFollow the guide to reach the portal :)'
   - '&7(He will be here shortly)'
+  position:
+    world: SkyBlock
+    x: -22.223
+    y: 69.662
+    z: 26.621
 shop2:
-  location: hub, 0.139, 101.116, 6.611
   lines:
   - '&e&lSHOP LOUNGE'
   - '&7You can find our classic shop here!'
+  position:
+    world: hub
+    x: 0.139
+    y: 101.116
+    z: 6.611
 AcidPortal:
-  location: SkyBlock, -79.435, 74.240, -22.455
   lines:
   - '&7[&b⚡&7] &b&lACID &7&LISLANDS &7[&b⚡&7]'
   - '&eEnter the portal to join!'
+  position:
+    world: SkyBlock
+    x: -79.435
+    y: 74.24
+    z: -22.455
 SkyPortal:
-  location: SkyBlock, 22.493, 75.436, -64.402
   lines:
   - '&7[&a⚡&7] &a&lSKY&7&lBLOCK &7[&a⚡&7]'
   - '&eEnter the portal to join!'
+  position:
+    world: SkyBlock
+    x: 22.493
+    y: 75.436
+    z: -64.402
 hut1:
-  location: SkyBlock, -56.362, 69.650, 20.178
   lines:
   - '&e&lSTARTER HUT'
   - '&7Not sure where to go?, &aLet us help you :)'
+  position:
+    world: SkyBlock
+    x: -56.362
+    y: 69.65
+    z: 20.178
 i11:
-  location: SkyBlock, -58.536, 68.741, 16.685
   lines:
   - '&7Right Click'
+  position:
+    world: SkyBlock
+    x: -58.536
+    y: 68.741
+    z: 16.685
 i12:
-  location: SkyBlock, -54.384, 68.741, 16.608
   lines:
   - '&7Right Click'
+  position:
+    world: SkyBlock
+    x: -54.384
+    y: 68.741
+    z: 16.608
 i13:
-  location: SkyBlock, 15.649, 70.655, -62.801
   lines:
   - '&7Right Click'
+  position:
+    world: SkyBlock
+    x: 15.649
+    y: 70.655
+    z: -62.801
 i14:
-  location: hub, 23.410, 101.640, -0.199
   lines:
   - '&7Right Click'
+  position:
+    world: hub
+    x: 23.41
+    y: 101.64
+    z: -0.199
 s1:
-  location: SkyBlock, 16.349, 71.860, -57.834
   lines:
   - '&7[&a⚡&7] &a&lSKY &7&lBLOCK &7[&a⚡&7]'
   - '&7Welcome to our skyblock server!'
@@ -83,56 +146,109 @@ s1:
   - '&7Complete all our &cChallenges'
   - '&eLevel Up &7your island!'
   - '&7Become &a#1!'
+  position:
+    world: SkyBlock
+    x: 16.349
+    y: 71.86
+    z: -57.834
 i15:
-  location: SkyBlock, -65.520, 69.724, 61.192
   lines:
   - '&7Right Click'
+  position:
+    world: SkyBlock
+    x: -65.52
+    y: 69.724
+    z: 61.192
 i16:
-  location: SkyBlock, -33.257, 75.598, 57.019
   lines:
   - '&7Right Click'
+  position:
+    world: SkyBlock
+    x: -33.257
+    y: 75.598
+    z: 57.019
 i17:
-  location: hub, 8.993, 101.671, 2.882
   lines:
   - '&eRight Click'
+  position:
+    world: hub
+    x: 8.993
+    y: 101.671
+    z: 2.882
 i18:
-  location: acidisland_world, -1.528, 58.645, -1.640
   lines:
   - '&eRight Click'
+  position:
+    world: acidisland_world
+    x: -1.528
+    y: 58.645
+    z: -1.64
 bshop1:
-  location: acidisland_world, 5.991, 58.187, 2.996
   lines:
   - '&a&lBLOCKS &7&LSHOP'
   - '&7Acquire any blocks here :)'
+  position:
+    world: acidisland_world
+    x: 5.991
+    y: 58.187
+    z: 2.996
 bshop2:
-  location: acidisland_world, 2.960, 58.498, -4.796
   lines:
   - '&C&lSHOP &7&LLOUNGE'
   - '&eYou can find anything here!'
+  position:
+    world: acidisland_world
+    x: 2.96
+    y: 58.498
+    z: -4.796
 i20:
-  location: hub, -3.171, 101.604, 0.547
   lines:
   - '&7Right Click'
+  position:
+    world: hub
+    x: -3.171
+    y: 101.604
+    z: 0.547
 acidwelcome:
-  location: acidisland_world, -10.944, 59.200, 1.950
   lines:
   - '&7[&b⚡&7] &b&lACID &7&lISLAND &7[&B⚡&7]'
   - '&bGet ready for a real challenge!'
   - '&7Use &b/warp acid &7to return here!'
+  position:
+    world: acidisland_world
+    x: -10.944
+    y: 59.2
+    z: 1.95
 i21:
-  location: acidisland_world, -16.768, 60.098, 3.633
   lines:
   - '&7Right Click'
+  position:
+    world: acidisland_world
+    x: -16.768
+    y: 60.098
+    z: 3.633
 i23:
-  location: hub, 34.553, 102.736, -18.516
   lines:
   - '&cRight Click'
+  position:
+    world: hub
+    x: 34.553
+    y: 102.736
+    z: -18.516
 i24:
-  location: hub, 41.279, 101.658, -11.960
   lines:
   - '&eRight Click'
+  position:
+    world: hub
+    x: 41.279
+    y: 101.658
+    z: -11.96
 cr1:
-  location: hub, 27.591, 101.358, -6.755
   lines:
   - '&c&lREWARDS'
   - '&eGet awesome rewards!'
+  position:
+    world: hub
+    x: 27.591
+    y: 101.358
+    z: -6.755

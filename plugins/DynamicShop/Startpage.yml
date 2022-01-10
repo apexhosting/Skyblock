@@ -1,4 +1,6 @@
 # LineBreak: \, |, bracket is NOT working. Recommended character: /, _, ;, ※
+
+# LineBreak: \, |, bracket is NOT working. Recommended character: /, _, ;, ※
 Buttons:
   '12':
     displayName: §3Potion

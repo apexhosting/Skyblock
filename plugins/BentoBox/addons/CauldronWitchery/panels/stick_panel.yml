@@ -1,0 +1,70 @@
+# Panels are read once upon first GUI open.
+# Changes in configuration will be taken only if server is restarted or panels are reloaded.
+# Information about setup for the Panels are available at:
+# https://docs.bentobox.world/en/latest/addons/Challenges/
+stick_panel:
+  title: cauldron-witchery.gui.titles.sticks-gui
+  type: INVENTORY
+  background:
+    icon: BLACK_STAINED_GLASS_PANE
+    title: "&b&r" # Empty text
+  border:
+    icon: BLACK_STAINED_GLASS_PANE
+    title: "&b&r"  # Empty text
+  force-shown: []
+  content:
+    2:
+      2: stick_button
+      3: stick_button
+      4: stick_button
+      5: stick_button
+      6: stick_button
+      7: stick_button
+      8: stick_button
+    3:
+      1:
+        icon: TIPPED_ARROW:INSTANT_HEAL::::1
+        title: cauldron-witchery.gui.buttons.previous.name
+        description: cauldron-witchery.gui.buttons.previous.description
+        data:
+          type: PREVIOUS
+          indexing: true
+        action:
+          left:
+            tooltip: cauldron-witchery.gui.tips.click-to-previous
+      2: stick_button
+      3: stick_button
+      4: stick_button
+      5: stick_button
+      6: stick_button
+      7: stick_button
+      8: stick_button
+      9:
+        icon: TIPPED_ARROW:JUMP::::1
+        title: cauldron-witchery.gui.buttons.next.name
+        description: cauldron-witchery.gui.buttons.next.description
+        data:
+          type: NEXT
+          indexing: true
+        action:
+          left:
+            tooltip: cauldron-witchery.gui.tips.click-to-next
+    4:
+      2: stick_button
+      3: stick_button
+      4: stick_button
+      5: stick_button
+      6: stick_button
+      7: stick_button
+      8: stick_button
+  reusable:
+    stick_button:
+      data:
+        type: STICK
+      actions:
+        left:
+          type: RECIPES
+          tooltip: cauldron-witchery.gui.tips.left-click-to-view
+        right:
+          type: PURCHASE
+          tooltip: cauldron-witchery.gui.tips.right-click-to-buy

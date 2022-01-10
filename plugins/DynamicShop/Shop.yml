@@ -1,4 +1,6 @@
 # Shop name can not contain formatting codes, '/' and ' '
+
+# Shop name can not contain formatting codes, '/' and ' '
 OreShop:
   Options:
     page: 1

@@ -1,4 +1,4 @@
-# BSkyBlock Configuration 1.15.2
+# BSkyBlock Configuration 1.15.2-SNAPSHOT-b717
 bskyblock:
   command:
     # Island Command. What command users will run to access their island.
@@ -138,9 +138,9 @@ world:
     dragon-spawn: false
   # Mob white list - these mobs will NOT be removed when logging in or doing /island
   remove-mobs-whitelist:
-  - ZOMBIFIED_PIGLIN
   - WITHER
   - ZOMBIE_VILLAGER
+  - ZOMBIFIED_PIGLIN
   - ENDERMAN
   # World flags. These are boolean settings for various flags for this world
   flags:
@@ -222,24 +222,24 @@ world:
     DOOR: 500
     BREAK_HOPPERS: 500
     FURNACE: 500
-    MINECART: 500
     ANVIL: 500
+    MINECART: 500
     FISH_SCOOPING: 500
     TRAPPED_CHEST: 500
     END_PORTAL: 500
     BREEDING: 500
     HURT_VILLAGERS: 500
-    FROST_WALKER: 500
     TURTLE_EGGS: 500
+    FROST_WALKER: 500
     COLLECT_LAVA: 500
     BREAK_SPAWNERS: 500
     LEVER: 500
     ELYTRA: 0
-    HURT_MONSTERS: 0
-    RIDING: 500
     CAKE: 500
-    NAME_TAG: 500
+    RIDING: 500
+    HURT_MONSTERS: 0
     ARMOR_STAND: 500
+    NAME_TAG: 500
     TRADING: 0
     EGGS: 500
     ITEM_DROP: 0
@@ -251,8 +251,8 @@ world:
     SHULKER_BOX: 500
     CROP_TRAMPLE: 500
     ITEM_PICKUP: 0
-    DROPPER: 500
     BREWING: 500
+    DROPPER: 500
     TNT_PRIMING: 500
     COLLECT_WATER: 500
     BUTTON: 500
@@ -263,10 +263,10 @@ world:
     TRAPDOOR: 500
     PRESSURE_PLATE: 0
     EXPERIENCE_BOTTLE_THROWING: 500
-    DYE: 500
     HIVE: 500
-    PLACE_BLOCKS: 500
+    DYE: 500
     ITEM_FRAME: 500
+    PLACE_BLOCKS: 500
     CRAFTING: 0
     SHEARING: 500
     ENCHANTING: 0
@@ -292,15 +292,16 @@ world:
     PVP_END: false
     PVP_NETHER: false
     LEAF_DECAY: true
-    TNT_DAMAGE: true
-    MONSTER_SPAWNERS_SPAWN: true
     ANIMAL_NATURAL_SPAWN: true
     MONSTER_NATURAL_SPAWN: true
-    FIRE_IGNITE: true
     FIRE_SPREAD: true
     FIRE_BURNING: true
-    ANIMAL_SPAWNERS_SPAWN: true
     PVP_OVERWORLD: false
+    TNT_DAMAGE: true
+    MONSTER_SPAWNERS_SPAWN: true
+    FIRE_IGNITE: true
+    BLOCK_EXPLODE_DAMAGE: true
+    ANIMAL_SPAWNERS_SPAWN: true
   # These settings/flags are hidden from users
   # Ops can toggle hiding in-game using SHIFT-LEFT-CLICK on flags in settings
   # Added since 1.4.1.

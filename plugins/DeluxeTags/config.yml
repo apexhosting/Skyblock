@@ -1,22 +1,48 @@
-# DeluxeTags version: 1.8.1 Main Configuration
-# 
+# DeluxeTags version: 1.8.2-Release Main Configuration
+#
 # Create your tags using the following format:
-# 
+#
 # deluxetags:
 #   VIP: 
 #     order: 1
 #     tag: '&7[&eVIP&7]'
 #     description: 'This tag is awarded by getting VIP'
-# 
-# Placeholders for your DeluxeChat formats config:
-# 
+#
+# Placeholders for your chat plugin that supports PlaceholderAPI (Including DeluxeChat)
+#
 # %deluxetags_identifier% - display the players active tag identifier
 # %deluxetags_tag% - display the players active tag
 # %deluxetags_description% - display the players active tag description
 # %deluxetags_amount% - display the amount of tags a player has access to
-# 
+#
 # Placeholders for your essentials/chat handling formats config:
-# 
+#
+# {deluxetags_identifier} - display the players active tag identifier
+# {deluxetags_tag} - display the players active tag
+# {deluxetags_description} - display the players active tag description
+# {deluxetags_amount} - display the amount of tags a player has access to
+
+legacy_hex: false
+papi_chat: true
+# DeluxeTags version: 1.8.1 Main Configuration
+#
+# Create your tags using the following format:
+#
+# deluxetags:
+#   VIP: 
+#     order: 1
+#     tag: '&7[&eVIP&7]'
+#     description: 'This tag is awarded by getting VIP'
+#
+# Placeholders for your DeluxeChat formats config:
+#
+# %deluxetags_identifier% - display the players active tag identifier
+# %deluxetags_tag% - display the players active tag
+# %deluxetags_description% - display the players active tag description
+# %deluxetags_amount% - display the amount of tags a player has access to
+#
+# Placeholders for your essentials/chat handling formats config:
+#
 # {deluxetags_identifier} - display the players active tag identifier
 # {deluxetags_tag} - display the players active tag
 # {deluxetags_description} - display the players active tag description
@@ -29,6 +55,18 @@ format_chat:
   format: '{deluxetags_tag} <%1$s> %2$s'
 load_tag_on_join: true
 gui:
+  next_page:
+    material: PAPER
+    data: 0
+    displayname: '&6Next page: %page%'
+    lore:
+    - '&7Move to the next page'
+  previous_page:
+    material: PAPER
+    data: 0
+    displayname: '&6Previous page: %page%'
+    lore:
+    - '&7Move to the previous page'
   name: '&6Available tags&f: &6{deluxetags_amount}'
   tag_select_item:
     material: NAME_TAG

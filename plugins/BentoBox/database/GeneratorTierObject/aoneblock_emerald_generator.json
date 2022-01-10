@@ -5,8 +5,8 @@
     "&7 Emeralds, there are",
     "&7 emeralds now."
   ],
-  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: EMERALD_ORE\n",
-  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: BARRIER\n",
+  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2865\n  type: EMERALD_ORE\n",
+  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2865\n  type: BARRIER\n",
   "generatorType": "COBBLESTONE_OR_STONE",
   "defaultGenerator": false,
   "priority": 5,
@@ -27,7 +27,7 @@
   },
   "treasureChanceMap": {},
   "treasureItemChanceMap": {
-    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: DIAMOND\n"
+    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2865\n  type: DIAMOND\n"
   },
   "treasureChance": 1.0E-4,
   "maxTreasureAmount": 1

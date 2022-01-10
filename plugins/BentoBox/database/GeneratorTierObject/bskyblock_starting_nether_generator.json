@@ -5,8 +5,8 @@
     "&7 The soulsand and ice",
     "&7 now creates netherrack."
   ],
-  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: BASALT\n",
-  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: BARRIER\n",
+  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2865\n  type: BASALT\n",
+  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2865\n  type: BARRIER\n",
   "generatorType": "BASALT",
   "defaultGenerator": true,
   "priority": 1,
@@ -23,7 +23,7 @@
   },
   "treasureChanceMap": {},
   "treasureItemChanceMap": {
-    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: GOLD_NUGGET\n"
+    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2865\n  type: GOLD_NUGGET\n"
   },
   "treasureChance": 0.001,
   "maxTreasureAmount": 1

@@ -1,6 +1,23 @@
 # DeluxeTags messages.yml
 # Edit the plugin messages to your liking!
+
+# DeluxeTags messages.yml
+# Edit the plugin messages to your liking!
 cmd:
+  tag_list_fail: '&cYou don''t have any tags loaded.'
+  tag_list_fail_target: '&c{0} has no tags loaded.'
+  help_admin_setorder: '&f&oChange the order for a tag'
+  help_admin_setdisplay: '&f&oChange a tag''s display'
+  admin_set_order_incorrect_usage: '&cIncorrect usage! &7/tags setorder <identifier>
+    <order>'
+  admin_set_order_success: '&aOrder &f{0}&a set for &7: &f{1}'
+  admin_set_order_fail: '&f{0} &cis not a loaded tag name!'
+  admin_set_order_not_a_number: '&f{0} &cis not a valid order! It should be a number.'
+  admin_set_order_already_exists: '&cOrder &f{0}&c is already in use.'
+  admin_set_display_incorrect_usage: '&cIncorrect usage! &7/tags setdisplay <identifier>
+    <display>'
+  admin_set_display_success: '{0} &adisplay set to &7: &f{1}'
+  admin_set_display_fail: '&f{0} &cis not a loaded tag name!'
   no_permission: '&cYou don''t have &7{0} &cto do that!'
   target_not_online: '&f{0} &cis not online!'
   no_tags_loaded: '&cThere are no tags loaded!'
@@ -48,6 +65,10 @@ cmd:
   admin_reload: '&aConfiguration successfully reloaded! &f{0} &atags loaded!'
   incorrect_usage: '&cIncorrect usage! Use &7/tags help'
 gui:
+  placeholders:
+    tag:
+      available: '&aAvailable'
+      unavailable: '&cUnavailable'
   tag_selected: '&aYour tag has been set to &f{0} &7({1}&7)'
   tag_disabled: '&7Your tag has been disabled!'
   page_error: '&cThere was a problem getting the previous page number!'

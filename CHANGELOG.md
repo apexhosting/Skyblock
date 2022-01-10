@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.4
+
+### Changed
+- Updated to Minecraft 1.18.1
+- Added Bank System
+- Added Extra Mobs System
+
 ## 2.3
 
 ### Changed
@@ -72,6 +79,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
+[2.4]: https://github.com/apexhosting/KitPVP/releases/tag/2.4
 [2.3]: https://github.com/apexhosting/KitPVP/releases/tag/2.3
 [2.2]: https://github.com/apexhosting/KitPVP/releases/tag/2.2
 [2.1]: https://github.com/apexhosting/KitPVP/releases/tag/2.1

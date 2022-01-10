@@ -2,3 +2,33 @@
 06.10.2021 - 15:02:51 - [TAB v2.9.2] Group "elite" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "elite" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, dev, mod, vip, member]
 06.10.2021 - 15:10:16 - [TAB v2.9.2] Group "elite" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "elite" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, dev, mod, vip, member]
 06.10.2021 - 15:21:35 - [TAB v2.9.2] Group "default" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "default" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, dev, mod, vip, member]
+10.01.2022 - 15:33:24 - [TAB v2.9.2] Group "default" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "default" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, dev, mod, vip, member]
+10.01.2022 - 16:32:08 - [TAB v3.0.1] Failed to enable. Did you just invent a new way to break the plugin by misconfiguring it?
+10.01.2022 - 16:32:08 - java.nio.file.NoSuchFileException: plugins/TAB/premiumconfig.yml
+10.01.2022 - 16:32:08 -        at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+10.01.2022 - 16:32:08 -        at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+10.01.2022 - 16:32:08 -        at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+10.01.2022 - 16:32:08 -        at java.base/sun.nio.fs.UnixFileSystemProvider.implDelete(UnixFileSystemProvider.java:249)
+10.01.2022 - 16:32:08 -        at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105)
+10.01.2022 - 16:32:08 -        at java.base/java.nio.file.Files.delete(Files.java:1152)
+10.01.2022 - 16:32:08 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.config.Configs.createConfigYml(Configs.java:484)
+10.01.2022 - 16:32:08 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.config.Configs.convertToV3(Configs.java:252)
+10.01.2022 - 16:32:08 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.config.Configs.loadConfig(Configs.java:106)
+10.01.2022 - 16:32:08 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.config.Configs.loadFiles(Configs.java:83)
+10.01.2022 - 16:32:08 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.TAB.load(TAB.java:145)
+10.01.2022 - 16:32:08 -        at TAB_v3.0.1.jar//me.neznamy.tab.platforms.bukkit.Main.onEnable(Main.java:52)
+10.01.2022 - 16:32:08 -        at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+10.01.2022 - 16:32:08 -        at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+10.01.2022 - 16:32:08 -        at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500)
+10.01.2022 - 16:32:08 -        at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:564)
+10.01.2022 - 16:32:08 -        at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:478)
+10.01.2022 - 16:32:08 -        at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:727)
+10.01.2022 - 16:32:08 -        at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:503)
+10.01.2022 - 16:32:08 -        at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:313)
+10.01.2022 - 16:32:08 -        at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1202)
+10.01.2022 - 16:32:08 -        at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+10.01.2022 - 16:32:08 -        at java.base/java.lang.Thread.run(Thread.java:833)
+10.01.2022 - 16:53:21 - [TAB v3.0.1] Group "default" is not defined in group sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "default" into GROUPS sorting type in config.yml. Your current list: [OWNER, owner, ADMIN, admin, Dev, dev, MOD, mod, VIP, vip, Member, member]
+10.01.2022 - 17:24:44 - [TAB v3.0.1] Group "default" is not defined in group sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "default" into GROUPS sorting type in config.yml. Your current list: [OWNER, owner, ADMIN, admin, Dev, dev, MOD, mod, VIP, vip, Member, member]
+10.01.2022 - 17:33:15 - [TAB v3.0.1] Group "default" is not defined in group sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "default" into GROUPS sorting type in config.yml. Your current list: [OWNER, owner, ADMIN, admin, Dev, dev, MOD, mod, VIP, vip, Member, member]
+10.01.2022 - 17:37:44 - [TAB v3.0.1] Group "default" is not defined in group sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "default" into GROUPS sorting type in config.yml. Your current list: [OWNER, owner, ADMIN, admin, Dev, dev, MOD, mod, VIP, vip, Member, member]

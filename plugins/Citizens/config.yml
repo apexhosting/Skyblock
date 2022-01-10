@@ -84,6 +84,7 @@ npc:
       on-cooldown: Please wait {0} more seconds.
       missing-item: Missing {1} {0}
       on-global-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
+      not-enough-experience: You need at least {0} experience.
   packets:
     update-delay: 30
   player:

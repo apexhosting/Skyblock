@@ -1,0 +1,73 @@
+# Panels are read once upon first GUI open.
+# Changes in configuration will be taken only if server is restarted or panels are reloaded.
+# Information about setup for the Panels are available at:
+# https://docs.bentobox.world/en/latest/addons/Challenges/
+recipe_panel:
+  title: cauldron-witchery.gui.titles.recipes-gui
+  type: INVENTORY
+  background:
+    icon: BLACK_STAINED_GLASS_PANE
+    title: "&b&r" # Empty text
+  border:
+    icon: BLACK_STAINED_GLASS_PANE
+    title: "&b&r"  # Empty text
+  force-shown: []
+  content:
+    2:
+      2: recipe_button
+      3: recipe_button
+      4: recipe_button
+      5: recipe_button
+      6: recipe_button
+      7: recipe_button
+      8: recipe_button
+    3:
+      1:
+        icon: TIPPED_ARROW:INSTANT_HEAL::::1
+        title: cauldron-witchery.gui.buttons.previous.name
+        description: cauldron-witchery.gui.buttons.previous.description
+        data:
+          type: PREVIOUS
+          indexing: true
+        action:
+          left:
+            tooltip: cauldron-witchery.gui.tips.click-to-previous
+      2: recipe_button
+      3: recipe_button
+      4: recipe_button
+      5: recipe_button
+      6: recipe_button
+      7: recipe_button
+      8: recipe_button
+      9:
+        icon: TIPPED_ARROW:JUMP::::1
+        title: cauldron-witchery.gui.buttons.next.name
+        description: cauldron-witchery.gui.buttons.next.description
+        data:
+          type: NEXT
+          indexing: true
+        action:
+          left:
+            tooltip: cauldron-witchery.gui.tips.click-to-next
+    4:
+      2: recipe_button
+      3: recipe_button
+      4: recipe_button
+      5: recipe_button
+      6: recipe_button
+      7: recipe_button
+      8: recipe_button
+    6:
+      9:
+        icon: OAK_DOOR
+        title: cauldron-witchery.gui.buttons.return.name
+        description: cauldron-witchery.gui.buttons.return.description
+        data:
+          type: RETURN
+        action:
+          left:
+            tooltip: cauldron-witchery.gui.tips.click-to-return
+  reusable:
+    recipe_button:
+      data:
+        type: RECIPE

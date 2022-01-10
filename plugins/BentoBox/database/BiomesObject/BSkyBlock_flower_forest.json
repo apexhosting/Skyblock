@@ -6,7 +6,7 @@
     "All flowers you ever",
     "need."
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: POPPY\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2865\n  type: POPPY\n",
   "order": -1,
   "requiredLevel": 0,
   "requiredCost": 100.0,

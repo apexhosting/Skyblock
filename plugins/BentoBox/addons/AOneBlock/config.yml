@@ -1,4 +1,4 @@
-# AOneBlock Configuration 1.8.1
+# AOneBlock Configuration 1.9.0-SNAPSHOT-b246
 aoneblock:
   command:
     # Player command. What command users will run to access their island.
@@ -19,6 +19,11 @@ aoneblock:
     # By default it is sub-command 'go'.
     # Added since 1.2.0.
     default-action: go
+  placeholders:
+    # Placeholder customization
+    # Symbol for the percentage completed scale bar
+    # Added since 1.9.0.
+    scale-symbol: ■
 world:
   # Friendly name for this world. Used in admin commands. Must be a single word
   friendly-name: OneBlock
@@ -53,7 +58,7 @@ world:
   # /!\ BentoBox currently does not support changing this value mid-game. If you do need to change it, do a full reset of your databases and worlds.
   distance-between-islands: 400
   # Default protection range radius in blocks. Cannot be larger than distance.
-  # Admins can change protection sizes for players individually using /bsbadmin range set <player> <new range>
+  # Admins can change protection sizes for players individually using /obadmin range set <player> <new range>
   # or set this permission: aoneblock.island.range.<number>
   protection-range: 50
   # Start islands at these coordinates. This is where new islands will start in the
@@ -168,24 +173,24 @@ world:
     DOOR: 500
     BREAK_HOPPERS: 500
     FURNACE: 500
-    MINECART: 500
     ANVIL: 500
+    MINECART: 500
     FISH_SCOOPING: 500
     TRAPPED_CHEST: 500
     END_PORTAL: 500
     BREEDING: 500
     HURT_VILLAGERS: 500
-    FROST_WALKER: 500
     TURTLE_EGGS: 500
+    FROST_WALKER: 500
     COLLECT_LAVA: 500
     BREAK_SPAWNERS: 500
     LEVER: 500
     ELYTRA: 0
-    HURT_MONSTERS: 0
-    RIDING: 500
     CAKE: 500
-    NAME_TAG: 500
+    RIDING: 500
+    HURT_MONSTERS: 0
     ARMOR_STAND: 500
+    NAME_TAG: 500
     TRADING: 0
     EGGS: 500
     ITEM_DROP: 0
@@ -197,8 +202,8 @@ world:
     SHULKER_BOX: 500
     CROP_TRAMPLE: 500
     ITEM_PICKUP: 0
-    DROPPER: 500
     BREWING: 500
+    DROPPER: 500
     TNT_PRIMING: 500
     COLLECT_WATER: 500
     BUTTON: 500
@@ -209,10 +214,10 @@ world:
     TRAPDOOR: 500
     PRESSURE_PLATE: 0
     EXPERIENCE_BOTTLE_THROWING: 500
-    DYE: 500
     HIVE: 500
-    PLACE_BLOCKS: 500
+    DYE: 500
     ITEM_FRAME: 500
+    PLACE_BLOCKS: 500
     CRAFTING: 0
     SHEARING: 500
     ENCHANTING: 0
@@ -238,15 +243,16 @@ world:
     PVP_END: false
     PVP_NETHER: false
     LEAF_DECAY: true
-    TNT_DAMAGE: true
-    MONSTER_SPAWNERS_SPAWN: true
     ANIMAL_NATURAL_SPAWN: true
     MONSTER_NATURAL_SPAWN: true
-    FIRE_IGNITE: true
     FIRE_SPREAD: true
     FIRE_BURNING: true
-    ANIMAL_SPAWNERS_SPAWN: true
     PVP_OVERWORLD: false
+    TNT_DAMAGE: true
+    MONSTER_SPAWNERS_SPAWN: true
+    FIRE_IGNITE: true
+    BLOCK_EXPLODE_DAMAGE: true
+    ANIMAL_SPAWNERS_SPAWN: true
   # These settings/flags are hidden from users
   # Ops can toggle hiding in-game using SHIFT-LEFT-CLICK on flags in settings
   # Added since 1.4.1.
@@ -294,7 +300,7 @@ island:
   # Accessed via /is sethome <number> or /is go <number>
   max-homes: 1
   reset:
-    # How many resets a player is allowed (manage with /bsbadmin reset add/remove/reset/set command)
+    # How many resets a player is allowed (manage with /obadmin reset add/remove/reset/set command)
     # Value of -1 means unlimited, 0 means hardcore - no resets.
     # Example, 2 resets means they get 2 resets or 3 islands lifetime
     reset-limit: -1
@@ -404,7 +410,7 @@ island:
     # 
     # Here are some examples of valid commands to execute:
     #    * "[SUDO] bbox version"
-    #    * "bsbadmin deaths set [player] 0"
+    #    * "obadmin deaths set [player] 0"
     # Added since 1.8.0.
     on-join: []
     # List of commands to run when a player leaves an island, resets his island or gets kicked from it.
@@ -416,7 +422,7 @@ island:
     # 
     # Here are some examples of valid commands to execute:
     #    * '[SUDO] bbox version'
-    #    * 'bsbadmin deaths set [player] 0'
+    #    * 'obadmin deaths set [player] 0'
     # 
     # Note that player-executed commands might not work, as these commands can be run with said player being offline.
     # Added since 1.8.0.
@@ -430,7 +436,7 @@ island:
     # 
     # Here are some examples of valid commands to execute:
     #    * '[SUDO] bbox version'
-    #    * 'bsbadmin deaths set [player] 0'
+    #    * 'obadmin deaths set [player] 0'
     # 
     # Note that player-executed commands might not work, as these commands can be run with said player being offline.
     # Added since 1.14.0.

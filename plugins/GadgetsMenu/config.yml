@@ -1,8 +1,8 @@
 # This option allows you to set where
 # player's data do you want to save.
-# 
+#
 # Storages: 'sqlite' or 'mysql'.
-# 
+#
 # If you enable mysql, you need to setup MySQL infos.
 Player-Data:
   Storage: mysql

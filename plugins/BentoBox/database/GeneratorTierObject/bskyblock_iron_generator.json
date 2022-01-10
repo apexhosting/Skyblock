@@ -5,8 +5,8 @@
     "&7 There is something",
     "&7 usefull."
   ],
-  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: IRON_ORE\n",
-  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: BARRIER\n",
+  "generatorIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2865\n  type: IRON_ORE\n",
+  "lockedIcon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2865\n  type: BARRIER\n",
   "generatorType": "COBBLESTONE_OR_STONE",
   "defaultGenerator": false,
   "priority": 2,
@@ -28,7 +28,7 @@
   },
   "treasureChanceMap": {},
   "treasureItemChanceMap": {
-    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2730\n  type: GOLD_NUGGET\n"
+    "1.0": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2865\n  type: GOLD_NUGGET\n"
   },
   "treasureChance": 0.001,
   "maxTreasureAmount": 1

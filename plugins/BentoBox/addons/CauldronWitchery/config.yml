@@ -1,0 +1,175 @@
+# Config file for CauldronWitchery add-on Version 1.6.0
+# Allows to manage different lightning timings and enable / disable damage.
+# Hit Player allows to set if lightning should hit cauldron or player.
+# Destroy cauldron means, that cauldron will be removed from world.
+# Setting [] in timings will disable lightning.
+lightning:
+  successful:
+    damage: false
+    hit-player: false
+    destroy-cauldron: false
+    timings:
+      - 20
+      - 30
+      - 40
+      - 50
+  error:
+    damage: true
+    hit-player: false
+    destroy-cauldron: false
+    timings:
+      - 20
+      - 40
+      - 60
+  no-water:
+    damage: true
+    hit-player: true
+    destroy-cauldron: false
+    timings:
+      - 0
+      - 20
+      - 40
+#
+# Disabled Game Mode Addons
+# CauldronWitchery will not work in these game modes
+disabled-gamemodes: []
+#- SkyGrid
+
+magic-sticks:
+  STICK:
+    environment: NORMAL
+    recipes:
+      SHEEP:
+        levels: 3
+        offhand: WHITE_WOOL
+        materials:
+          ROTTEN_FLESH: 40
+          BONE: 20
+      COW:
+        levels: 3
+        offhand: LEATHER
+        materials:
+          ROTTEN_FLESH: 40
+          BONE: 20
+      PIG:
+        levels: 3
+        offhand: CARROT_ON_A_STICK
+        materials:
+          ROTTEN_FLESH: 40
+          BONE: 20
+      WOLF:
+        levels: 3
+        offhand: BONE
+        materials:
+          ROTTEN_FLESH: 24
+          BONE: 12
+      RABBIT:
+        levels: 3
+        offhand: CARROT
+        materials:
+          ROTTEN_FLESH: 24
+          BONE: 12
+      CHICKEN:
+        levels: 3
+        offhand: FEATHER
+        materials:
+          ROTTEN_FLESH: 24
+          BONE: 12
+      TURTLE:
+        levels: 10
+        offhand: SEAGRASS
+        materials:
+          ROTTEN_FLESH: 40
+          BONE: 20
+          SHULKER_SHELL: 1
+      PARROT:
+        levels: 3
+        offhand: WHEAT_SEEDS
+        materials:
+          ROTTEN_FLESH: 24
+          BONE: 12
+      OCELOT:
+        levels: 3
+        offhand: COD
+        materials:
+          ROTTEN_FLESH: 24
+          BONE: 12
+      MUSHROOM_COW:
+        levels: 3
+        offhand: MUSHROOM_STEW
+        materials:
+          ROTTEN_FLESH: 40
+          BONE: 20
+      HORSE:
+        levels: 3
+        offhand: HAY_BLOCK
+        materials:
+          ROTTEN_FLESH: 40
+          BONE: 20
+      POLAR_BEAR:
+        levels: 3
+        offhand: COOKED_COD
+        materials:
+          ROTTEN_FLESH: 40
+          BONE: 20
+      BOOK:
+        name: ANIMALS
+        pages:
+        levels: 0
+        offhand: BOOK
+        materials: []
+  BONE:
+    environment: NORMAL
+    recipes:
+      ZOMBIE_VILLAGER:
+        levels: 3
+        offhand: EMERALD
+        materials:
+          ROTTEN_FLESH: 40
+          BONE: 20
+      SLIME:
+        levels: 3
+        offhand: SLIME_BALL
+        materials: []
+      PHANTOM:
+        levels: 5
+        offhand: FEATHER
+        materials:
+          ROTTEN_FLESH: 24
+          BONE: 12
+      BOOK:
+        name: MONSTERS
+        levels: 0
+        offhand: BOOK
+        materials: []
+  BLAZE_ROD:
+    environment: NETHER
+    recipes:
+      WITHER_SKELETON:
+        levels: 10
+        offhand: BONE
+        materials:
+          BONE: 30
+      BOOK:
+        name: NETHER
+        levels: 0
+        offhand: BOOK
+        materials: []
+  END_ROD:
+    environment: THE_END
+    recipes:
+      ENDERMITE:
+        levels: 3
+        offhand: ENDER_PEARL
+        materials:
+          BONE: 3
+      SHULKER:
+        levels: 30
+        offhand: ENDER_EYE
+        materials:
+          PHANTOM_MEMBRANE: 5
+      BOOK:
+        name: THE_END
+        levels: 0
+        offhand: BOOK
+        materials: []

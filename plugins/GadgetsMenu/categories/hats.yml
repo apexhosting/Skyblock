@@ -1183,3 +1183,11 @@ Hats:
     CanBeFound: true
     Purchasable: true
     Lore: ''
+  Herobrine:
+    Name: '&9Herobrine Hat'
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore: ''

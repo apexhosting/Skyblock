@@ -104,6 +104,7 @@ mobs:
     block-other-explosions: false
     block-zombie-door-destruction: false
     block-creature-spawn: []
+    block-vehicle-entry: false
 player-damage:
     disable-fall-damage: false
     disable-lava-damage: false

@@ -1,0 +1,498 @@
+# Allows to list all magic sticks that can be imported.
+# This is just a template for easier importing.
+# You need to import the template into gamemode, before you will be able to use it.
+# It can be done via admin panel.
+magic-sticks:
+  # the ID of the stick for the database.
+  fragile_stick:
+    # Magic Stick material.
+    # Write format can be found in: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+    stick: STICK:1
+    # Book name that will contain stick recipes.
+    book: first_grimoire
+    # Sets the name for magic stick.
+    name: &d Magic Stick
+    # Sets the description for magic stick.
+    description: |-
+      &7 Fragile Stick
+    # Sets the cost for magic stick. Requires vault and plugin with economy.
+    cost: 0
+    # Sets order number for the magic sticks in GUI's.
+    order: 0
+    # There are 3 type of recipes: mob, item and book.
+    # Each recipe starts with `- [recipe_type]` see below.
+    recipes:
+      # Mob recipe allows to summon any living entity.
+      # Entity list can be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+      - mob: SHEEP
+        # Main ingredient material. It always should be in player offhand.
+        # Write format can be found in: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        ingredient: WHITE_WOOL
+        # Extra ingredients for recipe. It follows format: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        # In settings you can specify if these items must be dropped into cauldron or kept in player inventory.
+        extra:
+          - ROTTEN_FLESH:30
+          - BONE:20
+        # Experience points that will be taken from player.
+        experience: 10
+        # Type of cauldron:
+        # WATER_CAULDRON, LAVA_CAULDRON, POWDER_SNOW_CAULDRON or CAULDRON
+        cauldron: WATER_CAULDRON
+        # Cauldron fill level. Available only for WATER_CAULDRON and POWDER_SNOW_CAULDRON.
+        level: 2
+        # Allows setting if cauldron requires a heating or cooling below it:
+        # NORMAL - block bellow cauldron cannot be heat or cold related
+        # HEAT - bellow cauldron player must place: FIRE, LAVA, CAMPFIRE, SOUL_CAMPFIRE, FURNACE, BLAST_FURNACE, SMOKER, CANDLE
+        #        campfire, candle or any furnace type must be lit.
+        # COOL - bellow cauldron player must place: ICE, PACKED_ICE, BLUE_ICE, SNOW_BLOCK, POWDER_SNOW.
+        temperature: NORMAL
+        # List of permissions that are required for the recipe to work.
+        permissions: []
+        # Sets order number for the recipes in GUI's.
+        order: 0
+      # Mob recipe allows to summon any living entity.
+      # Entity list can be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+      - mob: COW
+        # Main ingredient material. It always should be in player offhand.
+        # Write format can be found in: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        ingredient: LEATHER
+        # Extra ingredients for recipe. It follows format: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        # In settings you can specify if these items must be dropped into cauldron or kept in player inventory.
+        extra:
+          - ROTTEN_FLESH:40
+          - BONE:20
+        # Experience points that will be taken from player.
+        experience: 10
+        # Type of cauldron:
+        # WATER_CAULDRON, LAVA_CAULDRON, POWDER_SNOW_CAULDRON or CAULDRON
+        cauldron: WATER_CAULDRON
+        # Cauldron fill level. Available only for WATER_CAULDRON and POWDER_SNOW_CAULDRON.
+        level: 3
+        # Allows setting if cauldron requires a heating or cooling below it:
+        # NORMAL - block bellow cauldron cannot be heat or cold related
+        # HEAT - bellow cauldron player must place: FIRE, LAVA, CAMPFIRE, SOUL_CAMPFIRE, FURNACE, BLAST_FURNACE, SMOKER, CANDLE
+        #        campfire, candle or any furnace type must be lit.
+        # COOL - bellow cauldron player must place: ICE, PACKED_ICE, BLUE_ICE, SNOW_BLOCK, POWDER_SNOW.
+        temperature: NORMAL
+        # List of permissions that are required for the recipe to work.
+        permissions: [ ]
+        # Sets order number for the recipes in GUI's.
+        order: 0
+      # Mob recipe allows to summon any living entity.
+      # Entity list can be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+      - mob: PIG
+        # Main ingredient material. It always should be in player offhand.
+        # Write format can be found in: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        ingredient: CARROT
+        # Extra ingredients for recipe. It follows format: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        # In settings you can specify if these items must be dropped into cauldron or kept in player inventory.
+        extra:
+          - ROTTEN_FLESH:30
+          - BONE:10
+        # Experience points that will be taken from player.
+        experience: 10
+        # Type of cauldron:
+        # WATER_CAULDRON, LAVA_CAULDRON, POWDER_SNOW_CAULDRON or CAULDRON
+        cauldron: WATER_CAULDRON
+        # Cauldron fill level. Available only for WATER_CAULDRON and POWDER_SNOW_CAULDRON.
+        level: 2
+        # Allows setting if cauldron requires a heating or cooling below it:
+        # NORMAL - block bellow cauldron cannot be heat or cold related
+        # HEAT - bellow cauldron player must place: FIRE, LAVA, CAMPFIRE, SOUL_CAMPFIRE, FURNACE, BLAST_FURNACE, SMOKER, CANDLE
+        #        campfire, candle or any furnace type must be lit.
+        # COOL - bellow cauldron player must place: ICE, PACKED_ICE, BLUE_ICE, SNOW_BLOCK, POWDER_SNOW.
+        temperature: NORMAL
+        # List of permissions that are required for the recipe to work.
+        permissions: []
+        # Sets order number for the recipes in GUI's.
+        order: 0
+      # Mob recipe allows to summon any living entity.
+      # Entity list can be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+      - mob: CHICKEN
+        # Main ingredient material. It always should be in player offhand.
+        # Write format can be found in: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        ingredient: FEATHER
+        # Extra ingredients for recipe. It follows format: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        # In settings you can specify if these items must be dropped into cauldron or kept in player inventory.
+        extra:
+          - ROTTEN_FLESH:10
+          - BONE:5
+        # Experience points that will be taken from player.
+        experience: 10
+        # Type of cauldron:
+        # WATER_CAULDRON, LAVA_CAULDRON, POWDER_SNOW_CAULDRON or CAULDRON
+        cauldron: WATER_CAULDRON
+        # Cauldron fill level. Available only for WATER_CAULDRON and POWDER_SNOW_CAULDRON.
+        level: 1
+        # Allows setting if cauldron requires a heating or cooling below it:
+        # NORMAL - block bellow cauldron cannot be heat or cold related
+        # HEAT - bellow cauldron player must place: FIRE, LAVA, CAMPFIRE, SOUL_CAMPFIRE, FURNACE, BLAST_FURNACE, SMOKER, CANDLE
+        #        campfire, candle or any furnace type must be lit.
+        # COOL - bellow cauldron player must place: ICE, PACKED_ICE, BLUE_ICE, SNOW_BLOCK, POWDER_SNOW.
+        temperature: NORMAL
+        # List of permissions that are required for the recipe to work.
+        permissions: [ ]
+      # Item recipe allows to summon any item stack.
+      # Item will be created using format: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+      - item: DIAMOND
+        ingredient: COAL:8
+        extra:
+          - BLUE_DYE:8
+        experience: 40
+        cauldron: LAVA_CAULDRON
+        temperature: HEAT
+        permissions: []
+      - item: GRASS_BLOCK
+        ingredient: DIRT
+        extra:
+          - WHEAT_SEEDS:9
+        experience: 10
+        cauldron: WATER_CAULDRON
+        level: 3
+        temperature: HEAT
+        permissions: []
+      # Book recipe allows to summon any book that exists in books directory.
+      - book: first_grimoire
+        ingredient: BOOK
+        extra:
+          - LEATHER:2
+        # Experience points that will be taken from player.
+        experience: 10
+        # Type of cauldron:
+        # WATER_CAULDRON, LAVA_CAULDRON, POWDER_SNOW_CAULDRON or CAULDRON
+        cauldron: WATER_CAULDRON
+        # Cauldron fill level. Available only for WATER_CAULDRON and POWDER_SNOW_CAULDRON.
+        level: 1
+        # Allows setting if cauldron requires a heating or cooling below it:
+        # NORMAL - block bellow cauldron cannot be heat or cold related
+        # HEAT - bellow cauldron player must place: FIRE, LAVA, CAMPFIRE, SOUL_CAMPFIRE, FURNACE, BLAST_FURNACE, SMOKER, CANDLE
+        #        campfire, candle or any furnace type must be lit.
+        # COOL - bellow cauldron player must place: ICE, PACKED_ICE, BLUE_ICE, SNOW_BLOCK, POWDER_SNOW.
+        temperature: NORMAL
+        # List of permissions that are required for the recipe to work.
+        permissions: []
+  # the ID of the stick for the database.
+  advanced_stick:
+    # Magic Stick material.
+    stick: BLAZE_ROD:1
+    # Book name that will contain stick recipes.
+    book: second_grimoire
+    # Sets the name for magic stick.
+    name: &d Magic Stick
+    # Sets the description for magic stick.
+    description: |-
+      &7 Advanced Stick
+    recipes:
+      # Mob recipe allows to summon any living entity.
+      # Entity list can be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+      - mob: WOLF
+        # Main ingredient material. It always should be in player offhand.
+        # Write format can be found in: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        ingredient: BONE
+        # Extra ingredients for recipe. It follows format: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        # In settings you can specify if these items must be dropped into cauldron or kept in player inventory.
+        extra:
+          - ROTTEN_FLESH:24
+          - BONE:12
+        # Experience points that will be taken from player.
+        experience: 10
+        # Type of cauldron:
+        # WATER_CAULDRON, LAVA_CAULDRON, POWDER_SNOW_CAULDRON or CAULDRON
+        cauldron: WATER_CAULDRON
+        # Cauldron fill level. Available only for WATER_CAULDRON and POWDER_SNOW_CAULDRON.
+        level: 1
+        # Allows setting if cauldron requires a heating or cooling below it:
+        # NORMAL - block bellow cauldron cannot be heat or cold related
+        # HEAT - bellow cauldron player must place: FIRE, LAVA, CAMPFIRE, SOUL_CAMPFIRE, FURNACE, BLAST_FURNACE, SMOKER, CANDLE
+        #        campfire, candle or any furnace type must be lit.
+        # COOL - bellow cauldron player must place: ICE, PACKED_ICE, BLUE_ICE, SNOW_BLOCK, POWDER_SNOW.
+        temperature: NORMAL
+        # List of permissions that are required for the recipe to work.
+        permissions: []
+      - mob: CAT
+        # Main ingredient material. It always should be in player offhand.
+        # Write format can be found in: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        ingredient: COD
+        # Extra ingredients for recipe. It follows format: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        # In settings you can specify if these items must be dropped into cauldron or kept in player inventory.
+        extra:
+          - ROTTEN_FLESH:24
+          - BONE:12
+        # Experience points that will be taken from player.
+        experience: 10
+        # Type of cauldron:
+        # WATER_CAULDRON, LAVA_CAULDRON, POWDER_SNOW_CAULDRON or CAULDRON
+        cauldron: WATER_CAULDRON
+        # Cauldron fill level. Available only for WATER_CAULDRON and POWDER_SNOW_CAULDRON.
+        level: 1
+        # Allows setting if cauldron requires a heating or cooling below it:
+        # NORMAL - block bellow cauldron cannot be heat or cold related
+        # HEAT - bellow cauldron player must place: FIRE, LAVA, CAMPFIRE, SOUL_CAMPFIRE, FURNACE, BLAST_FURNACE, SMOKER, CANDLE
+        #        campfire, candle or any furnace type must be lit.
+        # COOL - bellow cauldron player must place: ICE, PACKED_ICE, BLUE_ICE, SNOW_BLOCK, POWDER_SNOW.
+        temperature: NORMAL
+        # List of permissions that are required for the recipe to work.
+        permissions: []
+      - mob: AXOLOTL
+        # Main ingredient material. It always should be in player offhand.
+        # Write format can be found in: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        ingredient: TROPICAL_FISH
+        # Extra ingredients for recipe. It follows format: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        # In settings you can specify if these items must be dropped into cauldron or kept in player inventory.
+        extra:
+          - ROTTEN_FLESH:24
+          - BONE:12
+        # Experience points that will be taken from player.
+        experience: 10
+        # Type of cauldron:
+        # WATER_CAULDRON, LAVA_CAULDRON, POWDER_SNOW_CAULDRON or CAULDRON
+        cauldron: WATER_CAULDRON
+        # Cauldron fill level. Available only for WATER_CAULDRON and POWDER_SNOW_CAULDRON.
+        level: 1
+        # Allows setting if cauldron requires a heating or cooling below it:
+        # NORMAL - block bellow cauldron cannot be heat or cold related
+        # HEAT - bellow cauldron player must place: FIRE, LAVA, CAMPFIRE, SOUL_CAMPFIRE, FURNACE, BLAST_FURNACE, SMOKER, CANDLE
+        #        campfire, candle or any furnace type must be lit.
+        # COOL - bellow cauldron player must place: ICE, PACKED_ICE, BLUE_ICE, SNOW_BLOCK, POWDER_SNOW.
+        temperature: NORMAL
+        # List of permissions that are required for the recipe to work.
+        permissions: []
+      - mob: HORSE
+        # Main ingredient material. It always should be in player offhand.
+        # Write format can be found in: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        ingredient: HAY_BLOCK
+        # Extra ingredients for recipe. It follows format: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        # In settings you can specify if these items must be dropped into cauldron or kept in player inventory.
+        extra:
+          - ROTTEN_FLESH:40
+          - BONE:20
+        # Experience points that will be taken from player.
+        experience: 10
+        # Type of cauldron:
+        # WATER_CAULDRON, LAVA_CAULDRON, POWDER_SNOW_CAULDRON or CAULDRON
+        cauldron: WATER_CAULDRON
+        # Cauldron fill level. Available only for WATER_CAULDRON and POWDER_SNOW_CAULDRON.
+        level: 3
+        # Allows setting if cauldron requires a heating or cooling below it:
+        # NORMAL - block bellow cauldron cannot be heat or cold related
+        # HEAT - bellow cauldron player must place: FIRE, LAVA, CAMPFIRE, SOUL_CAMPFIRE, FURNACE, BLAST_FURNACE, SMOKER, CANDLE
+        #        campfire, candle or any furnace type must be lit.
+        # COOL - bellow cauldron player must place: ICE, PACKED_ICE, BLUE_ICE, SNOW_BLOCK, POWDER_SNOW.
+        temperature: NORMAL
+        # List of permissions that are required for the recipe to work.
+        permissions: []
+      - item: NETHERITE_INGOT
+        # Main ingredient material. It always should be in player offhand.
+        # Write format can be found in: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        ingredient: GOLD_INGOT
+        # Extra ingredients for recipe. It follows format: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        # In settings you can specify if these items must be dropped into cauldron or kept in player inventory.
+        extra:
+          - NETTERRACK:40
+        # Experience points that will be taken from player.
+        experience: 10
+        # Type of cauldron:
+        # WATER_CAULDRON, LAVA_CAULDRON, POWDER_SNOW_CAULDRON or CAULDRON
+        cauldron: LAVA_CAULDRON
+        # Allows setting if cauldron requires a heating or cooling below it:
+        # NORMAL - block bellow cauldron cannot be heat or cold related
+        # HEAT - bellow cauldron player must place: FIRE, LAVA, CAMPFIRE, SOUL_CAMPFIRE, FURNACE, BLAST_FURNACE, SMOKER, CANDLE
+        #        campfire, candle or any furnace type must be lit.
+        # COOL - bellow cauldron player must place: ICE, PACKED_ICE, BLUE_ICE, SNOW_BLOCK, POWDER_SNOW.
+        temperature: NORMAL
+        # List of permissions that are required for the recipe to work.
+        permissions: []
+      # Book recipe allows to summon any book that exists in books directory.
+      - book: second_grimoire
+        ingredient: BOOK
+        extra:
+          - LEATHER:2
+        # Experience points that will be taken from player.
+        experience: 10
+        # Type of cauldron:
+        # WATER_CAULDRON, LAVA_CAULDRON, POWDER_SNOW_CAULDRON or CAULDRON
+        cauldron: WATER_CAULDRON
+        # Cauldron fill level. Available only for WATER_CAULDRON and POWDER_SNOW_CAULDRON.
+        level: 1
+        # Allows setting if cauldron requires a heating or cooling below it:
+        # NORMAL - block bellow cauldron cannot be heat or cold related
+        # HEAT - bellow cauldron player must place: FIRE, LAVA, CAMPFIRE, SOUL_CAMPFIRE, FURNACE, BLAST_FURNACE, SMOKER, CANDLE
+        #        campfire, candle or any furnace type must be lit.
+        # COOL - bellow cauldron player must place: ICE, PACKED_ICE, BLUE_ICE, SNOW_BLOCK, POWDER_SNOW.
+        temperature: NORMAL
+        # List of permissions that are required for the recipe to work.
+        permissions: [ ]
+  # the ID of the stick for the database.
+  expert_stick:
+    # Magic Stick material.
+    stick: END_ROD:1
+    # Book name that will contain stick recipes.
+    book: second_grimoire
+    # Sets the name for magic stick.
+    name: &d Magic Stick
+    # Sets the description for magic stick.
+    description: |-
+      &7 Expert Stick
+    recipes:
+      - mob: ZOMBIE_VILLAGER
+        # Main ingredient material. It always should be in player offhand.
+        # Write format can be found in: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        ingredient: EMERALD
+        # Extra ingredients for recipe. It follows format: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        # In settings you can specify if these items must be dropped into cauldron or kept in player inventory.
+        extra:
+          - ROTTEN_FLESH:24
+          - BONE:12
+        # Experience points that will be taken from player.
+        experience: 10
+        # Type of cauldron:
+        # WATER_CAULDRON, LAVA_CAULDRON, POWDER_SNOW_CAULDRON or CAULDRON
+        cauldron: WATER_CAULDRON
+        # Cauldron fill level. Available only for WATER_CAULDRON and POWDER_SNOW_CAULDRON.
+        level: 1
+        # Allows setting if cauldron requires a heating or cooling below it:
+        # NORMAL - block bellow cauldron cannot be heat or cold related
+        # HEAT - bellow cauldron player must place: FIRE, LAVA, CAMPFIRE, SOUL_CAMPFIRE, FURNACE, BLAST_FURNACE, SMOKER, CANDLE
+        #        campfire, candle or any furnace type must be lit.
+        # COOL - bellow cauldron player must place: ICE, PACKED_ICE, BLUE_ICE, SNOW_BLOCK, POWDER_SNOW.
+        temperature: NORMAL
+        # List of permissions that are required for the recipe to work.
+        permissions: []
+      - mob: SLIME
+        # Main ingredient material. It always should be in player offhand.
+        # Write format can be found in: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        ingredient: SLIME_BALL
+        # Extra ingredients for recipe. It follows format: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        # In settings you can specify if these items must be dropped into cauldron or kept in player inventory.
+        extra:
+          - ROTTEN_FLESH:24
+          - BONE:12
+        # Experience points that will be taken from player.
+        experience: 10
+        # Type of cauldron:
+        # WATER_CAULDRON, LAVA_CAULDRON, POWDER_SNOW_CAULDRON or CAULDRON
+        cauldron: WATER_CAULDRON
+        # Cauldron fill level. Available only for WATER_CAULDRON and POWDER_SNOW_CAULDRON.
+        level: 1
+        # Allows setting if cauldron requires a heating or cooling below it:
+        # NORMAL - block bellow cauldron cannot be heat or cold related
+        # HEAT - bellow cauldron player must place: FIRE, LAVA, CAMPFIRE, SOUL_CAMPFIRE, FURNACE, BLAST_FURNACE, SMOKER, CANDLE
+        #        campfire, candle or any furnace type must be lit.
+        # COOL - bellow cauldron player must place: ICE, PACKED_ICE, BLUE_ICE, SNOW_BLOCK, POWDER_SNOW.
+        temperature: NORMAL
+        # List of permissions that are required for the recipe to work.
+        permissions: []
+      - mob: BLAZE
+        # Main ingredient material. It always should be in player offhand.
+        # Write format can be found in: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        ingredient: BLAZE_ROD
+        # Extra ingredients for recipe. It follows format: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        # In settings you can specify if these items must be dropped into cauldron or kept in player inventory.
+        extra:
+          - ROTTEN_FLESH:24
+          - BONE:12
+        # Experience points that will be taken from player.
+        experience: 10
+        # Type of cauldron:
+        # WATER_CAULDRON, LAVA_CAULDRON, POWDER_SNOW_CAULDRON or CAULDRON
+        cauldron: LAVA_CAULDRON
+        # Allows setting if cauldron requires a heating or cooling below it:
+        # NORMAL - block bellow cauldron cannot be heat or cold related
+        # HEAT - bellow cauldron player must place: FIRE, LAVA, CAMPFIRE, SOUL_CAMPFIRE, FURNACE, BLAST_FURNACE, SMOKER, CANDLE
+        #        campfire, candle or any furnace type must be lit.
+        # COOL - bellow cauldron player must place: ICE, PACKED_ICE, BLUE_ICE, SNOW_BLOCK, POWDER_SNOW.
+        temperature: HEAT
+        # List of permissions that are required for the recipe to work.
+        permissions: []
+      - mob: PHANTOM
+        # Main ingredient material. It always should be in player offhand.
+        # Write format can be found in: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        ingredient: FEATHER
+        # Extra ingredients for recipe. It follows format: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        # In settings you can specify if these items must be dropped into cauldron or kept in player inventory.
+        extra:
+          - ROTTEN_FLESH:24
+          - BONE:12
+        # Experience points that will be taken from player.
+        experience: 10
+        # Type of cauldron:
+        # WATER_CAULDRON, LAVA_CAULDRON, POWDER_SNOW_CAULDRON or CAULDRON
+        cauldron: WATER_CAULDRON
+        # Cauldron fill level. Available only for WATER_CAULDRON and POWDER_SNOW_CAULDRON.
+        level: 1
+        # Allows setting if cauldron requires a heating or cooling below it:
+        # NORMAL - block bellow cauldron cannot be heat or cold related
+        # HEAT - bellow cauldron player must place: FIRE, LAVA, CAMPFIRE, SOUL_CAMPFIRE, FURNACE, BLAST_FURNACE, SMOKER, CANDLE
+        #        campfire, candle or any furnace type must be lit.
+        # COOL - bellow cauldron player must place: ICE, PACKED_ICE, BLUE_ICE, SNOW_BLOCK, POWDER_SNOW.
+        temperature: NORMAL
+        # List of permissions that are required for the recipe to work.
+        permissions: []
+      - mob: ENDERMITE
+        # Main ingredient material. It always should be in player offhand.
+        # Write format can be found in: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        ingredient: ENDER_PEARL
+        # Extra ingredients for recipe. It follows format: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        # In settings you can specify if these items must be dropped into cauldron or kept in player inventory.
+        extra:
+          - ROTTEN_FLESH:24
+          - BONE:12
+        # Experience points that will be taken from player.
+        experience: 10
+        # Type of cauldron:
+        # WATER_CAULDRON, LAVA_CAULDRON, POWDER_SNOW_CAULDRON or CAULDRON
+        cauldron: POWDER_SNOW_CAULDRON
+        # Cauldron fill level. Available only for WATER_CAULDRON and POWDER_SNOW_CAULDRON.
+        level: 1
+        # Allows setting if cauldron requires a heating or cooling below it:
+        # NORMAL - block bellow cauldron cannot be heat or cold related
+        # HEAT - bellow cauldron player must place: FIRE, LAVA, CAMPFIRE, SOUL_CAMPFIRE, FURNACE, BLAST_FURNACE, SMOKER, CANDLE
+        #        campfire, candle or any furnace type must be lit.
+        # COOL - bellow cauldron player must place: ICE, PACKED_ICE, BLUE_ICE, SNOW_BLOCK, POWDER_SNOW.
+        temperature: COOL
+        # List of permissions that are required for the recipe to work.
+        permissions: []
+      - mob: SHULKER
+        # Main ingredient material. It always should be in player offhand.
+        # Write format can be found in: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        ingredient: ENDER_EYE
+        # Extra ingredients for recipe. It follows format: https://docs.bentobox.world/en/latest/BentoBox/ItemParser/
+        # In settings you can specify if these items must be dropped into cauldron or kept in player inventory.
+        extra:
+          - ROTTEN_FLESH:24
+          - BONE:12
+        # Experience points that will be taken from player.
+        experience: 10
+        # Type of cauldron:
+        # WATER_CAULDRON, LAVA_CAULDRON, POWDER_SNOW_CAULDRON or CAULDRON
+        cauldron: POWDER_SNOW_CAULDRON
+        # Cauldron fill level. Available only for WATER_CAULDRON and POWDER_SNOW_CAULDRON.
+        level: 1
+        # Allows setting if cauldron requires a heating or cooling below it:
+        # NORMAL - block bellow cauldron cannot be heat or cold related
+        # HEAT - bellow cauldron player must place: FIRE, LAVA, CAMPFIRE, SOUL_CAMPFIRE, FURNACE, BLAST_FURNACE, SMOKER, CANDLE
+        #        campfire, candle or any furnace type must be lit.
+        # COOL - bellow cauldron player must place: ICE, PACKED_ICE, BLUE_ICE, SNOW_BLOCK, POWDER_SNOW.
+        temperature: COOL
+        # List of permissions that are required for the recipe to work.
+        permissions: []
+      # Book recipe allows to summon any book that exists in books directory.
+      - book: third_grimoire
+        ingredient: BOOK
+        extra:
+          - LEATHER:2
+        # Experience points that will be taken from player.
+        experience: 10
+        # Type of cauldron:
+        # WATER_CAULDRON, LAVA_CAULDRON, POWDER_SNOW_CAULDRON or CAULDRON
+        cauldron: WATER_CAULDRON
+        # Cauldron fill level. Available only for WATER_CAULDRON and POWDER_SNOW_CAULDRON.
+        level: 1
+        # Allows setting if cauldron requires a heating or cooling below it:
+        # NORMAL - block bellow cauldron cannot be heat or cold related
+        # HEAT - bellow cauldron player must place: FIRE, LAVA, CAMPFIRE, SOUL_CAMPFIRE, FURNACE, BLAST_FURNACE, SMOKER, CANDLE
+        #        campfire, candle or any furnace type must be lit.
+        # COOL - bellow cauldron player must place: ICE, PACKED_ICE, BLUE_ICE, SNOW_BLOCK, POWDER_SNOW.
+        temperature: NORMAL
+        # List of permissions that are required for the recipe to work.
+        permissions: [ ]
