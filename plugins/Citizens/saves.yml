@@ -44,7 +44,7 @@ npc:
         sneaking: false
       owner:
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,skintrait,scoreboardtrait,location,equipment
+    traitnames: skintrait,type,location,commandtrait,spawned,equipment,inventory,sneak,scoreboardtrait,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -91,7 +91,7 @@ npc:
         sneaking: false
       owner:
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,skintrait,scoreboardtrait,location,equipment
+    traitnames: skintrait,type,location,spawned,commandtrait,inventory,equipment,scoreboardtrait,sneak,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -138,7 +138,7 @@ npc:
             delay: 0
       owner:
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,scoreboardtrait,skintrait,location,equipment
+    traitnames: skintrait,type,location,spawned,commandtrait,inventory,equipment,scoreboardtrait,sneak,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -185,7 +185,7 @@ npc:
         sneaking: false
       owner:
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,skintrait,scoreboardtrait,location,equipment
+    traitnames: skintrait,type,location,spawned,commandtrait,inventory,equipment,scoreboardtrait,sneak,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -200,12 +200,12 @@ npc:
       type: PLAYER
       speech: chat
       location:
-        bodyYaw: 270.0986
+        bodyYaw: 231.05667
         world: SkyBlock
-        x: '5.1699'
-        y: '68.0'
-        z: '11.4994'
-        yaw: '-89.9014'
+        x: '21.2136'
+        y: '69.0'
+        z: '4.7315'
+        yaw: '-128.9433'
         pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
@@ -409,7 +409,7 @@ npc:
         sneaking: false
       owner:
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: type,speech,skintrait,text,location,waypoints,mounttrait,spawned,sneak,inventory,owner,scoreboardtrait,equipment
+    traitnames: type,spawned,scoreboardtrait,mounttrait,skintrait,waypoints,speech,location,equipment,text,inventory,sneak,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -441,7 +441,7 @@ npc:
         sneaking: false
       owner:
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: type,mounttrait,spawned,sneak,inventory,owner,scoreboardtrait,skintrait,location,equipment
+    traitnames: skintrait,type,location,spawned,inventory,equipment,scoreboardtrait,sneak,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -486,7 +486,7 @@ npc:
         sneaking: false
       owner:
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: type,mounttrait,spawned,sneak,inventory,owner,scoreboardtrait,skintrait,lookclose,location,equipment
+    traitnames: skintrait,type,lookclose,location,spawned,inventory,equipment,scoreboardtrait,sneak,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -546,7 +546,7 @@ npc:
         sneaking: false
       owner:
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,lookclose,scoreboardtrait,skintrait,location,equipment
+    traitnames: skintrait,type,lookclose,location,commandtrait,spawned,equipment,inventory,scoreboardtrait,sneak,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -617,7 +617,7 @@ npc:
         sneaking: false
       owner:
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: type,speech,commandtrait,text,skintrait,location,mounttrait,spawned,sneak,inventory,owner,scoreboardtrait,lookclose,equipment
+    traitnames: type,spawned,commandtrait,scoreboardtrait,mounttrait,skintrait,lookclose,speech,location,text,equipment,inventory,sneak,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -687,7 +687,7 @@ npc:
         sneaking: false
       owner:
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: type,speech,commandtrait,text,skintrait,location,mounttrait,spawned,sneak,inventory,owner,lookclose,scoreboardtrait,equipment
+    traitnames: type,spawned,commandtrait,scoreboardtrait,mounttrait,skintrait,lookclose,speech,location,inventory,text,equipment,sneak,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -734,7 +734,7 @@ npc:
         sneaking: false
       owner:
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,skintrait,scoreboardtrait,location,equipment
+    traitnames: skintrait,type,location,spawned,commandtrait,inventory,equipment,sneak,scoreboardtrait,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -794,7 +794,7 @@ npc:
         sneaking: false
       owner:
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,lookclose,scoreboardtrait,skintrait,location,equipment
+    traitnames: skintrait,type,lookclose,location,spawned,commandtrait,equipment,inventory,scoreboardtrait,sneak,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -854,7 +854,7 @@ npc:
         sneaking: false
       owner:
         uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
-    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,scoreboardtrait,lookclose,skintrait,location,equipment
+    traitnames: skintrait,type,lookclose,location,spawned,commandtrait,inventory,equipment,scoreboardtrait,sneak,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -901,7 +901,7 @@ npc:
         sneaking: false
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,scoreboardtrait,skintrait,location,equipment
+    traitnames: skintrait,type,location,commandtrait,spawned,inventory,equipment,scoreboardtrait,sneak,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -948,7 +948,7 @@ npc:
         sneaking: false
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,scoreboardtrait,skintrait,location,equipment
+    traitnames: skintrait,type,location,commandtrait,spawned,inventory,equipment,scoreboardtrait,sneak,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -995,7 +995,7 @@ npc:
         sneaking: false
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: type,mounttrait,spawned,sneak,inventory,owner,commandtrait,scoreboardtrait,skintrait,location,equipment
+    traitnames: skintrait,type,location,commandtrait,spawned,inventory,equipment,sneak,scoreboardtrait,mounttrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

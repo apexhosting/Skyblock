@@ -1,0 +1,76 @@
+bank:
+  admin:
+    description: commande admin pour la banque de l'île
+    give:
+      parameters: <joueur> <montant>
+      description: ajouter un montant au compte de l'île du joueur
+      success: '&a Succès! Le solde bancaire de l''île de [name] est désormais de
+        [number].'
+    take:
+      parameters: <joueur> <montant>
+      description: prendre le montant du compte de l'île du joueur
+    balance:
+      parameters: <joueur>
+      description: voir le solde du compte de l'île du joueur
+    set:
+      parameters: <joueur> <montant>
+      description: définir le montant sur le compte de l'île du joueur
+      success: '&a compte de [name] défini sur [number].'
+    statement:
+      parameters: <joueur>
+      description: voir le relevé bancaire de l'île pour le joueur
+  balance:
+    description: affiche le solde bancaire de votre île
+    island-balance: '&a solde bancaire de l''île est [number].'
+  baltop:
+    description: afficher les classements d'équilibre
+    description-syntax: '&d[number]'
+    highest: Trier par le plus élevé
+    lowest: Trier par le plus bas
+    name-syntax: '&d [name]'
+    title: Principaux soldes
+  deposit:
+    description: déposer le montant sur votre compte insulaire
+    parameters: <montant>
+    success: '&a Succès! Le nouveau solde bancaire de votre île est de [number].'
+  errors:
+    bank-error: '&c Erreur lors du chargement des informations du compte bancaire
+      - veuillez réessayer plus tard'
+    low-balance: '&c Le solde bancaire de votre île n''est pas assez élevé!'
+    must-be-a-number: '&c Le montant doit être un nombre'
+    no-rank: '&c Votre rang n''est pas assez élevé pour utiliser la banque.'
+    too-much: '&c Vous n''avez pas ce montant à déposer.'
+    value-must-be-positive: '&c Le montant doit être positif.'
+    too-low: '&c L''équilibre de l''île est trop faible.'
+  statement:
+    balance:
+      name: '&9 Le solde :'
+      description: '&6 [number]'
+    deposit: Dépôt
+    description: montrer l'histoire de votre banque insulaire
+    give: Admin Donner
+    latest: Trier par plus récent
+    oldest: Trier par plus ancien
+    set: Admin Valeur Définir
+    syntax: |
+      &9 [date]
+      &9 [time]
+      &7 [name]
+      &6 [number]
+    take: Admin Prend
+    title: Historique du compte
+    unknown: Type inconnu
+    withdrawal: Retrait
+  user:
+    description: commande de banque d'île
+  withdraw:
+    description: retirer le montant de votre compte insulaire
+    parameters: <montant>
+    success: '&a Succès! Le nouveau solde bancaire de votre île est de [number].'
+protection:
+  flags:
+    BANK_ACCESS:
+      description: |-
+        &f Autoriser l'accès à
+        &f la rive de l'île
+      name: Accès à la banque de l'île

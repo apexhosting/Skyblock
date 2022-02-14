@@ -1,0 +1,29 @@
+controlpanel:
+  messages:
+    import-count: ' [number] panneaux de commande importés.'
+    control-panels-wiped: '&2 Tous les panneaux de contrôle de [gamemode] ont été
+      retirés'
+  errors:
+    no-load: '&4Impossible de charger le fichier [file]: [message]'
+    no-file: '&4Fichier [file] manquant'
+    not-a-gamemode-world: '&4 Impossible de trouver un mode de jeu valide.'
+    no-valid-panels: |
+      &4Impossible de trouver un panneau de configuration valide.
+    no-valid-panels-op: '&4Impossible de trouver un panneau de configuration valide.
+      Vous devriez essayer de l''importer en utilisant /[admin] cp import'
+  commands:
+    admin:
+      help:
+        description: affiche les commandes d'aide de l'administrateur
+      import:
+        parameters: '[overwrite]'
+        description: |2-
+
+          importe les panneaux de contrôle de [file]
+        confirmation: Veuillez confirmer que vous souhaitez supprimer les panneaux
+          de contrôle existants de [gamemode] et importez des panneaux de contrôle
+          depuis [file]
+    help:
+      description: |2-
+
+        ouvre le panneau de configuration
