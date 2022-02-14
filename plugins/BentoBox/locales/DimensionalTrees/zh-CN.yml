@@ -1,0 +1,4 @@
+dimensionaltrees:
+  invalid-material: §c无法种树. 检测到无效的物品/方块.
+  reloaded: §aDimensionalTrees 已重载.
+  error: 错误

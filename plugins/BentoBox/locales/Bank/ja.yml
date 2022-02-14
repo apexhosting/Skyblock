@@ -1,0 +1,68 @@
+bank:
+  admin:
+    description: アイランドバンクの管理コマンド
+    give:
+      parameters: <プレーヤー> <金額>
+      description: プレイヤーのアイランドアカウントに金額を追加する
+    take:
+      parameters: <プレーヤー> <金額>
+      description: プレイヤーのアイランドアカウントから金額を取得します
+    balance:
+      parameters: <プレイヤー>
+      description: プレイヤーのアイランドアカウントの残高を表示する
+    set:
+      parameters: <プレーヤー> <金額>
+      description: プレイヤーのアイランドアカウントに金額を設定する
+      success: '&a[name]のアカウントが[number]に設定されています。'
+    statement:
+      parameters: <プレイヤー>
+      description: プレイヤーのアイランドバンクステートメントを表示
+  balance:
+    description: 島の銀行の残高を表示します
+    island-balance: '&a島の銀行残高は[number]です。'
+  baltop:
+    description: バランスランキングを表示する
+    description-syntax: '&d[number]'
+    highest: 最高で並べ替え
+    lowest: 最低で並べ替え
+    name-syntax: '&d[name]'
+    title: トップバランス
+  deposit:
+    description: 島の口座に入金金額
+    parameters: <金額>
+    success: '&a成功！新しい島の銀行の残高は[number]です。'
+  errors:
+    bank-error: '&c銀行口座情報の読み込み中にエラーが発生しました-後でもう一度お試しください'
+    low-balance: '&cあなたの島の銀行の残高は十分に高くありません！'
+    must-be-a-number: '&c金額は数値である必要があります'
+    no-rank: '&cあなたのランクは銀行を使うのに十分高くありません。'
+    too-much: '&cデポジットする金額がありません。'
+    value-must-be-positive: '&c金額は正でなければなりません。'
+  statement:
+    balance:
+      name: '&9 銀行預金残高:'
+      description: '&6 [number]'
+    deposit: 預り金
+    description: 島の銀行の歴史を表示する
+    give: 管理者が与える
+    latest: 最新のもので並べ替え
+    oldest: 最も古いもので並べ替え
+    set: 管理者セット
+    syntax: "&9 [date] \n&9 [time] \n&7 [name] \n&6 [number]"
+    take: 管理者テイク
+    title: アカウント履歴
+    unknown: 不明なタイプ
+    withdrawal: 撤退
+  user:
+    description: アイランドバンクコマンド
+  withdraw:
+    description: アイランドアカウントから金額を引き出す
+    parameters: <金額>
+    success: '&a成功！新しい島の銀行の残高は[number]です。'
+protection:
+  flags:
+    BANK_ACCESS:
+      description: |-
+        &f島の銀行への
+        &fアクセスを許可する
+      name: アイランドバンクアクセス

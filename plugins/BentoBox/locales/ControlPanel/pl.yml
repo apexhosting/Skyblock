@@ -1,0 +1,23 @@
+controlpanel:
+  messages:
+    import-count: Importuj [number] panel kontrolny
+    control-panels-wiped: '&2 Wszystkie panele w trybie [gamemode] są usuwane '
+  errors:
+    no-load: '&4Nie mogę załadować [file] Plik: [message]'
+    no-file: '&4Brakujący [file] plik'
+    not-a-gamemode-world: '&4 Nie udało się znaleźć prawidłowego trybu gry.'
+    no-valid-panels: '&4 Nie udało się znaleźć żadnego prawidłowego panelu kontrolnego.'
+    no-valid-panels-op: '&4Nie udało się znaleźć żadnego prawidłowego panelu kontrolnego.
+      Powinieneś spróbować zaimportować go za pomocą /[admin] cp import'
+  commands:
+    admin:
+      help:
+        description: Pokaż komendy pomocy admina
+      import:
+        parameters: '[file-name] - Nazwa pliku do zaimportowania. Puste miejsce spowoduje
+          zaimportowanie domyślnego szablonu.'
+        description: importuj panel kontrolny z pliku [file]
+        confirmation: Potwierdź, że chcesz usunąć istniejące panele sterowania z [gamemode]
+          i zaimportować panele sterowania z [file]
+    help:
+      description: Otwórz Panel Kontrolny

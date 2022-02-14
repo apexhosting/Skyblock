@@ -1,0 +1,54 @@
+# ##########################################################################################
+# This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
+# the one at http://yaml-online-parser.appspot.com                                        #
+# ##########################################################################################
+
+aoneblock:
+  commands:
+    admin:
+      setcount:
+        parameters: <name> <count> [lifetime]
+        description: set player's block count
+        set: '&a [name]''s count set to [number]'
+        set-lifetime: '&a [name]''s lifetime count set to [number]'
+      setchest:
+        parameters: <phase> <rarity>
+        description: put the looked-at chest in a phase with the rarity specified
+        chest-is-empty: '&c That chest is empty so cannot be added'
+        unknown-phase: '&c Unknown phase. Use tab-complete to see them'
+        unknown-rarity: '&c Unknown rarity. Use COMMON, UNCOMMON, RARE or EPIC'
+        look-at-chest: '&c Look at a filled chest to set it'
+        only-single-chest: '&c Only single chests can be set'
+        success: '&a Chest successfully added to phase'
+        failure: '&c Chest could not be added to the phase! See console for errors'
+      sanity:
+        parameters: <phase>
+        description: display a sanity check of the phase probabilities in the console
+        see-console: '&a See the console for the report'
+    count:
+      description: show the block count and phase
+      info: '&a You are on block &b [number] in the &a [name] phase'
+    phases:
+      description: show a list of all the phases
+      title: '&2 OneBlock Phases'
+      name-syntax: '&a [name]'
+      description-syntax: '&b [number] blocks'
+    island:
+      setcount:
+        parameters: <count>
+        description: set block count to previously completed value
+        set: '&a Count set to [number].'
+        too-high: '&c The maximum you can set is [number]!'
+  phase:
+    insufficient-level: '&c Your island level is too low to proceed! It must be [number].'
+    insufficient-funds: '&c Your funds are too low to proceed! They must be [number].'
+    insufficient-bank-balance: '&c The island bank balance is too low to proceed!
+      It must be [number].'
+    insufficient-permission: '&c You can proceed no futher until you obtain the [name]
+      permission!'
+  placeholders:
+    infinite: Infinite
+  island:
+    starting-hologram: |-
+      &aWelcome to AOneBlock
+      &eBreak This Block to Begin

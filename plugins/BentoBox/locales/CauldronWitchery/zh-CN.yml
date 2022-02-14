@@ -1,0 +1,509 @@
+meta:
+  authors:
+  - BONNe
+
+cauldron-witchery:
+  commands:
+    admin:
+      main:
+        parameters: ''
+        description: 管理员主指令. 将会打开 GUI 界面.
+      give:
+        parameters: <魔法杖ID>
+        description: 给予相应玩家相应 ID 的魔法杖.
+      book:
+        parameters: <玩家> <书>
+        description: 为相应玩家生成相应的书.
+      reload-books:
+        parameters: ''
+        description: 重载书的翻译.
+      reload-sticks:
+        parameters: ''
+        description: ＇从数据库中重载魔法杖.'
+  gui:
+    titles:
+      # GUI 菜单的标题
+      admin-panel: '&0&l 管理员菜单'
+      edit-stick: '&0&l 编辑魔法杖: [stick]'
+      edit-recipe: '&0&l 编辑配方'
+      library: '&0&l 图书馆'
+      manage-magic-sticks: '&0&l 管理魔法杖'
+      manage-players: '&0&l 管理玩家'
+      settings: '&0&l 设置'
+      item-selector: '&0&l 物品选择器'
+      recipe-selector: '&0&l 配方选择器'
+      type-selector: '&0&l 选择配方类型'
+      block-selector: '&0&l 方块选择器'
+      entity-selector: '&0&l 实体选择器'
+    buttons:
+      return:
+        name: '&f&l 返回'
+        description: |-
+          &7 返回前一个菜单
+          &7 或关闭 GUI
+      previous:
+        name: '&f&l 上一页'
+        description: '&7 切换到第 &e [number] &7 页'
+      next:
+        name: '&f&l 下一页'
+        description: '&7 切换到 &e [number] &7 页'
+      quit:
+        name: '&f&l 关闭'
+        description: '&7 关闭当前 GUI.'
+      save:
+        name: '&f&l 保存'
+        description: '&7 保存更改并返回.'
+      cancel:
+        name: '&f&l 取消'
+        description: '&7 取消更改并返回.'
+      search:
+        name: '&f&l 搜索'
+        description: |-
+          &7 输入内容
+          &7 以搜索.
+        search: '&b 值: [value]'
+      manage_users:
+        name: '&f&l 管理用户数据'
+        description: |-
+          &7 管理 addon 储存的
+          &7 用户数据
+      manage_magic_sticks:
+        name: '&f&l 管理魔法杖'
+        description: |-
+          &7 管理
+          &7 魔法杖
+      manage_bundles:
+        name: '&f&l 管理包'
+        description: '&7 管理包'
+      edit_settings:
+        name: '&f&l 编辑设置'
+        description: |-
+          &7 查看和编辑
+          &7 addon 设置
+      web_library:
+        name: '&f&l 图书馆'
+        description: |-
+          &7 打开一个公共
+          &7 Cauldron Witchery 图书馆.
+      import_database:
+        name: '&f&l 导入数据库'
+        description: |-
+          &7 导入先前导出的
+          &7 Cauldron Witchery 数据库.
+      import_template:
+        name: '&f&l 导入模板'
+        description: |-
+          &7 导入魔法杖
+          &7 的模板文件.
+      export_database:
+        name: '&f&l 导出数据库'
+        description: |-
+          &7 导出
+          &7 Cauldron Witchery 数据库.
+      wipe_database:
+        name: '&f&l 删除数据库'
+        description: |-
+          &7 删除魔法杖
+          &7 数据库.
+      wipe_user_database:
+        name: '&f&l 删除用户数据库'
+        description: |-
+          &7 删除
+          &7 Cauldron Witchery
+          &7 用户数据库.
+      properties:
+        name: '&f&l 配置'
+        description: |-
+          &7 生成魔法杖
+          &7 配置.
+      recipes:
+        name: '&f&l 配方'
+        description: |-
+          &7 管理魔法杖
+          &7 配方.
+      name:
+        name: '&f&l 名称'
+        description: |-
+          &7 更改显示
+          &7 名称.
+        value: '&7 当前名称: &r [name]'
+        no-value: '&7 暂未设置自定义名称.'
+      description:
+        name: '&f&l 描述'
+        description: |-
+          &7 对挑战的特定描述.
+          &7 支持颜色代码.
+        value: '&7 当前描述:'
+        no-value: '&7 暂未设置描述.'
+      stick:
+        name: '&f&l 魔法杖'
+        description: '&7 魔法杖.'
+      book:
+        name: '&f&l 书'
+        description: |-
+          &7 通过其包含的魔法杖配方
+          &7 来对其重命名.
+        value: '&7 当前名称: &r [book]'
+        no-value: '&7 书暂未签名.'
+      permissions:
+        name: '&f&l 权限'
+        description: |-
+          &7 更改需要的
+          &7 权限.
+        title: '&7 权限: '
+        value: ' &8 - [permission]'
+        none: '&7 暂未设置权限.'
+      complexity:
+        name: '&f&l 复杂度'
+        description: |-
+          &7 更改
+          &7 复杂程度.
+        value: '&7 当前复杂度: &r [number]'
+      add_recipe:
+        name: '&f&l 添加配方'
+        description: |-
+          &7 为魔法杖
+          &7 添加新配方.
+      remove_recipe:
+        name: '&f&l 删除配方'
+        description: |-
+          &7 为魔法杖
+          &7 删除配方.
+      reward_points:
+        name: '&f&l 奖励点数'
+        description: |-
+          &7 为成功完成配方
+          &7 而奖励点数.
+        value: '&7 当前奖励: &r [number]'
+      main_ingredient:
+        name: '&f&l 主材料'
+        description: |-
+          &7 更改配方的主材料.
+          &7 主材料总是玩家没准备的那一个.
+      extra_ingredients:
+        name: '&f&l 额外材料'
+        description: |-
+          &7 更改配方的额外材料.
+          &7 取决于配置文件:
+          &7 要么是在 cauldron 里, 要么是在玩家物品栏里.
+        none: '&7 没有物品被添加'
+        title: '&7 物品:'
+        value: '&7 - [item]'
+      experience:
+        name: '&f&l 经验'
+        description: |-
+          &7 设置完成配方
+          &7 需要的经验.
+        value: '&7 当前经验: &r [number]'
+      cauldron_type:
+        name: '&f&l Cauldron 类型'
+        description: '&7 为配方设置 cauldron 类型.'
+        value: '&7 当前类型: &r [type]'
+      cauldron_level:
+        name: '&f&l Cauldron 等级'
+        description: |-
+          &7 设置完成配方需要的 cauldron 等级.
+          &7 只可设置水和雪.
+        value: '&7 当前等级: &r [number]'
+      temperature:
+        name: '&f&l 额外温度'
+        description: |-
+          &7 设置 cauldron 使用时
+          &7 底下必须垫什么方块.
+        cool: '&7 需要在 cauldron 底下垫冰'
+        heat: '&7 cauldron 底下需要有热源'
+        normal: '&7 cauldron 底下不需要垫方块'
+      add_magic_stick:
+        name: '&f&l 添加魔法杖'
+        description: |-
+          &7 添加新的
+          &7 魔法杖.
+      remove_magic_stick:
+        name: '&f&l 删除魔法杖'
+        description: |-
+          &7 删除
+          &7 魔法杖.
+        title: '&7 选定魔法杖:'
+        value: '&7 - [stick]'
+      is_online:
+        name: '&f&l 显示在线玩家'
+        description: |-
+          &7 显示在线
+          &7 的玩家.
+      all_players:
+        name: '&f&l 显示所有玩家'
+        description: |-
+          &7 显示所有
+          &7 的玩家.
+      success_damage:
+        name: '&f&l 施法成功时耐久度的更改'
+        description: |-
+          &7 设置当魔法杖施法
+          &7 成功后消耗的耐久度.
+          &7 如果该魔法杖没有耐久度,
+          &7 其将被摧毁.
+        value: '&7 当前耐久度: &r [number]'
+      fail_damage:
+        name: '&f&l 施法失败时魔法杖的耐久度更改'
+        description: |-
+          &7 设置当魔法杖施法
+          &7 失败后消耗的耐久度.
+          &7 如果该魔法杖没有耐久度,
+          &7 其将被摧毁.
+        value: '&7 当前耐久度: &r [number]'
+      mix_in_cauldron:
+        name: '&f&l 在 Cauldron 中混合'
+        description: |-
+          &7 切换配方需要额外的材料时,
+          &7 是否自动从玩家背包中摄取.
+        enabled: '&2 启用'
+        disabled: '&c 禁用'
+      exact_count:
+        name: '&f&l 额外的物品数量'
+        description: |-
+          &7 切换配方是否需要
+          &7 额外的物品数量
+          &7 才能成功.
+          &7 “在 Cauldron 中混合”
+          &7 功能启用时此功能才可用.
+        enabled: '&2 启用'
+        disabled: '&c 禁用'
+      remove_left_overs:
+        name: '&f&l 移除多余材料'
+        description: |-
+          &7 切换是否在施法成功后
+          &7 移除多余的材料.
+          &7 “在 Cauldron 中混合”
+          &7 功能启用时此功能才可用.
+        enabled: '&2 启用'
+        disabled: '&c 禁用'
+      remove_on_fail:
+        name: '&f&l 失败时移除材料'
+        description: |-
+          &7 切换是否在施法失败后
+          &7 移除使用的材料.
+          &7 “在 Cauldron 中混合”
+          &7 功能启用时此功能才可用.
+        enabled: '&2 启用'
+        disabled: '&c 禁用'
+      fail_destroy_cauldron:
+        name: '&f&l 失败时销毁'
+        description: |-
+          &7 切换是否在施法失败后
+          &7 销毁 cauldron.
+        enabled: '&2 启用'
+        disabled: '&c 禁用'
+      correct_fail_message:
+        name: '&f&l 正确的错误信息'
+        description: |-
+          &7 切换配方失败时
+          &7 显示正确的错误信息
+          &7 还是显示通用的信息.
+        enabled: '&2 启用'
+        disabled: '&c 禁用'
+      accept_selected:
+        name: '&f&l 选择选定的'
+        description: |-
+          &7 选择选定
+          &7 的元素.
+        title: '&7 选定的元素:'
+        value: '&7 - [element]'
+      book_type:
+        name: '&f&l 书配方'
+        description: |-
+          &7 配方会
+          &7 合成一本书.
+      entity_type:
+        name: '&f&l 实体配方'
+        description: |-
+          &7 配方会
+          &7 合成一个实体.
+      item_type:
+        name: '&f&l 物品配方'
+        description: |-
+          &7 配方会
+          &7 合成一本书.
+      material:
+        name: '&f&l [material]'
+        description: '&7 材料 ID: [id]'
+        selected: '&2 已选定'
+      entity:
+        name: '&f&l [entity]'
+        description: '&7 实体 ID: [id]'
+        selected: '&2 已选定'
+      recipe:
+        name: '&f&l 配方: [value]'
+    tips:
+      click-to-select: '&e 点击&7选定.'
+      click-to-choose: '&e 点击&7选择.'
+      click-to-complete: '&e 点击&7完成.'
+      right-click-multiple-open: '&e 右击&7选择完成的数量.'
+      shift-left-click-to-complete-all: '&e Shift + 点击&7完成所有.'
+      left-click-to-accept: '&e 左击&7完成.'
+      right-click-to-write: '&e 右击&7书写.'
+      click-to-reduce: '&e 点击&7减少.'
+      click-to-increase: '&e 点击&7增加.'
+      click-to-return: '&e 点击&7返回.'
+      click-to-quit: '&e 点击&7退出.'
+      click-to-wipe: '&e 点击&7移除.'
+      left-click-to-wipe: '&e 左击&7清除.'
+      right-click-to-switch: '&e 右击&7切换.'
+      click-to-open: '&e 点击&7打开.'
+      click-to-export: '&e 点击&7导出.'
+      click-to-create: '&e 点击&7创建.'
+      left-click-to-open: '&e 左击&7打开.'
+      right-click-to-reset-all: '&e 右击&7清除所有.'
+      click-to-toggle: '&e 点击&7切换.'
+      click-to-change: '&e 点击&7更改.'
+      shift-click-to-reset: '&e Shift + 点击&7重置.'
+      click-to-add: '&e 点击&7添加.'
+      click-to-remove: '&e 点击&7移除.'
+      left-click-to-cycle: '&e 左击&7换成下一个.'
+      right-click-to-cycle: '&e 右击&7换成上一个.'
+      click-to-edit: '&e 点击&7编辑.'
+      left-click-to-download: '&e 左击&7下载.'
+      right-click-to-toggle: '&e 右击&7切换.'
+      click-to-install: '&e 点击&7安装.'
+      click-to-reset-all: '&e 点击&7重置全部.'
+      right-click-to-select: '&e 右击&7选定.'
+      right-click-to-deselect: '&e 右击&7取消选定.'
+      left-click-to-choose: '&e 左击&7选择.'
+      click-to-cancel: '&e 点击&7取消.'
+      click-to-save: '&e 点击&7保存.'
+      click-to-deselect: '&e 点击&7取消选定.'
+      click-on-item: |-
+        &e 点击 &7 您物品栏
+        &7 中的物品.
+      left-click-to-edit: '&e 左击&7编辑.'
+      right-click-to-clear: '&e 右击&7清除.'
+      click-to-previous: '&e 点击&7查看上一页.'
+      click-to-next: '&e 点击&7查看下一页.'
+      select-before: '&7 在进行下一步操作之前请先&e选择&7物品.'
+    descriptions:
+      selected: '&2 已选定'
+      recipe:
+        book:
+          lore: |-
+            [no-book]
+            [ingredient]
+            [extra]
+            [cauldron]
+            [temperature]
+            [knowledge]
+            [permissions]
+          no-book: '&c 书未设置好.'
+        item:
+          lore: |-
+            [no-item]
+            [ingredient]
+            [extra]
+            [cauldron]
+            [temperature]
+            [knowledge]
+            [permissions]
+          no-item: '&c 物品未设置好.'
+        entity:
+          lore: |-
+            [no-entity]
+            [ingredient]
+            [extra]
+            [cauldron]
+            [temperature]
+            [knowledge]
+            [permissions]
+          no-entity: '&c 实体未设置好.'
+        cauldron: '&7 Cauldron: [cauldron]'
+        leveled-cauldron: '&7 Cauldron: [level] 级的 [cauldron]'
+        knowledge: '&7 经验: [number]'
+        main-ingredient: '&7 主材料: [item]'
+        no-extra: '&7 不需要额外的材料'
+        extra-title: '&7 额外的材料:'
+        extra-element: '&7 - [item]'
+        temperature-normal: '&7 常温'
+        temperature-cool: '&7 需冷却'
+        temperature-heat: '&7 需加热'
+        permission-single: '&7 需要 [permission]'
+        permissions-title: '&7 需要的权限:'
+        permissions-element: '&7 - [permission]'
+      # 图书馆入口的描述
+      library:
+        author: '&7 作者: &e [author]'
+        version: '&7 使用 CauldronWitchery &e [version] &7制作'
+        lang: '&7 语言: &e [lang]'
+        gamemode: '&7 主要给: &e [gamemode]'
+  conversations:
+    prefix: '&l&6 [BentoBox]: &r'
+    # 可用于确认输入的字符. (用“,”隔开)
+    confirm-string: true, on, yes, confirm, y, valid, correct
+    # 可用于取消输入的字符. (用“,”隔开)
+    deny-string: false, off, no, deny, n, invalid, incorrect
+    # 可用于取消对话的字符. (只能设置一个)
+    cancel-string: cancel
+    # 可用于退出对话的字符. (用“,”隔开)
+    exit-string: cancel, exit, quit
+    cancelled: '&c 对话取消!'
+    input-number: '&e 请在聊天栏中输入一个数字.'
+    input-seconds: '&e 请在聊天栏中输入秒数.'
+    numeric-only: '&c 输入的值 [value] 不是数字!'
+    not-valid-value: '&c 输入的值 [value] 不可用. 必须大于 [min] 且小于 [max]!'
+    data-removed: '&a 选定的魔法杖已从 [gamemode] 中移除.'
+    confirm-deletion: '&e 请确认您要删除 [number] 根名为: [value] 的魔法杖.'
+    user-data-removed: '&a [gamemode] 下的所有用户数据已从数据库中清除.'
+    confirm-user-data-deletion: '&e 请确认您要从数据库中清除 [gamemode] 下的所有用户数据.'
+    all-data-removed: '&a [gamemode] 下的所有 addon 数据已从数据库中清除.'
+    confirm-all-data-deletion: '&e 请确认您要从数据库中清除 [gamemode] 下的所有 addon 数据.'
+    write-name: '&e 请在聊天栏中输入一个名称.'
+    new-object-created: '&a 成功在 [gamemode] 中创建一个新物品.'
+    object-already-exists: '&c 物品 &7 [id] &c 已存在. 请换一个名称.'
+    name-changed: '&a 成功, 名称已更新.'
+    write-description: '&e 请在聊天栏中输入新的描述并在单独的一行中输入 ''quit'' 以确认.'
+    description-changed: '&a 成功, 描述已更新.'
+    write-permissions: '&e 请输入需要的权限, 每行一个, 并在单独的一行中输入 ''quit'' 以确认.'
+    permissions-changed: '&a 成功, 更新了挑战的权限.'
+    write-book-name: '&e 请在聊天栏输入书的新名称或在单独的一行中输入 ''cancel'' 以取消.'
+    book-name-changed: '&a 成功, 更新了书的名称.'
+    start-downloading: '&a 开始下载和导入 Cauldron Witchery 图书馆.'
+    written-text: '&a 输入文字:'
+    confirm-data-replacement: '&e 请确认您要将现有的数据替换成新的数据.'
+    new-data-imported: '&a 成功, 已为 [gamemode] 导入新的数据.'
+    exported-file-name: '&e 请输入要导出的数据库文件名. (输入 ''cancel'' 以退出)'
+    database-export-completed: '&a 成功, 已导出 [world] 世界的数据库. 生成了 [file] 文件.'
+    file-name-exist: '&c 名为 ''[id]'' 的文件存在. 无法覆盖.'
+    write-search: '&e 请输入一个要搜索的关键字. (输入 ''cancel'' 以退出)'
+    search-updated: '&a 搜索结果已更新.'
+    magic-stick-loaded: '&a 魔法杖 [stick] 已重载.'
+    books-reload: '&a 已重载书.'
+    sticks-reload: '&a 已重载魔法杖.'
+  errors:
+    no-player-data: '&c 没有已保存的玩家数据'
+    no-library-entries: '&c 无法为特定的设置找到入口.'
+    no-magic-stick: '&c 无法为 [gamemode] 找到 ID 为 ''[id]'' 的魔法杖.'
+    no-magic-book: '&c 无法找到名为: [book] 的书.'
+    no-load: '&c 无法加载文件 [file]. 原因: [description]'
+    no-file: '&c 无法找到文件 [file].'
+    not-a-gamemode-world: '&c 世界 [world] 不是魔法世界.'
+    exist-magic-sticks: '&c 魔法杖已存在. 请先移除现有的那根.'
+    file-exist: '&c 文件名 [file] 已经存在. 无法替换.'
+  messages:
+    incorrect-main-ingredient: '&c 嗯, 貌似还缺主材料...... 主材料是什么?'
+    incorrect-cauldron: '&c 嗯, 需要尝试下不同的 cauldron 液体.'
+    incorrect-extra-ingredients: '&c 嗯, 貌似还缺什么...... 需要重新看看配方.'
+    not-filled-cauldron: '&c 嗯, 或许我需要把 cauldron 装满......'
+    too-cold-cauldron: '&c 嗯, 需要将 cauldron 加热...... 或许放些热的东西在它下面?'
+    too-hot-cauldron: '&c 嗯, 需要把 cauldron 冷却下来...... 或许放些冷的东西在它下面?'
+    missing-main-ingredient: '&c 嗯, 我需要更多的主材料......'
+    missing-knowledge: '&c 嗯, 我需要更多的经验......'
+    missing-permissions: '&c 嗯, 貌似我没有使用这个配方的权限.'
+    too-much-ingredients: '&c 嗯, 我往 cauldron 中放入太多材料了......'
+    missing-extra-ingredients: '&c 嗯, 我需要往 cauldron 中放入更多额外材料......'
+    something-went-wrong: '&4 实验严重错误!!!'
+    it-worked: '&d 它...... 它 ... 成功了!!!'
+protection:
+  flags:
+    CAULDRON_WITCHERY_ISLAND_PROTECTION:
+      description: |-
+        &5 切换访客是否可用
+        &5 岛屿上的 cauldron.
+      name: Cauldron 保护
+      hint: '&c 您不可以在此处使用 cauldron.'
+      icon: CHICKEN_SPAWN_EGG

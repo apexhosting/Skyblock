@@ -1,0 +1,66 @@
+bank:
+  admin:
+    description: 岛岸管理员命令
+    give:
+      parameters: <玩家> <金额>
+      description: 增加金额到玩家的岛屿账户
+    take:
+      parameters: <玩家> <金额>
+      description: 从玩家的岛屿账户中提取金额
+    balance:
+      parameters: <玩家>
+      description: 查看玩家的岛屿账户余额
+    set:
+      parameters: <玩家> <金额>
+      description: 在玩家的岛屿账户中设置金额
+      success: '&a [name]的帐户设置为[number]。'
+    statement:
+      parameters: <玩家>
+      description: 查看玩家的岛上银行对帐单
+  balance:
+    description: 显示您的岛屿银行余额
+    island-balance: '&a岛银行的余额为[number]。'
+  baltop:
+    description: 显示余额排名
+    description-syntax: '&d[number]'
+    highest: 按最高排序
+    lowest: 最低排序
+    name-syntax: '&d[name]'
+    title: 最高余额
+  deposit:
+    description: 将金额存入您的岛屿账户
+    parameters: <金额>
+    success: ＆成功！您的新岛银行余额为[number]。
+  errors:
+    bank-error: ＆c加载银行帐户信息时出错-请稍后重试
+    low-balance: ＆c您的岛屿银行余额不够高！
+    must-be-a-number: ＆c金额必须是数字
+    no-rank: ＆c您的等级不够高，无法使用银行。
+    too-much: ＆c您没有那笔存款。
+    value-must-be-positive: ＆c金额必须为正。
+  statement:
+    balance:
+      name: '&9 银行存款余额:'
+      description: '&6 [number]'
+    deposit: 存款
+    description: 显示您的岛屿银行历史
+    give: 管理员给
+    latest: 按最新排序
+    oldest: 按最旧排序
+    set: 管理员集
+    syntax: "&9 [date] \n&9 [time] \n&7 [name]\n &6 [number]"
+    take: 管理员请
+    title: 账户历史
+    unknown: 未知类型
+    withdrawal: 退出
+  user:
+    description: 岛屿银行命令
+  withdraw:
+    description: 从您的岛屿账户中提款
+    parameters: <金额>
+    success: '&a成功！您的新岛银行余额为[number]。'
+protection:
+  flags:
+    BANK_ACCESS:
+      description: '&f允许进入岛岸'
+      name: 岛银行访问
