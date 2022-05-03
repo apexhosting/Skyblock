@@ -665,6 +665,10 @@ Gadgets:
         - '&7never! Mesmerize your'
         - '&7friends with this DJ set'
         - '&7and dance floor.'
+        Blacklist:
+        - SAND
+        - GRAVEL
+        - SPAWNER
   Projectile:
     Name: '&eProjectile'
     Material: BOW

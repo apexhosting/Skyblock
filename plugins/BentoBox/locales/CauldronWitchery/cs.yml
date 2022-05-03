@@ -1,0 +1,164 @@
+# Translation by: CZghost
+
+magicsummon:
+  messages:
+    missing-rank: Na toto nemáš hodnost.
+    missing-island: Nelze najít ostrov, kam by šlo spawnout moba.
+    something-went-wrong: '&4Experiment skončil fiaskem!!'
+    it-is-alive: '&dOno... ono ... ono to žije!!'
+    cauldron-not-full: '&4Hmm, vypadá to, že kotlík není plný!'
+    
+    not-a-stick: '&dHmm, jsem nechal svou Magickou hůlku?'
+    wrong-workspace: '&dHmm, v této dimenzi to udělat nemůžu.'
+    missing-offhand-item: '&dHmm, kde jsem nechal hlavní předmět z receptu?'
+    something-is-missing: '&dHmm, vypadá to, že mi chybí nějaké předměty... Potřebuju
+      se znovu podívat na recept.'
+  
+  # Book Section
+  books:
+    ANIMALS:
+      title: Efekty pěti miliard voltů na různých mrtvolách
+      author: '&dDr. V. Frankenstein'
+      
+      page-one: '&4Předmluva: Drahý čtenáři, tato kniha je myšlena k předání mých
+        znalostí. Cítím potřebu objevit umění vzkříšení, nedoporučuji provádět tyto
+        experimenty.'
+      page-two: !!binary |-
+        VmFyb3bDoW7DrToKIE5lc3TFr2ogcMWZw61sacWhIGJsw616a28gayBleHBlcmltZW50dSwgbmVib8WlIGVsZWt0xZlpbmEsIGphayBqZSB6bsOhbW8sIHByb2LDrWrDrS4KCFR5dG8gZXhwZXJpbWVudHkganNvdSBobGFzb3bDqSwgamUgcG90xZllYmEgb3BhdHJub3N0IGsgemFqacWhdMSbbsOtLCDFvmUgbmVwxZlpamRvdSBkbyBzdHlrdSBzIHbDrWNlIG1hdGVyacOhbHk=
+      page-three: Zažil jsem časy, kdy jsem se cítil ohromen chybějícími předpoklady
+        k mému experimentu, což zapříčinilo pokles mých znalostí. PROSÍM, ZAPAMATUJ
+        SI TYTO INGREDIENCE NAVÍC.
+      page-four: Použitím mé hůlky v kotlíku a držením klíčové ingredience v mé levé
+        ruce...to mohu smíchat s určitým množstvím zkaženého masa nebo dalších materiálů
+        potřebných k vytvoření života!
+      page-five: Tady jsou ingredience pro každého moba, kterého chceš vytvořit
+      
+      page-last: "Pro vzkříšení většího počtu budeš muset odemknout mou druhou knihu\
+        \ ze 4: Efekty pěti miliard voltů na různých mrtvolách - PRŮVODCE MONSTRY\
+        \ \n K získání mé další knihy budeš muset zopakovat to, jak jsi získal TUTO\
+        \ knihu, ale místo hůlky budeš potřeboval kost."
+      
+      recipe-header: "[mob] \n Hlavní ingredience:\n [offhand]\n Naplněný kotlík\n\
+        \ [levels] částí znalostí!"
+      recipe-extra-list: |2-
+
+        Další ingredience:
+      recipe-extra-element: |2-
+
+         [count] x [material]
+    MONSTERS:
+      title: Efekty pěti miliard voltů na různých mrtvolách - PRŮVODCE MONSTRY
+      author: Dr. V. Frankenstein
+      
+      page-one: 'Předmluva: Pokud jsi četl mé předchozí knihy, měl bys znát standardní
+        proceduru a bezpečnostní opatření. To bych rád od tohoto bodu zmínil... Tato
+        stvoření mohou způsobit smrt a je doporučeno zadržení těchto mobů'
+      page-last: "Pro vzkříšení většího počtu budeš muset odemnkout mou třetí knihu\
+        \ ze 4: Efekty pěti miliard voltů na různých mrtvolách - PRŮVOCE MOBY NETHERU\
+        \ \n K získání mé další knihy budeš muset zopakovat to, jak jsi získal TUTO\
+        \ knihu, ale místo kosti budeš potřebovat hůl ohniváka."
+      
+      recipe-header: "[mob] \n Hlavní ingredience:\n [offhand]\n Naplněný kotlík\n\
+        \ [levels] částí znalostí!"
+      recipe-extra-list: |2-
+
+        Další ingredience:
+      recipe-extra-element: |2-
+
+         [count] x [material]
+    NETHER:
+      title: Efekty pěti miliard voltů na různých mrtvolách - PRŮVOCE MOBY NETHERU
+      author: Dr. V. Frankenstein
+      
+      page-one: 'Předmluva: Pokud jsi četl mé předchozí knihy, měl bys znát standardní
+        proceduru a bezpečnostní opatření. To bych rád od tohoto bodu zmínil... Tato
+        stvoření mohou způsobit smrt a je doporučeno zadržení těchto mobů'
+      page-last: "Pro vzkříšení většího počtu budeš muset odemknout mou poslední knihu:\
+        \ Efekty pěti miliard voltů na různých mrtvolách - PRŮVODCE MOBY V ENDU \n\
+        \ K získání mé další knihy budeš muset zopakovat to, jak jsi získal TUTO knihu,\
+        \ ale místo holi ohniváka budeš potřebovat endovou tyčku."
+      
+      recipe-header: "[mob] \n Main ingredients:\n [offhand]\n A filled up cauldron\n\
+        \ [levels] parts Knowledge!"
+      recipe-extra-list: |2-
+
+        Další ingredience:
+      recipe-extra-element: |2-
+
+         [count] x [material]
+    THE_END:
+      title: Efekty pěti miliard voltů na různých mrtvolách - PRŮVODCE MOBY V ENDU
+      author: Dr. V. Frankenstein
+      
+      page-one: 'Předmluva: Pokud jsi četl mé předchozí knihy, měl bys znát standardní
+        proceduru a bezpečnostní opatření. To bych rád od tohoto bodu zmínil... Tato
+        stvoření mohou způsobit smrt a je doporučeno zadržení těchto mobů'
+      
+      recipe-header: "[mob] \n Main ingredients:\n [offhand]\n A filled up cauldron\n\
+        \ [levels] parts Knowledge!"
+      recipe-extra-list: |2-
+
+        Další ingredience:
+      recipe-extra-element: |2-
+
+         [count] x [material]
+  # Material Section
+  materials:
+    STICK: Hůlka
+    BLAZE_ROD: Hůl ohniváka
+    END_ROD: Endová tyčka
+    LEATHER: Kůže
+    CARROT_ON_A_STICK: Mrkev na holi
+    CARROT: Mrkev
+    SEAGRASS: Mořská tráva
+    WHEAT_SEEDS: Semínko pšenice
+    COD: Treska
+    MUSHROOM_STEW: Houbová polévka
+    HAY_BLOCK: Seno
+    COOKED_COD: Uvařená treska
+    EMERALD: Smaragd
+    SLIME_BALL: Slizová kulička
+    FEATHER: Pírko
+    BONE: Kost
+    ENDER_PEARL: Endová perla
+    ENDER_EYE: Endové oko
+    BOOK: Kniha
+    ROTTEN_FLESH: Zkažené maso
+    PHANTOM_MEMBRANE: Membrána z přeludu
+    SHULKER_SHELL: Shulkerova schránka
+  # Mob section
+  mobs:
+    SHEEP: Ovce
+    COW: Kráva
+    PIG: Prase
+    WOLF: Vlk
+    RABBIT: Králík
+    CHICKEN: Slepice
+    TURTLE: Želva
+    PARROT: Papoušek
+    OCELOT: Ocelot
+    MUSHROOM_COW: Krávomůrka
+    HORSE: Kůň
+    POLAR_BEAR: Polární medvěd
+    ZOMBIE_VILLAGER: Zombie vesničan
+    SLIME: Sliz
+    PHANTOM: Přelud
+    WITHER_SKELETON: Wither kostlivec
+    ENDERMITE: Endermit
+    SHULKER: Shulker
+
+
+protection:
+  flags:
+    MAGIC_SUMMON_ISLAND_PROTECTION:
+      description: |-
+        &5&oPřepnout, kdo může
+        &5&ovzkříšit moba
+      name: Protekce vkříšení mobů
+    MAGIC_SUMMON_ENABLE_FLAG:
+      description: |-
+        &5&oToto umožňuje zapnout/vypnout
+        &5&omožnost použití magického vzkříšení
+        &5&oke spawnu mobů na ostrově.
+      name: Magické vzkříšení mobů
+      hint: Magicické vzkříšení není na tomto světě povoleno

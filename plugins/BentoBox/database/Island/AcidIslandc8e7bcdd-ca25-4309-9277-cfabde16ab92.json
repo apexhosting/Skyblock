@@ -11,6 +11,7 @@
   ],
   "range": 64,
   "protectionRange": 50,
+  "bonusRanges": [],
   "maxEverProtectionRange": 50,
   "world": "acidisland_world",
   "gameMode": "AcidIsland",
@@ -52,7 +53,6 @@
     "DOOR": 500,
     "BREAK_BLOCKS": 500,
     "LEVER": 500,
-    "VISIT_CONFIG_PERMISSION": 900,
     "CAKE": 500,
     "TURTLE_EGGS": 500,
     "DROPPER": 500,
@@ -82,7 +82,6 @@
     "BUCKET": 500,
     "TRAPPED_CHEST": 500,
     "SPAWN_EGGS": 500,
-    "ALLOW_VISITS_FLAG": 500,
     "BED": 500,
     "DYE": 500,
     "MOUNT_INVENTORY": 500,
@@ -118,7 +117,6 @@
     "MAGIC_COBBLESTONE_GENERATOR_PERMISSION": 900
   },
   "history": [],
-  "levelHandicap": 0,
   "spawnPoint": {
     "NORMAL": [
       "acidisland_world",

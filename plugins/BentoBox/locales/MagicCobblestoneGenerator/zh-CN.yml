@@ -533,6 +533,7 @@ stone-generator:
       shift-click-to-purchase: '&eShift单击 &7购买'
       shift-click-to-activate: '&eShift单击 &7激活'
       shift-click-to-deactivate: '&eShift单击 &7禁用'
+      shift-click-to-reset: '&e按住 Shift 键&7 单击以重置'
     # 本节包含一些复杂的GUI描述的翻译。
     descriptions:
       # 刷石机描述生成器，描述中的所有元素都是根据以下部分生成的。

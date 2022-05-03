@@ -1,0 +1,156 @@
+cauldronwitchery:
+  messages:
+    missing-rank: No tienes que llamar para hacer esto.
+    missing-island: No se puede encontrar la isla donde la mafia podría ser convocada
+    something-went-wrong: '&4 ¡¡¡El experimento salió terriblemente mal!!!'
+    it-is-alive: '&desta ... esta... ¡está vivo!'
+    cauldron-not-full: '&4¡Hmm parece que el caldero no estaba lleno!'
+    not-a-stick: '&d¿Y dónde dejé mi Magic Stick?'
+    wrong-workspace: '&dHmm no puedo hacer esto en la dimensión actual.'
+    missing-offhand-item: '&d¿Y dónde dejé el artículo principal de la receta?'
+    something-is-missing: '&dHmm parece que me perdí algunos artículos ... Necesito
+      revisar la receta nuevamente.'
+  books:
+    ANIMALS:
+      title: Los efectos de cinco mil millones de voltios en varios cadáveres
+      page-two: 'Advertencias: No se pare demasiado cerca del experimento, ya que
+        se sabe que la electricidad es un arco. Los experimentos son hambrientos,
+        se debe tener cuidado para garantizar que materiales adicionales no entren
+        en contacto'
+      page-three: Encontré momentos en los que me sentí estupefacto por los requisitos
+        que faltaban en mi experimento, lo que causó que mi conocimiento disminuyera.
+        POR FAVOR RECUERDE LOS INGREDIENTES ADICIONALES.
+      page-four: Al usar mi palo en el caldero y sostener el ingrediente clave en
+        mi mano izquierda ... ¡podría mezclar una cantidad fija de carne podrida o
+        materiales adicionales necesarios para crear vida!
+      page-last: 'Para convocatorias de nivel superior, necesitarás desbloquear mi
+        segundo libro de 4: Los efectos de cinco mil millones de voltios en varios
+        cadáveres: LA GUÍA DEL MONSTRUO Para obtener mi próximo libro, tendrás que
+        repetir cómo obtuviste este libro, pero en su lugar de un palo, necesitarás
+        un hueso.'
+      recipe-extra-list: 'Ingredientes extra:'
+      author: '&dDr. V. Frankenstein'
+      page-one: '&4 Prólogo: Estimado lector, este libro está destinado a transmitir
+        mi conocimiento. Sintiendo la necesidad de descubrir las artes de la reanimación,
+        no sugiero realizar estos experimentos.'
+      page-five: Here are the ingredients for each mob you'll want to create
+      recipe-header: |-
+        [mob]
+         Ingredientes principales:
+         [offhand]
+         Un caldero lleno
+         [levels] partes ¡Conocimiento!
+      recipe-extra-element: '[count] x [material]'
+    MONSTERS:
+      title: Los efectos de cinco mil millones de voltios en varios cadáveres - LA
+        GUÍA DEL MONSTRUO
+      page-one: 'Prólogo: si ha leído mis libros anteriores, debe conocer los procedimientos
+        estándar y las precauciones de seguridad. Me gustaría decir desde este punto
+        en adelante ... Estas convocatorias pueden causar la muerte y se recomienda
+        la contención de estas turbas'
+      page-last: 'Para las invocaciones de nivel superior, necesitarás desbloquear
+        mi tercer libro de 4: Los efectos de cinco mil millones de voltios en varios
+        cadáveres: LA GUÍA NETHER MOBS Para obtener mi próximo libro, tendrás que
+        repetir cómo obtuviste este libro, pero en lugar de un hueso, necesitarás
+        una barra de fuego.'
+      recipe-extra-list: 'Ingredientes extra:'
+      author: Dr. V. Frankenstein
+      recipe-header: |-
+        [mob]
+         Ingredientes principales:
+         [offhand]
+         Un caldero lleno
+         [levels] partes ¡Conocimiento!
+      recipe-extra-element: '[count] x [material]'
+    NETHER:
+      title: Los efectos de cinco mil millones de voltios en varios cadáveres - LA
+        GUÍA NETHER MOBS
+      page-one: 'Prólogo: si ha leído mis libros anteriores, debe conocer los procedimientos
+        estándar y las precauciones de seguridad. Me gustaría decir desde este punto
+        en adelante ... Estas convocatorias pueden causar la muerte y se recomienda
+        la contención de estas turbas'
+      page-last: 'Para las convocatorias de nivel superior, deberá desbloquear mi
+        último libro: Los efectos de cinco mil millones de voltios en varios cadáveres:
+        LA GUÍA DE FIN MOBS Para obtener mi próximo libro, deberá repetir cómo obtuvo
+        su libro, pero en lugar de una barra de fuego, necesitarás una barra final.'
+      recipe-extra-list: 'Ingredientes extra:'
+      author: Dr. V. Frankenstein
+      recipe-header: |-
+        [mob]
+         Ingredientes principales:
+         [offhand]
+         Un caldero lleno
+         [levels] partes ¡Conocimiento!
+      recipe-extra-element: '[count] x [material]'
+    THE_END:
+      title: 'Los efectos de cinco mil millones de voltios en varios cadáveres: LA
+        GUÍA DE MOBS FINALES'
+      page-one: 'Prólogo: si ha leído mis libros anteriores, debe conocer los procedimientos
+        estándar y las precauciones de seguridad. Me gustaría decir desde este punto
+        en adelante ... Estas convocatorias pueden causar la muerte y se recomienda
+        la contención de estas turbas'
+      recipe-extra-list: 'Ingredientes extra:'
+      author: Dr. V. Frankenstein
+      recipe-header: |-
+        [mod]
+         Ingredientes principales:
+         [offhand]
+         Un caldero lleno
+         [levels] partes ¡Conocimiento!
+      recipe-extra-element: '[count] x [material]'
+  materials:
+    STICK: Palo
+    END_ROD: Varilla final
+    LEATHER: Cuero
+    CARROT_ON_A_STICK: Zanahoria en un palo
+    CARROT: Zanahoria
+    SEAGRASS: Pastos marinos
+    WHEAT_SEEDS: Semillas de trigo
+    COD: Bacalao
+    MUSHROOM_STEW: Caldo de champiñones
+    HAY_BLOCK: Bloque de heno
+    COOKED_COD: Bacalao cocido
+    EMERALD: Esmeralda
+    FEATHER: Pluma
+    BONE: Hueso
+    ENDER_PEARL: Perla del fin
+    ENDER_EYE: Ojo Ender
+    BOOK: Libro
+    ROTTEN_FLESH: Carne podrida
+    PHANTOM_MEMBRANE: Membrana fantasma
+    SHULKER_SHELL: Concha de shulker
+    BLAZE_ROD: Varilla de Blaze
+    SLIME_BALL: Bola de slime
+  mobs:
+    SHEEP: Oveja
+    COW: Vaca
+    PIG: Cerdo
+    WOLF: Lobo
+    RABBIT: Conejo
+    CHICKEN: Pollo
+    TURTLE: Tortuga
+    PARROT: Loro
+    OCELOT: Ocelote
+    MUSHROOM_COW: Vaca de hongo
+    HORSE: Caballo
+    POLAR_BEAR: Oso polar
+    ZOMBIE_VILLAGER: Aldeano Zombie
+    PHANTOM: Fantasma
+    SLIME: Slime
+    WITHER_SKELETON: Wither Skeleton
+    ENDERMITE: Endermite
+    SHULKER: Shulker
+protection:
+  flags:
+    MAGIC_SUMMON_ISLAND_PROTECTION:
+      name: Protección de invocación de la mafia
+      description: |-
+        &5 &o Alternar quién puede
+        &5&oaparecer entidades
+    MAGIC_SUMMON_ENABLE_FLAG:
+      name: Invocación de mafia mágica
+      hint: Magic Summon no está habilitado en el mundo actual
+      description: |-
+        &5&o Esto permite habilitar / deshabilitar
+        &5&ocapacidad para usar la invocación mágica
+        &5&oparagenera criaturas en la isla.

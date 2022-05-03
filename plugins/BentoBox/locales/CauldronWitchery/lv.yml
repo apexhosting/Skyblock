@@ -53,7 +53,7 @@ cauldron-witchery:
         description: |-
           &7 Atgriezties uz
           &7 iepriekšējo izvēlni
-      # Button that is used in multi-page GUIs which allows to return to previous page.
+# Button that is used in multi-page GUIs which allows to return to previous page.
       previous:
         name: '&f&l Iepriekšējā Lapa'
         description: '&7 Skatīt &e [number] &7 lapu' # Button that is used in multi-page GUIs which allows to go to next page.

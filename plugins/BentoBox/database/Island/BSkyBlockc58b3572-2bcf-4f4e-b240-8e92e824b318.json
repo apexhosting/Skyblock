@@ -11,6 +11,7 @@
   ],
   "range": 512,
   "protectionRange": 50,
+  "bonusRanges": [],
   "maxEverProtectionRange": 50,
   "world": "bskyblockx_world",
   "gameMode": "BSkyBlock",
@@ -101,7 +102,6 @@
     "PRESSURE_PLATE": 0
   },
   "history": [],
-  "levelHandicap": 0,
   "spawnPoint": {
     "NORMAL": [
       "bskyblockx_world",

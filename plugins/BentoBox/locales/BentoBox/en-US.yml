@@ -39,6 +39,7 @@ general:
     wrong-world: '&c You are not in the right world to do that!'
     you-must-wait: '&c You must wait [number]s before you can do that command again.'
     must-be-positive-number: '&c [number] is not a valid positive number.'
+    not-on-island: '&c You are not on island!'
   worlds:
     overworld: Overworld
     nether: Nether
@@ -219,6 +220,8 @@ commands:
       banned-players: 'Banned players:'
       banned-format: '&c [name]'
       unowned: '&c Unowned'
+      protection-range-bonus-title: '&b Includes these bonues:'
+      protection-range-bonus: 'Bonus: [number]'
     switch:
       description: switch on/off protection bypass
       op: '&c Ops can always bypass protection. Deop to use command.'
@@ -689,6 +692,8 @@ commands:
         owner-kicked: '&c The owner kicked you from the island in [gamemode]!'
         cannot-kick: '&c You cannot kick yourself!'
         success: '&b [name] &a has been kicked from your island.'
+        player-kicked: '&c The [name] kicked you from the island in [gamemode]!'
+        cannot-kick-rank: '&c Your rank does not allow to kick [name]!'
       demote:
         description: demote a player on your island down a rank
         parameters: <player>
@@ -1378,6 +1383,11 @@ protection:
         &a to break blocks and damage
         &a entities outside of island limits.
       name: World TNT damage
+    CHANGE_SETTINGS:
+      name: Change Settings
+      description: |-
+        &a Allow to switch which member
+        &a role can change island settings.
   locked: '&c This island is locked!'
   protected: '&c Island protected: [description].'
   world-protected: '&c World protected: [description].'

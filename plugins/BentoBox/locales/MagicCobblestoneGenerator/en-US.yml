@@ -621,6 +621,15 @@ stone-generator:
         unused:
           name: '&f&l Unused'
           description: '&7 Show only unused biomes' # This section contains names and descriptions for generator type buttons.
+        temperate:
+          name: '&f&l Temperate'
+          description: '&7 Show only temperate biomes'
+        warm:
+          name: '&f&l Warm'
+          description: '&7 Show only warm biomes'
+        cave:
+          name: '&f&l Cave'
+          description: '&7 Show only cave biomes' # This section contains names and descriptions for generator type buttons.
       generator-types:
         cobblestone:
           name: '&f&l Cobblestone'
@@ -655,6 +664,19 @@ stone-generator:
         any:
           name: '&f&l Any'
           description: '&7 Works with any generator.' # This section contains translations for GUI button tips.
+      quit:
+        name: '&f&l Quit'
+        description: '&7 Exit the current menu' # Button that is used in multi-page GUIs which allows to return to previous page.
+                                                # Button that is used in multi-page GUIs which allows to return to previous page.
+      use_bank:
+        name: '&f&l Use Bank'
+        description: |-
+          &7 Using island bank account
+          &7 for all purchases and
+          &7 activations.
+          &7 Requires Bank Addon.
+        enabled: '&b Bank usage is &a enabled &b .'
+        disabled: '&b Bank usage is &c disabled &b .'
     tips:
       click-to-previous: '&e Click &7 to view previous page.'
       click-to-next: '&e Click &7 to view next page.'
@@ -791,6 +813,7 @@ stone-generator:
       island-owner: '[player]''s island'
       # Used to refer to unknown player.
       unknown: unknown
+      spawn-island: '&e&l Spawn island'
   # This section contains translations for different informative messages.
   messages:
     # Message that appears after loading generator in local cache.
@@ -832,6 +855,10 @@ stone-generator:
     import-count: '&e Imported [generator] new generators and [bundle] new bundles.'
     # Message that appears after clicking on download button in web library.
     start-downloading: '&e Start downloading library.'
+    no-credits-bank: '&c Your bank account has not enough credits to activate generator.
+      Activation requires [number] credits.'
+    no-credits-buy-bank: '&c Your bank account has not enough credits. This generator
+      cost [number] credits.'
   # This section contains translations for different error messages.
   errors:
     # Error message that is displayed when generator tier data is not find.
@@ -855,6 +882,7 @@ stone-generator:
       in [gamemode].'
     # Error message that is displayed when user uses generator command in world without generators.
     no-generators-in-world: '&c There are no available generators for you in [world]'
+    could-not-remove-money: '&c Something went wrong while withdrawing money.'
   # Conversations are chat input between server and user.
   # They are used to get some information that requires more than clicking on icon.
   conversations:

@@ -648,3 +648,166 @@ protection:
       name: Cauldron Witchery Protection
       hint: '&c You do not have rank to witchery here.'
       icon: CHICKEN_SPAWN_EGG
+    MAGIC_SUMMON_ISLAND_PROTECTION:
+      description: |-
+        &5&oToggle who can
+        &5&osummon mob
+      name: Mob Summon Protection
+    MAGIC_SUMMON_ENABLE_FLAG:
+      description: |-
+        &5&oThis allows to enable/disable
+        &5&oability to use magic summon
+        &5&oto spawn mobs on island.
+      name: Magic Mob Summon
+      hint: Magic Summon is not enabled in current world
+cauldronwitchery:
+  messages:
+    missing-rank: You do not have rang to do this.
+    missing-island: Cannot find island where mob could be summoned.
+    something-went-wrong: '&4Experiment gone horribly wrong!!'
+    it-is-alive: '&dIt... it ... it is alive!!'
+    cauldron-not-full: '&4Hmm looks like cauldron was not full!'
+    
+    not-a-stick: '&dHmm where I left my Magic Stick?'
+    wrong-workspace: '&dHmm I cannot do this in current dimension.'
+    missing-offhand-item: '&dHmm where I left main recipe item?'
+    something-is-missing: '&dHmm looks like I missed some items... Need to check recipe
+      again.'
+  
+  # Book Section
+  books:
+    ANIMALS:
+      title: The effects of Five billion Volts on various cadavers
+      author: '&dDr. V. Frankenstein'
+      
+      page-one: '&4Foreword: Dear reader this book is intended to pass on my knowledge.
+        Feeling the need to discover the arts of reanimation, I do not suggest to
+        perform these experiments.'
+      page-two: !!binary |-
+        V2FybmluZ3M6CiBEbyBub3Qgc3RhbmQgdG9vIGNsb3NlIHRvIHRoZSBleHBlcmltZW50IGFzIGVsZWN0cmljaXR5IGlzIGtub3duIHRvIGFyYy4KCFRoZSBleHBlcmltZW50cyBhcmUgaHVuZ3J5LCBjYXJlIHNob3VsZCBiZSB0YWtlbiB0byBlbnN1cmUgZXh0cmEgbWF0ZXJpYWxzIGRvIG5vdCBjb21lIGludG8gY29udGFjdA==
+      page-three: I have encountered times where i've felt dumbfounded of the missing
+        requirements to my experiment which caused my knowledge to decrease. PLEASE
+        REMEMBER THE EXTRA INGREDIENTS.
+      page-four: By using my stick on the cauldron and holding the key ingredient
+        in my left hand...I could mix in a set amount of rotten_flesh or extra materials
+        needed to create life!
+      page-five: Here are the ingredients for each mob you'll want to create
+      
+      page-last: "For higher tier summons, you'll need to unlock my second book of\
+        \ 4: The effects of Five billion Volts on various cadavers - THE MONSTER GUIDE\
+        \ \n To get my next book, you'll need to repeat how you got This book, but\
+        \ instead of a stick, you'll need a bone."
+      
+      recipe-header: "[mob] \n Main ingredients:\n [offhand]\n A filled up cauldron\n\
+        \ [levels] parts Knowledge!"
+      recipe-extra-list: |2-
+
+        Extra ingredients:
+      recipe-extra-element: |2-
+
+         [count] x [material]
+    MONSTERS:
+      title: The effects of Five billion Volts on various cadavers - THE MONSTER GUIDE
+      author: Dr. V. Frankenstein
+      
+      page-one: 'Foreword: If you have read my previous books, you should know the
+        standard procedures and safety precautions. I would like to say from this
+        point onwards... These summons can cause death and containment of these mobs
+        is recommended'
+      page-last: "For higher tier summons, you'll need to unlock my third book of\
+        \ 4: The effects of Five billion Volts on various cadavers - THE NETHER MOBS\
+        \ GUIDE \n To get my next book, you'll need to repeat how you got This book,\
+        \ but instead of a bone, you'll need a blaze rod."
+      
+      recipe-header: "[mob] \n Main ingredients:\n [offhand]\n A filled up cauldron\n\
+        \ [levels] parts Knowledge!"
+      recipe-extra-list: |2-
+
+        Extra ingredients:
+      recipe-extra-element: |2-
+
+         [count] x [material]
+    NETHER:
+      title: The effects of Five billion Volts on various cadavers - THE NETHER MOBS
+        GUIDE
+      author: Dr. V. Frankenstein
+      
+      page-one: 'Foreword: If you have read my previous books, you should know the
+        standard procedures and safety precautions. I would like to say from this
+        point onwards... These summons can cause death and containment of these mobs
+        is recommended'
+      page-last: "For higher tier summons, you'll need to unlock my last book: The\
+        \ effects of Five billion Volts on various cadavers - THE END MOBS GUIDE \n\
+        \ To get my next book, you'll need to repeat how you got his book, but instead\
+        \ of a blaze rod, you'll need an end rod."
+      
+      recipe-header: "[mob] \n Main ingredients:\n [offhand]\n A filled up cauldron\n\
+        \ [levels] parts Knowledge!"
+      recipe-extra-list: |2-
+
+        Extra ingredients:
+      recipe-extra-element: |2-
+
+         [count] x [material]
+    THE_END:
+      title: The effects of Five billion Volts on various cadavers - THE END MOBS
+        GUIDE
+      author: Dr. V. Frankenstein
+      
+      page-one: 'Foreword: If you have read my previous books, you should know the
+        standard procedures and safety precautions. I would like to say from this
+        point onwards... These summons can cause death and containment of these mobs
+        is recommended'
+      
+      recipe-header: "[mob] \n Main ingredients:\n [offhand]\n A filled up cauldron\n\
+        \ [levels] parts Knowledge!"
+      recipe-extra-list: |2-
+
+        Extra ingredients:
+      recipe-extra-element: |2-
+
+         [count] x [material]
+  # Material Section
+  materials:
+    STICK: Stick
+    BLAZE_ROD: Blase rod
+    END_ROD: End rod
+    LEATHER: Leather
+    CARROT_ON_A_STICK: Carrot on a stick
+    CARROT: Carrot
+    SEAGRASS: Seagrass
+    WHEAT_SEEDS: Wheat seeds
+    COD: Cod
+    MUSHROOM_STEW: Mushroom stew
+    HAY_BLOCK: Hay block
+    COOKED_COD: Cooked cod
+    EMERALD: Emerald
+    SLIME_BALL: Slime Ball
+    FEATHER: Feather
+    BONE: Bone
+    ENDER_PEARL: Ender pearl
+    ENDER_EYE: Ender eye
+    BOOK: Book
+    ROTTEN_FLESH: Rotten flesh
+    PHANTOM_MEMBRANE: Phantom membrane
+    SHULKER_SHELL: Shulker shell
+  # Mob section
+  mobs:
+    SHEEP: Sheep
+    COW: Cow
+    PIG: Pig
+    WOLF: Wolf
+    RABBIT: Rabbit
+    CHICKEN: Chicken
+    TURTLE: Turtle
+    PARROT: Parrot
+    OCELOT: Ocelot
+    MUSHROOM_COW: Mushroom cow
+    HORSE: Horse
+    POLAR_BEAR: Polar Bear
+    ZOMBIE_VILLAGER: Zombie Villager
+    SLIME: Slime
+    PHANTOM: Phantom
+    WITHER_SKELETON: Wither Skeleton
+    ENDERMITE: Endermite
+    SHULKER: Shulker

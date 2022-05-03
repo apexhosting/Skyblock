@@ -37,7 +37,7 @@ header-footer:
   header:
   - '&7&lAPEX &a&lSKYBLOCK'
   - '&7--------------'
-  - '&aWelcome &7&l%nick%&a!'
+  - '&aWelcome &7&l%displayname%&a!'
   - '&7Online players: &2%online%'
   - '%animation:ping-tps%'
   - ''
@@ -138,9 +138,7 @@ placeholders:
   date-format: dd.MM.yyyy
   time-format: '[HH:mm:ss / h:mm a]'
   time-offset: 0
-  remove-strings:
-  - '[]'
-  - < >
+  register-tab-expansion: true
 placeholder-output-replacements:
   '%essentials_vanished%':
     'yes': '&7| Vanished'

@@ -13,6 +13,7 @@
 
 
 settings:
+  minimum-api: none
   allow-end: true
   warn-on-overload: true
   permissions-file: permissions.yml
@@ -22,22 +23,43 @@ settings:
   query-plugins: true
   deprecated-verbose: default
   shutdown-message: Server closed
-  minimum-api: none
+  ping-packet-limit: 100
+  use-exact-login-location: false
 spawn-limits:
+  axolotls: 5
   water-underground-creature: 5
-  monsters: 70
-  animals: 10
-  water-animals: 15
   water-ambient: 20
+  monsters: 70
+  animals: 15
+  water-animals: 5
   ambient: 15
 chunk-gc:
   period-in-ticks: 600
+  load-threshold: 0
 ticks-per:
+  axolotl-spawns: 1
   water-underground-creature-spawns: 1
-  animal-spawns: 400
-  monster-spawns: 1
   water-spawns: 1
   water-ambient-spawns: 1
   ambient-spawns: 1
+  animal-spawns: 400
+  monster-spawns: 1
   autosave: 6000
 aliases: now-in-commands.yml
+auto-updater:
+  enabled: true
+  on-broken:
+  - warn-console
+  - warn-ops
+  on-update:
+  - warn-console
+  - warn-ops
+  preferred-channel: rb
+  host: dl.bukkit.org
+  suggest-channels: true
+database:
+  username: bukkit
+  isolation: SERIALIZABLE
+  driver: org.sqlite.JDBC
+  password: walrus
+  url: jdbc:sqlite:{DIR}{NAME}.db
