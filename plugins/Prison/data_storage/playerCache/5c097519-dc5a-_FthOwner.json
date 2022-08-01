@@ -1,0 +1,19 @@
+{
+  "playerUuid": "5c097519-dc5a-47d8-a8ff-583fbf4a0f83",
+  "playerName": "FthOwner",
+  "lastSeenDate": 1658432841931,
+  "onlineTimeTotal": 485450,
+  "onlineAFKTimeTotal": 0,
+  "onlineMiningTimeTotal": 0,
+  "blocksTotal": 0,
+  "blocksByMine": {},
+  "blocksByType": {},
+  "timeByMine": {},
+  "earningsByMine": {},
+  "tokens": 0,
+  "tokensTotal": 0,
+  "tokensTotalAdminAdded": 0,
+  "tokensTotalAdminRemoved": 0,
+  "tokensLastBlocksTotals": 0,
+  "tokensByMine": {}
+}

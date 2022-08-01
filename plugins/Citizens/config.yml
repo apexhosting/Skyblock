@@ -7,21 +7,42 @@ npc:
       iterations-per-tick: 5000
       check-bounding-boxes: false
       open-doors: false
+    defaults:
+      destination-teleport-margin: -1
     default-distance-margin: 2
     default-path-distance-margin: 1
     update-path-rate: 20
+    straight-line-targeting-distance: 5
     disable-mc-fallback-navigation: true
     maximum-new-pathfinder-iterations: 10000
     minecraft:
       max-fall-distance: 3
     attack-range: 3.0625
     use-new-finder: false
-    straight-line-targeting-distance: 5
-    defaults:
-      destination-teleport-margin: -1
+  default:
+    bossbar-view-range: 64
+    waypoints:
+      cache-paths: false
+    look-close:
+      enabled: false
+      range: 5
+      random-look-enabled: false
+      random-look-delay: 60
+      disable-while-navigating: true
+    pathfinding:
+      range: 75.0
+    random-talker: false
+    realistic-looking: false
+    spawn-nodamage-ticks: 20
+    stationary-ticks: -1
+    talk-close:
+      enabled: false
+      range: 5
+    text:
+      '0': Hi, I'm <npc>!
   chat:
     options:
-      bystanders-hear-targeted-chat: true
+      bystanders-hear-targeted-chat: false
       max-number-of-targets-to-show: 2
       multiple-targets-format: <target>|, <target>| & <target>| & others
       range: 5
@@ -36,27 +57,6 @@ npc:
     ground-direction-modifier: 1.0
     max-ground-speed: 0.5
     use-boat-controls: true
-  default:
-    waypoints:
-      cache-paths: false
-    look-close:
-      enabled: false
-      range: 5
-      random-look-enabled: false
-      random-look-delay: 60
-      disable-while-navigating: true
-    pathfinding:
-      range: 25.0
-    random-talker: true
-    realistic-looking: false
-    stationary-ticks: -1
-    talk-close:
-      enabled: false
-      range: 5
-    text:
-      '0': Hi, I'm <npc>!
-    bossbar-view-range: 64
-    spawn-nodamage-ticks: 20
   hologram:
     default-line-height: 0.4
   limits:
@@ -64,30 +64,35 @@ npc:
     max-permission-checks: 100
     max-packet-entries: 15
     max-speed: 100
+  text:
+    speech-bubble-ticks: 50
+    max-talk-cooldown: 5
+    min-talk-cooldown: 10
+    talk-item: '*'
   tablist:
     disable: true
     remove-packet-delay: 1
   follow:
     teleport-across-worlds: true
-  chunks:
-    always-keep-loaded: false
   skins:
+    player-join-update-delay-ticks: 60
     max-retries: -1
     retry-delay: 120
     rotation-update-degrees: 90.0
     use-latest-by-default: false
     view-distance: 100.0
-    player-join-update-delay-ticks: 60
     placeholder-update-frequency-ticks: 6000
+  chunks:
+    always-keep-loaded: false
   commands:
     error-messages:
       maximum-times-used: You have reached the maximum number of uses ({0}).
-      no-permission: You don't have permission to do that.
-      not-enough-money: You need at least ${0}.
-      on-cooldown: Please wait {0} more seconds.
       missing-item: Missing {1} {0}
-      on-global-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
+      no-permission: You don't have permission to do that.
       not-enough-experience: You need at least {0} experience.
+      not-enough-money: You need at least ${0}.
+      on-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
+      on-global-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
   packets:
     update-delay: 30
   player:
@@ -96,17 +101,13 @@ npc:
     item: stick
     message: Selected [[<npc>]] (ID <id>).
   server-ownership: false
-  text:
-    max-talk-cooldown: 5
-    min-talk-cooldown: 10
-    talk-item: '*'
-    speech-bubble-ticks: 50
   teleport-delay: -1
   player-scoreboard-teams:
     enable: true
 general:
   authlib:
     profile-url: https://sessionserver.mojang.com/session/minecraft/profile/
+  debug-chunk-loads: false
   debug-file: ''
   debug-mode: false
   debug-pathfinding: false
@@ -116,7 +117,6 @@ general:
     message: <a>
   translation:
     locale: ''
-  debug-chunk-loads: false
   reload-warning-enabled: true
 advanced:
   check-minecraft-version: true

@@ -3,19 +3,14 @@
 general:
   nametag:
     prefix: '&8[&6UltimateStacker&8]'
-
 # Command Messages
-
 command:
   give:
     success: '&7Otrzymałeś &6%type%&7.'
-
 # Event Messages
-
 event:
   general:
     nopermission: '&cNie posiadasz uprawnień aby to zrobić!'
   egg:
     needmore: '&7Potrzebujesz &6%amount% &7Jajek Potworów, żeby przekonwertować ten spawner.'
     sametype: '&7To już spawnuje &6%type%s&7.'
-

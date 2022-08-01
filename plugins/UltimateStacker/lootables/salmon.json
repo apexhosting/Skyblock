@@ -2,19 +2,23 @@
   "Type": "SALMON",
   "Loot": [
     {
+      "xp": 0,
       "Type": "SALMON",
       "Burned Type": "COOKED_SALMON",
       "Chance": 100.0,
       "Min": 1,
       "Max": 1,
-      "Looting": true
+      "Looting": true,
+      "requireCharged": false
     },
     {
+      "xp": 0,
       "Type": "BONE_MEAL",
       "Chance": 5.0,
       "Min": 1,
       "Max": 1,
-      "Looting": true
+      "Looting": true,
+      "requireCharged": false
     }
   ]
 }

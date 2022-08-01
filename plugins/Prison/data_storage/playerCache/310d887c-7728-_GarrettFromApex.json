@@ -1,0 +1,30 @@
+{
+  "playerUuid": "310d887c-7728-4090-9c6e-de07b55a7692",
+  "playerName": "GarrettFromApex",
+  "lastSeenDate": 1658655460465,
+  "onlineTimeTotal": 1628549,
+  "onlineAFKTimeTotal": 0,
+  "onlineMiningTimeTotal": 0,
+  "blocksTotal": 106,
+  "blocksByMine": {
+    "Ores": 102,
+    "WoodMine": 4
+  },
+  "blocksByType": {
+    "copper_ore": 1,
+    "diamond_ore": 15,
+    "emerald_ore": 8,
+    "gold_ore": 4,
+    "iron_ore": 9,
+    "oak_log": 4,
+    "stone": 65
+  },
+  "timeByMine": {},
+  "earningsByMine": {},
+  "tokens": 0,
+  "tokensTotal": 0,
+  "tokensTotalAdminAdded": 0,
+  "tokensTotalAdminRemoved": 0,
+  "tokensLastBlocksTotals": 0,
+  "tokensByMine": {}
+}

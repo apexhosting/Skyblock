@@ -41,7 +41,7 @@ Mystery-Boxes:
     Rare: '&9Rare'
     Epic: '&5Epic'
     Legendary: '&6Legendary'
-  Execute-Command: pex user {PLAYER} add {PERMISSION}
+  Execute-Command: lp user {PLAYER} permission set {PERMISSION}
   Found-Loot:
     Common:
       Play-Sound:
@@ -167,7 +167,6 @@ Mystery-Boxes:
       - '&c{MYSTERY_BOXES} Available'
       - '&f{MYSTERY_BOXES} Available'
       Zero-Mystery-Box-Available: '&cNo Box Available'
-    Hologram-Height: 1.21
   Broadcast:
     Opening-Mystery-Box:
       Enabled: true

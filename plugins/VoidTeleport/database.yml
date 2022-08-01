@@ -1,0 +1,13 @@
+worlds:
+  Skyblock_World:
+    spawnpoint: Skyblock_World:86.5:135.0:59.5:107.8409:4.199892
+    y-void: -64.0
+    enabled: true
+    keep-inventory: true
+    nether: false
+  Mine:
+    spawnpoint: Mine:73.5:97.0:121.5:-90.15344:6.1497035
+    y-void: -64.0
+    enabled: true
+    keep-inventory: true
+    nether: false

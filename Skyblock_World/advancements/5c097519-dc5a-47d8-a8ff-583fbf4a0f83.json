@@ -1,0 +1,36 @@
+{
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2022-07-20 17:29:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2022-07-20 17:29:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2022-07-20 19:11:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2022-07-20 17:29:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dark_forest": "2022-07-20 17:57:23 +0000",
+      "minecraft:lukewarm_ocean": "2022-07-21 19:56:15 +0000",
+      "minecraft:forest": "2022-07-20 19:48:07 +0000",
+      "minecraft:ocean": "2022-07-20 17:29:38 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

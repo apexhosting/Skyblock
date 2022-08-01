@@ -7,7 +7,7 @@ You start on tiny islands in the sky, all necessary items, blocks and materials 
 
 ## Plugin List
 - [Advanced Portals](https://www.spigotmc.org/resources/advanced-portals.14356/)
-- [BentoBox](https://www.spigotmc.org/resources/bentobox-bskyblock-acidisland-skygrid-caveblock-aoneblock-boxed.73261/)
+- [IridiumSkyblock](https://www.spigotmc.org/resources/iridium-skyblock-1-13-1-18.62480/)
 - [Citizens](https://www.spigotmc.org/resources/citizens.13811/)
 - [Citizens CMD](https://www.spigotmc.org/resources/citizens-cmd-abandoned.30224/)
 - [Core Protect](https://www.spigotmc.org/resources/coreprotect.8631/)

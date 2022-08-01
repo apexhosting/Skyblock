@@ -1,0 +1,149 @@
+autoManager:
+  isAutoManagerEnabled: true
+  isAutoManagerEnabled__ReadMe: Set to 'false' to turn off all auto manager features.  Otherwise
+    this must be set to 'true' to allow any of the options to work.
+options:
+  otherPlugins:
+    isProcessMcMMOBlockBreakEvents: false
+    isProcessEZBlocksBlockBreakEvents: false
+    isProcessQuestsBlockBreakEvents: false
+    otherPluginSupport__ReadMe: 'NOTE: If you are using spigot v1.12.0 or higher,
+      then do not use these ''forced'' settings, instead adjust both ''cancelAllBlockBreakEvents''
+      and ''cancelAllBlockEventBlockDrops'' since that will help ensure it works better.'
+    isUseCustomBlocksCustomItemsGetDrops: true
+  blockBreakEvents:
+    cancelAllBlockBreakEvents: false
+    cancelAllBlockBreakEvents__ReadMe: 'NOTE: If spigot v1.8.0 through 1.11.x you
+      must use ''true'' for this setting, otherwise if using Spigot v1.13.0, or higher,
+      can use ''false''.'
+    cancelAllBlockEventBlockDrops: true
+    cancelAllBlockEventBlockDrops__ReadMe: 'NOTE: If spigot v1.8.0 through 1.11.x
+      you must use ''false'' for this setting, otherwise if using Spigot v1.13.0,
+      or higher, can use ''true''. This setting MUST be the opposit of ''cancelAllBlockBreakEvents''.'
+    applyBlockBreaksThroughSyncTask: true
+    blockBreakEventPriority: LOW
+    ProcessPrisons_ExplosiveBlockBreakEventsPriority: LOW
+    TokenEnchantBlockExplodeEventPriority: DISABLED
+    CrazyEnchantsBlastUseEventPriority: DISABLED
+    ZenchantmentsBlockShredEventPriority: DISABLED
+    PrisonEnchantsExplosiveEventPriority: DISABLED
+    blockBreakEvents__ReadMe: 'Use the following event priorities with the blockBreakEvents:
+      DISABLED, LOWEST, LOW, NORMAL, HIGH, HIGHEST, BLOCKEVENTS, MONITOR'
+  general:
+    isCalculateFoodExhustion: true
+    isCalculateSilkEnabled: true
+    isCalculateDropAdditionsEnabled: true
+    isCalculateXPEnabled: true
+    givePlayerXPAsOrbDrops: false
+  inventory:
+    isAutoSellPerBlockBreakEnabled: false
+    permissionAutoSellPerBlockBreakEnabled: prison.automanager.autosell
+    permissionAutoSellPerBlockBreakEnabled__ReadMe: If OP then you cannot use this
+      permission node since it would always be enabled. Using a value of 'disable'
+      will turn it off for everyone.
+    isAutoSellIfInventoryIsFull: true
+    isAutoSellIfInventoryIsFullForBLOCKEVENTSPriority: false
+    dropItemsIfInventoryIsFull: true
+    playSoundIfInventoryIsFull: true
+    playSoundIfInventoryIsFullSound: block_note_block_pling
+    playSoundIfInventoryIsFullSound__readme: 'The name of the sound must be valid
+      for the server platform and its version, and is case insensitive. To get a list
+      of valid sounds use the command: ''/prison utils sounds list <page>''. Page
+      is optional. Use page numbers to see all available sounds.  An invalid sound
+      will default to NOTE_PLING, BLOCK_NOTE_PLING, or BLOCK_NOTE_BLOCK_PLING, as
+      valid for your server.'
+    actionBarMessageIfInventoryIsFull: true
+    playSoundIfInventoryIsFullSoundVolume: 4.0
+    playSoundIfInventoryIsFullSoundPitch: 1.0
+  tokens:
+    tokensEnabled: false
+    tokensBlocksPerToken: 100
+  permissions:
+    permissionAutoPickup: prison.automanager.pickup
+    permissionAutoSmelt: prison.automanager.smelt
+    permissionAutoBlock: prison.automanager.block
+  lore:
+    isLoreEnabled: true
+    lorePickupValue: '&dAuto Pickup&7'
+    loreSmeltValue: '&dAuto Smelt&7'
+    loreBlockValue: '&dAuto Block&7'
+    loreTrackBlockBreakCount: false
+    loreBlockBreakCountName: '&dPrison Blocks Mined:&7 '
+    loreBlockExplosionCountName: '&dPrison Blocks Exploded:&7 '
+    loreDurabiltyResistance: false
+    loreDurabiltyResistanceName: '&dDurability Resistance&7'
+  autoFeatures:
+    isAutoFeaturesEnabled: true
+    autoPickupEnabled: true
+    autoSmeltEnabled: true
+    autoBlockEnabled: true
+  normalDrop:
+    handleNormalDropsEvents: true
+    normalDropSmelt: true
+    normalDropBlock: true
+  durability:
+    isCalculateDurabilityEnabled: false
+    preventToolBreakageThreshold__ReadMe: This option stops the tool from losing any
+      more durability once it hits the number specified with the threshold
+    isPreventToolBreakage: false
+    preventToolBreakageThreshold: 10
+  fortuneFeature:
+    isCalculateFortuneEnabled: true
+    isExtendBukkitFortuneCalculationsEnabled: true
+    extendBukkitFortune__ReadMe: To get fortune to work, First try to use the extendedBukkitFortune
+      (set it to true). If it won't work, then you must disable it (set it to false),
+      then enable CalculateAltFortune. AltFortune will never work if extendedBukkitFortune
+      is enabled.
+    isCalculateAltFortuneEnabled: false
+    isCalculateAltFortuneOnAllBlocksEnabled: false
+    fortuneMultiplierMax: 0
+    extendBukkitFortuneFactorPercentRangeLow: 70
+    extendBukkitFortuneFactorPercentRangeHigh: 110
+  pickupFeature:
+    pickupLimitToMines: true
+    pickupAllBlocks: true
+    pickupBlockNameListEnabled: false
+    pickupCobbleStone: true
+    pickupStone: true
+    pickupGoldOre: true
+    pickupIronOre: true
+    pickupCoalOre: true
+    pickupDiamondOre: true
+    pickupRedStoneOre: true
+    pickupEmeraldOre: true
+    pickupQuartzOre: true
+    pickupLapisOre: true
+    pickupSnowBall: true
+    pickupGlowstoneDust: true
+    pickupBlockNameList:
+    - coal_block
+    - iron_ore
+  smeltFeature:
+    smeltLimitToMines: true
+    smeltAllBlocks: true
+    smeltCobblestone: false
+    smeltGoldOre: true
+    smeltIronOre: true
+    smeltCoalOre: true
+    smeltDiamondlOre: true
+    smeltEmeraldOre: true
+    smeltLapisOre: true
+    smeltRedstoneOre: true
+    smeltNetherQuartzOre: true
+    smeltAncientDebris: true
+    smeltCopperOre: true
+  blockFeature:
+    blockLimitToMines: true
+    blockAllBlocks: true
+    blockGoldBlock: true
+    blockIronBlock: true
+    blockCoalBlock: true
+    blockDiamondBlock: true
+    blockRedstoneBlock: true
+    blockEmeraldBlock: true
+    blockQuartzBlock: true
+    blockPrismarineBlock: true
+    blockLapisBlock: true
+    blockSnowBlock: true
+    blockGlowstone: true
+    blockCopperBlock: true

@@ -3,15 +3,11 @@
 general:
   nametag:
     prefix: '&8[&6UltimateStacker&8]'
-
 # Сообщения команд
-
 command:
   give:
     success: '&7Вам был выдан &6%type%&7.'
-
 # Сообщения событий
-
 event:
   general:
     nopermission: '&cУ вас недостаточно разрешений.'

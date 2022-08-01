@@ -1,0 +1,38 @@
+No_Permissions: &cYou do not have sufficient permissions to run this command
+No_Prefix: &cThe warp &4{warp} &cdoesn't have a prefix
+No_Suffix: &cThe warp &4{warp} &cdoesn't have a suffix
+No_DisplayName: &cThe warp &4{warp} &cdoesn't have a custom display name
+No_ForceSlot: &cThe warp &4{warp} &cdoes not have a force-slot set
+No_Warps: &cThere are no available warps for you!
+DoesntExist_Warp: &cThe warp &4{warp} &cdoes not exist
+NotA_Player: &cYou are not a player!
+NotA_Number: &4{number} &cis not a number!
+Changed_Icon: &aThe icon has been changed to &2{icon}
+Changed_Prefix: &aThe prefix of the warp &2{warp}&a has been changed
+Removed_Prefix: &aThe prefix of the warp &2{warp}&a has been removed
+Changed_Suffix: &aThe suffix of the warp &2{warp}&a has been changed
+Removed_Suffix: &aThe suffix of the warp &2{warp}&a has been removed
+Changed_DisplayName: &aThe display name of the warp &2{warp}&a has been changed
+Removed_DisplayName: &aThe display name of the warp &2{warp}&a has been removed
+Changed_ForceSlot: &aThe warp &2{warp}&a has now a specific slot at which it gets placed at in the GUI
+Removed_ForceSlot: &aThe warp &2{warp}&a now gets normally added to the GUI
+Added_Lore: &aA lore has been added to the warp &2{warp}
+Removed_Lore: &aThe lore at the line &2{id} &ahas been removed from the warp &2{warp}
+Unkown_Material: &cUnkown material &4{material}
+Unkown_Argument: &cUnkown argument &4{arg}
+Unkown_Line: &cThere's no line &4{line}
+Usage: &6Usage: &e{usage}
+Usage_Add_Lore: &6Write &e{usage} &6to add a lore
+Usage_Remove_Lore: &6Write &e{usage} &6to remove a lore
+Usage_Change_Prefix: &6Write &e{usage} &6to change the prefix
+Usage_Remove_Prefix: &6Write &e{usage} &6to remove the prefix
+Usage_Change_Suffix: &6Write &e{usage} &6to change the suffix
+Usage_Remove_Suffix: &6Write &e{usage} &6to remove the suffix
+Usage_Change_DisplayName: &6Write &e{usage} &6to change the display name
+Usage_Remove_DisplayName: &6Write &e{usage} &6to remove the display name
+Usage_Change_ForceSlot: &6Write &e{usage} &6to place the item at a specific slot in the GUI
+Usage_Remove_ForceSlot: &6Write &e{usage} &6to add the item as normally to the GUI
+Reloaded_Config: &aThe config has been successfully reloaded!
+List_Warps: &6Available warps: &e{warps}
+Info_MadeBy: &aMade by &2{info}
+Info_Version: &aVersion &2{info}

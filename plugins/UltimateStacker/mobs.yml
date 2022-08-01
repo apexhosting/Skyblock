@@ -349,8 +349,18 @@ Mobs:
     Display Name: Piglin brute
     Max Stack Size: -1
     Kill Whole Stack: false
-  PIG_ZOMBIE:
+  AXOLOTL:
     Enabled: true
-    Display Name: Pig zombie
+    Display Name: Axolotl
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  GLOW_SQUID:
+    Enabled: true
+    Display Name: Glow squid
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  GOAT:
+    Enabled: true
+    Display Name: Goat
     Max Stack Size: -1
     Kill Whole Stack: false

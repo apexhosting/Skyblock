@@ -2,11 +2,13 @@
   "Type": "LLAMA",
   "Loot": [
     {
+      "xp": 0,
       "Type": "LEATHER",
       "Chance": 100.0,
       "Min": 0,
       "Max": 2,
-      "Looting": true
+      "Looting": true,
+      "requireCharged": false
     }
   ]
 }

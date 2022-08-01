@@ -1,0 +1,49 @@
+# Defines which modules load and which modules don't.
+# You can use this if, say, you want to use Prison Mines but
+# prefer a different plugin instead of Prison Ranks.
+
+# Key: 'true' means they will load, 'false' means they won't.
+
+ranks: true
+mines: true
+
+sellall: true
+
+utils:
+  enabled: true
+  messages:
+    enabled: true
+    msg: true
+    broadcast: true
+  mining:
+    enabled: true
+    smelt: true
+    block: true
+  potions:
+    enabled: true
+    potionEffects: true
+  repair:
+    enabled: true
+    repairAll: true
+    repairHand: true
+  healing:
+    enabled: true
+    heal: true
+    feed: true
+    breath: true
+  decay:
+    enabled: true
+    obby: true
+    rainbow: true
+    blocks: true
+  sounds:
+    enabled: true
+    playSound: true
+  titles:
+    enabled: true
+    title: true
+    actionBar: true
+  bombs:
+    enabled: true
+    bombs: true
+

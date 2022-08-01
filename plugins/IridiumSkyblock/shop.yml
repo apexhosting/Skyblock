@@ -1,0 +1,1180 @@
+---
+categories:
+  Blocks:
+    item:
+      material: "GRASS_BLOCK"
+      amount: 1
+      displayName: "&9&lBlocks"
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore: []
+      slot: 12
+    inventoryRows: 6
+  Food:
+    item:
+      material: "COOKED_CHICKEN"
+      amount: 1
+      displayName: "&9&lFood"
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore: []
+      slot: 13
+    inventoryRows: 4
+  Ores:
+    item:
+      material: "GOLD_INGOT"
+      amount: 1
+      displayName: "&9&lOres"
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore: []
+      slot: 14
+    inventoryRows: 4
+  Farming:
+    item:
+      material: "WHEAT"
+      amount: 1
+      displayName: "&9&lFarming"
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore: []
+      slot: 21
+    inventoryRows: 5
+  Mob Drops:
+    item:
+      material: "SPIDER_EYE"
+      amount: 1
+      displayName: "&9&lMob Drops"
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore: []
+      slot: 22
+    inventoryRows: 5
+  Miscellaneous:
+    item:
+      material: "SADDLE"
+      amount: 1
+      displayName: "&9&lMiscellaneous"
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore: []
+      slot: 23
+    inventoryRows: 4
+items:
+  Blocks:
+  - name: "&9&lGrass Block"
+    displayName: ""
+    type: "GRASS_BLOCK"
+    lore: []
+    command: null
+    defaultAmount: 1
+    slot: 10
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  - name: "&9&lDirt Block"
+    displayName: ""
+    type: "DIRT"
+    lore: []
+    command: null
+    defaultAmount: 10
+    slot: 11
+    buyCost:
+      vault: 50.0
+      crystals: 0
+    sellReward:
+      vault: 5.0
+      crystals: 0
+  - name: "&9&lGravel"
+    displayName: ""
+    type: "GRAVEL"
+    lore: []
+    command: null
+    defaultAmount: 10
+    slot: 12
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  - name: "&9&lGranite"
+    displayName: ""
+    type: "GRANITE"
+    lore: []
+    command: null
+    defaultAmount: 10
+    slot: 13
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  - name: "&9&lDiorite"
+    displayName: ""
+    type: "DIORITE"
+    lore: []
+    command: null
+    defaultAmount: 10
+    slot: 14
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  - name: "&9&lAndesite"
+    displayName: ""
+    type: "ANDESITE"
+    lore: []
+    command: null
+    defaultAmount: 10
+    slot: 15
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  - name: "&9&lOak Log"
+    displayName: ""
+    type: "OAK_LOG"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 16
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  - name: "&9&lSpruce Log"
+    displayName: ""
+    type: "SPRUCE_LOG"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 19
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  - name: "&9&lBirch Log"
+    displayName: ""
+    type: "BIRCH_LOG"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 20
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  - name: "&9&lJungle Log"
+    displayName: ""
+    type: "JUNGLE_LOG"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 21
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  - name: "&9&lAcacia Log"
+    displayName: ""
+    type: "ACACIA_LOG"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 22
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  - name: "&9&lDark Oak Log"
+    displayName: ""
+    type: "DARK_OAK_LOG"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 23
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  - name: "&9&lSnow Block"
+    displayName: ""
+    type: "SNOW_BLOCK"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 24
+    buyCost:
+      vault: 200.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  - name: "&9&lIce"
+    displayName: ""
+    type: "ICE"
+    lore: []
+    command: null
+    defaultAmount: 8
+    slot: 25
+    buyCost:
+      vault: 300.0
+      crystals: 0
+    sellReward:
+      vault: 20.0
+      crystals: 0
+  - name: "&9&lPacked Ice"
+    displayName: ""
+    type: "PACKED_ICE"
+    lore: []
+    command: null
+    defaultAmount: 8
+    slot: 28
+    buyCost:
+      vault: 300.0
+      crystals: 0
+    sellReward:
+      vault: 20.0
+      crystals: 0
+  - name: "&9&lSponge"
+    displayName: ""
+    type: "SPONGE"
+    lore: []
+    command: null
+    defaultAmount: 4
+    slot: 29
+    buyCost:
+      vault: 1000.0
+      crystals: 0
+    sellReward:
+      vault: 200.0
+      crystals: 0
+  - name: "&9&lSand"
+    displayName: ""
+    type: "SAND"
+    lore: []
+    command: null
+    defaultAmount: 8
+    slot: 30
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 20.0
+      crystals: 0
+  - name: "&9&lSandstone"
+    displayName: ""
+    type: "SANDSTONE"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 31
+    buyCost:
+      vault: 80.0
+      crystals: 0
+    sellReward:
+      vault: 5.0
+      crystals: 0
+  - name: "&9&lClay Ball"
+    displayName: ""
+    type: "CLAY_BALL"
+    lore: []
+    command: null
+    defaultAmount: 32
+    slot: 32
+    buyCost:
+      vault: 70.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  - name: "&9&lObsidian"
+    displayName: ""
+    type: "OBSIDIAN"
+    lore: []
+    command: null
+    defaultAmount: 4
+    slot: 33
+    buyCost:
+      vault: 250.0
+      crystals: 0
+    sellReward:
+      vault: 25.0
+      crystals: 0
+  - name: "&9&lGlowstone"
+    displayName: ""
+    type: "GLOWSTONE"
+    lore: []
+    command: null
+    defaultAmount: 8
+    slot: 34
+    buyCost:
+      vault: 125.0
+      crystals: 0
+    sellReward:
+      vault: 15.0
+      crystals: 0
+  - name: "&9&lEnd Stone"
+    displayName: ""
+    type: "END_STONE"
+    lore: []
+    command: null
+    defaultAmount: 4
+    slot: 39
+    buyCost:
+      vault: 250.0
+      crystals: 0
+    sellReward:
+      vault: 25.0
+      crystals: 0
+  - name: "&9&lPrismarine"
+    displayName: ""
+    type: "PRISMARINE"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 40
+    buyCost:
+      vault: 200.0
+      crystals: 0
+    sellReward:
+      vault: 20.0
+      crystals: 0
+  - name: "&9&lWool"
+    displayName: ""
+    type: "WHITE_WOOL"
+    lore: []
+    command: null
+    defaultAmount: 8
+    slot: 41
+    buyCost:
+      vault: 50.0
+      crystals: 0
+    sellReward:
+      vault: 5.0
+      crystals: 0
+  Food:
+  - name: "&9&lApple"
+    displayName: ""
+    type: "APPLE"
+    lore: []
+    command: null
+    defaultAmount: 10
+    slot: 11
+    buyCost:
+      vault: 50.0
+      crystals: 0
+    sellReward:
+      vault: 15.0
+      crystals: 0
+  - name: "&9&lEnchanted Golden Apple"
+    displayName: ""
+    type: "ENCHANTED_GOLDEN_APPLE"
+    lore: []
+    command: null
+    defaultAmount: 3
+    slot: 12
+    buyCost:
+      vault: 1000.0
+      crystals: 0
+    sellReward:
+      vault: 100.0
+      crystals: 0
+  - name: "&9&lCarrot"
+    displayName: ""
+    type: "CARROT"
+    lore: []
+    command: null
+    defaultAmount: 10
+    slot: 13
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 25.0
+      crystals: 0
+  - name: "&9&lBaked Potato"
+    displayName: ""
+    type: "BAKED_POTATO"
+    lore: []
+    command: null
+    defaultAmount: 10
+    slot: 14
+    buyCost:
+      vault: 150.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  - name: "&9&lBread"
+    displayName: ""
+    type: "BREAD"
+    lore: []
+    command: null
+    defaultAmount: 10
+    slot: 15
+    buyCost:
+      vault: 50.0
+      crystals: 0
+    sellReward:
+      vault: 30.0
+      crystals: 0
+  - name: "&9&lCookie"
+    displayName: ""
+    type: "COOKIE"
+    lore: []
+    command: null
+    defaultAmount: 5
+    slot: 20
+    buyCost:
+      vault: 130.0
+      crystals: 0
+    sellReward:
+      vault: 5.0
+      crystals: 0
+  - name: "&9&lCooked Porkchop"
+    displayName: ""
+    type: "COOKED_PORKCHOP"
+    lore: []
+    command: null
+    defaultAmount: 10
+    slot: 21
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 15.0
+      crystals: 0
+  - name: "&9&lCooked Beef"
+    displayName: ""
+    type: "COOKED_BEEF"
+    lore: []
+    command: null
+    defaultAmount: 10
+    slot: 22
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 15.0
+      crystals: 0
+  - name: "&9&lCooked Mutton"
+    displayName: ""
+    type: "COOKED_MUTTON"
+    lore: []
+    command: null
+    defaultAmount: 10
+    slot: 23
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 20.0
+      crystals: 0
+  - name: "&9&lCooked Rabbit"
+    displayName: ""
+    type: "COOKED_RABBIT"
+    lore: []
+    command: null
+    defaultAmount: 10
+    slot: 24
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 25.0
+      crystals: 0
+  Ores:
+  - name: "&9&lCoal"
+    displayName: ""
+    type: "COAL"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 11
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 15.0
+      crystals: 0
+  - name: "&9&lRedstone"
+    displayName: ""
+    type: "REDSTONE"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 12
+    buyCost:
+      vault: 150.0
+      crystals: 0
+    sellReward:
+      vault: 7.0
+      crystals: 0
+  - name: "&9&lLapis Lazuli"
+    displayName: ""
+    type: "LAPIS_LAZULI"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 13
+    buyCost:
+      vault: 150.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  - name: "&9&lIron Ingot"
+    displayName: ""
+    type: "IRON_INGOT"
+    lore: []
+    command: null
+    defaultAmount: 8
+    slot: 14
+    buyCost:
+      vault: 200.0
+      crystals: 0
+    sellReward:
+      vault: 20.0
+      crystals: 0
+  - name: "&9&lGold Ingot"
+    displayName: ""
+    type: "GOLD_INGOT"
+    lore: []
+    command: null
+    defaultAmount: 8
+    slot: 15
+    buyCost:
+      vault: 200.0
+      crystals: 0
+    sellReward:
+      vault: 20.0
+      crystals: 0
+  - name: "&9&lDiamond"
+    displayName: ""
+    type: "DIAMOND"
+    lore: []
+    command: null
+    defaultAmount: 8
+    slot: 21
+    buyCost:
+      vault: 1000.0
+      crystals: 0
+    sellReward:
+      vault: 100.0
+      crystals: 0
+  - name: "&9&lEmerald"
+    displayName: ""
+    type: "EMERALD"
+    lore: []
+    command: null
+    defaultAmount: 8
+    slot: 22
+    buyCost:
+      vault: 200.0
+      crystals: 0
+    sellReward:
+      vault: 15.0
+      crystals: 0
+  - name: "&9&lQuartz"
+    displayName: ""
+    type: "QUARTZ"
+    lore: []
+    command: null
+    defaultAmount: 64
+    slot: 23
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  Farming:
+  - name: "&9&lWheat Seeds"
+    displayName: ""
+    type: "WHEAT_SEEDS"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 10
+    buyCost:
+      vault: 130.0
+      crystals: 0
+    sellReward:
+      vault: 2.0
+      crystals: 0
+  - name: "&9&lPumpkin Seeds"
+    displayName: ""
+    type: "PUMPKIN_SEEDS"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 11
+    buyCost:
+      vault: 150.0
+      crystals: 0
+    sellReward:
+      vault: 5.0
+      crystals: 0
+  - name: "&9&lMelon Seeds"
+    displayName: ""
+    type: "MELON_SEEDS"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 12
+    buyCost:
+      vault: 250.0
+      crystals: 0
+    sellReward:
+      vault: 5.0
+      crystals: 0
+  - name: "&9&lNether Wart"
+    displayName: ""
+    type: "NETHER_WART"
+    lore: []
+    command: null
+    defaultAmount: 4
+    slot: 13
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 5.0
+      crystals: 0
+  - name: "&9&lSugar Cane"
+    displayName: ""
+    type: "SUGAR_CANE"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 14
+    buyCost:
+      vault: 150.0
+      crystals: 0
+    sellReward:
+      vault: 5.0
+      crystals: 0
+  - name: "&9&lWheat"
+    displayName: ""
+    type: "WHEAT"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 15
+    buyCost:
+      vault: 50.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  - name: "&9&lPumpkin"
+    displayName: ""
+    type: "PUMPKIN"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 16
+    buyCost:
+      vault: 150.0
+      crystals: 0
+    sellReward:
+      vault: 15.0
+      crystals: 0
+  - name: "&9&lMelon Slice"
+    displayName: ""
+    type: "MELON_SLICE"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 19
+    buyCost:
+      vault: 150.0
+      crystals: 0
+    sellReward:
+      vault: 5.0
+      crystals: 0
+  - name: "&9&lCactus"
+    displayName: ""
+    type: "CACTUS"
+    lore: []
+    command: null
+    defaultAmount: 8
+    slot: 20
+    buyCost:
+      vault: 80.0
+      crystals: 0
+    sellReward:
+      vault: 2.0
+      crystals: 0
+  - name: "&9&lOak Sapling"
+    displayName: ""
+    type: "OAK_SAPLING"
+    lore: []
+    command: null
+    defaultAmount: 4
+    slot: 21
+    buyCost:
+      vault: 20.0
+      crystals: 0
+    sellReward:
+      vault: 2.0
+      crystals: 0
+  - name: "&9&lSpruce Sapling"
+    displayName: ""
+    type: "SPRUCE_SAPLING"
+    lore: []
+    command: null
+    defaultAmount: 4
+    slot: 22
+    buyCost:
+      vault: 20.0
+      crystals: 0
+    sellReward:
+      vault: 2.0
+      crystals: 0
+  - name: "&9&lBirch Sapling"
+    displayName: ""
+    type: "BIRCH_SAPLING"
+    lore: []
+    command: null
+    defaultAmount: 4
+    slot: 23
+    buyCost:
+      vault: 20.0
+      crystals: 0
+    sellReward:
+      vault: 2.0
+      crystals: 0
+  - name: "&9&lJungle Sapling"
+    displayName: ""
+    type: "JUNGLE_SAPLING"
+    lore: []
+    command: null
+    defaultAmount: 4
+    slot: 24
+    buyCost:
+      vault: 150.0
+      crystals: 0
+    sellReward:
+      vault: 4.0
+      crystals: 0
+  - name: "&9&lAcacia Sapling"
+    displayName: ""
+    type: "ACACIA_SAPLING"
+    lore: []
+    command: null
+    defaultAmount: 4
+    slot: 25
+    buyCost:
+      vault: 20.0
+      crystals: 0
+    sellReward:
+      vault: 2.0
+      crystals: 0
+  - name: "&9&lDark Oak Sapling"
+    displayName: ""
+    type: "DARK_OAK_SAPLING"
+    lore: []
+    command: null
+    defaultAmount: 4
+    slot: 30
+    buyCost:
+      vault: 150.0
+      crystals: 0
+    sellReward:
+      vault: 4.0
+      crystals: 0
+  - name: "&9&lBrown Mushroom"
+    displayName: ""
+    type: "BROWN_MUSHROOM"
+    lore: []
+    command: null
+    defaultAmount: 8
+    slot: 31
+    buyCost:
+      vault: 60.0
+      crystals: 0
+    sellReward:
+      vault: 6.0
+      crystals: 0
+  - name: "&9&lRed Mushroom"
+    displayName: ""
+    type: "RED_MUSHROOM"
+    lore: []
+    command: null
+    defaultAmount: 8
+    slot: 32
+    buyCost:
+      vault: 60.0
+      crystals: 0
+    sellReward:
+      vault: 6.0
+      crystals: 0
+  Mob Drops:
+  - name: "&9&lRotten Flesh"
+    displayName: ""
+    type: "ROTTEN_FLESH"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 10
+    buyCost:
+      vault: 20.0
+      crystals: 0
+    sellReward:
+      vault: 2.0
+      crystals: 0
+  - name: "&9&lBone"
+    displayName: ""
+    type: "BONE"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 11
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 3.0
+      crystals: 0
+  - name: "&9&lGunpowder"
+    displayName: ""
+    type: "GUNPOWDER"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 12
+    buyCost:
+      vault: 30.0
+      crystals: 0
+    sellReward:
+      vault: 3.0
+      crystals: 0
+  - name: "&9&lString"
+    displayName: ""
+    type: "STRING"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 13
+    buyCost:
+      vault: 80.0
+      crystals: 0
+    sellReward:
+      vault: 3.0
+      crystals: 0
+  - name: "&9&lArrow"
+    displayName: ""
+    type: "ARROW"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 14
+    buyCost:
+      vault: 75.0
+      crystals: 0
+    sellReward:
+      vault: 4.0
+      crystals: 0
+  - name: "&9&lSpider Eye"
+    displayName: ""
+    type: "SPIDER_EYE"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 15
+    buyCost:
+      vault: 50.0
+      crystals: 0
+    sellReward:
+      vault: 5.0
+      crystals: 0
+  - name: "&9&lEnder Pearl"
+    displayName: ""
+    type: "ENDER_PEARL"
+    lore: []
+    command: null
+    defaultAmount: 3
+    slot: 16
+    buyCost:
+      vault: 75.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  - name: "&9&lSlime Ball"
+    displayName: ""
+    type: "SLIME_BALL"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 19
+    buyCost:
+      vault: 200.0
+      crystals: 0
+    sellReward:
+      vault: 5.0
+      crystals: 0
+  - name: "&9&lPrismarine Crystals"
+    displayName: ""
+    type: "PRISMARINE_CRYSTALS"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 20
+    buyCost:
+      vault: 50.0
+      crystals: 0
+    sellReward:
+      vault: 5.0
+      crystals: 0
+  - name: "&9&lPrismarine Shard"
+    displayName: ""
+    type: "PRISMARINE_SHARD"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 21
+    buyCost:
+      vault: 50.0
+      crystals: 0
+    sellReward:
+      vault: 5.0
+      crystals: 0
+  - name: "&9&lBlaze Rod"
+    displayName: ""
+    type: "BLAZE_ROD"
+    lore: []
+    command: null
+    defaultAmount: 4
+    slot: 22
+    buyCost:
+      vault: 250.0
+      crystals: 0
+    sellReward:
+      vault: 20.0
+      crystals: 0
+  - name: "&9&lMagma Cream"
+    displayName: ""
+    type: "MAGMA_CREAM"
+    lore: []
+    command: null
+    defaultAmount: 4
+    slot: 23
+    buyCost:
+      vault: 150.0
+      crystals: 0
+    sellReward:
+      vault: 15.0
+      crystals: 0
+  - name: "&9&lGhast Tear"
+    displayName: ""
+    type: "GHAST_TEAR"
+    lore: []
+    command: null
+    defaultAmount: 4
+    slot: 24
+    buyCost:
+      vault: 200.0
+      crystals: 0
+    sellReward:
+      vault: 30.0
+      crystals: 0
+  - name: "&9&lLeather"
+    displayName: ""
+    type: "LEATHER"
+    lore: []
+    command: null
+    defaultAmount: 8
+    slot: 25
+    buyCost:
+      vault: 50.0
+      crystals: 0
+    sellReward:
+      vault: 5.0
+      crystals: 0
+  - name: "&9&lRabbit Foot"
+    displayName: ""
+    type: "RABBIT_FOOT"
+    lore: []
+    command: null
+    defaultAmount: 4
+    slot: 30
+    buyCost:
+      vault: 250.0
+      crystals: 0
+    sellReward:
+      vault: 30.0
+      crystals: 0
+  - name: "&9&lInk Sack"
+    displayName: ""
+    type: "INK_SAC"
+    lore: []
+    command: null
+    defaultAmount: 8
+    slot: 31
+    buyCost:
+      vault: 50.0
+      crystals: 0
+    sellReward:
+      vault: 5.0
+      crystals: 0
+  - name: "&9&lFeather"
+    displayName: ""
+    type: "FEATHER"
+    lore: []
+    command: null
+    defaultAmount: 16
+    slot: 32
+    buyCost:
+      vault: 30.0
+      crystals: 0
+    sellReward:
+      vault: 3.0
+      crystals: 0
+  Miscellaneous:
+  - name: "&9&lBucket"
+    displayName: ""
+    type: "BUCKET"
+    lore: []
+    command: null
+    defaultAmount: 1
+    slot: 12
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  - name: "&9&lWater Bucket"
+    displayName: ""
+    type: "WATER_BUCKET"
+    lore: []
+    command: null
+    defaultAmount: 1
+    slot: 13
+    buyCost:
+      vault: 200.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  - name: "&9&lLava Bucket"
+    displayName: ""
+    type: "LAVA_BUCKET"
+    lore: []
+    command: null
+    defaultAmount: 1
+    slot: 14
+    buyCost:
+      vault: 200.0
+      crystals: 0
+    sellReward:
+      vault: 20.0
+      crystals: 0
+  - name: "&9&lName Tag"
+    displayName: ""
+    type: "NAME_TAG"
+    lore: []
+    command: null
+    defaultAmount: 1
+    slot: 21
+    buyCost:
+      vault: 200.0
+      crystals: 0
+    sellReward:
+      vault: 30.0
+      crystals: 0
+  - name: "&9&lSaddle"
+    displayName: ""
+    type: "SADDLE"
+    lore: []
+    command: null
+    defaultAmount: 1
+    slot: 22
+    buyCost:
+      vault: 300.0
+      crystals: 0
+    sellReward:
+      vault: 30.0
+      crystals: 0
+  - name: "&9&lEnd Portal Frame"
+    displayName: ""
+    type: "END_PORTAL_FRAME"
+    lore:
+    - "&5&lVisit the end!"
+    - " "
+    command: null
+    defaultAmount: 1
+    slot: 23
+    buyCost:
+      vault: 5000.0
+      crystals: 50
+    sellReward:
+      vault: 0.0
+      crystals: 0
+overviewTitle: "&7Island Shop"
+categoryTitle: "&7Island Shop | %category_name%"
+buyPriceLore: "&aBuy Price: $%buy_price_vault%, %buy_price_crystals% Crystals"
+sellRewardLore: "&cSelling Reward: $%sell_reward_vault%, %sell_reward_crystals% Crystals"
+notPurchasableLore: "&cThis item cannot be purchased!"
+notSellableLore: "&cThis item cannot be sold!"
+abbreviatePrices: true
+dropItemWhenFull: false
+overviewSize: 36
+failSound: "BLOCK_ANVIL_LAND"
+successSound: "ENTITY_PLAYER_LEVELUP"
+overviewBackground:
+  filler:
+    material: "BLACK_STAINED_GLASS_PANE"
+    amount: 1
+    displayName: " "
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore: []
+    slot: null
+  items: {}
+categoryBackground:
+  filler:
+    material: "BLACK_STAINED_GLASS_PANE"
+    amount: 1
+    displayName: " "
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore: []
+    slot: null
+  items: {}
+shopItemLore:
+- " "
+- "&b&l[!] &bLeft-Click to Purchase %amount%, Shift for 64"
+- "&b&l[!] &bRight Click to Sell %amount%, Shift for 64"

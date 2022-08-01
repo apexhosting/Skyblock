@@ -751,8 +751,8 @@ Hats:
     CanBeFound: true
     Purchasable: true
     Lore: ''
-  Herobine:
-    Name: '&9Herobine Hat'
+  Herobrine:
+    Name: '&9Herobrine Hat'
     Mystery Dust: 25
     Rarity: Rare
     Enabled: true
@@ -1178,14 +1178,6 @@ Hats:
   Rainbow Glitch:
     Name: '&9Rainbow Glitch Hat'
     Mystery Dust: 18
-    Rarity: Rare
-    Enabled: true
-    CanBeFound: true
-    Purchasable: true
-    Lore: ''
-  Herobrine:
-    Name: '&9Herobrine Hat'
-    Mystery Dust: 25
     Rarity: Rare
     Enabled: true
     CanBeFound: true

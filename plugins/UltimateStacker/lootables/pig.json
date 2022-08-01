@@ -2,12 +2,14 @@
   "Type": "PIG",
   "Loot": [
     {
+      "xp": 0,
       "Type": "PORKCHOP",
       "Burned Type": "COOKED_PORKCHOP",
       "Chance": 100.0,
       "Min": 1,
       "Max": 3,
-      "Looting": true
+      "Looting": true,
+      "requireCharged": false
     }
   ]
 }

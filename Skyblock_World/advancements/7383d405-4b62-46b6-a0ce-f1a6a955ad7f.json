@@ -1,0 +1,24 @@
+{
+  "minecraft:recipes/decorations/purple_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2022-07-21 05:19:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2022-07-21 05:23:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dark_forest": "2022-07-21 05:20:50 +0000",
+      "minecraft:desert": "2022-07-21 05:24:37 +0000",
+      "minecraft:ocean": "2022-07-21 05:19:06 +0000",
+      "minecraft:old_growth_birch_forest": "2022-07-21 05:21:50 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

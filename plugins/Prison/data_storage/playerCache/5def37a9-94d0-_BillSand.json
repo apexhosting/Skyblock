@@ -1,0 +1,27 @@
+{
+  "playerUuid": "5def37a9-94d0-4c6e-ab49-51d3d2ec441a",
+  "playerName": "BillSand",
+  "lastSeenDate": 1658745638603,
+  "onlineTimeTotal": 1896650,
+  "onlineAFKTimeTotal": 0,
+  "onlineMiningTimeTotal": 0,
+  "blocksTotal": 59,
+  "blocksByMine": {
+    "Ores": 59
+  },
+  "blocksByType": {
+    "diamond_ore": 17,
+    "emerald_ore": 3,
+    "gold_ore": 1,
+    "iron_ore": 2,
+    "stone": 36
+  },
+  "timeByMine": {},
+  "earningsByMine": {},
+  "tokens": 0,
+  "tokensTotal": 0,
+  "tokensTotalAdminAdded": 0,
+  "tokensTotalAdminRemoved": 0,
+  "tokensLastBlocksTotals": 0,
+  "tokensByMine": {}
+}

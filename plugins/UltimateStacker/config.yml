@@ -1,6 +1,3 @@
-#
-# General settings and options.
-#
 Main:
 
   # The speed in which a new stacks will be created.
@@ -13,9 +10,6 @@ Main:
   - World2
   - World3
 
-#
-# Entities
-#
 Entities:
 
   # Should entities be stacked?
@@ -32,6 +26,7 @@ Entities:
   Max Stack Size: 15
 
   # The minimum amount required before a stack can be formed.
+  # Do not set this to lower than 2.
   Min Stack Amount: 5
 
   # The maximum amount of each entity type stack allowed in a chunk.
@@ -57,7 +52,8 @@ Entities:
     Reroll: true
 
   # Should killing a stack of entities kill the whole stack or
-  # just one out of the stack?
+  # just one out of the stack? If you want only certain entities to be
+  # effected by this you can configure it in the entities.yml
   Kill Whole Stack On Death: false
 
   # When enabled, the plugin will hook into ClearLag and extend the
@@ -68,13 +64,13 @@ Entities:
   # Events that will trigger an entire stack to be killed.
   # It should be noted that this is useless if the above setting is true.
   # Any of the following can be added to the list:
-  # CONTACT, ENTITY_ATTACK, ENTITY_SWEEP_ATTACK, PROJECTILE
-  # SUFFOCATION, FALL, FIRE, FIRE_TICK
-  # MELTING, LAVA, DROWNING, BLOCK_EXPLOSION
-  # ENTITY_EXPLOSION, VOID, LIGHTNING, SUICIDE
-  # STARVATION, POISON, MAGIC, WITHER
-  # FALLING_BLOCK, THORNS, DRAGON_BREATH, CUSTOM
-  # FLY_INTO_WALL, HOT_FLOOR, CRAMMING, DRYOUT
+  # "CONTACT", "ENTITY_ATTACK", "ENTITY_SWEEP_ATTACK", "PROJECTILE",
+  # "SUFFOCATION", "FALL", "FIRE", "FIRE_TICK",
+  # "MELTING", "LAVA", "DROWNING", "BLOCK_EXPLOSION",
+  # "ENTITY_EXPLOSION", "VOID", "LIGHTNING", "SUICIDE",
+  # "STARVATION", "POISON", "MAGIC", "WITHER",
+  # "FALLING_BLOCK", "THORNS", "DRAGON_BREATH", "CUSTOM",
+  # "FLY_INTO_WALL", "HOT_FLOOR", "CRAMMING", "DRYOUT".
   Instant Kill:
   - FALL
   - DROWNING
@@ -84,17 +80,20 @@ Entities:
   # Should no experience be dropped when an instant kill is performed?
   No Exp For Instant Kills: false
 
+  # Should entities not drop their armor when custom drops are enabled?
+  Dont Drop Armor: false
+
   # These are checks that are processed before an entity is stacked.
   # You can add and remove from the list at will.
   # The acceptable check options are:
-  # SPAWN_REASON, NERFED, AGE, TICK_AGE, PHANTOM_SIZE
-  # CAN_BREED, IS_TAMED, ANIMAL_OWNER, SKELETON_TYPE
-  # ZOMBIE_BABY, SLIME_SIZE,  PIG_SADDLE, SHEEP_SHEERED
-  # SHEEP_COLOR, WOLF_COLLAR_COLOR, OCELOT_TYPE, HORSE_COLOR
-  # HORSE_STYLE, HORSE_CARRYING_CHEST, HORSE_HAS_ARMOR
-  # HORSE_HAS_SADDLE, HORSE_JUMP, RABBIT_TYPE, VILLAGER_PROFESSION
-  # LLAMA_COLOR, LLAMA_STRENGTH, PARROT_TYPE, PUFFERFISH_STATE
-  # TROPICALFISH_PATTERN, TROPICALFISH_BODY_COLOR, TROPICALFISH_PATTERN_COLOR
+  # "SPAWN_REASON", "NERFED", "AGE", "TICK_AGE",
+  # "IS_TAMED", "ANIMAL_OWNER", "SKELETON_TYPE", "ZOMBIE_BABY",
+  # "SLIME_SIZE", "PIG_SADDLE", "SHEEP_SHEARED", "SHEEP_COLOR",
+  # "SNOWMAN_DERPED", "WOLF_COLLAR_COLOR", "OCELOT_TYPE", "HORSE_COLOR",
+  # "HORSE_STYLE", "HORSE_CARRYING_CHEST", "HORSE_HAS_ARMOR", "HORSE_HAS_SADDLE",
+  # "HORSE_JUMP", "RABBIT_TYPE", "VILLAGER_PROFESSION", "LLAMA_COLOR",
+  # "LLAMA_STRENGTH", "PARROT_TYPE", "PUFFERFISH_STATE", "TROPICALFISH_PATTERN",
+  # "TROPICALFISH_BODY_COLOR", "TROPICALFISH_PATTERN_COLOR", "PHANTOM_SIZE", "CAT_TYPE".
   Stack Checks:
   - NERFED
   - AGE
@@ -104,38 +103,34 @@ Entities:
   - ZOMBIE_BABY
   - SLIME_SIZE
   - PIG_SADDLE
-  - SHEEP_COLOR
+  - SHEEP_SHEARED
+  - SNOWMAN_DERPED
   - WOLF_COLLAR_COLOR
-  - OCELOT_TYPE
-  - HORSE_COLOR
   - HORSE_STYLE
   - HORSE_CARRYING_CHEST
   - HORSE_HAS_ARMOR
   - HORSE_HAS_SADDLE
   - HORSE_JUMP
-  - RABBIT_TYPE
   - VILLAGER_PROFESSION
-  - LLAMA_COLOR
   - LLAMA_STRENGTH
-  - PARROT_TYPE
   - PUFFERFISH_STATE
   - TROPICALFISH_PATTERN
   - TROPICALFISH_BODY_COLOR
   - TROPICALFISH_PATTERN_COLOR
   - PHANTOM_SIZE
-  - CAT_TYPE
-  - SHEEP_SHEARED
-  - SNOWMAN_DERPED
 
   # These are checks that when achieved will break separate a single entity
   # from a stack.
+  # The following reasons can be added to the list:
+  # "NAME_TAG", "MUSHROOM_SHEAR", "SHEEP_SHEAR", "SNOWMAN_DERP",
+  # "SHEEP_DYE", "ENTITY_BREED".
   Split Checks:
   - NAME_TAG
   - MUSHROOM_SHEAR
   - SHEEP_SHEAR
+  - SNOWMAN_DERP
   - SHEEP_DYE
   - ENTITY_BREED
-  - SNOWMAN_DERP
 
   # Should entities only be stacked if they originate from a spawner?
   # It should be noted that the identifier that tells the plugin
@@ -190,9 +185,11 @@ Entities:
   Blacklisted Custom Entities:
   - mythicmobs_test
 
-#
-# Items
-#
+  # How many days must an entity be dormant before it is removed
+  # from the database? This setting will prevent dead entities killed incorrectly
+  # by other plugins from building up inside of your database and creating lag.
+  Database purge: 14
+
 Items:
 
   # Should items be stacked?
@@ -209,11 +206,10 @@ Items:
   Show Holograms For Blacklisted Items: true
 
   # The max stack size for items.
-  # Currently this can only be set to a max of 120.
   Max Stack Size: 512
 
   # The text displayed above a dropped item.
-  Name Format: '&f{TYPE} &6{AMT}x'
+  Name Format: '&f{TYPE} &r[&6{AMT}x]'
 
   # Should color codes in dropped item names be removed?
   # This is added only because it looks smoother in game. This is only visual and
@@ -238,9 +234,6 @@ Items:
   # for stacks containing two or more items.
   Show Stack Size For Single: false
 
-#
-# Stacked Spawner Settings.
-#
 Spawners:
 
   # Should spawners be stacked?
@@ -271,6 +264,9 @@ Spawners:
 
   # Chance of a creeper explosion dropping a spawner.
   Chance On Creeper Explosion: 100%
+
+  # If enabled mobs spawned by spawners will not move or attack.
+  Nerf Spawner Mobs: false
 
   # The text displayed above a stacked spawner where {TYPE} refers to
   # The entities type and {AMT} is the amount currently stacked.
@@ -303,9 +299,6 @@ Blocks:
   # The entities type and {AMT} is the amount currently stacked.
   Name Format: '&6{AMT}x &f{TYPE}'
 
-#
-# System related settings.
-#
 System:
 
   # The enabled language file.

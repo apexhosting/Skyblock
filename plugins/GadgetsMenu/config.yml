@@ -5,14 +5,15 @@
 #
 # If you enable mysql, you need to setup MySQL infos.
 Player-Data:
-  Storage: mysql
+  Storage: sqlite
   MySQL:
-    hostname: mysql.apexhosting.gdn
-    username: apexMC469269
-    database: apexMC469269
+    hostname: localhost
+    username: root
+    database: minecraft
     port: '3306'
-    password: sSf3hWJEKctvnvSjQy#qJo3!
+    password: password
     useSSL: false
+
 Cosmetic-Item-Purchase:
   # Set to true allows player to purchase cosmetic items.
   Enabled: true
@@ -36,7 +37,8 @@ Cosmetic-Item-Purchase:
   Reopen-GUI-Menu-After-Purchase: true
   # This command will be executed when player purchase a cosmetic item.
   # You need to change this depends on your permission plugin.
-  Execute-Command: pex user {PLAYER} add {PERMISSION}
+  Execute-Command: lp user {PLAYER} permission set {PERMISSION}
+
 # General settings.
 Settings:
   # The default pet's name.
@@ -78,17 +80,18 @@ Settings:
   Equip-Cosmetic-Item-To-Slot: WARN
   # Sync player's selected cosmetics when they join the server.
   Sync-Cosmetics-On-Join: true
+
 # The menu selector settings.
 Menu-Item:
   # The name of the selector.
-  Name: '&5&lCOSMETICS'
+  Name: '&aGadgetsMenu'
   # The material of the selector.
   # Material: https://github.com/OnlyNoobDied/GadgetsMenu/wiki/Material-Syntax
   Material: NETHER_STAR
   # Slot: 0-8
   Slot: 4
   # Should give player menu selector when they join the server.
-  Give-On-Join: true
+  Give-On-Join: false
   # The way to open menu selector.
   # Click Type: LEFT, RIGHT, LEFT_AND_RIGHT
   Click-Type: LEFT_AND_RIGHT
@@ -101,10 +104,13 @@ Menu-Item:
   - '&7More stuff will be added over time,'
   - '&7make sure to check our update forums!'
   - '&7Thanks you for supporting our server.'
+
 # List of the worlds where cosmetics are enabled!
 Enabled-Worlds:
-- SkyBlock
-- SkyBlock_nether
+- Skyblock_World
+- Skyblock_World_nether
+- Skyblock_World_the_end
+
 # List of the disabled cosmetics.
 # Set to true to disable it.
 Disabled-Cosmetics:
@@ -118,6 +124,7 @@ Disabled-Cosmetics:
   Banners: false
   Emotes: false
   Cloaks: false
+
 Permission:
   # When player doesn't have the permission of that item.
   No-Permission:
@@ -154,6 +161,7 @@ Permission:
     Play-Sound:
       Enabled: true
       Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
 # Discount the cost of an item when player purchase.
 Item-Cost-Discount:
   # Set to true will enable item cost discount.
@@ -239,6 +247,7 @@ Item-Cost-Discount:
         - ''
         - '&7Your Cost: &a{MVP_COST} &7Mystery Dust'
         - '&cYou need &b{COST_LEFT} &cmore mystery dust!'
+
 # When player clicks 'Go Back' button will execute these commands.
 # If you enabled this option, it won't open the main menu of GadgetsMenu.
 # Variables: {PLAYER}
@@ -247,10 +256,12 @@ Back-To-Main-Menu:
     Enabled: false
     Commands:
     - cc open menu.yml {PLAYER}
+
 # Set to true will fill the blank slots of inventories with the item you set.
 Fill-Empty-Slot-With-Item:
   Enabled: false
   Material: BLACK_STAINED_GLASS_PANE
+
 # List of commands that won't work when equip a cosmetic.
 # Type commands in lowercase without slashes.
 Disabled-Commands:
@@ -258,7 +269,9 @@ Disabled-Commands:
 - ah sell
 - cmi hat
 - cmi:cmi hat
+
 # Check for updates if you set to true.
 Check-Update: true
+
 # Do not edit this.
 Config-Version: 1.0.18

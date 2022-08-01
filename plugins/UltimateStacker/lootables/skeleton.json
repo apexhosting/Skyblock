@@ -2,18 +2,31 @@
   "Type": "SKELETON",
   "Loot": [
     {
+      "xp": 0,
       "Type": "ARROW",
       "Chance": 100.0,
       "Min": 0,
       "Max": 2,
-      "Looting": true
+      "Looting": true,
+      "requireCharged": false
     },
     {
+      "xp": 0,
       "Type": "BONE",
       "Chance": 100.0,
       "Min": 0,
       "Max": 2,
-      "Looting": true
+      "Looting": true,
+      "requireCharged": false
+    },
+    {
+      "xp": 0,
+      "Type": "SKELETON_SKULL",
+      "Chance": 100.0,
+      "Min": 1,
+      "Max": 1,
+      "Looting": true,
+      "requireCharged": true
     }
   ]
 }

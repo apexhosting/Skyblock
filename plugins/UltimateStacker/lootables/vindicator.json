@@ -2,6 +2,7 @@
   "Type": "VINDICATOR",
   "Loot": [
     {
+      "xp": 0,
       "Type": "EMERALD",
       "Chance": 100.0,
       "Min": 0,
@@ -9,7 +10,8 @@
       "Looting": true,
       "Only Drop For": [
         "PLAYER"
-      ]
+      ],
+      "requireCharged": false
     }
   ]
 }

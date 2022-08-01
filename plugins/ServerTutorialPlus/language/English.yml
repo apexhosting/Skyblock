@@ -1,0 +1,154 @@
+invalid-args: '&cInvalid args! Use /st help for help.'
+no-permissions: '&cYou don''t have permission for that!'
+player-only-command: '&cThis is player only command!'
+'yes': '&a&lYES'
+'no': '&c&lNO'
+add: '&a&lAdd'
+clear: clear
+completed: completed
+uncompleted: uncompleted
+times-played: Times played
+amount-of-points: Amount of points
+permission: Permission
+id: ID
+invisible: Invisible
+time: Time
+seconds: seconds(s)
+chat-messages: Chat messages
+reward-commands: Reward Commands
+npc-type: NPC type
+servertutorial-id: Server tutorial ID
+blocks-commands: Blocks commands
+white-listed-commands: Whitelisted commands
+chat-blocked: Chat Blocked
+none: None
+action-cancelled: '&eAction has been cancelled'
+nothhing-to-cancel: '&cThere is nothing to cancel!'
+player-lookup: '&a&lPlayer Lookup'
+lookup-set-unfinished: '&c[Set unfinished]'
+lookup-set-finished: '&e[Set finished]'
+lookup-set-unfinished-message: '&cClick to set the tutorial to &cunfinished'
+lookup-set-finished-message: '&cClick to set the tutorial to &afinished'
+tutorial-created: '&aSuccessfully created the server tutorial with ID:&e %id%'
+tutorial-removed: '&aSuccessfully removed the server tutorial with ID:&e %id%'
+tutorial-id-not-found: '&cCould not find an server tutorial with that ID.'
+command-apddpoint-commandhint: '&7[&eNotice&7] The user needs to execute the command
+  &e/st next &7to proceed this point.'
+command-hastobe-number: '&cThe index has to be an number'
+command-invalid-index: '&cThat''s not a valid index.'
+command-succesfully-left: '&aSuccessfully left the tutorial.'
+command-quit-notin: '&4You are not in a tutorial.'
+command-setblock-fail: '&cFailed to create the block. Don''t stand too far away from
+  the block you want to set!'
+command-setblock-succes: '&aSuccessfully created a new tutorial block. Block Type:
+  &e%type%&a Server tutorial: &e%id%'
+command-setting-set: '&aSuccessfully set the setting &e%setting%&a for tutorial:&e
+  %id%'
+command-setting-rewards-clear: '&aSuccessfully cleared all reward commands.'
+command-setting-rewards-added: '&aSuccessfully added the command.'
+command-setting-rewards-removed: '&aSuccessfully removed the reward command.'
+command-setting-commands-clear: '&aSuccessfully cleared all whitelisted commands.'
+command-setting-commands-added: '&aSuccessfully added the command to the whitelist.'
+command-setting-commands-removed: '&aSuccessfully removed the whitelisted command.'
+command-switch-successful: Successfully switched the points %1% and %2%
+command-move-successful: Successfully moved the point %1% in front off %2%
+command-argument-available: '&aAvailable arguments: &7%args%'
+command-editall-canbe: '&eArguments that can be mass edited: &7%args%'
+command-editall-succes: '&aSuccessfully edited all points'
+command-lookup-define-player: '&ePlease define a player to check. &7/st player <name>'
+command-lookup-uuid-error: '&cUnable to get the UUID of the targed player. Are you
+  sure he/she has played on this server before?'
+command-lookup-never-played: '&cThat player has never joined the server.'
+command-lookup-set: '&aSuccessfully set the tutorial to completed.'
+command-lookup-unset: '&cSuccessfully set the tutorial to incompleted.'
+command-lookup-set-error: '&cPlayer has already completed this tutorial.'
+command-lookup-unset-error: '&cPlayer has not yet completed this tutorial.'
+event-block-remove: '&cYou do not have permission to remove this tutorial block.'
+event-block-removed: '&aSuccessfully removed the tutorial block!'
+reload-stoptutorial: '&cYour tutorial has been cancelled because the plugin has been
+  reloaded.'
+reload-succes: '&aSuccessfully reloaded the plugin.'
+potion-effect-time: '&ePotion time: &7%ticks%&e ticks - &7%seconds%&e seconds (20
+  ticks = 1 second)'
+potion-effect-notime: '&eNo time was giving. Using the point time instead.'
+potion-effect-amplifier: 'Potion amplifier: %amp%'
+potion-effect-wrong-usage-1: '&cWrong usage. Hold a potion in your hand and use this
+  command: &7/st edit <id> <point> add potion <time> <level>'
+potion-effect-wrong-usage-2: '&cOr use this command: &7/st edit <id> <point> add potion
+  <potioneffect> <time (s)> <level>'
+firework-remove-info: '&eThis commands removes the nearest firework. No need for more
+  arguments.'
+firework-remove-failed: '&cCould not find a firework in a range of 1000 blocks.'
+firework-add-wrongusage: '&cWrong usage. Hold a firework in your hand.'
+current-time: 'Current time: %time%'
+title-notitle-set: '&cThis point does not have a title yet. Please set one before
+  setting timings.'
+title-current: '&eThe current &a%type%&e time is: &a%ticks%&e ticks.'
+setting-edited: '&aSuccessfully edited the setting: &e%setting%'
+save-succes: '&aSuccessfully saved all the tutorials and blocks.'
+point-removed: '&aSuccessfully removed the point&e %id%'
+point-invalid-type: '&cInvalid point type!'
+point-example-command-click: '&eClick to show the &a%type%&e point command'
+point-example-message: '&eClick one of the following options to show the correct command: '
+point-added: '&aSuccessfully added the new point.'
+info-none-existing: '&eThere do not exist any server tutorials at the moment.'
+info-more-info: '&7&oUse /st info <id> to get more info.'
+npc-id-exists: '&cThere already exists an NPC with that ID!'
+npc-tested-mobs: '&eTested mobs: &7'
+npc-wrong-type: '&cInvalid entity type. ''&e%type%&c'' (Does not exist)'
+npc-living-type: '&cEntity has to be a living type!'
+npc-creation-success: 'Successfully created a NPC with NPC ID: &e%id%&a that plays
+  server tutorial: &e%tutorial%'
+npc-selection-cancelled: '&cSelecting an NPC has been cancelled.'
+npc-selection-message: '&eRight click an NPC to select it. &7(or use the command again
+  to exit selection mode'
+npc-id-not-existing: '&cThere does not exist a NPC with ID: &e%id%'
+npc-removed-succes: '&aSuccessfully removed the NCP!'
+npc-text-change: '&aSuccessfully changed the text!'
+npc-height-change: '&aSuccessfully changed the height!'
+npc-player-selected: '&cTo prevent errors, you cannot select a player as NPC!'
+npc-invalid-entity: '&cThe entity you tried to bind is not supported.'
+npc-delete-chunk-unloaded: '&cCannot delete a NPC that''s in an unloaded chunk!'
+npc-info-none: '&eNo NPCs have been made yet!'
+npc-info-more-info: '&7&iUse /st npc info <id> to get more info.'
+help-help: Shows this helpful help.
+help-create: Create a new server tutorial.
+help-remove: Remove a server tutorial.
+help-addpoint: Add a point to a server tutorial.
+help-removepoint: Remove a point from a server tutorial
+help-edit: Edit settings of a servertutorial.
+help-editpoint: Edit a servertutorial point.
+help-editall: Edit all servertutorial point of a tutorial.
+help-info: Show info about a server tutorial.
+help-player: Shows info about the player
+help-gui: Opens a helpful GUI.
+help-play: Play a server tutorial.
+help-quit: Quit a server tutorial.
+help-playpoint: Play only 1 point of a server tutorial.
+help-setblock: Set a block that can be right clicked to start.
+help-npc: Spawn an NPC that can be right clicked to start.
+help-reload: Save current data to the configs.
+error-wait-to-end: '&cPlease wait for the current point to end!'
+error-player-offline: '&cThat player is currently not online!'
+error-person-in-tutorial: '&cThat person is already in a tutorial!'
+error-wait-to-end-tutorial: '&cPlease wait for the current tutorial to end before
+  starting a new one.'
+error-atleast-one-word: '&cYou need to enter a minimal of one word to add.'
+error-no-index: '&cPlease define a valid index.'
+error-notexisting-index: '&cThat index does not exist.'
+error-invalid-point: '&cPlease define a valid tutorial point.'
+error-editall: '&cFailed to set setting. Stopped editing the points.'
+error-invalid-number: '&cInvalid number.'
+error-failed-finding-tutorial: Failed to find server tutorial...
+error-failed-finding-tutorial-admin: '&cCould not find a server tutorial with the
+  id &e%id%&c. Please contact the server administrator.'
+error-invalid-effect: '&cInvalid potion effect.'
+error-invalid-time: '&cThat is not a valid time. (Time is in seconds)'
+error-invalid-amplifier: That is not a valid amplifier.
+error-command-blocked: '&cThat command has been blocked during the tutorial.'
+warning-tutorial-other-cancelled: '&eThe player (%username%) already had a tutorial
+  going on. The old one (%tutorial%) has been cancelled.'
+tip-editpoint: '&7[&aTIP&7] If you want to edit an point, use /st editpoint'
+wrong-command-format: '&cWrong arguments, please use the command like this: &7'
+unkown-argument: '&cUnknown arg. Possible args: &7'
+player-not-found: '&cUnable to find that player on this server.'

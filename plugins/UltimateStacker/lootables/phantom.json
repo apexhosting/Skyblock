@@ -2,6 +2,7 @@
   "Type": "PHANTOM",
   "Loot": [
     {
+      "xp": 0,
       "Type": "PHANTOM_MEMBRANE",
       "Chance": 100.0,
       "Min": 0,
@@ -9,7 +10,8 @@
       "Looting": true,
       "Only Drop For": [
         "PLAYER"
-      ]
+      ],
+      "requireCharged": false
     }
   ]
 }

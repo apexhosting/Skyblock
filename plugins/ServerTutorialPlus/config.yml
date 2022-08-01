@@ -1,0 +1,28 @@
+no permission command: '&cYou do not have permission to execute this command.'
+no permission tutorial: '&cYou do not have enough permissions to play this tutorial.'
+enable first join tutorial: false
+first join tutorial id: ''
+language: English
+npc:
+  # Whether the NPC should be removed if it is not found when starting the plugin.
+  # Best to disable this when using Citizens plugin.
+  remove-invalid: true
+  # The time between the first attempt to scan for NPCs and the second time. (seconds)
+  retry-time: 5
+command-whitelist:
+- w
+- msg
+- help
+- list
+- me
+- kittycannon
+datasource:
+  mysql:
+    # Should we use MySql to store data?
+    # If not: FlatFile option enabled.
+    enabled: false
+    username: root
+    password: root
+    host: localhost
+    port: 3306
+    database: minecraft

@@ -7,7 +7,7 @@
 ###############################################################################
 #
 # Example to block some ore mining and placement:
-# [coalore,goldore,ironore]
+# [coal_ore,gold_ore,iron_ore]
 # on-break=deny,log,kick
 # on-place=deny,tell
 #
@@ -19,6 +19,8 @@
 # - on-interact (when a block in used (doors, chests, etc.))
 # - on-drop (an item is being dropped from the player's inventory)
 # - on-acquire (an item enters a player's inventory via some method)
+# - on-equip (an item is equipped to the player's armor slots)
+#      NOTE: on-equip is overprotective due to deficiencies in Bukkit API
 # - on-dispense (a dispenser is about to dispense an item)
 #
 # Actions (for events):
@@ -40,7 +42,7 @@
 ###############################################################################
 #
 # For more information, see:
-# http://wiki.sk89q.com/wiki/WorldGuard/Blacklist
+# https://worldguard.enginehub.org/en/latest/blacklist/
 #
 ###############################################################################
 #
@@ -49,17 +51,12 @@
 #
 
 # Deny lava buckets
-#[lavabucket]
+#[lava_bucket]
 #ignore-perms=my.own.madeup.permission
 #ignore-groups=admins,mods
 #on-use=deny,tell
 
 # Deny some ore
-#[coalore,goldore,ironore]
-#ignore-groups=admins,mods
-#on-break=notify,deny,log
-
-# Some funky data value tests
-#[wood:0;>=2]
+#[coal_ore,gold_ore,iron_ore]
 #ignore-groups=admins,mods
 #on-break=notify,deny,log

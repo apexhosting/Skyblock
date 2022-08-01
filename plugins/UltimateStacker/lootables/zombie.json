@@ -2,13 +2,16 @@
   "Type": "ZOMBIE",
   "Loot": [
     {
+      "xp": 0,
       "Type": "ROTTEN_FLESH",
       "Chance": 100.0,
       "Min": 0,
       "Max": 2,
-      "Looting": true
+      "Looting": true,
+      "requireCharged": false
     },
     {
+      "xp": 0,
       "Chance": 2.5,
       "Min": 1,
       "Max": 1,
@@ -20,27 +23,34 @@
       "Child Loot Drop Count Max": 1,
       "Child Loot": [
         {
+          "xp": 0,
           "Type": "IRON_INGOT",
           "Chance": 100.0,
           "Min": 1,
           "Max": 1,
-          "Looting": false
+          "Looting": false,
+          "requireCharged": false
         },
         {
+          "xp": 0,
           "Type": "CARROT",
           "Chance": 100.0,
           "Min": 1,
           "Max": 1,
-          "Looting": false
+          "Looting": false,
+          "requireCharged": false
         },
         {
+          "xp": 0,
           "Type": "POTATO",
           "Chance": 100.0,
           "Min": 1,
           "Max": 1,
-          "Looting": false
+          "Looting": false,
+          "requireCharged": false
         }
-      ]
+      ],
+      "requireCharged": false
     }
   ]
 }

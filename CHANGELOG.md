@@ -1,5 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
+## 3.0
+
+- Revamped Skyblock.
+- Replaced Bentobox with IridiumSkyblock.
+- Added automated Mines.
+- Added custom island schematics.
+- Implemented 1.19 support.
+- Changed theme and cosmetics.
+- Updated Icon
 
 ## 2.6
 
@@ -89,7 +98,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
-[2.5]: https://github.com/apexhosting/KitPVP/releases/tag/2.6
+[3.0]: https://github.com/apexhosting/KitPVP/releases/tag/3.0
+[2.6]: https://github.com/apexhosting/KitPVP/releases/tag/2.6
 [2.5]: https://github.com/apexhosting/KitPVP/releases/tag/2.5
 [2.4]: https://github.com/apexhosting/KitPVP/releases/tag/2.4
 [2.3]: https://github.com/apexhosting/KitPVP/releases/tag/2.3

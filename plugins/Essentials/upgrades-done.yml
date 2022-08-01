@@ -1,7 +1,7 @@
-moverulesToFile: true
 updateSpawnsToNewSpawnsConfig: true
 updateJailsToNewJailsConfig: true
 warnMetrics: true
+moverulesToFile: true
 sanitizeAllUserFilenames: true
 updateUsersPowerToolsFormat: true
 updateUsersHomesFormat: true

@@ -2,13 +2,16 @@
   "Type": "DROWNED",
   "Loot": [
     {
+      "xp": 0,
       "Type": "ROTTEN_FLESH",
       "Chance": 100.0,
       "Min": 0,
       "Max": 2,
-      "Looting": true
+      "Looting": true,
+      "requireCharged": false
     },
     {
+      "xp": 0,
       "Type": "GOLD_INGOT",
       "Chance": 5.0,
       "Min": 1,
@@ -16,7 +19,8 @@
       "Looting": true,
       "Only Drop For": [
         "PLAYER"
-      ]
+      ],
+      "requireCharged": false
     }
   ]
 }

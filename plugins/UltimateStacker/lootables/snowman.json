@@ -2,11 +2,13 @@
   "Type": "SNOWMAN",
   "Loot": [
     {
+      "xp": 0,
       "Type": "SNOWBALL",
       "Chance": 100.0,
       "Min": 0,
       "Max": 15,
-      "Looting": true
+      "Looting": true,
+      "requireCharged": false
     }
   ]
 }

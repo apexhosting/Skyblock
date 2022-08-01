@@ -653,6 +653,10 @@ Gadgets:
         Name: '&6DJ Booth Gadget'
         Material: NOTE_BLOCK
         Duration-Seconds: 60
+        Blacklist:
+        - SAND
+        - GRAVEL
+        - SPAWNER
         Cooldown: 60
         Mystery Dust: 85
         Rarity: Legendary
@@ -665,10 +669,6 @@ Gadgets:
         - '&7never! Mesmerize your'
         - '&7friends with this DJ set'
         - '&7and dance floor.'
-        Blacklist:
-        - SAND
-        - GRAVEL
-        - SPAWNER
   Projectile:
     Name: '&eProjectile'
     Material: BOW
