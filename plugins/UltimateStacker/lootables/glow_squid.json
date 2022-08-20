@@ -1,0 +1,14 @@
+{
+  "Type": "GLOW_SQUID",
+  "Loot": [
+    {
+      "xp": 0,
+      "Type": "GLOW_INK_SAC",
+      "Chance": 100.0,
+      "Min": 1,
+      "Max": 3,
+      "Looting": true,
+      "requireCharged": false
+    }
+  ]
+}

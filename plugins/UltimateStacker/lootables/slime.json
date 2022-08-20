@@ -2,11 +2,13 @@
   "Type": "SLIME",
   "Loot": [
     {
+      "xp": 0,
       "Type": "SLIME_BALL",
       "Chance": 100.0,
       "Min": 0,
       "Max": 2,
-      "Looting": true
+      "Looting": true,
+      "requireCharged": false
     }
   ]
 }

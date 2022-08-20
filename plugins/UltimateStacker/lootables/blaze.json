@@ -2,6 +2,7 @@
   "Type": "BLAZE",
   "Loot": [
     {
+      "xp": 0,
       "Type": "BLAZE_ROD",
       "Chance": 100.0,
       "Min": 0,
@@ -9,7 +10,8 @@
       "Looting": true,
       "Only Drop For": [
         "PLAYER"
-      ]
+      ],
+      "requireCharged": false
     }
   ]
 }

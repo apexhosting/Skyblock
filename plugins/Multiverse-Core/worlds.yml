@@ -1,203 +1,15 @@
 worlds:
-  acidisland_world_the_end:
+  IridiumSkyblock_nether:
     ==: MVWorld
     hidden: 'false'
-    alias: acidisland_world_the_end
-    color: WHITE
-    style: NORMAL
-    pvp: 'true'
-    scale: '16.0'
-    respawnWorld: ''
-    allowWeather: 'true'
-    difficulty: NORMAL
-    spawning:
-      ==: MVSpawnSettings
-      animals:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-      monsters:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-    entryfee:
-      ==: MVEntryFee
-      amount: '0.0'
-    hunger: 'true'
-    autoHeal: 'true'
-    adjustSpawn: 'true'
-    portalForm: ALL
-    gameMode: SURVIVAL
-    keepSpawnInMemory: 'true'
-    spawnLocation:
-      ==: MVSpawnLocation
-      x: 1.5
-      y: 64.0
-      z: 0.5
-      pitch: 0.0
-      yaw: 0.0
-    autoLoad: 'true'
-    bedRespawn: 'true'
-    worldBlacklist: []
-    environment: THE_END
-    seed: '3977169630180904558'
-    generator: BentoBox
-    playerLimit: '-1'
-    allowFlight: 'true'
-  bskyblockx_world:
-    ==: MVWorld
-    hidden: 'false'
-    alias: bskyblockx_world
-    color: WHITE
-    style: NORMAL
-    pvp: 'true'
-    scale: '1.0'
-    respawnWorld: ''
-    allowWeather: 'true'
-    difficulty: NORMAL
-    spawning:
-      ==: MVSpawnSettings
-      animals:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-      monsters:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-    entryfee:
-      ==: MVEntryFee
-      amount: '0.0'
-    hunger: 'true'
-    autoHeal: 'true'
-    adjustSpawn: 'true'
-    portalForm: ALL
-    gameMode: SURVIVAL
-    keepSpawnInMemory: 'true'
-    spawnLocation:
-      ==: MVSpawnLocation
-      x: -20.773019386611608
-      y: 79.0
-      z: -33.65122607329077
-      pitch: -3.657007
-      yaw: 271.06177
-    autoLoad: 'true'
-    bedRespawn: 'true'
-    worldBlacklist: []
-    environment: NORMAL
-    seed: '1624166957075778676'
-    generator: BentoBox
-    playerLimit: '-1'
-    allowFlight: 'true'
-  SkyBlock:
-    ==: MVWorld
-    hidden: 'false'
-    alias: SkyBlock
-    color: WHITE
-    style: NORMAL
-    pvp: 'true'
-    scale: '1.0'
-    respawnWorld: ''
-    allowWeather: 'true'
-    difficulty: EASY
-    spawning:
-      ==: MVSpawnSettings
-      animals:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-      monsters:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-    entryfee:
-      ==: MVEntryFee
-      amount: '0.0'
-    hunger: 'true'
-    autoHeal: 'true'
-    adjustSpawn: 'true'
-    portalForm: ALL
-    gameMode: SURVIVAL
-    keepSpawnInMemory: 'true'
-    spawnLocation:
-      ==: MVSpawnLocation
-      x: -14.0
-      y: 73.0
-      z: 3.0
-      pitch: 0.0
-      yaw: 0.0
-    autoLoad: 'true'
-    bedRespawn: 'true'
-    worldBlacklist: []
-    environment: NORMAL
-    seed: '-502717728346108567'
-    generator: 'null'
-    playerLimit: '-1'
-    allowFlight: 'true'
-  bskyblockx_world_the_end:
-    ==: MVWorld
-    hidden: 'false'
-    alias: bskyblockx_world_the_end
-    color: WHITE
-    style: NORMAL
-    pvp: 'true'
-    scale: '16.0'
-    respawnWorld: ''
-    allowWeather: 'true'
-    difficulty: NORMAL
-    spawning:
-      ==: MVSpawnSettings
-      animals:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-      monsters:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-    entryfee:
-      ==: MVEntryFee
-      amount: '0.0'
-    hunger: 'true'
-    autoHeal: 'true'
-    adjustSpawn: 'true'
-    portalForm: ALL
-    gameMode: SURVIVAL
-    keepSpawnInMemory: 'true'
-    spawnLocation:
-      ==: MVSpawnLocation
-      x: 0.0
-      y: 126.0
-      z: 0.0
-      pitch: 0.0
-      yaw: 0.0
-    autoLoad: 'true'
-    bedRespawn: 'true'
-    worldBlacklist: []
-    environment: THE_END
-    seed: '-2259657589901871042'
-    generator: BentoBox
-    playerLimit: '-1'
-    allowFlight: 'true'
-  oneblock_world_nether:
-    ==: MVWorld
-    hidden: 'false'
-    alias: oneblock_world_nether
+    alias: IridiumSkyblock_nether
     color: WHITE
     style: NORMAL
     pvp: 'true'
     scale: '8.0'
     respawnWorld: ''
     allowWeather: 'true'
-    difficulty: NORMAL
+    difficulty: EASY
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -221,27 +33,27 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 0.0
-      y: 93.0
-      z: 0.0
+      x: 8.0
+      y: 64.0
+      z: 8.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NETHER
-    seed: '2770586149209941269'
+    seed: '-6375591711857874976'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  World:
+  Skyblock_World_nether:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: Skyblock_World_nether
     color: WHITE
     style: NORMAL
     pvp: 'true'
-    scale: '1.0'
+    scale: '8.0'
     respawnWorld: ''
     allowWeather: 'true'
     difficulty: EASY
@@ -268,176 +80,35 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 64.0
-      y: 73.0
-      z: -544.0
+      x: -112.0
+      y: 58.0
+      z: -80.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: NORMAL
-    seed: '5156236140975692184'
+    environment: NETHER
+    seed: '7311129599132869779'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  World_the_end:
+  Mine:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
-    color: WHITE
-    style: NORMAL
-    pvp: 'true'
-    scale: '16.0'
-    respawnWorld: ''
-    allowWeather: 'true'
-    difficulty: EASY
-    spawning:
-      ==: MVSpawnSettings
-      animals:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-      monsters:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-    entryfee:
-      ==: MVEntryFee
-      amount: '0.0'
-    hunger: 'true'
-    autoHeal: 'true'
-    adjustSpawn: 'true'
-    portalForm: ALL
-    gameMode: SURVIVAL
-    keepSpawnInMemory: 'true'
-    spawnLocation:
-      ==: MVSpawnLocation
-      x: 0.0
-      y: 64.0
-      z: 32.0
-      pitch: 0.0
-      yaw: 0.0
-    autoLoad: 'true'
-    bedRespawn: 'true'
-    worldBlacklist: []
-    environment: THE_END
-    seed: '-4174629038482930743'
-    generator: 'null'
-    playerLimit: '-1'
-    allowFlight: 'true'
-  acidisland_world:
-    ==: MVWorld
-    hidden: 'false'
-    alias: acidisland_world
+    alias: Mine
     color: WHITE
     style: NORMAL
     pvp: 'true'
     scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
-    difficulty: NORMAL
+    difficulty: PEACEFUL
     spawning:
       ==: MVSpawnSettings
       animals:
         ==: MVSpawnSubSettings
         spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-      monsters:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-    entryfee:
-      ==: MVEntryFee
-      amount: '0.0'
-    hunger: 'true'
-    autoHeal: 'true'
-    adjustSpawn: 'true'
-    portalForm: ALL
-    gameMode: SURVIVAL
-    keepSpawnInMemory: 'true'
-    spawnLocation:
-      ==: MVSpawnLocation
-      x: -104.0
-      y: 64.0
-      z: 24.0
-      pitch: 0.0
-      yaw: 0.0
-    autoLoad: 'true'
-    bedRespawn: 'true'
-    worldBlacklist: []
-    environment: NORMAL
-    seed: '-1941898114902320450'
-    generator: BentoBox
-    playerLimit: '-1'
-    allowFlight: 'true'
-  oneblock_world:
-    ==: MVWorld
-    hidden: 'false'
-    alias: oneblock_world
-    color: WHITE
-    style: NORMAL
-    pvp: 'true'
-    scale: '1.0'
-    respawnWorld: ''
-    allowWeather: 'true'
-    difficulty: NORMAL
-    spawning:
-      ==: MVSpawnSettings
-      animals:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-      monsters:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-    entryfee:
-      ==: MVEntryFee
-      amount: '0.0'
-    hunger: 'true'
-    autoHeal: 'true'
-    adjustSpawn: 'true'
-    portalForm: ALL
-    gameMode: SURVIVAL
-    keepSpawnInMemory: 'true'
-    spawnLocation:
-      ==: MVSpawnLocation
-      x: -86.5
-      y: 0.0
-      z: 216.5
-      pitch: 0.0
-      yaw: 0.0
-    autoLoad: 'true'
-    bedRespawn: 'true'
-    worldBlacklist: []
-    environment: NORMAL
-    seed: '-2552546124293060810'
-    generator: BentoBox
-    playerLimit: '-1'
-    allowFlight: 'true'
-  hub:
-    ==: MVWorld
-    hidden: 'false'
-    alias: hub
-    color: WHITE
-    style: NORMAL
-    pvp: 'true'
-    scale: '1.0'
-    respawnWorld: ''
-    allowWeather: 'true'
-    difficulty: EASY
-    spawning:
-      ==: MVSpawnSettings
-      animals:
-        ==: MVSpawnSubSettings
-        spawn: 'false'
         spawnrate: '-1'
         exceptions: []
       monsters:
@@ -456,30 +127,30 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 0.513993349807998
-      y: 100.0
-      z: 0.11525379754022662
-      pitch: 11.545181
-      yaw: -91.15886
+      x: 0.0
+      y: 65.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '0'
-    generator: 'null'
+    seed: '-1264800395768334228'
+    generator: VoidGen
     playerLimit: '-1'
     allowFlight: 'true'
-  bskyblockx_world_nether:
+  Warzone:
     ==: MVWorld
     hidden: 'false'
-    alias: bskyblockx_world_nether
+    alias: Warzone
     color: WHITE
     style: NORMAL
     pvp: 'true'
-    scale: '8.0'
+    scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
-    difficulty: NORMAL
+    difficulty: HARD
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -504,73 +175,26 @@ worlds:
     spawnLocation:
       ==: MVSpawnLocation
       x: 0.0
-      y: 64.0
+      y: 74.0
       z: 0.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: NETHER
-    seed: '-5186590524879584519'
-    generator: BentoBox
+    environment: NORMAL
+    seed: '1528744226245404867'
+    generator: VoidGen
     playerLimit: '-1'
     allowFlight: 'true'
-  acidisland_world_nether:
+  Skyblock_World_the_end:
     ==: MVWorld
     hidden: 'false'
-    alias: acidisland_world_nether
+    alias: Skyblock_World_the_end
     color: WHITE
     style: NORMAL
     pvp: 'true'
-    scale: '8.0'
-    respawnWorld: ''
-    allowWeather: 'true'
-    difficulty: NORMAL
-    spawning:
-      ==: MVSpawnSettings
-      animals:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-      monsters:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-    entryfee:
-      ==: MVEntryFee
-      amount: '0.0'
-    hunger: 'true'
-    autoHeal: 'true'
-    adjustSpawn: 'true'
-    portalForm: ALL
-    gameMode: SURVIVAL
-    keepSpawnInMemory: 'true'
-    spawnLocation:
-      ==: MVSpawnLocation
-      x: 3.5
-      y: 64.0
-      z: 3.5
-      pitch: 0.0
-      yaw: 0.0
-    autoLoad: 'true'
-    bedRespawn: 'true'
-    worldBlacklist: []
-    environment: NETHER
-    seed: '6274940906883211036'
-    generator: BentoBox
-    playerLimit: '-1'
-    allowFlight: 'true'
-  World_nether:
-    ==: MVWorld
-    hidden: 'false'
-    alias: ''
-    color: WHITE
-    style: NORMAL
-    pvp: 'true'
-    scale: '8.0'
+    scale: '16.0'
     respawnWorld: ''
     allowWeather: 'true'
     difficulty: EASY
@@ -598,15 +222,156 @@ worlds:
     spawnLocation:
       ==: MVSpawnLocation
       x: 0.0
-      y: 8.0
+      y: 59.0
       z: 0.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: NETHER
-    seed: '-4174629038482930743'
+    environment: THE_END
+    seed: '7311129599132869779'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
+  Skyblock_World:
+    ==: MVWorld
+    hidden: 'false'
+    alias: Skyblock_World
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '1.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: PEACEFUL
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 79.83457599023231
+      y: 135.0
+      z: 55.789943145023294
+      pitch: 0.7498727
+      yaw: 94.4812
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NORMAL
+    seed: '-6075919737159770280'
+    generator: VoidGen
+    playerLimit: '-1'
+    allowFlight: 'true'
+  IridiumSkyblock:
+    ==: MVWorld
+    hidden: 'false'
+    alias: IridiumSkyblock
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '1.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: EASY
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 40.0
+      y: 64.0
+      z: -152.0
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NORMAL
+    seed: '-7814530035373614651'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
+  IridiumSkyblock_the_end:
+    ==: MVWorld
+    hidden: 'false'
+    alias: IridiumSkyblock_the_end
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '16.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: EASY
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 8.0
+      y: 64.0
+      z: 8.0
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: THE_END
+    seed: '4805969899358016572'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'

@@ -1,0 +1,113 @@
+# Customize this file to change all shop items inside the main shop screen
+# For more info about this file, please visit our wiki here: https://gpplugins.gitbook.io/economyshopgui/file-configuration/sections.yml
+
+ShopSections:
+
+  Blocks:
+    enable: true
+    material: "GRASS_BLOCK"
+    displayname: "&2&lBlocks"
+    place: 19
+
+  Decoration:
+    enable: true
+    material: "TUBE_CORAL"
+    displayname: "&9&lDecoration"
+    place: 30
+
+  Dyes:
+    enable: true
+    material: "CYAN_DYE"
+    displayname: "&2&lDyes"
+    place: 23
+
+  Enchanting:
+    enable: true
+    material: "ENCHANTED_BOOK"
+    displayname: "&d&lEnchanting"
+    place: 22
+    lore:
+    - "&5&lGear up with enchantments!"
+
+  Farming:
+    enable: true
+    material: "WHEAT"
+    displayname: "&a&lFarming"
+    place: 20
+
+  Food:
+    enable: true
+    material: "COOKED_BEEF"
+    displayname: "&6&lFood"
+    place: 25
+
+  Mobs:
+    enable: true
+    material: "GUNPOWDER"
+    displayname: "&7&lMobs"
+    place: 21
+
+  Music:
+    enable: true
+    material: "MUSIC_DISC_STRAD"
+    displayname: "&6&lMusic"
+    place: 14
+
+  Ores:
+    enable: true
+    material: "IRON_INGOT"
+    displayname: "&f&lOres"
+    place: 13
+
+  Others:
+    enable: true
+    material: "SADDLE"
+    displayname: "&c&lOthers"
+    place: 24
+
+  Potions:
+    enable: true
+    material: "POTION"
+    displayname: "&d&lPotions + Tipped Arrows"
+    potion-glow: true
+    place: 40
+
+  Redstone:
+    enable: true
+    material: "REDSTONE"
+    displayname: "&c&lRedstone"
+    place: 32
+    lore:
+    - "&4&lFor all redstone geeks!"
+
+  Spawners:
+    enable: true
+    material: "SPAWNER"
+    displayname: "&8&lSpawners"
+    place: 31
+
+  Workstations:
+    enable: true
+    material: "GRINDSTONE"
+    displayname: "&7&lWorkstations"
+    place: 12
+    lore:
+    - "&8&lGive your villager a job,"
+    - "&8&lor use it for your own."
+
+  SpawnEggs:
+    enable: false
+    material: "BAT_SPAWN_EGG"
+    displayname: "&8&lSpawnEggs"
+    place: 4
+
+  Z_EverythingElse:
+    enable: false
+    material: "BEDROCK"
+    displayname: "Z_EverythingElse"
+    place: 41
+
+Fill-item:
+  material: "GRAY_STAINED_GLASS_PANE"
+  name: " "
+  enable: true

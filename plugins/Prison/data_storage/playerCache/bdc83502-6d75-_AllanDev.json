@@ -1,0 +1,31 @@
+{
+  "playerUuid": "bdc83502-6d75-4c26-a633-729e9ed81aee",
+  "playerName": "AllanDev",
+  "lastSeenDate": 1659366018606,
+  "onlineTimeTotal": 4468417,
+  "onlineAFKTimeTotal": 0,
+  "onlineMiningTimeTotal": 0,
+  "blocksTotal": 1566,
+  "blocksByMine": {
+    "Ores": 1560,
+    "WoodMine": 6
+  },
+  "blocksByType": {
+    "acacia_log": 1,
+    "copper_ore": 28,
+    "diamond_ore": 20,
+    "emerald_ore": 20,
+    "gold_ore": 11,
+    "iron_ore": 22,
+    "oak_log": 5,
+    "stone": 1459
+  },
+  "timeByMine": {},
+  "earningsByMine": {},
+  "tokens": 0,
+  "tokensTotal": 0,
+  "tokensTotalAdminAdded": 0,
+  "tokensTotalAdminRemoved": 0,
+  "tokensLastBlocksTotals": 0,
+  "tokensByMine": {}
+}

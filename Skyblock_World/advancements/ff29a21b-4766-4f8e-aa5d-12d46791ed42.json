@@ -1,0 +1,28 @@
+{
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2022-06-23 12:50:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2022-06-23 12:50:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2022-06-23 12:50:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dark_forest": "2022-06-23 12:50:23 +0000",
+      "minecraft:ocean": "2022-06-23 12:50:31 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

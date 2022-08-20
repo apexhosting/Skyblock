@@ -2,18 +2,22 @@
   "Type": "IRON_GOLEM",
   "Loot": [
     {
+      "xp": 0,
       "Type": "POPPY",
       "Chance": 100.0,
       "Min": 0,
       "Max": 2,
-      "Looting": true
+      "Looting": true,
+      "requireCharged": false
     },
     {
+      "xp": 0,
       "Type": "IRON_INGOT",
       "Chance": 100.0,
       "Min": 3,
       "Max": 5,
-      "Looting": true
+      "Looting": true,
+      "requireCharged": false
     }
   ]
 }

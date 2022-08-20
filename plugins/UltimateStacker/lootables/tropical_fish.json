@@ -2,20 +2,25 @@
   "Type": "TROPICAL_FISH",
   "Loot": [
     {
+      "xp": 0,
       "Type": "TROPICAL_FISH",
       "Chance": 100.0,
       "Min": 1,
       "Max": 1,
-      "Looting": true
+      "Looting": true,
+      "requireCharged": false
     },
     {
+      "xp": 0,
       "Type": "BONE_MEAL",
       "Chance": 5.0,
       "Min": 1,
       "Max": 1,
-      "Looting": true
+      "Looting": true,
+      "requireCharged": false
     },
     {
+      "xp": 0,
       "Type": "BONE",
       "Chance": 25.0,
       "Min": 1,
@@ -23,7 +28,8 @@
       "Looting": true,
       "Only Drop For": [
         "PLAYER"
-      ]
+      ],
+      "requireCharged": false
     }
   ]
 }

@@ -1,55 +1,20 @@
 # Multiverse-Inventories Groups
 
-
-
-# To ADD, DELETE, and EDIT groups use the command /mvinv group.
-# No support will be given for those who manually edit these groups.
-# To ADD, DELETE, and EDIT groups use the command /mvinv group.
-# No support will be given for those who manually edit these groups.
-# To ADD, DELETE, and EDIT groups use the command /mvinv group.
-# No support will be given for those who manually edit these groups.
-# To ADD, DELETE, and EDIT groups use the command /mvinv group.
-# No support will be given for those who manually edit these groups.
-# To ADD, DELETE, and EDIT groups use the command /mvinv group.
-# No support will be given for those who manually edit these groups.
-# To ADD, DELETE, and EDIT groups use the command /mvinv group.
-# No support will be given for those who manually edit these groups.
-# To ADD, DELETE, and EDIT groups use the command /mvinv group.
-# No support will be given for those who manually edit these groups.
-# To ADD, DELETE, and EDIT groups use the command /mvinv group.
-# No support will be given for those who manually edit these groups.
-# To ADD, DELETE, and EDIT groups use the command /mvinv group.
-# No support will be given for those who manually edit these groups.
-# To ADD, DELETE, and EDIT groups use the command /mvinv group.
-# No support will be given for those who manually edit these groups.
-# To ADD, DELETE, and EDIT groups use the command /mvinv group.
-# No support will be given for those who manually edit these groups.
 # To ADD, DELETE, and EDIT groups use the command /mvinv group.
 # No support will be given for those who manually edit these groups.
 groups:
   default:
     worlds:
-    - world
-    - world_nether
-    shares:
-    - all
-  lobby:
-    worlds:
-    - SkyBlock
-    shares:
-    - all
-  skyblock:
-    worlds:
-    - hub
-    - bskyblockx_world
-    - bskyblockx_world_the_end
-    - bskyblockx_world_nether
-    shares:
-    - all
-  acidisland:
-    worlds:
-    - acidisland_world
-    - acidisland_world_the_end
-    - acidisland_world_nether
+    - skyblock_world
+    - skyblock_world_the_end
+    - skyblock_world_nether
+    - IridiumSkyblock_nether
+    - Skyblock_World_nether
+    - Mine
+    - Warzone
+    - Skyblock_World_the_end
+    - Skyblock_World
+    - IridiumSkyblock
+    - IridiumSkyblock_the_end
     shares:
     - all

@@ -2,12 +2,14 @@
   "Type": "DOLPHIN",
   "Loot": [
     {
+      "xp": 0,
       "Type": "COD",
       "Burned Type": "COOKED_COD",
       "Chance": 100.0,
       "Min": 0,
       "Max": 1,
-      "Looting": true
+      "Looting": true,
+      "requireCharged": false
     }
   ]
 }

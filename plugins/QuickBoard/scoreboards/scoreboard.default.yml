@@ -1,35 +1,34 @@
 title:
-  - ' &7&lAPEX &a&LSKYBLOCK'
+  - '&7&lAPEX &b&lSKYBLOCK'
 text:
-  - '&2----------------'
-  - '&2&l> &a&lPLAYER INFO'
-  - '&aMoney: &a$&7%vault_eco_balance_fixed%'
-  - '&7Rank: %vault_prefix%'
-  - '&2----------------'
-  - '&2&l> &a&lSERVER INFO'
-  - '&aOnline: &7%server_online% '
-  - '&aTime Played:'
-  - '&7%statistic_time_played%'
-  - '&2----------------'
-  - '&2&l> &a&lSKYBLOCK LVL'
-  - '&7Skyblock: &A%Level_bskyblock_island_level%' 
-  - '&7Acid Island: &A%Level_acidisland_island_level%' 
-  - '&2----------------'
-  - '&askyblock.apexmc.co'
+  - '&7&o%localtime_time%'
+  - ''
+  - '&3☆ &b&lSKYBLOCK STATS:'
+  - '&7Island Level &b%iridiumskyblock_island_level%'
+  - '&7Rank: &d#%iridiumskyblock_island_top_1_level%'
+  - ''
+  - '&3☆ &b&lPLAYER STATS'
+  - '&7Money: &a%vault_eco_balance_fixed%'
+  - '&bRank: %vault_prefix%'
+  - ''
+  - '&3☆ &b&lMINES CAPACITY'
+  - '&eOres: %prison_mines_percent_Ores% &7/ &cWood: %prison_mines_percent_WoodMine%'
+  - ''
+  - '&bsb.apexmc.co'
 updater:
   title: 3
   text: 5
 enabledWorlds:
-  - bskyblockx_world
-  - bskyblockx_world_the_end
-  - bskyblockx_world_nether
-  - acidisland_world
-  - acidisland_world_nether
-  - acidisland_world_the_end
-  - hub
-  - SkyBlock
-  - SkyBlock_nether
-  - SkyBlock_the_end
+  - world
+  - Lobby
+  - IridiumSkyblock_nether
+  - Skyblock_World_nether
+  - Warzone
+  - Mine
+  - IridiumSkyblock
+  - Skyblock_World
+  - Skyblock_World_the_end
+  - IridiumSkyblock_the_end
 changeableText:
   perm_info:
     text:

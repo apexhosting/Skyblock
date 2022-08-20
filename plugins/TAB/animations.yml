@@ -99,47 +99,23 @@ Welcome:
 time:
   change-interval: 900
   texts:
-  - '&7Time &2%time%'
-  - '&7> Time &2%time% &7<'
-  - '&7>> Time &2%time% &7<<'
-  - '&7>>> Time &2%time% &7<<<'
-  - '&7Date &2%date%'
-  - '&7> Date &2%date% &7<'
-  - '&7>> Date &2%date% &7<<'
-  - '&7>>> Date &2%date% &7<<<'
+  - '&7Time &b%time%'
+  - '&7> Time &b%time% &7<'
+  - '&7>> Time &b%time% &7<<'
+  - '&7>>> Time &b%time% &7<<<'
+  - '&7Date &b%date%'
+  - '&7> Date &b%date% &7<'
+  - '&7>> Date &b%date% &7<<'
+  - '&7>>> Date &b%date% &7<<<'
 ping-tps:
   change-interval: 5000
   texts:
   - '&aPing: &2&n%ping%&r &ams'
-  - '&8Server TPS: &a%tps%'
-admin_prefix:
-  change-interval: 1000
-  texts:
-  - '&6&lAdmin &e'
-  - '&6&lAdmin &e'
-  - '&9&lAdmin &e'
-  - '&9&lAdmin &e'
-  - '&4&lAdmin &e'
-  - '&4&lAdmin &e'
-  - '&3&lAdmin &e'
-  - '&3&lAdmin &e'
-  - '&2&lAdmin &e'
-  - '&2&lAdmin &e'
-  - '&d&lAdmin &e'
-  - '&d&lAdmin &e'
-  - '&f&lAdmin &e'
-  - '&f&lAdmi &e'
-  - '&f&lAdm &e'
-  - '&f&lAd &e'
-  - '&f&lA &e'
-  - '&f&lAd &e'
-  - '&f&lAdm &e'
-  - '&f&lAdmi &e'
-  - '&f&lAdmin &e'
+  - '&bServer TPS: &8%tps%'
 barcolors:
   change-interval: 1000
   texts:
-  - RED
-  - BLUE
-  - GREEN
-  - YELLOW
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW

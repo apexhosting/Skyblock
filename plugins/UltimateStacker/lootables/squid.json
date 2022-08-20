@@ -2,11 +2,13 @@
   "Type": "SQUID",
   "Loot": [
     {
+      "xp": 0,
       "Type": "INK_SAC",
       "Chance": 100.0,
       "Min": 1,
       "Max": 3,
-      "Looting": true
+      "Looting": true,
+      "requireCharged": false
     }
   ]
 }

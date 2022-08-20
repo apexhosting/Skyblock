@@ -1,0 +1,147 @@
+tutorials:
+  tutorial:
+    stats:
+      plays: 1
+    invisible: true
+    permission: false
+    block-chat: true
+    blocks-commands: true
+    rewards: []
+    command-whitelist: []
+    points:
+      '0':
+        type: TIMED
+        location: Skyblock_World 65.34991435878433 134.0625 54.088352133179846 92.268585
+          3.599885
+        time: 4.0
+        locplayer: true
+        locview: true
+        messages:
+        - '&7Welcome!'
+        commands: []
+        title:
+          title: '&7&lAPEX &b&lSKYBLOCK'
+          subtitle: '&eWelcome to our brand new skyblock server!'
+          fade-in: 10
+          stay: 50
+          fade-out: 50
+        sound:
+          sound: ENTITY_FIREWORK_ROCKET_LAUNCH
+          pitch: 1.0
+          volume: 1.0
+      '1':
+        type: TIMED
+        location: Skyblock_World 15.439202257732111 134.0 41.712067419319354 124.81741
+          6.449887
+        time: 4.0
+        locplayer: true
+        locview: true
+        messages:
+        - '&7This the all warping gate!'
+        commands: []
+        title:
+          title: '&c&lWARPS'
+          subtitle: '&7You can warp to any point on the server from here!'
+          fade-in: 10
+          stay: 50
+          fade-out: 50
+        sound:
+          sound: ENTITY_FIREWORK_ROCKET_LARGE_BLAST
+          pitch: 1.0
+          volume: 1.0
+      '2':
+        type: TIMED
+        location: Mine 251.43287884674592 99.0 307.3745389040905 -87.45444 15.299313
+        time: 4.0
+        locplayer: true
+        locview: true
+        messages:
+        - '&7Time to get some diamonds!'
+        commands: []
+        title:
+          title: '&c&lMINE'
+          subtitle: '&7Out of materials on your island?'
+          fade-in: 10
+          stay: 50
+          fade-out: 50
+        sound:
+          sound: BLOCK_ANVIL_USE
+          pitch: 1.0
+          volume: 1.0
+      '3':
+        type: TIMED
+        location: Mine 77.161594937615 97.0 121.39392151451091 -93.30346 8.999723
+        time: 4.0
+        locplayer: true
+        locview: true
+        messages:
+        - '&7No trees?'
+        commands: []
+        title:
+          title: '&c&lWOOD MINE'
+          subtitle: '&7Out of wood on your island?'
+          fade-in: 10
+          stay: 50
+          fade-out: 50
+        sound:
+          sound: BLOCK_WOOD_PLACE
+          pitch: 1.0
+          volume: 1.0
+      '4':
+        type: TIMED
+        location: Skyblock_World 116.5 153.0 326.5 -91.48318 -0.04381928
+        time: 4.0
+        locplayer: true
+        locview: true
+        messages:
+        - '&7Hey there, I have come to bargain!'
+        commands: []
+        title:
+          title: '&c&lSHOPS'
+          subtitle: '&7Find anything you need here!'
+          fade-in: 10
+          stay: 50
+          fade-out: 50
+        sound:
+          sound: ENTITY_PLAYER_LEVELUP
+          pitch: 1.0
+          volume: 1.0
+      '5':
+        type: TIMED
+        location: Warzone 0.05335394193489292 74.0 4.213510984523503 176.55304 2.3999112
+        time: 4.0
+        locplayer: true
+        locview: true
+        messages:
+        - '&7This is the battleworld on which you can hunt or be hunted!'
+        commands: []
+        title:
+          title: '&c&lBATTLEWORLD'
+          subtitle: '&7Hunt or be hunted!'
+          fade-in: 10
+          stay: 50
+          fade-out: 50
+        sound:
+          sound: ENTITY_ENDER_DRAGON_GROWL
+          pitch: 1.0
+          volume: 1.0
+      '6':
+        type: TIMED
+        location: Skyblock_World 80.88407567597847 135.0 57.686065348483 107.8409
+          4.199892
+        time: 1.0
+        locplayer: false
+        locview: false
+        messages:
+        - '&eYou are back at the spawn now!'
+        commands: []
+        title:
+          title: '&c&lSPAWN'
+          subtitle: '&eBack to the spawn you go!'
+          fade-in: 10
+          stay: 50
+          fade-out: 50
+        sound:
+          sound: ENTITY_ENDERMAN_TELEPORT
+          pitch: 1.0
+          volume: 1.0

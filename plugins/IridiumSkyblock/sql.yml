@@ -1,0 +1,8 @@
+---
+driver: "SQLITE"
+host: "localhost"
+database: "IridiumSkyblock"
+username: ""
+password: ""
+port: 3306
+useSSL: false

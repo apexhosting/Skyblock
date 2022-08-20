@@ -558,8 +558,8 @@ Error: '{PREFIX}&cAn error occurred while performing this operation!'
 No-Permission: '{PREFIX}&cYou don''t have the required permission {PERMISSION}!'
 World-Disabled: '{PREFIX}&cYou don''t have permission to do that in this world!'
 Scanning-Player-Data-Files: '{PREFIX}&eScanning player data files...'
-Deleted-Player-Data-Files: '{PREFIX}&c{DELETED_FILES} &efiles has been deleted and
-  have &a{NON_DELETED_FILES} &efiles left.'
+Deleted-Player-Data-Files: '{PREFIX}&c{DELETED_FILES} &efile(s) hav been deleted and
+  &a{NON_DELETED_FILES} &efile(s) left.'
 Folder-Is-Empty: '{PREFIX}&cDoesn''t find any player data files.'
 Banners-Are-Disabled: '{PREFIX}&cCosmetic banners are disabled!'
 Cloaks-Are-Disabled: '{PREFIX}&cCosmetic cloaks are disabled!'
@@ -606,6 +606,7 @@ Reset-Suit-Helmet: '&eReset your Helmet.'
 Reset-Suit-Chestplate: '&eReset your Chestplate.'
 Reset-Suit-Leggings: '&eReset your Leggings.'
 Reset-Suit-Boots: '&eReset your Boots.'
+Cosmetic-Reset-Completed: '&eCosmetic reset completed.'
 Characters-Too-Long: '{PREFIX}&cThe pet''s name cannot be longer than {CHARACTERS}
   characters!'
 Does-Not-Support-Characters: '{PREFIX}&cYou can only use English alphabet for the
@@ -654,15 +655,14 @@ Added-MysteryDust: '{PREFIX}&eYou''ve successfully added &b{MYSTERY_DUST} &emyst
   dust to &b{PLAYER}&e.'
 Added-MysteryDust-To-All-Players: '{PREFIX}&eYou''ve successfully added &b{MYSTERY_DUST}
   &emystery dust to &b{ONLINE} &eplayer(s).'
-Check-MysteryDust: '&e{PLAYER} have &b{MYSTERY_DUST} &eMystery Dust.'
+Check-MysteryDust: '&e{PLAYER} has &b{MYSTERY_DUST} &eMystery Dust.'
 Received-MysteryDust: '{PREFIX}&eYou''ve received &b{MYSTERY_DUST} &emystery dust
   from &b{PLAYER}&e.'
 Removed-MysteryDust: '{PREFIX}&eYou''ve removed &b{MYSTERY_DUST} &emystery dust from
   &b{PLAYER}&e.'
 Sent-MysteryDust: '{PREFIX}&eYou''ve sent &b{MYSTERY_DUST} &emystery dust to &b{PLAYER}&e.'
 Set-MysteryDust: '{PREFIX}&eYou''ve set &b{MYSTERY_DUST} &emystery dust for &b{PLAYER}&e.'
-Only-Have-MysteryDust: '{PREFIX}&b{PLAYER} &conly have &b{MYSTERY_DUST} &cmystery
-  dust!'
+Only-Have-MysteryDust: '{PREFIX}&b{PLAYER} &chas only &b{MYSTERY_DUST} &cmystery dust!'
 Removed-MysteryDust-From-Player: '{PREFIX}&b{MYSTERY_DUST} &emystery dust has been
   removed from your account.'
 Set-Player-MysteryDust: '{PREFIX}&eYour mystery dust have been set to &b{MYSTERY_DUST}&e.'
@@ -705,7 +705,7 @@ Received-Gift: '&aYou received a gift from &r{PLAYER}&a! Visit a &bMystery Vault
   open it!'
 Mystery-Box-Was-Expired: '{PREFIX}&cThis mystery box was expired. Please open your
   mystery box before it''s expired.'
-Check-Mystery-Boxes: '&e{PLAYER} have &b{MYSTERY_BOXES} &eMystery Boxes.'
+Check-Mystery-Boxes: '&e{PLAYER} has &b{MYSTERY_BOXES} &eMystery Boxes.'
 Select-Mystery-Vault-Animation: '&eYou selected &b{ANIMATION} &efor your mystery vault
   animation.'
 Not-Enough-Mystery-Boxes: '&cYou do not have enough mystery boxes can be opened.'
@@ -762,4 +762,3 @@ Days: days
 No-Cosmetic-Equipped: none
 No-Recent-Loot-Found: none
 Loading: '&cLoading...'
-Cosmetic-Reset-Completed: '&eCosmetic reset completed.'

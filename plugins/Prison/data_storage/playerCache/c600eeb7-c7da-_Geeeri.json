@@ -1,0 +1,23 @@
+{
+  "playerUuid": "c600eeb7-c7da-4bdd-bff1-d26e71001d39",
+  "playerName": "Geeeri",
+  "lastSeenDate": 1658554179303,
+  "onlineTimeTotal": 819963,
+  "onlineAFKTimeTotal": 0,
+  "onlineMiningTimeTotal": 0,
+  "blocksTotal": 13,
+  "blocksByMine": {
+    "WoodMine": 13
+  },
+  "blocksByType": {
+    "oak_log": 13
+  },
+  "timeByMine": {},
+  "earningsByMine": {},
+  "tokens": 0,
+  "tokensTotal": 0,
+  "tokensTotalAdminAdded": 0,
+  "tokensTotalAdminRemoved": 0,
+  "tokensLastBlocksTotals": 0,
+  "tokensByMine": {}
+}

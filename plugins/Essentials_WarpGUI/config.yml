@@ -1,0 +1,11 @@
+!config-version: 2.5
+
+
+# Set the title from the inventory
+inv-title: &3Warps
+
+# If it's enabled, /warps will open the GUI too
+includecmd-warps: true
+
+# The minimum height of the gui. Shouldn't be greater than 6
+gui-height: 0

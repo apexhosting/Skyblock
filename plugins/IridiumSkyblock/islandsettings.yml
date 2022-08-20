@@ -1,0 +1,129 @@
+---
+mobSpawn:
+  modifiable: true
+  item:
+    material: "ZOMBIE_HEAD"
+    amount: 1
+    displayName: "&b&lMob Spawn"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Allow mobs to spawn on your Island."
+    - ""
+    - "&b&lValue"
+    - "&7%value%"
+    slot: 10
+  defaultValue: "true"
+leafDecay:
+  modifiable: true
+  item:
+    material: "OAK_LEAVES"
+    amount: 1
+    displayName: "&b&lLeaf Decay"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Allow leaves to decay on your Island."
+    - ""
+    - "&b&lValue"
+    - "&7%value%"
+    slot: 11
+  defaultValue: "true"
+weather:
+  modifiable: true
+  item:
+    material: "SNOWBALL"
+    amount: 1
+    displayName: "&b&lIsland Weather"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Change the weather of your Island."
+    - ""
+    - "&b&lValue"
+    - "&7%value%"
+    slot: 12
+  defaultValue: "DEFAULT"
+time:
+  modifiable: true
+  item:
+    material: "CLOCK"
+    amount: 1
+    displayName: "&b&lIsland Time"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Change your Island time."
+    - ""
+    - "&b&lValue"
+    - "&7%value%"
+    slot: 13
+  defaultValue: "DEFAULT"
+endermanGrief:
+  modifiable: true
+  item:
+    material: "ENDER_PEARL"
+    amount: 1
+    displayName: "&b&lEnderman Grief"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Allow enderman to grief your Island."
+    - ""
+    - "&b&lValue"
+    - "&7%value%"
+    slot: 14
+  defaultValue: "true"
+liquidFlow:
+  modifiable: true
+  item:
+    material: "WATER_BUCKET"
+    amount: 1
+    displayName: "&b&lLiquid Flow"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Allow Water and Lava to flow on your Island."
+    - ""
+    - "&b&lValue"
+    - "&7%value%"
+    slot: 15
+  defaultValue: "true"
+tntDamage:
+  modifiable: true
+  item:
+    material: "TNT"
+    amount: 1
+    displayName: "&b&lTnT Damage"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Allow TnT to explode on your Island."
+    - ""
+    - "&b&lValue"
+    - "&7%value%"
+    slot: 16
+  defaultValue: "true"
+fireSpread:
+  modifiable: true
+  item:
+    material: "FLINT_AND_STEEL"
+    amount: 1
+    displayName: "&b&lFire Spread"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    lore:
+    - "&7Allow fire to spread on your Island."
+    - ""
+    - "&b&lValue"
+    - "&7%value%"
+    slot: 19
+  defaultValue: "true"

@@ -1,0 +1,24 @@
+{
+  "playerUuid": "7e418993-7482-43b2-a8f6-740d6a308ce5",
+  "playerName": "LordSherman",
+  "lastSeenDate": 1658381435338,
+  "onlineTimeTotal": 39942,
+  "onlineAFKTimeTotal": 0,
+  "onlineMiningTimeTotal": 0,
+  "blocksTotal": 2,
+  "blocksByMine": {
+    "WoodMine": 2
+  },
+  "blocksByType": {
+    "acacia_log": 1,
+    "oak_log": 1
+  },
+  "timeByMine": {},
+  "earningsByMine": {},
+  "tokens": 0,
+  "tokensTotal": 0,
+  "tokensTotalAdminAdded": 0,
+  "tokensTotalAdminRemoved": 0,
+  "tokensLastBlocksTotals": 0,
+  "tokensByMine": {}
+}

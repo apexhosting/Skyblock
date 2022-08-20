@@ -1,0 +1,34 @@
+{
+  "playerUuid": "f0e7f028-4955-4dc8-8e40-d334ef0bd19a",
+  "playerName": "AllanStrat",
+  "lastSeenDate": 1658258054554,
+  "onlineTimeTotal": 5662553,
+  "onlineAFKTimeTotal": 0,
+  "onlineMiningTimeTotal": 0,
+  "blocksTotal": 3329,
+  "blocksByMine": {
+    "Ores": 2605,
+    "WoodMine": 724
+  },
+  "blocksByType": {
+    "acacia_log": 245,
+    "cobblestone": 55,
+    "copper_ore": 53,
+    "crimson_stem": 9,
+    "diamond_ore": 29,
+    "emerald_ore": 25,
+    "gold_ore": 52,
+    "iron_ore": 54,
+    "jungle_log": 260,
+    "oak_log": 210,
+    "stone": 2337
+  },
+  "timeByMine": {},
+  "earningsByMine": {},
+  "tokens": 0,
+  "tokensTotal": 0,
+  "tokensTotalAdminAdded": 0,
+  "tokensTotalAdminRemoved": 0,
+  "tokensLastBlocksTotals": 0,
+  "tokensByMine": {}
+}

@@ -3,15 +3,11 @@
 general:
   nametag:
     prefix: '&8[&6UltimateStacker&8]'
-
 # Command Messages
-
 command:
   give:
     success: '&7Shoma Yek &6%type% &7Daryaft Kardid.'
-
 # Event Messages
-
 event:
   general:
     nopermission: '&cShoma Ejaze In Kar Ra Nadarid.'

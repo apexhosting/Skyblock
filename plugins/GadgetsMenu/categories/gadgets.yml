@@ -653,6 +653,10 @@ Gadgets:
         Name: '&6DJ Booth Gadget'
         Material: NOTE_BLOCK
         Duration-Seconds: 60
+        Blacklist:
+        - SAND
+        - GRAVEL
+        - SPAWNER
         Cooldown: 60
         Mystery Dust: 85
         Rarity: Legendary

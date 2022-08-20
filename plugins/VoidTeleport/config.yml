@@ -1,0 +1,113 @@
+#-----------------------------------------------------------------------------------------------------------------------#
+#                                                                                                                       #
+#         ███████╗███╗   ██╗██████╗ ██╗     ███████╗███████╗███████╗ ██████╗  █████╗ ███╗   ███╗███████╗███████╗        #
+#         ██╔════╝████╗  ██║██╔══██╗██║     ██╔════╝██╔════╝██╔════╝██╔════╝ ██╔══██╗████╗ ████║██╔════╝██╔════╝        #
+#         █████╗  ██╔██╗ ██║██║  ██║██║     █████╗  ███████╗███████╗██║  ███╗███████║██╔████╔██║█████╗  ███████╗        #
+#         ██╔══╝  ██║╚██╗██║██║  ██║██║     ██╔══╝  ╚════██║╚════██║██║   ██║██╔══██║██║╚██╔╝██║██╔══╝  ╚════██║        #
+#         ███████╗██║ ╚████║██████╔╝███████╗███████╗███████║███████║╚██████╔╝██║  ██║██║ ╚═╝ ██║███████╗███████║        #
+#         ╚══════╝╚═╝  ╚═══╝╚═════╝ ╚══════╝╚══════╝╚══════╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚══════╝        #
+#                  _____ _        _ _                                   _                  __                           #
+#                 |_   _| |      | (_)                                 (_)                / _|                          #
+#                   | | | |_ __ _| |_  __ _ _ __    ___  ___ _ ____   ___  ___ ___  ___  | |_ ___  _ __                 #
+#                   | | | __/ _` | | |/ _` | '_ \  / __|/ _ \ '__\ \ / / |/ __/ _ \/ __| |  _/ _ \| '__|                #
+#                  _| |_| || (_| | | | (_| | | | | \__ \  __/ |   \ V /| | (_|  __/\__ \ | || (_) | |                   #
+#                 |_____|\__\__,_|_|_|\__,_|_| |_| |___/\___|_|    \_/ |_|\___\___||___/ |_| \___/|_|                   #
+#                                          _               _                _                      _                    #
+#                                         | |             | |              | |                    | |                   #
+#                 _   _  ___  _   _ _ __  | |__   ___  ___| |_   _ __   ___| |___      _____  _ __| | __                #
+#                | | | |/ _ \| | | | '__| | '_ \ / _ \/ __| __| | '_ \ / _ \ __\ \ /\ / / _ \| '__| |/ /                #
+#                | |_| | (_) | |_| | |    | |_) |  __/\__ \ |_  | | | |  __/ |_ \ V  V / (_) | |  |   <                 #
+#                 \__, |\___/ \__,_|_|    |_.__/ \___||___/\__| |_| |_|\___|\__| \_/\_/ \___/|_|  |_|\_\                #
+#                  __/ |                                                                                                #
+#                 |___/                                                                                                 #
+#                                                                                                                       #
+#                               Welcome to the main configuration file (VoidTeleport v2.4.2)                            #
+#                                   This plugin is currently supporting 1.8.x - 1.19.x                                  #
+#                                                                                                                       #
+#                            Contact us at SpigotMC if you're having any issues or suggestions                          #
+#                                              Spigot Name: EndlessGames                                                #
+#                                                                                                                       #
+#-----------------------------------------------------------------------------------------------------------------------#
+
+#-----------------------------------------------------------------------------------------------------------------------#
+#                                                _                                                                      #
+#                                               | |                                                                     #
+#                                               | |     __ _ _ __   __ _                                                #
+#                                               | |    / _` | '_ \ / _` |                                               #
+#                                               | |___| (_| | | | | (_| |                                               #
+#                                               \_____/\__,_|_| |_|\__, |                                               #
+#                                                                   __/ |                                               #
+#                                                                  |___/                                                #
+#                                                                                                                       #
+#-----------------------------------------------------------------------------------------------------------------------#
+
+prefix: "&8&l[&3&lVoidTeleport&8&l]"
+
+help:
+  - "&8&l&m---------------------------------------------"
+  - "&3&l                  VoidTeleport v%version"
+  - "&8&l&m---------------------------------------------"
+  - "&a/vt list &7- List of worlds where VoidTeleport is enabled"
+  - "&a/vt toggle [world] &7- Toggle VoidTeleport in that world"
+  - ""
+  - "&a/vt setspawn [world]"
+  - "&a/vt offset <world> <y>"
+  - "&a/vt keepinventory <world> <true/false>"
+  - "&a/vt nether [world] [true/false]"
+  - ""
+  - "&a/vt reload &7- Reload the configuration files"
+  - "&8&l&m---------------------------------------------"
+
+list:
+  header:
+    - "&8&l&m------------------------------------"
+    - "&3&l             VoidTeleport"
+    - "&8&l&m------------------------------------"
+  body: "&aEnabled worlds: "
+  footer:
+    - "&8&l&m------------------------------------"
+
+usage:
+  toggle: "%prefix &7Use &c/vt toggle [world]"
+  offset: "%prefix &7Use &c/vt offset <world> <y>"
+  setspawn: "%prefix &7Use &c/vt setspawn [world]"
+  keepinventory: "%prefix &7Use &c/vt keepinventory <world> <true/false>"
+  nether: "%prefix &7Use &c/vt nether <world> <true/false>"
+
+player-teleported: "%prefix &7You have been successfully teleported!"
+
+nether-message: "%prefix &cYou can't go over the nether roof!"
+
+empty-list: "%prefix &7Coudn't find any set condition. Use /vt setspawn <worldName> to start setting!"
+
+world-spawnpoint-notset: "%prefix &cBefore toggling VoidTeleport, you need to set the spawn point in that world."
+
+offset-set: "%prefix &7You have set the teleportation offset to %offset for the %world world"
+
+setspawn-success: "%prefix &7The spawnpoint has been set &asuccessfully&7."
+
+keepinventory-success: "%prefix &7KeepInventory has been set &asuccessfully&7."
+
+nether-world: "%prefix &7You cannot change this setting of a nether world"
+
+nether-success: "%prefix &7Nether has been set &asuccessfully&7."
+
+nether-unsuccess: "%prefix &cThe %world world is not a nether world"
+
+nether-already-disabled: "%prefix &cNether is already disabled."
+
+reload-success: "%prefix &7The config has been reloaded!"
+
+voidteleport-enabled: "%prefix &7You have enabled VoidTeleport in the world %world"
+
+voidteleport-disabled: "%prefix &7You have disabled VoidTeleport in the world %world"
+
+only-player: "%prefix &cThis command can be executed only by players."
+
+no-permission: "%prefix &cYou don't have enough permission to do that."
+
+spawnpoint-notset: "%prefix &cJust set the spawn point in that world /vt setspawn <worldname>."
+
+world-not-enabled: "%prefix &cThe world %world isn't enabled! Type the command '/vt setspawn/toggle %world' to start setting up."
+
+world-not-exists: "%prefix &cWorld not exists. Check it!"

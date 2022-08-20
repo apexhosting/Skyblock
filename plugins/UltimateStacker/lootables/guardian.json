@@ -2,13 +2,16 @@
   "Type": "GUARDIAN",
   "Loot": [
     {
+      "xp": 0,
       "Type": "PRISMARINE_SHARD",
       "Chance": 100.0,
       "Min": 0,
       "Max": 2,
-      "Looting": true
+      "Looting": true,
+      "requireCharged": false
     },
     {
+      "xp": 0,
       "Chance": 100.0,
       "Min": 1,
       "Max": 1,
@@ -17,23 +20,29 @@
       "Child Loot Drop Count Max": 1,
       "Child Loot": [
         {
+          "xp": 0,
           "Type": "COD",
           "Burned Type": "COOKED_COD",
           "Chance": 50.0,
           "Min": 1,
           "Max": 1,
-          "Looting": true
+          "Looting": true,
+          "requireCharged": false
         },
         {
+          "xp": 0,
           "Type": "PRISMARINE_CRYSTALS",
           "Chance": 33.0,
           "Min": 1,
           "Max": 1,
-          "Looting": true
+          "Looting": true,
+          "requireCharged": false
         }
-      ]
+      ],
+      "requireCharged": false
     },
     {
+      "xp": 0,
       "Chance": 2.5,
       "Min": 1,
       "Max": 1,
@@ -45,38 +54,43 @@
       "Child Loot Drop Count Max": 1,
       "Child Loot": [
         {
+          "xp": 0,
           "Type": "COD",
-          "Data": -1,
           "Chance": 60.0,
           "Min": 1,
           "Max": 1,
-          "Looting": false
+          "Looting": false,
+          "requireCharged": false
         },
         {
+          "xp": 0,
           "Type": "SALMON",
-          "Data": -1,
           "Chance": 25.0,
           "Min": 1,
           "Max": 1,
-          "Looting": false
+          "Looting": false,
+          "requireCharged": false
         },
         {
+          "xp": 0,
           "Type": "PUFFERFISH",
-          "Data": -1,
           "Chance": 13.0,
           "Min": 1,
           "Max": 1,
-          "Looting": false
+          "Looting": false,
+          "requireCharged": false
         },
         {
+          "xp": 0,
           "Type": "TROPICAL_FISH",
-          "Data": -1,
           "Chance": 2.0,
           "Min": 1,
           "Max": 1,
-          "Looting": false
+          "Looting": false,
+          "requireCharged": false
         }
-      ]
+      ],
+      "requireCharged": false
     }
   ]
 }
