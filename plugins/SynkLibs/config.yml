@@ -1,0 +1,2 @@
+# After changing this, type /sl reload. Determines what language will be used by the plugin. For it to work, it needs to be translated in the Crowdin. Otherwise, English will be used by default. If you wish to customize the messages, write custom. This applies to all of my plugins
+lang: en

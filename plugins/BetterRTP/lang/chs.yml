@@ -34,6 +34,7 @@ Messages:
     Remove: '&c已移除，&7你移除了自定义世界%world%。'
 
 Help:
+  Location: ' &7- &e/%command% location <location_name> &7- Rtp using a specific location'
   Prefix: '&e&m-----&6&l BetterRTP &8| 帮助菜单 &e&m-----'
   Main: ' &7- &e/%command% &7- 将你随机传送！'
   Biome: ' &7- &e/%command% biome <生物群系1, 生物群系2...> &7- 在这些指定的群系中随机传送。'
@@ -49,11 +50,20 @@ Help:
 #  Location: ' &7- &e/%command% location <location_name> &7- Rtp using a specific location'
 
 Usage:
+  Location: '&cUsage&7: /%command% location <location_name>'
   Player: '&c用法&7：/%command% player <玩家> [世界] [生物群系1, 生物群系2]'
   World: '&c用法&7：/%command% world <世界> [生物群系1, 生物群系2...]'
   Biome: '&c用法&7：/%command% biome <生物群系1, 生物群系2...>'
   #  Location: '&cUsage&7: /%command% location <location_name>'
   Edit:
+    PermissionGroup: '&cUsage&7: /%command% edit permission_group <group> <world>
+      <max/min/useworldborder/center> <value>'
+    Location: '&cUsage&7: /%command% edit location <location_name> <max/min/useworldborder/center>
+      <value>'
+    Worldtype: '&cUsage&7: /%command% edit world_type <world> <NETHER/NORMAL>'
+    Override: '&cUsage&7: /%command% edit override <world> <world_to>'
+    BlacklistedBlocks: '&cUsage&7: /%command% edit blacklistedblocks <add/remove>
+      <block_id>'
     Base: '&c用法&7：/%command% edit <default/世界> [参数...]'
     Default: '&c用法&7：/%command% edit default <max/min/useworldborder/center> <值>'
     World: '&c用法&7：/%command% edit world <world> <max/min/useworldborder/center> <值>'

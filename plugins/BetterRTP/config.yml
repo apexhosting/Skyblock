@@ -4,7 +4,17 @@
 Language-File: en.yml
 
 Settings:
+  Logger:
+    Enabled: true # Log all things rtp related to the log.log file
+    LogToConsole: false
+    Format: yyyy-MM-dd HH:mm:ss
   Respect:
+    MinePlots: false
+    Pueblos: false
+    SaberFactions: false
+    HuskTowns: false
+    FactionsBridge: false
+    CrashClaim: false
     # # Respect WorldGuard areas (https://dev.bukkit.org/projects/worldguard)
     WorldGuard: false
     # # Respect GriefPrevention areas (https://www.spigotmc.org/resources/griefprevention.1884/)
@@ -53,6 +63,7 @@ Settings:
   DisableUpdater: false
 
 Default:
+  RTPOnDeath: false
   UseWorldBorder: false
   # # "Biomes: []" means all biomes are allowed! #
   # # Biomes are optional, more biomes at https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/block/Biome.html #

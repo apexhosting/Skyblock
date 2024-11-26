@@ -1,0 +1,66 @@
+version: '3.1'
+
+# The title of the inventory
+inventory-title: '&b&lSkyBlock Warps'
+
+# The title of the inventory that will be displayed on pages 2+
+inventory-title-page: Warps - Page {page}
+
+# The height of the inventory. Must be between 1-6. Use -1 for auto resize
+inventory-height: -1
+
+# Whether an auto-formatting shall be applied at the given axis
+# You may choose between:
+#  - NONE: Items get added from left to right / top to bottom
+#  - CENTRALIZED: Items will be formatted as OOOXXXOOO (X = Item, O = Air)
+#  - ALIGNED: Items will be formatted as OXOXOXOXO (X = Item, O = Air)
+inventory-center-x: CENTRALIZED
+inventory-center-y: NONE
+
+# The amount of offset there shall be for the warp items
+inventory-offset-top: 1
+inventory-offset-right: 1
+inventory-offset-left: 1
+inventory-offset-bottom: 1
+
+# Fill the empty slots with some material
+inventory-background-material: white_stained_glass_pane
+inventory-offset-material:  gray_stained_glass_pane
+
+# A bar at the bottom will be displayed with a button to switch to the next page in case there are too many items
+next-page-bar-material: GRAY_STAINED_GLASS_PANE
+next-page-button-material: ARROW
+
+# Sound that is being played on various events
+# Note that custom resource pack sounds only are supported with 1.9+
+sound:
+  open:
+    name: ENTITY_CHICKEN_EGG
+    is-custom-resource-pack: false
+    volume: 0.7
+    pitch: 1.5
+  close:
+    name: ENTITY_CHICKEN_EGG
+    is-custom-resource-pack: false
+    volume: 0.7
+    pitch: 0.5
+  click-warp:
+    name: UI_BUTTON_CLICK
+    is-custom-resource-pack: false
+    volume: 0.7
+    pitch: 1.5
+  teleport-warp:
+    name: BLOCK_END_PORTAL_SPAWN
+    is-custom-resource-pack: false
+    volume: 0.3
+    pitch: 2.0
+  switch-page:
+    name: ENTITY_HORSE_STEP_WOOD
+    is-custom-resource-pack: false
+    volume: 1.0
+    pitch: 1.2
+
+# The commands with which the warp GUI shall open
+listen-to-commands:
+- warps
+- warp

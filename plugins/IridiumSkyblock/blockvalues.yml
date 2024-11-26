@@ -41,3 +41,5 @@ spawnerValues:
     name: "&b&lPig Spawner"
     page: 1
     slot: 10
+valueLore: "&9Value: &7%block_value%"
+teamValueLore: "&9Team Value: &7%total_block_value% (%total_blocks%)"

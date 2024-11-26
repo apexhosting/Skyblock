@@ -1,0 +1,16 @@
+location: Warzone:-0.186:76.9:1.189
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&4&lBATTLEWORLD'
+    height: 0.3
+  - content: '&eKill or be killed!'
+    height: 0.3
+  - content: '#ICON: netherite_sword'
+    height: 0.3
+  actions: {}

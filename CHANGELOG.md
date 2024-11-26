@@ -1,5 +1,35 @@
 # Changelog
 All notable changes to this project will be documented in this file.
+## 4.0
+
+# SKYBLOCK UPDATED TO 1.20.6
+# UPGRADING WILL RESULT IN ISLAND PROGRESS RESETTING
+
+### Changed
+- Updated to Minecraft 1.20.6
+- Updated all plugins to their latest versions.
+- Updated README.md to reflect current plugin list.
+- Updated MOTD player count from 2022 to 2024.
+- Updated all Papi expansions.
+- Updated LuckPerms data and a few permissions.
+- Updated worlds using 1.20.6 server to ensure all chunk data is up-to-date.
+- Updated /warps GUI to give it a revamped look.
+- Updated scoreboard to make it more consistent.
+- Added plugin CoreProtect.
+- Added plugin SilkSpawners.
+- Added plugin SynkLibs.
+- Added plugin NexusAuctionHouse.
+- Added plugin DecentHolograms.
+- Added plugin AnimatedScoreboard
+- Removed plugin Holographic Displays; no longer supported, replaced.
+- Removed plugin QuickBoard; no longer supported, replaced.
+- Removed old Essentials_WarpGUI config folder.
+- Removed some populated database files.
+- Fixed EconomyShopGUI language files.
+- Fixed Citizen NPC shop commands.
+- Fixed null regen value in IridiumSkyblock schematics.yml.
+- Fixed placeholder issue with TAB groups file.
+
 ## 3.0
 
 - Revamped Skyblock.
@@ -98,6 +128,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
+[4.0]: https://github.com/apexhosting/KitPVP/releases/tag/4.0
 [3.0]: https://github.com/apexhosting/KitPVP/releases/tag/3.0
 [2.6]: https://github.com/apexhosting/KitPVP/releases/tag/2.6
 [2.5]: https://github.com/apexhosting/KitPVP/releases/tag/2.5

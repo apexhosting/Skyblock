@@ -116,12 +116,12 @@ Spawners:
   WOLF:
     Max Stack Size: -1
     Display Name: Wolf
-  MUSHROOM_COW:
+  MOOSHROOM:
     Max Stack Size: -1
-    Display Name: Mushroom cow
-  SNOWMAN:
+    Display Name: Mooshroom
+  SNOW_GOLEM:
     Max Stack Size: -1
-    Display Name: Snowman
+    Display Name: Snow golem
   OCELOT:
     Max Stack Size: -1
     Display Name: Ocelot
@@ -218,3 +218,36 @@ Spawners:
   GOAT:
     Max Stack Size: -1
     Display Name: Goat
+  ALLAY:
+    Max Stack Size: -1
+    Display Name: Allay
+  FROG:
+    Max Stack Size: -1
+    Display Name: Frog
+  TADPOLE:
+    Max Stack Size: -1
+    Display Name: Tadpole
+  WARDEN:
+    Max Stack Size: -1
+    Display Name: Warden
+  CAMEL:
+    Max Stack Size: -1
+    Display Name: Camel
+  SNIFFER:
+    Max Stack Size: -1
+    Display Name: Sniffer
+  BREEZE:
+    Max Stack Size: -1
+    Display Name: Breeze
+  ARMADILLO:
+    Max Stack Size: -1
+    Display Name: Armadillo
+  BOGGED:
+    Max Stack Size: -1
+    Display Name: Bogged
+  MUSHROOM_COW:
+    Max Stack Size: -1
+    Display Name: Mushroom cow
+  SNOWMAN:
+    Max Stack Size: -1
+    Display Name: Snowman

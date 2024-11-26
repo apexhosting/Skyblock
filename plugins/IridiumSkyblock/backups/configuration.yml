@@ -1,0 +1,156 @@
+---
+prefix: "<GRADIENT:09C6F9>&lIridiumSkyblock</GRADIENT:045DE9> &8»"
+worldName: "IridiumSkyblock"
+islandCreateTitle: "&b&lIsland Created"
+islandCreateSubTitle: "&7IridiumSkyblock by Peaches_MLG"
+dateTimeFormat: "EEEE, MMMM dd HH:mm:ss"
+spawnWorldName: "world"
+defaultCommandSyntax: "/is %command%"
+islandLevelEquation: "abs(cbrt($1+1))"
+defaultIslandName: "%island_owner_name%'s Island"
+enableCheckVersion: true
+defaultIslandPublic: true
+voidTeleport: true
+netherIslands: true
+endIslands: true
+respawnOnIsland: true
+obsidianBucket: true
+patreonMessage: true
+islandMenu: true
+backButtons: true
+createIslandOnHome: true
+regenSettings:
+  moneyPrice: 0.0
+  crystalPrice: 0
+  clearInventories: false
+  clearEnderChests: false
+  resetIslandBank: false
+  resetVaultBalances: false
+  resetUpgrades: true
+  resetMissions: true
+  resetBoosters: true
+  clearWarps: true
+  resetBorderColour: true
+  resetPermissions: true
+  unbanAll: false
+  giveUpInvites: true
+  kickMembers: false
+  makeIslandPrivate: false
+deleteSettings:
+  clearInventories: false
+  clearEnderChests: false
+  resetVaultBalances: false
+pvpSettings:
+  pvpOnIslands: false
+  pvpBetweenMembers: false
+  mobsVisitorTargeting: false
+  membersPreventedDamages:
+  - "ENTITY_EXPLOSION"
+  - "BLOCK_EXPLOSION"
+  visitorsPreventedDamages:
+  - "PROJECTILE"
+  - "FIRE"
+  - "FALL"
+  - "MAGIC"
+  - "ENTITY_EXPLOSION"
+  - "BLOCK_EXPLOSION"
+  - "FLY_INTO_WALL"
+  - "FALLING_BLOCK"
+  - "THORNS"
+  - "ENTITY_ATTACK"
+  - "HOT_FLOOR"
+  - "LAVA"
+  - "CONTACT"
+  - "FIRE_TICK"
+distance: 151
+islandRecalculateInterval: 5
+maxIslandName: 16
+minIslandName: 3
+teleportDelay: 0
+islandCrystal:
+  material: "NETHER_STAR"
+  amount: 1
+  displayName: "&b*** &b&lIsland Crystal &b***"
+  headData: null
+  headOwner: null
+  headOwnerUUID: null
+  lore:
+  - ""
+  - "&b%amount% Island Crystals"
+  - "&b&l[!] &bRight-Click to Redeem"
+  slot: null
+islandLevelUpSound: "ENTITY_PLAYER_LEVELUP"
+numberFormatter:
+  numberAbbreviationDecimalPlaces: 2
+  thousandAbbreviation: "K"
+  millionAbbreviation: "M"
+  billionAbbreviation: "B"
+  trillionAbbreviation: "T"
+  displayNumberAbbreviations: true
+generatorSettings:
+  generatorType: "SKYBLOCK"
+  waterHeight: 93
+  minOceanFloorLevel: 10
+  maxOceanFloorLevel: 25
+  oceanFloorBottomMaterial: "GRAVEL"
+  oceanFloorTopMaterial: "SAND"
+islandTopSlots:
+  1: 4
+  2: 12
+  3: 14
+  4: 19
+  5: 20
+  6: 21
+  7: 22
+  8: 23
+  9: 24
+  10: 25
+islandWarpSlots:
+  1: 9
+  2: 11
+  3: 13
+  4: 15
+  5: 17
+islandLevelRewards:
+  1:
+    item:
+      material: "EXPERIENCE_BOTTLE"
+      amount: 1
+      displayName: "&b&lLevel %island_level% Reward"
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore:
+      - "&7Island Level %island_level% Rewards:"
+      - "&b&l* &b5 Island Crystals"
+      - "&b&l* &b200 Island Money"
+      - ""
+      - "&b&l[!] &bLeft click to redeem"
+      slot: null
+    commands: []
+    islandExperience: 0
+    crystals: 5
+    money: 200.0
+    experience: 0
+    sound: "ENTITY_PLAYER_LEVELUP"
+  5:
+    item:
+      material: "EXPERIENCE_BOTTLE"
+      amount: 1
+      displayName: "&b&lLevel %island_level% Reward"
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      lore:
+      - "&7Island Level %island_level% Rewards:"
+      - "&b&l* &b15 Island Crystals"
+      - "&b&l* &b2000 Island Money"
+      - ""
+      - "&b&l[!] &bLeft click to redeem"
+      slot: null
+    commands: []
+    islandExperience: 0
+    crystals: 15
+    money: 2000.0
+    experience: 0
+    sound: "ENTITY_PLAYER_LEVELUP"

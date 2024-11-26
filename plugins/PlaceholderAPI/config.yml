@@ -41,6 +41,15 @@ expansions:
       low: '&c'
       medium: '&e'
     server_name: A Minecraft Server
+    time:
+      locale: en-US
+      zone: UTC
+      suffix:
+        week: w
+        day: d
+        hour: h
+        minute: m
+        second: s
   localtime:
     date_format: dd/MM/yyyy hh:mma
   vault:

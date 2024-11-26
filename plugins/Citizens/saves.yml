@@ -9,50 +9,44 @@ npc:
     name: §d§lENCHANTS §7[RIGHT CLICK]
     uuid: 18c9bc6d-f010-4bf2-8331-0eccb9d5930e
     traits:
-      age:
-        age: 0
-        locked: true
+      age: {}
       skintrait:
-        fetchDefaultSkin: true
         signature: uK4/UnusZQQdsIQ1i60grlcpWnzTueFdEMd6NhHAeWfPq1umWKKzkJWUsZSxyHNvqIitK2xBn1c0XE0pUPneBpb5Eq47TNx9AKedAmd9+yaLI+hjLfZypKWAPfinjg/nL99TuDMOnwNynMxfiv6wqiUXm5oDoAZfXmAJs3QsDz7bcvg8+turmaCeLOQ6kqHD8H1ogkJQ2MrvdqLuaO+i9j2AJBInJX2pw5680pM4JEnSzqmzi/OiJz+Inur+BMsMrLveMVsNQwVHWDDbCCIkp4sFIhMEF3pLzdEa2idGgmlYKRlPOGTQ+4LIswnabqXeQZOkDHCfPXRcO2eznCwnOWIS4cqJTaZb0mHcJAx/KuN9y9KHs4KOjLsVULkZlSTr7qlQxygK5Wqaw7a0LCk8r/5i0wj4rC0RSZBqfxBVVcVg7d4s/HRIWJzEK+z6hYzwNLGuqBN71fHQIAd+TZq3ksdNrGCPICcNOKtV5lUW86kuQS/qFCytr0ga0NxV7KNbeYIpIfEEmJHLPnaPfIpea3ueu9AZ3ZRN4KlqXYrtOHcmCFaz34N7C8nYUWuZ9G5Ml9Q9eqIvI+W/hOsqws7Fwkr9sGujxftq3agdDIOE7WBDVJ8XFCnhoGRJJ44FN85NzaN9TGGTeQIpx6PIBLORFWoLnradp3IkZW0nh3eHux4=
         skinName: apexhosting
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1ODE1NDI2NjEwMywKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
-        updateSkins: false
       spawned: true
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       hologramtrait:
         direction: BOTTOM_UP
-        lineHeight: -1.0
       type: PLAYER
       location:
         bodyYaw: -130.92078
         world: Skyblock_World
-        x: '91.267'
-        y: '151.0'
-        z: '333.5171'
-        yaw: '-130.9208'
-        pitch: '-0.1938'
+        x: 91.267
+        y: 151.0
+        z: 333.5171
+        yaw: -130.9208
+        pitch: -0.1938
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
-            command: Shop Enchanting
+            command: shop Enchanting
             hand: RIGHT
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: skintrait,mounttrait,age,type,scoreboardtrait,owner,inventory,hologramtrait,spawned,location,commandtrait
+            cost: -1.0
+            experienceCost: -1
+    traitnames: age,owner,type,mounttrait,commandtrait,scoreboardtrait,spawned,skintrait,location,hologramtrait,inventory
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '3':
     metadata:
       cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
@@ -60,50 +54,44 @@ npc:
     name: §b§lBLOCKS §7[RIGHT CLICK]
     uuid: 1f7e2882-e12f-4e2a-9392-7be4bdcc4bff
     traits:
-      age:
-        age: 0
-        locked: true
+      age: {}
       skintrait:
-        fetchDefaultSkin: true
         signature: xvod0jh3mTgSHNRO5DHzewriQfnpJTgym5EcKpI6ysnVY4NOe+pvIpN3AchOJwerW5r1OwD2rwrUNZA2/M8tsAWT1r6lKCJseRSC5C/nKrkD7r1MLQM5131KkJLMxRcfEzhNijnnY9VIWXm/7tDAUSboVhmy1shYUSKz47N9PF6SO5a9MIreS7nNRuzKJ2QlBPV2X1Zb5sjX7VodKF2TYOtI4rFv0x0o4NSmWOlKoesZhZJ4lGMG8oFOx2LNJG0svCytQ9RZ7Ie0JL4nd+ySSgbFjExFTzaSA7AWdNmd+Xjokur80LpHouui/NRQaaCc7MHmAQXXFSc1KKt0jeo+P+uGJwDVUejKkYyh76KU1cg3ZLRsQw0U6Drle7ojOuwChfln2g/wROB8dKeIJIEyPXj496f8HBWH9tT0on1MiRsikBgWRSgOzJFvoP+Q6I8AoSV2Sr0CEZgtLTIEhua/ixLFdS9/KzM4OarFualdH6vXRE4w8nxhbNj+AbavDJaNNhKfT+uxB8gJ7Qe+4p1Nt2VHYvWznnDyOVEnWRHog/IWCFuFY3wpX1urgMCEcXdECSGby+dXeC3lUedgmoTmr42LYcFJL/nPO9eLubLr5P+3t/Rdav1IS6TMnoGdxJs0pVAHFOYQG6WTkbhLytnmyzu9o59iQjZw0bj+QhKzIB8=
         skinName: apexhosting
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1ODE1MzgyNzM5OCwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
-        updateSkins: false
       spawned: true
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       hologramtrait:
         direction: BOTTOM_UP
-        lineHeight: -1.0
       type: PLAYER
       location:
         bodyYaw: 48.764008
         world: Skyblock_World
-        x: '141.3872'
-        y: '151.0'
-        z: '319.7091'
-        yaw: '48.764'
-        pitch: '4.3062'
+        x: 141.3872
+        y: 151.0
+        z: 319.7091
+        yaw: 48.764
+        pitch: 4.3062
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
-            command: Shop Blocks
+            command: shop Blocks
             hand: RIGHT
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: skintrait,mounttrait,age,type,scoreboardtrait,owner,inventory,hologramtrait,spawned,location,commandtrait
+            cost: -1.0
+            experienceCost: -1
+    traitnames: age,owner,type,mounttrait,commandtrait,scoreboardtrait,spawned,skintrait,location,hologramtrait,inventory
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '2':
     metadata:
       cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
@@ -111,60 +99,49 @@ npc:
     name: §a§lWARPS §7[RIGHT CLICK]
     uuid: 499fa930-5edc-4f08-b2b1-b74773e5efd6
     traits:
-      age:
-        age: 0
-        locked: true
+      age: {}
       skintrait:
-        fetchDefaultSkin: true
         signature: gFbEykOc1aImxDBIxyzQzV1qEhXU+5XnLwKmeUbYNOU9U8NPvc48FNbpGxHmAME9CGGuimgS/0bRtzy4eQbjl9cNlJjisaW6tjGvnSV+IK+QWkye//ANdHkEndBdNwtWK1tGX4wAULFsfepNejv//wPAF9nbW+V8kzwK7USzAEbFoHWsG447Fpx3gcfGmqy3zgMDbao0tmooicfvX9OKePNo5I3ZCC8Rpw2xWFRd2klqL5TytcTctdoQ2hGXWVhIemJO8bo1m7HifZMLv/ldeftD5P6J60cXBRoZtFjggVamg+sV78Q2NgMh8Rsulw2+Uau4G4oIVYwO1Qux4Yp3YGf0pUDJadlzbjwmO22O7xmMkEJE1KDE85+kH1jpLXP7+ULRElBITU5ktbu1Kzulm14AB6E8tWhp85swT2LK2U5qAX1sKKo50HO4W7TB11kX36nk/NAqwn7bDwRIRUprxsbCyML2f2xFsRZdr2LOgMmwiHWtTN9nIAJIIs2ugUmAdLArldyQUZ/f064ahQbICw8zoBsP6uYjIDc7wzAQYWVHJ+qHRFvopAzgExjA82xldfwNrEJf7FysHwSTUpypNNr256uzUthzeHemfeoy+L+vKL9Iv2Rh7wtyxhaQaaP2SaVMOItQe3UhFsmGV6XaIzscd7rqtVpPynu4/n0bH0w=
         skinName: apexhosting
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1ODE1MzY4MjA3MSwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
-        updateSkins: false
       spawned: true
       speech: chat
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       hologramtrait:
         direction: BOTTOM_UP
-        lineHeight: -1.0
       text:
-        delay: -1
         talk-close: true
-        random-talker: false
-        realistic-looking: false
-        range: '5.0'
-        talkitem: default
         text:
           '0': '&7I can help you get anywhere!, &ejust click me!'
       type: PLAYER
       location:
         bodyYaw: -49.829468
         world: Skyblock_World
-        x: '12.6395'
-        y: '134.0'
-        z: '39.7377'
-        yaw: '-49.8295'
-        pitch: '8.0949'
+        x: 12.6395
+        y: 134.0
+        z: 39.7377
+        yaw: -49.8295
+        pitch: 8.0949
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: warps
             hand: RIGHT
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: skintrait,mounttrait,inventory,commandtrait,text,age,type,scoreboardtrait,owner,spawned,hologramtrait,location,speech
+            cost: -1.0
+            experienceCost: -1
+    traitnames: age,owner,type,mounttrait,commandtrait,scoreboardtrait,spawned,skintrait,text,location,hologramtrait,inventory
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '1':
     metadata:
       cached-skin-uuid: 58e04810-1da0-4e17-ba7f-f2c22e90047f
@@ -176,145 +153,133 @@ npc:
       speech: chat
       waypoints:
         linear:
-          cachePaths: false
           cycle: true
           points:
             '0':
               location:
                 world: Skyblock_World
-                x: '67.0'
-                y: '135.0'
-                z: '55.0'
-                yaw: '0.0'
-                pitch: '0.0'
+                x: 67.0
+                y: 135.0
+                z: 55.0
+                yaw: 0.0
+                pitch: 0.0
             '1':
               location:
                 world: Skyblock_World
-                x: '60.0'
-                y: '133.0'
-                z: '55.0'
-                yaw: '0.0'
-                pitch: '0.0'
+                x: 60.0
+                y: 133.0
+                z: 55.0
+                yaw: 0.0
+                pitch: 0.0
             '2':
               location:
                 world: Skyblock_World
-                x: '54.0'
-                y: '133.0'
-                z: '56.0'
-                yaw: '0.0'
-                pitch: '0.0'
+                x: 54.0
+                y: 133.0
+                z: 56.0
+                yaw: 0.0
+                pitch: 0.0
             '3':
               location:
                 world: Skyblock_World
-                x: '48.0'
-                y: '133.0'
-                z: '55.0'
-                yaw: '0.0'
-                pitch: '0.0'
+                x: 48.0
+                y: 133.0
+                z: 55.0
+                yaw: 0.0
+                pitch: 0.0
             '4':
               location:
                 world: Skyblock_World
-                x: '41.0'
-                y: '133.0'
-                z: '54.0'
-                yaw: '0.0'
-                pitch: '0.0'
+                x: 41.0
+                y: 133.0
+                z: 54.0
+                yaw: 0.0
+                pitch: 0.0
             '5':
               location:
                 world: Skyblock_World
-                x: '35.0'
-                y: '133.0'
-                z: '53.0'
-                yaw: '0.0'
-                pitch: '0.0'
+                x: 35.0
+                y: 133.0
+                z: 53.0
+                yaw: 0.0
+                pitch: 0.0
             '6':
               location:
                 world: Skyblock_World
-                x: '29.0'
-                y: '133.0'
-                z: '52.0'
-                yaw: '0.0'
-                pitch: '0.0'
+                x: 29.0
+                y: 133.0
+                z: 52.0
+                yaw: 0.0
+                pitch: 0.0
             '7':
               location:
                 world: Skyblock_World
-                x: '23.0'
-                y: '133.0'
-                z: '50.0'
-                yaw: '0.0'
-                pitch: '0.0'
+                x: 23.0
+                y: 133.0
+                z: 50.0
+                yaw: 0.0
+                pitch: 0.0
             '8':
               location:
                 world: Skyblock_World
-                x: '18.0'
-                y: '133.0'
-                z: '47.0'
-                yaw: '0.0'
-                pitch: '0.0'
+                x: 18.0
+                y: 133.0
+                z: 47.0
+                yaw: 0.0
+                pitch: 0.0
             '9':
               location:
                 world: Skyblock_World
-                x: '11.0'
-                y: '134.0'
-                z: '42.0'
-                yaw: '0.0'
-                pitch: '0.0'
+                x: 11.0
+                y: 134.0
+                z: 42.0
+                yaw: 0.0
+                pitch: 0.0
         provider: linear
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       text:
-        delay: -1
         talk-close: true
-        random-talker: false
-        realistic-looking: false
-        range: '5.0'
-        talkitem: default
         text:
           '0': '&7Oh, hey there!, you new around?, let me show you around.'
           '1': '&7I''ve been around for quite a while now, this &dSkylands &7never
             get old!'
           '2': '&7Alright then!, &afollow me!'
-      age:
-        age: 0
-        locked: true
+      age: {}
       skintrait:
-        fetchDefaultSkin: true
         signature: U+c7KLvUBGlELicN6LMLLGWu2nLVMcMH4fnTc2S4f5NQuOHSZYNzgchFqsfRajUBtZbdyEXyyvzKiq5ONuLj7lxf+9xXab99kcYVOpla2WFK/5IJMeFszahz6zGkhBYqRhxNEhznI0ooK2+Jk9OBeGKXvrok/RyXV1pUE5R0ueYF7c9462xkv7HNVOpl57asSbttV63kWHuw2F3F9LL9dlghrafz9hb2XxmUQM/uX7ftIOyJUaiTPyJ9PgWylssvgt009r4pSY9ki6Ho6oYS4Jq9UKOXtdEw/0swELlmiCr974SF43CbDDou/Wd5Y5bbCYw2kmuWJPsNR1vS3f9fU/5HO8LsPBPb1GVycoDmVsxOjkAkGrmFwQlVl0ZbpZslRrKO5RhiElt75Ekxz34h2o5T3Z5aa2go/040cZ4Y3MiIyjJHSm4bCbA0irA6zRjFYkcz/ZS+PDm5/zmuuSE5ct1WxFWwXFW+LSGThKkeCUBn01+dLRP8jrmaNN3g+Cp6gesaVDlKZjWJbCiEgRCeHliXdTXz/FgtPiDlhq79ieFhpFrOa9csKiTiga7NdbaktCAq6CfPu4mx0LHGPqLcctVVKyeGyoImkJCsiF4TWOiWv3GfnFz48WWRRZ/Kt4RkqY39oS/c7DRxuyaBXzA/DUp7V92flObVFHMNztGqHbo=
         skinName: retrovidya
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1ODE1MzczMjc4MSwKICAicHJvZmlsZUlkIiA6ICI1OGUwNDgxMDFkYTA0ZTE3YmE3ZmYyYzIyZTkwMDQ3ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZXRyb3ZpZHlhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RhMTRlNjVhNWI2NmQwZDRkNDQ0YmNjNjJlNTc3NzVkMmYzNWZjNzYyOTE3NDRlYTU3MmJlZDNlZmVlZTczMjIiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9
-        updateSkins: false
       hologramtrait:
         direction: BOTTOM_UP
-        lineHeight: -1.0
       type: PLAYER
       location:
-        bodyYaw: 263.44342
+        bodyYaw: 103.70265
         world: Skyblock_World
-        x: '46.5839'
-        y: '133.0'
-        z: '54.4993'
-        yaw: '-96.5566'
-        pitch: '11.0999'
+        x: 22.6147
+        y: 133.0
+        z: 48.7718
+        yaw: 103.7027
+        pitch: 11.0999
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: is help
             hand: RIGHT
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: skintrait,mounttrait,inventory,commandtrait,text,age,type,scoreboardtrait,owner,spawned,hologramtrait,location,waypoints,speech
+            cost: -1.0
+            experienceCost: -1
+    traitnames: type,commandtrait,scoreboardtrait,spawned,skintrait,text,location,hologramtrait,age,owner,mounttrait,waypoints,inventory
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '0':
     metadata:
       cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
@@ -327,32 +292,19 @@ npc:
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       text:
-        delay: -1
         talk-close: true
-        random-talker: false
-        realistic-looking: false
-        range: '5.0'
-        talkitem: default
         text:
           '0': '&7Welcome to our skyblock server!'
           '1': '&7Make sure you don''t &cfall off!'
           '2': '&eHaha!, &7Yeah I''ve fell a couple times from my island too!'
-      age:
-        age: 0
-        locked: true
+      age: {}
       skintrait:
-        fetchDefaultSkin: true
         signature: gFbEykOc1aImxDBIxyzQzV1qEhXU+5XnLwKmeUbYNOU9U8NPvc48FNbpGxHmAME9CGGuimgS/0bRtzy4eQbjl9cNlJjisaW6tjGvnSV+IK+QWkye//ANdHkEndBdNwtWK1tGX4wAULFsfepNejv//wPAF9nbW+V8kzwK7USzAEbFoHWsG447Fpx3gcfGmqy3zgMDbao0tmooicfvX9OKePNo5I3ZCC8Rpw2xWFRd2klqL5TytcTctdoQ2hGXWVhIemJO8bo1m7HifZMLv/ldeftD5P6J60cXBRoZtFjggVamg+sV78Q2NgMh8Rsulw2+Uau4G4oIVYwO1Qux4Yp3YGf0pUDJadlzbjwmO22O7xmMkEJE1KDE85+kH1jpLXP7+ULRElBITU5ktbu1Kzulm14AB6E8tWhp85swT2LK2U5qAX1sKKo50HO4W7TB11kX36nk/NAqwn7bDwRIRUprxsbCyML2f2xFsRZdr2LOgMmwiHWtTN9nIAJIIs2ugUmAdLArldyQUZ/f064ahQbICw8zoBsP6uYjIDc7wzAQYWVHJ+qHRFvopAzgExjA82xldfwNrEJf7FysHwSTUpypNNr256uzUthzeHemfeoy+L+vKL9Iv2Rh7wtyxhaQaaP2SaVMOItQe3UhFsmGV6XaIzscd7rqtVpPynu4/n0bH0w=
         skinName: apexhosting
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1ODE1MzY4MjA3MSwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
-        updateSkins: false
       lookclose:
-        range: '5.0'
-        disablewhilenavigating: true
+        range: 5.0
         enabled: true
-        enableRandomLook: false
-        randomLookDelay: 60
-        realisticlooking: false
         randomPitchRange:
           '0': 0.0
           '1': 0.0
@@ -361,36 +313,34 @@ npc:
           '1': 360.0
       hologramtrait:
         direction: BOTTOM_UP
-        lineHeight: -1.0
       type: PLAYER
       location:
-        bodyYaw: 72.89084
+        bodyYaw: 138.57974
         world: Skyblock_World
-        x: '76.3'
-        y: '135.0'
-        z: '58.1711'
-        yaw: '72.8908'
-        pitch: '-13.0173'
+        x: 76.3
+        y: 135.0
+        z: 58.1711
+        yaw: 127.2202
+        pitch: -0.5727
       commandtrait:
         commands:
           '0':
             command: st play tutorial
             hand: RIGHT
             player: true
+            npc: false
             op: true
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
-    traitnames: skintrait,mounttrait,inventory,commandtrait,text,age,type,owner,scoreboardtrait,hologramtrait,spawned,location,lookclose,smoothrotationtrait,speech
+            cost: -1.0
+            experienceCost: -1
+    traitnames: lookclose,type,commandtrait,scoreboardtrait,spawned,skintrait,text,location,hologramtrait,age,owner,mounttrait,rotationtrait,inventory
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '8':
     metadata:
       cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
@@ -398,50 +348,44 @@ npc:
     name: §c§lBACK TO SPAWN §7[RIGHT CLICK]
     uuid: 621f61be-8ddc-4439-977d-55590e7a260f
     traits:
-      age:
-        age: 0
-        locked: true
+      age: {}
       skintrait:
-        fetchDefaultSkin: true
         signature: r36sB7PdY5CQUb4TZjpoEks/8hiBsl6lmrjeyprOsduD8dlZbqsAgqVUWU42rxpnq7UmIRhSsmn/Wl/ZTMiQL7ChZX1KCLXGMJOw2PwpUQosz+sKnD7mHSjGE+lv0BGXAuL6WbVvgmOl8yTy+ogtqlprMi2RZx0ZgyAfsY8foCtv2UQMl5H8wJI3oqbRQqbIXdjvzIi4CtS6lStZ1/XnMVFO6rLxh0Wpz3V+XXEeRNVhW1SF1MbCmMKq5Ad1nRFVsa3OWPrdFYOmKRyGBDadOkbs9LsII9HXtbgGs/MJT+RVg7PcM5Iq/Twl+CVY10d1jr2TXUFZGwpbmqsr482IpCMZpAX9PIU2IC2tLDxe3L7Ap341CuRzCfT5RRa9uZPeNzKLClFBXOeetTHSYcR8rlQFevVtmiQPedRzG8F8VaDS2EGJDoJ9uEgXU+Li5eLxD6jPTawqpFVVPo/032RVHmP3oCqbb7AxC6QLes5QXK5vhWe1Kk4RXaye/SWvB+ZCwqmGPmkMe5IYLg9iA44wwh9nJZYHKymOr+qXbJ1FXEPRVI7lKK2OLkuw/77/zQR0S6R71XRxMvYZF/BGSvoWz6tG+9edhJosM5xJrkzARCVLCCGbVDoweemHtoOLH9BCok1qmB7J3E+uXZxc6PTg9D8+Jqjx+kghM5WKbcmKFcA=
         skinName: apexhosting
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1ODE1NTM3ODc4MSwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
-        updateSkins: false
       spawned: true
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       hologramtrait:
         direction: BOTTOM_UP
-        lineHeight: -1.0
       type: PLAYER
       location:
         bodyYaw: -0.49401855
         world: Skyblock_World
-        x: '116.4913'
-        y: '152.0'
-        z: '315.442'
-        yaw: '-0.494'
-        pitch: '-0.3001'
+        x: 116.4913
+        y: 152.0
+        z: 315.442
+        yaw: -0.494
+        pitch: -0.3001
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: spawn
             hand: RIGHT
             player: true
+            npc: false
             op: true
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: skintrait,mounttrait,age,type,scoreboardtrait,owner,inventory,hologramtrait,spawned,location,commandtrait
+            cost: -1.0
+            experienceCost: -1
+    traitnames: age,owner,type,mounttrait,commandtrait,scoreboardtrait,spawned,skintrait,location,hologramtrait,inventory
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '7':
     metadata:
       cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
@@ -449,50 +393,44 @@ npc:
     name: §c§lBACK TO SPAWN §7[RIGHT CLICK]
     uuid: 0aace9c3-3d0a-456d-8254-81381c4a7fa5
     traits:
-      age:
-        age: 0
-        locked: true
+      age: {}
       skintrait:
-        fetchDefaultSkin: true
         signature: WlmDthl6NUfQruk8Wtr8ceCuK7a0TyzAdRiXleNxMSvUGEjDCsuR/4DARpS1Z9U8UNSltP4eNWEgSMOeMEvpRjrg3VpSAHlGaYQjN/NRF+PKF85LXRMfd806QyQgBmsG+ForSt5miPHFAWpS6xv4Ym1aGJY5WtwYUUnoAhZSYHnOXcWCs+vvBaYFNHe/L7CkrPvfAdIqj7+8LghnIDjgGOgzU8onq9mrfsLPOTjFn25Q/+Qpl40UgrLRQ3/LXOQtUOHOKQwkLQHQk0/7eDyrtr9Wq/iTqZenUhJnd8kS/gxdE9DZ3DQBudGvYS2LjC88Gp1YqvWXZ8+f1onMx2oSdLMZAcAtPO27h8/OYf0xzlnc4shVByLuLiWe/1eidMJ17OA1+jJSDlAHNx84wE9e2nDCCJTG8YmHQ+lMNp4+LyCSbmS8tegGCsj6Q/8aakhNP0QZ7g8j/n5Z1N01bv6DURg/vj0iHuH4yw3lQHmkFEAhKzRe39FK+W/7A6J1STW4dqZvVYQzrT5nX335oY+MYLfs2Uh7YgqseKKmG2rZhmKNNnF8OeLWqqpm1hqL9cKhnZz6SVZBBZ78ffCEcgMrAkgPj1aNQOPNV1MhS4ZlfGmKsBxzBQzRJmYVJ33DFPqcqV/oeF0yOt5y7RiWzK9jSTTiDhLIPoniy0IMZSUodZ0=
         skinName: apexhosting
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1ODE1NDg2MjczNSwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
-        updateSkins: false
       spawned: true
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       hologramtrait:
         direction: BOTTOM_UP
-        lineHeight: -1.0
       type: PLAYER
       location:
         bodyYaw: -179.26724
         world: Skyblock_World
-        x: '116.5743'
-        y: '152.0'
-        z: '337.4925'
-        yaw: '-179.2672'
-        pitch: '-3.5999'
+        x: 116.5743
+        y: 152.0
+        z: 337.4925
+        yaw: -179.2672
+        pitch: -3.5999
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: spawn
             hand: RIGHT
             player: true
+            npc: false
             op: true
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: skintrait,mounttrait,age,type,scoreboardtrait,owner,inventory,hologramtrait,spawned,location,commandtrait
+            cost: -1.0
+            experienceCost: -1
+    traitnames: age,owner,type,mounttrait,commandtrait,scoreboardtrait,spawned,skintrait,location,hologramtrait,inventory
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '6':
     metadata:
       cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
@@ -500,50 +438,44 @@ npc:
     name: §c§lITEMS §7[RIGHT CLICK]
     uuid: edf846be-a951-44f0-a95d-ba0d2f75a154
     traits:
-      age:
-        age: 0
-        locked: true
+      age: {}
       skintrait:
-        fetchDefaultSkin: true
         signature: enk80v1hBcf4BWy65PKeX15IDLkeA+CL2lccme6G834++Mt6IljJM+kUOF6LksZdfMHYSZxzfzGlQqkpP2L2511glHQBsT93LNbmYpDrV7ydW2dY9v2RjLDbmxvtRxSyu4/MXqYUCpg3t/RLa6KVtE3RnJawfwMRt5FJxQ358V67ZSGM43rxkVov+E/PdfV0nyJhY3hwyu/02SBlIZsQFQnPECsxrptOSwQoKEfqW0V/Kkogbl21OC8BRyJ4BFO16wBciIiE3V3ccrYjWR5KvYQ373uZZziOBO/BYQpK+nRj/IlbwZESqs65wj5VQVbjvVamBAKmMN6KyUZ+bFHv1ly7DNml+DwItM0xSG7BWeLGRE2DsR9YqGyo8JhEZ5Tz99quJmYLgIelZTtKEfCAowV11VrFlNL/WlDgp8xJRBjz+qO8wQ9/avcR569cdOvvILEAjmCRYUQ77uwLmCvegFC8nvw1GbW8Y43mrm2huk8uh/BRwnDgEjSujLNZ/H+wmn8nA/AIAUJGyMD15mmporLwogAcbxlx2O7cAnc0fw047VqV4OY0La3MY2TyPF6Qdw2VvPOuabWE6ydSVX1LPojhBJ9VEluEJbVEaP+kReXE2w+w+n29R4A8HEpigP5jaao2QcVtcUtM0RiZqrzZsI+QhXWUo9FewO+B5Y9KEdk=
         skinName: apexhosting
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1ODE1NDYwNDExOSwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
-        updateSkins: false
       spawned: true
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       hologramtrait:
         direction: BOTTOM_UP
-        lineHeight: -1.0
       type: PLAYER
       location:
         bodyYaw: -39.69702
         world: Skyblock_World
-        x: '91.1941'
-        y: '151.0'
-        z: '318.7511'
-        yaw: '-39.697'
-        pitch: '13.8765'
+        x: 91.1941
+        y: 151.0
+        z: 318.7511
+        yaw: -39.697
+        pitch: 13.8765
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
-            command: Shop Others
+            command: shop Miscellaneous
             hand: RIGHT
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: skintrait,mounttrait,age,type,scoreboardtrait,owner,inventory,hologramtrait,spawned,location,commandtrait
+            cost: -1.0
+            experienceCost: -1
+    traitnames: age,owner,type,mounttrait,commandtrait,scoreboardtrait,spawned,skintrait,location,hologramtrait,inventory
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '5':
     metadata:
       cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
@@ -551,50 +483,44 @@ npc:
     name: §6§lSPAWNERS §7[RIGHT CLICK§7]
     uuid: fb6ceaa9-49f4-488c-b63b-aaf05a133d65
     traits:
-      age:
-        age: 0
-        locked: true
+      age: {}
       skintrait:
-        fetchDefaultSkin: true
         signature: QJ1Pth7s+kh79CUUGu7MWJC2DLWVAuaJkgMZdY6NJjTiSoFS2Ny1QzLHzGFR76tlw8txbUCJqPYergCZ1USBYJjOnEY9iwfxQ1wATteilni5M0W/K7oSeRZB4+/XGPn9cJ0mD+V6eOJXPl2Ggs8teiBsFFOO/bxDXi5S2Q65PaUoqRQurWlmyxzstgDYOn91SWp0f/tx8JSzl0j6677T2Zdso3i0dGTo1VizykNyo58ctOLdFSQi7tcf8ODc2t+wMUppXmzzVcCj9lDwBNliRY0A0hLEaeZP3NCIw96Tovbwu1YEgxTkyCR8PIzwBpwd/noexmfwsi9hOSU1xEQuiIt4NNaKC/M/+9akGIu1U35+cLpSuV+rBdfw5inm8nLFUeUV4doYSipWdtS1+nwE6J0imKoK/QcsG57p5YB0YOj83q0WTMeL+UGRZY9B7sF5vuzVkdu1g5MedIk9yLoEM1xhcXKf+oDHUEheFI8KMIdcbJc+H3OqOBFfdcPl+rL2xMoaGrT2lpfKNZOWbyimUBNWLqFaNK1KV2vV6+9dDautoUAeqzzeu1HW1bT4CHE7k09QC13+GKplNPsn8XJOk6z7wRFcnTKrVXtqzrMVpe29Mjf9C77qR5LhTW/Dj0A+W+bARXlHH0nVpuSdyMxhPC96OS4OnrDvg0EYh/2qPYE=
         skinName: apexhosting
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1ODE1NDMwMTg2MCwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
-        updateSkins: false
       spawned: true
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       hologramtrait:
         direction: BOTTOM_UP
-        lineHeight: -1.0
       type: PLAYER
       location:
         bodyYaw: 124.10693
         world: Skyblock_World
-        x: '141.7521'
-        y: '151.0'
-        z: '332.433'
-        yaw: '124.1069'
-        pitch: '-0.5235'
+        x: 141.7521
+        y: 151.0
+        z: 332.433
+        yaw: 124.1069
+        pitch: -0.5235
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
-            command: Shop Spawners
+            command: shop Spawners
             hand: RIGHT
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: skintrait,mounttrait,age,type,scoreboardtrait,owner,inventory,spawned,hologramtrait,location,commandtrait
+            cost: -1.0
+            experienceCost: -1
+    traitnames: age,owner,type,mounttrait,commandtrait,scoreboardtrait,spawned,skintrait,location,hologramtrait,inventory
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '9':
     metadata:
       cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
@@ -609,43 +535,37 @@ npc:
       location:
         bodyYaw: -13.220245
         world: Skyblock_World
-        x: '76.9567'
-        y: '135.0'
-        z: '52.1644'
-        yaw: '-13.2202'
-        pitch: '0.7499'
-      age:
-        age: 0
-        locked: true
+        x: 76.9567
+        y: 135.0
+        z: 52.1644
+        yaw: -13.2202
+        pitch: 0.7499
+      age: {}
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: is
             hand: RIGHT
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
+            cost: -1.0
+            experienceCost: -1
       hologramtrait:
         direction: BOTTOM_UP
-        lineHeight: -1.0
       skintrait:
-        fetchDefaultSkin: true
         signature: gNc3YDlANOZpz2PyY0VFsM/Ej/3D7GtTlhkg7MZchDdMTQ1ortGR65RXmFE9BjncUh/yoI9Nykn2OlQLD8lP6GydF14NTJWOSMzRLz/LHyKiLmvjotd72L8kL4ng9uV+0vyxd5ZEDrhWXaMVcR7Kb+tQoZWWzj8HEB4bITj4H7Vrdnt6Gw/gZLaq6Thy1mk2qCHT503S+3/H6iOw1Kj07XPieejHFEx0zvuD5WdslSMf5sAjVOGQA7ugzE0zXGIFsQ6H/CGIb/tvux+wWl4hNPv1Z4X8MUbpfpj7YFEuRAWipE5BnQErQnSv7QVnOelsIq3t6uro9q9sdTu93s3KZnL/EZnxHDm2OXk+ZgFJzhCtUZ2f/vNLqYkQ7Stdvm7Dji+nRAEI8i4BtPzYDyksVwQ4fdOPsgkA+g47S90rW3ip6OdsP/i5B5Q0FHrVLuSsCNcRcxAfHmE6szYw6N8MQSSC39uslcpo2RS6RKIAqZvfh4clAAlr8oWy7/DheUo3y5b7umjMreNBBNTnZqTIuFdJYEEkuoqSHQVM5MGUSjGx8HgrLuO64JInKELW3r8mjvhfqtvejvfgVynpvQOPu26m3XAhoulGJqtJSrIswq4axDJ1M3Wzq55Ng2FNYFrFt01f+9Yl+jg1ZE3EzxdhRysE9ow4pBPz5wnJ+aQOlQI=
         skinName: apexhosting
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1ODI1Nzc2NzU4NCwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
-        updateSkins: false
-    traitnames: skintrait,mounttrait,age,type,owner,scoreboardtrait,inventory,hologramtrait,spawned,location,commandtrait
+    traitnames: age,owner,type,mounttrait,commandtrait,scoreboardtrait,spawned,skintrait,location,hologramtrait,inventory
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '11':
     metadata:
       cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
@@ -656,47 +576,41 @@ npc:
       location:
         bodyYaw: 174.1459
         world: Mine
-        x: '279.333'
-        y: '94.0'
-        z: '335.3999'
-        yaw: '174.1459'
-        pitch: '6.5993'
+        x: 279.333
+        y: 94.0
+        z: 335.3999
+        yaw: 174.1459
+        pitch: 6.5993
       skintrait:
-        fetchDefaultSkin: true
         signature: T9ZI0tz3YviIrCGxzuOaufSFNhbZ2PcjUu4e8p4rdr0ou33LT4dSkCP4HpUwWAvPB9mrP8BUjycT6lDSIV/1aHCGb5lxc0xcFqX8mHFOjTzZspt3M9Lt0euaTgaeJ8BNkjW/yinCVHatD1Zc1uSTwFhVJKq9QR6EBgRPl+cOBiusybMnptpQmwRL3O3xq6KydtEpyNih5F6RL2385iiPxhd1wFO8XmRef6XdFL0ybS7s8WoWs7YW+zlOp7I7CMCrKhohF2udY9TW0/iZX+iN6SJh/i7074qTgSRMSeU0KfC+jS06a8DR9qNXYVF5oLIROjZVhng8aUfB/BHbyCF6RSFBdWqb8Y2NFD/R08Dbbqs7hB33lmaiZJF3DybWkFte/HljZLcu09H7JWVRTNPQwcRrVfO+jz7f8NM/OzlsV7UB0JFdAMzSf/J4/AkHC8wXPTeNF9clKvTKUMBdeEJe2dEHxzRbIKHWcbcUFPrWG+ARcUtGKYVwslQK/AReDxfwuz0oRulTh8DPCY+JI8Fi6meZQu4qlTMLz5mZRUFCF4wA3mQM1xj2N0x9L7jd93YIpNrylBV6gHMuf0ibSjrwh0ufifVYEutc2xi2dEUluCRaEbKDl7yPJYDsYIkeKzCjUH0HsLNwwm8YmgJxAbT3q+10BHCptvEdT9KJ/5p8AkQ=
         skinName: apexhosting
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1ODM0Njc0MzQ0NCwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
-        updateSkins: false
       spawned: true
       hologramtrait:
         direction: BOTTOM_UP
-        lineHeight: -1.0
       owner:
         uuid: 5c097519-dc5a-47d8-a8ff-583fbf4a0f83
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: shop
             hand: RIGHT
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
-      age:
-        age: 0
-        locked: true
+            cost: -1.0
+            experienceCost: -1
+      age: {}
       type: PLAYER
-    traitnames: skintrait,mounttrait,age,type,scoreboardtrait,owner,inventory,hologramtrait,spawned,location,commandtrait
+    traitnames: age,owner,type,mounttrait,commandtrait,scoreboardtrait,spawned,skintrait,location,hologramtrait,inventory
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '10':
     metadata:
       cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
@@ -707,44 +621,38 @@ npc:
       location:
         bodyYaw: -179.10228
         world: Mine
-        x: '74.5613'
-        y: '97.0'
-        z: '133.1889'
-        yaw: '-179.1023'
-        pitch: '5.2496'
+        x: 74.5613
+        y: 97.0
+        z: 133.1889
+        yaw: -179.1023
+        pitch: 5.2496
       skintrait:
-        fetchDefaultSkin: true
         signature: T9ZI0tz3YviIrCGxzuOaufSFNhbZ2PcjUu4e8p4rdr0ou33LT4dSkCP4HpUwWAvPB9mrP8BUjycT6lDSIV/1aHCGb5lxc0xcFqX8mHFOjTzZspt3M9Lt0euaTgaeJ8BNkjW/yinCVHatD1Zc1uSTwFhVJKq9QR6EBgRPl+cOBiusybMnptpQmwRL3O3xq6KydtEpyNih5F6RL2385iiPxhd1wFO8XmRef6XdFL0ybS7s8WoWs7YW+zlOp7I7CMCrKhohF2udY9TW0/iZX+iN6SJh/i7074qTgSRMSeU0KfC+jS06a8DR9qNXYVF5oLIROjZVhng8aUfB/BHbyCF6RSFBdWqb8Y2NFD/R08Dbbqs7hB33lmaiZJF3DybWkFte/HljZLcu09H7JWVRTNPQwcRrVfO+jz7f8NM/OzlsV7UB0JFdAMzSf/J4/AkHC8wXPTeNF9clKvTKUMBdeEJe2dEHxzRbIKHWcbcUFPrWG+ARcUtGKYVwslQK/AReDxfwuz0oRulTh8DPCY+JI8Fi6meZQu4qlTMLz5mZRUFCF4wA3mQM1xj2N0x9L7jd93YIpNrylBV6gHMuf0ibSjrwh0ufifVYEutc2xi2dEUluCRaEbKDl7yPJYDsYIkeKzCjUH0HsLNwwm8YmgJxAbT3q+10BHCptvEdT9KJ/5p8AkQ=
         skinName: apexhosting
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1ODM0Njc0MzQ0NCwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
-        updateSkins: false
       spawned: true
       hologramtrait:
         direction: BOTTOM_UP
-        lineHeight: -1.0
       owner:
         uuid: 5c097519-dc5a-47d8-a8ff-583fbf4a0f83
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: shop
             hand: RIGHT
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
-      age:
-        age: 0
-        locked: true
+            cost: -1.0
+            experienceCost: -1
+      age: {}
       type: PLAYER
-    traitnames: skintrait,mounttrait,age,type,owner,scoreboardtrait,inventory,hologramtrait,spawned,location,commandtrait
+    traitnames: age,owner,type,mounttrait,commandtrait,scoreboardtrait,spawned,skintrait,location,hologramtrait,inventory
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false

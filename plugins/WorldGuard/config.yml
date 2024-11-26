@@ -141,6 +141,8 @@ dynamics:
     disable-soil-dehydration: false
     disable-coral-block-fade: false
     snow-fall-blocks: []
+    disable-sculk-growth: false
+    disable-copper-block-fade: false
 blacklist:
     use-as-whitelist: false
     logging:
@@ -159,3 +161,6 @@ blacklist:
 custom-metrics-charts: true
 extra-timings:
     session-handlers: true
+sniffer-egg:
+    disable-creature-trampling: false
+    disable-player-trampling: false

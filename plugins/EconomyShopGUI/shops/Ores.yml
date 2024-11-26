@@ -1,0 +1,99 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: AMETHYST_BLOCK
+        buy: 5.52
+        sell: 1.38
+      '2':
+        material: AMETHYST_SHARD
+        buy: 1.32
+        sell: 0.33
+      '3':
+        material: ANCIENT_DEBRIS
+        buy: 529
+        sell: 132.25
+      '4':
+        material: COAL
+        buy: 5.25
+        sell: 1.32
+      '5':
+        material: COAL_BLOCK
+        buy: 49.62
+        sell: 12.41
+      '6':
+        material: COPPER_BLOCK
+        buy: 3.86
+        sell: 0.97
+      '7':
+        material: COPPER_INGOT
+        buy: 0.92
+        sell: 0.23
+      '8':
+        material: COPPER_ORE
+        buy: 15
+        sell: -1
+      '9':
+        material: DIAMOND
+        buy: 52.5
+        sell: 13.13
+      '10':
+        material: DIAMOND_BLOCK
+        buy: 496.13
+        sell: 124.04
+      '11':
+        material: EMERALD
+        buy: 39.38
+        sell: 9.85
+      '12':
+        material: EMERALD_BLOCK
+        buy: 372.1
+        sell: 93.03
+      '13':
+        material: GOLD_BLOCK
+        buy: 78.14
+        sell: 19.54
+      '14':
+        material: GOLD_INGOT
+        buy: 8.27
+        sell: 2.07
+      '15':
+        material: IRON_BLOCK
+        buy: 52.1
+        sell: 13.03
+      '16':
+        material: IRON_INGOT
+        buy: 5.52
+        sell: 1.38
+      '17':
+        material: LAPIS_BLOCK
+        buy: 68.22
+        sell: 17.06
+      '18':
+        material: LAPIS_LAZULI
+        buy: 7.22
+        sell: 1.81
+      '19':
+        material: NETHERITE_BLOCK
+        buy: 22374
+        sell: 5593.5
+      '20':
+        material: NETHERITE_INGOT
+        buy: 2367.62
+        sell: 591.91
+      '21':
+        material: QUARTZ
+        buy: 8.27
+        sell: 2.07
+      '22':
+        material: QUARTZ_BLOCK
+        buy: 34.73
+        sell: 8.69
+      '23':
+        material: REDSTONE
+        buy: 3.5
+        sell: 0.88
+      '24':
+        material: REDSTONE_BLOCK
+        buy: 33.08
+        sell: 8.27

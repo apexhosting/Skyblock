@@ -1,0 +1,46 @@
+Options:
+  GUI_Enabled: true
+  GUI_Permission_Enabled: true
+  GUI_Permission: prison.admin
+  Sell_Permission_Enabled: false
+  Sell_Permission: prison.sell
+  Sell_Per_Block_Permission_Enabled: false
+  Sell_Per_Block_Permission: prison.sellall.
+  Sell_Delay_Enabled: false
+  Sell_Delay_Seconds: '5'
+  Sell_Notify_Enabled: true
+  Sell_Sound_Enabled: true
+  Sell_Sound_Success_Name: ENTITY_PLAYER_LEVELUP
+  Sell_Sound_Fail_Name: BLOCK_ANVIL_PLACE
+  Sell_Prison_BackPack_Items: true
+  Sell_MinesBackPacks_Plugin_Backpack: true
+  SellAll_Currency: default
+  SellAll_Sign_Enabled: false
+  SellAll_Sign_Use_Permission_Enabled: false
+  SellAll_Sign_Use_Permission: prison.sign
+  SellAll_By_Sign_Only: false
+  SellAll_By_Sign_Only_Bypass_Permission: prison.admin
+  SellAll_Sign_Notify: false
+  SellAll_Sign_Visible_Tag: '&7[&3SellAll&7]'
+  SellAll_Hand_Enabled: true
+  SellAll_ignoreCustomNames: false
+  Player_GUI_Enabled: true
+  Player_GUI_Permission_Enabled: false
+  Player_GUI_Permission: prison.sellall.playergui
+  Full_Inv_AutoSell: false
+  Full_Inv_AutoSell_Notification: true
+  Full_Inv_AutoSell_perUserToggleable: false
+  Full_Inv_AutoSell_perUserToggleable_Need_Perm: false
+  Full_Inv_AutoSell_PerUserToggleable_Permission: prison.sellall.toggle
+  Full_Inv_AutoSell_EarnedMoneyNotificationDelay_Enabled: true
+  Full_Inv_AutoSell_EarnedMoneyNotificationDelay_Delay_Seconds: '10'
+  Multiplier_Enabled: false
+  Multiplier_Default: '1'
+  Multiplier_Permission_Only_Higher: false
+  ShiftAndRightClickSellAll:
+    Enabled: false
+    PermissionEnabled: false
+    Permission: prison.player
+  DisabledWorlds:
+  - exampleWorld
+  - anotherExampleWorld

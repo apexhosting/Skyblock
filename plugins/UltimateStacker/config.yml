@@ -4,6 +4,9 @@ Main:
   # It is advised to keep this number low.
   Stack Search Tick Speed: 5
 
+  # Should entities stacked into existing stacks before they spawned?
+  Instant Stacking: false
+
   # Worlds that stacking doesn't happen in.
   Disabled Worlds:
   - World1
@@ -35,6 +38,10 @@ Entities:
   # Should all qualifying entities in each chunk be stacked?
   # This will override the stacking radius.
   Stack Whole Chunk: false
+
+  # Radius in chunks every direction around the entity that will be stacked.
+  # 0 means only the chunk the entity is in.
+  Stack Whole Chunk Radius: 1
 
   # Should holograms be displayed above stacked entities?
   Holograms Enabled: true
@@ -256,6 +263,9 @@ Spawners:
   # Toggle ability to receive a stacked spawner when breaking a spawner while sneaking.
   Sneak To Receive A Stacked Spawner: true
 
+  # Should the player be able to add all spawners to the stack if they are sneaking?
+  Sneak To Add All: true
+
   # Should spawners not break when blown up?
   Prevent Spawners From Exploding: false
 
@@ -304,20 +314,3 @@ System:
   # The enabled language file.
   # More language files (if available) can be found in the plugins data folder.
   Language Mode: en_US
-
-MySQL:
-
-  # Set to 'true' to use MySQL instead of SQLite for data storage.
-  Enabled: false
-
-  Hostname: localhost
-
-  Port: 3306
-
-  Database: your-database
-
-  Username: user
-
-  Password: pass
-
-  Use SSL: false

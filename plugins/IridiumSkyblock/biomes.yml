@@ -1,0 +1,152 @@
+---
+categories:
+  Overworld:
+    item:
+      material: "Grass Block"
+      amount: 1
+      displayName: "&9&lOverworld"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: 11
+    inventorySize: 27
+  Nether:
+    item:
+      material: "Crimson Nylium"
+      amount: 1
+      displayName: "&9&lNether"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: 13
+    inventorySize: 27
+  End:
+    item:
+      material: "End Stone"
+      amount: 1
+      displayName: "&9&lEnd"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: 15
+    inventorySize: 27
+items:
+  Overworld:
+  - name: "&9&lPlains"
+    type: "Grass Block"
+    biome: "PLAINS"
+    lore: []
+    defaultAmount: 1
+    slot: 11
+    page: 1
+    buyCost:
+      money: 100.0
+      bankItems: {}
+    minLevel: 1
+  - name: "&9&lSnowy Plains"
+    type: "Snow Block"
+    biome: "SNOWY_PLAINS"
+    lore: []
+    defaultAmount: 1
+    slot: 13
+    page: 1
+    buyCost:
+      money: 50.0
+      bankItems: {}
+    minLevel: 1
+  - name: "&9&lSavanna"
+    type: "Tall Grass"
+    biome: "SAVANNA"
+    lore: []
+    defaultAmount: 1
+    slot: 15
+    page: 1
+    buyCost:
+      money: 100.0
+      bankItems: {}
+    minLevel: 1
+  Nether:
+  - name: "&9&lNether Wastes"
+    type: "Netherrack"
+    biome: "NETHER_WASTES"
+    lore: []
+    defaultAmount: 1
+    slot: 11
+    page: 1
+    buyCost:
+      money: 50.0
+      bankItems: {}
+    minLevel: 1
+  - name: "&9&lCrimson Forest"
+    type: "Crimson Nylium"
+    biome: "CRIMSON_FOREST"
+    lore: []
+    defaultAmount: 1
+    slot: 13
+    page: 1
+    buyCost:
+      money: 1000.0
+      bankItems: {}
+    minLevel: 1
+  - name: "&9&lWarped Forest"
+    type: "Warped Nylium"
+    biome: "WARPED_FOREST"
+    lore: []
+    defaultAmount: 1
+    slot: 15
+    page: 1
+    buyCost:
+      money: 100.0
+      bankItems: {}
+    minLevel: 1
+  End:
+  - name: "&9&lTHE END"
+    type: "End Stone"
+    biome: "THE_END"
+    lore: []
+    defaultAmount: 1
+    slot: 11
+    page: 1
+    buyCost:
+      money: 100.0
+      bankItems: {}
+    minLevel: 1
+  - name: "&9&lEnd Highlands"
+    type: "Purpur Block"
+    biome: "END_HIGHLANDS"
+    lore: []
+    defaultAmount: 1
+    slot: 13
+    page: 1
+    buyCost:
+      money: 150.0
+      bankItems: {}
+    minLevel: 1
+  - name: "&9&lEnd Barrens"
+    type: "Ender Eye"
+    biome: "END_BARRENS"
+    lore: []
+    defaultAmount: 1
+    slot: 15
+    page: 1
+    buyCost:
+      money: 150.0
+      bankItems: {}
+    minLevel: 1
+buyPriceLore: "&aBuy Price: $%vault_cost%"
+notPurchasableLore: "&cThis item cannot be purchased!"
+levelRequirementLore: "&9[!] &7Must be level %level% to purchase"
+abbreviatePrices: true
+failSound: "BLOCK_ANVIL_LAND"
+successSound: "ENTITY_PLAYER_LEVELUP"
+biomeItemLore:
+- "&9&l[!] &9Left-Click to Purchase"

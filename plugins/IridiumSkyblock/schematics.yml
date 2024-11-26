@@ -2,15 +2,21 @@
 schematics:
   desert:
     item:
-      material: "PLAYER_HEAD"
+      material: "Player Head"
       amount: 1
       displayName: "&b&lDesert Island"
-      headData: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY0OTNkZDgwNjUzM2Q5ZDIwZTg0OTUzOTU0MzY1ZjRkMzY5NzA5Y2ViYzlkZGVmMDIyZDFmZDQwZDg2YTY4ZiJ9fX0="
+      skullData: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY0OTNkZDgwNjUzM2Q5ZDIwZTg0OTUzOTU0MzY1ZjRkMzY5NzA5Y2ViYzlkZGVmMDIyZDFmZDQwZDg2YTY4ZiJ9fX0="
+      headData: null
       headOwner: null
       headOwnerUUID: null
+      model: null
       lore:
       - "&7A starter desert island."
       slot: 11
+    regenCost:
+      money: 0.0
+      bankItems: {}
+    minLevel: 0
     xHome: 1.5
     yHome: 88.0
     zHome: -0.5
@@ -32,15 +38,21 @@ schematics:
       ignoreAirBlocks: true
   jungle:
     item:
-      material: "PLAYER_HEAD"
+      material: "Player Head"
       amount: 1
       displayName: "&b&lJungle Island"
-      headData: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgzYWRmNDU2MGRlNDc0MTQwNDA5M2FjNjFjMzNmYjU1NmIzZDllZTUxNDBmNjIwMzYyNTg5ZmRkZWRlZmEyZCJ9fX0="
+      skullData: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgzYWRmNDU2MGRlNDc0MTQwNDA5M2FjNjFjMzNmYjU1NmIzZDllZTUxNDBmNjIwMzYyNTg5ZmRkZWRlZmEyZCJ9fX0="
+      headData: null
       headOwner: null
       headOwnerUUID: null
+      model: null
       lore:
       - "&7A starter jungle island."
       slot: 13
+    regenCost:
+      money: 0.0
+      bankItems: {}
+    minLevel: 0
     xHome: 0.5
     yHome: 89.0
     zHome: 0.5
@@ -62,15 +74,21 @@ schematics:
       ignoreAirBlocks: true
   mushroom:
     item:
-      material: "PLAYER_HEAD"
+      material: "Player Head"
       amount: 1
       displayName: "&b&lMushroom Island"
-      headData: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE0NWQxYjQxN2NiZGRjMjE3NjdiMDYwNDRlODk5YjI2NmJmNzhhNjZlMjE4NzZiZTNjMDUxNWFiNTVkNzEifX19"
+      skullData: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE0NWQxYjQxN2NiZGRjMjE3NjdiMDYwNDRlODk5YjI2NmJmNzhhNjZlMjE4NzZiZTNjMDUxNWFiNTVkNzEifX19"
+      headData: null
       headOwner: null
       headOwnerUUID: null
+      model: null
       lore:
       - "&7A starter mushroom island."
       slot: 15
+    regenCost:
+      money: 0.0
+      bankItems: {}
+    minLevel: 0
     xHome: 1.5
     yHome: 89.0
     zHome: -0.5
@@ -90,3 +108,9 @@ schematics:
       schematicID: "mushroom_end.schem"
       islandHeight: 90.0
       ignoreAirBlocks: true
+abbreviatePrices: true
+buyPriceLore: "&9Buy Price: &7%vault_cost%"
+levelRequirementLore: "&9[!] &7Must be level %level% to purchase"
+regenDisclaimer: "&9[!] &7Applies to regeneration only"
+failSound: "BLOCK_ANVIL_LAND"
+successSound: "ENTITY_PLAYER_LEVELUP"

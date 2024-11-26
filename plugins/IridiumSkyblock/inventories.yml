@@ -1,1798 +1,2194 @@
 ---
 backButton:
-  material: "NETHER_STAR"
+  material: "Nether Star"
   amount: 1
   displayName: "&c&lBack"
+  skullData: null
   headData: null
   headOwner: null
   headOwnerUUID: null
+  model: null
   lore: []
   slot: -5
-islandBorder:
-  size: 27
-  title: "&7Island Border"
+rewardsGUI:
+  size: 54
+  title: "&7Island Rewards"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "Black Stained Glass Pane"
       amount: 1
       displayName: " "
+      skullData: null
       headData: null
       headOwner: null
       headOwnerUUID: null
-      lore: []
-      slot: null
-    items:
-      9:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      10:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      11:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      12:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      13:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      14:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      15:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      16:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      17:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-  items:
-    is border blue:
-      material: "BLUE_STAINED_GLASS_PANE"
-      amount: 1
-      displayName: "&b&lBlue"
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: 10
-    is border red:
-      material: "RED_STAINED_GLASS_PANE"
-      amount: 1
-      displayName: "&c&lRed"
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: 12
-    is border green:
-      material: "GREEN_STAINED_GLASS_PANE"
-      amount: 1
-      displayName: "&a&lGreen"
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: 14
-    is border off:
-      material: "WHITE_STAINED_GLASS_PANE"
-      amount: 1
-      displayName: "&f&lOff"
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: 16
-islandMenu:
-  size: 45
-  title: "&7Island Menu"
-  background:
-    filler:
-      material: "BLACK_STAINED_GLASS_PANE"
-      amount: 1
-      displayName: " "
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: null
-    items: {}
-  items:
-    is regen:
-      material: "GRASS_BLOCK"
-      amount: 1
-      displayName: "&b&lIsland Regen"
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore:
-      - "&7Regenerate your island"
-      slot: 12
-    is boosters:
-      material: "EXPERIENCE_BOTTLE"
-      amount: 1
-      displayName: "&b&lIsland Boosters"
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore:
-      - "&7View your island boosters"
-      slot: 23
-    is home:
-      material: "WHITE_BED"
-      amount: 1
-      displayName: "&b&lIsland Home"
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore:
-      - "&7Teleport to your island home"
-      slot: 13
-    is members:
-      material: "PLAYER_HEAD"
-      amount: 1
-      displayName: "&b&lIsland Members"
-      headData: null
-      headOwner: "Peaches_MLG"
-      headOwnerUUID: null
-      lore:
-      - "&7View your island members"
-      slot: 14
-    is warps:
-      material: "END_PORTAL_FRAME"
-      amount: 1
-      displayName: "&b&lIsland Warps"
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore:
-      - "&7View your island warps"
-      slot: 20
-    is upgrade:
-      material: "DIAMOND"
-      amount: 1
-      displayName: "&b&lIsland Upgrades"
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore:
-      - "&7View your island upgrades"
-      slot: 21
-    is missions:
-      material: "IRON_SWORD"
-      amount: 1
-      displayName: "&b&lIsland Missions"
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore:
-      - "&7View your island missions"
-      slot: 22
-    is border:
-      material: "BEACON"
-      amount: 1
-      displayName: "&b&lIsland Border"
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore:
-      - "&7Change your island border"
-      slot: 24
-    is bank:
-      material: "PLAYER_HEAD"
-      amount: 1
-      displayName: "&b&lIsland Bank"
-      headData: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM4MWM1MjlkNTJlMDNjZDc0YzNiZjM4YmI2YmEzZmRlMTMzN2FlOWJmNTAzMzJmYWE4ODllMGEyOGU4MDgxZiJ9fX0"
-      headOwner: null
-      headOwnerUUID: null
-      lore:
-      - "&7View your island bank"
-      slot: 30
-    is permissions:
-      material: "WRITABLE_BOOK"
-      amount: 1
-      displayName: "&b&lIsland Permissions"
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore:
-      - "&7View your island permissions"
-      slot: 31
-    is trusted:
-      material: "NAME_TAG"
-      amount: 1
-      displayName: "&b&lTrusted Members"
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore:
-      - "&7View your island's trusted members"
-      slot: 32
-    is delete:
-      material: "BARRIER"
-      amount: 1
-      displayName: "&b&lDelete Island"
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore:
-      - "&7Delete your island"
-      slot: 44
-missionSelectGUI:
-  size: 27
-  title: "&7Island Missions"
-  background:
-    filler:
-      material: "BLACK_STAINED_GLASS_PANE"
-      amount: 1
-      displayName: " "
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: null
-    items:
-      9:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      10:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      11:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      12:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      13:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      14:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      15:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      16:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      17:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-  items:
-    is missions once:
-      material: "WRITABLE_BOOK"
-      amount: 1
-      displayName: "&b&lQuests"
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: 15
-    is missions daily:
-      material: "DIAMOND_SWORD"
-      amount: 1
-      displayName: "&b&lDaily Missions"
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: 11
-blockValueSelectGUI:
-  size: 27
-  title: "Block Values"
-  background:
-    filler:
-      material: "BLACK_STAINED_GLASS_PANE"
-      amount: 1
-      displayName: " "
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: null
-    items:
-      9:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      10:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      11:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      12:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      13:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      14:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      15:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      16:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      17:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-  items:
-    is blockvalues block:
-      material: "EMERALD_BLOCK"
-      amount: 1
-      displayName: "&b&lValuable Blocks"
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: 11
-    is blockvalues spawner:
-      material: "SPAWNER"
-      amount: 1
-      displayName: "&b&lValuable Spawners"
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: 15
-visitGUI:
-  size: 45
-  title: "&7Visit an Island"
-  background:
-    filler:
-      material: "BLACK_STAINED_GLASS_PANE"
-      amount: 1
-      displayName: " "
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
+      model: null
       lore: []
       slot: null
     items: {}
   item:
-    material: "PLAYER_HEAD"
+    material: "Sunflower"
     amount: 1
-    displayName: "&b&l%island_name%"
+    displayName: "&9&lClaim All!"
+    skullData: null
     headData: null
-    headOwner: "%island_owner%"
+    headOwner: null
     headOwnerUUID: null
-    lore:
-    - "&7Created: %island_create%"
-    - "&7Owner: %island_owner%"
-    slot: null
+    model: null
+    lore: []
+    slot: 53
 membersGUI:
-  size: 27
+  size: 0
   title: "&7Island Members"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "Black Stained Glass Pane"
       amount: 1
       displayName: " "
+      skullData: null
       headData: null
       headOwner: null
       headOwnerUUID: null
+      model: null
       lore: []
       slot: null
     items: {}
   item:
-    material: "PLAYER_HEAD"
+    material: "Player Head"
     amount: 1
-    displayName: "&b&l%player_name%"
-    headData: null
-    headOwner: "%player_name%"
-    headOwnerUUID: null
-    lore:
-    - "&7Joined: %player_join%"
-    - "&7Rank: %player_rank%"
-    - ""
-    - "&b&l[!] &7Right Click to promote"
-    - "&b&l[!] &7Left click to demote/kick"
-    slot: 0
-bansGUI:
-  size: 27
-  title: "&7Island Bans"
-  background:
-    filler:
-      material: "BLACK_STAINED_GLASS_PANE"
-      amount: 1
-      displayName: " "
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: null
-    items: {}
-  item:
-    material: "PLAYER_HEAD"
-    amount: 1
-    displayName: "&b&l%player_name%"
-    headData: null
-    headOwner: "%player_name%"
-    headOwnerUUID: null
-    lore:
-    - "&7Banned time: %ban_time%"
-    - "&7Banned by: %banned_by%"
-    - ""
-    - "&b&l[!] &7Left Click to unban"
-    slot: 0
-trustedGUI:
-  size: 27
-  title: "&7Trusted Members"
-  background:
-    filler:
-      material: "BLACK_STAINED_GLASS_PANE"
-      amount: 1
-      displayName: " "
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: null
-    items: {}
-  item:
-    material: "PLAYER_HEAD"
-    amount: 1
-    displayName: "&b&l%player_name%"
-    headData: null
-    headOwner: "%player_name%"
-    headOwnerUUID: null
-    lore:
-    - "&7Date: %player_join%"
-    - "&7Trusted By: %trustee%"
-    - ""
-    - "&b&l [!] &7Left click to untrust"
-    slot: 0
-visitorsGUI:
-  size: 27
-  title: "&7Island Visitors"
-  background:
-    filler:
-      material: "BLACK_STAINED_GLASS_PANE"
-      amount: 1
-      displayName: " "
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: null
-    items: {}
-  item:
-    material: "PLAYER_HEAD"
-    amount: 1
-    displayName: "&b&l%player_name%"
-    headData: null
-    headOwner: "%player_name%"
-    headOwnerUUID: null
-    lore:
-    - "&7Has Island: %has_island%"
-    - ""
-    - "&b&l[!] &7Left Click to expel this visitor from your island"
-    - "&b&l[!] &7Right Click to ban this visitor from your island"
-    slot: 0
-islandTopGUI:
-  size: 27
-  title: "&7Top Islands"
-  background:
-    filler:
-      material: "BLACK_STAINED_GLASS_PANE"
-      amount: 1
-      displayName: " "
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: null
-    items: {}
-  item:
-    material: "PLAYER_HEAD"
-    amount: 1
-    displayName: "&b&lIsland Owner: &f%island_owner% &7(#%island_rank%)"
-    headData: null
-    headOwner: "%island_owner%"
-    headOwnerUUID: null
-    lore:
-    - ""
-    - "&b&l * &7Island Name: &b%island_name%"
-    - "&b&l * &7Island Rank: &b%island_rank%"
-    - "&b&l * &7Island Value: &b%island_value%"
-    - "&b&l * &7Netherite Blocks: &b%NETHERITE_BLOCK_AMOUNT%"
-    - "&b&l * &7Emerald Blocks: &b%EMERALD_BLOCK_AMOUNT%"
-    - "&b&l * &7Diamond Blocks: &b%DIAMOND_BLOCK_AMOUNT%"
-    - "&b&l * &7Gold Blocks: &b%GOLD_BLOCK_AMOUNT%"
-    - "&b&l * &7Iron Blocks: &b%IRON_BLOCK_AMOUNT%"
-    - "&b&l * &7Hopper Blocks: &b%HOPPER_AMOUNT%"
-    - "&b&l * &7Beacon Blocks: &b%BEACON_AMOUNT%"
-    - ""
-    - "&b&l[!] &bLeft Click to Teleport to this Island."
-    slot: null
-  filler:
-    material: "BARRIER"
-    amount: 1
-    displayName: " "
+    displayName: "&9&l%player_name%"
+    skullData: "%player_name%"
     headData: null
     headOwner: null
     headOwnerUUID: null
-    lore: []
-    slot: null
-confirmationGUI:
-  size: 27
-  title: "&7Are you sure?"
+    model: null
+    lore:
+    - "&9Joined: &7%player_join%"
+    - "&9Rank: &7%player_rank%"
+    - ""
+    - "&9&l[!] &7Right Click to promote"
+    - "&9&l[!] &7Left click to demote/kick"
+    slot: 0
+invitesGUI:
+  size: 0
+  title: "&7Island Invites"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "Black Stained Glass Pane"
       amount: 1
       displayName: " "
+      skullData: null
       headData: null
       headOwner: null
       headOwnerUUID: null
+      model: null
       lore: []
       slot: null
-    items:
-      9:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      10:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      11:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      12:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      13:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      14:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      15:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      16:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      17:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-  "yes":
-    material: "GREEN_STAINED_GLASS_PANE"
+    items: {}
+  item:
+    material: "Player Head"
     amount: 1
-    displayName: "&a&lYes"
+    displayName: "&9&l%player_name%"
+    skullData: "%player_name%"
     headData: null
     headOwner: null
     headOwnerUUID: null
-    lore: []
-    slot: 15
-  "no":
-    material: "RED_STAINED_GLASS_PANE"
+    model: null
+    lore:
+    - "&9Invited: &7%invite_time%"
+    - ""
+    - "&9&l[!] &7Left click to uninvite"
+    slot: 0
+trustsGUI:
+  size: 0
+  title: "&7Island Trusts"
+  background:
+    filler:
+      material: "Black Stained Glass Pane"
+      amount: 1
+      displayName: " "
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: null
+    items: {}
+  item:
+    material: "Player Head"
     amount: 1
-    displayName: "&c&lNo"
+    displayName: "&9&l%player_name%"
+    skullData: "%player_name%"
     headData: null
     headOwner: null
     headOwnerUUID: null
-    lore: []
-    slot: 11
+    model: null
+    lore:
+    - "&9Trusted At: &7%trusted_time%"
+    - "&9Trusted By: &7%truster%"
+    - ""
+    - "&9&l[!] &7Left click to un-trust"
+    slot: 0
+ranksGUI:
+  size: 27
+  title: "&7Island Permissions"
+  background:
+    filler:
+      material: "Black Stained Glass Pane"
+      amount: 1
+      displayName: " "
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: null
+    items: {}
+permissionsGUI:
+  size: 54
+  title: "&7Island Permissions"
+  background:
+    filler:
+      material: "Black Stained Glass Pane"
+      amount: 1
+      displayName: " "
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: null
+    items: {}
+settingsGUI:
+  size: 36
+  title: "&7Island Settings"
+  background:
+    filler:
+      material: "Black Stained Glass Pane"
+      amount: 1
+      displayName: " "
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: null
+    items: {}
 bankGUI:
   size: 27
   title: "&7Island Bank"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "Black Stained Glass Pane"
       amount: 1
       displayName: " "
+      skullData: null
       headData: null
       headOwner: null
       headOwnerUUID: null
+      model: null
       lore: []
       slot: null
     items:
       9:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       10:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       11:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       12:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       13:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       14:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       15:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       16:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       17:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
-logsGUI:
-  size: 27
-  title: "&7Island Logs"
+missionGUI:
+  DAILY:
+    size: 27
+    title: "&7Daily Island Missions"
+    background:
+      filler:
+        material: "Black Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      items:
+        9:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        10:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        11:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        12:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        13:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        14:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        15:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        16:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        17:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+  WEEKLY:
+    size: 27
+    title: "&7Weekly Island Missions"
+    background:
+      filler:
+        material: "Black Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      items:
+        9:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        10:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        11:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        12:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        13:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        14:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        15:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        16:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        17:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+  INFINITE:
+    size: 27
+    title: "&7Island Missions"
+    background:
+      filler:
+        material: "Black Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      items:
+        9:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        10:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        11:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        12:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        13:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        14:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        15:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        16:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+        17:
+          material: "Light Gray Stained Glass Pane"
+          amount: 1
+          displayName: " "
+          skullData: null
+          headData: null
+          headOwner: null
+          headOwnerUUID: null
+          model: null
+          lore: []
+          slot: null
+  ONCE:
+    size: 45
+    title: "&7Island Missions"
+    background:
+      filler:
+        material: "Black Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      items: {}
+topGUI:
+  size: 54
+  title: "&7Top Island"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "Black Stained Glass Pane"
       amount: 1
       displayName: " "
+      skullData: null
       headData: null
       headOwner: null
       headOwnerUUID: null
+      model: null
       lore: []
       slot: null
-    items:
-      9:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      10:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      11:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      12:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      13:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      14:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      15:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      16:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      17:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-  IslandMembers:
-    material: "PLAYER_HEAD"
+    items: {}
+  item:
+    material: "Player Head"
     amount: 1
-    displayName: "&b&lIsland Members"
-    headData: null
-    headOwner: "%island_owner%"
-    headOwnerUUID: null
-    lore:
-    - ""
-    - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
-    slot: 10
-  IslandTrusts:
-    material: "EMERALD"
-    amount: 1
-    displayName: "&b&lIsland Trusts"
+    displayName: "&9&lIsland Owner: &f%island_owner%"
+    skullData: "%island_owner%"
     headData: null
     headOwner: null
     headOwnerUUID: null
+    model: null
     lore:
     - ""
-    - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
-    slot: 11
-  IslandInvites:
-    material: "LAPIS_LAZULI"
+    - "&9Island Name: &7%island_name%"
+    - "&9Island Value: &7%island_value% (#%island_value_rank%)"
+    - "&9Island Experience: &7%island_experience% (#%island_experience_rank%)"
+    - "&9Netherite Blocks: &7%island_netherite_block_amount%"
+    - "&9Emerald Blocks: &7%island_emerald_block_amount%"
+    - "&9Diamond Blocks: &7%island_diamond_block_amount%"
+    - "&9Gold Blocks: &7%island_gold_block_amount%"
+    - "&9Iron Blocks: &7%island_iron_block_amount%"
+    - "&9Hopper Blocks: &7%island_hopper_amount%"
+    - "&9Beacon Blocks: &7%island_beacon_amount%"
+    slot: 0
+  filler:
+    material: "Barrier"
     amount: 1
-    displayName: "&b&lIsland Invites"
+    displayName: " "
+    skullData: null
     headData: null
     headOwner: null
     headOwnerUUID: null
-    lore:
-    - ""
-    - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
-    slot: 12
-  IslandBank:
-    material: "GOLD_INGOT"
-    amount: 1
-    displayName: "&b&lIsland Bank"
-    headData: null
-    headOwner: null
-    headOwnerUUID: null
-    lore:
-    - ""
-    - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
-    slot: 13
-  IslandBoosters:
-    material: "EXPERIENCE_BOTTLE"
-    amount: 1
-    displayName: "&b&lIsland Boosters"
-    headData: null
-    headOwner: null
-    headOwnerUUID: null
-    lore:
-    - ""
-    - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
-    slot: 14
-  IslandUpgrades:
-    material: "BEACON"
-    amount: 1
-    displayName: "&b&lIsland Upgrades"
-    headData: null
-    headOwner: null
-    headOwnerUUID: null
-    lore:
-    - ""
-    - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
-    slot: 15
-  IslandRewards:
-    material: "DIAMOND"
-    amount: 1
-    displayName: "&b&lIsland Rewards"
-    headData: null
-    headOwner: null
-    headOwnerUUID: null
-    lore:
-    - ""
-    - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
-    slot: 16
-  USER_JOINED: "&b%user% Joined (%days% days %hours% hours %minutes% minutes %seconds%\
-    \ seconds ago)"
-  USER_KICKED: "&b%user% kicked %target% (%days% days %hours% hours %minutes% minutes\
-    \ %seconds% seconds ago)"
-  USER_LEFT: "&b%user% Left (%days% days %hours% hours %minutes% minutes %seconds%\
-    \ seconds ago)"
-  USER_INVITED: "&b%user% Invited %target% (%days% days %hours% hours %minutes% minutes\
-    \ %seconds% seconds ago)"
-  USER_UNINVITED: "&b%user% Uninvited %target% (%days% days %hours% hours %minutes%\
-    \ minutes %seconds% seconds ago)"
-  USER_PROMOTED: "&b%user% Promoted %target% (%days% days %hours% hours %minutes%\
-    \ minutes %seconds% seconds ago)"
-  USER_DEMOTED: "&b%user% Demoted %target% (%days% days %hours% hours %minutes% minutes\
-    \ %seconds% seconds ago)"
-  USER_TRUSTED: "&b%user% Trusted %target% (%days% days %hours% hours %minutes% minutes\
-    \ %seconds% seconds ago)"
-  USER_UNTRUSTED: "&b%user% UnTrusted %target% (%days% days %hours% hours %minutes%\
-    \ minutes %seconds% seconds ago)"
-  BANK_DEPOSIT: "&b%user% Deposited %amount% %type% (%days% days %hours% hours %minutes%\
-    \ minutes %seconds% seconds ago)"
-  BANK_WITHDRAW: "&b%user% Withdrew %amount% %type% (%days% days %hours% hours %minutes%\
-    \ minutes %seconds% seconds ago)"
-  BOOSTER_PURCHASE: "&b%user% Purchased %type% booster (%days% days %hours% hours\
-    \ %minutes% minutes %seconds% seconds ago)"
-  UPGRADE_PURCHASE: "&b%user% Purchased %type% upgrade (%days% days %hours% hours\
-    \ %minutes% minutes %seconds% seconds ago)"
-  REWARD_REDEEMED: "&b%user% redeemed %type% reward (%days% days %hours% hours %minutes%\
-    \ minutes %seconds% seconds ago)"
-upgradesGUI:
-  size: 27
-  title: "&7Island Upgrades"
-  background:
-    filler:
-      material: "BLACK_STAINED_GLASS_PANE"
-      amount: 1
-      displayName: " "
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: null
-    items:
-      9:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      10:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      11:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      12:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      13:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      14:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      15:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      16:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
-      17:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
-        amount: 1
-        displayName: " "
-        headData: null
-        headOwner: null
-        headOwnerUUID: null
-        lore: []
-        slot: null
+    model: null
+    lore: []
+    slot: null
 boostersGUI:
   size: 27
   title: "&7Island Boosters"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "Black Stained Glass Pane"
       amount: 1
       displayName: " "
+      skullData: null
       headData: null
       headOwner: null
       headOwnerUUID: null
+      model: null
       lore: []
       slot: null
     items:
       9:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       10:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       11:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       12:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       13:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       14:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       15:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       16:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       17:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
-warpsGUI:
+upgradesGUI:
   size: 27
-  title: "&7%island_name%'s Island Warps"
+  title: "&7Island Upgrades"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "Black Stained Glass Pane"
       amount: 1
       displayName: " "
+      skullData: null
       headData: null
       headOwner: null
       headOwnerUUID: null
+      model: null
       lore: []
       slot: null
     items:
       9:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       10:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       11:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       12:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       13:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       14:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       15:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       16:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       17:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+shopOverviewGUI:
+  size: 36
+  title: "&7Island Shop"
+  background:
+    filler:
+      material: "Black Stained Glass Pane"
+      amount: 1
+      displayName: " "
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: null
+    items: {}
+shopCategoryGUI:
+  size: 0
+  title: "&7Island Shop | %category_name%"
+  background:
+    filler:
+      material: "Black Stained Glass Pane"
+      amount: 1
+      displayName: " "
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: null
+    items: {}
+warpsGUI:
+  size: 27
+  title: "&7Island Warps"
+  background:
+    filler:
+      material: "Black Stained Glass Pane"
+      amount: 1
+      displayName: " "
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: null
+    items:
+      9:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      10:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      11:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      12:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      13:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      14:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      15:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      16:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      17:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
         lore: []
         slot: null
   item:
-    material: "GREEN_STAINED_GLASS_PANE"
+    material: "Green Stained Glass Pane"
     amount: 1
     displayName: "&b&l%warp_name%"
+    skullData: null
     headData: null
     headOwner: null
     headOwnerUUID: null
+    model: null
     lore:
-    - "&7%description%"
+    - "&9Description: &7%warp_description%"
+    - "&9Created By: &7%warp_creator%"
+    - "&9Date: &7%warp_create_time%"
     - ""
     - "&b&l[!] &bLeft Click to Teleport"
     - "&b&l[!] &bRight Click to Delete"
     slot: null
-blockValue:
+missionTypeSelectorGUI:
   size: 27
-  title: "&7Block Values"
+  title: "&7Island Missions"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "Black Stained Glass Pane"
       amount: 1
       displayName: " "
+      skullData: null
       headData: null
       headOwner: null
       headOwnerUUID: null
+      model: null
+      lore: []
+      slot: null
+    items:
+      9:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      10:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      11:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      12:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      13:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      14:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      15:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      16:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      17:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+  daily:
+    item:
+      material: "Iron Ingot"
+      amount: 1
+      displayName: "&9&lDaily Missions"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: 11
+    enabled: true
+  weekly:
+    item:
+      material: "Gold Ingot"
+      amount: 1
+      displayName: "&9&lWeekly Missions"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: 13
+    enabled: false
+  infinite:
+    item:
+      material: "Iron Ingot"
+      amount: 1
+      displayName: "&9&lInstant Missions"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: 11
+    enabled: false
+  once:
+    item:
+      material: "Diamond"
+      amount: 1
+      displayName: "&9&lOne Time Missions"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: 15
+    enabled: true
+confirmationGUI:
+  size: 27
+  title: "&7Are you sure?"
+  background:
+    filler:
+      material: "Black Stained Glass Pane"
+      amount: 1
+      displayName: " "
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: null
+    items:
+      9:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      10:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      11:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      12:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      13:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      14:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      15:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      16:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      17:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+  "yes":
+    material: "Green Stained Glass Pane"
+    amount: 1
+    displayName: "&a&lYes"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore: []
+    slot: 15
+  "no":
+    material: "Red Stained Glass Pane"
+    amount: 1
+    displayName: "&9&lNo"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore: []
+    slot: 11
+nextPage:
+  material: "Lime Stained Glass Pane"
+  amount: 1
+  displayName: "&a&lNext Page"
+  skullData: null
+  headData: null
+  headOwner: null
+  headOwnerUUID: null
+  model: null
+  lore: []
+  slot: null
+previousPage:
+  material: "Red Stained Glass Pane"
+  amount: 1
+  displayName: "&9&lPrevious Page"
+  skullData: null
+  headData: null
+  headOwner: null
+  headOwnerUUID: null
+  model: null
+  lore: []
+  slot: null
+blockValueGUI:
+  size: 54
+  title: "&7Block Values - Page %page% of %max_pages%"
+  background:
+    filler:
+      material: "Black Stained Glass Pane"
+      amount: 1
+      displayName: " "
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
       lore: []
       slot: null
     items: {}
-  lore:
-  - "&bValue per block: &7%value%"
-islandInvitesGUI:
-  size: 27
-  title: "&7Island Invites"
+spawnerValueGUI:
+  size: 54
+  title: "&7Spawner Values - Page %page% of %max_pages%"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "Black Stained Glass Pane"
       amount: 1
       displayName: " "
+      skullData: null
       headData: null
       headOwner: null
       headOwnerUUID: null
+      model: null
+      lore: []
+      slot: null
+    items: {}
+blockValuesTypeSelectorGUI:
+  size: 27
+  title: "&7Island Block Values"
+  background:
+    filler:
+      material: "Black Stained Glass Pane"
+      amount: 1
+      displayName: " "
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: null
+    items:
+      9:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      10:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      11:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      12:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      13:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      14:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      15:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      16:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      17:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+  blocks:
+    item:
+      material: "Diamond Block"
+      amount: 1
+      displayName: "&9&lBlocks"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: 11
+    enabled: true
+  spawners:
+    item:
+      material: "Spawner"
+      amount: 1
+      displayName: "&9&lSpawners"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: 15
+    enabled: true
+islandBorderGUI:
+  size: 27
+  title: "&7Island Border"
+  background:
+    filler:
+      material: "Black Stained Glass Pane"
+      amount: 1
+      displayName: " "
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: null
+    items:
+      9:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      10:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      11:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      12:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      13:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      14:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      15:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      16:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+      17:
+        material: "Light Gray Stained Glass Pane"
+        amount: 1
+        displayName: " "
+        skullData: null
+        headData: null
+        headOwner: null
+        headOwnerUUID: null
+        model: null
+        lore: []
+        slot: null
+  blue:
+    material: "Blue Stained Glass Pane"
+    amount: 1
+    displayName: "&9&lBlue"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore: []
+    slot: 10
+  red:
+    material: "Red Stained Glass Pane"
+    amount: 1
+    displayName: "&c&lRed"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore: []
+    slot: 12
+  green:
+    material: "Green Stained Glass Pane"
+    amount: 1
+    displayName: "&a&lGreen"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore: []
+    slot: 14
+  "off":
+    material: "White Stained Glass Pane"
+    amount: 1
+    displayName: "&f&lOff"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore: []
+    slot: 16
+islandMenu:
+  size: 45
+  title: "&7Island Menu"
+  background:
+    filler:
+      material: "Black Stained Glass Pane"
+      amount: 1
+      displayName: " "
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore: []
+      slot: null
+    items: {}
+  items:
+    is regen:
+      material: "Grass Block"
+      amount: 1
+      displayName: "&9&lIsland Regen"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore:
+      - "&7Regenerate your island"
+      slot: 12
+    is boosters:
+      material: "Experience Bottle"
+      amount: 1
+      displayName: "&9&lIsland Boosters"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore:
+      - "&7View your island boosters"
+      slot: 23
+    is home:
+      material: "White Bed"
+      amount: 1
+      displayName: "&9&lIsland Home"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore:
+      - "&7Teleport to your island home"
+      slot: 13
+    is members:
+      material: "Player Head"
+      amount: 1
+      displayName: "&9&lIsland Members"
+      skullData: "Peaches_MLG"
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore:
+      - "&7View your island members"
+      slot: 14
+    is warps:
+      material: "End Portal Frame"
+      amount: 1
+      displayName: "&9&lIsland Warps"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore:
+      - "&7View your island warps"
+      slot: 20
+    is upgrades:
+      material: "Diamond"
+      amount: 1
+      displayName: "&9&lIsland Upgrades"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore:
+      - "&7View your island upgrades"
+      slot: 21
+    is missions:
+      material: "Iron Sword"
+      amount: 1
+      displayName: "&9&lIsland Missions"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore:
+      - "&7View your island missions"
+      slot: 22
+    is border:
+      material: "Beacon"
+      amount: 1
+      displayName: "&9&lIsland Border"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore:
+      - "&7Change your island border"
+      slot: 24
+    is bank:
+      material: "Player Head"
+      amount: 1
+      displayName: "&9&lIsland Bank"
+      skullData: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM4MWM1MjlkNTJlMDNjZDc0YzNiZjM4YmI2YmEzZmRlMTMzN2FlOWJmNTAzMzJmYWE4ODllMGEyOGU4MDgxZiJ9fX0"
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore:
+      - "&7View your island bank"
+      slot: 30
+    is permissions:
+      material: "Writable Book"
+      amount: 1
+      displayName: "&9&lIsland Permissions"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore:
+      - "&7View your island permissions"
+      slot: 31
+    is invites:
+      material: "Name Tag"
+      amount: 1
+      displayName: "&9&lIsland Invites"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore:
+      - "&7View your island invites"
+      slot: 32
+    is delete:
+      material: "Barrier"
+      amount: 1
+      displayName: "&9&lDelete Island"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore:
+      - "&7Delete your island"
+      slot: 44
+visitGUI:
+  size: 54
+  title: "&7Visit an Island"
+  background:
+    filler:
+      material: "Black Stained Glass Pane"
+      amount: 1
+      displayName: " "
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
       lore: []
       slot: null
     items: {}
   item:
-    material: "PLAYER_HEAD"
+    material: "Player Head"
     amount: 1
-    displayName: "&b&l%player_name%"
+    displayName: "&9&l%island_name%"
+    skullData: "%island_owner%"
     headData: null
-    headOwner: "%player_name%"
+    headOwner: null
     headOwnerUUID: null
+    model: null
     lore:
-    - "&7Invited By: %inviter%"
-    - "&7Time: %time%"
-    - ""
-    - "&b&l[!] &7Click to un-invite"
+    - "&9Created: &7%island_create%"
+    - "&9Owner: &7%island_owner%"
     slot: 0
 islandSchematicGUI:
   size: 27
   title: "&7Select a Schematic"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "Black Stained Glass Pane"
       amount: 1
       displayName: " "
+      skullData: null
       headData: null
       headOwner: null
       headOwnerUUID: null
+      model: null
       lore: []
       slot: null
     items:
       9:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       10:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       11:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       12:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       13:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       14:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       15:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       16:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       17:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
-dailyMissionGUI:
+biomeOverviewGUI:
   size: 27
-  title: "&7Daily Island Missions"
+  title: "Biomes"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "Black Stained Glass Pane"
       amount: 1
       displayName: " "
+      skullData: null
       headData: null
       headOwner: null
       headOwnerUUID: null
+      model: null
       lore: []
       slot: null
     items:
       9:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       10:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       11:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       12:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       13:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       14:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       15:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       16:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
       17:
-        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
+        material: "Light Gray Stained Glass Pane"
         amount: 1
         displayName: " "
+        skullData: null
         headData: null
         headOwner: null
         headOwnerUUID: null
+        model: null
         lore: []
         slot: null
-missionsGUI:
-  size: 45
-  title: "&7Island Missions"
-  background:
-    filler:
-      material: "BLACK_STAINED_GLASS_PANE"
-      amount: 1
-      displayName: " "
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: null
-    items: {}
-islandPermissionsGUI:
+biomeCategoryGUI:
   size: 54
-  title: "&7Island Permissions"
+  title: "Biomes - %biome_category_name%"
   background:
     filler:
-      material: "BLACK_STAINED_GLASS_PANE"
+      material: "Black Stained Glass Pane"
       amount: 1
       displayName: " "
+      skullData: null
       headData: null
       headOwner: null
       headOwnerUUID: null
+      model: null
       lore: []
       slot: null
     items: {}
-islandSettingsGUI:
-  size: 36
-  title: "&7Island Settings"
-  background:
-    filler:
-      material: "BLACK_STAINED_GLASS_PANE"
-      amount: 1
-      displayName: " "
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: null
-    items: {}
-islandRanksGUI:
-  size: 27
-  title: "&7Island Permissions"
-  background:
-    filler:
-      material: "BLACK_STAINED_GLASS_PANE"
-      amount: 1
-      displayName: " "
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: null
-    items: {}
-  owner:
-    material: "GREEN_STAINED_GLASS_PANE"
-    amount: 1
-    displayName: "&b&lOwner"
-    headData: null
-    headOwner: null
-    headOwnerUUID: null
-    lore:
-    - "&b%members%"
-    slot: 11
-  coOwner:
-    material: "GREEN_STAINED_GLASS_PANE"
-    amount: 1
-    displayName: "&b&lCo-Owner"
-    headData: null
-    headOwner: null
-    headOwnerUUID: null
-    lore:
-    - "&b%members%"
-    slot: 12
-  moderator:
-    material: "GREEN_STAINED_GLASS_PANE"
-    amount: 1
-    displayName: "&b&lModerator"
-    headData: null
-    headOwner: null
-    headOwnerUUID: null
-    lore:
-    - "&b%members%"
-    slot: 13
-  member:
-    material: "GREEN_STAINED_GLASS_PANE"
-    amount: 1
-    displayName: "&b&lMember"
-    headData: null
-    headOwner: null
-    headOwnerUUID: null
-    lore:
-    - "&b%members%"
-    slot: 14
-  visitor:
-    material: "GREEN_STAINED_GLASS_PANE"
-    amount: 1
-    displayName: "&b&lVisitor"
-    headData: null
-    headOwner: null
-    headOwnerUUID: null
-    lore: []
-    slot: 15
-biomeGUI:
-  size: 45
-  title: "&7Island Biomes"
-  background:
-    filler:
-      material: "BLACK_STAINED_GLASS_PANE"
-      amount: 1
-      displayName: " "
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: null
-    items: {}
-  item:
-    material: "GRASS_BLOCK"
-    amount: 1
-    displayName: "&b&l%biome%"
-    headData: null
-    headOwner: null
-    headOwnerUUID: null
-    lore:
-    - "&7Click to change your island biome!"
-    slot: null
-islandReward:
-  size: 45
-  title: "&7Island Rewards"
-  background:
-    filler:
-      material: "BLACK_STAINED_GLASS_PANE"
-      amount: 1
-      displayName: " "
-      headData: null
-      headOwner: null
-      headOwnerUUID: null
-      lore: []
-      slot: null
-    items: {}
-nextPage:
-  material: "LIME_STAINED_GLASS_PANE"
-  amount: 1
-  displayName: "&a&lNext Page"
-  headData: null
-  headOwner: null
-  headOwnerUUID: null
-  lore: []
-  slot: null
-previousPage:
-  material: "RED_STAINED_GLASS_PANE"
-  amount: 1
-  displayName: "&c&lPrevious Page"
-  headData: null
-  headOwner: null
-  headOwnerUUID: null
-  lore: []
-  slot: null

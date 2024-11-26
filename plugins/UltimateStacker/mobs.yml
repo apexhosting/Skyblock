@@ -194,14 +194,14 @@ Mobs:
     Display Name: Wolf
     Max Stack Size: -1
     Kill Whole Stack: false
-  MUSHROOM_COW:
+  MOOSHROOM:
     Enabled: true
-    Display Name: Mushroom cow
+    Display Name: Mooshroom
     Max Stack Size: -1
     Kill Whole Stack: false
-  SNOWMAN:
+  SNOW_GOLEM:
     Enabled: true
-    Display Name: Snowman
+    Display Name: Snow golem
     Max Stack Size: -1
     Kill Whole Stack: false
   OCELOT:
@@ -362,5 +362,60 @@ Mobs:
   GOAT:
     Enabled: true
     Display Name: Goat
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  ALLAY:
+    Enabled: true
+    Display Name: Allay
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  FROG:
+    Enabled: true
+    Display Name: Frog
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  TADPOLE:
+    Enabled: true
+    Display Name: Tadpole
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  WARDEN:
+    Enabled: true
+    Display Name: Warden
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  CAMEL:
+    Enabled: true
+    Display Name: Camel
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  SNIFFER:
+    Enabled: true
+    Display Name: Sniffer
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  BREEZE:
+    Enabled: true
+    Display Name: Breeze
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  ARMADILLO:
+    Enabled: true
+    Display Name: Armadillo
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  BOGGED:
+    Enabled: true
+    Display Name: Bogged
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  MUSHROOM_COW:
+    Enabled: true
+    Display Name: Mushroom cow
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  SNOWMAN:
+    Enabled: true
+    Display Name: Snowman
     Max Stack Size: -1
     Kill Whole Stack: false

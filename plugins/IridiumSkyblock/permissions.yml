@@ -1,0 +1,416 @@
+---
+allowed: "&a&lALLOWED"
+denied: "&c&lDENIED"
+blockBreak:
+  item:
+    material: "Diamond Pickaxe"
+    amount: 1
+    displayName: "&9Break Blocks"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to break any blocks in your Island."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 10
+  page: 1
+  defaultRank: 1
+blockPlace:
+  item:
+    material: "Cobblestone"
+    amount: 1
+    displayName: "&9Place Blocks"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to place any blocks in your Island."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 11
+  page: 1
+  defaultRank: 1
+bucket:
+  item:
+    material: "Bucket"
+    amount: 1
+    displayName: "&9Use Buckets"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to fill and empty buckets in your Island."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 12
+  page: 1
+  defaultRank: 1
+changePermissions:
+  item:
+    material: "Sunflower"
+    amount: 1
+    displayName: "&9Change Permissions"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to edit Island permissions."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 13
+  page: 1
+  defaultRank: 3
+claim:
+  item:
+    material: "Iron Axe"
+    amount: 1
+    displayName: "&9Claim Land"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to claim land for your Island."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 14
+  page: 1
+  defaultRank: 2
+demote:
+  item:
+    material: "Player Head"
+    amount: 1
+    displayName: "&9Demote Users"
+    skullData: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU5YWU3YTRiZTY1ZmNiYWVlNjUxODEzODlhMmY3ZDQ3ZTJlMzI2ZGI1OWVhM2ViNzg5YTkyYzg1ZWE0NiJ9fX0="
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to demote users in your Island."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 15
+  page: 1
+  defaultRank: 3
+description:
+  item:
+    material: "Writable Book"
+    amount: 1
+    displayName: "&9Change Description"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to change your Island description."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 16
+  page: 1
+  defaultRank: 3
+doors:
+  item:
+    material: "Oak Door"
+    amount: 1
+    displayName: "&9Use Doors"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to use doors or trapdoors in your Island."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 19
+  page: 1
+  defaultRank: 1
+invite:
+  item:
+    material: "Diamond"
+    amount: 1
+    displayName: "&9Invite Users"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to invite Island members."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 20
+  page: 1
+  defaultRank: 2
+trust:
+  item:
+    material: "Emerald"
+    amount: 1
+    displayName: "&9Trust Users"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to trust members in your Island."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 21
+  page: 1
+  defaultRank: 2
+kick:
+  item:
+    material: "Iron Boots"
+    amount: 1
+    displayName: "&9Kick Users"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to kick Island members."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 22
+  page: 1
+  defaultRank: 2
+killMobs:
+  item:
+    material: "Diamond Sword"
+    amount: 1
+    displayName: "&9Kill Mobs"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to kill mobs in your Island."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 23
+  page: 1
+  defaultRank: 1
+openContainers:
+  item:
+    material: "Chest"
+    amount: 1
+    displayName: "&9Open Containers"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to open containers in your Island."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 24
+  page: 1
+  defaultRank: 1
+promote:
+  item:
+    material: "Player Head"
+    amount: 1
+    displayName: "&9Promote Users"
+    skullData: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Y0NmFiYWQ5MjRiMjIzNzJiYzk2NmE2ZDUxN2QyZjFiOGI1N2ZkZDI2MmI0ZTA0ZjQ4MzUyZTY4M2ZmZjkyIn19fQ=="
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to promote users in your Island."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 25
+  page: 1
+  defaultRank: 3
+redstone:
+  item:
+    material: "Redstone"
+    amount: 1
+    displayName: "&9Use Redstone"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to use buttons, levels, or pressure plates in your Island."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 28
+  page: 1
+  defaultRank: 1
+rename:
+  item:
+    material: "Paper"
+    amount: 1
+    displayName: "&9Rename Island"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to rename your Island."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 29
+  page: 1
+  defaultRank: 3
+setHome:
+  item:
+    material: "White Bed"
+    amount: 1
+    displayName: "&9Island Home"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to change your Island home."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 30
+  page: 1
+  defaultRank: 2
+spawners:
+  item:
+    material: "Spawner"
+    amount: 1
+    displayName: "&9Break Spawners"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to mine spawners in your Island."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 31
+  page: 1
+  defaultRank: 1
+settings:
+  item:
+    material: "Gunpowder"
+    amount: 1
+    displayName: "&9Change Settings"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to change your Island settings."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 32
+  page: 1
+  defaultRank: 3
+manageWarps:
+  item:
+    material: "End Portal Frame"
+    amount: 1
+    displayName: "&9Manage Warps"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to create edit and delete Island Warps."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 33
+  page: 1
+  defaultRank: 2
+interact:
+  item:
+    material: "Oak Sign"
+    amount: 1
+    displayName: "&9Edit Signs"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "Grants the ability to edit signs and item frames in the Island."
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 40
+  page: 1
+  defaultRank: 2
+border:
+  item:
+    material: "Beacon"
+    amount: 1
+    displayName: "&9Island Border"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to Change the Island border."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 33
+  page: 1
+  defaultRank: 1
+regen:
+  item:
+    material: "Tnt"
+    amount: 1
+    displayName: "&9Regenerate Island"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Grant the ability to regenerate your Island."
+    - ""
+    - "&9&lPermission"
+    - "%permission%"
+    slot: 34
+  page: 1
+  defaultRank: 3

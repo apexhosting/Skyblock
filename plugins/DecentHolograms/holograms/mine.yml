@@ -1,0 +1,18 @@
+location: Mine:255.525:101.2:307.515
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: netherite_pickaxe'
+    height: 0.3
+  - content: '&7'
+    height: 0.3
+  - content: '&7&lPUBLIC &c&lMINE'
+    height: 0.3
+  - content: '&eYou can find any ores here!'
+    height: 0.3
+  actions: {}

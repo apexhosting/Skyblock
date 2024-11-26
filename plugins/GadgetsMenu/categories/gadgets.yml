@@ -333,6 +333,7 @@ Gadgets:
         - '&7Challenge your friends to a'
         - '&7tic-tac-toe game. Who will'
         - '&7be the winner?'
+    GUI-Name: Fun & Games
   Mobs And NPCs:
     Name: '&eMobs & NPCs'
     Material: CREEPER_HEAD
@@ -436,6 +437,7 @@ Gadgets:
         - '&7Spawns a scarecrow that'
         - '&7changes the head of nearby'
         - '&7players into a pumpkin.'
+    GUI-Name: Mobs & NPCs
   Movement:
     Name: '&eMovement'
     Material: GOLDEN_BOOTS
@@ -574,6 +576,7 @@ Gadgets:
         - '&7around you, covering the'
         - '&7area in white for a short'
         - '&7amount of time!'
+    GUI-Name: Movement
   Musical:
     Name: '&eMusical'
     Material: JUKEBOX
@@ -669,6 +672,7 @@ Gadgets:
         - '&7never! Mesmerize your'
         - '&7friends with this DJ set'
         - '&7and dance floor.'
+    GUI-Name: Musical
   Projectile:
     Name: '&eProjectile'
     Material: BOW
@@ -768,6 +772,7 @@ Gadgets:
         Lore:
         - '&7Eat the melon slices for'
         - '&7a temporary speed boost!'
+    GUI-Name: Projectile
   Visual:
     Name: '&eVisual'
     Material: head:fec5963e1f78f2f05943f4dd32224661374c220ecfde1e54754f5ee1e555dd
@@ -924,3 +929,4 @@ Gadgets:
         - '&7Launcher a wave of bats'
         - '&7and give you a temporary'
         - '&7invisibility.'
+    GUI-Name: Visual

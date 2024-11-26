@@ -1,0 +1,229 @@
+---
+teamJoining:
+  item:
+    material: "Gunpowder"
+    amount: 1
+    displayName: "&9Island Type"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Set your Island joining method."
+    - ""
+    - "&9&lValue"
+    - "&7%value%"
+    slot: 10
+  displayName: "JoinType"
+  defaultValue: "Private"
+  enabled: true
+teamValue:
+  item:
+    material: "Sunflower"
+    amount: 1
+    displayName: "&9Island Value Visibility"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Set your Island value."
+    - ""
+    - "&9&lValue"
+    - "&7%value%"
+    slot: 11
+  displayName: "ValueVisibility"
+  defaultValue: "Public"
+  enabled: true
+mobSpawning:
+  item:
+    material: "Spawner"
+    amount: 1
+    displayName: "&9Island Mob Spawning"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Control Mob Spawning on your Island."
+    - ""
+    - "&9&lValue"
+    - "&7%value%"
+    slot: 12
+  displayName: "MobSpawning"
+  defaultValue: "Enabled"
+  enabled: true
+leafDecay:
+  item:
+    material: "Jungle Leaves"
+    amount: 1
+    displayName: "&9Island Leaf Decay"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Control Leaf Decay on your Island."
+    - ""
+    - "&9&lValue"
+    - "&7%value%"
+    slot: 13
+  displayName: "LeafDecay"
+  defaultValue: "Disabled"
+  enabled: true
+iceForm:
+  item:
+    material: "Ice"
+    amount: 1
+    displayName: "&9Island Ice Form"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Control Ice Forming on your Island."
+    - ""
+    - "&9&lValue"
+    - "&7%value%"
+    slot: 14
+  displayName: "IceForm"
+  defaultValue: "Disabled"
+  enabled: true
+fireSpread:
+  item:
+    material: "Flint And Steel"
+    amount: 1
+    displayName: "&9Island Fire Spread"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Control Fire Spread on your Island."
+    - ""
+    - "&9&lValue"
+    - "&7%value%"
+    slot: 15
+  displayName: "FireSpread"
+  defaultValue: "Disabled"
+  enabled: true
+cropTrample:
+  item:
+    material: "Wheat Seeds"
+    amount: 1
+    displayName: "&9Island Crop Trample"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Control Trampling Crops on your Island."
+    - ""
+    - "&9&lValue"
+    - "&7%value%"
+    slot: 16
+  displayName: "CropTrample"
+  defaultValue: "Enabled"
+  enabled: true
+weather:
+  item:
+    material: "Blaze Powder"
+    amount: 1
+    displayName: "&9Island Weather"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Control Weather on your Island."
+    - ""
+    - "&9&lValue"
+    - "&7%value%"
+    slot: 19
+  displayName: "Weather"
+  defaultValue: "Server"
+  enabled: true
+time:
+  item:
+    material: "Clock"
+    amount: 1
+    displayName: "&9Island Time"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Control Time on your Island."
+    - ""
+    - "&9&lValue"
+    - "&7%value%"
+    slot: 20
+  displayName: "Time"
+  defaultValue: "Server"
+  enabled: true
+entityGrief:
+  item:
+    material: "Ender Pearl"
+    amount: 1
+    displayName: "&9Island Entity Grief"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Control Entity Grief on your Island."
+    - ""
+    - "&9&lValue"
+    - "&7%value%"
+    slot: 21
+  displayName: "EntityGrief"
+  defaultValue: "Disabled"
+  enabled: true
+tntDamage:
+  item:
+    material: "Tnt"
+    amount: 1
+    displayName: "&9Island TnT Damage"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Control TnT Damage on your Island."
+    - ""
+    - "&9&lValue"
+    - "&7%value%"
+    slot: 22
+  displayName: "TnTDamage"
+  defaultValue: "Enabled"
+  enabled: true
+visiting:
+  item:
+    material: "Beacon"
+    amount: 1
+    displayName: "&9Island Visiting"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Control if people can visit your Island."
+    - ""
+    - "&9&lValue"
+    - "&7%value%"
+    slot: 23
+  displayName: "Visiting"
+  defaultValue: "Enabled"
+  enabled: true

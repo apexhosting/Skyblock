@@ -43,6 +43,7 @@ Messages:
 #    Remove: '&cRemoved! &7You removed the Custom World %world%'
 
 Help:
+  Location: ' &7- &e/%command% location <location_name> &7- Rtp using a specific location'
   Prefix: '&e&m-----&6&l BetterRTP &8| 帮助菜单 &e&m-----'
   Edit: ' &7- &e/%command% edit <默认/世界> [参数...] &7- 修改插件设置。'
   Info: ' &7- &e/%command% info [world/particles/shapes/potion_effects] &7- 查看有关插件参数的特定信息。'
@@ -65,7 +66,16 @@ Help:
 #  Location: ' &7- &e/%command% location <location_name> &7- Rtp using a specific location'
 
 Usage:
+  Location: '&cUsage&7: /%command% location <location_name>'
   Edit:
+    PermissionGroup: '&cUsage&7: /%command% edit permission_group <group> <world>
+      <max/min/useworldborder/center> <value>'
+    Location: '&cUsage&7: /%command% edit location <location_name> <max/min/useworldborder/center>
+      <value>'
+    Worldtype: '&cUsage&7: /%command% edit world_type <world> <NETHER/NORMAL>'
+    Override: '&cUsage&7: /%command% edit override <world> <world_to>'
+    BlacklistedBlocks: '&cUsage&7: /%command% edit blacklistedblocks <add/remove>
+      <block_id>'
     Base: '&c用法&7：/%command% edit <default/世界> [参数...]'
     Default: '&c用法&7：/%command% edit default <max/min/useworldborder/center> <值>'
     World: '&c用法&7：/%command% edit world <world> <max/min/useworldborder/center> <值>'

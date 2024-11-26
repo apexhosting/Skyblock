@@ -25,22 +25,60 @@ options:
     ProcessPrisons_ExplosiveBlockBreakEventsPriority: LOW
     TokenEnchantBlockExplodeEventPriority: DISABLED
     CrazyEnchantsBlastUseEventPriority: DISABLED
+    RevEnchantsExplosiveEventPriority: DISABLED
+    RevEnchantsJackHammerEventPriority: DISABLED
     ZenchantmentsBlockShredEventPriority: DISABLED
     PrisonEnchantsExplosiveEventPriority: DISABLED
+    XPrisonExplosionTriggerEventPriority: DISABLED
+    XPrisonLayerTriggerEventPriority: DISABLED
+    XPrisonNukeTriggerEventPriority: DISABLED
     blockBreakEvents__ReadMe: 'Use the following event priorities with the blockBreakEvents:
       DISABLED, LOWEST, LOW, NORMAL, HIGH, HIGHEST, BLOCKEVENTS, MONITOR'
+    blockBreakEvents__ReadMe2: 'MONITOR: Processed even if event is canceled. Includes
+      block counts, Mine Sweeper, and check reset-threshold (zero-block) conditions
+      to force a mine reset. BLOCKEVENTS: Similar to MONITOR but includes Prison Block
+      Events, and sellall on full inventory if enabled.'
+    blockBreakEvents__ReadMe3: 'ACCESS: Processed as a LOWEST priority and will check
+      to see if the player has access to the mine. If they do not have access, then
+      the event will be canceled. No other processing is performed. ACCESSBLOCKEVENTS
+      combines two priorities: ACCESS and BLOCKEVENTS. ACCESSMONITOR combines two
+      priorities: ACCESS and MONITOR.'
   general:
     isCalculateFoodExhustion: true
     isCalculateSilkEnabled: true
     isCalculateDropAdditionsEnabled: true
     isCalculateXPEnabled: true
     givePlayerXPAsOrbDrops: false
+    ifBlockIsAlreadyCountedThenCancelEvent: true
+    processMonitorEventsOnlyIfPrimaryBlockIsAIR: true
+    isMinecraftStatsReportingEnabled: true
+    eventPriorityACCESSFailureTPToCurrentMine: true
+    general__ReadMe1: 'ACCESS failure: if ''TPToCurrentMine'' is enabled, then a failure
+      with the ACCESS priority will TP the player back to the mine that is linked
+      to their current rank using ''/mines tp'' with no mine specified.'
   inventory:
     isAutoSellPerBlockBreakEnabled: false
     permissionAutoSellPerBlockBreakEnabled: prison.automanager.autosell
-    permissionAutoSellPerBlockBreakEnabled__ReadMe: If OP then you cannot use this
-      permission node since it would always be enabled. Using a value of 'disable'
-      will turn it off for everyone.
+    permissionAutoSellPerBlockBreakEnabled__readme: AutoSell by permission can be
+      disabled with the use of 'disable', or 'false', for the perm name. Players cannot
+      use the autosell permission while OP'd.
+    isAutoSellLeftoversForceDebugLogging: true
+    isAutoSellLeftoversForceDebugLogging__ReadMe: If autosell is enabled and could
+      not sell all blocks, then force Prison's debug logging of transaction to help
+      identify why. This only applies if debug mode is turned off.
+    isForceSellAllOnInventoryWhenBukkitBlockBreakEventFires: false
+    isForceSellAllOnInventoryWhenBukkitBlockBreakEventFires__readme: AutoManager's
+      autosell does not touch the player's inventory. So this feature will perform
+      a sellall on the player's inventory at the end of handling the bukkkit's BlockBreakEvent.
+      This will not apply to anyother event. This can be enabled without enabling
+      the autosell.
+    isEnabledDelayedSellAllOnInventoryWhenBukkitBlockBreakEventFires: false
+    isEnabledDelayedSellAllOnInventoryDelayInTicks__readme: This option adds a delay
+      to a sellall event. The delay can be set to a range of 0 or more ticks, with
+      2 ticks being the default.  When a player breaks a block through the BlockBreakEvent,
+      if this is enabled, then a task will be submitted to perform a sellall transaction
+      for the player.  Only one task per player can be submitted at a time, so if
+      the player is agressivly mining, they cannot queue up many sellalls.
     isAutoSellIfInventoryIsFull: true
     isAutoSellIfInventoryIsFullForBLOCKEVENTSPriority: false
     dropItemsIfInventoryIsFull: true
@@ -53,6 +91,7 @@ options:
       will default to NOTE_PLING, BLOCK_NOTE_PLING, or BLOCK_NOTE_BLOCK_PLING, as
       valid for your server.'
     actionBarMessageIfInventoryIsFull: true
+    isEnabledDelayedSellAllOnInventoryDelayInTicks: 2
     playSoundIfInventoryIsFullSoundVolume: 4.0
     playSoundIfInventoryIsFullSoundPitch: 1.0
   tokens:
@@ -62,6 +101,12 @@ options:
     permissionAutoPickup: prison.automanager.pickup
     permissionAutoSmelt: prison.automanager.smelt
     permissionAutoBlock: prison.automanager.block
+    permissionAuto__readme: If permmissions are enabled, of which they are by default,
+      and 'isAutoFeaturesEnabled' is enabled, then all OPs will automatically enable
+      auto pickup, auto smelt, and auto block because bukkit will always test 'true'
+      for any permmission when OP'd. There is no way around this, other than just
+      turning off these perms, which is not advisable because players should not be
+      playing as OP'd. To disable these perms, then use a value of 'disable'.
   lore:
     isLoreEnabled: true
     lorePickupValue: '&dAuto Pickup&7'
@@ -81,6 +126,7 @@ options:
     handleNormalDropsEvents: true
     normalDropSmelt: true
     normalDropBlock: true
+    normalDropCheckForFullInventory: false
   durability:
     isCalculateDurabilityEnabled: false
     preventToolBreakageThreshold__ReadMe: This option stops the tool from losing any
@@ -88,7 +134,36 @@ options:
     isPreventToolBreakage: false
     preventToolBreakageThreshold: 10
   fortuneFeature:
+    percentGradientFortune:
+      isPercentGradientFortuneEnabled: false
+      isPercentGradientFortuneEnabled__readme: Percent Gradient Fortune is an alternative
+        fortune calculation that will only be enabled if extendedBukkitFortune and
+        altFortune is turned off.  Percent Gradient Fortune will always drop a minimum
+        of 1 block with fortune 0 and higher. The max it will ever drop, will be 1
+        + MaxBonusBlocks amount.  The calculation of the MaxBonusBlocks will be a
+        random roll resulting in 0 bonus blocks, to the MaxBonusBlocks amount IF the
+        player has the max fortune on their tool. For fortune ammounts less than the
+        maxFortuneLevel, it will be treated as a linear percentage gradient of the
+        max amount. For example, MaxFortuneLevel= 1000, and MaxBonusBlocks= 200. Therefore
+        if the player has a fortune 500, the max bonus they could get would be only
+        100 blocks, but could be as low as zero bonus blocks since it's a random roll
+        on each calculation. If they have a fort 250, then it will be 25% of 200,
+        or 50 blocks as a max bonus. For better control of the randomness applied
+        to the bonus block calculations, the MinPercentRandomness sets the lowest
+        range for the randomness. What this means, is for a maxFortuneLevel= 1000
+        and a maxBonusBlocks of= 200, and a tool with fort 500, the calcs would be
+        for a bonus between '0' and (500 / 1000 * 200 =) 100 bonus blocks.  But with
+        the minPercentRandomness= 25, then the range would be '25%' to 100% of the
+        100 bonus blocks. The minePercentRandomness would ensure a higher payout of
+        bonus blocks, without effecting the max payout. minPercentRandomness has a
+        valid range of 0.0 (off) to 99.0 percent. No other fortune multipliers will
+        apply to these calculations.  The percentage gradient is a very controlled
+        way of paying out fortune bonuses.
+      percentGradientFortuneMaxFortuneLevel: 1000
+      percentGradientFortuneMaxBonusBlocks: 200
+      percentGradientFortuneMinPercentRandomness: 25.0
     isCalculateFortuneEnabled: true
+    isUseTokenEnchantsFortuneLevel: false
     isExtendBukkitFortuneCalculationsEnabled: true
     extendBukkitFortune__ReadMe: To get fortune to work, First try to use the extendedBukkitFortune
       (set it to true). If it won't work, then you must disable it (set it to false),
@@ -96,7 +171,9 @@ options:
       is enabled.
     isCalculateAltFortuneEnabled: false
     isCalculateAltFortuneOnAllBlocksEnabled: false
+    fortuneMultiplierGlobal: 1.0
     fortuneMultiplierMax: 0
+    fortuneBukkitDropsMultiplier: 1.0
     extendBukkitFortuneFactorPercentRangeLow: 70
     extendBukkitFortuneFactorPercentRangeHigh: 110
   pickupFeature:
@@ -147,3 +224,10 @@ options:
     blockSnowBlock: true
     blockGlowstone: true
     blockCopperBlock: true
+  blockConverters:
+    isEnabledBlockConverters: false
+    blockConverters_readme: Block converters are a new experimental component to prison
+      that will provide much more control over all things related to blocks, including
+      access through perms, ranks, or special functional behaviors. Eventually this
+      will replace the list of hard coded blocks listed above for blocking and smelting.
+    isEnabledBlockConvertersEventTriggers: false

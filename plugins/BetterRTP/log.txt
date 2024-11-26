@@ -1,0 +1,55 @@
+2024-11-26 05:52:04 [INFO]: Loading Overrides...
+2024-11-26 05:52:04 [INFO]: Loading World Types...
+2024-11-26 05:52:04 [INFO]: - World Type for 'world' set to 'NORMAL'
+2024-11-26 05:52:04 [INFO]: - World Type for 'world_nether' set to 'NETHER'
+2024-11-26 05:52:04 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
+2024-11-26 05:52:04 [INFO]: Loading Defaults...
+2024-11-26 05:52:04 [INFO]: Loading Custom Worlds...
+2024-11-26 05:52:04 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2024-11-26 05:52:04 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2024-11-26 05:52:04 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
+2024-11-26 05:52:06 [INFO]: Database PLAYERS:Players configured and loaded!
+2024-11-26 05:52:06 [INFO]: Database QUEUE:Queue configured and loaded!
+2024-11-26 05:52:06 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2024-11-26 05:52:06 [INFO]: Database COOLDOWN:World configured and loaded!
+2024-11-26 05:52:06 [INFO]: Database COOLDOWN:World_nether configured and loaded!
+2024-11-26 05:52:06 [INFO]: Database COOLDOWN:World_the_end configured and loaded!
+2024-11-26 05:52:06 [INFO]: Database COOLDOWN:IridiumSkyblock configured and loaded!
+2024-11-26 05:52:06 [INFO]: Database COOLDOWN:IridiumSkyblock_nether configured and loaded!
+2024-11-26 05:52:06 [INFO]: Database COOLDOWN:IridiumSkyblock_the_end configured and loaded!
+2024-11-26 05:52:06 [INFO]: Database COOLDOWN:Skyblock_World_nether configured and loaded!
+2024-11-26 05:52:06 [INFO]: Database COOLDOWN:Warzone configured and loaded!
+2024-11-26 05:52:06 [INFO]: Database COOLDOWN:Mine configured and loaded!
+2024-11-26 05:52:06 [INFO]: Database COOLDOWN:Skyblock_World configured and loaded!
+2024-11-26 05:52:06 [INFO]: Database COOLDOWN:Skyblock_World_the_end configured and loaded!
+2024-11-26 05:52:06 [INFO]: Attempting to queue up some more safe locations...
+2024-11-26 05:52:07 [WARNING]: Seems like the world `World_the_end` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- World_the_end: NETHER`
+2024-11-26 05:52:18 [INFO]: Queue position generated: id= default_World_the_end, database_ID= 2, location= x: 846, y: 63, z: 586, world: World_the_end
+2024-11-26 05:52:35 [INFO]: Queue position generated: id= default_World_the_end, database_ID= 3, location= x: 338, y: 56, z: -973, world: World_the_end
+2024-11-26 05:52:36 [INFO]: Queue position generated: id= default_World_the_end, database_ID= 4, location= x: -820, y: 65, z: 966, world: World_the_end
+2024-11-26 05:52:45 [INFO]: Queue position generated: id= default_World_the_end, database_ID= 5, location= x: 976, y: 57, z: 613, world: World_the_end
+2024-11-26 05:52:48 [INFO]: Queue position generated: id= default_World_the_end, database_ID= 6, location= x: -806, y: 60, z: 932, world: World_the_end
+2024-11-26 05:52:59 [INFO]: Queue position generated: id= default_World_the_end, database_ID= 7, location= x: -551, y: 57, z: -905, world: World_the_end
+2024-11-26 05:53:04 [INFO]: Max attempts to create a Queue reached for default_World_the_end (amount: 6)
+2024-11-26 05:53:04 [WARNING]: Seems like the world `IridiumSkyblock_nether` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- IridiumSkyblock_nether: NETHER`
+2024-11-26 05:53:58 [INFO]: Max attempts to create a Queue reached for default_IridiumSkyblock_nether (amount: 1)
+2024-11-26 05:53:58 [WARNING]: Seems like the world `Skyblock_World_nether` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- Skyblock_World_nether: NETHER`
+2024-11-26 05:54:53 [INFO]: Max attempts to create a Queue reached for default_IridiumSkyblock_nether (amount: 1)
+2024-11-26 05:55:48 [INFO]: Max attempts to create a Queue reached for default_IridiumSkyblock_nether (amount: 1)
+2024-11-26 05:56:42 [INFO]: Max attempts to create a Queue reached for default_IridiumSkyblock_nether (amount: 1)
+2024-11-26 05:57:37 [INFO]: Max attempts to create a Queue reached for default_IridiumSkyblock_nether (amount: 1)
+2024-11-26 05:58:32 [INFO]: Max attempts to create a Queue reached for default_IridiumSkyblock_nether (amount: 1)
+2024-11-26 05:59:26 [INFO]: Max attempts to create a Queue reached for default_IridiumSkyblock_nether (amount: 1)
+2024-11-26 06:00:21 [INFO]: Max attempts to create a Queue reached for default_IridiumSkyblock_nether (amount: 1)
+2024-11-26 06:01:16 [INFO]: Max attempts to create a Queue reached for default_IridiumSkyblock_nether (amount: 1)
+2024-11-26 06:02:10 [INFO]: Max attempts to create a Queue reached for default_IridiumSkyblock_nether (amount: 1)
+2024-11-26 06:03:05 [INFO]: Max attempts to create a Queue reached for default_IridiumSkyblock_nether (amount: 1)
+2024-11-26 06:04:00 [INFO]: Max attempts to create a Queue reached for default_IridiumSkyblock_nether (amount: 1)
+2024-11-26 06:04:54 [INFO]: Max attempts to create a Queue reached for default_IridiumSkyblock_nether (amount: 1)
+2024-11-26 06:05:49 [INFO]: Max attempts to create a Queue reached for default_IridiumSkyblock_nether (amount: 1)
+2024-11-26 06:06:44 [INFO]: Max attempts to create a Queue reached for default_IridiumSkyblock_nether (amount: 1)
+2024-11-26 06:07:38 [INFO]: Max attempts to create a Queue reached for default_IridiumSkyblock_nether (amount: 1)
+2024-11-26 06:08:33 [INFO]: Max attempts to create a Queue reached for default_IridiumSkyblock_nether (amount: 1)
+2024-11-26 06:09:28 [INFO]: Max attempts to create a Queue reached for default_IridiumSkyblock_nether (amount: 1)
+2024-11-26 06:10:22 [INFO]: Max attempts to create a Queue reached for default_IridiumSkyblock_nether (amount: 1)
+2024-11-26 06:10:50 [INFO]: Disabling BetterRTP v3.6.13

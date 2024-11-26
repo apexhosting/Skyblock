@@ -134,6 +134,8 @@ GUI-Menus:
         - '&6Legendary items&7: &b1'
         - ''
         - '&7Quality: &e✰&7✰✰✰✰'
+        Show: true
+        Slot: 9
       2-Star:
         Name: '&bMystery Box #2'
         Material: ENDER_CHEST
@@ -148,6 +150,8 @@ GUI-Menus:
         - '&6Legendary items&7: &b1'
         - ''
         - '&7Quality: &e✰✰&7✰✰✰'
+        Show: true
+        Slot: 11
       3-Star:
         Name: '&bMystery Box #3'
         Material: ENDER_CHEST
@@ -162,6 +166,8 @@ GUI-Menus:
         - '&6Legendary items&7: &b1'
         - ''
         - '&7Quality: &e✰✰✰&7✰✰'
+        Show: true
+        Slot: 13
       4-Star:
         Name: '&bMystery Box #4'
         Material: ENDER_CHEST
@@ -176,6 +182,8 @@ GUI-Menus:
         - '&6Legendary items&7: &b3'
         - ''
         - '&7Quality: &e✰✰✰✰&7✰'
+        Show: true
+        Slot: 15
       5-Star:
         Name: '&bMystery Box #5'
         Material: ENDER_CHEST
@@ -190,6 +198,8 @@ GUI-Menus:
         - '&6Legendary items&7: &b4'
         - ''
         - '&7Quality: &e✰✰✰✰✰'
+        Show: true
+        Slot: 17
   Gift-Inventory-Menu:
     GUI-Name: Gift Inventory
     Items:
@@ -341,7 +351,7 @@ Items:
     Show-In-Lore: true
     Lore:
     - ''
-    - '&7Unlocked: &c{HASPERMISSION}/{SIZE} &8({PERCENTAGE}%)'
+    - '&7Unlocked: &c{UNLOCKED_ITEMS}/{SIZE} &8({PERCENTAGE}%)'
     - ''
     - '&eClick to browse!'
   Settings:
@@ -762,3 +772,12 @@ Days: days
 No-Cosmetic-Equipped: none
 No-Recent-Loot-Found: none
 Loading: '&cLoading...'
+Cosmetic-Usage-Is-Disabled: '{PREFIX}&cYou''re not allowed to equip cosmetics at the
+  moment.'
+Target-Player-No-Permission: '{PREFIX}&c{PLAYER} does not have the required permissions
+  to equip this cosmetic.'
+Failed-To-Reload-Plugin: '{PREFIX}&cUnable to reload GadgetsMenu plugin. The plugin
+  has been disabled. You need to restart the server to re-enable the plugin.'
+Reset-Pet-Name: '&eSuccessfully reset the pet name.'
+Reset-Pet-Name-For-Player: '&eSuccessfully reset {PLAYER}''s pet name.'
+Invalid: Invalid

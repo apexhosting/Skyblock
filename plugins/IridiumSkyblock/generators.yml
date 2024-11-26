@@ -1,0 +1,64 @@
+---
+skyblockGenerator:
+  overworld:
+    biome: "PLAINS"
+    canSpawnEntities: true
+  nether:
+    biome: "NETHER_WASTES"
+    canSpawnEntities: true
+  end:
+    biome: "THE_END"
+    canSpawnEntities: true
+oceanGenerator:
+  overworld:
+    biome: "OCEAN"
+    floor: "Sand"
+    underFloor: "Stone"
+    liquidType: "Water"
+    liquidHeight: 63
+    minFloorHeight: 48
+    maxFloorHeight: 53
+    decorate: true
+    canSpawnEntities: true
+  nether:
+    biome: "NETHER_WASTES"
+    floor: "Soul Sand"
+    underFloor: "Netherrack"
+    liquidType: "Lava"
+    liquidHeight: 63
+    minFloorHeight: 48
+    maxFloorHeight: 53
+    decorate: true
+    canSpawnEntities: true
+  end:
+    biome: "END_BARRENS"
+    floor: "End Stone"
+    underFloor: "End Stone"
+    liquidType: "Void Air"
+    liquidHeight: 63
+    minFloorHeight: 48
+    maxFloorHeight: 53
+    decorate: true
+    canSpawnEntities: true
+flatGenerator:
+  overworld:
+    biome: "PLAINS"
+    floor: "Grass Block"
+    underFloor: "Dirt"
+    floorHeight: -59
+    decorate: true
+    canSpawnEntities: true
+  nether:
+    biome: "NETHER_WASTES"
+    floor: "Netherrack"
+    underFloor: "Netherrack"
+    floorHeight: 5
+    decorate: true
+    canSpawnEntities: true
+  end:
+    biome: "END_BARRENS"
+    floor: "End Stone"
+    underFloor: "End Stone"
+    floorHeight: 5
+    decorate: true
+    canSpawnEntities: true

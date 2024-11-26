@@ -2,1179 +2,1247 @@
 categories:
   Blocks:
     item:
-      material: "GRASS_BLOCK"
+      material: "Grass Block"
       amount: 1
       displayName: "&9&lBlocks"
+      skullData: null
       headData: null
       headOwner: null
       headOwnerUUID: null
+      model: null
       lore: []
       slot: 12
-    inventoryRows: 6
+    inventorySize: 54
   Food:
     item:
-      material: "COOKED_CHICKEN"
+      material: "Cooked Chicken"
       amount: 1
       displayName: "&9&lFood"
+      skullData: null
       headData: null
       headOwner: null
       headOwnerUUID: null
+      model: null
       lore: []
       slot: 13
-    inventoryRows: 4
+    inventorySize: 36
   Ores:
     item:
-      material: "GOLD_INGOT"
+      material: "Gold Ingot"
       amount: 1
       displayName: "&9&lOres"
+      skullData: null
       headData: null
       headOwner: null
       headOwnerUUID: null
+      model: null
       lore: []
       slot: 14
-    inventoryRows: 4
+    inventorySize: 36
   Farming:
     item:
-      material: "WHEAT"
+      material: "Wheat"
       amount: 1
       displayName: "&9&lFarming"
+      skullData: null
       headData: null
       headOwner: null
       headOwnerUUID: null
+      model: null
       lore: []
       slot: 21
-    inventoryRows: 5
+    inventorySize: 45
   Mob Drops:
     item:
-      material: "SPIDER_EYE"
+      material: "Spider Eye"
       amount: 1
       displayName: "&9&lMob Drops"
+      skullData: null
       headData: null
       headOwner: null
       headOwnerUUID: null
+      model: null
       lore: []
       slot: 22
-    inventoryRows: 5
+    inventorySize: 45
   Miscellaneous:
     item:
-      material: "SADDLE"
+      material: "Saddle"
       amount: 1
       displayName: "&9&lMiscellaneous"
+      skullData: null
       headData: null
       headOwner: null
       headOwnerUUID: null
+      model: null
       lore: []
       slot: 23
-    inventoryRows: 4
+    inventorySize: 36
 items:
   Blocks:
   - name: "&9&lGrass Block"
-    displayName: ""
-    type: "GRASS_BLOCK"
+    type: "Grass Block"
     lore: []
     command: null
     defaultAmount: 1
     slot: 10
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 10.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lDirt Block"
-    displayName: ""
-    type: "DIRT"
+    type: "Dirt"
     lore: []
     command: null
     defaultAmount: 10
     slot: 11
+    page: 1
     buyCost:
-      vault: 50.0
-      crystals: 0
-    sellReward:
-      vault: 5.0
-      crystals: 0
+      money: 50.0
+      bankItems: {}
+    sellCost:
+      money: 5.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lGravel"
-    displayName: ""
-    type: "GRAVEL"
+    type: "Gravel"
     lore: []
     command: null
     defaultAmount: 10
     slot: 12
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 10.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lGranite"
-    displayName: ""
-    type: "GRANITE"
+    type: "Granite"
     lore: []
     command: null
     defaultAmount: 10
     slot: 13
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 10.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lDiorite"
-    displayName: ""
-    type: "DIORITE"
+    type: "Diorite"
     lore: []
     command: null
     defaultAmount: 10
     slot: 14
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 10.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lAndesite"
-    displayName: ""
-    type: "ANDESITE"
+    type: "Andesite"
     lore: []
     command: null
     defaultAmount: 10
     slot: 15
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 10.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lOak Log"
-    displayName: ""
-    type: "OAK_LOG"
+    type: "Oak Log"
     lore: []
     command: null
     defaultAmount: 16
     slot: 16
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 10.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lSpruce Log"
-    displayName: ""
-    type: "SPRUCE_LOG"
+    type: "Spruce Log"
     lore: []
     command: null
     defaultAmount: 16
     slot: 19
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 10.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lBirch Log"
-    displayName: ""
-    type: "BIRCH_LOG"
+    type: "Birch Log"
     lore: []
     command: null
     defaultAmount: 16
     slot: 20
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 10.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lJungle Log"
-    displayName: ""
-    type: "JUNGLE_LOG"
+    type: "Jungle Log"
     lore: []
     command: null
     defaultAmount: 16
     slot: 21
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 10.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lAcacia Log"
-    displayName: ""
-    type: "ACACIA_LOG"
+    type: "Acacia Log"
     lore: []
     command: null
     defaultAmount: 16
     slot: 22
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 10.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lDark Oak Log"
-    displayName: ""
-    type: "DARK_OAK_LOG"
+    type: "Dark Oak Log"
     lore: []
     command: null
     defaultAmount: 16
     slot: 23
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 10.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lSnow Block"
-    displayName: ""
-    type: "SNOW_BLOCK"
+    type: "Snow Block"
     lore: []
     command: null
     defaultAmount: 16
     slot: 24
+    page: 1
     buyCost:
-      vault: 200.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
+      money: 200.0
+      bankItems: {}
+    sellCost:
+      money: 10.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lIce"
-    displayName: ""
-    type: "ICE"
+    type: "Ice"
     lore: []
     command: null
     defaultAmount: 8
     slot: 25
+    page: 1
     buyCost:
-      vault: 300.0
-      crystals: 0
-    sellReward:
-      vault: 20.0
-      crystals: 0
+      money: 300.0
+      bankItems: {}
+    sellCost:
+      money: 20.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lPacked Ice"
-    displayName: ""
-    type: "PACKED_ICE"
+    type: "Packed Ice"
     lore: []
     command: null
     defaultAmount: 8
     slot: 28
+    page: 1
     buyCost:
-      vault: 300.0
-      crystals: 0
-    sellReward:
-      vault: 20.0
-      crystals: 0
+      money: 300.0
+      bankItems: {}
+    sellCost:
+      money: 20.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lSponge"
-    displayName: ""
-    type: "SPONGE"
+    type: "Sponge"
     lore: []
     command: null
     defaultAmount: 4
     slot: 29
+    page: 1
     buyCost:
-      vault: 1000.0
-      crystals: 0
-    sellReward:
-      vault: 200.0
-      crystals: 0
+      money: 1000.0
+      bankItems: {}
+    sellCost:
+      money: 200.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lSand"
-    displayName: ""
-    type: "SAND"
+    type: "Sand"
     lore: []
     command: null
     defaultAmount: 8
     slot: 30
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 20.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 20.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lSandstone"
-    displayName: ""
-    type: "SANDSTONE"
+    type: "Sandstone"
     lore: []
     command: null
     defaultAmount: 16
     slot: 31
+    page: 1
     buyCost:
-      vault: 80.0
-      crystals: 0
-    sellReward:
-      vault: 5.0
-      crystals: 0
+      money: 80.0
+      bankItems: {}
+    sellCost:
+      money: 5.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lClay Ball"
-    displayName: ""
-    type: "CLAY_BALL"
+    type: "Clay Ball"
     lore: []
     command: null
     defaultAmount: 32
     slot: 32
+    page: 1
     buyCost:
-      vault: 70.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
+      money: 70.0
+      bankItems: {}
+    sellCost:
+      money: 10.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lObsidian"
-    displayName: ""
-    type: "OBSIDIAN"
+    type: "Obsidian"
     lore: []
     command: null
     defaultAmount: 4
     slot: 33
+    page: 1
     buyCost:
-      vault: 250.0
-      crystals: 0
-    sellReward:
-      vault: 25.0
-      crystals: 0
+      money: 250.0
+      bankItems: {}
+    sellCost:
+      money: 25.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lGlowstone"
-    displayName: ""
-    type: "GLOWSTONE"
+    type: "Glowstone"
     lore: []
     command: null
     defaultAmount: 8
     slot: 34
+    page: 1
     buyCost:
-      vault: 125.0
-      crystals: 0
-    sellReward:
-      vault: 15.0
-      crystals: 0
+      money: 125.0
+      bankItems: {}
+    sellCost:
+      money: 15.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lEnd Stone"
-    displayName: ""
-    type: "END_STONE"
+    type: "End Stone"
     lore: []
     command: null
     defaultAmount: 4
     slot: 39
+    page: 1
     buyCost:
-      vault: 250.0
-      crystals: 0
-    sellReward:
-      vault: 25.0
-      crystals: 0
+      money: 250.0
+      bankItems: {}
+    sellCost:
+      money: 25.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lPrismarine"
-    displayName: ""
-    type: "PRISMARINE"
+    type: "Prismarine"
     lore: []
     command: null
     defaultAmount: 16
     slot: 40
+    page: 1
     buyCost:
-      vault: 200.0
-      crystals: 0
-    sellReward:
-      vault: 20.0
-      crystals: 0
+      money: 200.0
+      bankItems: {}
+    sellCost:
+      money: 20.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lWool"
-    displayName: ""
-    type: "WHITE_WOOL"
+    type: "White Wool"
     lore: []
     command: null
     defaultAmount: 8
     slot: 41
+    page: 1
     buyCost:
-      vault: 50.0
-      crystals: 0
-    sellReward:
-      vault: 5.0
-      crystals: 0
+      money: 50.0
+      bankItems: {}
+    sellCost:
+      money: 5.0
+      bankItems: {}
+    minLevel: 1
   Food:
   - name: "&9&lApple"
-    displayName: ""
-    type: "APPLE"
+    type: "Apple"
     lore: []
     command: null
     defaultAmount: 10
     slot: 11
+    page: 1
     buyCost:
-      vault: 50.0
-      crystals: 0
-    sellReward:
-      vault: 15.0
-      crystals: 0
+      money: 50.0
+      bankItems: {}
+    sellCost:
+      money: 15.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lEnchanted Golden Apple"
-    displayName: ""
-    type: "ENCHANTED_GOLDEN_APPLE"
+    type: "Enchanted Golden Apple"
     lore: []
     command: null
     defaultAmount: 3
     slot: 12
+    page: 1
     buyCost:
-      vault: 1000.0
-      crystals: 0
-    sellReward:
-      vault: 100.0
-      crystals: 0
+      money: 1000.0
+      bankItems: {}
+    sellCost:
+      money: 100.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lCarrot"
-    displayName: ""
-    type: "CARROT"
+    type: "Carrot"
     lore: []
     command: null
     defaultAmount: 10
     slot: 13
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 25.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 25.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lBaked Potato"
-    displayName: ""
-    type: "BAKED_POTATO"
+    type: "Baked Potato"
     lore: []
     command: null
     defaultAmount: 10
     slot: 14
+    page: 1
     buyCost:
-      vault: 150.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
+      money: 150.0
+      bankItems: {}
+    sellCost:
+      money: 10.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lBread"
-    displayName: ""
-    type: "BREAD"
+    type: "Bread"
     lore: []
     command: null
     defaultAmount: 10
     slot: 15
+    page: 1
     buyCost:
-      vault: 50.0
-      crystals: 0
-    sellReward:
-      vault: 30.0
-      crystals: 0
+      money: 50.0
+      bankItems: {}
+    sellCost:
+      money: 30.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lCookie"
-    displayName: ""
-    type: "COOKIE"
+    type: "Cookie"
     lore: []
     command: null
     defaultAmount: 5
     slot: 20
+    page: 1
     buyCost:
-      vault: 130.0
-      crystals: 0
-    sellReward:
-      vault: 5.0
-      crystals: 0
+      money: 130.0
+      bankItems: {}
+    sellCost:
+      money: 5.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lCooked Porkchop"
-    displayName: ""
-    type: "COOKED_PORKCHOP"
+    type: "Cooked Porkchop"
     lore: []
     command: null
     defaultAmount: 10
     slot: 21
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 15.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 15.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lCooked Beef"
-    displayName: ""
-    type: "COOKED_BEEF"
+    type: "Cooked Beef"
     lore: []
     command: null
     defaultAmount: 10
     slot: 22
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 15.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 15.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lCooked Mutton"
-    displayName: ""
-    type: "COOKED_MUTTON"
+    type: "Cooked Mutton"
     lore: []
     command: null
     defaultAmount: 10
     slot: 23
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 20.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 20.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lCooked Rabbit"
-    displayName: ""
-    type: "COOKED_RABBIT"
+    type: "Cooked Rabbit"
     lore: []
     command: null
     defaultAmount: 10
     slot: 24
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 25.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 25.0
+      bankItems: {}
+    minLevel: 1
   Ores:
   - name: "&9&lCoal"
-    displayName: ""
-    type: "COAL"
+    type: "Coal"
     lore: []
     command: null
     defaultAmount: 16
     slot: 11
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 15.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 15.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lRedstone"
-    displayName: ""
-    type: "REDSTONE"
+    type: "Redstone"
     lore: []
     command: null
     defaultAmount: 16
     slot: 12
+    page: 1
     buyCost:
-      vault: 150.0
-      crystals: 0
-    sellReward:
-      vault: 7.0
-      crystals: 0
+      money: 150.0
+      bankItems: {}
+    sellCost:
+      money: 7.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lLapis Lazuli"
-    displayName: ""
-    type: "LAPIS_LAZULI"
+    type: "Lapis Lazuli"
     lore: []
     command: null
     defaultAmount: 16
     slot: 13
+    page: 1
     buyCost:
-      vault: 150.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
+      money: 150.0
+      bankItems: {}
+    sellCost:
+      money: 10.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lIron Ingot"
-    displayName: ""
-    type: "IRON_INGOT"
+    type: "Iron Ingot"
     lore: []
     command: null
     defaultAmount: 8
     slot: 14
+    page: 1
     buyCost:
-      vault: 200.0
-      crystals: 0
-    sellReward:
-      vault: 20.0
-      crystals: 0
+      money: 200.0
+      bankItems: {}
+    sellCost:
+      money: 20.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lGold Ingot"
-    displayName: ""
-    type: "GOLD_INGOT"
+    type: "Gold Ingot"
     lore: []
     command: null
     defaultAmount: 8
     slot: 15
+    page: 1
     buyCost:
-      vault: 200.0
-      crystals: 0
-    sellReward:
-      vault: 20.0
-      crystals: 0
+      money: 200.0
+      bankItems: {}
+    sellCost:
+      money: 20.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lDiamond"
-    displayName: ""
-    type: "DIAMOND"
+    type: "Diamond"
     lore: []
     command: null
     defaultAmount: 8
     slot: 21
+    page: 1
     buyCost:
-      vault: 1000.0
-      crystals: 0
-    sellReward:
-      vault: 100.0
-      crystals: 0
+      money: 1000.0
+      bankItems: {}
+    sellCost:
+      money: 100.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lEmerald"
-    displayName: ""
-    type: "EMERALD"
+    type: "Emerald"
     lore: []
     command: null
     defaultAmount: 8
     slot: 22
+    page: 1
     buyCost:
-      vault: 200.0
-      crystals: 0
-    sellReward:
-      vault: 15.0
-      crystals: 0
+      money: 200.0
+      bankItems: {}
+    sellCost:
+      money: 15.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lQuartz"
-    displayName: ""
-    type: "QUARTZ"
+    type: "Quartz"
     lore: []
     command: null
     defaultAmount: 64
     slot: 23
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 10.0
+      bankItems: {}
+    minLevel: 1
   Farming:
   - name: "&9&lWheat Seeds"
-    displayName: ""
-    type: "WHEAT_SEEDS"
+    type: "Wheat Seeds"
     lore: []
     command: null
     defaultAmount: 16
     slot: 10
+    page: 1
     buyCost:
-      vault: 130.0
-      crystals: 0
-    sellReward:
-      vault: 2.0
-      crystals: 0
+      money: 130.0
+      bankItems: {}
+    sellCost:
+      money: 2.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lPumpkin Seeds"
-    displayName: ""
-    type: "PUMPKIN_SEEDS"
+    type: "Pumpkin Seeds"
     lore: []
     command: null
     defaultAmount: 16
     slot: 11
+    page: 1
     buyCost:
-      vault: 150.0
-      crystals: 0
-    sellReward:
-      vault: 5.0
-      crystals: 0
+      money: 150.0
+      bankItems: {}
+    sellCost:
+      money: 5.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lMelon Seeds"
-    displayName: ""
-    type: "MELON_SEEDS"
+    type: "Melon Seeds"
     lore: []
     command: null
     defaultAmount: 16
     slot: 12
+    page: 1
     buyCost:
-      vault: 250.0
-      crystals: 0
-    sellReward:
-      vault: 5.0
-      crystals: 0
+      money: 250.0
+      bankItems: {}
+    sellCost:
+      money: 5.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lNether Wart"
-    displayName: ""
-    type: "NETHER_WART"
+    type: "Nether Wart"
     lore: []
     command: null
     defaultAmount: 4
     slot: 13
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 5.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 5.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lSugar Cane"
-    displayName: ""
-    type: "SUGAR_CANE"
+    type: "Sugar Cane"
     lore: []
     command: null
     defaultAmount: 16
     slot: 14
+    page: 1
     buyCost:
-      vault: 150.0
-      crystals: 0
-    sellReward:
-      vault: 5.0
-      crystals: 0
+      money: 150.0
+      bankItems: {}
+    sellCost:
+      money: 5.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lWheat"
-    displayName: ""
-    type: "WHEAT"
+    type: "Wheat"
     lore: []
     command: null
     defaultAmount: 16
     slot: 15
+    page: 1
     buyCost:
-      vault: 50.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
+      money: 50.0
+      bankItems: {}
+    sellCost:
+      money: 10.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lPumpkin"
-    displayName: ""
-    type: "PUMPKIN"
+    type: "Pumpkin"
     lore: []
     command: null
     defaultAmount: 16
     slot: 16
+    page: 1
     buyCost:
-      vault: 150.0
-      crystals: 0
-    sellReward:
-      vault: 15.0
-      crystals: 0
+      money: 150.0
+      bankItems: {}
+    sellCost:
+      money: 15.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lMelon Slice"
-    displayName: ""
-    type: "MELON_SLICE"
+    type: "Melon Slice"
     lore: []
     command: null
     defaultAmount: 16
     slot: 19
+    page: 1
     buyCost:
-      vault: 150.0
-      crystals: 0
-    sellReward:
-      vault: 5.0
-      crystals: 0
+      money: 150.0
+      bankItems: {}
+    sellCost:
+      money: 5.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lCactus"
-    displayName: ""
-    type: "CACTUS"
+    type: "Cactus"
     lore: []
     command: null
     defaultAmount: 8
     slot: 20
+    page: 1
     buyCost:
-      vault: 80.0
-      crystals: 0
-    sellReward:
-      vault: 2.0
-      crystals: 0
+      money: 80.0
+      bankItems: {}
+    sellCost:
+      money: 2.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lOak Sapling"
-    displayName: ""
-    type: "OAK_SAPLING"
+    type: "Oak Sapling"
     lore: []
     command: null
     defaultAmount: 4
     slot: 21
+    page: 1
     buyCost:
-      vault: 20.0
-      crystals: 0
-    sellReward:
-      vault: 2.0
-      crystals: 0
+      money: 20.0
+      bankItems: {}
+    sellCost:
+      money: 2.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lSpruce Sapling"
-    displayName: ""
-    type: "SPRUCE_SAPLING"
+    type: "Spruce Sapling"
     lore: []
     command: null
     defaultAmount: 4
     slot: 22
+    page: 1
     buyCost:
-      vault: 20.0
-      crystals: 0
-    sellReward:
-      vault: 2.0
-      crystals: 0
+      money: 20.0
+      bankItems: {}
+    sellCost:
+      money: 2.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lBirch Sapling"
-    displayName: ""
-    type: "BIRCH_SAPLING"
+    type: "Birch Sapling"
     lore: []
     command: null
     defaultAmount: 4
     slot: 23
+    page: 1
     buyCost:
-      vault: 20.0
-      crystals: 0
-    sellReward:
-      vault: 2.0
-      crystals: 0
+      money: 20.0
+      bankItems: {}
+    sellCost:
+      money: 2.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lJungle Sapling"
-    displayName: ""
-    type: "JUNGLE_SAPLING"
+    type: "Jungle Sapling"
     lore: []
     command: null
     defaultAmount: 4
     slot: 24
+    page: 1
     buyCost:
-      vault: 150.0
-      crystals: 0
-    sellReward:
-      vault: 4.0
-      crystals: 0
+      money: 150.0
+      bankItems: {}
+    sellCost:
+      money: 4.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lAcacia Sapling"
-    displayName: ""
-    type: "ACACIA_SAPLING"
+    type: "Acacia Sapling"
     lore: []
     command: null
     defaultAmount: 4
     slot: 25
+    page: 1
     buyCost:
-      vault: 20.0
-      crystals: 0
-    sellReward:
-      vault: 2.0
-      crystals: 0
+      money: 20.0
+      bankItems: {}
+    sellCost:
+      money: 2.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lDark Oak Sapling"
-    displayName: ""
-    type: "DARK_OAK_SAPLING"
+    type: "Dark Oak Sapling"
     lore: []
     command: null
     defaultAmount: 4
     slot: 30
+    page: 1
     buyCost:
-      vault: 150.0
-      crystals: 0
-    sellReward:
-      vault: 4.0
-      crystals: 0
+      money: 150.0
+      bankItems: {}
+    sellCost:
+      money: 4.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lBrown Mushroom"
-    displayName: ""
-    type: "BROWN_MUSHROOM"
+    type: "Brown Mushroom"
     lore: []
     command: null
     defaultAmount: 8
     slot: 31
+    page: 1
     buyCost:
-      vault: 60.0
-      crystals: 0
-    sellReward:
-      vault: 6.0
-      crystals: 0
+      money: 60.0
+      bankItems: {}
+    sellCost:
+      money: 6.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lRed Mushroom"
-    displayName: ""
-    type: "RED_MUSHROOM"
+    type: "Red Mushroom"
     lore: []
     command: null
     defaultAmount: 8
     slot: 32
+    page: 1
     buyCost:
-      vault: 60.0
-      crystals: 0
-    sellReward:
-      vault: 6.0
-      crystals: 0
+      money: 60.0
+      bankItems: {}
+    sellCost:
+      money: 6.0
+      bankItems: {}
+    minLevel: 1
   Mob Drops:
   - name: "&9&lRotten Flesh"
-    displayName: ""
-    type: "ROTTEN_FLESH"
+    type: "Rotten Flesh"
     lore: []
     command: null
     defaultAmount: 16
     slot: 10
+    page: 1
     buyCost:
-      vault: 20.0
-      crystals: 0
-    sellReward:
-      vault: 2.0
-      crystals: 0
+      money: 20.0
+      bankItems: {}
+    sellCost:
+      money: 2.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lBone"
-    displayName: ""
-    type: "BONE"
+    type: "Bone"
     lore: []
     command: null
     defaultAmount: 16
     slot: 11
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 3.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 3.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lGunpowder"
-    displayName: ""
-    type: "GUNPOWDER"
+    type: "Gunpowder"
     lore: []
     command: null
     defaultAmount: 16
     slot: 12
+    page: 1
     buyCost:
-      vault: 30.0
-      crystals: 0
-    sellReward:
-      vault: 3.0
-      crystals: 0
+      money: 30.0
+      bankItems: {}
+    sellCost:
+      money: 3.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lString"
-    displayName: ""
-    type: "STRING"
+    type: "String"
     lore: []
     command: null
     defaultAmount: 16
     slot: 13
+    page: 1
     buyCost:
-      vault: 80.0
-      crystals: 0
-    sellReward:
-      vault: 3.0
-      crystals: 0
+      money: 80.0
+      bankItems: {}
+    sellCost:
+      money: 3.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lArrow"
-    displayName: ""
-    type: "ARROW"
+    type: "Arrow"
     lore: []
     command: null
     defaultAmount: 16
     slot: 14
+    page: 1
     buyCost:
-      vault: 75.0
-      crystals: 0
-    sellReward:
-      vault: 4.0
-      crystals: 0
+      money: 75.0
+      bankItems: {}
+    sellCost:
+      money: 4.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lSpider Eye"
-    displayName: ""
-    type: "SPIDER_EYE"
+    type: "Spider Eye"
     lore: []
     command: null
     defaultAmount: 16
     slot: 15
+    page: 1
     buyCost:
-      vault: 50.0
-      crystals: 0
-    sellReward:
-      vault: 5.0
-      crystals: 0
+      money: 50.0
+      bankItems: {}
+    sellCost:
+      money: 5.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lEnder Pearl"
-    displayName: ""
-    type: "ENDER_PEARL"
+    type: "Ender Pearl"
     lore: []
     command: null
     defaultAmount: 3
     slot: 16
+    page: 1
     buyCost:
-      vault: 75.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
+      money: 75.0
+      bankItems: {}
+    sellCost:
+      money: 10.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lSlime Ball"
-    displayName: ""
-    type: "SLIME_BALL"
+    type: "Slime Ball"
     lore: []
     command: null
     defaultAmount: 16
     slot: 19
+    page: 1
     buyCost:
-      vault: 200.0
-      crystals: 0
-    sellReward:
-      vault: 5.0
-      crystals: 0
+      money: 200.0
+      bankItems: {}
+    sellCost:
+      money: 5.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lPrismarine Crystals"
-    displayName: ""
-    type: "PRISMARINE_CRYSTALS"
+    type: "Prismarine Crystals"
     lore: []
     command: null
     defaultAmount: 16
     slot: 20
+    page: 1
     buyCost:
-      vault: 50.0
-      crystals: 0
-    sellReward:
-      vault: 5.0
-      crystals: 0
+      money: 50.0
+      bankItems: {}
+    sellCost:
+      money: 5.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lPrismarine Shard"
-    displayName: ""
-    type: "PRISMARINE_SHARD"
+    type: "Prismarine Shard"
     lore: []
     command: null
     defaultAmount: 16
     slot: 21
+    page: 1
     buyCost:
-      vault: 50.0
-      crystals: 0
-    sellReward:
-      vault: 5.0
-      crystals: 0
+      money: 50.0
+      bankItems: {}
+    sellCost:
+      money: 5.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lBlaze Rod"
-    displayName: ""
-    type: "BLAZE_ROD"
+    type: "Blaze Rod"
     lore: []
     command: null
     defaultAmount: 4
     slot: 22
+    page: 1
     buyCost:
-      vault: 250.0
-      crystals: 0
-    sellReward:
-      vault: 20.0
-      crystals: 0
+      money: 250.0
+      bankItems: {}
+    sellCost:
+      money: 20.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lMagma Cream"
-    displayName: ""
-    type: "MAGMA_CREAM"
+    type: "Magma Cream"
     lore: []
     command: null
     defaultAmount: 4
     slot: 23
+    page: 1
     buyCost:
-      vault: 150.0
-      crystals: 0
-    sellReward:
-      vault: 15.0
-      crystals: 0
+      money: 150.0
+      bankItems: {}
+    sellCost:
+      money: 15.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lGhast Tear"
-    displayName: ""
-    type: "GHAST_TEAR"
+    type: "Ghast Tear"
     lore: []
     command: null
     defaultAmount: 4
     slot: 24
+    page: 1
     buyCost:
-      vault: 200.0
-      crystals: 0
-    sellReward:
-      vault: 30.0
-      crystals: 0
+      money: 200.0
+      bankItems: {}
+    sellCost:
+      money: 30.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lLeather"
-    displayName: ""
-    type: "LEATHER"
+    type: "Leather"
     lore: []
     command: null
     defaultAmount: 8
     slot: 25
+    page: 1
     buyCost:
-      vault: 50.0
-      crystals: 0
-    sellReward:
-      vault: 5.0
-      crystals: 0
+      money: 50.0
+      bankItems: {}
+    sellCost:
+      money: 5.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lRabbit Foot"
-    displayName: ""
-    type: "RABBIT_FOOT"
+    type: "Rabbit Foot"
     lore: []
     command: null
     defaultAmount: 4
     slot: 30
+    page: 1
     buyCost:
-      vault: 250.0
-      crystals: 0
-    sellReward:
-      vault: 30.0
-      crystals: 0
+      money: 250.0
+      bankItems: {}
+    sellCost:
+      money: 30.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lInk Sack"
-    displayName: ""
-    type: "INK_SAC"
+    type: "Ink Sac"
     lore: []
     command: null
     defaultAmount: 8
     slot: 31
+    page: 1
     buyCost:
-      vault: 50.0
-      crystals: 0
-    sellReward:
-      vault: 5.0
-      crystals: 0
+      money: 50.0
+      bankItems: {}
+    sellCost:
+      money: 5.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lFeather"
-    displayName: ""
-    type: "FEATHER"
+    type: "Feather"
     lore: []
     command: null
     defaultAmount: 16
     slot: 32
+    page: 1
     buyCost:
-      vault: 30.0
-      crystals: 0
-    sellReward:
-      vault: 3.0
-      crystals: 0
+      money: 30.0
+      bankItems: {}
+    sellCost:
+      money: 3.0
+      bankItems: {}
+    minLevel: 1
   Miscellaneous:
   - name: "&9&lBucket"
-    displayName: ""
-    type: "BUCKET"
+    type: "Bucket"
     lore: []
     command: null
     defaultAmount: 1
     slot: 12
+    page: 1
     buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
+      money: 100.0
+      bankItems: {}
+    sellCost:
+      money: 10.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lWater Bucket"
-    displayName: ""
-    type: "WATER_BUCKET"
+    type: "Water Bucket"
     lore: []
     command: null
     defaultAmount: 1
     slot: 13
+    page: 1
     buyCost:
-      vault: 200.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
+      money: 200.0
+      bankItems: {}
+    sellCost:
+      money: 10.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lLava Bucket"
-    displayName: ""
-    type: "LAVA_BUCKET"
+    type: "Lava Bucket"
     lore: []
     command: null
     defaultAmount: 1
     slot: 14
+    page: 1
     buyCost:
-      vault: 200.0
-      crystals: 0
-    sellReward:
-      vault: 20.0
-      crystals: 0
+      money: 200.0
+      bankItems: {}
+    sellCost:
+      money: 20.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lName Tag"
-    displayName: ""
-    type: "NAME_TAG"
+    type: "Name Tag"
     lore: []
     command: null
     defaultAmount: 1
     slot: 21
+    page: 1
     buyCost:
-      vault: 200.0
-      crystals: 0
-    sellReward:
-      vault: 30.0
-      crystals: 0
+      money: 200.0
+      bankItems: {}
+    sellCost:
+      money: 30.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lSaddle"
-    displayName: ""
-    type: "SADDLE"
+    type: "Saddle"
     lore: []
     command: null
     defaultAmount: 1
     slot: 22
+    page: 1
     buyCost:
-      vault: 300.0
-      crystals: 0
-    sellReward:
-      vault: 30.0
-      crystals: 0
+      money: 300.0
+      bankItems: {}
+    sellCost:
+      money: 30.0
+      bankItems: {}
+    minLevel: 1
   - name: "&9&lEnd Portal Frame"
-    displayName: ""
-    type: "END_PORTAL_FRAME"
-    lore:
-    - "&5&lVisit the end!"
-    - " "
+    type: "End Portal Frame"
+    lore: []
     command: null
     defaultAmount: 1
     slot: 23
+    page: 1
     buyCost:
-      vault: 5000.0
-      crystals: 50
-    sellReward:
-      vault: 0.0
-      crystals: 0
-overviewTitle: "&7Island Shop"
-categoryTitle: "&7Island Shop | %category_name%"
-buyPriceLore: "&aBuy Price: $%buy_price_vault%, %buy_price_crystals% Crystals"
-sellRewardLore: "&cSelling Reward: $%sell_reward_vault%, %sell_reward_crystals% Crystals"
+      money: 5000.0
+      bankItems: {}
+    sellCost:
+      money: 0.0
+      bankItems: {}
+    minLevel: 1
+buyPriceLore: "&aBuy Price: $%vault_cost%"
+sellRewardLore: "&cSelling Reward: $%vault_reward%"
 notPurchasableLore: "&cThis item cannot be purchased!"
 notSellableLore: "&cThis item cannot be sold!"
+levelRequirementLore: "&9[!] &7Must be level %minLevel% to purchase"
 abbreviatePrices: true
 dropItemWhenFull: false
-overviewSize: 36
 failSound: "BLOCK_ANVIL_LAND"
 successSound: "ENTITY_PLAYER_LEVELUP"
-overviewBackground:
-  filler:
-    material: "BLACK_STAINED_GLASS_PANE"
-    amount: 1
-    displayName: " "
-    headData: null
-    headOwner: null
-    headOwnerUUID: null
-    lore: []
-    slot: null
-  items: {}
-categoryBackground:
-  filler:
-    material: "BLACK_STAINED_GLASS_PANE"
-    amount: 1
-    displayName: " "
-    headData: null
-    headOwner: null
-    headOwnerUUID: null
-    lore: []
-    slot: null
-  items: {}
 shopItemLore:
 - " "
-- "&b&l[!] &bLeft-Click to Purchase %amount%, Shift for 64"
-- "&b&l[!] &bRight Click to Sell %amount%, Shift for 64"
+- "&9&l[!] &9Left-Click to Purchase %amount%, Shift for 64"
+- "&9&l[!] &9Right Click to Sell %amount%, Shift for 64"

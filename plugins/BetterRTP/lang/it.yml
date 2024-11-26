@@ -40,6 +40,7 @@ Messages:
     Set: '&f%type% &aimpostato su &f%value%'
     Remove: '&cRimosso il mondo %world%'
 Help:
+  Location: ' &7- &e/%command% location <location_name> &7- Rtp using a specific location'
   Prefix: '&e&m-----&6&l BetterRTP &8| Help &e&m-----'
   Main: ' &7- &e/%command% &7- Teletrasporto randomico!'
   Biome: ' &7- &e/%command% biome <bioma1, bioma2...> &7- Teletrasporto randomico
@@ -59,10 +60,19 @@ Help:
   World: ' &7- &e/%command% world <mondo> [bioma1, bioma2...] &7- Teletrasporto randomico
     in un altro mondo'
 Usage:
+  Location: '&cUsage&7: /%command% location <location_name>'
   Player: '&cUsa&7: /%command% player <giocatore> [mondo] [bioma1, bioma2]'
   World: '&cUsa&7: /%command% world <mondo> [bioma1, bioma2...]'
   Biome: '&cUsa&7: /%command% biome <bioma1, bioma2...>'
   Edit:
+    PermissionGroup: '&cUsage&7: /%command% edit permission_group <group> <world>
+      <max/min/useworldborder/center> <value>'
+    Location: '&cUsage&7: /%command% edit location <location_name> <max/min/useworldborder/center>
+      <value>'
+    Worldtype: '&cUsage&7: /%command% edit world_type <world> <NETHER/NORMAL>'
+    Override: '&cUsage&7: /%command% edit override <world> <world_to>'
+    BlacklistedBlocks: '&cUsage&7: /%command% edit blacklistedblocks <add/remove>
+      <block_id>'
     Base: '&cUsa&7: /%command% edit <default/mondo> [argomenti...]'
     Default: '&cUsa&7: /%command% edit default <max/min/useworldborder/center> <value>'
     World: '&cUsa&7: /%command% edit world <world> <max/min/useworldborder/center>

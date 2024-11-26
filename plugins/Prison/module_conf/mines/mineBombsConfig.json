@@ -1,0 +1,616 @@
+{
+  "dataFormatVersion": 3,
+  "bombs": {
+    "cubebomb": {
+      "name": "CubeBomb",
+      "description": "The most anti-round bomb you will ever be able to find. It's totally cubic.",
+      "lore": [
+        "A Cubic Bomb"
+      ],
+      "nameTag": "&a-=- &7{name}&a -=--",
+      "itemName": "&c-= &7{name}&c =-",
+      "itemType": "SLIME_BLOCK",
+      "radius": 2,
+      "radiusInner": 0,
+      "height": 0,
+      "placementAdjustmentY": -1,
+      "removalChance": 100.0,
+      "explosionShape": "cube",
+      "toolInHandName": "DIAMOND_PICKAXE",
+      "toolInHandFortuneLevel": 7,
+      "toolInHandDurabilityLevel": 0,
+      "toolInHandDigSpeedLevel": 0,
+      "fuseDelayTicks": 100,
+      "cooldownTicks": 60,
+      "itemRemovalDelayTicks": 5,
+      "glowing": true,
+      "gravity": true,
+      "autosell": false,
+      "customModelData": 0,
+      "allowedMines": [],
+      "preventedMines": [],
+      "applyToPlayersBlockCount": true,
+      "soundEffects": [
+        {
+          "effectName": "ENTITY_CREEPER_PRIMED",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENTITY_GENERIC_EXPLODE",
+          "effectState": "explode",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        }
+      ],
+      "visualEffects": [
+        {
+          "effectName": "FLAME",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "BUBBLE_COLUMN_UP",
+          "effectState": "placed",
+          "offsetTicks": 30,
+          "volumne": 1.0,
+          "pitch": 1.0
+        }
+      ]
+    },
+    "largebomb": {
+      "name": "LargeBomb",
+      "description": "A large mine bomb made from TNT with some strange parts that maybe be described as alien technology.",
+      "lore": [
+        "Large Mine Bomb"
+      ],
+      "nameTag": "&a-=- &7{name}&a -=--",
+      "itemName": "&c-= &7{name}&c =-",
+      "itemType": "tnt",
+      "radius": 12,
+      "radiusInner": 3,
+      "height": 0,
+      "placementAdjustmentY": -1,
+      "removalChance": 100.0,
+      "explosionShape": "sphereHollow",
+      "toolInHandName": "DIAMOND_PICKAXE",
+      "toolInHandFortuneLevel": 3,
+      "toolInHandDurabilityLevel": 0,
+      "toolInHandDigSpeedLevel": 0,
+      "fuseDelayTicks": 100,
+      "cooldownTicks": 60,
+      "itemRemovalDelayTicks": 5,
+      "glowing": false,
+      "gravity": true,
+      "autosell": false,
+      "customModelData": 0,
+      "allowedMines": [],
+      "preventedMines": [],
+      "applyToPlayersBlockCount": true,
+      "soundEffects": [
+        {
+          "effectName": "ENTITY_CREEPER_PRIMED",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENTITY_GENERIC_EXPLODE",
+          "effectState": "explode",
+          "offsetTicks": 0,
+          "volumne": 2.0,
+          "pitch": 1.0
+        }
+      ],
+      "visualEffects": [
+        {
+          "effectName": "FLAME",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "SMOKE",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "SMOKE_NORMAL",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENCHANTMENT_TABLE",
+          "effectState": "placed",
+          "offsetTicks": 30,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "EXPLOSION_NORMAL",
+          "effectState": "explode",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        }
+      ]
+    },
+    "mediumbomb": {
+      "name": "MediumBomb",
+      "description": "A medium mine bomb made from leftover fireworks, but supercharged with a strange green glowing liquid.",
+      "lore": [
+        "Medium Mine Bomb"
+      ],
+      "nameTag": "&6&k1 23 456&r&a-=- &7{name}&a -=-&6&k654 32 1",
+      "itemName": "&c-= &7{name}&c =-",
+      "itemType": "firework_rocket",
+      "radius": 5,
+      "radiusInner": 0,
+      "height": 0,
+      "placementAdjustmentY": -1,
+      "removalChance": 100.0,
+      "explosionShape": "sphere",
+      "toolInHandName": "DIAMOND_PICKAXE",
+      "toolInHandFortuneLevel": 3,
+      "toolInHandDurabilityLevel": 0,
+      "toolInHandDigSpeedLevel": 0,
+      "fuseDelayTicks": 100,
+      "cooldownTicks": 60,
+      "itemRemovalDelayTicks": 5,
+      "glowing": false,
+      "gravity": true,
+      "autosell": false,
+      "customModelData": 0,
+      "allowedMines": [],
+      "preventedMines": [],
+      "applyToPlayersBlockCount": true,
+      "soundEffects": [
+        {
+          "effectName": "ENTITY_CREEPER_PRIMED",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENTITY_GENERIC_EXPLODE",
+          "effectState": "explode",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        }
+      ],
+      "visualEffects": [
+        {
+          "effectName": "FLAME",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "SMOKE_NORMAL",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENCHANTMENT_TABLE",
+          "effectState": "placed",
+          "offsetTicks": 30,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "EXPLOSION_NORMAL",
+          "effectState": "explode",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        }
+      ]
+    },
+    "oofbomb": {
+      "name": "OofBomb",
+      "description": "An oof-ably large mine bomb made with a minecart heaping with TNT.  Unlike the large mine bomb, this one obviously is built with alien technology.",
+      "lore": [
+        "Oof Mine Bomb"
+      ],
+      "nameTag": "&c&k1&6&k23&e&k456&r&a-=- &4{countdown} &5-=- &7{name} &5-=- &4{countdown} &a-=-&e&k654&6&k32&c&k1",
+      "itemName": "&c-= &7{name}&c =-",
+      "itemType": "tnt_minecart",
+      "radius": 21,
+      "radiusInner": 3,
+      "height": 0,
+      "placementAdjustmentY": -1,
+      "removalChance": 100.0,
+      "explosionShape": "sphereHollow",
+      "toolInHandName": "GOLDEN_PICKAXE",
+      "toolInHandFortuneLevel": 13,
+      "toolInHandDurabilityLevel": 0,
+      "toolInHandDigSpeedLevel": 0,
+      "fuseDelayTicks": 260,
+      "cooldownTicks": 60,
+      "itemRemovalDelayTicks": 5,
+      "glowing": true,
+      "gravity": true,
+      "autosell": true,
+      "customModelData": 0,
+      "allowedMines": [],
+      "preventedMines": [],
+      "applyToPlayersBlockCount": true,
+      "soundEffects": [
+        {
+          "effectName": "ENTITY_CREEPER_PRIMED",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENTITY_GENERIC_EXPLODE",
+          "effectState": "explode",
+          "offsetTicks": 0,
+          "volumne": 3.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENTITY_DRAGON_FIREBALL_EXPLODE",
+          "effectState": "explode",
+          "offsetTicks": 5,
+          "volumne": 1.5,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENTITY_GENERIC_EXPLODE",
+          "effectState": "explode",
+          "offsetTicks": 10,
+          "volumne": 2.5,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENTITY_DRAGON_FIREBALL_EXPLODE",
+          "effectState": "explode",
+          "offsetTicks": 15,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENTITY_GENERIC_EXPLODE",
+          "effectState": "explode",
+          "offsetTicks": 20,
+          "volumne": 2.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENTITY_DRAGON_FIREBALL_EXPLODE",
+          "effectState": "explode",
+          "offsetTicks": 25,
+          "volumne": 0.75,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENTITY_GENERIC_EXPLODE",
+          "effectState": "explode",
+          "offsetTicks": 30,
+          "volumne": 1.5,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENTITY_DRAGON_FIREBALL_EXPLODE",
+          "effectState": "explode",
+          "offsetTicks": 35,
+          "volumne": 0.55,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENTITY_GENERIC_EXPLODE",
+          "effectState": "explode",
+          "offsetTicks": 40,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENTITY_DRAGON_FIREBALL_EXPLODE",
+          "effectState": "explode",
+          "offsetTicks": 45,
+          "volumne": 0.25,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENTITY_GENERIC_EXPLODE",
+          "effectState": "explode",
+          "offsetTicks": 50,
+          "volumne": 0.5,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENTITY_DRAGON_FIREBALL_EXPLODE",
+          "effectState": "explode",
+          "offsetTicks": 55,
+          "volumne": 0.15,
+          "pitch": 1.0
+        }
+      ],
+      "visualEffects": [
+        {
+          "effectName": "ENCHANTMENT_TABLE",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "SMOKE",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "SMOKE_NORMAL",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "SMOKE_NORMAL",
+          "effectState": "placed",
+          "offsetTicks": 20,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "SMOKE_LARGE",
+          "effectState": "placed",
+          "offsetTicks": 60,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "DRAGON_BREATH",
+          "effectState": "placed",
+          "offsetTicks": 90,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "EXPLOSION_HUGE",
+          "effectState": "explode",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "EXPLOSION_NORMAL",
+          "effectState": "explode",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "EXPLOSION_HUGE",
+          "effectState": "explode",
+          "offsetTicks": 30,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "EXPLOSION_HUGE",
+          "effectState": "explode",
+          "offsetTicks": 60,
+          "volumne": 1.0,
+          "pitch": 1.0
+        }
+      ]
+    },
+    "smallbomb": {
+      "name": "SmallBomb",
+      "description": "A small mine bomb made with some chemicals and a brewing stand.",
+      "lore": [
+        "&dSmall &6Mine &eBomb &3(lore line 1)",
+        "&4Lore line 2",
+        "&aLore line &73"
+      ],
+      "nameTag": "&6&kABC&r&c-= &7{name}&c =-&6&kCBA",
+      "itemName": "&c-= &7{name}&c =-",
+      "itemType": "brewing_stand",
+      "radius": 2,
+      "radiusInner": 0,
+      "height": 0,
+      "placementAdjustmentY": -1,
+      "removalChance": 100.0,
+      "explosionShape": "sphere",
+      "toolInHandName": "DIAMOND_PICKAXE",
+      "toolInHandFortuneLevel": 0,
+      "toolInHandDurabilityLevel": 0,
+      "toolInHandDigSpeedLevel": 0,
+      "fuseDelayTicks": 100,
+      "cooldownTicks": 10,
+      "itemRemovalDelayTicks": 5,
+      "glowing": false,
+      "gravity": true,
+      "autosell": false,
+      "customModelData": 0,
+      "allowedMines": [],
+      "preventedMines": [],
+      "applyToPlayersBlockCount": true,
+      "soundEffects": [
+        {
+          "effectName": "ENTITY_CREEPER_PRIMED",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENTITY_GENERIC_EXPLODE",
+          "effectState": "explode",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        }
+      ],
+      "visualEffects": [
+        {
+          "effectName": "FLAME",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "SMOKE",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "SMOKE_NORMAL",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENCHANTMENT_TABLE",
+          "effectState": "placed",
+          "offsetTicks": 30,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "EXPLOSION_NORMAL",
+          "effectState": "explode",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        }
+      ]
+    },
+    "wimpybomb": {
+      "name": "WimpyBomb",
+      "description": "A whimpy bomb made with gunpowder and packs the punch of a dull wooden pickaxe. For some reason, it only has a 40% chance of removing a block.",
+      "lore": [
+        "A Wimpy Mine Bomb",
+        "",
+        "A whimpy bomb made with gunpowder and packs the punch ",
+        "of a dull wooden pickaxe. For some reason, it only ",
+        "has a 40% chance of removing a block.",
+        "",
+        "Not labeled for retail sale."
+      ],
+      "nameTag": "&7A &2Wimpy &cBomb",
+      "itemName": "&c-= &7{name}&c =-",
+      "itemType": "GUNPOWDER",
+      "radius": 5,
+      "radiusInner": 2,
+      "height": 0,
+      "placementAdjustmentY": -1,
+      "removalChance": 40.0,
+      "explosionShape": "sphere",
+      "toolInHandName": "WOODEN_PICKAXE",
+      "toolInHandFortuneLevel": 0,
+      "toolInHandDurabilityLevel": 0,
+      "toolInHandDigSpeedLevel": 0,
+      "fuseDelayTicks": 40,
+      "cooldownTicks": 5,
+      "itemRemovalDelayTicks": 5,
+      "glowing": true,
+      "gravity": false,
+      "autosell": false,
+      "customModelData": 0,
+      "allowedMines": [],
+      "preventedMines": [],
+      "applyToPlayersBlockCount": true,
+      "soundEffects": [
+        {
+          "effectName": "ENTITY_CREEPER_PRIMED",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENTITY_GENERIC_EXPLODE",
+          "effectState": "explode",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        }
+      ],
+      "visualEffects": [
+        {
+          "effectName": "FIREWORKS_SPARK",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "FLAME",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "SMOKE",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "SMOKE_NORMAL",
+          "effectState": "placed",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "ENCHANTMENT_TABLE",
+          "effectState": "placed",
+          "offsetTicks": 10,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "BUBBLE_COLUMN_UP",
+          "effectState": "placed",
+          "offsetTicks": 30,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "EXPLOSION_NORMAL",
+          "effectState": "explode",
+          "offsetTicks": 0,
+          "volumne": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "effectName": "EXPLOSION_LARGE",
+          "effectState": "explode",
+          "offsetTicks": 5,
+          "volumne": 1.0,
+          "pitch": 1.0
+        }
+      ]
+    }
+  }
+}

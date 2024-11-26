@@ -1,0 +1,14 @@
+location: Skyblock_World:63.415:136.4:54.378
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&7&lAPEX &b&lSKYBLOCK'
+    height: 0.3
+  - content: '&eWelcome to our skyblock server!'
+    height: 0.3
+  actions: {}

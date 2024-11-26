@@ -1,0 +1,623 @@
+---
+farmingEnhancement:
+  enabled: true
+  type: "BOOSTER"
+  item:
+    material: "Wheat"
+    amount: 1
+    displayName: "&9&lFarming Booster"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Increase the speed at which crops grow."
+    - ""
+    - "&9&lInformation:"
+    - "&9&l * &7Time Remaining: &9%timeremaining_hours% hours, %timeremaining_minutes%\
+      \ minutes and %timeremaining_seconds% seconds"
+    - "&9&l * &7Current Level: %current_level%"
+    - "&9&l * &7Booster Cost: $%vault_cost%"
+    - ""
+    - "&9[!] &7Must be level %minLevel% to purchase"
+    - "&9&l[!] &9Left Click to Purchase Level %next_level%."
+    slot: 10
+  levels:
+    1:
+      minLevel: 5
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      farmingModifier: 1
+    2:
+      minLevel: 10
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      farmingModifier: 2
+    3:
+      minLevel: 15
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      farmingModifier: 3
+spawnerEnhancement:
+  enabled: true
+  type: "BOOSTER"
+  item:
+    material: "Spawner"
+    amount: 1
+    displayName: "&9&lSpawner Booster"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Increase your spawner speeds."
+    - ""
+    - "&9&lInformation:"
+    - "&9&l * &7Time Remaining: &9%timeremaining_hours% hours, %timeremaining_minutes%\
+      \ minutes and %timeremaining_seconds% seconds"
+    - "&9&l * &7Current Level: %current_level%"
+    - "&9&l * &7Booster Cost: $%vault_cost%"
+    - ""
+    - "&9[!] &7Must be level %minLevel% to purchase"
+    - "&9&l[!] &9Left Click to Purchase Level %next_level%."
+    slot: 12
+  levels:
+    1:
+      minLevel: 5
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      spawnCount: 6
+      spawnMultiplier: 0
+    2:
+      minLevel: 10
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      spawnCount: 8
+      spawnMultiplier: 0
+    3:
+      minLevel: 15
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      spawnCount: 10
+      spawnMultiplier: 0
+experienceEnhancement:
+  enabled: true
+  type: "BOOSTER"
+  item:
+    material: "Experience Bottle"
+    amount: 1
+    displayName: "&9&lExperience Booster"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Increase how much experience you get."
+    - ""
+    - "&9&lInformation:"
+    - "&9&l * &7Time Remaining: &9%timeremaining_hours% hours, %timeremaining_minutes%\
+      \ minutes and %timeremaining_seconds% seconds"
+    - "&9&l * &7Current Level: %current_level%"
+    - "&9&l * &7Booster Cost: $%vault_cost%"
+    - ""
+    - "&9[!] &7Must be level %minLevel% to purchase"
+    - "&9&l[!] &9Left Click to Purchase Level %next_level%."
+    slot: 14
+  levels:
+    1:
+      minLevel: 5
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      experienceModifier: 1.5
+    2:
+      minLevel: 10
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      experienceModifier: 2.0
+    3:
+      minLevel: 15
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      experienceModifier: 2.5
+flightEnhancement:
+  enabled: true
+  type: "BOOSTER"
+  item:
+    material: "Feather"
+    amount: 1
+    displayName: "&9&lFlight Booster"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Gain access to fly."
+    - ""
+    - "&9&lInformation:"
+    - "&9&l * &7Time Remaining: &9%timeremaining_hours% hours, %timeremaining_minutes%\
+      \ minutes and %timeremaining_seconds% seconds"
+    - "&9&l * &7Current Level: %current_level%"
+    - "&9&l * &7Booster Cost: $%vault_cost%"
+    - ""
+    - "&9[!] &7Must be level %minLevel% to purchase"
+    - "&9&l[!] &9Left Click to Purchase Level %next_level%."
+    slot: 16
+  levels:
+    1:
+      minLevel: 5
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      enhancementAffectsType:
+      - "MEMBERS_IN_TERRITORY"
+    2:
+      minLevel: 10
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      enhancementAffectsType:
+      - "MEMBERS_ANYWHERE"
+membersEnhancement:
+  enabled: true
+  type: "UPGRADE"
+  item:
+    material: "Player Head"
+    amount: 1
+    displayName: "&9&lMember Upgrade"
+    skullData: "Peaches_MLG"
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Need more members? Buy this"
+    - "&7upgrade to increase your member count."
+    - ""
+    - "&9&lInformation:"
+    - "&9&l * &7Current Level: &9%current_level%"
+    - "&9&l * &7Current Members: &9%members% Members"
+    - "&9&l * &7Upgrade Cost: &9%vault_cost%"
+    - "&9&lLevels:"
+    - "&9&l * &7Level 1: &95 Members"
+    - "&9&l * &7Level 2: &910 Members"
+    - "&9&l * &7Level 3: &915 Members"
+    - "&9&l * &7Level 4: &920 Members"
+    - ""
+    - "&9[!] &7Must be level %minLevel% to purchase"
+    - "&9&l[!] &9Left Click to Purchase Level %next_level%."
+    slot: 10
+  levels:
+    0:
+      minLevel: 5
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      members: 5
+    1:
+      minLevel: 5
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      members: 10
+    2:
+      minLevel: 10
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      members: 15
+    3:
+      minLevel: 15
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      members: 20
+warpsEnhancement:
+  enabled: true
+  type: "UPGRADE"
+  item:
+    material: "End Portal Frame"
+    amount: 1
+    displayName: "&9&lWarps Upgrade"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Need more members? Buy this"
+    - "&7upgrade to increase your member count."
+    - ""
+    - "&9&lInformation:"
+    - "&9&l * &7Current Level: &9%current_level%"
+    - "&9&l * &7Current Warps: &9%warps% Warps"
+    - "&9&l * &7Upgrade Cost: &9%vault_cost%"
+    - "&9&lLevels:"
+    - "&9&l * &7Level 1: &91 Warps"
+    - "&9&l * &7Level 2: &93 Warps"
+    - "&9&l * &7Level 3: &95 Warps"
+    - "&9&l * &7Level 4: &97 Warps"
+    - "&9&l * &7Level 5: &99 Warps"
+    - ""
+    - "&9[!] &7Must be level %minLevel% to purchase"
+    - "&9&l[!] &9Left Click to Purchase Level %next_level%."
+    slot: 12
+  levels:
+    0:
+      minLevel: 5
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      warps: 1
+    1:
+      minLevel: 5
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      warps: 3
+    2:
+      minLevel: 10
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      warps: 5
+    3:
+      minLevel: 15
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      warps: 7
+    4:
+      minLevel: 15
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      warps: 9
+potionEnhancements:
+  haste:
+    enabled: true
+    type: "UPGRADE"
+    item:
+      material: "Diamond Pickaxe"
+      amount: 1
+      displayName: "&9&lHaste Booster"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore:
+      - "&7Gain a Haste Potion Effect."
+      - ""
+      - "&9&lInformation:"
+      - "&9&l * &7Current Level: %current_level%"
+      - "&9&l * &7Upgrade Cost: $%vault_cost%"
+      - ""
+      - "&9[!] &7Must be level %minLevel% to purchase"
+      - "&9&l[!] &9Left Click to Purchase Level %next_level%."
+      slot: 14
+    levels:
+      1:
+        minLevel: 5
+        money: 10000
+        bankCosts:
+          Crystals: 5.0
+        strength: 1
+        potion: "Haste"
+        enhancementAffectsType:
+        - "VISITORS"
+      2:
+        minLevel: 10
+        money: 10000
+        bankCosts:
+          Crystals: 5.0
+        strength: 2
+        potion: "Haste"
+        enhancementAffectsType:
+        - "VISITORS"
+      3:
+        minLevel: 15
+        money: 10000
+        bankCosts:
+          Crystals: 5.0
+        strength: 3
+        potion: "Haste"
+        enhancementAffectsType:
+        - "VISITORS"
+  speed:
+    enabled: true
+    type: "UPGRADE"
+    item:
+      material: "Sugar"
+      amount: 1
+      displayName: "&9&lSpeed Booster"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore:
+      - "&7Gain a Speed Potion Effect."
+      - ""
+      - "&9&lInformation:"
+      - "&9&l * &7Current Level: %current_level%"
+      - "&9&l * &7Upgrade Cost: $%vault_cost%"
+      - ""
+      - "&9[!] &7Must be level %minLevel% to purchase"
+      - "&9&l[!] &9Left Click to Purchase Level %next_level%."
+      slot: 15
+    levels:
+      1:
+        minLevel: 5
+        money: 10000
+        bankCosts:
+          Crystals: 5.0
+        strength: 1
+        potion: "Speed"
+        enhancementAffectsType:
+        - "VISITORS"
+      2:
+        minLevel: 10
+        money: 10000
+        bankCosts:
+          Crystals: 5.0
+        strength: 2
+        potion: "Speed"
+        enhancementAffectsType:
+        - "VISITORS"
+      3:
+        minLevel: 15
+        money: 10000
+        bankCosts:
+          Crystals: 5.0
+        strength: 3
+        potion: "Speed"
+        enhancementAffectsType:
+        - "VISITORS"
+  jump:
+    enabled: true
+    type: "UPGRADE"
+    item:
+      material: "Feather"
+      amount: 1
+      displayName: "&9&lJump Booster"
+      skullData: null
+      headData: null
+      headOwner: null
+      headOwnerUUID: null
+      model: null
+      lore:
+      - "&7Gain a Jump Boost Potion Effect."
+      - ""
+      - "&9&lInformation:"
+      - "&9&l * &7Current Level: %current_level%"
+      - "&9&l * &7Upgrade Cost: $%vault_cost%"
+      - ""
+      - "&9[!] &7Must be level %minLevel% to purchase"
+      - "&9&l[!] &9Left Click to Purchase Level %next_level%."
+      slot: 16
+    levels:
+      1:
+        minLevel: 5
+        money: 10000
+        bankCosts:
+          Crystals: 5.0
+        strength: 1
+        potion: "Jump Boost"
+        enhancementAffectsType:
+        - "VISITORS"
+      2:
+        minLevel: 10
+        money: 10000
+        bankCosts:
+          Crystals: 5.0
+        strength: 2
+        potion: "Jump Boost"
+        enhancementAffectsType:
+        - "VISITORS"
+      3:
+        minLevel: 15
+        money: 10000
+        bankCosts:
+          Crystals: 5.0
+        strength: 3
+        potion: "Jump Boost"
+        enhancementAffectsType:
+        - "VISITORS"
+sizeEnhancement:
+  enabled: true
+  type: "UPGRADE"
+  item:
+    material: "Grass Block"
+    amount: 1
+    displayName: "&9&lSize Upgrade"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Need more room to expand? Buy this"
+    - "&7upgrade to increase your island size."
+    - ""
+    - "&9&lInformation:"
+    - "&9&l * &7Current Level: &9%current_level%"
+    - "&9&l * &7Current Size: &9%size%x%size% Blocks"
+    - "&9&l * &7Upgrade Cost: &9%vault_cost%, %Crystals_cost% Island Crystals"
+    - "&9&lLevels:"
+    - "&9&l * &7Level 1: &950x50 Blocks"
+    - "&9&l * &7Level 2: &975x75 Blocks"
+    - "&9&l * &7Level 3: &9100x100 Blocks"
+    - "&9&l * &7Level 4: &9125x125 Blocks"
+    - "&9&l * &7Level 5: &9150x150 Blocks"
+    - ""
+    - "&9[!] &7Must be level %minLevel% to purchase"
+    - "&9&l[!] &9Left Click to Purchase Level %next_level%."
+    slot: 11
+  levels:
+    0:
+      minLevel: 5
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      size: 50
+    1:
+      minLevel: 5
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      size: 75
+    2:
+      minLevel: 10
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      size: 100
+    3:
+      minLevel: 10
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      size: 125
+    4:
+      minLevel: 15
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      size: 150
+voidEnhancement:
+  enabled: false
+  type: "UPGRADE"
+  item:
+    material: "Red Bed"
+    amount: 1
+    displayName: "&9&lVoid Upgrade"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Keep falling off your island?"
+    - "&7upgrade to improve void teleport."
+    - ""
+    - "&9&lInformation:"
+    - "&9&l * &7Current Level: &9%current_level%"
+    - "&9&l * &7Upgrade Cost: &9%vault_cost%, %Crystals_cost% Island Crystals"
+    - "&9&lLevels:"
+    - "&9&l * &7Level 1: &9No Void Teleport"
+    - "&9&l * &7Level 2: &9100% Item Loss"
+    - "&9&l * &7Level 3: &975% Item Loss"
+    - "&9&l * &7Level 4: &950% Item Loss"
+    - "&9&l * &7Level 5: &925% Item Loss"
+    - "&9&l * &7Level 6: &90% Item Loss"
+    - ""
+    - "&9[!] &7Must be level %minLevel% to purchase"
+    - "&9&l[!] &9Left Click to Purchase Level %next_level%."
+    slot: 0
+  levels:
+    0:
+      minLevel: 5
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      enabled: true
+      itemLossChance: 0.0
+generatorEnhancement:
+  enabled: true
+  type: "UPGRADE"
+  item:
+    material: "Diamond Ore"
+    amount: 1
+    displayName: "&9&lGenerator Upgrade"
+    skullData: null
+    headData: null
+    headOwner: null
+    headOwnerUUID: null
+    model: null
+    lore:
+    - "&7Want to improve your generator? Buy this"
+    - "&7upgrade to improve your island generator."
+    - ""
+    - "&9&lInformation:"
+    - "&9&l * &7Current Level: &9%current_level%"
+    - "&9&l * &7Upgrade Cost: &9%vault_cost%, %Crystals_cost% Island Crystals"
+    - ""
+    - "&9[!] &7Must be level %minLevel% to purchase"
+    - "&9&l[!] &9Left Click to Purchase Level %next_level%."
+    slot: 13
+  levels:
+    0:
+      minLevel: 5
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      ores:
+        COBBLESTONE: 3
+        COAL_ORE: 1
+      netherOres:
+        BASALT: 1
+    1:
+      minLevel: 5
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      ores:
+        REDSTONE_ORE: 10
+        LAPIS_ORE: 10
+        COAL_ORE: 20
+        COBBLESTONE: 40
+      netherOres:
+        BASALT: 20
+        GLOWSTONE: 20
+        NETHERRACK: 20
+    2:
+      minLevel: 5
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      ores:
+        IRON_ORE: 10
+        REDSTONE_ORE: 10
+        GOLD_ORE: 10
+        LAPIS_ORE: 10
+        COAL_ORE: 20
+        COBBLESTONE: 40
+      netherOres:
+        BASALT: 10
+        GLOWSTONE: 10
+        NETHER_QUARTZ_ORE: 10
+        NETHER_GOLD_ORE: 10
+        NETHERRACK: 10
+    3:
+      minLevel: 5
+      money: 10000
+      bankCosts:
+        Crystals: 5.0
+      ores:
+        DIAMOND_ORE: 3
+        IRON_ORE: 10
+        REDSTONE_ORE: 10
+        GOLD_ORE: 10
+        LAPIS_ORE: 10
+        COAL_ORE: 20
+        COBBLESTONE: 40
+      netherOres:
+        BASALT: 10
+        GLOWSTONE: 10
+        NETHER_QUARTZ_ORE: 10
+        NETHER_GOLD_ORE: 10
+        NETHERRACK: 10
+        ANCIENT_DEBRIS: 1

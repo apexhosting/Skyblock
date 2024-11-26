@@ -74,6 +74,10 @@ Usage:
   Biome: '&cUtilisation &7: /%command% biome <biome1, biome2...>'
   Location: '&cUtilisation &7: /%command% location <location_name>'
   Edit:
+    PermissionGroup: '&cUsage&7: /%command% edit permission_group <group> <world>
+      <max/min/useworldborder/center> <value>'
+    Location: '&cUsage&7: /%command% edit location <location_name> <max/min/useworldborder/center>
+      <value>'
     Base: '&cUtilisation &7: /%command% edit <default/world> [args...]'
     Default: '&cUtilisation &7: /%command% edit default <max/min/useworldborder/center>
       <value>'

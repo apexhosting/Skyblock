@@ -1,44 +1,10 @@
-#You can see this site for all color codes ----> https://minecraft.tools/en/color-code.php
-#All variables you can use;
-#!!Please note that all variables only work in the current line they are located!!
-#%shopsection%       = the shopsection that has to be called
-#%amounttopay%       = the amount that the item will cost
-#%playername%        = the player's name
-#%amount%            = the amount of an item
-#%material%          = the material from a item
-#%amounttogive%      = the amount of money that a player received from another player
-#%minimumamount%     = the minimum amount of money you need to pay someone if you use the command
-#%amountofmoney%     = the amount of money that you have on you
-#%location%          = the location of the current item that is called inside shops.yml/sections.yml configuration file
-#%languagefile%      = the current languagefile that's being called
-#%version%           = the version of minecraft that the plugin uses
-#%spawner-type%      = the spawner type that the spawner item has
-#%bought/sold%       = if the item is sold or bought
-#%buy/sell-method%   = the way a player bought/sold an item Ex: Buy-screen or sellall command
-#%fileName%          = the name of the file that's being called
-#%key%               = the name of the key
-#%keys%              = all available keys, do not confuse with %key%
-#%itemLoc%           = the location of the item in a section inside the shops config
-#%price%             = amount of money
-#%action%            = the name of the action
-#%actions%           = the available actions
-#%balance%           = the balance of the player
-#%permsGroup%        = the permissions group
-#%maxInvSize%        = the max size of a inventory screen
-#StartUp/Reload
-shops,yml-not-found: "Shop.yml의 파일을 찾을 수 없습니다, 새 파일을 생성합니다..."
-shops,yml-created: "Shop.yml 파일을 성공적으로 생성하였습니다."
-shops,yml-found: "Shop.yml 파일을 찾았습니다!"
-sections,yml-not-found: "Sections.yml 파일을 찾을 수 없습니다, 새 파일을 생성합니다..."
-sections,yml-created: "Sections.yml 파일을 성공적으로 생성하였습니다."
-sections,yml-found: "Sections.yml 파일을 찾았습니다!"
 updating-shop-settings: "상점 설정을 업데이트하는 중입니다..."
 adding-new-shop-shops,yml: "%shopsection%이라는 새 상점을 shops.yml에 추가합니다."
 adding-new-shop-sections,yml: "%shopsection%이라는 새 상점을 sections.yml에 추가합니다."
 disabled-due-no-vault: "Vault 플러그인을 찾을 수가 없습니다, Vault 플러그인을 설치하세요."
 disabled-due-no-economy: "이코노미 역할을 하는 플러그인을 찾을 수 없습니다, EssentialsX와 같은 플러그인을 설치하세요."
-update-available: "사용 가능한 업데이트가 있습니다!"
-done: "끝났습니다!"
+update-available: "현재 EconomyShopGui %plugin_version%을 실행 중이나 %latest_version%로 업데이트 가능합니다."
+done: "%millis%"
 updating-sections-config: "섹션 구성을 업데이트하는 중입니다..."
 debug-mode-enabled: "디버그 모드가 활성화되었습니다."
 economy-provider-null: "EconomyProvider를 찾을 수 없습니다."
@@ -52,15 +18,19 @@ could-not-find-valid-version: "이 플러그인과 호환되는 마인크래프�
 updating-configs: "새로운 버전이 발견되어 구성을 업데이트하는 중입니다..."
 creating-backup: "%fileName%의 이름으로 백업을 만들었습니다."
 discounts-feature-unavailable: "권한 플러그인을 찾을 수 없기 때문에 할인 기능을 사용할 수 없습니다."
+#Shop prefix
+shop-prefix: "&9&l상점 &8&l>> "
 #Main Shop Inventory
 inventory-main-shop-title: "&8&l서버 상점"
 profile: "&a프로필"
 name: "&6닉네임"
 money: "&6자신이 소유한 돈"
 level: "&6레벨"
+#SellGUI inventory
+inventory-sellgui-title: "&8&l판매GUI"
 #Buystacks Inventory title
 inventory-buystacks-title: "&8품목의 &l개수&8를 선택하십시오."
-#HowMuchSell/HowMuchBuy Inventory
+#Transaction screen
 inventory-howmuchsell-title: "&l판매&8할 수량을 선택하세요."
 inventory-howmuchbuy-title: "&l구입&8할 수량을 선택하세요."
 plus-one: "&b+1"
@@ -73,6 +43,9 @@ sell: "&a판매하시겠습니까?"
 sell-all: "&c모두 판매를 원하십니까?"
 buy: "&a구입하시겠습니까?"
 buy-stacks: "&c세트로 구매하시겠습니까?"
+transaction-screen-total-price: "%price%원"
+transaction-screen-total-amount: "&5x %amount%"
+max-amount-reached: "&c최대 갯수 도달"
 #All Inventory's
 back: "&4돌아가기"
 cancel: "&4취소하기"
@@ -80,58 +53,90 @@ cancel: "&4취소하기"
 previous-page: "&d이전 페이지"
 next-page: "&b다음 페이지"
 current-page: "&7현재 페이지:"
-#Shop item lore
-left-click-buy: "&a왼쪽 클릭시 구매&f: &c%amounttopay%"
-right-click-sell: "&6오른쪽 클릭시 판매&f: &c%amounttopay%"
-item-location-in-shop: "&8Section: %shopsection%, Index: %itemLoc%"
-#Buy/Sell Messages
-pay-confirmation: "&a성공적으로 구입했습니다.\n&1%amount% x &b%material% &a가격&f: &c%amounttopay%"
-sell-confirmation: "&a성공적으로 판매했습니다.\n&1%amount% x &b%material% &a가격&f: &c%amounttopay%"
-sell-confirmation-multiple-items: "&a성공적으로 판매했습니다.\n&1%amount% &a가격&f: &c%amounttopay%"
-no-item-to-be-sold: "&c인벤토리 내에 이 항목이 없습니다."
+#ShopItem lore
+left-click-buy: "&a왼쪽 클릭시 구매&f: &c%buyPrice%"
+right-click-sell: "&6오른쪽 클릭시 판매&f: &c%sellPrice%"
+shift-right-click-sell-all: "&bShift + 오른쪽 클릭: 모두 판매"
+item-location-in-shop: "&8섹션: %shopsection%, 인덱스: %itemLoc%"
 item-cannot-be-bought: "&c아이템을 살 수 없습니다."
 item-cannot-be-sold: "&c아이템을 판매할 수 없습니다."
-player-made-transaction: "%playername% %bought/sold% %amount% x %material% for %amountofmoney% with the %buy/sell-method%."
+decoration-lore: "\n &e&l사용법:"
+decoration-lore-buy: "&e ╚&e&l» &f왼쪽 클릭시 구매"
+decoration-lore-sell-all: "&e ╚&e&l» &fShift + 오른쪽 클릭시 모두 판매"
+decoration-lore-sell: "&e ╚&e&l» &f오른쪽 클릭시 판매"
+pay-confirmation: "&a성공적으로 구입했습니다.\\n&1%amount% x &b%material% &a가격&f: &c%amounttopay%"
+sell-confirmation: "&a성공적으로 판매했습니다.\\n&1%amount% x &b%material% &a가격&f: &c%amounttopay%"
+sell-confirmation-multiple-items: "&a성공적으로 판매했습니다.\\n&1%amount% &a가격&f: &c%amounttopay%"
+no-item-to-be-sold: "&c인벤토리 내에 이 항목이 없습니다."
+cannot-sell-item: "&c이 아이템은 판매할 수 없습니다."
+player-made-transaction: "%playername% 님이 %material%를 %amount% 만큼 %amountofmoney%를 지불해 %buy/sell-method%로 %bought/sold% 하셨습니다."
 buy-screen: "구입 화면"
 sell-screen: "판매 화면"
 buystacks-screen: "세트 구매 화면"
 sellall-screen: "모두 판매 화면"
 sellall-command: "모두 판매 명령어"
+sellgui-screen: "판매 gui"
+quick-buy: "빠른 구매창"
+quick-sell: "빠른 판매창"
+auto-sell-chest: "판매상자"
 bought: "구입"
 sold: "판매"
 #CurrencySymbol
-currencysymbol: "₩%price%"
+currencysymbol: "%price%원"
+#XP Currency name format
+xp-currency-name-singular: "경험치"
+xp-currency-name-plural: "경험치"
 #All commands
 command-disabled-in-world: "&c이 월드에서는 이 명령어를 사용할 수 없습니다."
 #Edit-shop subcommand descriptions
 editshop-add-item-subcommand-desc: "&a상점에 품목을 추가합니다."
 editshop-edit-item-subcommand-desc: "&a상점의 기존 품목을 편집합니다."
 editshop-remove-item-subcommand-desc: "&a상점에서 품목을 삭제합니다."
+editshop-import-subcommand-desc: "&a다른 위치 또는 플러그인에서 파일/설정을 가져옵니다."
 editshop-add-hand-item-subcommand-desc: "&a당신이 건네준 물건을 상점에 추가하세요."
+editshop-add-section-subcommand-desc: "&a상점 구역을 이 상점에 추가합니다."
+editshop-edit-section-subcommand-desc: "&a존재하는 상점 구역을 편집합니다."
+editshop-remove-section-subcommand-desc: "&a존재하는 상점 구역을 상점에서 제거합니다."
 #Edit-shop subcommand syntaxes
 editshop-add-item-subcommand-syntax: "&a/editshop additem <section> <material> <buy price> <sell price> [displayname]"
 editshop-edit-item-subcommand-syntax: "&a/editshop edititem <section> <item> <action> <key> <value>"
 editshop-remove-item-subcommand-syntax: "&a/editshop deleteitem <section> <item>"
+editshop-import-subcommand-syntax: "&a/editshop import <plugin> <file>"
 editshop-add-hand-item-subcommand-syntax: "&a/editshop addhanditem <section> <buy price> <sell price>"
+editshop-add-section-subcommand-syntax: "&a/editshop additem <section> <material> <displayname> <place>"
+editshop-edit-section-subcommand-syntax: "&a/editshop edititem <section> <action> <key> <value>"
+editshop-remove-section-subcommand-syntax: "&a/editshop deleteitem <section>"
 #Edit-shop command messages
 editshop-adding-item: "&a상점에 새 항목을 추가하는 중입니다..."
 editshop-add-item-successful: "&a품목을 '%itemPath%' 아래의 상점에 추가했습니다."
+editshop-adding-section: "&a 새로운 구역을 sections.yml에 추가하고 있습니다..."
+editshop-add-section-successful: "&a구역이 성공적으로 %itemPath%아래의 상점에 추가되었습니다."
 editshop-editing-item: "&a품목을 업데이트하는 중입니다..."
 editshop-edit-item-successful: "&a'%itemPath%'를 성공적으로 업데이트했습니다."
+editshop-editing-section: "&a구역을 업데이트합니다..."
 editshop-removing-item: "&a상점에서 품목을 제거하는 중입니다..."
 editshop-remove-item-successful: "&a상점에서 '%itemPath%'를 성공적으로 제거했습니다."
+editshop-removing-section: "&a상점에서 품목을 제거하는 중입니다..."
+editshop-removed-section: "&a상점에서 '%itemPath%'를 성공적으로 제거했습니다."
 editshop-reload-shop-to-see-changes: "&a/sreload를 사용하여 상점 내부의 변경 사항을 불러옵니다."
+file-replaced: "&a이전 %fileName%이(가) 새 파일로 바뀌었습니다. 문제가 발생한 경우 백업 폴더 내에서 이전 파일을 찾을 수 있습니다."
 #Edit-shop command errors
 section-does-not-contain-item: "&c섹션 '%shopsection%'에 아이템이 없습니다."
-no-valid-action: "올바른 작업 '%actions%'이 아닙니다.\n사용 가능한 작업: %action%입니다."
-no-valid-key: "올바른 키 '%key%'가 아닙니다.\n사용 가능한 키: %keys%입니다."
+no-valid-action: "올바른 작업 '%actions%'이 아닙니다.\\n사용 가능한 작업: %action%입니다."
+no-valid-key: "올바른 키 '%key%'가 아닙니다.\\n사용 가능한 키: %keys%입니다."
 action-not-valid-on-key: "'%key%' 키를 %action%할 수 없습니다."
 edit-item-material-invalid: "&c편집하려는 항목의 재료가 잘못되었습니다. "
 key-already-defined: "&c항목에 '%key%' 키가 이미 정의되어 있으므로 이 키를 두 번 추가할 수 없습니다."
 key-is-not-found: "&c'%key%' 키를 찾을 수 없으므로 항목에서 제거할 수 없습니다."
-no-valid-slot-for-item: "&cThe item could not be placed at slot '%slot%'. The slot needs to be 1 - %maxShopSize%."
+plugin-not-found: "&c해당 이름으로 지정된 플러그인을 찾을 수 없습니다. 이 플러그인을 지원하는지 확인하십시오."
+file-not-found: "&c%pluginName%의 플러그인 폴더 내에서 %fileName% 이름의 파일을 찾을 수 없습니다."
+no-valid-slot-for-item: "&c아이템이 %slot%슬롯에 배치될 수 없었습니다. 슬롯 크기는 1 - %maxShopSize% 사이여야 합니다."
+slot-already-in-use: "&c이 구역의 슬롯은 이미 사용되었습니다.\n사용 가능한 슬롯은 %available-slots%입니다."
+slot-needs-to-be-number: "&c메인 메뉴의 아이템 슬롯은 숫자여야 합니다."
 #Reload Command
 configs-reloaded: "&a모든 구성이 리로드되었습니다."
+#Sellall command usages
+sellall-command-usages: "&a커맨드 사용법(s):"
 #Balance Command
 check-balance: "&b현재 &c%amountofmoney%&b을 가지고 있습니다."
 check-balance-other-player: "&b%playername%은(는) 현재 &c%amountofmoney% &b금액의 돈을 가지고 있습니다."
@@ -145,19 +150,11 @@ player-received-money: "&2%playername%&a에서 &c%amounttogive%&a를 받았습�
 need-player-and-amount: "&9당신은 플레이어 한 명과 많은 돈을 주어야 합니다."
 need-amount: "&9당신은 플레이어 한 명과 많은 돈을 주어야 합니다."
 paycommand-example: "&9/givemoney <player> <amount>"
-#Player breaks spawner
-default-spawner-name: "&9&l%spawner-type% &rSpawner"
-spawner-broke-and-applied-to-inventory: "&aYou successfully mined a &9%spawner-type%&a, the item is applied to your inventory."
-need-silk-touch: "&cYou need to use a silk touch pickaxe to mine this!"
-#JoinMessage
-join-message: "&2Welcome, your balance is &c%balance%!"
-#Level event
-level-event-message: "&2[Levels] &5Here you go, &c%amount% &5has been added to your balance!"
 #Item error's
 displayname-null: "디스플레이 이름을 가져올 수 없습니다."
 item-name-null: "해당 물약 유형을 가져올 수 없습니다."
 need-item-material: "빈 재료 값으로 품목을 만들 수 없습니다."
-item-material-null: "품목 자료를 가져올 수 없습니다.\n만약 이것이 버그라고 생각하신다면, 플러그인 페이지에서 찾을 수 있는 우리의 디스코드 서버에 보고해 주십시오. %material%"
+item-material-null: "품목 자료를 가져올 수 없습니다.\\n만약 이것이 버그라고 생각하신다면, 플러그인 페이지에서 찾을 수 있는 우리의 디스코드 서버에 보고해 주십시오. %material%"
 item-enchantment-null: "해당 인첸트 유형을 가져올 수 없습니다."
 need-item-enchantment: "빈 값으로 인첸트 유형을 만들 수 없습니다."
 item-enchantment-not-supported: "이 인첸트는 현재 마인크래프트 자바에디션 버전에서는 지원되지 않습니다."
@@ -175,36 +172,40 @@ material-not-supported: "이 품목 숙성은 현재 마인크래프트 자바�
 item-needs-buy-and-sell-value: "그 상점의 모든 품목은 구입/판매 가치가 있어야 합니다."
 sell-value-wrong: "판매 가격은 십진수 또는 숫자여야 합니다."
 buy-value-wrong: "구입 값은 소수 또는 숫자여야 합니다."
-option-type-changed: "상점에 스포너를 만들려면 옵션을 'spawnertype'으로 변경하십시오.\n정확성을 위해 버전 2.2에서 옵션 이름이 변경되었습니다."
-option-meta-changed: "상점에 표시 이름을 가진 항목 만들려면 옵션을 'spawnertype'으로 변경하십시오.\n정확성을 위해 버전 2.2에서 옵션 이름이 변경되었습니다."
-cannot-display-shopsection: "검색과 일치하는 변환이 없습니다.\n항목 위치가 0 - %maxInvSize% 범위에 있어야 하므로 상점 섹션 '%shopsection%'를 만들 수 없습니다."
+option-type-changed: "상점에 스포너를 만들려면 옵션을 'spawnertype'으로 변경하십시오.\\n정확성을 위해 버전 2.2에서 옵션 이름이 변경되었습니다."
+option-meta-changed: "상점에 표시 이름을 가진 항목 만들려면 옵션을 'spawnertype'으로 변경하십시오.\\n정확성을 위해 버전 2.2에서 옵션 이름이 변경되었습니다."
+cannot-display-shopsection: "검색과 일치하는 변환이 없습니다.\\n항목 위치가 0 - %maxInvSize% 범위에 있어야 하므로 상점 섹션 '%shopsection%'를 만들 수 없습니다."
 need-recipe-material: "빈 값으로 레시피 자료를 만들 수 없습니다."
-cannot-get-recipe-material: "레시피 자료를 작성할 수 없습니다.\n재료 이름에 철자 오류가 있는지 없는지 확인하세요."
+cannot-get-recipe-material: "레시피 자료를 작성할 수 없습니다.\\n재료 이름에 철자 오류가 있는지 없는지 확인하세요."
 recipe-material-not-supported: "현재 마인크래프트 자바에디션 버전에서는 지정된 레시피 자료가 지원되지 않습니다."
 material-needs-to-be-book: "레시피를 항목에 적용하려면 항목의 재료가 KnowLedge 책이어야 합니다."
 need-skullowner: "지정된 플레이어 (소유자) 없이 플레이어 머리를 만들 수 없습니다."
 material-needs-to-be-skull: "항목에 머리 텍스쳐 (소유자)를 적용하려면 항목의 재료가 플레이어 머리여야 합니다."
 material-needs-to-be-leather-armor: "갑옷에 색을 입히려면 가죽 갑옷이 필요합니다."
 #Item path
-items-path-in-shops-config: "Item path in shops.yml: %location%"
-items-path-in-sections-config: "Item path in sections.yml: %location%"
-items-path-in-config: "Item path in config.yml: %location%"
-#Compatibility
-ultimatestacker-compatibility-enabled: "Spawner provider set to UltimateStacker in config"
-ultimatestacker-not-found: "UltimateStacker was not found"
-could-not-integrate-with-ultimatestacker: "Could not integrate with UltimateStacker"
-ultimatestacker-found: "UltimateStacker found, integrating..."
-using-ultimatestacker-spawners: "Using UltimateStacker as spawner provider..."
-wildstacker-compatibility-enabled: "스포너 공급자 구성에서 WildStacker로 설정되었습니다."
-wildstacker-not-found: "WildStacker를 찾을 수 없습니다."
-wildstacker-found: "WildStacker를 찾았습니다.\n통합 중입니다..."
-could-not-integrate-with-wildstacker: "WildStacker와 통합할 수 없습니다."
-using-wildstacker-spawners: "WildStacker를 스포너 공급자로 사용하고 있습니다."
-silkspawners-compatibility-enabled: "SilkSpawners compatibility has been enabled in config."
-silkspawners-not-found: "SilkSpawners was not found"
-silkspawners-found: "SilkSpawners found, integrating..."
-could-not-integrate-with-silkspawners: "Could not integrate with SilkSpawners."
-using-silkspawners-spawners: "Using SilkSpawners spawners..."
+items-path-in-shops-config: "shops.yml 구성의 경로: %location%"
+items-path-in-sections-config: "sections.yml 구성의 경로: %location%"
+items-path-in-config: "config.yml의 아이템 경로: %location%"
+rosestacker-compatibility-enabled: "스포너 공급자 구성이 config에서 RoseStacker로 설정되었습니다."
+rosestacker-not-found: "RoseStacker를 찾을 수 없습니다."
+could-not-integrate-with-rosestacker: "RoseStacker와 통합할 수 없습니다."
+rosestacker-found: "RoseStacker를 찾았습니다.\\n통합 중입니다..."
+using-rosestacker-spawners: "RoseStacker를 스포너 공급자로 사용하고 있습니다..."
+ultimatestacker-compatibility-enabled: "config에서 스포너 공급자 구성이 UltimateStacker로 설정되었습니다."
+ultimatestacker-not-found: "UltimateStacker를 찾을 수 없습니다."
+could-not-integrate-with-ultimatestacker: "UltimateStacker와 통합할 수 없습니다."
+ultimatestacker-found: "UltimateStacker 발견, 통합 중..."
+using-ultimatestacker-spawners: "UltimateStacker를 스포너 공급자로 사용하고 있습니다..."
+spawner-compatibility-enabled: "스포너 공급자 구성에서 %provider%로 설정되었습니다."
+spawner-provider-not-found: "%provider%를 찾을 수 없습니다."
+spawner-provider-found: "%provider%를 찾았습니다.\\n통합 중입니다..."
+failed-spawner-provider-integration: "%provider%와 통합할 수 없습니다."
+using-external-spawners: "%provider%를 스포너 공급자로 사용하고 있습니다."
+silkspawners-compatibility-enabled: "config에서 SilkSpawners와의 호환이 활성화되었습니다."
+silkspawners-not-found: "SilSpawners를 찾을 수 없습니다."
+silkspawners-found: "SilkSpawners를 찾았습니다.\\n통합 중입니다..."
+could-not-integrate-with-silkspawners: "SilkSpawners와 통합할 수 없습니다."
+using-silkspawners-spawners: "SilkSpawners의 스포너를 사용합니다..."
 using-default-spawners: "플러그인 기본 생성기를 사용하는 중입니다..."
 #Error's
 cannot-find-discounted-section: "상점 섹션을 사용할 수 없거나 찾을 수 없기 때문에 섹션 '%section%'에 대한 할인을 추가할 수 없습니다."
@@ -221,19 +222,21 @@ more-space-needed: "&c인벤토리 내에 공간을 더 확보한 다음 다시 
 could-not-store-all-items: "&c가득 찼기 때문에 %amount%개는 인벤토리에 추가할 수 없습니다."
 not-enough-space-inside-inventory: "&4인벤토리의 공간이 부족하여 나머지는 땅에 드랍합니다."
 insufficient-money: "&c당신은 돈이 부족합니다."
-canceling-transaction-no-space: "&4인벤토리 공간이 부족하여 교환을 취소합니다. \n재고 내에 공간을 더 확보한 후 다시 시도하세요."
+canceling-transaction-no-space: "&4인벤토리 공간이 부족하여 교환을 취소합니다. \\n재고 내에 공간을 더 확보한 후 다시 시도하세요."
 no-items-in-section: "품목을 찾을 수 없으므로 %shopsection%을 열 수 없습니다!"
 no-item-found: "품목을 찾을 수 없습니다."
 item-null: "&c항목이 존재하지 않습니다."
-item-cannot-be-sold-to-server: "&c%material%이 상점 내부에 오류가 있어 서버에 판매할 수 없습니다.\n이 문제를 서버 관리자 또는 소유자에게 보고하세요."
+item-cannot-be-sold-to-server: "&c%material%이 상점 내부에 오류가 있어 서버에 판매할 수 없습니다.\\n이 문제를 서버 관리자 또는 소유자에게 보고하세요."
 could-not-save-shops,yml: "&4shops.yml 구성을 저장할 수 없습니다."
 could-not-save-sections,yml: "&4sections.yml 구성을 저장할 수 없습니다."
 could-not-save-config: "%fileName% 구성을 저장할 수 없습니다."
 rgb-color-formatted-wrong: "RGB 색상은 %path%에서 '0x0000', '#000000' 또는 '000000' 형식으로 해야 합니다."
 no-shop-found: "&c해당 이름의 상점 섹션을 찾을 수 없습니다!"
 no-valid-amount: "&c유효한 금액이 아닙니다."
-restart-plugin: "상점 섹션을 열 수 없습니다.\n플러그인을 다시 시작하거나 지원을 위해 디스코드 서버에 가입해 보세요."
+restart-plugin: "상점 섹션을 열 수 없습니다.\\n플러그인을 다시 시작하거나 지원을 위해 디스코드 서버에 가입해 보세요."
 could-not-check-for-updates: "&c업데이트를 확인할 수 없습니다."
 cannot-update-config: "&cconfig.yml 구성 파일을 업데이트할 수 없습니다."
-cannot-read-config: "%fileName% 구성이 잘못 구성되어 있어 구성을 읽을 수 없습니다.\n아래에 오류가 있는 온라인 Yaml 구문 분석기를 사용하여 문제의 원인을 찾고 해결하십시오.\n만약 당신이 직접 원인을 찾을 수 없다면, EconomyShopGUI 페이지에서 찾을 수 있는 우리의 디스코드 지원 서버에 가입하세요."
-error-occured-while-reloading: "&4플러그인을 다시 로드하는 동안 오류가 발생했습니다. \n콘솔에서 오류 메시지가 있는지 확인하세요."
+cannot-read-config: "%fileName% 구성이 잘못 구성되어 있어 구성을 읽을 수 없습니다.\\n아래에 오류가 있는 온라인 Yaml 구문 분석기를 사용하여 문제의 원인을 찾고 해결하십시오.\\n만약 당신이 직접 원인을 찾을 수 없다면, EconomyShopGUI 페이지에서 찾을 수 있는 우리의 디스코드 지원 서버에 가입하세요."
+error-occured-while-reloading: "&4플러그인을 다시 로드하는 동안 오류가 발생했습니다. \\n콘솔에서 오류 메시지가 있는지 확인하세요."
+could-not-get-the-limitedstock-mode: "limitedstock 모드를 찾지 못했습니다: %limitedStockMode%"
+error-occurred-while-connecting-to-database: "데이터베이스에 연결 시도 중 오류가 발생했습니다."

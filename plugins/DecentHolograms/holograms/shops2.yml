@@ -1,0 +1,26 @@
+location: Skyblock_World:110.454:156.2:326.511
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&d&lSHOPS'
+    height: 0.3
+  - content: '&7Welcome to our shop district!'
+    height: 0.3
+  - content: '&7Here you can find &eanything you need!'
+    height: 0.3
+  - content: '&7'
+    height: 0.3
+  - content: '&7On this section you can find:'
+    height: 0.3
+  - content: '&b&lBLOCKS &7and &6&lSPANWERS'
+    height: 0.3
+  - content: '#ICON: enchanting_table'
+    height: 0.3
+  - content: '#ICON: blaze_rod'
+    height: 0.3
+  actions: {}

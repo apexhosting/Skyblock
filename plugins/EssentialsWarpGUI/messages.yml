@@ -1,0 +1,27 @@
+command-usage: '&eCorrect usage: &6{usage}'
+command-list: '&eAll warps ({amount}): &7{warps}'
+command-set-displayname: '&eThe display name of the warp &6{warp} has been changed
+  to {display-name}'
+command-set-icon: '&eThe icon of the warp &6{warp} &ehas been changed to &6{icon}'
+command-clear-lore: '&eRemoved all lore of the warp &6{warp}'
+command-add-lore: '&eAdded lore to the warp &6{warp}&e: {lore}'
+command-remove-lore: '&eRemoved lore from warp &6{warp}&e: {lore}'
+command-set-lore: '&eSet lore in warp &6{warp}&e at &6{pos}&e: {lore}'
+command-reload: '&eConfigurations have been reloaded'
+command-set-slot: '&eWarp &6{warp} &eis now being displayed at &6X{x} Y{y}'
+command-reset-slot: '&eWarp &6{warp} &eis now being normally added to the GUI'
+coord-out-of-bounds: '&cThe coordinates &4X{x} Y{y} &care out of bounds'
+line-out-of-bounds: '&cThe line &4{line} &cis out of bounds'
+unknown-warp: '&cUnknown warp &4{warp}'
+unknown-command: '&cUnknown command &4{command}'
+unknown-player: '&cUnknown player &4{player}'
+invalid-material: '&cInvalid material &4{material}'
+not-number: '&4{number} &cis not a number'
+players-only: Only players may execute the command
+insufficient-permissions: '&cInsufficient permissions'
+next-page: '&aNext page'
+prev-page: '&aPrevious page'
+page-info: '&7Go to page {new-page}.'
+none: None
+warp-hook-disappear: '&cOops, it seems like the warp does not exist anymore. Please
+  re-open the GUI'

@@ -8,12 +8,23 @@ Options:
     Enchantment_effect_current_rank: true
     Ladder: default
     Number_of_Rank_Player_GUI: false
+    MaterialType:
+      HasRankAccess: TRIPWIRE_HOOK
+      NoRankAccess: REDSTONE_BLOCK
+    GuiItemNameDefault: '{rankTag}'
   Mines:
     GUI_Enabled: true
     Permission_GUI_Enabled: false
     Permission_GUI: prison.gui.mines
     PermissionWarpPlugin: mines.tp.
     CommandWarpPlugin: mines tp
+    MaterialType:
+      HasMineAccess: COAL_ORE
+      NoMineAccess: REDSTONE_BLOCK
+    GuiItemNameDefault: '{mineTag}'
+    GuiItemNames:
+      WoodMine: WoodMine
+      Ores: Ores
   Prestiges:
     GUI_Enabled: true
     Permission_GUI_Enabled: false
@@ -115,3 +126,47 @@ EditableLore:
     - '&8-----------------------'
     - '&3Time to get ready to prestige, and restart the fun adventure!'
     - '&8-----------------------'
+  README-Updated-2022-12-22:
+  - ' '
+  - '&8-----------------------'
+  - '&7 WARNING!! DO NOT EDIT THESE!!'
+  - '&7  - THESE ARE JUST INFORMATIONAL NOTES AND WILL BE IGNORED BY PRISON.'
+  - ' '
+  - '&7 PLEASE READ - IMPORTANT CHANGESE!!'
+  - '&7  - You can safely remove other ''EditableLore.README*'' notes since they '
+  - '&7      are now obsolete.'
+  - '&7  - Remove everything under ''EditableLore.Mines'' and then reload the GUI: '
+  - '&7      /prison reload gui '
+  - '&7    The Mines LORE layout has been updated and this will help apply the '
+  - '&7      new update to your configs'
+  - '&8-----------------------'
+  - '&7 There are three types of placeholders that will work with EditableLore:'
+  - '&7 1. GUI placeholders'
+  - '&7 2. ''/prison placeholders list'''
+  - '&7 3. Any other placeholder through PlaceholderAPI'
+  - '&8-----------------------'
+  - '&7GUI Placeholders are only the following and they are evaluated first '
+  - '&7so they can be nested in the prison placeholders: '
+  - '&7  '
+  - '&7 For Ranks ONLY: '
+  - '&7   {rankName} {rankTag} {rankPrice} {rankMultiplier}'
+  - '&7   {ladderName} {linkedMines}'
+  - '&7   {linkedMines}'
+  - '&7  '
+  - '&7 For Mines ONLY: '
+  - '&7   {mineName} {mineTag} {mineSize} {mineVolume} '
+  - '&7   {mineRemaining} {mineRemaingPercent} '
+  - '&7   {clickToTeleport} {lockStatus} {playerCount} {linkedRank} '
+  - '&8-----------------------'
+  - '&7Prison placeholders can include any that are within these placeholder '
+  - '&7Groups: PLAYER, RANKS, RANKPLAYERS, MINES, STATSMINES, and STATSRANKS'
+  - '&8-----------------------'
+  - '&7To use dyanamic placeholders, you need to use a combination of these two'
+  - '&7types of placeholders. You use the GUI placeholders to inject the rank'
+  - '&7name, or mine name, in to the prison placeholders. When injecting the '
+  - '&7names, do not use the tags since those will also inject formatting codes'
+  - '&7which will corrupt the placeholders.'
+  - '&7Cost:      &3%prison_rank__player_cost_formatted_{rankName}%'
+  - '&7Remaining: &3%prison_rank__player_cost_remaining_formatted_{rankName}%'
+  - '%prison_rank__player_cost_bar_{rankName}%'
+  - '&8-----------------------'

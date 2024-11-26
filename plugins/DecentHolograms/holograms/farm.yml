@@ -1,0 +1,16 @@
+location: Mine:-231.612:78.0:-97.212
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&b&lFARM'
+    height: 0.3
+  - content: '&7If you''re looking for food this is the right place!'
+    height: 0.3
+  - content: '#ICON: COOKED_BEEF'
+    height: 0.3
+  actions: {}

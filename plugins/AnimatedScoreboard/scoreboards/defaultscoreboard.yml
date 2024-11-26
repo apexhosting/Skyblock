@@ -1,0 +1,119 @@
+scores:
+  # Whether scores (red numbers) on server versions 1.20.3 or newer should be hidden
+  hidden: true
+
+#This is where you create the scoreboard, the first section will always be the title. 
+#Every section after that will be a line displayed on the scoreboard. You can have a max
+#of 15 lines display due to the limitations of minecraft.
+display:
+    #This is the first section, it will always be the title of the scoreboard. 
+    #You can also use placeholders here if you want.
+    title:
+      #This is the text that will be display as the title, it can have as many lines as you want and it will automatically rotate through them or
+      #choose a random one, depending on what you set random to.
+      text:
+      - '&7&lAPEX &b&lSKYBLOCK'
+      #If this is true there will be a random line every time it updates. 
+      #If it is false than it will rotate through them and you can make some animations with it.
+      random: false
+      #The time between updates, 20 ticks is 1 second.
+      #Every x ticks it will go to the next line, if random is false, once all lines are displayed it will go to the first line.
+      interval: 0
+    #This section is the first line, here you set the data of that line. It doesn't matter what the name of the section is, as long
+    # as there is no other section with the exact same name 
+    line-1:
+      #Same as with the title, no limit on text. If you just put " " here it will display a blank line on the scoreboard.
+      text:
+      - '&7&o%localtime_time%'
+      #If it should be random or not.
+      random: false
+      #The time between updates, 20 ticks is 1 second.
+      #Every x ticks it will go to the next line, if random is false, once all lines are displayed it will go to the first line.
+      interval: 20
+      #The score display next to the text, this can only be a number and not removed.
+      # If the score of the other lines are higher than this one, they will be displayed above this one.
+      score: 99   
+    line-2:
+      text:
+      - ' '
+      random: false
+      interval: 0
+      score: 98
+    line-3:
+      text:
+      - " "
+      random: false
+      interval: 0
+      score: 97
+    line-4:
+      text:
+      - '&3☆ &b&lSKYBLOCK STATS:'
+      random: false
+      interval: 0
+      score: 96
+    line-5:
+      text:
+      - '&7Island Level: &b%iridiumskyblock_island_level%'
+      random: false
+      interval: 20
+      score: 95
+    line-6:
+      text:
+      - '&7Rank: &d#%iridiumskyblock_island_value_rank%'
+      random: false
+      interval: 20
+      score: 94
+    line-7:
+      text:
+      - ' '
+      random: false
+      interval: 0
+      score: 93
+    line-8:
+      text:
+      - '&3☆ &b&lPLAYER STATS:'
+      random: false
+      interval: 0
+      score: 92
+    line-9:
+      text:
+      - '&7Money: &a%vault_eco_balance_fixed%'
+      random: false
+      interval: 20
+      score: 91
+    line-10:
+      text:
+      - '&7Rank: %vault_prefix%'
+      random: false
+      interval: 20
+      score: 90
+    line-11:
+      text:
+      - ' '
+      random: false
+      interval: 0
+      score: 89
+    line-12:
+      text:
+      - '&3☆ &b&lMINES CAPACITY:'
+      random: false
+      interval: 0
+      score: 88
+    line-13:
+      text:
+      - '&eOres: %prison_mines_percent_Ores% &7/ &cWood: %prison_mines_percent_WoodMine%'
+      random: false
+      interval: 20
+      score: 87
+    line-14:
+      text:
+      - ' '
+      random: false
+      interval: 0
+      score: 86
+    line-15:
+      text:
+      - '&bsb.apexmc.co'
+      random: false
+      interval: 0
+      score: 85

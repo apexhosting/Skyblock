@@ -41,6 +41,7 @@ Suits:
         CanBeFound: true
         Purchasable: true
         Lore: ''
+    GUI-Name: Frog Suit
   Ninja:
     Name: '&6Ninja Suit'
     Material: head:e96616bb48ac61a153a9f5c35979f3523c24c366c621d6bacaed10f822b68b
@@ -84,6 +85,7 @@ Suits:
         CanBeFound: true
         Purchasable: true
         Lore: ''
+    GUI-Name: Ninja Suit
   Speedster:
     Name: '&6Speedster Suit'
     Material: head:5138ccdee2eb7cf60d5489d388f210629b2e787bb530e65bd1a73126d01067
@@ -127,6 +129,7 @@ Suits:
         CanBeFound: true
         Purchasable: true
         Lore: ''
+    GUI-Name: Speedster Suit
   Ghostly:
     Name: '&6Ghostly Skeleton Suit'
     Material: SKELETON_SKULL
@@ -169,6 +172,7 @@ Suits:
         CanBeFound: true
         Purchasable: true
         Lore: ''
+    GUI-Name: Ghostly Skeleton Suit
   Disco:
     Name: '&6Disco Suit'
     Material: LEATHER_HELMET:#FF0000
@@ -211,6 +215,7 @@ Suits:
         CanBeFound: true
         Purchasable: true
         Lore: ''
+    GUI-Name: Disco Suit
   Mermaid:
     Name: '&6Mermaid Suit'
     Material: head:aa36d682f9152a98e53cbf3d583b59df8f024e184531c97c2ea25816d1288f
@@ -254,6 +259,7 @@ Suits:
         CanBeFound: true
         Purchasable: true
         Lore: ''
+    GUI-Name: Mermaid Suit
   Spooderman:
     Name: '&6Spooderman Suit'
     Material: head:9f2f7ebd9e263c939f54f939c9e2bcb18d4431f5577c389d6cbcf1371b11d
@@ -297,6 +303,7 @@ Suits:
         CanBeFound: true
         Purchasable: true
         Lore: ''
+    GUI-Name: Spooderman Suit
   Warrior:
     Name: '&6Warrior Suit'
     Material: head:38f56b7f7ac16046a9816e57c2c3296420ccddb7cc51b1c0de8075a816b747d9
@@ -341,6 +348,7 @@ Suits:
         CanBeFound: true
         Purchasable: true
         Lore: ''
+    GUI-Name: Warrior Suit
   Necromancer:
     Name: '&6Necromancer Suit'
     Material: head:9ddbd0bb9622ce124dabb6ba3baa9a9ea71430f870fec15b3ea81f1961a412b2
@@ -384,6 +392,7 @@ Suits:
         CanBeFound: true
         Purchasable: true
         Lore: ''
+    GUI-Name: Necromancer Suit
   Thor:
     Name: '&6Thor Suit'
     Material: head:2a9f83329a2e475a75335b3949aa4d054f9de413bfb28aa60de2e5259ecaad1
@@ -427,6 +436,7 @@ Suits:
         CanBeFound: true
         Purchasable: true
         Lore: ''
+    GUI-Name: Thor Suit
   Baker:
     Name: '&6Baker Suit'
     Material: head:b8dea622fb0fbbd2639384c1604f5f1a3c111aa993447319fbac494bff4477
@@ -471,6 +481,7 @@ Suits:
         CanBeFound: true
         Purchasable: true
         Lore: ''
+    GUI-Name: Baker Suit
   Bumblebee:
     Name: '&6Bumblebee Suit'
     Material: head:bf92d3f385cc16c77675a46de3e833ac17c74ada3e1946ef7021ecdbf9f1ba
@@ -514,6 +525,7 @@ Suits:
         CanBeFound: true
         Purchasable: true
         Lore: ''
+    GUI-Name: Bumblebee Suit
   Firefighter:
     Name: '&6Firefighter Suit'
     Material: head:7e9b8d13ae2b8e24b8a06fc982b2628a8131d1b16d6deb9cf31fb633f8ca2e
@@ -556,6 +568,7 @@ Suits:
         CanBeFound: true
         Purchasable: true
         Lore: ''
+    GUI-Name: Firefighter Suit
   Plumber:
     Name: '&6Plumber Suit'
     Material: head:6f7eb75e5542cc4937aaad5bb8657393eaf0265006eac1dc96691f32e16437
@@ -598,6 +611,7 @@ Suits:
         CanBeFound: true
         Purchasable: true
         Lore: ''
+    GUI-Name: Plumber Suit
   Ice Walker:
     Name: '&6Ice Walker Suit'
     Material: head:371c7c94da4f86a8fe6ea3a5b2f7dad24731ac420ef47ca4c1c766dea60accc
@@ -641,6 +655,7 @@ Suits:
         CanBeFound: true
         Purchasable: true
         Lore: ''
+    GUI-Name: Ice Walker Suit
   Vampire:
     Name: '&6Vampire Suit'
     Material: head:8d44756e0b4ece8d746296a3d5e297e1415f4ba17647ffe228385383d161a9
@@ -683,3 +698,4 @@ Suits:
         CanBeFound: true
         Purchasable: true
         Lore: ''
+    GUI-Name: Vampire Suit

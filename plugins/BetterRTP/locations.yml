@@ -9,6 +9,7 @@
 #     MinY: 0
 #     MaxY: 320
 
+UseLocationsInSameWorld: true
 Enabled: false # enable the locations feature
 RequirePermission: false # Require players to have `betterrtp.location.<world_name>`
 UseLocationIfAvailable: true # Will choose a location upon `/rtp` if location(s) is available in the world

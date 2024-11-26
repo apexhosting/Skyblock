@@ -40,6 +40,7 @@ Messages:
     Remove: '&cOdstraněno! &7Vymazal jsi vlastní svět %world%'
 
 Help:
+  Location: ' &7- &e/%command% location <location_name> &7- Rtp using a specific location'
   Prefix: '&e&m-----&6&l BetterRTP &8| Pomoc &e&m-----'
   Main: ' &7- &e/%command% &7- Náhodně tě teleportuje!'
   Biome: ' &7- &e/%command% biome <biom1, biom2...> &7- Náhodně tě teleportuje do
@@ -59,11 +60,20 @@ Help:
 #  Location: ' &7- &e/%command% location <location_name> &7- Rtp using a specific location'
 
 Usage:
+  Location: '&cUsage&7: /%command% location <location_name>'
   Player: '&cPoužití&7: /%command% player <hráč> [svět] [biom1, biom2]'
   World: '&cPoužití&7: /%command% world <svět> [biom1, biom2...]'
   Biome: '&cPoužití&7: /%command% biome <biom1, biom2...>'
   #  Location: '&cUsage&7: /%command% location <location_name>'
   Edit:
+    PermissionGroup: '&cUsage&7: /%command% edit permission_group <group> <world>
+      <max/min/useworldborder/center> <value>'
+    Location: '&cUsage&7: /%command% edit location <location_name> <max/min/useworldborder/center>
+      <value>'
+    Worldtype: '&cUsage&7: /%command% edit world_type <world> <NETHER/NORMAL>'
+    Override: '&cUsage&7: /%command% edit override <world> <world_to>'
+    BlacklistedBlocks: '&cUsage&7: /%command% edit blacklistedblocks <add/remove>
+      <block_id>'
     Base: '&cPoužití&7: /%command% edit <default/svět> [hodnoty...]'
     Default: '&cPoužití&7: /%command% edit default <max/min/useworldborder/center>
       <hodnota>'

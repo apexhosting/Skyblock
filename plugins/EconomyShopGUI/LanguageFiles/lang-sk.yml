@@ -1,37 +1,3 @@
-#You can see this site for all color codes ----> https://minecraft.tools/en/color-code.php
-#All variables you can use;
-#!!Please note that all variables only work in the current line they are located!!
-#%shopsection%       = the shopsection that has to be called
-#%amounttopay%       = the amount that the item will cost
-#%playername%        = the player's name
-#%amount%            = the amount of an item
-#%material%          = the material from a item
-#%amounttogive%      = the amount of money that a player received from another player
-#%minimumamount%     = the minimum amount of money you need to pay someone if you use the command
-#%amountofmoney%     = the amount of money that you have on you
-#%location%          = the location of the current item that is called inside shops.yml/sections.yml configuration file
-#%languagefile%      = the current languagefile that's being called
-#%version%           = the version of minecraft that the plugin uses
-#%spawner-type%      = the spawner type that the spawner item has
-#%bought/sold%       = if the item is sold or bought
-#%buy/sell-method%   = the way a player bought/sold an item Ex: Buy-screen or sellall command
-#%fileName%          = the name of the file that's being called
-#%key%               = the name of the key
-#%keys%              = all available keys, do not confuse with %key%
-#%itemLoc%           = the location of the item in a section inside the shops config
-#%price%             = amount of money
-#%action%            = the name of the action
-#%actions%           = the available actions
-#%balance%           = the balance of the player
-#%permsGroup%        = the permissions group
-#%maxInvSize%        = the max size of a inventory screen
-#StartUp/Reload
-shops,yml-not-found: "Shops.yml nebol nájdený a vytvoril jeden..."
-shops,yml-created: "Shops.yml úspešne vytvorené!"
-shops,yml-found: "Shops.yml bolo nájdené!"
-sections,yml-not-found: "Sections.yml nebol nájdený a vytvoril jeden..."
-sections,yml-created: "Sections.yml úspešne vytvorené!"
-sections,yml-found: "Sections.yml bolo nájdené!"
 updating-shop-settings: "Aktualizácia nastavenia obchodu..."
 adding-new-shop-shops,yml: "Pridanie nového obchodu s názvom %shopsection% do shops.yml."
 adding-new-shop-sections,yml: "Pridanie nového obchodu s názvom %shopsection% do sections.yml."
@@ -60,12 +26,12 @@ money: "&6Peniaze"
 level: "&6Level"
 #Buystacks Inventory title
 inventory-buystacks-title: "&8Koľko &cstackov &8chcete &ckoúpiť&8?"
-#HowMuchSell/HowMuchBuy Inventory
+#Transaction screen
 inventory-howmuchsell-title: "&8Koľko chcete predať?"
 inventory-howmuchbuy-title: "&8Koľko chcete kúpiť?"
 plus-one: "&b+1"
 min-one: "&5-1"
-plus-sixteen: "&b+16"
+plus-sixteen: " \n&b+16"
 min-sixteen: "&5-16"
 plus-thirty-two: "&b+32"
 min-thirty-two: "&5-32"
@@ -80,17 +46,16 @@ cancel: "&4Zrušiť"
 previous-page: "&dPredchádzajúca stránka"
 next-page: "&bĎalšia stránka"
 current-page: "&7Stránka:"
-#Shop item lore
-left-click-buy: "&a[ľavým kliknutím] kúpiť: &c%amounttopay%"
-right-click-sell: "&6[pravým kliknutím] Predať: &c%amounttopay%"
+#ShopItem lore
+left-click-buy: "&a[ľavým kliknutím] kúpiť: &c%buyPrice%"
+right-click-sell: "&6[pravým kliknutím] Predať: &c%sellPrice%"
 item-location-in-shop: "&8Sekcia: %shopsection%, Index: %itemLoc%"
-#Buy/Sell Messages
+item-cannot-be-bought: "&cTovar nie je možné zakúpiť."
+item-cannot-be-sold: "&cTovar nie je možné predať."
 pay-confirmation: "&aÚspešne ste kúpili &1%amount% x &b%material% &aza &c%amounttopay%"
 sell-confirmation: "&aÚspešne ste predali &1%amount% x &b%material% &aza &c%amounttopay%"
 sell-confirmation-multiple-items: "&aÚspešne ste predali &1%amount% &avecí za &c%amounttopay%"
 no-item-to-be-sold: "&cV inventári nemáte žiadnu z týchto položiek."
-item-cannot-be-bought: "&cTovar nie je možné zakúpiť."
-item-cannot-be-sold: "&cTovar nie je možné predať."
 player-made-transaction: "%playername% %bought/sold% %amount% x %material% za %amountofmoney% s %buy/sell-method%."
 buy-screen: "kúpiť obrazovku"
 sell-screen: "predať obrazovku"
@@ -100,7 +65,7 @@ sellall-command: "predať všetok príkaz"
 bought: "kúpil"
 sold: "predané"
 #CurrencySymbol
-currencysymbol: "€%price%"
+currencysymbol: "%price%€"
 #All commands
 command-disabled-in-world: "&cTento príkaz je v tomto svete deaktivovaný."
 #Edit-shop subcommand descriptions
@@ -189,17 +154,16 @@ material-needs-to-be-leather-armor: "Na nanesenie farby na kus brnenia musí by�
 items-path-in-shops-config: "Cesta položky v konfiguráciách obchodov: %location%"
 items-path-in-sections-config: "Cesta položky v sekcii sections.yml config: %location%"
 items-path-in-config: "Cesta k položke v config.yml: %location%"
-#Compatibility
 ultimatestacker-compatibility-enabled: "Poskytovateľ spawnera nastavený na UltimateStacker v konfigurácii"
 ultimatestacker-not-found: "UltimateStacker nebol nájdený"
 could-not-integrate-with-ultimatestacker: "Nedá sa integrovať s UltimateStacker"
 ultimatestacker-found: "Našiel sa program UltimateStacker, ktorý integruje..."
 using-ultimatestacker-spawners: "Používanie UltimateStackera ako poskytovateľa spawnera..."
-wildstacker-compatibility-enabled: "Poskytovateľ spawnera je v konfigurácii nastavený na WildStacker"
-wildstacker-not-found: "WildStacker nebol nájdený"
-wildstacker-found: "Našiel sa WildStacker, integruje sa..."
-could-not-integrate-with-wildstacker: "Nedá sa integrovať s WildStacker"
-using-wildstacker-spawners: "Používanie WildStackera ako poskytovateľa spawnera."
+spawner-compatibility-enabled: "Poskytovateľ spawnera je v konfigurácii nastavený na %provider%"
+spawner-provider-not-found: "%provider% nebol nájdený"
+spawner-provider-found: "Našiel sa %provider%, integruje sa..."
+failed-spawner-provider-integration: "Nedá sa integrovať s %provider%"
+using-external-spawners: "Používanie %provider% ako poskytovateľa spawnera."
 silkspawners-compatibility-enabled: "SilkSpawners kompatibilita bolo povolené v config."
 silkspawners-not-found: "SilkSpawners nebol nájdený pomocou EconomyShopGUI spawnerů..."
 silkspawners-found: "SilkSpawners nájdený, integrovať ..."
@@ -220,7 +184,7 @@ cannot-do-that: "&4To nemôžeš urobiť!!"
 more-space-needed: "&cVo svojom inventári uvoľnite viac miesta a potom to skúste znova."
 could-not-store-all-items: "&c%amount% položiek nebolo možné pridať do vášho inventára, pretože je plný."
 not-enough-space-inside-inventory: "&4Vo svojom inventári nemáte dostatok miesta, takže ostatné položky vyhodíte na zem."
-insufficient-money: "&cNemáš dosť peňazí."
+insufficient-money: "&cNemáš dosť %currency%."
 canceling-transaction-no-space: "&4Vo svojom inventári nemáte dostatok miesta, transakciu rušíte. \nVytvorte vo svojom inventári viac miesta a skúste to znova."
 no-items-in-section: "Nemožno otvoriť sekciu obchodu %shopsection% pretože neboli nájdené žiadne položky!"
 no-item-found: "&cŽiadne predmety nenájdené."
