@@ -9,7 +9,6 @@ You start on tiny islands in the sky, all necessary items, blocks and materials 
 - [AnimatedScoreboard](https://www.spigotmc.org/resources/animatedscoreboard.20848/)  
 - [BetterRTP](https://www.spigotmc.org/resources/betterrtp-random-wild-teleport.36081/)  
 - [Citizens](https://www.spigotmc.org/resources/citizens.13811/)  
-- [Core Protect](https://www.spigotmc.org/resources/coreprotect.8631/)  
 - [DecentHolograms](https://www.spigotmc.org/resources/decentholograms-1-8-1-21-3-papi-support-no-dependencies.96927/)  
 - [DeluxeMenus](https://www.spigotmc.org/resources/deluxemenus.11734/)  
 - [EssentialsX](https://www.spigotmc.org/resources/essentialsx.9089/)  
