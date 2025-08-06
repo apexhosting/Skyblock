@@ -3,7 +3,7 @@ farmingEnhancement:
   enabled: true
   type: "BOOSTER"
   item:
-    material: "Wheat"
+    material: "WHEAT"
     amount: 1
     displayName: "&9&lFarming Booster"
     skullData: null
@@ -46,7 +46,7 @@ spawnerEnhancement:
   enabled: true
   type: "BOOSTER"
   item:
-    material: "Spawner"
+    material: "SPAWNER"
     amount: 1
     displayName: "&9&lSpawner Booster"
     skullData: null
@@ -92,7 +92,7 @@ experienceEnhancement:
   enabled: true
   type: "BOOSTER"
   item:
-    material: "Experience Bottle"
+    material: "EXPERIENCE_BOTTLE"
     amount: 1
     displayName: "&9&lExperience Booster"
     skullData: null
@@ -135,7 +135,7 @@ flightEnhancement:
   enabled: true
   type: "BOOSTER"
   item:
-    material: "Feather"
+    material: "FEATHER"
     amount: 1
     displayName: "&9&lFlight Booster"
     skullData: null
@@ -174,7 +174,7 @@ membersEnhancement:
   enabled: true
   type: "UPGRADE"
   item:
-    material: "Player Head"
+    material: "PLAYER_HEAD"
     amount: 1
     displayName: "&9&lMember Upgrade"
     skullData: "Peaches_MLG"
@@ -228,7 +228,7 @@ warpsEnhancement:
   enabled: true
   type: "UPGRADE"
   item:
-    material: "End Portal Frame"
+    material: "END_PORTAL_FRAME"
     amount: 1
     displayName: "&9&lWarps Upgrade"
     skullData: null
@@ -290,7 +290,7 @@ potionEnhancements:
     enabled: true
     type: "UPGRADE"
     item:
-      material: "Diamond Pickaxe"
+      material: "DIAMOND_PICKAXE"
       amount: 1
       displayName: "&9&lHaste Booster"
       skullData: null
@@ -315,7 +315,7 @@ potionEnhancements:
         bankCosts:
           Crystals: 5.0
         strength: 1
-        potion: "Haste"
+        potion: "HASTE"
         enhancementAffectsType:
         - "VISITORS"
       2:
@@ -324,7 +324,7 @@ potionEnhancements:
         bankCosts:
           Crystals: 5.0
         strength: 2
-        potion: "Haste"
+        potion: "HASTE"
         enhancementAffectsType:
         - "VISITORS"
       3:
@@ -333,14 +333,14 @@ potionEnhancements:
         bankCosts:
           Crystals: 5.0
         strength: 3
-        potion: "Haste"
+        potion: "HASTE"
         enhancementAffectsType:
         - "VISITORS"
   speed:
     enabled: true
     type: "UPGRADE"
     item:
-      material: "Sugar"
+      material: "SUGAR"
       amount: 1
       displayName: "&9&lSpeed Booster"
       skullData: null
@@ -365,7 +365,7 @@ potionEnhancements:
         bankCosts:
           Crystals: 5.0
         strength: 1
-        potion: "Speed"
+        potion: "SPEED"
         enhancementAffectsType:
         - "VISITORS"
       2:
@@ -374,7 +374,7 @@ potionEnhancements:
         bankCosts:
           Crystals: 5.0
         strength: 2
-        potion: "Speed"
+        potion: "SPEED"
         enhancementAffectsType:
         - "VISITORS"
       3:
@@ -383,14 +383,14 @@ potionEnhancements:
         bankCosts:
           Crystals: 5.0
         strength: 3
-        potion: "Speed"
+        potion: "SPEED"
         enhancementAffectsType:
         - "VISITORS"
   jump:
     enabled: true
     type: "UPGRADE"
     item:
-      material: "Feather"
+      material: "FEATHER"
       amount: 1
       displayName: "&9&lJump Booster"
       skullData: null
@@ -415,7 +415,7 @@ potionEnhancements:
         bankCosts:
           Crystals: 5.0
         strength: 1
-        potion: "Jump Boost"
+        potion: "LUCK"
         enhancementAffectsType:
         - "VISITORS"
       2:
@@ -424,7 +424,7 @@ potionEnhancements:
         bankCosts:
           Crystals: 5.0
         strength: 2
-        potion: "Jump Boost"
+        potion: "LUCK"
         enhancementAffectsType:
         - "VISITORS"
       3:
@@ -433,14 +433,14 @@ potionEnhancements:
         bankCosts:
           Crystals: 5.0
         strength: 3
-        potion: "Jump Boost"
+        potion: "LUCK"
         enhancementAffectsType:
         - "VISITORS"
 sizeEnhancement:
   enabled: true
   type: "UPGRADE"
   item:
-    material: "Grass Block"
+    material: "GRASS_BLOCK"
     amount: 1
     displayName: "&9&lSize Upgrade"
     skullData: null
@@ -501,7 +501,7 @@ voidEnhancement:
   enabled: false
   type: "UPGRADE"
   item:
-    material: "Red Bed"
+    material: "RED_BED"
     amount: 1
     displayName: "&9&lVoid Upgrade"
     skullData: null
@@ -539,7 +539,7 @@ generatorEnhancement:
   enabled: true
   type: "UPGRADE"
   item:
-    material: "Diamond Ore"
+    material: "DIAMOND_ORE"
     amount: 1
     displayName: "&9&lGenerator Upgrade"
     skullData: null

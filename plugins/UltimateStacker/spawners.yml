@@ -1,250 +1,256 @@
 Spawners:
-  ELDER_GUARDIAN:
+  ALLAY:
     Max Stack Size: -1
-    Display Name: Elder guardian
-  WITHER_SKELETON:
+    Display Name: Allay
+  ARMADILLO:
     Max Stack Size: -1
-    Display Name: Wither skeleton
-  STRAY:
-    Max Stack Size: -1
-    Display Name: Stray
-  HUSK:
-    Max Stack Size: -1
-    Display Name: Husk
-  ZOMBIE_VILLAGER:
-    Max Stack Size: -1
-    Display Name: Zombie villager
-  SKELETON_HORSE:
-    Max Stack Size: -1
-    Display Name: Skeleton horse
-  ZOMBIE_HORSE:
-    Max Stack Size: -1
-    Display Name: Zombie horse
-  DONKEY:
-    Max Stack Size: -1
-    Display Name: Donkey
-  MULE:
-    Max Stack Size: -1
-    Display Name: Mule
-  EVOKER:
-    Max Stack Size: -1
-    Display Name: Evoker
-  VEX:
-    Max Stack Size: -1
-    Display Name: Vex
-  VINDICATOR:
-    Max Stack Size: -1
-    Display Name: Vindicator
-  ILLUSIONER:
-    Max Stack Size: -1
-    Display Name: Illusioner
-  CREEPER:
-    Max Stack Size: -1
-    Display Name: Creeper
-  SKELETON:
-    Max Stack Size: -1
-    Display Name: Skeleton
-  SPIDER:
-    Max Stack Size: -1
-    Display Name: Spider
-  GIANT:
-    Max Stack Size: -1
-    Display Name: Giant
-  ZOMBIE:
-    Max Stack Size: -1
-    Display Name: Zombie
-  SLIME:
-    Max Stack Size: -1
-    Display Name: Slime
-  GHAST:
-    Max Stack Size: -1
-    Display Name: Ghast
-  ZOMBIFIED_PIGLIN:
-    Max Stack Size: -1
-    Display Name: Zombified piglin
-  ENDERMAN:
-    Max Stack Size: -1
-    Display Name: Enderman
-  CAVE_SPIDER:
-    Max Stack Size: -1
-    Display Name: Cave spider
-  SILVERFISH:
-    Max Stack Size: -1
-    Display Name: Silverfish
-  BLAZE:
-    Max Stack Size: -1
-    Display Name: Blaze
-  MAGMA_CUBE:
-    Max Stack Size: -1
-    Display Name: Magma cube
-  ENDER_DRAGON:
-    Max Stack Size: -1
-    Display Name: Ender dragon
-  WITHER:
-    Max Stack Size: -1
-    Display Name: Wither
-  BAT:
-    Max Stack Size: -1
-    Display Name: Bat
-  WITCH:
-    Max Stack Size: -1
-    Display Name: Witch
-  ENDERMITE:
-    Max Stack Size: -1
-    Display Name: Endermite
-  GUARDIAN:
-    Max Stack Size: -1
-    Display Name: Guardian
-  SHULKER:
-    Max Stack Size: -1
-    Display Name: Shulker
-  PIG:
-    Max Stack Size: -1
-    Display Name: Pig
-  SHEEP:
-    Max Stack Size: -1
-    Display Name: Sheep
-  COW:
-    Max Stack Size: -1
-    Display Name: Cow
-  CHICKEN:
-    Max Stack Size: -1
-    Display Name: Chicken
-  SQUID:
-    Max Stack Size: -1
-    Display Name: Squid
-  WOLF:
-    Max Stack Size: -1
-    Display Name: Wolf
-  MOOSHROOM:
-    Max Stack Size: -1
-    Display Name: Mooshroom
-  SNOW_GOLEM:
-    Max Stack Size: -1
-    Display Name: Snow golem
-  OCELOT:
-    Max Stack Size: -1
-    Display Name: Ocelot
-  IRON_GOLEM:
-    Max Stack Size: -1
-    Display Name: Iron golem
-  HORSE:
-    Max Stack Size: -1
-    Display Name: Horse
-  RABBIT:
-    Max Stack Size: -1
-    Display Name: Rabbit
-  POLAR_BEAR:
-    Max Stack Size: -1
-    Display Name: Polar bear
-  LLAMA:
-    Max Stack Size: -1
-    Display Name: Llama
-  PARROT:
-    Max Stack Size: -1
-    Display Name: Parrot
-  VILLAGER:
-    Max Stack Size: -1
-    Display Name: Villager
-  TURTLE:
-    Max Stack Size: -1
-    Display Name: Turtle
-  PHANTOM:
-    Max Stack Size: -1
-    Display Name: Phantom
-  COD:
-    Max Stack Size: -1
-    Display Name: Cod
-  SALMON:
-    Max Stack Size: -1
-    Display Name: Salmon
-  PUFFERFISH:
-    Max Stack Size: -1
-    Display Name: Pufferfish
-  TROPICAL_FISH:
-    Max Stack Size: -1
-    Display Name: Tropical fish
-  DROWNED:
-    Max Stack Size: -1
-    Display Name: Drowned
-  DOLPHIN:
-    Max Stack Size: -1
-    Display Name: Dolphin
-  CAT:
-    Max Stack Size: -1
-    Display Name: Cat
-  PANDA:
-    Max Stack Size: -1
-    Display Name: Panda
-  PILLAGER:
-    Max Stack Size: -1
-    Display Name: Pillager
-  RAVAGER:
-    Max Stack Size: -1
-    Display Name: Ravager
-  TRADER_LLAMA:
-    Max Stack Size: -1
-    Display Name: Trader llama
-  WANDERING_TRADER:
-    Max Stack Size: -1
-    Display Name: Wandering trader
-  FOX:
-    Max Stack Size: -1
-    Display Name: Fox
-  BEE:
-    Max Stack Size: -1
-    Display Name: Bee
-  HOGLIN:
-    Max Stack Size: -1
-    Display Name: Hoglin
-  PIGLIN:
-    Max Stack Size: -1
-    Display Name: Piglin
-  STRIDER:
-    Max Stack Size: -1
-    Display Name: Strider
-  ZOGLIN:
-    Max Stack Size: -1
-    Display Name: Zoglin
-  PIGLIN_BRUTE:
-    Max Stack Size: -1
-    Display Name: Piglin brute
+    Display Name: Armadillo
   AXOLOTL:
     Max Stack Size: -1
     Display Name: Axolotl
+  BAT:
+    Max Stack Size: -1
+    Display Name: Bat
+  BEE:
+    Max Stack Size: -1
+    Display Name: Bee
+  BLAZE:
+    Max Stack Size: -1
+    Display Name: Blaze
+  BOGGED:
+    Max Stack Size: -1
+    Display Name: Bogged
+  BREEZE:
+    Max Stack Size: -1
+    Display Name: Breeze
+  CAMEL:
+    Max Stack Size: -1
+    Display Name: Camel
+  CAT:
+    Max Stack Size: -1
+    Display Name: Cat
+  CAVE_SPIDER:
+    Max Stack Size: -1
+    Display Name: Cave spider
+  CHICKEN:
+    Max Stack Size: -1
+    Display Name: Chicken
+  COD:
+    Max Stack Size: -1
+    Display Name: Cod
+  COW:
+    Max Stack Size: -1
+    Display Name: Cow
+  CREAKING:
+    Max Stack Size: -1
+    Display Name: Creaking
+  CREEPER:
+    Max Stack Size: -1
+    Display Name: Creeper
+  DOLPHIN:
+    Max Stack Size: -1
+    Display Name: Dolphin
+  DONKEY:
+    Max Stack Size: -1
+    Display Name: Donkey
+  DROWNED:
+    Max Stack Size: -1
+    Display Name: Drowned
+  ELDER_GUARDIAN:
+    Max Stack Size: -1
+    Display Name: Elder guardian
+  ENDER_DRAGON:
+    Max Stack Size: -1
+    Display Name: Ender dragon
+  ENDERMAN:
+    Max Stack Size: -1
+    Display Name: Enderman
+  ENDERMITE:
+    Max Stack Size: -1
+    Display Name: Endermite
+  EVOKER:
+    Max Stack Size: -1
+    Display Name: Evoker
+  FOX:
+    Max Stack Size: -1
+    Display Name: Fox
+  FROG:
+    Max Stack Size: -1
+    Display Name: Frog
+  GHAST:
+    Max Stack Size: -1
+    Display Name: Ghast
+  GIANT:
+    Max Stack Size: -1
+    Display Name: Giant
   GLOW_SQUID:
     Max Stack Size: -1
     Display Name: Glow squid
   GOAT:
     Max Stack Size: -1
     Display Name: Goat
-  ALLAY:
+  GUARDIAN:
     Max Stack Size: -1
-    Display Name: Allay
-  FROG:
+    Display Name: Guardian
+  HAPPY_GHAST:
     Max Stack Size: -1
-    Display Name: Frog
-  TADPOLE:
+    Display Name: Happy ghast
+  HOGLIN:
     Max Stack Size: -1
-    Display Name: Tadpole
-  WARDEN:
+    Display Name: Hoglin
+  HORSE:
     Max Stack Size: -1
-    Display Name: Warden
-  CAMEL:
+    Display Name: Horse
+  HUSK:
     Max Stack Size: -1
-    Display Name: Camel
+    Display Name: Husk
+  ILLUSIONER:
+    Max Stack Size: -1
+    Display Name: Illusioner
+  IRON_GOLEM:
+    Max Stack Size: -1
+    Display Name: Iron golem
+  LLAMA:
+    Max Stack Size: -1
+    Display Name: Llama
+  MAGMA_CUBE:
+    Max Stack Size: -1
+    Display Name: Magma cube
+  MOOSHROOM:
+    Max Stack Size: -1
+    Display Name: Mooshroom
+  MULE:
+    Max Stack Size: -1
+    Display Name: Mule
+  OCELOT:
+    Max Stack Size: -1
+    Display Name: Ocelot
+  PANDA:
+    Max Stack Size: -1
+    Display Name: Panda
+  PARROT:
+    Max Stack Size: -1
+    Display Name: Parrot
+  PHANTOM:
+    Max Stack Size: -1
+    Display Name: Phantom
+  PIG:
+    Max Stack Size: -1
+    Display Name: Pig
+  PIGLIN:
+    Max Stack Size: -1
+    Display Name: Piglin
+  PIGLIN_BRUTE:
+    Max Stack Size: -1
+    Display Name: Piglin brute
+  PILLAGER:
+    Max Stack Size: -1
+    Display Name: Pillager
+  POLAR_BEAR:
+    Max Stack Size: -1
+    Display Name: Polar bear
+  PUFFERFISH:
+    Max Stack Size: -1
+    Display Name: Pufferfish
+  RABBIT:
+    Max Stack Size: -1
+    Display Name: Rabbit
+  RAVAGER:
+    Max Stack Size: -1
+    Display Name: Ravager
+  SALMON:
+    Max Stack Size: -1
+    Display Name: Salmon
+  SHEEP:
+    Max Stack Size: -1
+    Display Name: Sheep
+  SHULKER:
+    Max Stack Size: -1
+    Display Name: Shulker
+  SILVERFISH:
+    Max Stack Size: -1
+    Display Name: Silverfish
+  SKELETON:
+    Max Stack Size: -1
+    Display Name: Skeleton
+  SKELETON_HORSE:
+    Max Stack Size: -1
+    Display Name: Skeleton horse
+  SLIME:
+    Max Stack Size: -1
+    Display Name: Slime
   SNIFFER:
     Max Stack Size: -1
     Display Name: Sniffer
-  BREEZE:
+  SNOW_GOLEM:
     Max Stack Size: -1
-    Display Name: Breeze
-  ARMADILLO:
+    Display Name: Snow golem
+  SPIDER:
     Max Stack Size: -1
-    Display Name: Armadillo
-  BOGGED:
+    Display Name: Spider
+  SQUID:
     Max Stack Size: -1
-    Display Name: Bogged
+    Display Name: Squid
+  STRAY:
+    Max Stack Size: -1
+    Display Name: Stray
+  STRIDER:
+    Max Stack Size: -1
+    Display Name: Strider
+  TADPOLE:
+    Max Stack Size: -1
+    Display Name: Tadpole
+  TRADER_LLAMA:
+    Max Stack Size: -1
+    Display Name: Trader llama
+  TROPICAL_FISH:
+    Max Stack Size: -1
+    Display Name: Tropical fish
+  TURTLE:
+    Max Stack Size: -1
+    Display Name: Turtle
+  VEX:
+    Max Stack Size: -1
+    Display Name: Vex
+  VILLAGER:
+    Max Stack Size: -1
+    Display Name: Villager
+  VINDICATOR:
+    Max Stack Size: -1
+    Display Name: Vindicator
+  WANDERING_TRADER:
+    Max Stack Size: -1
+    Display Name: Wandering trader
+  WARDEN:
+    Max Stack Size: -1
+    Display Name: Warden
+  WITCH:
+    Max Stack Size: -1
+    Display Name: Witch
+  WITHER:
+    Max Stack Size: -1
+    Display Name: Wither
+  WITHER_SKELETON:
+    Max Stack Size: -1
+    Display Name: Wither skeleton
+  WOLF:
+    Max Stack Size: -1
+    Display Name: Wolf
+  ZOGLIN:
+    Max Stack Size: -1
+    Display Name: Zoglin
+  ZOMBIE:
+    Max Stack Size: -1
+    Display Name: Zombie
+  ZOMBIE_HORSE:
+    Max Stack Size: -1
+    Display Name: Zombie horse
+  ZOMBIE_VILLAGER:
+    Max Stack Size: -1
+    Display Name: Zombie villager
+  ZOMBIFIED_PIGLIN:
+    Max Stack Size: -1
+    Display Name: Zombified piglin
   MUSHROOM_COW:
     Max Stack Size: -1
     Display Name: Mushroom cow

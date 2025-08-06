@@ -1,7 +1,7 @@
 # Config.yml of EconomyShopGUI
 #
 # More info about all of the options can be found at the EconomyShopGUI wiki
-# https://gpplugins.gitbook.io/economyshopgui/file-configuration/config.yml
+# https://wiki.gpplugins.com/economyshopgui/file-configuration/config.yml
 ####################################################################################
 #                                                                                  #
 #            ##############          ########                                      #
@@ -36,14 +36,14 @@
 #                                                                                  #
 ####################################################################################
 #
-config-version: 2.0.1.1
+config-version: 2.0.1.4
 # WARNING: Do not change this value as this might end up in a plugin that does not work!!
 #----------------------------------------------Language-------------------------------------------------
 
 # Here you can change the language of the plugin.
 language-file: lang-en.yml
 
-# See this link for all available language files: https://gpplugins.gitbook.io/economyshopgui/file-configuration/languages#currently-supported-languages
+# See this link for all available language files: https://wiki.gpplugins.com/economyshopgui/file-configuration/languages#currently-supported-languages
 
 
 #-----------------------------------------------Locale--------------------------------------------------
@@ -53,13 +53,25 @@ language-file: lang-en.yml
 # 'en-US' has a format of '#,##0.00'
 # 'nl-NL' has a format of '#.##0,00'
 locale: en-US
+# Note: This is not the locale at which messages will be translated, see the above option for that.
+# The locale is set in BCP 47 language tag.
+# See this website for some example BCP 47 language tag you can use: https://appmakers.dev/bcp-47-language-codes-list/
 
 # Currency format
 currency-format: '#,##0.00'
 
-# Note: This is not the locale at which messages will be translated, see the above option for that.
-# The locale is set in BCP 47 language tag.
-# See this website for some example BCP 47 language tag you can use: https://appmakers.dev/bcp-47-language-codes-list/
+# Use price amount abbreviations(shortcuts) for display prices
+abbreviations:
+  enabled: false
+  # This list is processed from top to bottom
+  # Each entry in the list represents a shorthand notation for a certain magnitude,
+  # with magnitudes increasing by a factor of 1000 as you move down the list
+  formats:
+  - 'k'
+  - 'm'
+  - 'b'
+  - 't'
+  - 'q'
 
 
 #-----------------------------------------------Updates-------------------------------------------------
@@ -79,11 +91,32 @@ use-nms: true
 # The plugin is always tested using NMS and so you should not need to disable this option
 # The only reason why you would want to disable this is if you're experiencing version compatibility issues or if support tells you to do so
 
+# When enabled, the plugin will utilize the paper API on paper 1.21.3+ servers to apply item name/lore to items and create inventory's,
+# which also allows the use of advanced MiniMessage formats in inventory titles and item names/lore
+use-paper-meta: false
+# When disabled, NMS will be used for item displays(unless disabled)
+
 
 #---------------------------------------------Transactions----------------------------------------------
 
 # Whether transactions should be logged to a text file
 transaction-log: true
+# Tip: Since EconomyShopGUI v6.12.0 the transaction history is logged inside a database by default with more details for transactions
+# So the transactions text file feature became redundant and may be disabled to save disk space
+
+# Whether the transaction history should be stored inside a database
+# Note that this feature is required for transaction placeholders to work and may be used for upcoming features,
+# so it is recommended to leave this enabled
+advanced-transaction-log: true
+
+
+#---------------------------------------------Placeholders----------------------------------------------
+
+placeholders:
+  # Specify the caching period for refreshing the transactions in seconds from the database
+  # Default is 1 minute, even shorter times allow transaction placeholders to be refreshed more frequently
+  # Note that this overrides how frequently the placeholder can be refreshed by PlaceholderAPI
+  transaction-cache: 60
 
 
 #-----------------------------------------------ShopStand-----------------------------------------------
@@ -131,6 +164,7 @@ disabled-worlds-per-command:
 # ULTRA_ECONOMY = Economy provider which supports multiple currencies using 'ULTRA_ECONOMY:<currency>'
 # COINS_ENGINE = Economy provider(formerly known as GamePoints) which supports multiple currencies using 'COINS_ENGINE:<currency>'
 # VOTING_PLUGIN = Points economy from VotingPlugin
+# ZESSENTIALS = Alternative essentials plugin supporting multiple currencies using 'ZESSENTIALS:<currency>'
 # EXP = Raw XP points used to enchant items
 economy-provider: VAULT
 
@@ -165,11 +199,13 @@ currency-formats:
 # AUTO = Automatically searches for compatible spawner provider, if no provider was found, DEFAULT will be used
 # SILKSPAWNERS = An external spawner provider created by Timbru
 # SILKSPAWNERSV2 = An external spawner provider created by CandC_9_12
-# WILDSTACKER = An external spawner provider that can stack/upgrade spawners
+# WILDSTACKER = An external spawner provider that can stack & upgrade spawners
 # ULTIMATESTACKER = An external spawner provider that can stack spawners
 # ROSESTACKER = An external spawner provider that can stack spawners
 # MINEABLESPAWNERS = An external spawner provider
-# SPAWNERMETA = An external spawner provider that can stack/upgrade spawners
+# SPAWNERMETA = An external spawner provider that can stack & upgrade spawners
+# SPAWNERLEGACY = The premium version of SpawnerMeta with more features/customize-ability
+# SMART_SPAWNER = A spawner provider which supports stacking spawners
 spawner-provider: DEFAULT
 # NOTE: When there is no spawner provider set, the default will be used
 
@@ -241,7 +277,7 @@ drop-remaining-items-on-ground: false
 
 # Whether to sell shulker contents
 # When false, shulker boxes inside the player's inventory when selling items won't be emptied/sold
-# When true, the plugin will try to sell any item inside a shulker box when selling items via /sellall
+# When true, the plugin will try to sell any item inside a shulker box when selling items
 sell-shulker-boxes: true
 
 # Players will not be able to buy/sell items, nor use /sellall and /sellgui while inside any of the below gamemodes
@@ -262,10 +298,11 @@ resize-gui-for-bedrock: true
 
 # Enabling this option will enable support for bedrock players to see textured player heads by loading a custom resource pack
 pre-register-skulls: false
-# This requires Geyser, and the setting inside the config of Geyser 'add-non-bedrock-items' to be enabled for this to work
-# Note: This feature only loads textured player heads for shop items, navigation bars and transaction items,
+# NOTE: This requires Geyser, and the setting inside the config of Geyser 'add-non-bedrock-items' to be enabled for this to work
+# NOTE: This feature only loads textured player heads for shop items, navigation bars and transaction items,
 # meaning that the bedrock player's head won't be loaded when using 'skullowner: %player_name%'
-# Double note: Adding a new textured player head to shop when the server is running won't work, this requires a full server restart
+# NOTE: Since newer versions of Geyser disable itself when it runs on both backend and proxy servers, this feature can no longer be used for servers running behind a proxy!
+# NOTE: Adding a new textured player head to shop when the server is running won't work, this requires a full server restart
 
 # This option enables a custom player profile item for bedrock players instead of the 'skullowner: %player_name%' texture
 custom-bedrock-player-profile:
@@ -275,6 +312,9 @@ custom-bedrock-player-profile:
     name: '%player_displayname%'
     lore:
     - '%translations-money%: &c%player_balance%'
+
+# !! If you have a server network and Floodgate on the backend server,
+# you will need to enable the option 'send-floodgate-data' inside the config.yml of Floodgate on your proxy server for players to be detected as Bedrock players !!
 
 
 #---------------------------------------------Inventory's------------------------------------------------
@@ -297,7 +337,7 @@ main-menu:
     enable: true
 
 # Assign custom click actions when clicking a shop item
-# Possible actions: BUY, SELL, SELL_ALL, GUI_EDITOR
+# Possible actions: BUY, SELL, SELL_ALL
 # Possible click types: LEFT, SHIFT_LEFT, RIGHT, SHIFT_RIGHT, NONE
 click-mappings:
   BUY: LEFT
@@ -498,15 +538,20 @@ allow-renamed-items: true
 # Allows items with different lore to be sold to the shop
 allow-lore-items: true
 
-# Shop item lore is separated into 6 different 'parts' which can be changed in order.
+# When disabled, all sold items will be sold regardless of their item meta(name, lore, enchantments, armor color, potion types, spawner types, recipes, etc...)
+# and will only be matched according the item type
+match-item-meta: true
+
+# Shop item lore is separated into 7 different 'parts' which can be changed in order.
 # The default order of lore is as follows:
 # 1. special-lore
-# 2. buy-prices
-# 3. sell-prices
-# 4. decoration-lore
-# 5. item-lore(Configured on the shop item inside the config(if any))
-# 6. admin-lore
-# Use the list below to arrange it
+# 2. item-requirements
+# 3. buy-prices
+# 4. sell-prices
+# 5. decoration-lore
+# 6. item-lore(Configured on the shop item inside the config(if any))
+# 7. admin-lore
+# Use the list below to re-arrange it
 lore-arrangement:
 - 'special-lore'
 - 'item-requirements'
@@ -527,6 +572,10 @@ display-lore-layout:
     seasonal-pricing: '%translations-item-seasonal-price%'
   # Displayed when the player doesn't meet a item requirement
   item-requirements:
+    region-requirement-not-met:
+    - '%translations-region-requirement-lore%'
+    quest-requirement-not-met:
+    - '%translations-quest-requirement-lore%'
     time-requirement-not-met:
     - '%translations-time-requirement-lore%'
   # One of the following lore is displayed on shop items with buy prices based on the items state
@@ -587,6 +636,20 @@ allow-unsafe-enchants: true
 # This option will toggle whether non-stackable/over-stacked items are allowed inside the shop
 # When having troubles with illegal-stack plugins and this plugin, disable this option to limit item stacking to their natural stack size to prevent future issues
 allow-illegal-stacks: true
+# Enabling this option will allow players to select up to x64 to buy in the transaction screens, even if the max stack size of the item is 16 for example
+
+# Whether the ADD/REMOVE buttons of the transaction screens are changed
+# to help players visually see when the min/max amount is reached which they can select using the buttons
+# If this is disabled, players can still only select to the max stack size of the item(depending on the allow-illegal-stacks option)
+visual-transaction-limits:
+  # The action to take when min/max amount is reached
+  # Valid actions are NONE, RENAME, REMOVE
+  # RENAME will rename the item buttons, whereas REMOVE will remove the button from the transaction screen for the time the limit is reached
+  action: REMOVE
+  # If disabled, the ADD/REMOVE buttons will not change (depending on the action specified above) for the initial amount of the item only,
+  # where the initial amount is the amount which is preselected when first opening the buy/sell screens
+  # When enabled, for example a unstackable item will not show or have renamed ADD/REMOVE buttons even if the user did not click any buttons
+  initial-amount: true
 
 # Globally enable or disable the feature to use Shift-Right-Click to sell all items
 shift-right-click-sell-all: true
@@ -674,6 +737,8 @@ buy-screen:
     8:
       slot: 22
       type: SELECTED_ITEM
+      lore:
+      - '<dark_purple>x %amount%'
 
     9:
       material: chest
@@ -737,6 +802,8 @@ sell-screen:
     8:
       slot: 22
       type: SELECTED_ITEM
+      lore:
+      - '<dark_purple>x %amount%'
 
     9:
       material: emerald
@@ -800,6 +867,8 @@ buy-stacks-screen:
     8:
       slot: 22
       type: SELECTED_ITEM
+      lore:
+      - '<dark_purple>x %amount%'
 
 shopstand-buy-screen:
   menu-size: 1

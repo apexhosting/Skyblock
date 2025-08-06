@@ -2,7 +2,7 @@
 categories:
   Overworld:
     item:
-      material: "Grass Block"
+      material: "GRASS_BLOCK"
       amount: 1
       displayName: "&9&lOverworld"
       skullData: null
@@ -15,7 +15,7 @@ categories:
     inventorySize: 27
   Nether:
     item:
-      material: "Crimson Nylium"
+      material: "CRIMSON_NYLIUM"
       amount: 1
       displayName: "&9&lNether"
       skullData: null
@@ -28,7 +28,7 @@ categories:
     inventorySize: 27
   End:
     item:
-      material: "End Stone"
+      material: "END_STONE"
       amount: 1
       displayName: "&9&lEnd"
       skullData: null
@@ -42,7 +42,7 @@ categories:
 items:
   Overworld:
   - name: "&9&lPlains"
-    type: "Grass Block"
+    type: "GRASS_BLOCK"
     biome: "PLAINS"
     lore: []
     defaultAmount: 1
@@ -53,7 +53,7 @@ items:
       bankItems: {}
     minLevel: 1
   - name: "&9&lSnowy Plains"
-    type: "Snow Block"
+    type: "SNOW_BLOCK"
     biome: "SNOWY_PLAINS"
     lore: []
     defaultAmount: 1
@@ -64,7 +64,7 @@ items:
       bankItems: {}
     minLevel: 1
   - name: "&9&lSavanna"
-    type: "Tall Grass"
+    type: "TALL_GRASS"
     biome: "SAVANNA"
     lore: []
     defaultAmount: 1
@@ -76,7 +76,7 @@ items:
     minLevel: 1
   Nether:
   - name: "&9&lNether Wastes"
-    type: "Netherrack"
+    type: "NETHERRACK"
     biome: "NETHER_WASTES"
     lore: []
     defaultAmount: 1
@@ -87,7 +87,7 @@ items:
       bankItems: {}
     minLevel: 1
   - name: "&9&lCrimson Forest"
-    type: "Crimson Nylium"
+    type: "CRIMSON_NYLIUM"
     biome: "CRIMSON_FOREST"
     lore: []
     defaultAmount: 1
@@ -98,7 +98,7 @@ items:
       bankItems: {}
     minLevel: 1
   - name: "&9&lWarped Forest"
-    type: "Warped Nylium"
+    type: "WARPED_NYLIUM"
     biome: "WARPED_FOREST"
     lore: []
     defaultAmount: 1
@@ -110,7 +110,7 @@ items:
     minLevel: 1
   End:
   - name: "&9&lTHE END"
-    type: "End Stone"
+    type: "END_STONE"
     biome: "THE_END"
     lore: []
     defaultAmount: 1
@@ -121,7 +121,7 @@ items:
       bankItems: {}
     minLevel: 1
   - name: "&9&lEnd Highlands"
-    type: "Purpur Block"
+    type: "PURPUR_BLOCK"
     biome: "END_HIGHLANDS"
     lore: []
     defaultAmount: 1
@@ -132,7 +132,7 @@ items:
       bankItems: {}
     minLevel: 1
   - name: "&9&lEnd Barrens"
-    type: "Ender Eye"
+    type: "ENDER_EYE"
     biome: "END_BARRENS"
     lore: []
     defaultAmount: 1
@@ -146,7 +146,7 @@ buyPriceLore: "&aBuy Price: $%vault_cost%"
 notPurchasableLore: "&cThis item cannot be purchased!"
 levelRequirementLore: "&9[!] &7Must be level %level% to purchase"
 abbreviatePrices: true
-failSound: "BLOCK_ANVIL_LAND"
-successSound: "ENTITY_PLAYER_LEVELUP"
+failSound: "block.anvil.land"
+successSound: "entity.player.levelup"
 biomeItemLore:
 - "&9&l[!] &9Left-Click to Purchase"

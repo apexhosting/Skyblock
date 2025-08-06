@@ -1,6 +1,6 @@
 ---
 backButton:
-  material: "Nether Star"
+  material: "NETHER_STAR"
   amount: 1
   displayName: "&c&lBack"
   skullData: null
@@ -15,7 +15,7 @@ rewardsGUI:
   title: "&7Island Rewards"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -27,7 +27,7 @@ rewardsGUI:
       slot: null
     items: {}
   item:
-    material: "Sunflower"
+    material: "SUNFLOWER"
     amount: 1
     displayName: "&9&lClaim All!"
     skullData: null
@@ -42,7 +42,7 @@ membersGUI:
   title: "&7Island Members"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -54,7 +54,7 @@ membersGUI:
       slot: null
     items: {}
   item:
-    material: "Player Head"
+    material: "PLAYER_HEAD"
     amount: 1
     displayName: "&9&l%player_name%"
     skullData: "%player_name%"
@@ -74,7 +74,7 @@ invitesGUI:
   title: "&7Island Invites"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -86,7 +86,7 @@ invitesGUI:
       slot: null
     items: {}
   item:
-    material: "Player Head"
+    material: "PLAYER_HEAD"
     amount: 1
     displayName: "&9&l%player_name%"
     skullData: "%player_name%"
@@ -104,7 +104,7 @@ trustsGUI:
   title: "&7Island Trusts"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -116,7 +116,7 @@ trustsGUI:
       slot: null
     items: {}
   item:
-    material: "Player Head"
+    material: "PLAYER_HEAD"
     amount: 1
     displayName: "&9&l%player_name%"
     skullData: "%player_name%"
@@ -135,7 +135,7 @@ ranksGUI:
   title: "&7Island Permissions"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -151,7 +151,7 @@ permissionsGUI:
   title: "&7Island Permissions"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -167,7 +167,7 @@ settingsGUI:
   title: "&7Island Settings"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -183,7 +183,7 @@ bankGUI:
   title: "&7Island Bank"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -195,7 +195,7 @@ bankGUI:
       slot: null
     items:
       9:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -206,7 +206,7 @@ bankGUI:
         lore: []
         slot: null
       10:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -217,7 +217,7 @@ bankGUI:
         lore: []
         slot: null
       11:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -228,7 +228,7 @@ bankGUI:
         lore: []
         slot: null
       12:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -239,7 +239,7 @@ bankGUI:
         lore: []
         slot: null
       13:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -250,7 +250,7 @@ bankGUI:
         lore: []
         slot: null
       14:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -261,7 +261,7 @@ bankGUI:
         lore: []
         slot: null
       15:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -272,7 +272,7 @@ bankGUI:
         lore: []
         slot: null
       16:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -283,7 +283,7 @@ bankGUI:
         lore: []
         slot: null
       17:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -299,7 +299,7 @@ missionGUI:
     title: "&7Daily Island Missions"
     background:
       filler:
-        material: "Black Stained Glass Pane"
+        material: "BLACK_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -311,7 +311,7 @@ missionGUI:
         slot: null
       items:
         9:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -322,7 +322,7 @@ missionGUI:
           lore: []
           slot: null
         10:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -333,7 +333,7 @@ missionGUI:
           lore: []
           slot: null
         11:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -344,7 +344,7 @@ missionGUI:
           lore: []
           slot: null
         12:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -355,7 +355,7 @@ missionGUI:
           lore: []
           slot: null
         13:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -366,7 +366,7 @@ missionGUI:
           lore: []
           slot: null
         14:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -377,7 +377,7 @@ missionGUI:
           lore: []
           slot: null
         15:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -388,7 +388,7 @@ missionGUI:
           lore: []
           slot: null
         16:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -399,7 +399,7 @@ missionGUI:
           lore: []
           slot: null
         17:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -414,7 +414,7 @@ missionGUI:
     title: "&7Weekly Island Missions"
     background:
       filler:
-        material: "Black Stained Glass Pane"
+        material: "BLACK_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -426,7 +426,7 @@ missionGUI:
         slot: null
       items:
         9:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -437,7 +437,7 @@ missionGUI:
           lore: []
           slot: null
         10:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -448,7 +448,7 @@ missionGUI:
           lore: []
           slot: null
         11:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -459,7 +459,7 @@ missionGUI:
           lore: []
           slot: null
         12:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -470,7 +470,7 @@ missionGUI:
           lore: []
           slot: null
         13:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -481,7 +481,7 @@ missionGUI:
           lore: []
           slot: null
         14:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -492,7 +492,7 @@ missionGUI:
           lore: []
           slot: null
         15:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -503,7 +503,7 @@ missionGUI:
           lore: []
           slot: null
         16:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -514,7 +514,7 @@ missionGUI:
           lore: []
           slot: null
         17:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -529,7 +529,7 @@ missionGUI:
     title: "&7Island Missions"
     background:
       filler:
-        material: "Black Stained Glass Pane"
+        material: "BLACK_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -541,7 +541,7 @@ missionGUI:
         slot: null
       items:
         9:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -552,7 +552,7 @@ missionGUI:
           lore: []
           slot: null
         10:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -563,7 +563,7 @@ missionGUI:
           lore: []
           slot: null
         11:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -574,7 +574,7 @@ missionGUI:
           lore: []
           slot: null
         12:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -585,7 +585,7 @@ missionGUI:
           lore: []
           slot: null
         13:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -596,7 +596,7 @@ missionGUI:
           lore: []
           slot: null
         14:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -607,7 +607,7 @@ missionGUI:
           lore: []
           slot: null
         15:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -618,7 +618,7 @@ missionGUI:
           lore: []
           slot: null
         16:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -629,7 +629,7 @@ missionGUI:
           lore: []
           slot: null
         17:
-          material: "Light Gray Stained Glass Pane"
+          material: "LIGHT_GRAY_STAINED_GLASS_PANE"
           amount: 1
           displayName: " "
           skullData: null
@@ -644,7 +644,7 @@ missionGUI:
     title: "&7Island Missions"
     background:
       filler:
-        material: "Black Stained Glass Pane"
+        material: "BLACK_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -660,7 +660,7 @@ topGUI:
   title: "&7Top Island"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -672,7 +672,7 @@ topGUI:
       slot: null
     items: {}
   item:
-    material: "Player Head"
+    material: "PLAYER_HEAD"
     amount: 1
     displayName: "&9&lIsland Owner: &f%island_owner%"
     skullData: "%island_owner%"
@@ -694,7 +694,7 @@ topGUI:
     - "&9Beacon Blocks: &7%island_beacon_amount%"
     slot: 0
   filler:
-    material: "Barrier"
+    material: "BARRIER"
     amount: 1
     displayName: " "
     skullData: null
@@ -709,7 +709,7 @@ boostersGUI:
   title: "&7Island Boosters"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -721,7 +721,7 @@ boostersGUI:
       slot: null
     items:
       9:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -732,7 +732,7 @@ boostersGUI:
         lore: []
         slot: null
       10:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -743,7 +743,7 @@ boostersGUI:
         lore: []
         slot: null
       11:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -754,7 +754,7 @@ boostersGUI:
         lore: []
         slot: null
       12:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -765,7 +765,7 @@ boostersGUI:
         lore: []
         slot: null
       13:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -776,7 +776,7 @@ boostersGUI:
         lore: []
         slot: null
       14:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -787,7 +787,7 @@ boostersGUI:
         lore: []
         slot: null
       15:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -798,7 +798,7 @@ boostersGUI:
         lore: []
         slot: null
       16:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -809,7 +809,7 @@ boostersGUI:
         lore: []
         slot: null
       17:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -824,7 +824,7 @@ upgradesGUI:
   title: "&7Island Upgrades"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -836,7 +836,7 @@ upgradesGUI:
       slot: null
     items:
       9:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -847,7 +847,7 @@ upgradesGUI:
         lore: []
         slot: null
       10:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -858,7 +858,7 @@ upgradesGUI:
         lore: []
         slot: null
       11:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -869,7 +869,7 @@ upgradesGUI:
         lore: []
         slot: null
       12:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -880,7 +880,7 @@ upgradesGUI:
         lore: []
         slot: null
       13:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -891,7 +891,7 @@ upgradesGUI:
         lore: []
         slot: null
       14:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -902,7 +902,7 @@ upgradesGUI:
         lore: []
         slot: null
       15:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -913,7 +913,7 @@ upgradesGUI:
         lore: []
         slot: null
       16:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -924,7 +924,7 @@ upgradesGUI:
         lore: []
         slot: null
       17:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -939,7 +939,7 @@ shopOverviewGUI:
   title: "&7Island Shop"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -955,7 +955,7 @@ shopCategoryGUI:
   title: "&7Island Shop | %category_name%"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -971,7 +971,7 @@ warpsGUI:
   title: "&7Island Warps"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -983,7 +983,7 @@ warpsGUI:
       slot: null
     items:
       9:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -994,7 +994,7 @@ warpsGUI:
         lore: []
         slot: null
       10:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1005,7 +1005,7 @@ warpsGUI:
         lore: []
         slot: null
       11:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1016,7 +1016,7 @@ warpsGUI:
         lore: []
         slot: null
       12:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1027,7 +1027,7 @@ warpsGUI:
         lore: []
         slot: null
       13:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1038,7 +1038,7 @@ warpsGUI:
         lore: []
         slot: null
       14:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1049,7 +1049,7 @@ warpsGUI:
         lore: []
         slot: null
       15:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1060,7 +1060,7 @@ warpsGUI:
         lore: []
         slot: null
       16:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1071,7 +1071,7 @@ warpsGUI:
         lore: []
         slot: null
       17:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1082,7 +1082,7 @@ warpsGUI:
         lore: []
         slot: null
   item:
-    material: "Green Stained Glass Pane"
+    material: "GREEN_STAINED_GLASS_PANE"
     amount: 1
     displayName: "&b&l%warp_name%"
     skullData: null
@@ -1103,7 +1103,7 @@ missionTypeSelectorGUI:
   title: "&7Island Missions"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -1115,7 +1115,7 @@ missionTypeSelectorGUI:
       slot: null
     items:
       9:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1126,7 +1126,7 @@ missionTypeSelectorGUI:
         lore: []
         slot: null
       10:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1137,7 +1137,7 @@ missionTypeSelectorGUI:
         lore: []
         slot: null
       11:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1148,7 +1148,7 @@ missionTypeSelectorGUI:
         lore: []
         slot: null
       12:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1159,7 +1159,7 @@ missionTypeSelectorGUI:
         lore: []
         slot: null
       13:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1170,7 +1170,7 @@ missionTypeSelectorGUI:
         lore: []
         slot: null
       14:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1181,7 +1181,7 @@ missionTypeSelectorGUI:
         lore: []
         slot: null
       15:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1192,7 +1192,7 @@ missionTypeSelectorGUI:
         lore: []
         slot: null
       16:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1203,7 +1203,7 @@ missionTypeSelectorGUI:
         lore: []
         slot: null
       17:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1215,7 +1215,7 @@ missionTypeSelectorGUI:
         slot: null
   daily:
     item:
-      material: "Iron Ingot"
+      material: "IRON_INGOT"
       amount: 1
       displayName: "&9&lDaily Missions"
       skullData: null
@@ -1228,7 +1228,7 @@ missionTypeSelectorGUI:
     enabled: true
   weekly:
     item:
-      material: "Gold Ingot"
+      material: "GOLD_INGOT"
       amount: 1
       displayName: "&9&lWeekly Missions"
       skullData: null
@@ -1241,7 +1241,7 @@ missionTypeSelectorGUI:
     enabled: false
   infinite:
     item:
-      material: "Iron Ingot"
+      material: "IRON_INGOT"
       amount: 1
       displayName: "&9&lInstant Missions"
       skullData: null
@@ -1254,7 +1254,7 @@ missionTypeSelectorGUI:
     enabled: false
   once:
     item:
-      material: "Diamond"
+      material: "DIAMOND"
       amount: 1
       displayName: "&9&lOne Time Missions"
       skullData: null
@@ -1270,7 +1270,7 @@ confirmationGUI:
   title: "&7Are you sure?"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -1282,7 +1282,7 @@ confirmationGUI:
       slot: null
     items:
       9:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1293,7 +1293,7 @@ confirmationGUI:
         lore: []
         slot: null
       10:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1304,7 +1304,7 @@ confirmationGUI:
         lore: []
         slot: null
       11:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1315,7 +1315,7 @@ confirmationGUI:
         lore: []
         slot: null
       12:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1326,7 +1326,7 @@ confirmationGUI:
         lore: []
         slot: null
       13:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1337,7 +1337,7 @@ confirmationGUI:
         lore: []
         slot: null
       14:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1348,7 +1348,7 @@ confirmationGUI:
         lore: []
         slot: null
       15:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1359,7 +1359,7 @@ confirmationGUI:
         lore: []
         slot: null
       16:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1370,7 +1370,7 @@ confirmationGUI:
         lore: []
         slot: null
       17:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1381,7 +1381,7 @@ confirmationGUI:
         lore: []
         slot: null
   "yes":
-    material: "Green Stained Glass Pane"
+    material: "GREEN_STAINED_GLASS_PANE"
     amount: 1
     displayName: "&a&lYes"
     skullData: null
@@ -1392,7 +1392,7 @@ confirmationGUI:
     lore: []
     slot: 15
   "no":
-    material: "Red Stained Glass Pane"
+    material: "RED_STAINED_GLASS_PANE"
     amount: 1
     displayName: "&9&lNo"
     skullData: null
@@ -1403,7 +1403,7 @@ confirmationGUI:
     lore: []
     slot: 11
 nextPage:
-  material: "Lime Stained Glass Pane"
+  material: "LIME_STAINED_GLASS_PANE"
   amount: 1
   displayName: "&a&lNext Page"
   skullData: null
@@ -1414,7 +1414,7 @@ nextPage:
   lore: []
   slot: null
 previousPage:
-  material: "Red Stained Glass Pane"
+  material: "RED_STAINED_GLASS_PANE"
   amount: 1
   displayName: "&9&lPrevious Page"
   skullData: null
@@ -1429,7 +1429,7 @@ blockValueGUI:
   title: "&7Block Values - Page %page% of %max_pages%"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -1445,7 +1445,7 @@ spawnerValueGUI:
   title: "&7Spawner Values - Page %page% of %max_pages%"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -1461,7 +1461,7 @@ blockValuesTypeSelectorGUI:
   title: "&7Island Block Values"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -1473,7 +1473,7 @@ blockValuesTypeSelectorGUI:
       slot: null
     items:
       9:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1484,7 +1484,7 @@ blockValuesTypeSelectorGUI:
         lore: []
         slot: null
       10:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1495,7 +1495,7 @@ blockValuesTypeSelectorGUI:
         lore: []
         slot: null
       11:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1506,7 +1506,7 @@ blockValuesTypeSelectorGUI:
         lore: []
         slot: null
       12:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1517,7 +1517,7 @@ blockValuesTypeSelectorGUI:
         lore: []
         slot: null
       13:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1528,7 +1528,7 @@ blockValuesTypeSelectorGUI:
         lore: []
         slot: null
       14:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1539,7 +1539,7 @@ blockValuesTypeSelectorGUI:
         lore: []
         slot: null
       15:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1550,7 +1550,7 @@ blockValuesTypeSelectorGUI:
         lore: []
         slot: null
       16:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1561,7 +1561,7 @@ blockValuesTypeSelectorGUI:
         lore: []
         slot: null
       17:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1573,7 +1573,7 @@ blockValuesTypeSelectorGUI:
         slot: null
   blocks:
     item:
-      material: "Diamond Block"
+      material: "DIAMOND_BLOCK"
       amount: 1
       displayName: "&9&lBlocks"
       skullData: null
@@ -1586,7 +1586,7 @@ blockValuesTypeSelectorGUI:
     enabled: true
   spawners:
     item:
-      material: "Spawner"
+      material: "SPAWNER"
       amount: 1
       displayName: "&9&lSpawners"
       skullData: null
@@ -1602,7 +1602,7 @@ islandBorderGUI:
   title: "&7Island Border"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -1614,7 +1614,7 @@ islandBorderGUI:
       slot: null
     items:
       9:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1625,7 +1625,7 @@ islandBorderGUI:
         lore: []
         slot: null
       10:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1636,7 +1636,7 @@ islandBorderGUI:
         lore: []
         slot: null
       11:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1647,7 +1647,7 @@ islandBorderGUI:
         lore: []
         slot: null
       12:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1658,7 +1658,7 @@ islandBorderGUI:
         lore: []
         slot: null
       13:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1669,7 +1669,7 @@ islandBorderGUI:
         lore: []
         slot: null
       14:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1680,7 +1680,7 @@ islandBorderGUI:
         lore: []
         slot: null
       15:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1691,7 +1691,7 @@ islandBorderGUI:
         lore: []
         slot: null
       16:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1702,7 +1702,7 @@ islandBorderGUI:
         lore: []
         slot: null
       17:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1713,7 +1713,7 @@ islandBorderGUI:
         lore: []
         slot: null
   blue:
-    material: "Blue Stained Glass Pane"
+    material: "BLUE_STAINED_GLASS_PANE"
     amount: 1
     displayName: "&9&lBlue"
     skullData: null
@@ -1724,7 +1724,7 @@ islandBorderGUI:
     lore: []
     slot: 10
   red:
-    material: "Red Stained Glass Pane"
+    material: "RED_STAINED_GLASS_PANE"
     amount: 1
     displayName: "&c&lRed"
     skullData: null
@@ -1735,7 +1735,7 @@ islandBorderGUI:
     lore: []
     slot: 12
   green:
-    material: "Green Stained Glass Pane"
+    material: "GREEN_STAINED_GLASS_PANE"
     amount: 1
     displayName: "&a&lGreen"
     skullData: null
@@ -1746,7 +1746,7 @@ islandBorderGUI:
     lore: []
     slot: 14
   "off":
-    material: "White Stained Glass Pane"
+    material: "WHITE_STAINED_GLASS_PANE"
     amount: 1
     displayName: "&f&lOff"
     skullData: null
@@ -1761,7 +1761,7 @@ islandMenu:
   title: "&7Island Menu"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -1774,7 +1774,7 @@ islandMenu:
     items: {}
   items:
     is regen:
-      material: "Grass Block"
+      material: "GRASS_BLOCK"
       amount: 1
       displayName: "&9&lIsland Regen"
       skullData: null
@@ -1786,7 +1786,7 @@ islandMenu:
       - "&7Regenerate your island"
       slot: 12
     is boosters:
-      material: "Experience Bottle"
+      material: "EXPERIENCE_BOTTLE"
       amount: 1
       displayName: "&9&lIsland Boosters"
       skullData: null
@@ -1798,7 +1798,7 @@ islandMenu:
       - "&7View your island boosters"
       slot: 23
     is home:
-      material: "White Bed"
+      material: "WHITE_BED"
       amount: 1
       displayName: "&9&lIsland Home"
       skullData: null
@@ -1810,7 +1810,7 @@ islandMenu:
       - "&7Teleport to your island home"
       slot: 13
     is members:
-      material: "Player Head"
+      material: "PLAYER_HEAD"
       amount: 1
       displayName: "&9&lIsland Members"
       skullData: "Peaches_MLG"
@@ -1822,7 +1822,7 @@ islandMenu:
       - "&7View your island members"
       slot: 14
     is warps:
-      material: "End Portal Frame"
+      material: "END_PORTAL_FRAME"
       amount: 1
       displayName: "&9&lIsland Warps"
       skullData: null
@@ -1834,7 +1834,7 @@ islandMenu:
       - "&7View your island warps"
       slot: 20
     is upgrades:
-      material: "Diamond"
+      material: "DIAMOND"
       amount: 1
       displayName: "&9&lIsland Upgrades"
       skullData: null
@@ -1846,7 +1846,7 @@ islandMenu:
       - "&7View your island upgrades"
       slot: 21
     is missions:
-      material: "Iron Sword"
+      material: "IRON_SWORD"
       amount: 1
       displayName: "&9&lIsland Missions"
       skullData: null
@@ -1858,7 +1858,7 @@ islandMenu:
       - "&7View your island missions"
       slot: 22
     is border:
-      material: "Beacon"
+      material: "BEACON"
       amount: 1
       displayName: "&9&lIsland Border"
       skullData: null
@@ -1870,7 +1870,7 @@ islandMenu:
       - "&7Change your island border"
       slot: 24
     is bank:
-      material: "Player Head"
+      material: "PLAYER_HEAD"
       amount: 1
       displayName: "&9&lIsland Bank"
       skullData: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM4MWM1MjlkNTJlMDNjZDc0YzNiZjM4YmI2YmEzZmRlMTMzN2FlOWJmNTAzMzJmYWE4ODllMGEyOGU4MDgxZiJ9fX0"
@@ -1882,7 +1882,7 @@ islandMenu:
       - "&7View your island bank"
       slot: 30
     is permissions:
-      material: "Writable Book"
+      material: "WRITABLE_BOOK"
       amount: 1
       displayName: "&9&lIsland Permissions"
       skullData: null
@@ -1894,7 +1894,7 @@ islandMenu:
       - "&7View your island permissions"
       slot: 31
     is invites:
-      material: "Name Tag"
+      material: "NAME_TAG"
       amount: 1
       displayName: "&9&lIsland Invites"
       skullData: null
@@ -1906,7 +1906,7 @@ islandMenu:
       - "&7View your island invites"
       slot: 32
     is delete:
-      material: "Barrier"
+      material: "BARRIER"
       amount: 1
       displayName: "&9&lDelete Island"
       skullData: null
@@ -1922,7 +1922,7 @@ visitGUI:
   title: "&7Visit an Island"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -1934,7 +1934,7 @@ visitGUI:
       slot: null
     items: {}
   item:
-    material: "Player Head"
+    material: "PLAYER_HEAD"
     amount: 1
     displayName: "&9&l%island_name%"
     skullData: "%island_owner%"
@@ -1951,7 +1951,7 @@ islandSchematicGUI:
   title: "&7Select a Schematic"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -1963,7 +1963,7 @@ islandSchematicGUI:
       slot: null
     items:
       9:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1974,7 +1974,7 @@ islandSchematicGUI:
         lore: []
         slot: null
       10:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1985,7 +1985,7 @@ islandSchematicGUI:
         lore: []
         slot: null
       11:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -1996,7 +1996,7 @@ islandSchematicGUI:
         lore: []
         slot: null
       12:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -2007,7 +2007,7 @@ islandSchematicGUI:
         lore: []
         slot: null
       13:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -2018,7 +2018,7 @@ islandSchematicGUI:
         lore: []
         slot: null
       14:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -2029,7 +2029,7 @@ islandSchematicGUI:
         lore: []
         slot: null
       15:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -2040,7 +2040,7 @@ islandSchematicGUI:
         lore: []
         slot: null
       16:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -2051,7 +2051,7 @@ islandSchematicGUI:
         lore: []
         slot: null
       17:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -2066,7 +2066,7 @@ biomeOverviewGUI:
   title: "Biomes"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null
@@ -2078,7 +2078,7 @@ biomeOverviewGUI:
       slot: null
     items:
       9:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -2089,7 +2089,7 @@ biomeOverviewGUI:
         lore: []
         slot: null
       10:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -2100,7 +2100,7 @@ biomeOverviewGUI:
         lore: []
         slot: null
       11:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -2111,7 +2111,7 @@ biomeOverviewGUI:
         lore: []
         slot: null
       12:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -2122,7 +2122,7 @@ biomeOverviewGUI:
         lore: []
         slot: null
       13:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -2133,7 +2133,7 @@ biomeOverviewGUI:
         lore: []
         slot: null
       14:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -2144,7 +2144,7 @@ biomeOverviewGUI:
         lore: []
         slot: null
       15:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -2155,7 +2155,7 @@ biomeOverviewGUI:
         lore: []
         slot: null
       16:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -2166,7 +2166,7 @@ biomeOverviewGUI:
         lore: []
         slot: null
       17:
-        material: "Light Gray Stained Glass Pane"
+        material: "LIGHT_GRAY_STAINED_GLASS_PANE"
         amount: 1
         displayName: " "
         skullData: null
@@ -2181,7 +2181,7 @@ biomeCategoryGUI:
   title: "Biomes - %biome_category_name%"
   background:
     filler:
-      material: "Black Stained Glass Pane"
+      material: "BLACK_STAINED_GLASS_PANE"
       amount: 1
       displayName: " "
       skullData: null

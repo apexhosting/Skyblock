@@ -1,3 +1,5 @@
+# Shows a warning message to players that the given tool is not powerful enough to drop the spawner
+showNoSilkMessage: false
 # See documentation at https://dev.bukkit.org/projects/silkspawners/pages/configuration
 
 # Should the plugin automatically update if an update is available?

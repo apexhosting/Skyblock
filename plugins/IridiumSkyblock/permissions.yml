@@ -3,7 +3,7 @@ allowed: "&a&lALLOWED"
 denied: "&c&lDENIED"
 blockBreak:
   item:
-    material: "Diamond Pickaxe"
+    material: "DIAMOND_PICKAXE"
     amount: 1
     displayName: "&9Break Blocks"
     skullData: null
@@ -21,7 +21,7 @@ blockBreak:
   defaultRank: 1
 blockPlace:
   item:
-    material: "Cobblestone"
+    material: "COBBLESTONE"
     amount: 1
     displayName: "&9Place Blocks"
     skullData: null
@@ -39,7 +39,7 @@ blockPlace:
   defaultRank: 1
 bucket:
   item:
-    material: "Bucket"
+    material: "BUCKET"
     amount: 1
     displayName: "&9Use Buckets"
     skullData: null
@@ -57,7 +57,7 @@ bucket:
   defaultRank: 1
 changePermissions:
   item:
-    material: "Sunflower"
+    material: "SUNFLOWER"
     amount: 1
     displayName: "&9Change Permissions"
     skullData: null
@@ -75,7 +75,7 @@ changePermissions:
   defaultRank: 3
 claim:
   item:
-    material: "Iron Axe"
+    material: "IRON_AXE"
     amount: 1
     displayName: "&9Claim Land"
     skullData: null
@@ -93,7 +93,7 @@ claim:
   defaultRank: 2
 demote:
   item:
-    material: "Player Head"
+    material: "PLAYER_HEAD"
     amount: 1
     displayName: "&9Demote Users"
     skullData: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU5YWU3YTRiZTY1ZmNiYWVlNjUxODEzODlhMmY3ZDQ3ZTJlMzI2ZGI1OWVhM2ViNzg5YTkyYzg1ZWE0NiJ9fX0="
@@ -111,7 +111,7 @@ demote:
   defaultRank: 3
 description:
   item:
-    material: "Writable Book"
+    material: "WRITABLE_BOOK"
     amount: 1
     displayName: "&9Change Description"
     skullData: null
@@ -129,7 +129,7 @@ description:
   defaultRank: 3
 doors:
   item:
-    material: "Oak Door"
+    material: "OAK_DOOR"
     amount: 1
     displayName: "&9Use Doors"
     skullData: null
@@ -147,7 +147,7 @@ doors:
   defaultRank: 1
 invite:
   item:
-    material: "Diamond"
+    material: "DIAMOND"
     amount: 1
     displayName: "&9Invite Users"
     skullData: null
@@ -165,7 +165,7 @@ invite:
   defaultRank: 2
 trust:
   item:
-    material: "Emerald"
+    material: "EMERALD"
     amount: 1
     displayName: "&9Trust Users"
     skullData: null
@@ -183,7 +183,7 @@ trust:
   defaultRank: 2
 kick:
   item:
-    material: "Iron Boots"
+    material: "IRON_BOOTS"
     amount: 1
     displayName: "&9Kick Users"
     skullData: null
@@ -201,7 +201,7 @@ kick:
   defaultRank: 2
 killMobs:
   item:
-    material: "Diamond Sword"
+    material: "DIAMOND_SWORD"
     amount: 1
     displayName: "&9Kill Mobs"
     skullData: null
@@ -219,7 +219,7 @@ killMobs:
   defaultRank: 1
 openContainers:
   item:
-    material: "Chest"
+    material: "CHEST"
     amount: 1
     displayName: "&9Open Containers"
     skullData: null
@@ -237,7 +237,7 @@ openContainers:
   defaultRank: 1
 promote:
   item:
-    material: "Player Head"
+    material: "PLAYER_HEAD"
     amount: 1
     displayName: "&9Promote Users"
     skullData: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Y0NmFiYWQ5MjRiMjIzNzJiYzk2NmE2ZDUxN2QyZjFiOGI1N2ZkZDI2MmI0ZTA0ZjQ4MzUyZTY4M2ZmZjkyIn19fQ=="
@@ -255,7 +255,7 @@ promote:
   defaultRank: 3
 redstone:
   item:
-    material: "Redstone"
+    material: "REDSTONE"
     amount: 1
     displayName: "&9Use Redstone"
     skullData: null
@@ -273,7 +273,7 @@ redstone:
   defaultRank: 1
 rename:
   item:
-    material: "Paper"
+    material: "PAPER"
     amount: 1
     displayName: "&9Rename Island"
     skullData: null
@@ -291,7 +291,7 @@ rename:
   defaultRank: 3
 setHome:
   item:
-    material: "White Bed"
+    material: "WHITE_BED"
     amount: 1
     displayName: "&9Island Home"
     skullData: null
@@ -309,7 +309,7 @@ setHome:
   defaultRank: 2
 spawners:
   item:
-    material: "Spawner"
+    material: "SPAWNER"
     amount: 1
     displayName: "&9Break Spawners"
     skullData: null
@@ -327,7 +327,7 @@ spawners:
   defaultRank: 1
 settings:
   item:
-    material: "Gunpowder"
+    material: "GUNPOWDER"
     amount: 1
     displayName: "&9Change Settings"
     skullData: null
@@ -345,7 +345,7 @@ settings:
   defaultRank: 3
 manageWarps:
   item:
-    material: "End Portal Frame"
+    material: "END_PORTAL_FRAME"
     amount: 1
     displayName: "&9Manage Warps"
     skullData: null
@@ -363,7 +363,7 @@ manageWarps:
   defaultRank: 2
 interact:
   item:
-    material: "Oak Sign"
+    material: "OAK_SIGN"
     amount: 1
     displayName: "&9Edit Signs"
     skullData: null
@@ -380,7 +380,7 @@ interact:
   defaultRank: 2
 border:
   item:
-    material: "Beacon"
+    material: "BEACON"
     amount: 1
     displayName: "&9Island Border"
     skullData: null
@@ -398,7 +398,7 @@ border:
   defaultRank: 1
 regen:
   item:
-    material: "Tnt"
+    material: "TNT"
     amount: 1
     displayName: "&9Regenerate Island"
     skullData: null

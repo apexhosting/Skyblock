@@ -1,9 +1,12 @@
-# DeluxeMenus 1.14.0-Release main configuration file
+# DeluxeMenus 1.14.1-Release main configuration file
 #
 # A full wiki on how to use this plugin can be found at:
-# https://wiki.helpch.at/clips-plugins/deluxemenus
+# https://wiki.helpch.at/helpchat-plugins/deluxemenus
 
-debug: false
+use_admin_commands_in_menus_list: false
+menus_list_page_size: 10
+metas_list_page_size: 15
+debug: HIGHEST
 check_updates: true
 gui_menus:
   basics_menu:

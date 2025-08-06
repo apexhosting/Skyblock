@@ -1,0 +1,20 @@
+Options:
+  BackPack_Use_Permission_Enabled: false
+  BackPack_Use_Permission: prison.backpack
+  BackPack_Default_Size: '54'
+  BackPack_AutoPickup_Usable: false
+  Back_Pack_GUI_Opener_Item: true
+  BackPack_Item: CHEST
+  BackPack_Item_Title: '&3Backpack'
+  BackPack_Item_OnJoin: true
+  BackPack_Access_And_Item_If_Limit_Is_0: false
+  BackPack_Lose_Items_On_Death: false
+  BackPack_Open_Sound_Enabled: true
+  BackPack_Open_Sound: BLOCK_CHEST_OPEN
+  BackPack_Close_Sound_Enabled: true
+  BackPack_Close_Sound: BLOCK_CHEST_CLOSE
+  Multiple-BackPacks-For-Player-Enabled: false
+  Multiple-BackPacks-For-Player: '2'
+  DisabledWorlds:
+  - exampleWorld
+  - anotherExampleWorld

@@ -1,3 +1,4 @@
+noSilkTouch: '&eYour chosen tool is not powerful enough to mine this spawner, be careful!'
 # This line affects the new naming of spawners, to DISABLE this, change the message back to Monster Spawner
 spawnerName: '&e%creature% &fSpawner'
 

@@ -12,9 +12,9 @@ skyblockGenerator:
 oceanGenerator:
   overworld:
     biome: "OCEAN"
-    floor: "Sand"
-    underFloor: "Stone"
-    liquidType: "Water"
+    floor: "SAND"
+    underFloor: "STONE"
+    liquidType: "WATER"
     liquidHeight: 63
     minFloorHeight: 48
     maxFloorHeight: 53
@@ -22,9 +22,9 @@ oceanGenerator:
     canSpawnEntities: true
   nether:
     biome: "NETHER_WASTES"
-    floor: "Soul Sand"
-    underFloor: "Netherrack"
-    liquidType: "Lava"
+    floor: "SOUL_SAND"
+    underFloor: "NETHERRACK"
+    liquidType: "LAVA"
     liquidHeight: 63
     minFloorHeight: 48
     maxFloorHeight: 53
@@ -32,9 +32,9 @@ oceanGenerator:
     canSpawnEntities: true
   end:
     biome: "END_BARRENS"
-    floor: "End Stone"
-    underFloor: "End Stone"
-    liquidType: "Void Air"
+    floor: "END_STONE"
+    underFloor: "END_STONE"
+    liquidType: "VOID_AIR"
     liquidHeight: 63
     minFloorHeight: 48
     maxFloorHeight: 53
@@ -43,22 +43,22 @@ oceanGenerator:
 flatGenerator:
   overworld:
     biome: "PLAINS"
-    floor: "Grass Block"
-    underFloor: "Dirt"
+    floor: "GRASS_BLOCK"
+    underFloor: "DIRT"
     floorHeight: -59
     decorate: true
     canSpawnEntities: true
   nether:
     biome: "NETHER_WASTES"
-    floor: "Netherrack"
-    underFloor: "Netherrack"
+    floor: "NETHERRACK"
+    underFloor: "NETHERRACK"
     floorHeight: 5
     decorate: true
     canSpawnEntities: true
   end:
     biome: "END_BARRENS"
-    floor: "End Stone"
-    underFloor: "End Stone"
+    floor: "END_STONE"
+    underFloor: "END_STONE"
     floorHeight: 5
     decorate: true
     canSpawnEntities: true

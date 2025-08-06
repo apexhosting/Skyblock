@@ -56,6 +56,9 @@ npc:
     default-stuck-action: none
     # The default allowed maximum fall distance when pathfinding, set to -1 to use the default value
     allowed-fall-distance: -1
+    # The pathfinder type.
+    # Valid options are: CITIZENS or MINECRAFT.
+    pathfinder-type: MINECRAFT
   default:
     # The default bossbar range, in blocks
     bossbar-view-range: 64
@@ -100,6 +103,9 @@ npc:
     # Whether to reset NPC yaw on spawn
     # Currently this is implemented by an arm swing animation due to Minecraft limitations
     reset-yaw-on-spawn: true
+    # The default cost to create an NPC
+    npc-cost: 100.0
+    enable-scoreboard-teams: true
   chat:
     options:
       # Whether nearby players also hear text, even if targeted at a specific player
@@ -158,14 +164,14 @@ npc:
     max-speed: 100
   text:
     speech-bubble-ticks: 50
-    max-talk-cooldown: 5
-    min-talk-cooldown: 10
+    max-talk-cooldown: 25
+    min-talk-cooldown: 5
     # The item filter to talk with
     talk-item: '*'
     # Default maximum delay when talking to players
-    default-random-text-delay-max: 10s
+    default-random-text-delay-max: 20s
     # Default minimum delay when talking to players
-    default-random-text-delay-min: 5s
+    default-random-text-delay-min: 10s
     # Default duration that speech bubbles show up for
     speech-bubble-duration: 50t
   tablist:
@@ -207,6 +213,7 @@ npc:
       not-enough-money: You need at least ${0}.
       on-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
       on-global-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
+      global-maximum-times-used: You have reached the maximum number of uses ({0}).
     # The global cooldown before a command can be used again, must be in seconds
     global-cooldown: 1s
   packets:
@@ -237,6 +244,19 @@ npc:
   # Use packet NPCs for name holograms (experimental)
   use-packet-holograms: false
   delay-player-teleport: -1
+  shops:
+    default-item:
+      max-repeats-on-shift-click: ''
+      result-message: ''
+      already-purchased-message: ''
+      lore: ''
+      name: ''
+      times-purchasable: ''
+      cost-message: ''
+      click-to-confirm-message: ''
+    # The global view permission that players need to view any NPC shop
+    # Defaults to empty (no permission required).
+    global-view-permission: ''
 general:
   authlib:
     # Search for gameprofiles using this URL
@@ -264,6 +284,12 @@ general:
     protocollib: true
   # The resource pack path to save resource packs to
   resource-pack-path: plugins/Citizens/resourcepack
+  # Whether to store lists as YAML lists in save files.
+  # Experimental due to risk of data loss but makes the YAML files easier to edit.
+  experimental-list-storage: false
+  # Whether to reset formatting on color change.
+  # Emulates old color code behavior.
+  reset-formatting-on-color-change: false
 advanced:
   # Whether to check the minecraft version for compatibility (do not change)
   check-minecraft-version: true

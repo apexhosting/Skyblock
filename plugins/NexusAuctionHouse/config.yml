@@ -6,3 +6,10 @@ expire-time: 604800
 tax-percent: 5
 # Enable if you wish to receive notifications when the plugin saves data to the files
 save-notif: false
+tax:
+  sell-tax: 5 # Percentage of the sell price that players will have to pay in order to put their items in auction. Set to 0 to disable
+  buy-tax: 5 # Percentage of the buy price that players will have to pay in order to buy an item. Set to 0 to disable
+expiry:
+  enable: true # If set to true, items not bought within the time set below will be unlisted.
+  time: 7d
+date-format: yyyy-MM-dd HH:mm:ss
