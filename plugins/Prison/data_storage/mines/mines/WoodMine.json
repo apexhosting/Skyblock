@@ -21,10 +21,10 @@
   "skipResetEnabled": false,
   "resetThresholdPercent": 0.0,
   "prisonBlocks": [
-    "oak_log-33.0-233-0-0-0-0",
-    "acacia_log-33.0-247-0-0-0-0",
-    "jungle_log-33.0-260-0-0-0-0",
-    "crimson_stem-1.0-9-0-0-0-0"
+    "oak_log-33.0-241-0-0-0-0-false",
+    "acacia_log-33.0-259-0-0-0-0-false",
+    "jungle_log-33.0-271-0-0-0-0-false",
+    "crimson_stem-1.0-10-0-0-0-0-false"
   ],
   "minY": 72.0,
   "minX": 97.0,

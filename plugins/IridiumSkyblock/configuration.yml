@@ -24,7 +24,7 @@ userRanks:
   1:
     name: "Member"
     item:
-      material: "Stone Axe"
+      material: "STONE_AXE"
       amount: 1
       displayName: "&9&lMember"
       skullData: null
@@ -37,7 +37,7 @@ userRanks:
   2:
     name: "Moderator"
     item:
-      material: "Iron Axe"
+      material: "IRON_AXE"
       amount: 1
       displayName: "&5&lModerator"
       skullData: null
@@ -50,7 +50,7 @@ userRanks:
   3:
     name: "CoOwner"
     item:
-      material: "Golden Axe"
+      material: "GOLDEN_AXE"
       amount: 1
       displayName: "&2&lCoOwner"
       skullData: null
@@ -63,7 +63,7 @@ userRanks:
 visitor:
   name: "Visitor"
   item:
-    material: "Wooden Axe"
+    material: "WOODEN_AXE"
     amount: 1
     displayName: "&7&lVisitor"
     skullData: null
@@ -76,7 +76,7 @@ visitor:
 owner:
   name: "Owner"
   item:
-    material: "Diamond Axe"
+    material: "DIAMOND_AXE"
     amount: 1
     displayName: "&c&lOwner"
     skullData: null
@@ -123,7 +123,7 @@ teamWarpSlots:
 levelRewards:
   1:
     item:
-      material: "Experience Bottle"
+      material: "EXPERIENCE_BOTTLE"
       amount: 1
       displayName: "&9&lLevel %island_level% Reward"
       skullData: null
@@ -144,10 +144,10 @@ levelRewards:
       Crystals: 5.0
     experience: 200
     teamExperience: 0
-    sound: "ENTITY_PLAYER_LEVELUP"
+    sound: "entity.player.levelup"
   5:
     item:
-      material: "Experience Bottle"
+      material: "EXPERIENCE_BOTTLE"
       amount: 1
       displayName: "&9&lLevel %island_level% Reward"
       skullData: null
@@ -168,7 +168,7 @@ levelRewards:
       Crystals: 10.0
     experience: 2000
     teamExperience: 0
-    sound: "ENTITY_PLAYER_LEVELUP"
+    sound: "entity.player.levelup"
 whitelistedWorlds: []
 defaultIslandName: "%owner%'s Island"
 islandCreateTitle: "&9&lIsland Created"
@@ -196,7 +196,7 @@ endUnlockLevel: 20
 pasterDelayInTick: 1
 pasterLimitPerTick: 10
 islandCrystal:
-  material: "Nether Star"
+  material: "NETHER_STAR"
   amount: 1
   displayName: "&9*** &9&lIsland Crystal &9***"
   skullData: null

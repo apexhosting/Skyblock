@@ -22,6 +22,7 @@ options:
       or higher, can use ''true''. This setting MUST be the opposit of ''cancelAllBlockBreakEvents''.'
     applyBlockBreaksThroughSyncTask: true
     blockBreakEventPriority: LOW
+    entityExplodeEventPriority: DISABLED
     ProcessPrisons_ExplosiveBlockBreakEventsPriority: LOW
     TokenEnchantBlockExplodeEventPriority: DISABLED
     CrazyEnchantsBlastUseEventPriority: DISABLED
@@ -49,6 +50,7 @@ options:
     isCalculateDropAdditionsEnabled: true
     isCalculateXPEnabled: true
     givePlayerXPAsOrbDrops: false
+    validateBlocksWerePlacedByPrison: true
     ifBlockIsAlreadyCountedThenCancelEvent: true
     processMonitorEventsOnlyIfPrimaryBlockIsAIR: true
     isMinecraftStatsReportingEnabled: true
@@ -91,6 +93,8 @@ options:
       will default to NOTE_PLING, BLOCK_NOTE_PLING, or BLOCK_NOTE_BLOCK_PLING, as
       valid for your server.'
     actionBarMessageIfInventoryIsFull: true
+    includePlayerInventoryWhenSmelting: false
+    includePlayerInventoryWhenBlocking: false
     isEnabledDelayedSellAllOnInventoryDelayInTicks: 2
     playSoundIfInventoryIsFullSoundVolume: 4.0
     playSoundIfInventoryIsFullSoundPitch: 1.0
@@ -107,6 +111,17 @@ options:
       for any permmission when OP'd. There is no way around this, other than just
       turning off these perms, which is not advisable because players should not be
       playing as OP'd. To disable these perms, then use a value of 'disable'.
+  customEnchants:
+    isCustomEnchantsEnabled: false
+    customEnchantsAutoPickup: disable
+    customEnchantsAutoSmelt: disable
+    customEnchantsAutoBlock: disable
+    customEnchants__readme: If customEnchants are enabled, of which they are disabled
+      by default, and 'isCustomEnchantsEnabled' is enabled, then Prison can use custom
+      enchantments to trigger auto pickup, auto smelt, and auto blocking. Use '/sellall
+      item inspect' to find out what the actual enchantment name is for easier setup
+      of these features. A value of 'disable' will also prevent the individual enchantments
+      from being used.
   lore:
     isLoreEnabled: true
     lorePickupValue: '&dAuto Pickup&7'
@@ -164,6 +179,7 @@ options:
       percentGradientFortuneMinPercentRandomness: 25.0
     isCalculateFortuneEnabled: true
     isUseTokenEnchantsFortuneLevel: false
+    isUseRevEnchantsFortuneLevel: false
     isExtendBukkitFortuneCalculationsEnabled: true
     extendBukkitFortune__ReadMe: To get fortune to work, First try to use the extendedBukkitFortune
       (set it to true). If it won't work, then you must disable it (set it to false),
@@ -212,18 +228,30 @@ options:
   blockFeature:
     blockLimitToMines: true
     blockAllBlocks: true
-    blockGoldBlock: true
-    blockIronBlock: true
-    blockCoalBlock: true
-    blockDiamondBlock: true
-    blockRedstoneBlock: true
-    blockEmeraldBlock: true
-    blockQuartzBlock: true
-    blockPrismarineBlock: true
-    blockLapisBlock: true
-    blockSnowBlock: true
-    blockGlowstone: true
+    blockRawCopperBlock: true
     blockCopperBlock: true
+    blockGoldIngot: true
+    blockRawGoldBlock: true
+    blockGoldBlock: true
+    blockIronIngot: true
+    blockRawIronBlock: true
+    blockIronBlock: true
+    blockAmethystBlock: true
+    blockDiamondBlock: true
+    blockEmeraldBlock: true
+    blockRedstoneBlock: true
+    blockCoalBlock: true
+    blockLapisBlock: true
+    blockPrismarineBlock: true
+    blockQuartzBlock: true
+    blockBoneBlock: true
+    blockDriedKelpBlock: true
+    blockGlowstone: true
+    blockHayBlock: true
+    blockNetherWartBlock: true
+    blockMelon: true
+    blockPackedIceBlock: true
+    blockSnowBlock: true
   blockConverters:
     isEnabledBlockConverters: false
     blockConverters_readme: Block converters are a new experimental component to prison

@@ -151,6 +151,7 @@ deleteCommand:
   permission: ""
   cooldownInSeconds: 0
   enabled: true
+  requiresConfirmation: true
   adminPermission: "iridiumskyblock.delete.others"
 infoCommand:
   aliases:
@@ -286,6 +287,7 @@ topCommand:
   permission: ""
   cooldownInSeconds: 0
   enabled: true
+  adminPermission: null
 recalculateCommand:
   aliases:
   - "recalculate"
@@ -414,5 +416,13 @@ biomeCommand:
   description: "Refresh your Island Biome"
   syntax: "%prefix% &7/is biomes <biome>"
   permission: ""
+  cooldownInSeconds: 10
+  enabled: true
+clearDataCommand:
+  aliases:
+  - "cleardata"
+  description: "Deletes data from database"
+  syntax: "%prefix% &7/is cleardata <table> <team> --skip-confirm"
+  permission: "iridiumSkyblock.clearData"
   cooldownInSeconds: 10
   enabled: true

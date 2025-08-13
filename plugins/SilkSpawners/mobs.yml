@@ -1,5 +1,58 @@
 # The creatures key is official creature type name (mobID), case-sensitive, from https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
 creatures:
+  happy_ghast:
+    enable: true
+  splash_potion:
+    enable: true
+  lingering_potion:
+    enable: true
+  creaking:
+    aliases:
+    - groan
+    enable: true
+    enableCraftingSpawner: true
+    enableSpawnEggOverride: true
+    displayName: Creaking
+  acacia_boat:
+    enable: false
+  acacia_chest_boat:
+    enable: false
+  bamboo_chest_raft:
+    enable: false
+  bamboo_raft:
+    enable: false
+  birch_boat:
+    enable: false
+  birch_chest_boat:
+    enable: false
+  cherry_boat:
+    enable: false
+  cherry_chest_boat:
+    enable: false
+  dark_oak_boat:
+    enable: false
+  dark_oak_chest_boat:
+    enable: false
+  jungle_boat:
+    enable: false
+  jungle_chest_boat:
+    enable: false
+  mangrove_boat:
+    enable: false
+  mangrove_chest_boat:
+    enable: false
+  oak_boat:
+    enable: false
+  oak_chest_boat:
+    enable: false
+  pale_oak_boat:
+    enable: false
+  pale_oak_chest_boat:
+    enable: false
+  spruce_boat:
+    enable: false
+  spruce_chest_boat:
+    enable: false
 
   # Vanilla mobs, from https://minecraft.gamepedia.com/Java_Edition_data_values#Entities for 1.13+ and https://minecraft.gamepedia.com/Java_Edition_data_values/Pre-flattening/Entity_IDs for up to 1.12
   Creeper:

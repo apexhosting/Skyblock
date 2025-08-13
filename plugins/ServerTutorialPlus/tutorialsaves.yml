@@ -26,7 +26,7 @@ tutorials:
           stay: 50
           fade-out: 50
         sound:
-          sound: ENTITY_FIREWORK_ROCKET_LAUNCH
+          sound: ENTITY.FIREWORK_ROCKET.LAUNCH
           pitch: 1.0
           volume: 1.0
       '1':
@@ -46,7 +46,7 @@ tutorials:
           stay: 50
           fade-out: 50
         sound:
-          sound: ENTITY_FIREWORK_ROCKET_LARGE_BLAST
+          sound: ENTITY.FIREWORK_ROCKET.LARGE_BLAST
           pitch: 1.0
           volume: 1.0
       '2':
@@ -65,7 +65,7 @@ tutorials:
           stay: 50
           fade-out: 50
         sound:
-          sound: BLOCK_ANVIL_USE
+          sound: BLOCK.ANVIL.USE
           pitch: 1.0
           volume: 1.0
       '3':
@@ -84,7 +84,7 @@ tutorials:
           stay: 50
           fade-out: 50
         sound:
-          sound: BLOCK_WOOD_PLACE
+          sound: BLOCK.WOOD.PLACE
           pitch: 1.0
           volume: 1.0
       '4':
@@ -103,7 +103,7 @@ tutorials:
           stay: 50
           fade-out: 50
         sound:
-          sound: ENTITY_PLAYER_LEVELUP
+          sound: ENTITY.PLAYER.LEVELUP
           pitch: 1.0
           volume: 1.0
       '5':
@@ -122,7 +122,7 @@ tutorials:
           stay: 50
           fade-out: 50
         sound:
-          sound: ENTITY_ENDER_DRAGON_GROWL
+          sound: ENTITY.ENDER_DRAGON.GROWL
           pitch: 1.0
           volume: 1.0
       '6':
@@ -142,6 +142,6 @@ tutorials:
           stay: 50
           fade-out: 50
         sound:
-          sound: ENTITY_ENDERMAN_TELEPORT
+          sound: ENTITY.ENDERMAN.TELEPORT
           pitch: 1.0
           volume: 1.0

@@ -123,6 +123,8 @@ decoration-lore-buy: '&e ╚&e&l» &fLeft click to buy'
 decoration-lore-sell-all: '&e ╚&e&l» &fShift + Right Click to sell all'
 decoration-lore-sell: '&e ╚&e&l» &fRight click to sell'
 time-requirement-lore: '&c&lCan only be purchased between\n&c%minTime% &land &c%maxTime% &lingame time.'
+quest-requirement-lore: '&c&lRequires to complete quest &b&l%questName%'
+region-requirement-lore: '&c&lRequires to be inside region &b&l%regionName%'
 
 #Buy/Sell Messages
 discord-srv-player-transaction: '%player_name% %bought/sold% %amount% x %items% for %price%'
@@ -135,6 +137,8 @@ cannot-sell-item: '&cThis item cannot be sold.'
 player-made-transaction: '%playername% %bought/sold% %amount% x %material% for %amountofmoney% with the %buy/sell-method%.'
 player-made-transaction-multiple-items: '%playername% %bought/sold% %items% for %amountofmoney% with the %buy/sell-method%.'
 time-requirement-not-met: '&cThis item can only be bought/sold between &f%minTime% &cand &f%maxTime%&c ingame time, current time is &f%progress%&c. Come back shortly!'
+quest-requirement-not-met: '&cThis item can only be bought/sold when you completed the quest &b&l%questName%&c, come back once you completed it'
+region-requirement-not-met: '&cYou may only buy/sell this item inside region %regionName%'
 buy-screen: buy screen
 sell-screen: sell screen
 buystacks-screen: buy stacks screen

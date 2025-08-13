@@ -2,7 +2,7 @@
 experienceBankItem:
   name: "experience"
   item:
-    material: "Experience Bottle"
+    material: "EXPERIENCE_BOTTLE"
     amount: 1
     displayName: "&9&lIsland Experience"
     skullData: null
@@ -20,7 +20,7 @@ experienceBankItem:
 moneyBankItem:
   name: "money"
   item:
-    material: "Paper"
+    material: "PAPER"
     amount: 1
     displayName: "&9&lIsland Money"
     skullData: null
@@ -38,7 +38,7 @@ moneyBankItem:
 crystalsBankItem:
   name: "Crystals"
   item:
-    material: "Nether Star"
+    material: "NETHER_STAR"
     amount: 1
     displayName: "&9&lIsland Crystals"
     skullData: null

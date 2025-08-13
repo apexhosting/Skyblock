@@ -1,7 +1,7 @@
 ---
 teamJoining:
   item:
-    material: "Gunpowder"
+    material: "GUNPOWDER"
     amount: 1
     displayName: "&9Island Type"
     skullData: null
@@ -20,7 +20,7 @@ teamJoining:
   enabled: true
 teamValue:
   item:
-    material: "Sunflower"
+    material: "SUNFLOWER"
     amount: 1
     displayName: "&9Island Value Visibility"
     skullData: null
@@ -39,7 +39,7 @@ teamValue:
   enabled: true
 mobSpawning:
   item:
-    material: "Spawner"
+    material: "SPAWNER"
     amount: 1
     displayName: "&9Island Mob Spawning"
     skullData: null
@@ -58,7 +58,7 @@ mobSpawning:
   enabled: true
 leafDecay:
   item:
-    material: "Jungle Leaves"
+    material: "JUNGLE_LEAVES"
     amount: 1
     displayName: "&9Island Leaf Decay"
     skullData: null
@@ -77,7 +77,7 @@ leafDecay:
   enabled: true
 iceForm:
   item:
-    material: "Ice"
+    material: "ICE"
     amount: 1
     displayName: "&9Island Ice Form"
     skullData: null
@@ -96,7 +96,7 @@ iceForm:
   enabled: true
 fireSpread:
   item:
-    material: "Flint And Steel"
+    material: "FLINT_AND_STEEL"
     amount: 1
     displayName: "&9Island Fire Spread"
     skullData: null
@@ -115,7 +115,7 @@ fireSpread:
   enabled: true
 cropTrample:
   item:
-    material: "Wheat Seeds"
+    material: "WHEAT_SEEDS"
     amount: 1
     displayName: "&9Island Crop Trample"
     skullData: null
@@ -134,7 +134,7 @@ cropTrample:
   enabled: true
 weather:
   item:
-    material: "Blaze Powder"
+    material: "BLAZE_POWDER"
     amount: 1
     displayName: "&9Island Weather"
     skullData: null
@@ -153,7 +153,7 @@ weather:
   enabled: true
 time:
   item:
-    material: "Clock"
+    material: "CLOCK"
     amount: 1
     displayName: "&9Island Time"
     skullData: null
@@ -172,7 +172,7 @@ time:
   enabled: true
 entityGrief:
   item:
-    material: "Ender Pearl"
+    material: "ENDER_PEARL"
     amount: 1
     displayName: "&9Island Entity Grief"
     skullData: null
@@ -191,7 +191,7 @@ entityGrief:
   enabled: true
 tntDamage:
   item:
-    material: "Tnt"
+    material: "TNT"
     amount: 1
     displayName: "&9Island TnT Damage"
     skullData: null
@@ -210,7 +210,7 @@ tntDamage:
   enabled: true
 visiting:
   item:
-    material: "Beacon"
+    material: "BEACON"
     amount: 1
     displayName: "&9Island Visiting"
     skullData: null

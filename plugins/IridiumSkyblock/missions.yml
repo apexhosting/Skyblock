@@ -4,7 +4,7 @@ missions:
     missionData:
       1:
         item:
-          material: "Sugar Cane"
+          material: "SUGAR_CANE"
           amount: 1
           displayName: "&9&lFarmer"
           skullData: null
@@ -33,10 +33,10 @@ missions:
         - "GROW:WHEAT:10"
         - "GROW:CARROTS:10"
         minLevel: 1
-        completeSound: "ENTITY_PLAYER_LEVELUP"
+        completeSound: "entity.player.levelup"
         reward:
           item:
-            material: "Diamond"
+            material: "DIAMOND"
             amount: 1
             displayName: "&9&lFarmer Reward"
             skullData: null
@@ -55,7 +55,7 @@ missions:
             Crystals: 5.0
           experience: 0
           teamExperience: 10
-          sound: "ENTITY_PLAYER_LEVELUP"
+          sound: "entity.player.levelup"
         message: "%prefix% &7Farmer mission Completed!\n&9&l* &7+3 Island Experience\n\
           &9&l* &7+5 Island Crystals\n&9&l* &7+1000 Money\n&7/is rewards to redeem\
           \ rewards"
@@ -65,7 +65,7 @@ missions:
     missionData:
       1:
         item:
-          material: "Bone"
+          material: "BONE"
           amount: 1
           displayName: "&9&lHunter"
           skullData: null
@@ -94,10 +94,10 @@ missions:
         - "KILL:SKELETON:10"
         - "KILL:CREEPER:10"
         minLevel: 1
-        completeSound: "ENTITY_PLAYER_LEVELUP"
+        completeSound: "entity.player.levelup"
         reward:
           item:
-            material: "Diamond"
+            material: "DIAMOND"
             amount: 1
             displayName: "&9&lHunter Reward"
             skullData: null
@@ -116,7 +116,7 @@ missions:
             Crystals: 5.0
           experience: 0
           teamExperience: 10
-          sound: "ENTITY_PLAYER_LEVELUP"
+          sound: "entity.player.levelup"
         message: "%prefix% &7Hunter mission Completed!\n&9&l* &7+3 Island Experience\n\
           &9&l* &7+5 Island Crystals\n&9&l* &7+1000 Money\n&7/is rewards to redeem\
           \ rewards"
@@ -126,7 +126,7 @@ missions:
     missionData:
       1:
         item:
-          material: "Bread"
+          material: "BREAD"
           amount: 1
           displayName: "&9&lBaker"
           skullData: null
@@ -151,10 +151,10 @@ missions:
         missions:
         - "CRAFT:BREAD:64"
         minLevel: 1
-        completeSound: "ENTITY_PLAYER_LEVELUP"
+        completeSound: "entity.player.levelup"
         reward:
           item:
-            material: "Diamond"
+            material: "DIAMOND"
             amount: 1
             displayName: "&9&lBaker Reward"
             skullData: null
@@ -173,7 +173,7 @@ missions:
             Crystals: 5.0
           experience: 0
           teamExperience: 10
-          sound: "ENTITY_PLAYER_LEVELUP"
+          sound: "entity.player.levelup"
         message: "%prefix% &7Baker mission Completed!\n&9&l* &7+3 Island Experience\n\
           &9&l* &7+5 Island Crystals\n&9&l* &7+1000 Money\n&7/is rewards to redeem\
           \ rewards"
@@ -183,7 +183,7 @@ missions:
     missionData:
       1:
         item:
-          material: "Gold Ore"
+          material: "GOLD_ORE"
           amount: 1
           displayName: "&9&lMiner"
           skullData: null
@@ -212,10 +212,10 @@ missions:
         - "MINE:COAL_ORE:30"
         - "MINE:DIAMOND_ORE:1"
         minLevel: 1
-        completeSound: "ENTITY_PLAYER_LEVELUP"
+        completeSound: "entity.player.levelup"
         reward:
           item:
-            material: "Diamond"
+            material: "DIAMOND"
             amount: 1
             displayName: "&9&lMiner Reward"
             skullData: null
@@ -234,7 +234,7 @@ missions:
             Crystals: 5.0
           experience: 0
           teamExperience: 10
-          sound: "ENTITY_PLAYER_LEVELUP"
+          sound: "entity.player.levelup"
         message: "%prefix% &7Miner mission Completed!\n&9&l* &7+3 Island Experience\n\
           &9&l* &7+5 Island Crystals\n&9&l* &7+1000 Money\n&7/is rewards to redeem\
           \ rewards"
@@ -244,7 +244,7 @@ missions:
     missionData:
       1:
         item:
-          material: "Fishing Rod"
+          material: "FISHING_ROD"
           amount: 1
           displayName: "&9&lFisherman"
           skullData: null
@@ -269,10 +269,10 @@ missions:
         missions:
         - "FISH:ANY:10"
         minLevel: 1
-        completeSound: "ENTITY_PLAYER_LEVELUP"
+        completeSound: "entity.player.levelup"
         reward:
           item:
-            material: "Diamond"
+            material: "DIAMOND"
             amount: 1
             displayName: "&9&lFisherman Reward"
             skullData: null
@@ -291,7 +291,7 @@ missions:
             Crystals: 5.0
           experience: 0
           teamExperience: 10
-          sound: "ENTITY_PLAYER_LEVELUP"
+          sound: "entity.player.levelup"
         message: "%prefix% &7Fisherman mission Completed!\n&9&l* &7+3 Island Experience\n\
           &9&l* &7+5 Island Crystals\n&9&l* &7+1000 Money\n&7/is rewards to redeem\
           \ rewards"
@@ -301,7 +301,7 @@ missions:
     missionData:
       1:
         item:
-          material: "Iron Ingot"
+          material: "IRON_INGOT"
           amount: 1
           displayName: "&9&lBlacksmith"
           skullData: null
@@ -328,10 +328,10 @@ missions:
         - "SMELT:RAW_IRON:30"
         - "SMELT:RAW_GOLD:15"
         minLevel: 1
-        completeSound: "ENTITY_PLAYER_LEVELUP"
+        completeSound: "entity.player.levelup"
         reward:
           item:
-            material: "Diamond"
+            material: "DIAMOND"
             amount: 1
             displayName: "&9&lBlacksmith Reward"
             skullData: null
@@ -350,7 +350,7 @@ missions:
             Crystals: 5.0
           experience: 0
           teamExperience: 10
-          sound: "ENTITY_PLAYER_LEVELUP"
+          sound: "entity.player.levelup"
         message: "%prefix% &7Blacksmith mission Completed!\n&9&l* &7+3 Island Experience\n\
           &9&l* &7+5 Island Crystals\n&9&l* &7+1000 Money\n&7/is rewards to redeem\
           \ rewards"
@@ -360,7 +360,7 @@ missions:
     missionData:
       1:
         item:
-          material: "Potion"
+          material: "POTION"
           amount: 1
           displayName: "&9&lPotion Brewer"
           skullData: null
@@ -387,10 +387,10 @@ missions:
         - "BREW:SPEED:2:3"
         - "BREW:STRENGTH:2:3"
         minLevel: 1
-        completeSound: "ENTITY_PLAYER_LEVELUP"
+        completeSound: "entity.player.levelup"
         reward:
           item:
-            material: "Diamond"
+            material: "DIAMOND"
             amount: 1
             displayName: "&9&lPotionBrewer Reward"
             skullData: null
@@ -409,7 +409,7 @@ missions:
             Crystals: 5.0
           experience: 0
           teamExperience: 10
-          sound: "ENTITY_PLAYER_LEVELUP"
+          sound: "entity.player.levelup"
         message: "%prefix% &7Potion Brewer mission Completed!\n&9&l* &7+3 Island Experience\n\
           &9&l* &7+5 Island Crystals\n&9&l* &7+1000 Money\n&7/is rewards to redeem\
           \ rewards"
@@ -419,7 +419,7 @@ missions:
     missionData:
       1:
         item:
-          material: "Oak Log"
+          material: "OAK_LOG"
           amount: 1
           displayName: "&9&lMine 10 Logs"
           skullData: null
@@ -441,10 +441,10 @@ missions:
         missions:
         - "MINE:LOGS:10"
         minLevel: 1
-        completeSound: "ENTITY_PLAYER_LEVELUP"
+        completeSound: "entity.player.levelup"
         reward:
           item:
-            material: "Diamond"
+            material: "DIAMOND"
             amount: 1
             displayName: "&9&lPotionBrewer Reward"
             skullData: null
@@ -463,13 +463,13 @@ missions:
             Crystals: 5.0
           experience: 0
           teamExperience: 10
-          sound: "ENTITY_PLAYER_LEVELUP"
+          sound: "entity.player.levelup"
         message: "%prefix% &7Mission Completed!\n&9&l* &7+3 Island Experience\n&9&l*\
           \ &7+5 Island Crystals\n&9&l* &7+1000 Money\n&7/is rewards to redeem rewards"
         missionDependencies: []
       2:
         item:
-          material: "Oak Log"
+          material: "OAK_LOG"
           amount: 1
           displayName: "&9&lMine 100 Logs"
           skullData: null
@@ -491,10 +491,10 @@ missions:
         missions:
         - "MINE:LOGS:100"
         minLevel: 1
-        completeSound: "ENTITY_PLAYER_LEVELUP"
+        completeSound: "entity.player.levelup"
         reward:
           item:
-            material: "Diamond"
+            material: "DIAMOND"
             amount: 1
             displayName: "&9&lPotionBrewer Reward"
             skullData: null
@@ -513,13 +513,13 @@ missions:
             Crystals: 5.0
           experience: 0
           teamExperience: 10
-          sound: "ENTITY_PLAYER_LEVELUP"
+          sound: "entity.player.levelup"
         message: "%prefix% &7Mission Completed!\n&9&l* &7+3 Island Experience\n&9&l*\
           \ &7+5 Island Crystals\n&9&l* &7+1000 Money\n&7/is rewards to redeem rewards"
         missionDependencies: []
       3:
         item:
-          material: "Oak Log"
+          material: "OAK_LOG"
           amount: 1
           displayName: "&9&lMine 1000 Logs"
           skullData: null
@@ -541,10 +541,10 @@ missions:
         missions:
         - "MINE:LOGS:1000"
         minLevel: 1
-        completeSound: "ENTITY_PLAYER_LEVELUP"
+        completeSound: "entity.player.levelup"
         reward:
           item:
-            material: "Diamond"
+            material: "DIAMOND"
             amount: 1
             displayName: "&9&lPotionBrewer Reward"
             skullData: null
@@ -563,7 +563,7 @@ missions:
             Crystals: 5.0
           experience: 0
           teamExperience: 10
-          sound: "ENTITY_PLAYER_LEVELUP"
+          sound: "entity.player.levelup"
         message: "%prefix% &7Mission Completed!\n&9&l* &7+3 Island Experience\n&9&l*\
           \ &7+5 Island Crystals\n&9&l* &7+1000 Money\n&7/is rewards to redeem rewards"
         missionDependencies: []
