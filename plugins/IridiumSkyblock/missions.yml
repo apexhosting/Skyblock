@@ -49,6 +49,7 @@ missions:
           experience: 0
           sound: "ENTITY_PLAYER_LEVELUP"
         message: "%prefix% &7Farmer mission Completed!\n&b&l* &7+3 Island Experience\n&b&l* &7+5 Island Crystals\n&b&l* &7+1000 Money\n&7/is rewards to redeem rewards"
+        missionDependencies: []
     missionType: "DAILY"
   hunter:
     missionData:
@@ -99,6 +100,7 @@ missions:
           experience: 0
           sound: "ENTITY_PLAYER_LEVELUP"
         message: "%prefix% &7Hunter mission Completed!\n&b&l* &7+3 Island Experience\n&b&l* &7+5 Island Crystals\n&b&l* &7+1000 Money\n&7/is rewards to redeem rewards"
+        missionDependencies: []
     missionType: "DAILY"
   baker:
     missionData:
@@ -145,6 +147,7 @@ missions:
           experience: 0
           sound: "ENTITY_PLAYER_LEVELUP"
         message: "%prefix% &7Baker mission Completed!\n&b&l* &7+3 Island Experience\n&b&l* &7+5 Island Crystals\n&b&l* &7+1000 Money\n&7/is rewards to redeem rewards"
+        missionDependencies: []
     missionType: "DAILY"
   miner:
     missionData:
@@ -195,6 +198,7 @@ missions:
           experience: 0
           sound: "ENTITY_PLAYER_LEVELUP"
         message: "%prefix% &7Miner mission Completed!\n&b&l* &7+3 Island Experience\n&b&l* &7+5 Island Crystals\n&b&l* &7+1000 Money\n&7/is rewards to redeem rewards"
+        missionDependencies: []
     missionType: "DAILY"
   fisherman:
     missionData:
@@ -241,6 +245,7 @@ missions:
           experience: 0
           sound: "ENTITY_PLAYER_LEVELUP"
         message: "%prefix% &7Fisherman mission Completed!\n&b&l* &7+3 Island Experience\n&b&l* &7+5 Island Crystals\n&b&l* &7+1000 Money\n&7/is rewards to redeem rewards"
+        missionDependencies: []
     missionType: "DAILY"
   blacksmith:
     missionData:
@@ -289,6 +294,7 @@ missions:
           experience: 0
           sound: "ENTITY_PLAYER_LEVELUP"
         message: "%prefix% &7Blacksmith mission Completed!\n&b&l* &7+3 Island Experience\n&b&l* &7+5 Island Crystals\n&b&l* &7+1000 Money\n&7/is rewards to redeem rewards"
+        missionDependencies: []
     missionType: "DAILY"
   potionbrewer:
     missionData:
@@ -337,6 +343,7 @@ missions:
           experience: 0
           sound: "ENTITY_PLAYER_LEVELUP"
         message: "%prefix% &7Potion Brewer mission Completed!\n&b&l* &7+3 Island Experience\n&b&l* &7+5 Island Crystals\n&b&l* &7+1000 Money\n&7/is rewards to redeem rewards"
+        missionDependencies: []
     missionType: "DAILY"
   lumberjack:
     missionData:
@@ -383,6 +390,7 @@ missions:
           experience: 0
           sound: "ENTITY_PLAYER_LEVELUP"
         message: "%prefix% &7Lumberjack mission Completed!\n&b&l* &7+3 Island Experience\n&b&l* &7+5 Island Crystals\n&b&l* &7+1000 Money\n&7/is rewards to redeem rewards"
+        missionDependencies: []
     missionType: "ONCE"
   crafting:
     missionData:
@@ -433,6 +441,7 @@ missions:
           experience: 0
           sound: "ENTITY_PLAYER_LEVELUP"
         message: "%prefix% &7Crafting Completed!\n&b&l* &7+3 Island Experience\n&b&l* &7+5 Island Crystals\n&b&l* &7+1000 Money\n&7/is rewards to redeem rewards"
+        missionDependencies: []
     missionType: "ONCE"
   mining:
     missionData:
@@ -479,6 +488,7 @@ missions:
           experience: 0
           sound: "ENTITY_PLAYER_LEVELUP"
         message: "%prefix% &7Mining Completed!\n&b&l* &7+3 Island Experience\n&b&l* &7+5 Island Crystals\n&b&l* &7+1000 Money\n&7/is rewards to redeem rewards"
+        missionDependencies: []
     missionType: "ONCE"
   killMobs:
     missionData:
@@ -529,6 +539,7 @@ missions:
           experience: 0
           sound: "ENTITY_PLAYER_LEVELUP"
         message: "%prefix% &7Hunter mission Completed!\n&b&l* &7+3 Island Experience\n&b&l* &7+5 Island Crystals\n&b&l* &7+1000 Money\n&7/is rewards to redeem rewards"
+        missionDependencies: []
     missionType: "ONCE"
   wheat:
     missionData:
@@ -575,6 +586,7 @@ missions:
           experience: 0
           sound: "ENTITY_PLAYER_LEVELUP"
         message: "%prefix% &7Wheat Farmer mission Completed!\n&b&l* &7+3 Island Experience\n&b&l* &7+5 Island Crystals\n&b&l* &7+1000 Money\n&7/is rewards to redeem rewards"
+        missionDependencies: []
     missionType: "ONCE"
   carrots:
     missionData:
@@ -621,6 +633,7 @@ missions:
           experience: 0
           sound: "ENTITY_PLAYER_LEVELUP"
         message: "%prefix% &7Carrot Farmer mission Completed!\n&b&l* &7+3 Island Experience\n&b&l* &7+5 Island Crystals\n&b&l* &7+1000 Money\n&7/is rewards to redeem rewards"
+        missionDependencies: []
     missionType: "ONCE"
   melon:
     missionData:
@@ -667,6 +680,7 @@ missions:
           experience: 0
           sound: "ENTITY_PLAYER_LEVELUP"
         message: "%prefix% &7Melon Farmer mission Completed!\n&b&l* &7+3 Island Experience\n&b&l* &7+5 Island Crystals\n&b&l* &7+1000 Money\n&7/is rewards to redeem rewards"
+        missionDependencies: []
     missionType: "ONCE"
   sugarcane:
     missionData:
@@ -713,6 +727,7 @@ missions:
           experience: 0
           sound: "ENTITY_PLAYER_LEVELUP"
         message: "%prefix% &7Sugar Cane Farmer mission Completed!\n&b&l* &7+3 Island Experience\n&b&l* &7+5 Island Crystals\n&b&l* &7+1000 Money\n&7/is rewards to redeem rewards"
+        missionDependencies: []
     missionType: "ONCE"
   cactus:
     missionData:
@@ -759,6 +774,7 @@ missions:
           experience: 0
           sound: "ENTITY_PLAYER_LEVELUP"
         message: "%prefix% &7Cactus Farmer mission Completed!\n&b&l* &7+3 Island Experience\n&b&l* &7+5 Island Crystals\n&b&l* &7+1000 Money\n&7/is rewards to redeem rewards"
+        missionDependencies: []
     missionType: "ONCE"
   iron:
     missionData:
@@ -807,6 +823,7 @@ missions:
           experience: 0
           sound: "ENTITY_PLAYER_LEVELUP"
         message: "%prefix% &7Mining and smelting Iron Completed!\n&b&l* &7+3 Island Experience\n&b&l* &7+5 Island Crystals\n&b&l* &7+1000 Money\n&7/is rewards to redeem rewards"
+        missionDependencies: []
     missionType: "ONCE"
   diamonds:
     missionData:
@@ -853,6 +870,7 @@ missions:
           experience: 0
           sound: "ENTITY_PLAYER_LEVELUP"
         message: "%prefix% &7Mining Diamonds Completed!\n&b&l* &7+3 Island Experience\n&b&l* &7+5 Island Crystals\n&b&l* &7+1000 Money\n&7/is rewards to redeem rewards"
+        missionDependencies: []
     missionType: "ONCE"
 dailySlots:
   - 10
